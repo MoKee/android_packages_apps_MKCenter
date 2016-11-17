@@ -30,13 +30,14 @@ import android.os.UserHandle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.SeekBar;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.TextView;
+
+import cn.waps.AppConnect;
 
 import mokee.support.widget.snackbar.Snackbar;
 import mokee.support.widget.snackbar.SnackbarManager;
@@ -52,10 +53,6 @@ import com.mokee.center.utils.Utils;
 
 public class MoKeeCenter extends FragmentActivity {
 
-    public static final String ACTION_MOKEE_CENTER = "com.mokee.mkupdater.action.MOKEE_CENTER";
-    private static final String ACTION_PAYMENT_REQUEST = "com.mokee.pay.action.PAYMENT_REQUEST";
-    private static final String ACTION_RESTORE_REQUEST = "com.mokee.pay.action.RESTORE_REQUEST";
-    private static final String ACTION_POINT_REQUEST = "com.mokee.pay.action.POINT_REQUEST";
     public static final String BR_ONNewIntent = "onNewIntent";
 
     private ActionBar bar;
@@ -75,18 +72,14 @@ public class MoKeeCenter extends FragmentActivity {
         mTabsAdapter = new TabsAdapter(this, mViewPager);
         mTabsAdapter.addTab(bar.newTab().setText(R.string.mokee_updater_title), MoKeeUpdaterFragment.class, null);
         mTabsAdapter.addTab(bar.newTab().setText(R.string.mokee_support_title), MoKeeSupportFragment.class, null);
+
+        AppConnect.getInstance("179a03b58d0dc099e7770f1f5e1f8887", "default", this);
+        if (!Utils.checkLicensed(this) && MoKeeUtils.isSupportLanguage(false)) {
+            AppConnect.getInstance(this).initPopAd(this);
+        }
+
         // Turn on the Options Menu
         invalidateOptionsMenu();
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(final MenuItem item) {
-        switch (item.getItemId()) {
-            case android.R.id.home:
-                onBackPressed();
-                break;
-        }
-        return super.onOptionsItemSelected(item);
     }
 
     @Override
@@ -148,16 +141,16 @@ public class MoKeeCenter extends FragmentActivity {
                 String price = isDonate ? String.valueOf(which == DialogInterface.BUTTON_POSITIVE ? Float.valueOf(mSeekBar.getProgress() + Constants.DONATION_REQUEST_MIN) / 6 : String.valueOf(mSeekBar.getProgress() + Constants.DONATION_REQUEST_MIN)) : String.valueOf(which == DialogInterface.BUTTON_POSITIVE ? unPaid / 6 : unPaid);
                 switch (which) {
                     case DialogInterface.BUTTON_POSITIVE:
-                        sendPaymentRequest(mContext, "paypal", mContext.getString(isDonate ? R.string.donate_money_name : R.string.remove_ads_name), mContext.getString(isDonate ? R.string.donate_money_description : R.string.remove_ads_description), price);
+                        Utils.sendPaymentRequest(mContext, "paypal", mContext.getString(isDonate ? R.string.donate_money_name : R.string.remove_ads_name), mContext.getString(isDonate ? R.string.donate_money_description : R.string.remove_ads_description), price);
                         break;
                     case DialogInterface.BUTTON_NEGATIVE:
-                        sendPaymentRequest(mContext, "alipay", mContext.getString(isDonate ? R.string.donate_money_name : R.string.remove_ads_name), mContext.getString(isDonate ? R.string.donate_money_description : R.string.remove_ads_description), price);
+                        Utils.sendPaymentRequest(mContext, "alipay", mContext.getString(isDonate ? R.string.donate_money_name : R.string.remove_ads_name), mContext.getString(isDonate ? R.string.donate_money_description : R.string.remove_ads_description), price);
                         break;
                     case DialogInterface.BUTTON_NEUTRAL:
                         if (isDonate && MoKeeUtils.isSupportLanguage(false)) {
-                            pointPaymentRequest(mContext);
+                            Utils.pointPaymentRequest(mContext);
                         } else {
-                            restorePaymentRequest(mContext);
+                            Utils.restorePaymentRequest(mContext);
                         }
                         break;
                 }
@@ -178,27 +171,6 @@ public class MoKeeCenter extends FragmentActivity {
             }
         }
         builder.show();
-    }
-
-    private static void restorePaymentRequest(Activity mContext) {
-        Intent intent = new Intent(ACTION_RESTORE_REQUEST);
-        mContext.startActivityForResult(intent, 0);
-    }
-
-    private static void pointPaymentRequest(Activity mContext) {
-        Intent intent = new Intent(ACTION_POINT_REQUEST);
-        mContext.startActivityForResult(intent, 0);
-    }
-
-    private static void sendPaymentRequest (Activity mContext, String channel, String name, String description, String price) {
-        Intent intent = new Intent(ACTION_PAYMENT_REQUEST);
-        intent.putExtra("packagename", mContext.getPackageName());
-        intent.putExtra("channel", channel);
-        intent.putExtra("type", "donation");
-        intent.putExtra("name", name);
-        intent.putExtra("description", description);
-        intent.putExtra("price", price);
-        mContext.startActivityForResult(intent, 0);
     }
 
     @Override

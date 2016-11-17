@@ -137,7 +137,7 @@ public class UpdateCheckService extends IntentService
         if (realUpdateCount != 0 && !app.isMainActivityActive()) {
             // There are updates available
             // The notification should launch the main app
-            Intent i = new Intent(MoKeeCenter.ACTION_MOKEE_CENTER);
+            Intent i = new Intent(Constants.ACTION_MOKEE_CENTER);
             i.putExtra(updateListUpdatedPref, true);
             PendingIntent contentIntent = PendingIntent.getActivity(this, 0, i,
                     PendingIntent.FLAG_ONE_SHOT);
@@ -247,7 +247,6 @@ public class UpdateCheckService extends IntentService
      * 
      * @param jsonString
      * @param updateType
-     * @param isOTA
      * @return
      */
     private LinkedList<ItemInfo> parseUpdatesJSONObject(String jsonString, int updateType) {

@@ -24,6 +24,7 @@
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.VIBRATE"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
     <uses-permission android:name="android.permission.WAKE_LOCK"/>
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
     <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
@@ -32,6 +33,7 @@
     <uses-permission android:name="android.permission.RECOVERY"/>
     <uses-permission android:name="android.permission.ACCESS_CACHE_FILESYSTEM"/>
     <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+    <uses-permission android:name="android.permission.REAL_GET_TASKS"/>
 
     <application
         android:name="com.mokee.center.MKCenterApplication"
@@ -42,6 +44,18 @@
         android:supportsRtl="true" >
 
         <uses-library android:name="org.apache.http.legacy" />
+
+        <activity android:name=".activities.MoKeeCenter"
+            android:launchMode="singleTop"
+            android:hardwareAccelerated="true"
+            android:label="@string/mokee_center_title" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="com.mokee.mkupdater.action.MOKEE_CENTER" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
 
         <service android:name=".service.DownLoadService" />
 

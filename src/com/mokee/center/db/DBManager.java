@@ -32,9 +32,9 @@ public class DBManager extends SQLiteOpenHelper {
     @Override
     public void onCreate(SQLiteDatabase db) {
         db.execSQL("CREATE TABLE IF NOT EXISTS thread_info(_id integer PRIMARY KEY AUTOINCREMENT, thread_id integer, "
-                + "start_pos long, end_pos long, down_size long,url text)");
+                + "start_pos long, end_pos long, down_size long, url text)");
         db.execSQL("CREATE TABLE IF NOT EXISTS download_info(_id integer PRIMARY KEY AUTOINCREMENT, down_id integer, "
-                + "url text,local_file text,file_name text,file_size long,state integer)");
+                + "url text, local_file text, file_name text, file_size long, state integer)");
     }
 
     @Override

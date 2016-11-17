@@ -23,14 +23,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.UserHandle;
 
-import com.mokee.center.activities.MoKeeCenter;
+import com.mokee.center.misc.Constants;
 
 public class NotificationClickReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
         // Bring the main app to the foreground
         Bundle extras = intent.getExtras();
-        Intent i = new Intent(MoKeeCenter.ACTION_MOKEE_CENTER);
+        Intent i = new Intent(Constants.ACTION_MOKEE_CENTER);
         i.putExtras(extras);
         i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_SINGLE_TOP
                 | Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS);

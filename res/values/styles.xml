@@ -26,9 +26,7 @@
         <item name="android:actionBarStyle">@style/Theme.ActionBar.SubSettings</item>
     </style>
 
-    <style name="Theme.ActionBar.SubSettings" parent="@android:style/Widget.Material.Light.ActionBar.Solid">
-        <item name="android:contentInsetStart">@dimen/actionbar_subsettings_contentInsetStart</item>
-    </style>
+    <style name="Theme.ActionBar.SubSettings" parent="@android:style/Widget.Material.Light.ActionBar.Solid" />
 
     <style name="ActivityTransparent" parent="android:Theme">
         <item name="android:windowIsTranslucent">true</item>

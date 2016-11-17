@@ -26,7 +26,6 @@ import android.os.UserHandle;
 import android.util.Log;
 
 import com.mokee.center.misc.Constants;
-import com.mokee.center.service.DownLoadService;
 import com.mokee.center.service.UpdateCheckService;
 import com.mokee.center.utils.Utils;
 

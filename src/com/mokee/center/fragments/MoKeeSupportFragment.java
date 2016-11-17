@@ -61,11 +61,10 @@ public class MoKeeSupportFragment extends PreferenceFragment implements OnPrefer
     private static final String URL_MOKEE_TRANSLATE = "http://translate.mokeedev.com";
     private static final String URL_MOKEE_GITHUB = "https://github.com/MoKee";
     private static final String URL_MOKEE_WIKI = "http://wiki.mokeedev.com";
-    public static final String URL_MOKEE_DONATE = "http://www.mokeedev.com/donate/";
 
     private Activity mContext;
     private SharedPreferences prefs;
-    private SwitchPreference mMoKeeNewsPreferences;
+    private SwitchPreference mPushNewsPreferences;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -74,14 +73,14 @@ public class MoKeeSupportFragment extends PreferenceFragment implements OnPrefer
         addPreferencesFromResource(R.xml.mokee_support);
         setHasOptionsMenu(true);
         prefs = getActivity().getSharedPreferences(MKPUSH_PREF, 0);
-        mMoKeeNewsPreferences = (SwitchPreference) findPreference(KEY_MOKEE_NEWS);
-        mMoKeeNewsPreferences.setOnPreferenceChangeListener(this);
-        mMoKeeNewsPreferences.setChecked(prefs.getBoolean(PREF_NEWS, true));
+        mPushNewsPreferences = (SwitchPreference) findPreference(KEY_MOKEE_NEWS);
+        mPushNewsPreferences.setOnPreferenceChangeListener(this);
+        mPushNewsPreferences.setChecked(prefs.getBoolean(PREF_NEWS, true));
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        if (preference == mMoKeeNewsPreferences) {
+        if (preference == mPushNewsPreferences) {
             boolean value = (Boolean) newValue;
             prefs.edit().putBoolean(PREF_NEWS, value).apply();
             return true;

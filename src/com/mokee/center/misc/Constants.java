@@ -24,6 +24,12 @@ import com.mokee.center.utils.Utils;
 
 public class Constants {
 
+    // Actions
+    public static final String ACTION_MOKEE_CENTER = "com.mokee.mkupdater.action.MOKEE_CENTER";
+    public static final String ACTION_PAYMENT_REQUEST = "com.mokee.pay.action.PAYMENT_REQUEST";
+    public static final String ACTION_RESTORE_REQUEST = "com.mokee.pay.action.RESTORE_REQUEST";
+    public static final String ACTION_POINT_REQUEST = "com.mokee.pay.action.POINT_REQUEST";
+
     // Download related
     public static final String UPDATES_FOLDER = "mkupdater";
     public static final String EXTRAS_FOLDER = "mkextras";
@@ -35,9 +41,7 @@ public class Constants {
     public static final String UPDATE_INTERVAL_PREF = "pref_update_interval";
     public static final String UPDATE_TYPE_PREF = "pref_update_types";
     public static final String OTA_CHECK_PREF = "pref_ota_check";
-    public static final String EXPANG_LIST_PREF = "extras_category";
     public static final String LAST_UPDATE_CHECK_PREF = "pref_last_update_check";
-    public static final String LAST_EXTRAS_CHECK_PREF = "pref_last_extras_check";
 
     // Update Check items
     public static final String BOOT_CHECK_COMPLETED = "boot_check_completed";
@@ -56,13 +60,13 @@ public class Constants {
 
     public static final String OTA_CHECK_MANUAL_PREF = "pref_ota_check_manual";
 
-    // intentFlag
+    // Intent Flag
     public static final int INTENT_FLAG_GET_UPDATE = 1024;
 
     // About License
     public static final String LICENSE_FILE = Environment.getExternalStorageDirectory().getAbsolutePath() + "/mokee.license";
-//    public static final long DONATION_LIMIT_TIME = 1462032000000L;
-//    public static final long DONATION_LAST_TIME = Utils.getPaidDate(MoKeeApplication.getContext());
+
+    // Donation amount
     public static final int DONATION_TOTAL = 68;
     public static final int DONATION_REQUEST = 30;
     public static final int DONATION_REQUEST_MIN = Utils.getPaidTotal(MKCenterApplication.getContext()) > 0 ? 10 : DONATION_REQUEST;

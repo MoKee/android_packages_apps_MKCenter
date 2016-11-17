@@ -23,6 +23,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Locale;
 
+import android.app.Activity;
 import android.app.AlarmManager;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -226,27 +227,6 @@ public class Utils {
         }
     }
 
-    public static boolean checkGmsVersion(String version) {
-        String line = null;
-        BufferedReader reader = null;
-        try {
-            reader = new BufferedReader(new FileReader("/system/etc/gprop.mokee"), 512);
-            line = reader.readLine();
-
-            return (!line.equals(version));
-        } catch (IOException e) {
-            return true;
-        } finally {
-            try {
-                if (reader != null) {
-                    reader.close();
-                }
-            } catch (IOException e) {
-                // ignored, not much we can do anyway
-            }
-        }
-    }
-
     /**
      * 文件目录清理
      */
@@ -294,21 +274,25 @@ public class Utils {
         return 0f;
     }
 
-    public static long getPaidDate(Context mContext) {
-        if (new File(Constants.LICENSE_FILE).exists()) {
-            try {
-                String licenseInfo[] = License.readLincense(Constants.LICENSE_FILE, Constants.PUB_KEY).split(" ");
-                if (licenseInfo[0].equals(Build.getUniqueID(mContext)) && licenseInfo[1].equals(mContext.getPackageName())
-                        || licenseInfo[0].equals(Build.getUniqueID(mContext, 0)) && licenseInfo[1].equals(mContext.getPackageName())) {
-                    return Long.valueOf(licenseInfo[licenseInfo.length - 2]);
-                }
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-        } else {
-            return System.currentTimeMillis();
-        }
-        return System.currentTimeMillis();
+    public static void restorePaymentRequest(Activity mContext) {
+        Intent intent = new Intent(Constants.ACTION_RESTORE_REQUEST);
+        mContext.startActivityForResult(intent, 0);
+    }
+
+    public static void pointPaymentRequest(Activity mContext) {
+        Intent intent = new Intent(Constants.ACTION_POINT_REQUEST);
+        mContext.startActivityForResult(intent, 0);
+    }
+
+    public static void sendPaymentRequest (Activity mContext, String channel, String name, String description, String price) {
+        Intent intent = new Intent(Constants.ACTION_PAYMENT_REQUEST);
+        intent.putExtra("packagename", mContext.getPackageName());
+        intent.putExtra("channel", channel);
+        intent.putExtra("type", "donation");
+        intent.putExtra("name", name);
+        intent.putExtra("description", description);
+        intent.putExtra("price", price);
+        mContext.startActivityForResult(intent, 0);
     }
 
     public static boolean checkLicensed(Context mContext) {
