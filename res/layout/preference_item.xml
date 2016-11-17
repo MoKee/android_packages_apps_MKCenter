@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2014-2016 The MoKee Open Source Project
+
+     This program is free software: you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+     the Free Software Foundation, either version 3 of the License, or
+     (at your option) any later version.
+
+     This program is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License
+     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:gravity="center_vertical" >
+
+    <LinearLayout
+        android:id="@+id/updates_pref"
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="?android:attr/selectableItemBackground"
+        android:baselineAligned="false"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center_vertical"
+        android:paddingStart="?android:attr/listPreferredItemPaddingStart" >
+
+        <RelativeLayout
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="6dip"
+            android:layout_marginTop="6dip"
+            android:layout_marginBottom="6dip"
+            android:layout_weight="1" >
+
+            <TextView
+                android:id="@+android:id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="marquee"
+                android:maxLines="3"
+                android:textAppearance="?android:attr/textAppearanceListItem"
+                android:fadingEdge="horizontal"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/file_size" />
+
+            <ProgressBar
+                android:id="@+id/download_progress_bar"
+                android:layout_below="@android:id/title"
+                android:layout_alignStart="@android:id/title"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:paddingBottom="3dip"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@android:id/summary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/download_progress_bar"
+                android:layout_alignStart="@android:id/title"
+                android:paddingBottom="3dip"
+                android:visibility="gone"
+                android:textAppearance="?android:attr/textAppearanceListItemSecondary"
+                android:textColor="?android:attr/textColorSecondary"
+                android:focusable="false"
+                android:maxLines="4" />
+
+            <FrameLayout 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@android:id/summary">
+	            <TextView
+	                android:id="@+id/file_size"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:paddingBottom="3dip"
+	                android:textAppearance="?android:attr/textAppearanceListItemSecondary"
+	                android:textColor="?android:attr/textColorSecondary"
+	                android:focusable="false" />
+            </FrameLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="2dip"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dip"
+        android:layout_marginBottom="5dip"
+        android:background="@android:drawable/divider_horizontal_dark" />
+
+    <ImageView
+        android:id="@+id/updates_button"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_tab_download"
+        android:layout_gravity="center"
+        android:clickable="true"
+        android:focusable="true"
+        android:background="?android:attr/selectableItemBackground"
+        android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+        android:paddingEnd="?android:attr/listPreferredItemPaddingEnd" />
+
+</LinearLayout>

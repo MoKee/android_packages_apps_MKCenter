@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2014-2016 The MoKee Open Source Project
+
+     This program is free software: you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+     the Free Software Foundation, either version 3 of the License, or
+     (at your option) any later version.
+
+     This program is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License
+     along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.mokee.center" >
+
+    <uses-sdk android:minSdkVersion="25" />
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.REBOOT"/>
+    <uses-permission android:name="android.permission.RECOVERY"/>
+    <uses-permission android:name="android.permission.ACCESS_CACHE_FILESYSTEM"/>
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
+
+    <application
+        android:name="com.mokee.center.MKCenterApplication"
+        android:theme="@style/Theme.Settings"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_mokee_helper"
+        android:label="@string/mokee_center_title"
+        android:supportsRtl="true" >
+
+        <uses-library android:name="org.apache.http.legacy" />
+
+        <service android:name=".service.DownLoadService" />
+
+        <service android:name=".service.UpdateCheckService" />
+
+        <service android:name=".service.DownloadCompleteIntentService" />
+
+        <receiver android:name=".receiver.UpdateCheckReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="com.mokee.mkupdater.action.UPDATE_CHECK" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".receiver.DownloadReceiver" >
+            <intent-filter>
+                <action android:name="com.mokee.mkupdater.action.DOWNLOAD_COMPLETED" />
+                <action android:name="com.mokee.mkupdater.action.DOWNLOAD_START" />
+                <action android:name="android.intent.action.ACTION_SHUTDOWN" />
+            </intent-filter>
+        </receiver>
+
+        <receiver android:name=".receiver.NotificationClickReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED" />
+                <action android:name="com.mokee.mkupdater.action.NOTIFICATION_CLICKED" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Google AdMob START -->
+        <activity android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:theme="@android:style/Theme.Translucent" />
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <!-- Google AdMob END -->
+
+    </application>
+
+</manifest>

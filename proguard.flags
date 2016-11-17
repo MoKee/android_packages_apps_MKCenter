@@ -1,0 +1,26 @@
+-dontwarn cn.waps.**
+-keep public class cn.waps.** { *;}
+-keep public interface cn.waps.** { *;}
+
+-dontwarn mokee.support.**
+-keep class mokee.support.** { *;}
+
+# Google play services
+# Keep SafeParcelable value, needed for reflection. This is required to support backwards
+# compatibility of some classes.
+-keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {
+    public static final *** NULL;
+}
+
+# Keep the names of classes/members we need for client functionality.
+-keepnames @com.google.android.gms.common.annotation.KeepName class *
+-keepclassmembernames class * {
+    @com.google.android.gms.common.annotation.KeepName *;
+}
+
+# Needed when building against the Marshmallow SDK
+-dontwarn com.google.android.gms.**
+
+-keep public class * extends android.support.v7.preference.* {
+    public <init>(android.content.Context, android.util.AttributeSet);
+}
