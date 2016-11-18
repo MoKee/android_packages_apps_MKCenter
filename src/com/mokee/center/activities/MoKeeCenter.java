@@ -26,7 +26,6 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.mokee.utils.MoKeeUtils;
 import android.os.Bundle;
-import android.os.UserHandle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
@@ -95,7 +94,7 @@ public class MoKeeCenter extends FragmentActivity {
         send.putExtra(UpdateCheckService.EXTRA_UPDATE_LIST_UPDATED, intent.getBooleanExtra(UpdateCheckService.EXTRA_UPDATE_LIST_UPDATED, false));
         send.putExtra(UpdateCheckService.EXTRA_FINISHED_DOWNLOAD_ID, intent.getLongExtra(UpdateCheckService.EXTRA_FINISHED_DOWNLOAD_ID, -1));
         send.putExtra(UpdateCheckService.EXTRA_FINISHED_DOWNLOAD_PATH, intent.getStringExtra(UpdateCheckService.EXTRA_FINISHED_DOWNLOAD_PATH));
-        sendBroadcastAsUser(send, UserHandle.CURRENT);
+        sendBroadcast(send);
     }
 
     public static void donateOrRemoveAdsButton(final Activity mContext, final boolean isDonate) {

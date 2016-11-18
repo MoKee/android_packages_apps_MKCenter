@@ -25,7 +25,6 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.os.UserHandle;
 import android.text.TextUtils;
 import android.util.Log;
 import android.widget.Toast;
@@ -123,7 +122,7 @@ public class DownloadReceiver extends BroadcastReceiver {
         }
         Intent intentBroadcast = new Intent(ACTION_DOWNLOAD_STARTED);
         intentBroadcast.putExtra(DownLoadService.DOWNLOAD_ID, downloadId);
-        context.sendBroadcastAsUser(intentBroadcast, UserHandle.CURRENT);
+        context.sendBroadcast(intentBroadcast);
 
         // Store in shared preferences
         prefs.edit().putLong(DownLoadService.DOWNLOAD_ID, downloadId)
@@ -136,7 +135,7 @@ public class DownloadReceiver extends BroadcastReceiver {
         intentService.putExtra(DownLoadService.DOWNLOAD_URL, ui.getDownloadUrl());
         intentService.putExtra(DownLoadService.DOWNLOAD_FILE_PATH, fullFilePath);
         intentService.putExtra(DownLoadService.DOWNLOAD_ID, downloadId);
-        context.startServiceAsUser(intentService, UserHandle.CURRENT);
+        context.startService(intentService);
         Utils.cancelNotification(context);
     }
 
