@@ -21,6 +21,7 @@ import java.io.File;
 
 import android.app.IntentService;
 import android.content.Intent;
+import android.os.UserHandle;
 
 import com.mokee.center.MKCenterApplication;
 import com.mokee.center.R;
@@ -99,7 +100,7 @@ public class DownloadCompleteIntentService extends IntentService {
     private void displaySuccessResult(Intent updateIntent, File updateFile) {
         MKCenterApplication app = (MKCenterApplication) getApplicationContext();
         if (app.isMainActivityActive()) {
-            sendBroadcast(updateIntent);
+            sendBroadcastAsUser(updateIntent, UserHandle.CURRENT);
         } else {
             DownloadNotifier.notifyDownloadComplete(this, updateIntent, updateFile);
         }

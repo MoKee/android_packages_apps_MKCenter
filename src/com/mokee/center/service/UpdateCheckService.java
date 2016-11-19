@@ -34,6 +34,7 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.mokee.utils.MoKeeUtils;
 import android.os.Parcelable;
+import android.os.UserHandle;
 import android.support.v4.app.NotificationCompat;
 import android.text.TextUtils;
 import android.util.Log;
@@ -115,7 +116,7 @@ public class UpdateCheckService extends IntentService
         lastUpdateCheckPref = Constants.LAST_UPDATE_CHECK_PREF;
         updateListUpdatedPref = EXTRA_UPDATE_LIST_UPDATED;
         if (availableUpdates == null) {
-            sendBroadcast(finishedIntent);
+            sendBroadcastAsUser(finishedIntent, UserHandle.CURRENT);
             return;
         }
 
@@ -216,7 +217,7 @@ public class UpdateCheckService extends IntentService
             NotificationManager nm = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
             nm.notify(R.string.not_new_updates_found_title, builder.build());
         }
-        sendBroadcast(finishedIntent);
+        sendBroadcastAsUser(finishedIntent, UserHandle.CURRENT);
     }
 
     /**

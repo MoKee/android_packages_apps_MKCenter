@@ -683,7 +683,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
             public void onCancel(DialogInterface dialog) {
                 Intent cancelIntent = new Intent(mContext, UpdateCheckService.class);
                 cancelIntent.setAction(UpdateCheckService.ACTION_CANCEL_CHECK);
-                mContext.startService(cancelIntent);
+                mContext.startServiceAsUser(cancelIntent, UserHandle.CURRENT);
                 mProgressDialog = null;
                 if (mPrefs.getBoolean(Constants.OTA_CHECK_PREF, false)) {
                     mPrefs.edit().putBoolean(Constants.OTA_CHECK_MANUAL_PREF, false).apply();
@@ -696,7 +696,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
         }
         Intent checkIntent = new Intent(mContext, UpdateCheckService.class);
         checkIntent.setAction(UpdateCheckService.ACTION_CHECK);
-        mContext.startService(checkIntent);
+        mContext.startServiceAsUser(checkIntent, UserHandle.CURRENT);
         mProgressDialog.show();
     }
 
@@ -841,7 +841,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
         Intent intent = new Intent(mContext, DownloadReceiver.class);
         intent.setAction(DownloadReceiver.ACTION_DOWNLOAD_START);
         intent.putExtra(DownloadReceiver.EXTRA_UPDATE_INFO, (Parcelable) ui);
-        mContext.sendBroadcast(intent);
+        mContext.sendBroadcastAsUser(intent, UserHandle.CURRENT);
     }
 
     @Override
@@ -887,7 +887,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
         intent.putExtra(DownLoadService.DOWNLOAD_TYPE, DownLoadService.PAUSE);
         intent.putExtra(DownLoadService.DOWNLOAD_URL, mPrefs.getString(DownLoadService.DOWNLOAD_URL, ""));
 
-        mContext.startService(intent);
+        mContext.startServiceAsUser(intent, UserHandle.CURRENT);
     }
 
     @Override

@@ -26,6 +26,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Handler;
 import android.os.Message;
+import android.os.UserHandle;
 import android.support.v4.app.NotificationCompat.Builder;
 import android.text.format.DateUtils;
 import android.util.SparseArray;
@@ -221,7 +222,7 @@ public class DownLoadService extends NonStopIntentService {
                         intent = new Intent();
                         intent.setAction(DownloadReceiver.ACTION_DOWNLOAD_COMPLETE);
                         intent.putExtra(DOWNLOAD_ID, Long.valueOf(dli.getDownID()));
-	                    sendBroadcast(intent);
+	                    sendBroadcastAsUser(intent, UserHandle.CURRENT);
                     }
                     di = null;
                     if (downloaders.size() == 0) {
@@ -241,7 +242,7 @@ public class DownLoadService extends NonStopIntentService {
                     intent = new Intent();
                     intent.setAction(DownloadReceiver.ACTION_DOWNLOAD_COMPLETE);
                     intent.putExtra(DOWNLOAD_ID, Long.valueOf(dli.getDownID()));
-                    sendBroadcast(intent);
+                    sendBroadcastAsUser(intent, UserHandle.CURRENT);
                     di = null;
                     if (downloaders.size() == 0) {
                         stopSelf();
