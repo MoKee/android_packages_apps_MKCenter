@@ -57,6 +57,7 @@ LOCAL_AAPT_FLAGS := --auto-add-overlay \
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 LOCAL_MODULE_TAGS := optional
 LOCAL_PRIVILEGED_MODULE := true
+LOCAL_CERTIFICATE := platform
 
 ifneq ($(INCREMENTAL_BUILDS),)
     LOCAL_PROGUARD_ENABLED := disabled
