@@ -21,6 +21,7 @@ import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.UserHandle;
 
 import com.mokee.center.misc.Constants;
 
@@ -33,6 +34,6 @@ public class NotificationClickReceiver extends BroadcastReceiver {
         i.putExtras(extras);
         i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_SINGLE_TOP
                 | Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS);
-        context.startActivity(i);
+        context.startActivityAsUser(i, UserHandle.CURRENT);
     }
 }
