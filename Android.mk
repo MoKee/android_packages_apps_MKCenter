@@ -55,7 +55,7 @@ LOCAL_AAPT_FLAGS := --auto-add-overlay \
     --extra-packages com.google.android.gms
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
-
+LOCAL_MODULE_TAGS := optional
 LOCAL_PRIVILEGED_MODULE := true
 
 ifneq ($(INCREMENTAL_BUILDS),)
