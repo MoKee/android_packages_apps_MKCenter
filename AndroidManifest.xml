@@ -41,7 +41,7 @@
         android:name="com.mokee.center.MKCenterApplication"
         android:theme="@style/Theme.Settings"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_mokee_helper"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/mokee_center_title"
         android:supportsRtl="true"
         android:defaultToDeviceProtectedStorage="false" >
