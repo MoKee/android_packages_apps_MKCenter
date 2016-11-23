@@ -46,6 +46,7 @@ import com.mokee.center.utils.DownLoader;
 import com.mokee.center.utils.UpdateFilter;
 import com.mokee.center.utils.Utils;
 import com.mokee.center.widget.AdmobPreference;
+import com.mokee.center.widget.AppofferPreference;
 import com.mokee.center.widget.EmptyListPreferenceStyle;
 import com.mokee.center.widget.ItemPreference;
 
@@ -126,6 +127,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
 
     private static SharedPreferences mPrefs;
     private AdmobPreference mAdmobView;
+    private AppofferPreference mAppofferView;
     private PreferenceScreen mRootView;
     private static SwitchPreference mUpdateOTA;
     private ListPreference mUpdateCheck;
@@ -194,9 +196,12 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
         mPrefs = mContext.getSharedPreferences(Constants.DOWNLOADER_PREF, 0);
 
         mRootView = (PreferenceScreen) findPreference(Constants.ROOT_PREF);
+        mAppofferView = (AppofferPreference) findPreference(Constants.APPOFFER_PREF);
         mAdmobView = (AdmobPreference) findPreference(Constants.ADMOB_PREF);
         if (!Utils.checkLicensed(mContext)) {
-            mAdmobView.onAdCreate();
+            if (!MoKeeUtils.isSupportLanguage(false)) {
+                mAdmobView.onAdCreate();
+            }
         }
         mUpdatesList = (PreferenceCategory) findPreference(UPDATES_CATEGORY);
         mUpdateCheck = (ListPreference) findPreference(Constants.UPDATE_INTERVAL_PREF);
@@ -334,6 +339,21 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
         mUpdateType.setValue(String.valueOf(type));
     }
 
+    private void removeAdmobPreference() {
+        if (mAdmobView != null) {
+            mAdmobView.onAdDestory();
+            mRootView.removePreference(mAdmobView);
+            mAdmobView = null;
+        }
+    }
+
+    private void removeAppofferPreference() {
+        if (mAppofferView != null) {
+            mRootView.removePreference(mAppofferView);
+            mAppofferView = null;
+        }
+    }
+
     @Override
     public void onResume() {
         super.onResume();
@@ -341,18 +361,23 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
                 TextUtils.equals(Utils.getReleaseVersionType(), "experimental")) ? -1 : TAPS_TO_BE_A_EXPERIMENTER;
         // Remove Ad
         if (Utils.checkLicensed(mContext)) {
-            if (mAdmobView != null) {
-                mAdmobView.onAdDestory();
-                mRootView.removePreference(mAdmobView);
-                mAdmobView = null;
-            }
+            removeAdmobPreference();
+            removeAppofferPreference();
         } else {
-            if (MoKeeUtils.isSupportLanguage(false) && AppConnect.getInstance(mContext).hasPopAd(mContext)) {
-                AppConnect.getInstance(mContext).setPopAdBack(true);
-                AppConnect.getInstance(mContext).showPopAd(mContext);
-            }
-            if (mAdmobView != null) {
-                mAdmobView.onAdResume();
+            if (MoKeeUtils.isSupportLanguage(false)) {
+                removeAdmobPreference();
+                if (mAppofferView != null) {
+                    mAppofferView.onAdResume(getActivity());
+                }
+                if (AppConnect.getInstance(mContext).hasPopAd(mContext)) {
+                    AppConnect.getInstance(mContext).setPopAdBack(true);
+                    AppConnect.getInstance(mContext).showPopAd(mContext);
+                }
+            } else {
+                removeAppofferPreference();
+                if (mAdmobView != null) {
+                    mAdmobView.onAdResume();
+                }
             }
         }
         setDonatePreference();
