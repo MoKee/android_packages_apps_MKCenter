@@ -25,7 +25,7 @@ import com.mokee.center.utils.Utils;
 public class Constants {
 
     // Actions
-    public static final String ACTION_MOKEE_CENTER = "com.mokee.mkupdater.action.MOKEE_CENTER";
+    public static final String ACTION_MOKEE_CENTER = "com.mokee.center.action.MOKEE_CENTER";
     public static final String ACTION_PAYMENT_REQUEST = "com.mokee.pay.action.PAYMENT_REQUEST";
     public static final String ACTION_RESTORE_REQUEST = "com.mokee.pay.action.RESTORE_REQUEST";
     public static final String ACTION_POINT_REQUEST = "com.mokee.pay.action.POINT_REQUEST";

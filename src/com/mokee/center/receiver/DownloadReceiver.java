@@ -43,13 +43,13 @@ import com.mokee.center.utils.Utils;
 public class DownloadReceiver extends BroadcastReceiver {
     private static final String TAG = "DownloadReceiver";
 
-    public static final String ACTION_DOWNLOAD_START = "com.mokee.mkupdater.action.DOWNLOAD_START";
-    public static final String ACTION_DOWNLOAD_COMPLETE = "com.mokee.mkupdater.action.DOWNLOAD_COMPLETED";
+    public static final String ACTION_DOWNLOAD_START = "com.mokee.center.action.DOWNLOAD_START";
+    public static final String ACTION_DOWNLOAD_COMPLETE = "com.mokee.center.action.DOWNLOAD_COMPLETED";
     public static final String EXTRA_UPDATE_INFO = "update_info";
-    public static final String ACTION_DOWNLOAD_STARTED = "com.mokee.mkupdater.action.DOWNLOAD_STARTED";
-    public static final String ACTION_NOTIFICATION_CLICKED = "com.mokee.mkupdater.action.NOTIFICATION_CLICKED";
+    public static final String ACTION_DOWNLOAD_STARTED = "com.mokee.center.action.DOWNLOAD_STARTED";
+    public static final String ACTION_NOTIFICATION_CLICKED = "com.mokee.center.action.NOTIFICATION_CLICKED";
 
-    public static final String ACTION_INSTALL_UPDATE = "com.mokee.mkupdater.action.INSTALL_UPDATE";
+    public static final String ACTION_INSTALL_UPDATE = "com.mokee.center.action.INSTALL_UPDATE";
     public static final String EXTRA_FILENAME = "filename";
 
     @Override

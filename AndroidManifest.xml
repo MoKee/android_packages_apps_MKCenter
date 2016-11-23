@@ -49,12 +49,11 @@
         <uses-library android:name="org.apache.http.legacy" />
 
         <activity android:name=".activities.MoKeeCenter"
-            android:launchMode="singleTop"
             android:hardwareAccelerated="true"
             android:label="@string/mokee_center_title" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <action android:name="com.mokee.mkupdater.action.MOKEE_CENTER" />
+                <action android:name="com.mokee.center.action.MOKEE_CENTER" />
                 <category android:name="android.intent.category.LAUNCHER" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -70,14 +69,14 @@
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-                <action android:name="com.mokee.mkupdater.action.UPDATE_CHECK" />
+                <action android:name="com.mokee.center.action.UPDATE_CHECK" />
             </intent-filter>
         </receiver>
 
         <receiver android:name=".receiver.DownloadReceiver" >
             <intent-filter>
-                <action android:name="com.mokee.mkupdater.action.DOWNLOAD_COMPLETED" />
-                <action android:name="com.mokee.mkupdater.action.DOWNLOAD_START" />
+                <action android:name="com.mokee.center.action.DOWNLOAD_COMPLETED" />
+                <action android:name="com.mokee.center.action.DOWNLOAD_START" />
                 <action android:name="android.intent.action.ACTION_SHUTDOWN" />
             </intent-filter>
         </receiver>
@@ -85,7 +84,7 @@
         <receiver android:name=".receiver.NotificationClickReceiver" >
             <intent-filter>
                 <action android:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED" />
-                <action android:name="com.mokee.mkupdater.action.NOTIFICATION_CLICKED" />
+                <action android:name="com.mokee.center.action.NOTIFICATION_CLICKED" />
             </intent-filter>
         </receiver>
 

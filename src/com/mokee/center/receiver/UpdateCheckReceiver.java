@@ -32,7 +32,7 @@ import com.mokee.center.utils.Utils;
 public class UpdateCheckReceiver extends BroadcastReceiver {
 
     private static final String TAG = "UpdateCheckReceiver";
-    public static final String ACTION_UPDATE_CHECK = "com.mokee.mkupdater.action.UPDATE_CHECK";
+    public static final String ACTION_UPDATE_CHECK = "com.mokee.center.action.UPDATE_CHECK";
 
     @Override
     public void onReceive(Context context, Intent intent) {
