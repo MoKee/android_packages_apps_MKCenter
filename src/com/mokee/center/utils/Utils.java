@@ -31,6 +31,7 @@ import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Environment;
+import android.os.RecoverySystem;
 import android.preference.PreferenceFragment;
 
 import com.mokee.center.R;
@@ -133,7 +134,7 @@ public class Utils {
         String updatePackagePath = primaryStorage + "/" + (isUpdate ? Constants.UPDATES_FOLDER : Constants.EXTRAS_FOLDER) + "/" + updateFileName;
 
         // Reboot into recovery and trigger the update
-        android.os.RecoverySystem.installPackage(context, new File(updatePackagePath));
+        RecoverySystem.installPackageLegacy(context, new File(updatePackagePath), false);
     }
 
     public static String getUserAgentString(Context context) {
