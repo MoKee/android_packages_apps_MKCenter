@@ -65,6 +65,8 @@
   <string name="menu_refresh">刷新</string>
   <string name="menu_delete_all">删除下载</string>
   <string name="menu_remove_ads">移除广告</string>
+  <string name="menu_restore">恢复授权</string>
+
   <!-- Donate -->
   <string name="donate_dialog_title">捐赠我们</string>
   <string name="donate_dialog_message">和Cyanogen等已接受投资的商业化公司不同，魔趣作为非营利性的开源项目，因爱好而生。我们需要自筹资金或是通过捐赠、广告等手段才能让这个项目长期存活。您的捐赠将减轻我们每月承担的经济压力，使我们能继续为大家提供更优秀的ROM！您的捐赠记录会保存在存储分区根目录的mokee.license文件中。（仅限当前设备使用）</string>

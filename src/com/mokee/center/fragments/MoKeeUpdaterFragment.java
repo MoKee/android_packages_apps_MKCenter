@@ -124,6 +124,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
     private static final int MENU_DELETE_ALL = 1;
     private static final int MENU_DONATE = 2;
     private static final int MENU_REMOVE_ADS = 3;
+    private static final int MENU_RESTORE = 4;
 
     private static SharedPreferences mPrefs;
     private AdmobPreference mAdmobView;
@@ -468,6 +469,8 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
                 .setIcon(R.drawable.ic_menu_refresh)
                 .setShowAsActionFlags(
                         MenuItem.SHOW_AS_ACTION_ALWAYS | MenuItem.SHOW_AS_ACTION_WITH_TEXT);
+        menu.add(0, MENU_RESTORE, 0, R.string.menu_restore).setShowAsActionFlags(
+                MenuItem.SHOW_AS_ACTION_COLLAPSE_ACTION_VIEW);
         menu.add(0, MENU_DELETE_ALL, 0, R.string.menu_delete_all).setShowAsActionFlags(
                 MenuItem.SHOW_AS_ACTION_COLLAPSE_ACTION_VIEW);
         super.onCreateOptionsMenu(menu, inflater);
@@ -487,6 +490,9 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
                 return true;
             case MENU_REMOVE_ADS:
                 MoKeeCenter.donateOrRemoveAdsButton(getActivity(), false);
+                return true;
+            case MENU_RESTORE:
+                Utils.restorePaymentRequest(mContext);
                 return true;
         }
         return true;
