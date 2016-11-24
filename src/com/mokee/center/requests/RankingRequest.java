@@ -17,6 +17,8 @@
 
 package com.mokee.center.requests;
 
+import android.text.TextUtils;
+
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
@@ -57,7 +59,12 @@ public class RankingRequest extends StringRequest {
     @Override
     protected Map<String, String> getParams() throws AuthFailureError {
         Map<String, String> params = new HashMap<String, String>();
-        params.put("user_id", Build.getUniqueID(MKCenterApplication.getContext()));
+        String unique_id = Build.getUniqueID(MKCenterApplication.getContext());
+        params.put("user_id", unique_id);
+        String unique_id_external = Build.getUniqueID(MKCenterApplication.getContext(), 0);
+        if (!TextUtils.equals(unique_id, unique_id_external)) {
+            params.put("user_id_external", unique_id_external);
+        }
         return params;
     }
 
