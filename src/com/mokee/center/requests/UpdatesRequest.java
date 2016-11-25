@@ -98,6 +98,19 @@ public class UpdatesRequest extends StringRequest {
             }
         }
         prefs.edit().putBoolean(Constants.OTA_CHECK_MANUAL_PREF, false).apply();
+
+        // disable verify option when never donation
+        boolean isVerifyRom = prefs.getBoolean(Constants.VERIFY_ROM_PREF, false);
+        if (isVerifyRom) {
+            if (Utils.getPaidTotal(MKCenterApplication.getContext()) < Constants.DONATION_TOTAL) {
+                prefs.edit().putBoolean(Constants.VERIFY_ROM_PREF, false).apply();
+                isVerifyRom = false;
+            }
+        }
+        if (isVerifyRom) {
+            params.put("is_verified", "1");
+        }
+
         params.put("device_name", Build.PRODUCT);
         params.put("device_version", Build.VERSION);
         params.put("build_user", android.os.Build.USER);

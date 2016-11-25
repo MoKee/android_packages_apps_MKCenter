@@ -42,6 +42,7 @@ public class Constants {
     public static final String UPDATE_INTERVAL_PREF = "pref_update_interval";
     public static final String UPDATE_TYPE_PREF = "pref_update_types";
     public static final String OTA_CHECK_PREF = "pref_ota_check";
+    public static final String VERIFY_ROM_PREF = "pref_verify_rom";
     public static final String LAST_UPDATE_CHECK_PREF = "pref_last_update_check";
 
     // Update Check items

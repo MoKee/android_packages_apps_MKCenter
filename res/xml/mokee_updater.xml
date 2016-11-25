@@ -54,6 +54,11 @@
         android:title="@string/update_check_title" />
 
     <SwitchPreference
+        android:key="pref_verify_rom"
+        android:summary="@string/pref_verify_rom_summary"
+        android:title="@string/pref_verify_rom" />
+
+    <SwitchPreference
         android:key="pref_ota_check"
         android:summary="@string/pref_ota_check_summary"
         android:title="@string/pref_ota_check" />
