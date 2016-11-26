@@ -65,6 +65,7 @@
   <string name="menu_refresh">重新整理</string>
   <string name="menu_delete_all">刪除下載</string>
   <string name="menu_remove_ads">移除廣告</string>
+  <string name="menu_restore">還原憑證</string>
   <!-- Donate -->
   <string name="donate_dialog_title">捐贈我們</string>
   <string name="donate_dialog_message">和 Cyanogen、MIUI 等已接受投資的商業化公司不同。Mokee 因愛好而生，是純粹的非營利性開源項目。我們需要自籌資金或者透過捐贈、廣告等手段才能讓這個項目長期存活。你的捐贈將減輕我們每月承擔的經濟壓力，使我們能繼續為大家提供更優秀的 ROM！你的捐贈記錄會儲存在記憶咭根目錄的 mokee.license 檔案，你可以備份它以便意外丟失、格式化存儲區後恢復（僅限當前裝置使用）。</string>
@@ -151,6 +152,10 @@
   <string name="pref_ota_check_summary">取得增量更新以節省下載時間和數據</string>
   <string name="pref_ota_check_donation_request_summary">取得增量更新以節省下載時間和數據（捐贈 %d 元人民幣後永久可用）</string>
   <string name="pref_ota_check_donation_request_pending_summary">獲取增量更新以節省下載時間和頻寬 (已捐贈 %1$d，更多捐 %2$d 後可終身享用增量更新，貨幣 ︰ ￥ 元)</string>
+  <string name="pref_verify_rom">已驗證的更新</string>
+  <string name="pref_verify_rom_summary">僅檢查經過其它使用者刷入驗證的新版本</string>
+  <string name="pref_verify_rom_donation_request_summary">僅檢查經過其它使用者驗證的新版本 (捐贈 %d CNY後永久可用)</string>
+  <string name="pref_verify_rom_donation_request_pending_summary">僅檢查經過其它使用者驗證的新版本 (已捐贈 %1$d，再捐贈 %2$d 後永久可用，貨幣單位：CNY)</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">套用更新</string>
   <string name="apply_update_dialog_text">你將要更新到 <xliff:g id="filename">%s</xliff:g>。\n\n如果選擇更新，你的裝置將會重新啓動到復原模式並安裝更新。\n\n注意：此功能需要一個相容的恢復程式。如果沒有的話，你需要手動安裝更新。</string>
