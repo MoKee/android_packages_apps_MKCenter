@@ -30,12 +30,12 @@ import com.mokee.os.Build;
 
 import com.mokee.center.MKCenterApplication;
 
-public class RankingRequest extends StringRequest {
+public class InfoRequest extends StringRequest {
 
     private String mUserAgent;
 
-    public RankingRequest(int method, String url, String userAgent,
-            Response.Listener<String> listener, Response.ErrorListener errorListener) {
+    public InfoRequest(int method, String url, String userAgent,
+                       Response.Listener<String> listener, Response.ErrorListener errorListener) {
         super(method, url, listener, errorListener);
         mUserAgent = userAgent;
     }

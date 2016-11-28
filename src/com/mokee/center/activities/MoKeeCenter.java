@@ -24,6 +24,7 @@ import android.app.AlertDialog.Builder;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.mokee.utils.MoKeeUtils;
 import android.os.Bundle;
 import android.os.UserHandle;
@@ -49,6 +50,7 @@ import com.mokee.center.fragments.MoKeeSupportFragment;
 import com.mokee.center.fragments.MoKeeUpdaterFragment;
 import com.mokee.center.misc.Constants;
 import com.mokee.center.service.UpdateCheckService;
+import com.mokee.center.utils.RequestUtils;
 import com.mokee.center.utils.Utils;
 
 public class MoKeeCenter extends FragmentActivity {
@@ -98,7 +100,7 @@ public class MoKeeCenter extends FragmentActivity {
         sendBroadcastAsUser(send, UserHandle.CURRENT);
     }
 
-    public static void donateOrRemoveAdsButton(final Activity mContext, final boolean isDonate) {
+    public static void donateOrRemoveAdsDialog(Activity mContext, final boolean isDonate) {
         LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         LinearLayout donateView = (LinearLayout)inflater.inflate(R.layout.donate, null);
         final TextView mRequest = (TextView) donateView.findViewById(R.id.request);
@@ -121,7 +123,7 @@ public class MoKeeCenter extends FragmentActivity {
             }});
         ProgressBar mProgressBar = (ProgressBar) donateView.findViewById(R.id.progress);
         Float paid = Utils.getPaidTotal(mContext);
-        final Float unPaid = Constants.DONATION_TOTAL - paid;
+        Float unPaid = Constants.DONATION_TOTAL - paid;
         if (isDonate) {
             mSeekBar.setVisibility(View.VISIBLE);
             mProgressBar.setVisibility(View.GONE);
@@ -141,10 +143,10 @@ public class MoKeeCenter extends FragmentActivity {
                 String price = isDonate ? String.valueOf(which == DialogInterface.BUTTON_POSITIVE ? Float.valueOf(mSeekBar.getProgress() + Constants.DONATION_REQUEST_MIN) / 6 : String.valueOf(mSeekBar.getProgress() + Constants.DONATION_REQUEST_MIN)) : String.valueOf(which == DialogInterface.BUTTON_POSITIVE ? unPaid / 6 : unPaid);
                 switch (which) {
                     case DialogInterface.BUTTON_POSITIVE:
-                        Utils.sendPaymentRequest(mContext, "paypal", mContext.getString(isDonate ? R.string.donate_money_name : R.string.remove_ads_name), mContext.getString(isDonate ? R.string.donate_money_description : R.string.remove_ads_description), price);
+                        Utils.sendPaymentRequest(mContext, "paypal", mContext.getString(isDonate ? R.string.donate_money_name : R.string.remove_ads_name), mContext.getString(isDonate ? R.string.donate_money_description : R.string.remove_ads_description), price, Constants.PAYMENT_TYPE_DONATION);
                         break;
                     case DialogInterface.BUTTON_NEGATIVE:
-                        Utils.sendPaymentRequest(mContext, "alipay", mContext.getString(isDonate ? R.string.donate_money_name : R.string.remove_ads_name), mContext.getString(isDonate ? R.string.donate_money_description : R.string.remove_ads_description), price);
+                        Utils.sendPaymentRequest(mContext, "alipay", mContext.getString(isDonate ? R.string.donate_money_name : R.string.remove_ads_name), mContext.getString(isDonate ? R.string.donate_money_description : R.string.remove_ads_description), price, Constants.PAYMENT_TYPE_DONATION);
                         break;
                     case DialogInterface.BUTTON_NEUTRAL:
                         if (isDonate && MoKeeUtils.isSupportLanguage(false)) {
@@ -181,15 +183,18 @@ public class MoKeeCenter extends FragmentActivity {
                         .duration(5000L).actionListener(new ActionClickListener(){
                             @Override
                             public void onActionClicked(Snackbar snackbar) {
-                                donateOrRemoveAdsButton(MoKeeCenter.this, true);
+                                donateOrRemoveAdsDialog(MoKeeCenter.this, true);
                             }
                         }).actionLabel(R.string.donate_money_again).colorResource(R.color.snackbar_background));
-                MoKeeUpdaterFragment.getRanking();
+                RequestUtils.getRanking(getApplicationContext());
+                getSharedPreferences(Constants.DOWNLOADER_PREF, 0).edit()
+                        .putLong(Constants.KEY_DISCOUNT_TIME, System.currentTimeMillis())
+                        .putLong(Constants.KEY_LEFT_TIME, 0).apply();
                 break;
             case 200:
                 SnackbarManager.show(Snackbar.with(this).text(R.string.donate_money_restored_success)
                         .duration(5000L).colorResource(R.color.snackbar_background));
-                MoKeeUpdaterFragment.getRanking();
+                RequestUtils.getRanking(getApplicationContext());
                 break;
             case 500:
                 SnackbarManager.show(Snackbar.with(this).text(R.string.donate_money_restored_failed)

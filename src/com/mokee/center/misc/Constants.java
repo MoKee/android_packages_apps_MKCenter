@@ -18,6 +18,7 @@
 package com.mokee.center.misc;
 
 import android.os.Environment;
+import android.text.format.DateUtils;
 
 import com.mokee.center.MKCenterApplication;
 import com.mokee.center.utils.Utils;
@@ -32,7 +33,6 @@ public class Constants {
 
     // Download related
     public static final String UPDATES_FOLDER = "mkupdater";
-    public static final String EXTRAS_FOLDER = "mkextras";
 
     // Preferences
     public static final String DOWNLOADER_PREF = "downloader";
@@ -71,8 +71,20 @@ public class Constants {
     // Donation amount
     public static final int DONATION_TOTAL = 68;
     public static final int DONATION_REQUEST = 30;
+    public static final int DONATION_DISCOUNT = 20;
     public static final int DONATION_REQUEST_MIN = Utils.getPaidTotal(MKCenterApplication.getContext()) > 0 ? 10 : DONATION_REQUEST;
     public static final int DONATION_MAX = 1000;
+    public static final String PAYMENT_TYPE_DONATION = "donation";
+    public static final String PAYMENT_TYPE_DISCOUNT = "discount";
+
+    public static final long DISCOUNT_THINK_TIME = DateUtils.MINUTE_IN_MILLIS * 10;
+
+    public static final String KEY_FLASH_TIME = "flash_time";
+    public static final String KEY_DISCOUNT_TIME = "discount_time";
+    public static final String KEY_LEFT_TIME = "left_time";
+    public static final String KEY_DONATE_PERCENT = "donate_percent";
+    public static final String KEY_DONATE_RANK = "donate_rank";
+    public static final String KEY_DONATE_AMOUNT = "donate_amount";
 
     // Public key
     public static final String PUB_KEY =

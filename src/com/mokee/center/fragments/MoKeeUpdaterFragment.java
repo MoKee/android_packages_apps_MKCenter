@@ -19,16 +19,12 @@ package com.mokee.center.fragments;
 
 import java.io.File;
 import java.io.IOException;
-import java.net.URI;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
 
-import org.json.JSONException;
-import org.json.JSONObject;
-import com.mokee.center.MKCenterApplication;
 import com.mokee.center.R;
 import com.mokee.center.activities.MoKeeCenter;
 import com.mokee.center.db.DownLoadDao;
@@ -39,7 +35,6 @@ import com.mokee.center.misc.ItemInfo;
 import com.mokee.center.misc.State;
 import com.mokee.center.misc.ThreadDownLoadInfo;
 import com.mokee.center.receiver.DownloadReceiver;
-import com.mokee.center.requests.RankingRequest;
 import com.mokee.center.service.DownLoadService;
 import com.mokee.center.service.UpdateCheckService;
 import com.mokee.center.utils.DownLoader;
@@ -62,6 +57,7 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
+import android.icu.text.SimpleDateFormat;
 import android.mokee.utils.MoKeeUtils;
 import android.os.Bundle;
 import android.os.Handler;
@@ -77,18 +73,19 @@ import android.preference.PreferenceScreen;
 import android.preference.SwitchPreference;
 import android.text.TextUtils;
 import android.text.format.DateFormat;
+import android.text.format.DateUtils;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.LinearLayout;
 import android.widget.ProgressBar;
+import android.widget.TextView;
+
 import cn.waps.AppConnect;
 
-import com.android.volley.Request;
-import com.android.volley.Response.ErrorListener;
-import com.android.volley.Response.Listener;
-import com.android.volley.VolleyError;
-import com.android.volley.VolleyLog;
 import com.mokee.os.Build;
 
 public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPreferenceChangeListener,
@@ -102,10 +99,6 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
     private static final String KEY_MOKEE_DONATE_INFO = "mokee_donate_info";
     private static final String KEY_MOKEE_VERSION_TYPE = "mokee_version_type";
     private static final String KEY_MOKEE_LAST_CHECK = "mokee_last_check";
-
-    private static final String KEY_DONATE_TOTAL = "donate_total";
-    private static final String KEY_DONATE_RANK = "donate_rank";
-    private static final String KEY_DONATE_AMOUNT = "donate_amount";
 
     private boolean mDownloading = false;
     private long mDownloadId;
@@ -140,6 +133,9 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
     private File mUpdateFolder;
     private ProgressDialog mProgressDialog;
     private Handler mUpdateHandler = new Handler();
+
+    private long leftTime;
+    private Runnable timerRunnable;
 
     private BroadcastReceiver mReceiver = new BroadcastReceiver() {
         @Override
@@ -206,6 +202,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
                 mAdmobView.onAdCreate();
             }
         }
+
         mUpdatesList = (PreferenceCategory) findPreference(UPDATES_CATEGORY);
         mUpdateCheck = (ListPreference) findPreference(Constants.UPDATE_INTERVAL_PREF);
         mUpdateType = (ListPreference) findPreference(Constants.UPDATE_TYPE_PREF);
@@ -281,56 +278,95 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
             SnackbarManager.show(Snackbar.with(mContext).text(R.string.installed_xposed_toast)
                     .duration(10000L).colorResource(R.color.snackbar_background));
         }
-        if (paid > 0f) {
-            getRanking();
-        }
+
+        discountDialog(mContext, mPrefs);
     }
 
-    public static void getRanking() {
-        if (MoKeeUtils.isOnline(mContext)) {
-            RankingRequest rankingRequest = new RankingRequest(Request.Method.POST,
-                    URI.create(mContext.getString(R.string.conf_get_ranking_server_url_def)).toASCIIString(), Utils.getUserAgentString(mContext), new Listener<String>() {
-                        @Override
-                        public void onResponse(String response) {
-                            try {
-                                JSONObject jsonObject = new JSONObject(response);
-                                if (jsonObject.has("total")) {
-                                    int total = Integer.valueOf(jsonObject.get("total").toString());
-                                    int rank = Integer.valueOf(jsonObject.get("rank").toString());
-                                    float amount = Float.valueOf(jsonObject.get("amount").toString());
-                                    mPrefs.edit().putInt(KEY_DONATE_TOTAL, total)
-                                        .putInt(KEY_DONATE_RANK, rank)
-                                        .putFloat(KEY_DONATE_AMOUNT, amount).apply();
-                                }
-                            } catch (JSONException e) {
-                                e.printStackTrace();
-                            }
-                        }
-            }, new ErrorListener() {
+    public void discountDialog(Activity mContext, SharedPreferences mPrefs) {
+        if (Utils.Discounting(mPrefs)) {
+            Float paid = mPrefs.getFloat(Constants.KEY_DONATE_AMOUNT, 0);
+            Float unPaid = Constants.DONATION_TOTAL - Constants.DONATION_DISCOUNT - paid;
+            SimpleDateFormat df = new SimpleDateFormat("mm:ss");
+            DialogInterface.OnClickListener mDialogButton = new DialogInterface.OnClickListener() {
                 @Override
-                public void onErrorResponse(VolleyError error) {
-                    VolleyLog.e("Error: ", error.getMessage());
-                    VolleyLog.e("Error type: " + error.toString());
+                public void onClick(DialogInterface dialog, int which) {
+                    String price = String.valueOf(which == DialogInterface.BUTTON_POSITIVE ? unPaid / 6 : unPaid);
+                    switch (which) {
+                        case DialogInterface.BUTTON_POSITIVE:
+                            Utils.sendPaymentRequest(mContext, "paypal", mContext.getString(R.string.donate_money_name), mContext.getString(R.string.donate_money_description), price, Constants.PAYMENT_TYPE_DISCOUNT);
+                            break;
+                        case DialogInterface.BUTTON_NEGATIVE:
+                            Utils.sendPaymentRequest(mContext, "alipay", mContext.getString(R.string.donate_money_name), mContext.getString(R.string.donate_money_description), price, Constants.PAYMENT_TYPE_DISCOUNT);
+                            break;
+                        case DialogInterface.BUTTON_NEUTRAL:
+                            mPrefs.edit().putLong(Constants.KEY_DISCOUNT_TIME, System.currentTimeMillis())
+                                    .putLong(Constants.KEY_LEFT_TIME, Constants.DISCOUNT_THINK_TIME).apply();
+                            break;
+                    }
+                    mUpdateHandler.removeCallbacks(timerRunnable);
+                    mPrefs.edit().putLong(Constants.KEY_LEFT_TIME, leftTime).apply();
+                }
+            };
+
+            LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            LinearLayout donateView = (LinearLayout)inflater.inflate(R.layout.donate, null);
+            TextView mLeftTimeView = (TextView) donateView.findViewById(R.id.request);
+            donateView.findViewById(R.id.price).setVisibility(View.GONE);
+            ProgressBar mProgressBar = (ProgressBar) donateView.findViewById(R.id.progress);
+            mProgressBar.setMax(100);
+            leftTime = mPrefs.getLong(Constants.KEY_LEFT_TIME, Constants.DISCOUNT_THINK_TIME);
+            mProgressBar.setProgress(Float.valueOf((float)leftTime / Constants.DISCOUNT_THINK_TIME * 100).intValue());
+            mLeftTimeView.setText(String.format(getString(R.string.discount_dialog_expires), df.format(leftTime)));
+
+            AlertDialog.Builder builder = new AlertDialog.Builder(mContext)
+                    .setTitle(R.string.discount_dialog_title)
+                    .setMessage(String.format(mContext.getString(R.string.discount_dialog_message), unPaid.intValue(), Constants.DONATION_DISCOUNT))
+                    .setView(donateView)
+                    .setPositiveButton(R.string.donate_dialog_via_paypal, mDialogButton)
+                    .setNegativeButton(R.string.donate_dialog_via_alipay, mDialogButton)
+                    .setNeutralButton(R.string.discount_dialog_cancel, mDialogButton);
+            AlertDialog discountDialog = builder.create();
+            discountDialog.setOnCancelListener(new DialogInterface.OnCancelListener() {
+                @Override
+                public void onCancel(DialogInterface dialog) {
+                    mUpdateHandler.removeCallbacks(timerRunnable);
+                    mPrefs.edit().putLong(Constants.KEY_LEFT_TIME, leftTime).apply();
                 }
             });
-            rankingRequest.setTag(TAG);
-            ((MKCenterApplication) mContext.getApplicationContext()).getQueue().add(rankingRequest);
+            discountDialog.show();
+            timerRunnable = new Runnable() {
+                @Override
+                public void run() {
+                    leftTime = leftTime - DateUtils.SECOND_IN_MILLIS;
+                    mProgressBar.setProgress(Float.valueOf((float)leftTime / Constants.DISCOUNT_THINK_TIME * 100).intValue());
+                    mLeftTimeView.setText(String.format(getString(R.string.discount_dialog_expires), df.format(leftTime)));
+                    if (leftTime <= 0) {
+                        discountDialog.dismiss();
+                        mPrefs.edit().putLong(Constants.KEY_DISCOUNT_TIME, System.currentTimeMillis())
+                                .putLong(Constants.KEY_LEFT_TIME, Constants.DISCOUNT_THINK_TIME).apply();
+                    } else {
+                        mPrefs.edit().putLong(Constants.KEY_LEFT_TIME, leftTime).apply();
+                        mUpdateHandler.postDelayed(this, DateUtils.SECOND_IN_MILLIS);
+                    }
+                }
+            };
+            mUpdateHandler.postDelayed(timerRunnable, DateUtils.SECOND_IN_MILLIS);
         }
     }
 
     private void setDonatePreference() {
         Float paid = Utils.getPaidTotal(mContext);
-        Float amount = mPrefs.getFloat(KEY_DONATE_AMOUNT, 0f);
+        Float amount = mPrefs.getFloat(Constants.KEY_DONATE_AMOUNT, 0f);
         if (amount < paid) {
             amount = paid;
         }
-        int rank = mPrefs.getInt(KEY_DONATE_RANK, 0);
-        int total = mPrefs.getInt(KEY_DONATE_TOTAL, 0);
+        int rank = mPrefs.getInt(Constants.KEY_DONATE_RANK, 0);
+        int percent = mPrefs.getInt(Constants.KEY_DONATE_PERCENT, 0);
         if (paid == 0f) {
             Utils.setSummaryFromString(this, KEY_MOKEE_DONATE_INFO, getString(R.string.donate_money_info_null));
-        } else if (total != 0) {
+        } else if (percent != 0) {
             Utils.setSummaryFromString(this, KEY_MOKEE_DONATE_INFO, String.format(mContext.getString(R.string.donate_money_info_with_rank),
-                    amount.intValue(), String.valueOf((int)(((double)(total - rank) / total) * 100)) + "%", rank));
+                    amount.intValue(), String.valueOf(percent) + "%", rank));
         } else {
             Utils.setSummaryFromString(this, KEY_MOKEE_DONATE_INFO, String.format(mContext.getString(R.string.donate_money_info),
                     amount.intValue(), "1%"));
@@ -508,7 +544,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case MENU_DONATE:
-                MoKeeCenter.donateOrRemoveAdsButton(getActivity(), true);
+                MoKeeCenter.donateOrRemoveAdsDialog(getActivity(), true);
                 return true;
             case MENU_REFRESH:
                 checkForUpdates();
@@ -517,7 +553,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
                 confirmDeleteAll();
                 return true;
             case MENU_REMOVE_ADS:
-                MoKeeCenter.donateOrRemoveAdsButton(getActivity(), false);
+                MoKeeCenter.donateOrRemoveAdsDialog(getActivity(), false);
                 return true;
             case MENU_RESTORE:
                 Utils.restorePaymentRequest(mContext);
@@ -652,7 +688,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
         for (ItemInfo ui : updates) {
             // Determine the preference style and create the preference
             boolean isDownloading = ui.getFileName().equals(mFileName);
-            boolean isLocalFile = Utils.isLocaUpdateFile(ui.getFileName(), true);
+            boolean isLocalFile = Utils.isLocaUpdateFile(ui.getFileName());
             int style = 3;
             if (!mPrefs.getBoolean(Constants.OTA_CHECK_PREF, false)) {
                 isNew = Utils.isNewVersion(ui.getFileName());
@@ -967,7 +1003,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         try {
-                            Utils.triggerUpdate(mContext, itemInfo.getFileName(), true);
+                            Utils.triggerUpdate(mContext, itemInfo.getFileName());
                         } catch (IOException e) {
                             Log.e(TAG, "Unable to reboot into recovery mode", e);
                             SnackbarManager.show(Snackbar.with(mContext).text(R.string.apply_unable_to_reboot_toast).colorResource(R.color.snackbar_background));

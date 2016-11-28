@@ -18,9 +18,9 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- MoKeeHelper Config -->
+    <!-- Server Interface Config -->
     <string name="conf_update_server_url_def" translatable="false">http://ota.mokeedev.com/full.php</string>
     <string name="conf_update_ota_server_url_def" translatable="false">http://ota.mokeedev.com/ota.php</string>
-    <string name="conf_get_ranking_server_url_def" translatable="false">http://cloud.mokeedev.com/api/rankingByUserID</string>
+    <string name="conf_get_ranking_server_url_def" translatable="false">http://cloud.mokeedev.com/api/rankingByUserIDv2</string>
 
 </resources>

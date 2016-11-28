@@ -112,9 +112,6 @@ public class UpdateCheckService extends IntentService
 
     private void recordAvailableUpdates(LinkedList<ItemInfo> availableUpdates,
             Intent finishedIntent) {
-        String lastUpdateCheckPref, updateListUpdatedPref = null;
-        lastUpdateCheckPref = Constants.LAST_UPDATE_CHECK_PREF;
-        updateListUpdatedPref = EXTRA_UPDATE_LIST_UPDATED;
         if (availableUpdates == null) {
             sendBroadcastAsUser(finishedIntent, UserHandle.CURRENT);
             return;
@@ -123,7 +120,7 @@ public class UpdateCheckService extends IntentService
         // Store the last update check time and ensure boot check completed is true
         Date d = new Date();
         getSharedPreferences(Constants.DOWNLOADER_PREF, 0).edit()
-                .putLong(lastUpdateCheckPref, d.getTime())
+                .putLong(Constants.LAST_UPDATE_CHECK_PREF, d.getTime())
                 .putBoolean(Constants.BOOT_CHECK_COMPLETED, true).apply();
 
         int realUpdateCount = finishedIntent.getIntExtra(EXTRA_REAL_UPDATE_COUNT, 0);
@@ -138,7 +135,7 @@ public class UpdateCheckService extends IntentService
             // There are updates available
             // The notification should launch the main app
             Intent i = new Intent(Constants.ACTION_MOKEE_CENTER);
-            i.putExtra(updateListUpdatedPref, true);
+            i.putExtra(EXTRA_UPDATE_LIST_UPDATED, true);
             PendingIntent contentIntent = PendingIntent.getActivity(this, 0, i,
                     PendingIntent.FLAG_ONE_SHOT);
 

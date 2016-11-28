@@ -77,17 +77,17 @@ public class DownloadReceiver extends BroadcastReceiver {
         } else if (ACTION_INSTALL_UPDATE.equals(action)) {
             String fileName = intent.getStringExtra(EXTRA_FILENAME);
             if (fileName.endsWith(".zip")) {
-                applyTriggerUpdate(context, fileName, true);
+                applyTriggerUpdate(context, fileName);
             }
         }
     }
 
-    private void applyTriggerUpdate(Context context, String fileName, boolean isUpdate) {
+    private void applyTriggerUpdate(Context context, String fileName) {
         try {
             StatusBarManager sb = (StatusBarManager) context.getSystemService(Context.STATUS_BAR_SERVICE);
             sb.collapsePanels();
             Utils.cancelNotification(context);
-            Utils.triggerUpdate(context, fileName, isUpdate);
+            Utils.triggerUpdate(context, fileName);
         } catch (IOException e) {
             Log.e(TAG, "Unable to reboot into recovery mode", e);
             Toast.makeText(context, R.string.apply_unable_to_reboot_toast, Toast.LENGTH_SHORT).show();
@@ -95,7 +95,6 @@ public class DownloadReceiver extends BroadcastReceiver {
     }
 
     private void handleStartDownload(Context context, SharedPreferences prefs, ItemInfo ui) {
-
         // If directory doesn't exist, create it
         File directory = Utils.makeUpdateFolder();
 

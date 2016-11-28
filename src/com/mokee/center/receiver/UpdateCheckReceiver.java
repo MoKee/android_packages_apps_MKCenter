@@ -27,6 +27,7 @@ import android.util.Log;
 
 import com.mokee.center.misc.Constants;
 import com.mokee.center.service.UpdateCheckService;
+import com.mokee.center.utils.RequestUtils;
 import com.mokee.center.utils.Utils;
 
 public class UpdateCheckReceiver extends BroadcastReceiver {
@@ -58,6 +59,7 @@ public class UpdateCheckReceiver extends BroadcastReceiver {
         } else if (Intent.ACTION_BOOT_COMPLETED.equals(action)) {
             // We just booted. Store the boot check state
             prefs.edit().putBoolean(Constants.BOOT_CHECK_COMPLETED, false).apply();
+            RequestUtils.getRanking(context);
         }
 
         // Handle the actual update check based on the defined frequency

@@ -33,6 +33,7 @@ import android.content.pm.PackageManager;
 import android.os.Environment;
 import android.os.RecoverySystem;
 import android.preference.PreferenceFragment;
+import android.text.format.DateUtils;
 
 import com.mokee.center.R;
 import com.mokee.center.db.DownLoadDao;
@@ -53,9 +54,9 @@ public class Utils {
     /**
      * 检测rom是否已下载
      */
-    public static boolean isLocaUpdateFile(String fileName, boolean isUpdate) {
+    public static boolean isLocaUpdateFile(String fileName) {
         File file = new File(Environment.getExternalStorageDirectory() + "/"
-                + (isUpdate ? Constants.UPDATES_FOLDER : Constants.EXTRAS_FOLDER), fileName);
+                + Constants.UPDATES_FOLDER, fileName);
         return file.exists();
     }
 
@@ -101,9 +102,9 @@ public class Utils {
 
     public static long getVersionLifeTime(String versionType) {
         if (versionType.equals("release")) {
-            return 86400000 * 60;
+            return DateUtils.DAY_IN_MILLIS * 30;
         } else {
-            return 86400000 * 7;
+            return DateUtils.DAY_IN_MILLIS * 7;
         }
     }
 
@@ -126,12 +127,12 @@ public class Utils {
         }
     }
 
-    public static void triggerUpdate(Context context, String updateFileName, boolean isUpdate)
+    public static void triggerUpdate(Context context, String updateFileName)
             throws IOException {
         // Add the update folder/file name
         String primaryStorage = Environment.getExternalStorageDirectory().getAbsolutePath();
         // Create the path for the update package
-        String updatePackagePath = primaryStorage + "/" + (isUpdate ? Constants.UPDATES_FOLDER : Constants.EXTRAS_FOLDER) + "/" + updateFileName;
+        String updatePackagePath = primaryStorage + "/" + Constants.UPDATES_FOLDER + "/" + updateFileName;
 
         // Reboot into recovery and trigger the update
         RecoverySystem.installPackageLegacy(context, new File(updatePackagePath), false);
@@ -283,11 +284,11 @@ public class Utils {
         mContext.startActivityForResult(intent, 0);
     }
 
-    public static void sendPaymentRequest (Activity mContext, String channel, String name, String description, String price) {
+    public static void sendPaymentRequest (Activity mContext, String channel, String name, String description, String price, String type) {
         Intent intent = new Intent(Constants.ACTION_PAYMENT_REQUEST);
         intent.putExtra("packagename", mContext.getPackageName());
         intent.putExtra("channel", channel);
-        intent.putExtra("type", "donation");
+        intent.putExtra("type", type);
         intent.putExtra("name", name);
         intent.putExtra("description", description);
         intent.putExtra("price", price);
@@ -297,4 +298,21 @@ public class Utils {
     public static boolean checkLicensed(Context mContext) {
         return getPaidTotal(mContext) >= Constants.DONATION_TOTAL;
     }
+
+    public static boolean Discounting(SharedPreferences mPrefs) {
+        long flashTime = mPrefs.getLong(Constants.KEY_FLASH_TIME, 0);
+        Float amount = mPrefs.getFloat(Constants.KEY_DONATE_AMOUNT, 0);
+        if (flashTime != 0 && amount <= Constants.DONATION_REQUEST) {
+            if (flashTime * 1000 + DateUtils.DAY_IN_MILLIS * 30 * 3 < System.currentTimeMillis()) {
+                long discountTime = mPrefs.getLong(Constants.KEY_DISCOUNT_TIME, 0);
+                if (discountTime == 0 || discountTime + DateUtils.DAY_IN_MILLIS * 30 < System.currentTimeMillis()) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+        }
+        return false;
+    }
+
 }

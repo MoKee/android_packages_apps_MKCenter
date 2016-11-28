@@ -127,7 +127,7 @@ public class MoKeeSupportFragment extends PreferenceFragment implements OnPrefer
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case MENU_DONATE:
-                MoKeeCenter.donateOrRemoveAdsButton(mContext, true);
+                MoKeeCenter.donateOrRemoveAdsDialog(mContext, true);
                 return true;
         }
         return true;
