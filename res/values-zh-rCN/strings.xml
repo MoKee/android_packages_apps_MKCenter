@@ -152,7 +152,7 @@
   <string name="pref_ota_check_summary">下载仅有完整包5%大小的补丁快速更新</string>
   <string name="pref_ota_check_donation_request_summary">下载仅有完整包5%%大小的补丁快速更新 (捐赠 %d CNY后永久可用)</string>
   <string name="pref_ota_check_donation_request_pending_summary">下载仅有完整包5%%大小的补丁快速更新 (已捐赠 %1$d，再捐赠 %2$d 后永久可用，货币单位：CNY)</string>
-  <string name="pref_verify_rom">安全更新</string>
+  <string name="pref_verify_rom">放心刷™</string>
   <string name="pref_verify_rom_summary">仅显示经过其它用户验证可用的版本</string>
   <string name="pref_verify_rom_donation_request_summary">仅显示经过其它用户验证可用的版本 (捐赠 %d CNY后永久可用)</string>
   <string name="pref_verify_rom_donation_request_pending_summary">仅显示经过其它用户验证可用的版本 (已捐赠 %1$d，再捐赠 %2$d 后永久可用，货币单位：CNY)</string>
@@ -168,7 +168,7 @@
   <string name="installed_xposed_toast">检测到系统安装了Xposed框架，启用增量更新可在升级后无需重刷框架。</string>
   <!-- Discount -->
   <string name="discount_dialog_title">限时折扣</string>
-  <string name="discount_dialog_message">感谢您对魔趣开源项目的长期支持，现在您可享有限时优惠，%1$d CNY获得增量更新、安全更新并移除界面广告！(立省 %2$d CNY) 若您想要稍后支付，可点按提示框外关闭窗口并在准备就绪后重新打开程序。</string>
+  <string name="discount_dialog_message">感谢您对魔趣开源项目的长期支持，现在您可享有限时优惠，%1$d CNY获得增量更新、放心刷™并移除界面广告！(立省 %2$d CNY) 若您想要稍后支付，可点按提示框外关闭窗口并在准备就绪后重新打开程序。</string>
   <string name="discount_dialog_expires">距离限时折扣结束还剩 %s</string>
   <string name="discount_dialog_cancel">不再提醒</string>
 </resources>
