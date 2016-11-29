@@ -285,6 +285,10 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
     public void discountDialog(Activity mContext, SharedPreferences mPrefs) {
         if (Utils.Discounting(mPrefs)) {
             Float paid = mPrefs.getFloat(Constants.KEY_DONATE_AMOUNT, 0);
+            // 同步云端支付信息
+            if (paid > Utils.getPaidTotal(mContext)) {
+                Utils.restorePaymentRequest(mContext);
+            }
             Float unPaid = Constants.DONATION_TOTAL - Constants.DONATION_DISCOUNT - paid;
             SimpleDateFormat df = new SimpleDateFormat("mm:ss");
             DialogInterface.OnClickListener mDialogButton = new DialogInterface.OnClickListener() {
