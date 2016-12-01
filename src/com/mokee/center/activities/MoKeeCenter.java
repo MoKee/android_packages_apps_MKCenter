@@ -143,10 +143,10 @@ public class MoKeeCenter extends FragmentActivity {
                 String price = isDonate ? String.valueOf(which == DialogInterface.BUTTON_POSITIVE ? Float.valueOf(mSeekBar.getProgress() + Constants.DONATION_REQUEST_MIN) / 6 : String.valueOf(mSeekBar.getProgress() + Constants.DONATION_REQUEST_MIN)) : String.valueOf(which == DialogInterface.BUTTON_POSITIVE ? unPaid / 6 : unPaid);
                 switch (which) {
                     case DialogInterface.BUTTON_POSITIVE:
-                        Utils.sendPaymentRequest(mContext, "paypal", mContext.getString(isDonate ? R.string.donate_money_name : R.string.remove_ads_name), mContext.getString(isDonate ? R.string.donate_money_description : R.string.remove_ads_description), price, Constants.PAYMENT_TYPE_DONATION);
+                        Utils.sendPaymentRequest(mContext, "paypal", mContext.getString(isDonate ? R.string.donate_money_title : R.string.remove_ads_title), mContext.getString(isDonate ? R.string.donate_money_title : R.string.remove_ads_title), price, Constants.PAYMENT_TYPE_DONATION);
                         break;
                     case DialogInterface.BUTTON_NEGATIVE:
-                        Utils.sendPaymentRequest(mContext, "alipay", mContext.getString(isDonate ? R.string.donate_money_name : R.string.remove_ads_name), mContext.getString(isDonate ? R.string.donate_money_description : R.string.remove_ads_description), price, Constants.PAYMENT_TYPE_DONATION);
+                        Utils.sendPaymentRequest(mContext, "alipay", mContext.getString(isDonate ? R.string.donate_money_title : R.string.remove_ads_title), mContext.getString(isDonate ? R.string.donate_money_title : R.string.remove_ads_title), price, Constants.PAYMENT_TYPE_DONATION);
                         break;
                     case DialogInterface.BUTTON_NEUTRAL:
                         if (isDonate && MoKeeUtils.isSupportLanguage(false)) {
@@ -160,7 +160,7 @@ public class MoKeeCenter extends FragmentActivity {
         };
 
         Builder builder = new AlertDialog.Builder(mContext)
-                .setTitle(isDonate ? R.string.donate_dialog_title : R.string.remove_ads_dialog_title)
+                .setTitle(isDonate ? R.string.donate_dialog_title : R.string.remove_ads_title)
                 .setMessage(R.string.donate_dialog_message)
                 .setView(donateView)
                 .setPositiveButton(R.string.donate_dialog_via_paypal, mDialogButton)

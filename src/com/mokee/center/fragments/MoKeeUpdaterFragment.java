@@ -297,10 +297,10 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
                     String price = String.valueOf(which == DialogInterface.BUTTON_POSITIVE ? unPaid / 6 : unPaid);
                     switch (which) {
                         case DialogInterface.BUTTON_POSITIVE:
-                            Utils.sendPaymentRequest(mContext, "paypal", mContext.getString(R.string.donate_money_name), mContext.getString(R.string.donate_money_description), price, Constants.PAYMENT_TYPE_DISCOUNT);
+                            Utils.sendPaymentRequest(mContext, "paypal", mContext.getString(R.string.discount_dialog_title), mContext.getString(R.string.discount_dialog_title), price, Constants.PAYMENT_TYPE_DISCOUNT);
                             break;
                         case DialogInterface.BUTTON_NEGATIVE:
-                            Utils.sendPaymentRequest(mContext, "alipay", mContext.getString(R.string.donate_money_name), mContext.getString(R.string.donate_money_description), price, Constants.PAYMENT_TYPE_DISCOUNT);
+                            Utils.sendPaymentRequest(mContext, "alipay", mContext.getString(R.string.discount_dialog_title), mContext.getString(R.string.discount_dialog_title), price, Constants.PAYMENT_TYPE_DISCOUNT);
                             break;
                         case DialogInterface.BUTTON_NEUTRAL:
                             mPrefs.edit().putLong(Constants.KEY_DISCOUNT_TIME, System.currentTimeMillis())
