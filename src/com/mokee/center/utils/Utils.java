@@ -302,7 +302,7 @@ public class Utils {
     public static boolean Discounting(SharedPreferences mPrefs) {
         long flashTime = mPrefs.getLong(Constants.KEY_FLASH_TIME, 0);
         Float amount = mPrefs.getFloat(Constants.KEY_DONATE_AMOUNT, 0);
-        if (flashTime != 0 && amount <= Constants.DONATION_REQUEST) {
+        if (flashTime != 0 && amount < Constants.DONATION_REQUEST) {
             if (flashTime * 1000 + DateUtils.DAY_IN_MILLIS * 30 * 3 < System.currentTimeMillis()) {
                 long discountTime = mPrefs.getLong(Constants.KEY_DISCOUNT_TIME, 0);
                 if (discountTime == 0 || discountTime + DateUtils.DAY_IN_MILLIS * 30 < System.currentTimeMillis()) {
