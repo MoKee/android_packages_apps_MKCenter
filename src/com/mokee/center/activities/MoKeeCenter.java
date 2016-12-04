@@ -55,7 +55,7 @@ import com.mokee.center.utils.Utils;
 
 public class MoKeeCenter extends FragmentActivity {
 
-    public static final String BR_ONNewIntent = "onNewIntent";
+    public static final String BR_ONNewIntent = "com.mokee.center.action.ON_NEW_INTENT";
 
     private ActionBar bar;
     private ViewPager mViewPager;
