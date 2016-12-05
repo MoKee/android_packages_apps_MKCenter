@@ -42,7 +42,7 @@
 
     </LinearLayout>
 
-    <com.mokee.helper.widget.NotifyingWebView
+    <com.mokee.center.widget.NotifyingWebView
         android:id="@+id/changelog"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
