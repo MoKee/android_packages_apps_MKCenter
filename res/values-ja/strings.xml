@@ -67,12 +67,9 @@
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">アリペイ（支付宝）</string>
   <string name="donate_money_toast_success">寄付していただきありがとうございます!</string>
-  <string name="donate_money_name">MoKee OpenSourceに寄付する</string>
-  <string name="donate_money_description">MoKee OpenSourceに寄付する</string>
   <string name="donate_money_again">もう一度寄付する</string>
-  <string name="remove_ads_name">広告を削除</string>
-  <string name="remove_ads_description">広告を削除</string>
-  <string name="remove_ads_dialog_title">常に広告を削除</string>
+  <string name="remove_ads_title">広告を削除</string>
+  <string name="remove_ads_request_price">寄付済み %1$d元、不足分 %2$d元</string>
   <!-- Update -->
   <string name="unknown">不明</string>
   <string name="dialog_update">更新</string>
@@ -80,8 +77,10 @@
   <string name="dialog_ok">はい</string>
   <string name="dialog_cancel">キャンセル</string>
   <string name="dialog_close">閉じる</string>
+  <string name="no_available_updates_intro">利用可能なアップデートを見つけられませんでした。新しいアップデートを手動で確認するには、更新ボタンを使用してください。</string>
   <string name="new_update_summary">新しい</string>
   <string name="old_update_summary">古い</string>
+  <string name="update_check_title">アップデートの確認頻度</string>
   <string name="check_manual">マニュアル</string>
   <string name="alert_title">注意</string>
   <string name="update_type_title">アップデートタイプ</string>
@@ -108,4 +107,5 @@
   <!-- Apply install and update strings -->
   <!-- experimenter mode -->
   <!-- Xposed framework check -->
+  <!-- Discount -->
 </resources>

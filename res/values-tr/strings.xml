@@ -29,6 +29,7 @@
   <string name="mokee_issues_title">MoKee Hata Takipçisi</string>
   <string name="mokee_issues_summary">Hata takipçisini ziyaret et</string>
   <string name="mokee_changelog_title">MoKee Değişim Günlüğü</string>
+  <string name="mokee_changelog_summary">Günlük değişikliği görüntüle</string>
   <string name="mokee_build_status_title">MoKee Sürüm Durumu</string>
   <string name="mokee_build_status_summary">Sürüm Durumunu İncele</string>
   <string name="mokee_github_title">MoKee Github</string>
@@ -42,6 +43,7 @@
   <!-- Base Info -->
   <string name="mokee_version_info_title">Versiyon Bilgisi</string>
   <string name="mokee_version_title">MoKee Versiyonu</string>
+  <string name="mokee_unique_id_title">Benzersiz kimlik</string>
   <string name="mokee_donate_info_title">Bağış bilgisi</string>
   <string name="mokee_version_type_title">Versiyon türü</string>
   <string name="mokee_last_check_title">Son kontrol</string>
@@ -69,16 +71,12 @@
   <string name="donate_dialog_via_alipay">AliPay(CNY)</string>
   <string name="donate_dialog_via_restore">Geri yükle</string>
   <string name="donate_money_toast_success">Bağış için teşekkür ederiz!</string>
-  <string name="donate_money_name">MoKee OpenSource\'a bağışta bulunun</string>
-  <string name="donate_money_description">MoKee OpenSource\'a bağışta bulunun</string>
   <string name="donate_money_again">Tekrar bağışla</string>
   <string name="donate_money_restored_success">Geri yükleme Başarılı</string>
   <string name="donate_money_restored_failed">Aygıt bulunamadı</string>
   <string name="donate_money_restored_timeout">Bağlantı zaman aşımına ugradı lütfen tekrar deneyiniz</string>
   <string name="donate_money_info_null">Bağiş Yapılmadı</string>
-  <string name="remove_ads_name">Reklamları kaldır</string>
-  <string name="remove_ads_description">Reklamları kaldır</string>
-  <string name="remove_ads_dialog_title">Daima reklamları kaldır</string>
+  <string name="remove_ads_title">Reklamları kaldır</string>
   <!-- Update -->
   <string name="unknown">Bilinmiyor</string>
   <string name="dialog_update">Güncelle</string>
@@ -151,4 +149,5 @@
   <string name="show_exp_on">Deneysel ayarları etkinleştirildiniz!</string>
   <string name="show_exp_already">Gerek yok, zaten deneysel ayarları etkinleştirdiniz.</string>
   <!-- Xposed framework check -->
+  <!-- Discount -->
 </resources>

@@ -17,22 +17,12 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Fragment -->
-  <string name="mokee_updater_title">Updater</string>
-  <!-- WebSite -->
-  <!-- Base Info -->
-  <!-- Version -->
-  <!-- State -->
-  <!-- Menu -->
-  <!-- Donate -->
-  <!-- Update -->
-  <!-- ChangeLog -->
-  <!-- checking -->
-  <!-- Downloads -->
-  <!-- deleting -->
-  <!-- pref -->
-  <!-- Apply install and update strings -->
-  <!-- experimenter mode -->
-  <!-- Xposed framework check -->
-  <!-- Discount -->
+  <plurals name="not_new_updates_found_body">
+    <item quantity="one"><xliff:g id="count">%d</xliff:g> ಅಪ್ಡೇಟ್ ಲಭ್ಯವಿದೆ ಡೌನ್ಲೋಡ್</item>
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> ಅಪ್ಡೇಟ್ ಲಭ್ಯವಿದೆ ಡೌನ್ಲೋಡ್</item>
+  </plurals>
+  <plurals name="not_additional_count">
+    <item quantity="one"><xliff:g id="count">%d</xliff:g> ಹೆಚ್ಚು</item>
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> ಹೆಚ್ಚು</item>
+  </plurals>
 </resources>

@@ -72,8 +72,6 @@
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_restore">Obnovení</string>
   <string name="donate_money_toast_success">Děkujeme vám za váš příspěvek!</string>
-  <string name="donate_money_name">Přispět na MoKee OpenSource</string>
-  <string name="donate_money_description">Přispět na MoKee OpenSource</string>
   <string name="donate_money_again">Darovat znovu</string>
   <string name="donate_money_restored_success">Úspěšně obnoveno!</string>
   <string name="donate_money_restored_failed">Žádný záznam zařízení nenalezen.</string>
@@ -81,9 +79,7 @@
   <string name="donate_money_info">Celkem darováno %1$d CNY, více než %2$s dárců!</string>
   <string name="donate_money_info_with_rank">Daroval celkem CNY %1$d, více než %2$s dárců celkem, hodnost No.%3$d!</string>
   <string name="donate_money_info_null">Nebylo darováno</string>
-  <string name="remove_ads_name">Odstranit reklamy</string>
-  <string name="remove_ads_description">Odstranit reklamy</string>
-  <string name="remove_ads_dialog_title">Vždy odstranit reklamy</string>
+  <string name="remove_ads_title">Odstranit reklamy</string>
   <string name="remove_ads_request_price">Darováno %1$d CNY, zbývá CNY %2$d</string>
   <!-- Update -->
   <string name="unknown">Neznámá</string>
@@ -161,4 +157,5 @@
   <string name="show_exp_already">Není třeba, experimentální nastavení je již povoleno.</string>
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Xposed framework nainstalován, nemusíte znovu instalovat aplikaci po OTA aktualizaci.</string>
+  <!-- Discount -->
 </resources>

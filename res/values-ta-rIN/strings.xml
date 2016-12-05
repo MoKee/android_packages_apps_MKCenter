@@ -73,8 +73,6 @@
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_restore">மீட்டெடுத்தல்</string>
   <string name="donate_money_toast_success">உங்கள் நன்கொடை நன்றி!</string>
-  <string name="donate_money_name">திறந்த மூல MoKee க்கு நன்கொடை</string>
-  <string name="donate_money_description">திறந்த மூல MoKee க்கு நன்கொடை</string>
   <string name="donate_money_again">மீண்டும் நன்கொடை</string>
   <string name="donate_money_restored_success">வெற்றிகரமாக மீட்டெடுக்கப்பட்டது!</string>
   <string name="donate_money_restored_failed">சாதனம் சாதனை எதுவும் காணப்படவில்லை.</string>
@@ -82,9 +80,7 @@
   <string name="donate_money_info">நீங்கள் மொத்தம் CNY %1$d, உலகளவில் %2$s விட நன்கொடையாக கொடுக்கப்பட்டுள்ளது!</string>
   <string name="donate_money_info_with_rank">நீங்கள் மொத்தம் CNY %1$d, உலகளவில் %2$s விட நன்கொடையாக கொடுக்கப்பட்டுள்ளது, அந்தஸ்து %3$d!</string>
   <string name="donate_money_info_null">நீங்கள் நன்கொடையாக இல்லை</string>
-  <string name="remove_ads_name">விளம்பரங்களை அகற்று</string>
-  <string name="remove_ads_description">விளம்பரங்களை அகற்று</string>
-  <string name="remove_ads_dialog_title">எப்போதும் விளம்பரங்களை நீக்க</string>
+  <string name="remove_ads_title">விளம்பரங்களை அகற்று</string>
   <string name="remove_ads_request_price">நன்கொடையாக அளித்தது CNY%1$d, நிலுவையில் CNY%2$d</string>
   <!-- Update -->
   <string name="unknown">அறியாத</string>
@@ -164,4 +160,5 @@
   <string name="show_exp_already">தேவை இல்லை, நீங்கள் ஏற்கனவே சோதனை அமைப்புகளை இயக்கியுள்ளீர்கள்.</string>
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Xposed நிறுவப்பட்டுள்ளது, மிகையான புதுப்பித்தல் பயன்படுத்துவதற்கு பிறகு கட்டமைப்பு reflash தேவையில்லை.</string>
+  <!-- Discount -->
 </resources>

@@ -72,8 +72,6 @@
   <string name="donate_dialog_via_alipay">AliPay (CNY)</string>
   <string name="donate_dialog_via_restore">Wiederherstellen</string>
   <string name="donate_money_toast_success">Vielen Dank für Ihre Spende!</string>
-  <string name="donate_money_name">Spenden an MoKee OpenSource</string>
-  <string name="donate_money_description">Spenden an MoKee OpenSource</string>
   <string name="donate_money_again">Erneute Spende</string>
   <string name="donate_money_restored_success">Erfolgreich wiederhergestellt!</string>
   <string name="donate_money_restored_failed">Keine Geräteaufzeichnung gefunden.</string>
@@ -81,9 +79,7 @@
   <string name="donate_money_info">Sie spendeten insgesamt CNY %1$d, mehr als %2$s der Spender weltweit!</string>
   <string name="donate_money_info_with_rank">Sie spendeten insgesamt CNY %1$d, mehr als %2$s der Spender, weltweit Rang No.%3$d!</string>
   <string name="donate_money_info_null">Sie haben nicht gespendet</string>
-  <string name="remove_ads_name">Werbung entfernen</string>
-  <string name="remove_ads_description">Werbung entfernen</string>
-  <string name="remove_ads_dialog_title">Werbung dauerhaft entfernen</string>
+  <string name="remove_ads_title">Werbung entfernen</string>
   <string name="remove_ads_request_price">Gespendet CNY %1$d, Austehende CNY %2$d</string>
   <!-- Update -->
   <string name="unknown">Unbekannt</string>
@@ -161,4 +157,5 @@
   <string name="show_exp_already">Nicht nötig: Experimentelle Einstellungen sind bereits aktiviert.</string>
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Xposed Framework ist installiert, es muss nicht neu geflasht werden nach der Installation von inkrementellen Updates.</string>
+  <!-- Discount -->
 </resources>

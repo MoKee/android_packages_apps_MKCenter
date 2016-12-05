@@ -71,17 +71,13 @@
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_restore">Restore</string>
   <string name="donate_money_toast_success">Thanks !</string>
-  <string name="donate_money_name">Donate us</string>
-  <string name="donate_money_description">Donate us</string>
   <string name="donate_money_again">Donate again</string>
   <string name="donate_money_restored_success">Restored successfully!</string>
   <string name="donate_money_restored_failed">No device record found.</string>
   <string name="donate_money_restored_timeout">Connection timed out, please try again</string>
   <string name="donate_money_info">You donated a total of CNY %1$d, more than %2$s of donors globally!</string>
   <string name="donate_money_info_null">You haven\'t donated</string>
-  <string name="remove_ads_name">Remove Ads</string>
-  <string name="remove_ads_description">Remove Ads</string>
-  <string name="remove_ads_dialog_title">Always remove ads</string>
+  <string name="remove_ads_title">Remove Ads</string>
   <string name="remove_ads_request_price">Donated CNY %1$d, Pending CNY %2$d</string>
   <!-- Update -->
   <string name="unknown">Unknown</string>
@@ -158,4 +154,5 @@
   <string name="show_exp_on">You have enabled experimental settings!</string>
   <string name="show_exp_already">No need, you have already enabled experimental settings.</string>
   <!-- Xposed framework check -->
+  <!-- Discount -->
 </resources>

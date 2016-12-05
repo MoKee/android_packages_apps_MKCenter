@@ -72,8 +72,6 @@
   <string name="donate_dialog_via_alipay">AliPay (CNY)</string>
   <string name="donate_dialog_via_restore">Restaurer</string>
   <string name="donate_money_toast_success">Merci pour votre don!</string>
-  <string name="donate_money_name">Faire un don au Projet OpenSource MoKee</string>
-  <string name="donate_money_description">Faire un don au Projet OpenSource MoKee</string>
   <string name="donate_money_again">Faire un don</string>
   <string name="donate_money_restored_success">Restauration complète !</string>
   <string name="donate_money_restored_failed">Appareil de sauvegarde non trouvée.</string>
@@ -81,9 +79,7 @@
   <string name="donate_money_info">Vous avez fait un don total de %1$d CNY, soit plus que %2$s de tous les donateurs !</string>
   <string name="donate_money_info_with_rank">Vous avez donné un total de %1$d CNY, plus que %2$s des donateurs, rang n°%3$d!</string>
   <string name="donate_money_info_null">Vous n\'avez fait aucun don</string>
-  <string name="remove_ads_name">Enlever la publicité</string>
-  <string name="remove_ads_description">Enlever la publicité</string>
-  <string name="remove_ads_dialog_title">Retirez toujours les annonces</string>
+  <string name="remove_ads_title">Enlever la publicité</string>
   <string name="remove_ads_request_price">Don %1$d CNY, dans l\'attente de %2$d CNY</string>
   <!-- Update -->
   <string name="unknown">Inconnu</string>
@@ -161,4 +157,5 @@
   <string name="show_exp_already">Inutile, vous avez déjà activé les paramètres expérimentaux.</string>
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Xposed framework a été installé. Pas besoin de réinstaller le framework après une mise à jour partielle.</string>
+  <!-- Discount -->
 </resources>

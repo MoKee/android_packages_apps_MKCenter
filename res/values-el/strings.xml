@@ -67,12 +67,8 @@
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_money_toast_success">Σας ευχαριστούμε για τη δωρεά σας!</string>
-  <string name="donate_money_name">Δωρεά σε MoKee OpenSource</string>
-  <string name="donate_money_description">Δωρεά σε MoKee OpenSource</string>
   <string name="donate_money_again">Δωρίστε ξανά</string>
-  <string name="remove_ads_name">Αφαίρεση διαφημίσεων</string>
-  <string name="remove_ads_description">Αφαίρεση διαφημίσεων</string>
-  <string name="remove_ads_dialog_title">Να μην εμφανίζονται διαφημίσεις</string>
+  <string name="remove_ads_title">Αφαίρεση διαφημίσεων</string>
   <string name="remove_ads_request_price">Δωρήθηκαν CNY %1$d, Απομένουν CNY %2$d</string>
   <!-- Update -->
   <string name="unknown">Άγνωστο</string>
@@ -146,4 +142,5 @@
   <string name="show_exp_on">Έχετε ενεργοποιήσει τις πειραματικές ρυθμίσεις!</string>
   <string name="show_exp_already">Δεν χρειάζεται, έχετε ήδη ενεργοποιήσει τις πειραματικές ρυθμίσεις.</string>
   <!-- Xposed framework check -->
+  <!-- Discount -->
 </resources>

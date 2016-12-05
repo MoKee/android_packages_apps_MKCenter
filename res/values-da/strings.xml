@@ -72,8 +72,6 @@
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_restore">Gendan</string>
   <string name="donate_money_toast_success">Tak for dit bidrag!</string>
-  <string name="donate_money_name">Donér til MoKee OpenSource</string>
-  <string name="donate_money_description">Donér til MoKee OpenSource</string>
   <string name="donate_money_again">Donér igen</string>
   <string name="donate_money_restored_success">Gendannet!</string>
   <string name="donate_money_restored_failed">Ingen enhedsoptegnelse fundet.</string>
@@ -81,9 +79,7 @@
   <string name="donate_money_info">Du i alt doneret CNY %1$d, mere end %2$s af donorerne globalt!</string>
   <string name="donate_money_info_with_rank">Du donerede i alt CNY %1$d, mere end %2$s af donorerne globalt, rangering %3$d!</string>
   <string name="donate_money_info_null">Du ikke har doneret</string>
-  <string name="remove_ads_name">Fjern annoncer</string>
-  <string name="remove_ads_description">Fjern annoncer</string>
-  <string name="remove_ads_dialog_title">Fjern altid annoncer</string>
+  <string name="remove_ads_title">Fjern annoncer</string>
   <string name="remove_ads_request_price">Doneret CNY %1$d, Afventende CNY %2$d</string>
   <!-- Update -->
   <string name="unknown">Ukendt</string>
@@ -161,4 +157,5 @@
   <string name="show_exp_already">Unødvendigt, eksperimentalindstillingerne er allerede aktive.</string>
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Xposed framework installeret, intet behov for at reflashe framework efter anvendelse af trinvise opdateringer.</string>
+  <!-- Discount -->
 </resources>

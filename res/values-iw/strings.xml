@@ -72,8 +72,6 @@
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_restore">שחזר</string>
   <string name="donate_money_toast_success">תודה על תרומתך!</string>
-  <string name="donate_money_name">תרום ל MoKee בקוד פתוח</string>
-  <string name="donate_money_description">תרום ל MoKee בקוד פתוח</string>
   <string name="donate_money_again">תרום שוב</string>
   <string name="donate_money_restored_success">השחזור עבר בהצלחה!</string>
   <string name="donate_money_restored_failed">לא נמצאו רשומות התקן.</string>
@@ -81,9 +79,7 @@
   <string name="donate_money_info">תרמת סכום של CNY %1$d, יותר %2$s של תורמים באופן גלובלי!</string>
   <string name="donate_money_info_with_rank">תרמת סך של %1$d CNY, יותר מ%2$s מהתורמים בעולם, דירוג מס\' %3$d!</string>
   <string name="donate_money_info_null">לא תרמת</string>
-  <string name="remove_ads_name">הסר פרסומות</string>
-  <string name="remove_ads_description">הסר פרסומות</string>
-  <string name="remove_ads_dialog_title">הסר תמיד מודעות</string>
+  <string name="remove_ads_title">הסר פרסומות</string>
   <string name="remove_ads_request_price">נתרמו %1$d CNY, חסרים %2$d CNY</string>
   <!-- Update -->
   <string name="unknown">לא ידוע</string>
@@ -162,4 +158,5 @@
   <string name="show_exp_already">אין צורך, כבר הפעלת הגדרות ניסיוניות.</string>
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">סביבת Xposed מותקנת, אין צורך להתקין מחדש את הסביבה לאחר התקנה של עדכוני OTA.</string>
+  <!-- Discount -->
 </resources>

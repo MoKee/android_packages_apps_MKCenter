@@ -68,12 +68,8 @@
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_money_toast_success">Thank you for your donation!</string>
-  <string name="donate_money_name">Donate to MoKee OpenSource</string>
-  <string name="donate_money_description">Donate to MoKee OpenSource</string>
   <string name="donate_money_again">Donate again</string>
-  <string name="remove_ads_name">Remove ads</string>
-  <string name="remove_ads_description">Remove ads</string>
-  <string name="remove_ads_dialog_title">Always remove ads</string>
+  <string name="remove_ads_title">Remove ads</string>
   <string name="remove_ads_request_price">Donated CNY %1$d, Pending CNY %2$d</string>
   <!-- Update -->
   <string name="unknown">Unknown</string>
@@ -99,4 +95,5 @@
   <!-- Apply install and update strings -->
   <!-- experimenter mode -->
   <!-- Xposed framework check -->
+  <!-- Discount -->
 </resources>

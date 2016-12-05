@@ -73,8 +73,6 @@
   <string name="donate_dialog_via_alipay">支付寶</string>
   <string name="donate_dialog_via_restore">恢復</string>
   <string name="donate_money_toast_success">多謝你的捐贈！</string>
-  <string name="donate_money_name">捐助 MoKee OpenSource</string>
-  <string name="donate_money_description">捐贈 MoKee OpenSource</string>
   <string name="donate_money_again">再次捐贈</string>
   <string name="donate_money_restored_success">恢復成功 ！</string>
   <string name="donate_money_restored_failed">沒有找到設備記錄。</string>
@@ -82,9 +80,7 @@
   <string name="donate_money_info">你共捐贈了￥ %1$d 元，已超過全球 %2$s 的捐助者！</string>
   <string name="donate_money_info_with_rank">你共捐贈了￥ %1$d 元，已超過全球 %2$s 的捐助者，排名 No.%3$d ！</string>
   <string name="donate_money_info_null">你還沒捐助</string>
-  <string name="remove_ads_name">移除廣告</string>
-  <string name="remove_ads_description">移除廣告</string>
-  <string name="remove_ads_dialog_title">永久移除廣告</string>
+  <string name="remove_ads_title">移除廣告</string>
   <string name="remove_ads_request_price">已捐贈 %1$d 元，待捐贈 %2$d 元（貨幣單位：CNY）</string>
   <!-- Update -->
   <string name="unknown">不明</string>
@@ -166,4 +162,5 @@
   <string name="show_exp_already">不用了，你已經啟用實驗設定。</string>
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Xposed框架已安裝，增量更新後無需再刷新框架。</string>
+  <!-- Discount -->
 </resources>

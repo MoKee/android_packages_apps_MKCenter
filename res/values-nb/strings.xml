@@ -68,12 +68,8 @@
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_money_toast_success">Takk for din donasjon!</string>
-  <string name="donate_money_name">Gi din støtte til MoKee OpenSource</string>
-  <string name="donate_money_description">Gi din støtte til MoKee OpenSource</string>
   <string name="donate_money_again">Gi din støtte igjen</string>
-  <string name="remove_ads_name">Fjerne annonser</string>
-  <string name="remove_ads_description">Fjerne annonser</string>
-  <string name="remove_ads_dialog_title">Fjern alltid reklame</string>
+  <string name="remove_ads_title">Fjerne annonser</string>
   <!-- Update -->
   <string name="unknown">Ukjent</string>
   <string name="dialog_update">Oppdater</string>
@@ -139,4 +135,5 @@
   <string name="show_exp_on">Du har aktivert eksperimentelle innstillinger!</string>
   <string name="show_exp_already">Ikke nødvendig, du allerede har aktivert eksperimentelle innstillinger.</string>
   <!-- Xposed framework check -->
+  <!-- Discount -->
 </resources>

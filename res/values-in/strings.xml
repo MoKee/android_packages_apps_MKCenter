@@ -73,8 +73,6 @@
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_restore">Pulihkan</string>
   <string name="donate_money_toast_success">Terima kasih atas donasi Anda!</string>
-  <string name="donate_money_name">Donasi utk MoKee OpenSource</string>
-  <string name="donate_money_description">Donasi utk MoKee OpenSource</string>
   <string name="donate_money_again">Donasi lagii</string>
   <string name="donate_money_restored_success">Pemulihan berhasil!</string>
   <string name="donate_money_restored_failed">Tidak ada catatan perangkat ditemukan.</string>
@@ -82,9 +80,7 @@
   <string name="donate_money_info">Anda menyumbangkan total CNY %1$d, lebih dari %2$s dari donor secara global!</string>
   <string name="donate_money_info_with_rank">Anda menyumbangkan total CNY %1$d, lebih dari %2$s dari para penyumbang global, peringkat No.%3$d!</string>
   <string name="donate_money_info_null">Anda belum menyumbang</string>
-  <string name="remove_ads_name">Hapus iklan</string>
-  <string name="remove_ads_description">Hapus iklan</string>
-  <string name="remove_ads_dialog_title">Selalu hapus iklan</string>
+  <string name="remove_ads_title">Hapus iklan</string>
   <string name="remove_ads_request_price">Disumbangkan CNY %1$d, tertunda CNY %2$d</string>
   <!-- Update -->
   <string name="unknown">Tidak diketahui</string>
@@ -166,4 +162,5 @@
   <string name="show_exp_already">Tidak perlu, Anda telah mengaktifkan pengaturan eksperimental.</string>
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Xposed framework terpasang, tidak butuh untuk reflash framework setelah menerapkan pembaruan incremental.</string>
+  <!-- Discount -->
 </resources>

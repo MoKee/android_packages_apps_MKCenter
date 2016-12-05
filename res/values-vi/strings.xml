@@ -72,8 +72,6 @@
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_restore">Khôi phục</string>
   <string name="donate_money_toast_success">Cảm ơn sự ủng hộ của bạn!</string>
-  <string name="donate_money_name">Ủng hộ cho MoKee mã nguồn mở</string>
-  <string name="donate_money_description">Ủng hộ cho MoKee mã nguồn mở</string>
   <string name="donate_money_again">Quyên góp một lần nữa</string>
   <string name="donate_money_restored_success">Khôi phục thành công!</string>
   <string name="donate_money_restored_failed">Không có hồ sơ thiết bị tìm thấy.</string>
@@ -81,9 +79,7 @@
   <string name="donate_money_info">Bạn tặng tổng cộng của CNY %1$d, nhiều hơn %2$s của các nhà tài trợ toàn cầu!</string>
   <string name="donate_money_info_with_rank">Bạn tặng tổng cộng của CNY %1$d, nhiều hơn %2$s của các nhà tài trợ toàn cầu, xếp hạng Thứ %3$d!</string>
   <string name="donate_money_info_null">Bạn đã không tặng</string>
-  <string name="remove_ads_name">Xóa quảng cáo</string>
-  <string name="remove_ads_description">Xóa quảng cáo</string>
-  <string name="remove_ads_dialog_title">Luôn loại bỏ quảng cáo</string>
+  <string name="remove_ads_title">Xóa quảng cáo</string>
   <string name="remove_ads_request_price">Đã ủng hộ %1$d CNY, %2$d CNY đang chờ giải quyết</string>
   <!-- Update -->
   <string name="unknown">Không rõ</string>
@@ -161,4 +157,5 @@
   <string name="show_exp_already">Không cần thiết, bạn đã có cho phép cài đặt thử nghiệm.</string>
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Xposed framework đã cài đặt, không cần phải reflash framework sau khi áp dụng bản Cập Nhật gia tăng.</string>
+  <!-- Discount -->
 </resources>

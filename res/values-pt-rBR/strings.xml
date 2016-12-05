@@ -65,6 +65,7 @@
   <string name="menu_refresh">Recarregar</string>
   <string name="menu_delete_all">Excluir download</string>
   <string name="menu_remove_ads">Remover anúncios</string>
+  <string name="menu_restore">Restaurar a licença</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Doe para nós</string>
   <string name="donate_dialog_message">Diferentemente de projetos como Cygn ou MIUI, o MoKee OpenSource é um projeto puramente sem fins lucrativos nascido do hobby e da paixão. Para mantermos este projeto, tivemos que pôr nosso próprio dinheiro na maior parte do tempo ou depender de doações e anúncios. Suas doações podem ajudar a reduzir nossa carga financeira e sustentar o desenvolvimento futuro! Essa opção permite à você remover os anúncios da MoKee Center, ou use a opção \"Doar\" se preferir parcelar (anúncios serão removidos uma vez que se atinja o valor especificado). Por favor, faça uma cópia de segurança do arquivo mokee.license (na raiz da pasta sdcard, válido apenas ao dispositivo atual) uma vez feita a doação.</string>
@@ -72,8 +73,6 @@
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_restore">Restaurar</string>
   <string name="donate_money_toast_success">Obrigado por sua doação!</string>
-  <string name="donate_money_name">Doar para MoKee OpenSource</string>
-  <string name="donate_money_description">Doar para MoKee OpenSource</string>
   <string name="donate_money_again">Doar novamente</string>
   <string name="donate_money_restored_success">Restauração Concluída!</string>
   <string name="donate_money_restored_failed">Sem registros de dispositivo.</string>
@@ -81,9 +80,7 @@
   <string name="donate_money_info">Você doou um total de CNY %1$d, mais do que %2$s de doadores globalmente!</string>
   <string name="donate_money_info_with_rank">Você doou um total de CNY %1$d, mais do que %2$s de doadores globalmente, rank No.%3$d!</string>
   <string name="donate_money_info_null">Você ainda não doou</string>
-  <string name="remove_ads_name">Remover anúncios</string>
-  <string name="remove_ads_description">Remover anúncios</string>
-  <string name="remove_ads_dialog_title">Sempre remover anúncios</string>
+  <string name="remove_ads_title">Remover anúncios</string>
   <string name="remove_ads_request_price">Doado %1$d CNY, Pendente %2$d CNY</string>
   <!-- Update -->
   <string name="unknown">Desconhecido</string>
@@ -151,6 +148,10 @@
   <string name="pref_ota_check_summary">Obter atualizações incrementais para poupar tempo de download e largura de banda</string>
   <string name="pref_ota_check_donation_request_summary">Obter atualizações incrementais para poupar tempo de download e largura de banda (disponível após doação de %d CNY)</string>
   <string name="pref_ota_check_donation_request_pending_summary">Obter atualizações incrementais para salvar baixar tempo e largura de banda (doado %1$d, disponível para toda a vida após a doação de %2$d mais, moeda: CNY)</string>
+  <string name="pref_verify_rom">Verificação de atualizações</string>
+  <string name="pref_verify_rom_summary">Exibir somente as atualizações que são verificadas por outros usuários</string>
+  <string name="pref_verify_rom_donation_request_summary">Exibir somente as atualizações que são verificadas por outros usuários (disponíveis após a doação de CNY %d)</string>
+  <string name="pref_verify_rom_donation_request_pending_summary">Exibir somente as atualizações que são verificadas por outros usuários (doado %1$d, disponível para toda a vida após a doação de %2$d mais, moeda: CNY)</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Aplicar atualização</string>
   <string name="apply_update_dialog_text">Você irá atualizar para o <xliff:g id="filename">%s</xliff:g>.\n\nSe você pressionar Atualizar, o dispositivo irá reiniciar em recovery mode para instalar a atualização.\n\nAviso: Esse recurso requer uma recovery compatível ou a atualização deverá ser instalada manualmente.</string>
@@ -161,4 +162,5 @@
   <string name="show_exp_already">Não precisa, você já habilitou as configurações experimentais.</string>
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Xposed framework instalado, sem necessidade de reflash quadro depois de aplicar atualizações incrementais.</string>
+  <!-- Discount -->
 </resources>

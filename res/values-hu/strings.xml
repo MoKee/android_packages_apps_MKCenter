@@ -72,8 +72,6 @@
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_restore">Visszaállítás</string>
   <string name="donate_money_toast_success">Köszönjük a támogatását!</string>
-  <string name="donate_money_name">Támogasd a MoKee OpenSource-ot</string>
-  <string name="donate_money_description">Támogasd a MoKee OpenSource-ot</string>
   <string name="donate_money_again">Ismételt támogatás</string>
   <string name="donate_money_restored_success">Sikeresen visszaállítva!</string>
   <string name="donate_money_restored_failed">Nem található eszköz rögzítő.</string>
@@ -81,9 +79,7 @@
   <string name="donate_money_info">Te a lehető legnagyobb összeget adományoztad CNY-ból %1$d, ez több mint %2$s az adományozóink világszerte!</string>
   <string name="donate_money_info_with_rank">Te a lehető legnagyobb összeget adományoztad CNY-ból %1$d, ez több mint %2$s az adományozóink világszerte, rang No.%3$d!</string>
   <string name="donate_money_info_null">Még nem adományoztál</string>
-  <string name="remove_ads_name">Hírdetések eltávolítása</string>
-  <string name="remove_ads_description">Hírdetések eltávolítása</string>
-  <string name="remove_ads_dialog_title">Mindig távolítsa el a hirdetéseket</string>
+  <string name="remove_ads_title">Hírdetések eltávolítása</string>
   <string name="remove_ads_request_price">Adományoztál: %1$d CNY, Hátravan: %2$d CNY</string>
   <!-- Update -->
   <string name="unknown">Ismeretlen</string>
@@ -161,4 +157,5 @@
   <string name="show_exp_already">Már engedélyezted a kísérleti funkciókat.</string>
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Xposed keretrendszer telepítve, nem szükséges visszamásolni inkrementális frissítések alkalmazása után.</string>
+  <!-- Discount -->
 </resources>

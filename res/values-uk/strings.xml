@@ -72,8 +72,6 @@
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_restore">Відновити</string>
   <string name="donate_money_toast_success">Дякуємо вам за ваш внесок!</string>
-  <string name="donate_money_name">Пожертвувати MoKee OpenSource</string>
-  <string name="donate_money_description">Пожертвувати MoKee OpenSource</string>
   <string name="donate_money_again">Пожертвувати знову</string>
   <string name="donate_money_restored_success">Відновлено успішно!</string>
   <string name="donate_money_restored_failed">Не знайдено запису про пристрій.</string>
@@ -81,9 +79,7 @@
   <string name="donate_money_info">Ви пожертвували всього CNY %1$d, це більше, ніж %2$s людей!</string>
   <string name="donate_money_info_with_rank">Ви пожертвували всього CNY %1$d, це більше, ніж %2$s людей всього, Ваш ранг %3$d!</string>
   <string name="donate_money_info_null">Ви не пожертвували</string>
-  <string name="remove_ads_name">Прибрати рекламу</string>
-  <string name="remove_ads_description">Прибрати рекламу</string>
-  <string name="remove_ads_dialog_title">Завжди прибирати рекламу</string>
+  <string name="remove_ads_title">Прибрати рекламу</string>
   <string name="remove_ads_request_price">Пожертвувано: %1$d CNY, Потрібно: CNY %2$d</string>
   <!-- Update -->
   <string name="unknown">Невідомо</string>
@@ -161,4 +157,5 @@
   <string name="show_exp_already">Немає необхідності, експериментальні установки вже активовані.</string>
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Фреймворк Xposed встановлено, нема необхідності перевстановлювати його після застосування часткових оновлень.</string>
+  <!-- Discount -->
 </resources>

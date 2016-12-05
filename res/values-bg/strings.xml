@@ -72,8 +72,6 @@
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_restore">Възстанови</string>
   <string name="donate_money_toast_success">Благодарим Ви за вашето дарение!</string>
-  <string name="donate_money_name">Дарение за MoKee OpenSource</string>
-  <string name="donate_money_description">Дарение за MoKee OpenSource</string>
   <string name="donate_money_again">Дарете отново</string>
   <string name="donate_money_restored_success">Успешно възстановено!</string>
   <string name="donate_money_restored_failed">Няма запис в устройството.</string>
@@ -81,9 +79,7 @@
   <string name="donate_money_info">Дарени общо CNY %1$d, повече от %2$s на донорите в световен мащаб!</string>
   <string name="donate_money_info_with_rank">Ти дари общо CNY %1$d повече от %2$s на донорите в световен мащаб, ранг No.%3$d!</string>
   <string name="donate_money_info_null">Нямате дарения</string>
-  <string name="remove_ads_name">Премахване на реклами</string>
-  <string name="remove_ads_description">Премахване на реклами</string>
-  <string name="remove_ads_dialog_title">Винаги премахвайте рекламата</string>
+  <string name="remove_ads_title">Премахване на реклами</string>
   <string name="remove_ads_request_price">Дарени CNY %1$d, чакащи CNY %2$d</string>
   <!-- Update -->
   <string name="unknown">Неизвестно</string>
@@ -161,4 +157,5 @@
   <string name="show_exp_already">Няма нужда, има активирани експериментални настройки.</string>
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Xposed рамката е инсталирана, не е необходимо обновяване след прилагане на актуализации.</string>
+  <!-- Discount -->
 </resources>

@@ -65,6 +65,7 @@
   <string name="menu_refresh">Actualizar</string>
   <string name="menu_delete_all">Eliminar descarga</string>
   <string name="menu_remove_ads">Eliminar los anuncios</string>
+  <string name="menu_restore">Restaurar Licencia</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Hacer una donación</string>
   <string name="donate_dialog_message">A diferencia de compañías como CyanogenMod o MIUI, Mokee Open Source es un proyecto puramente sin ánimo de lucro que nace del hobby y la pasión. A fin de mantener este proyecto, tenemos que desembolsar nuestro propio dinero la mayor parte del tiempo o depender de las donaciones y anuncios. ¡Sus donaciones pueden ayudar a reducir nuestra carga financiera y sostener el desarrollo futuro! Esta opción le permite eliminar los anuncios en el Mokee Center utilizando la opción \"Donar\" y pagar por nuestro trabajo (los anuncios serán eliminados una vez que el total se ha alcanzado en el valor especificado). Por favor, haga una copia de seguridad del archivo mokee.license (en el directorio raíz de la tarjeta sd, el cual sólo es válido para el dispositivo actual) una vez que ha donado.</string>
@@ -72,8 +73,6 @@
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_restore">Restaurar</string>
   <string name="donate_money_toast_success">Gracias por tu donación!</string>
-  <string name="donate_money_name">Donar a MoKee OpenSource</string>
-  <string name="donate_money_description">Donar a MoKee OpenSource</string>
   <string name="donate_money_again">Donar otra vez</string>
   <string name="donate_money_restored_success">¡Restaurado con éxito!</string>
   <string name="donate_money_restored_failed">No hay registro de dispositivo encontrado.</string>
@@ -81,9 +80,7 @@
   <string name="donate_money_info">Donaste un total de CNY %1$d, más que %2$s de donantes a nivel mundial!</string>
   <string name="donate_money_info_with_rank">Donó un total de CNY %1$d, más %2$s de los donantes a nivel mundial, fila No.%3$d!</string>
   <string name="donate_money_info_null">No has donado</string>
-  <string name="remove_ads_name">Eliminar los anuncios</string>
-  <string name="remove_ads_description">Eliminar los anuncios</string>
-  <string name="remove_ads_dialog_title">Siempre eliminar anuncios</string>
+  <string name="remove_ads_title">Eliminar los anuncios</string>
   <string name="remove_ads_request_price">Donó un total de %1$d CNY, restan %2$d CNY</string>
   <!-- Update -->
   <string name="unknown">Desconocido</string>
@@ -151,6 +148,10 @@
   <string name="pref_ota_check_summary">Obtener actualizaciones incrementales para ahorrar ancho de banda y tiempo de descarga</string>
   <string name="pref_ota_check_donation_request_summary">Obtener actualizaciones incrementales para ahorrar tiempo de descarga y ancho de banda (disponible después de donar %d CNY)</string>
   <string name="pref_ota_check_donation_request_pending_summary">Descargar actualizaciones incrementales para ahorrar tiempo y ancho de banda (donado %1$d, disponible para toda la vida después de donar más, %2$d moneda: CNY)</string>
+  <string name="pref_verify_rom">Actualizaciones verificadas</string>
+  <string name="pref_verify_rom_summary">Mostrar sólo las actualizaciones verificadas por otros usuarios</string>
+  <string name="pref_verify_rom_donation_request_summary">Mostrar sólo actualizaciones que son verificadas por otros usuarios (disponibles después de donar %d CNY)</string>
+  <string name="pref_verify_rom_donation_request_pending_summary">Mostrar sólo actualizaciones verificadas por otros usuarios (donado %1$d, disponible de por vida después de donar %2$d más, moneda: CNY)</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Aplicar actualización</string>
   <string name="apply_update_dialog_text">Se actualizará a la versión <xliff:g id="filename">%s</xliff:g>.\n\nPulsando sobre \u00ABActualizar\u00BB, el dispositivo se reiniciará para instalar la actualización.\n\nAviso: Será necesario disponer de un recovery compatible o las actualizaciones deberán ser instaladas manualmente.</string>
@@ -161,4 +162,5 @@
   <string name="show_exp_already">No es necesario, ya ha activado las opciones de configuración experimental.</string>
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Xposed framework instalado, no es necesario instalar de nuevo después de aplicar actualizaciones incrementales.</string>
+  <!-- Discount -->
 </resources>

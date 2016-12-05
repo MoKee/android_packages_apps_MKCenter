@@ -72,12 +72,8 @@
   <string name="donate_dialog_via_paypal">تبرع باستخدام باي بال</string>
   <string name="donate_dialog_via_alipay">تبرع باستخدام مشترايات علي</string>
   <string name="donate_money_toast_success">شكراً لتبرعك!</string>
-  <string name="donate_money_name">تبرع لمشروع موكي مفتوح المصدر</string>
-  <string name="donate_money_description">تبرع لمشروع موكي مفتوح المصدر</string>
   <string name="donate_money_again">التبرع مره أخرى</string>
-  <string name="remove_ads_name">ازالة الاعلانات</string>
-  <string name="remove_ads_description">شرح ازالة الاعلانات</string>
-  <string name="remove_ads_dialog_title">إزالة الاعلانات نهائياً</string>
+  <string name="remove_ads_title">إزالة الإعلانات</string>
   <string name="remove_ads_request_price">تبرعت بقيمة %1$d CNY، ريثما قيمتها CNY %2$d</string>
   <!-- Update -->
   <string name="unknown">غير معروف</string>
@@ -155,4 +151,5 @@
   <string name="show_exp_already">لا داعي، لقد قمت بالفعل بتفعيل الإعدادات الاختبارية.</string>
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">إطار إكسبوسيد مثبتة بالفعل، تمكين التحديث سوف يبقى الإطار.</string>
+  <!-- Discount -->
 </resources>

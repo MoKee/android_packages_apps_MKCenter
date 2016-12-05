@@ -72,8 +72,6 @@
   <string name="donate_dialog_via_alipay">AliPay(CNY)</string>
   <string name="donate_dialog_via_restore">Аднавіць з рэзервовай копіі</string>
   <string name="donate_money_toast_success">Дзякуй Вам за ахвяраванне!</string>
-  <string name="donate_money_name">Ахвяраваць MoKee OpenSource</string>
-  <string name="donate_money_description">Ахвяраваць MoKee OpenSource</string>
   <string name="donate_money_again">Ахвяраваць зноў</string>
   <string name="donate_money_restored_success">Аднаўленне паспяхова завершана!</string>
   <string name="donate_money_restored_failed">Інфармацыі аб ахвяраваннях не знойдзена.</string>
@@ -81,9 +79,7 @@
   <string name="donate_money_info">Ваша ахвяраванне складае CYN: %1$d. Яно больш, чым %2$s з усіх ахвяравальнікаў!</string>
   <string name="donate_money_info_with_rank">Ваша ахвяраванне складае CYN: %1$d. Яно больш, чым %2$s з усіх ахвяравальнікаў! Ваш рэйтынг %3$d!</string>
   <string name="donate_money_info_null">Вы не рабілі ахвяраванняў</string>
-  <string name="remove_ads_name">Прыбраць рэкламу</string>
-  <string name="remove_ads_description">Прыбраць рэкламу</string>
-  <string name="remove_ads_dialog_title">Заўседы прыбiраць рэкламу</string>
+  <string name="remove_ads_title">Прыбраць рэкламу</string>
   <string name="remove_ads_request_price">Ахвяравана: %1$d CNY, Патрабуецца: CNY %2$d</string>
   <!-- Update -->
   <string name="unknown">Невядома</string>
@@ -161,4 +157,5 @@
   <string name="show_exp_already">Няма неабходнасці, эксперыментальныя параметры ўжо ўключаны.</string>
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Надбудова Xposed усталявана, не патрэбна наладжваць яе зноў, пасля устаноўкі Ota-аднаўленняў.</string>
+  <!-- Discount -->
 </resources>

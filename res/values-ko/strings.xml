@@ -72,8 +72,6 @@
   <string name="donate_dialog_via_alipay">알리페이</string>
   <string name="donate_dialog_via_restore">복구하기</string>
   <string name="donate_money_toast_success">기부 주셔서 감사합니다!</string>
-  <string name="donate_money_name">MoKee 오픈 소스 기부</string>
-  <string name="donate_money_description">MoKee 오픈 소스 기부</string>
   <string name="donate_money_again">기부 다시하기</string>
   <string name="donate_money_restored_success">성공적으로 복원!</string>
   <string name="donate_money_restored_failed">장치 레코드를 찾을 수 없습니다.</string>
@@ -81,9 +79,7 @@
   <string name="donate_money_info">You donated a total of CNY %1$d, more than %2$s of donors globally!</string>
   <string name="donate_money_info_with_rank">You donated a total of CNY %1$d, more than %2$s of donors globally, rank No.%3$d!</string>
   <string name="donate_money_info_null">기부안함</string>
-  <string name="remove_ads_name">광고 제거</string>
-  <string name="remove_ads_description">광고 제거</string>
-  <string name="remove_ads_dialog_title">항상 광고를 제거</string>
+  <string name="remove_ads_title">광고 제거</string>
   <string name="remove_ads_request_price">CNY %2$d 보류 CNY %1$d, 기증</string>
   <!-- Update -->
   <string name="unknown">미지</string>
@@ -162,4 +158,5 @@
   <string name="show_exp_already">이미 실험적인 설정입니다.</string>
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Xposed 프레임 워크가 설치되었습니다... 업데이트후 플래싱을 안해도 적용되어있습니다</string>
+  <!-- Discount -->
 </resources>

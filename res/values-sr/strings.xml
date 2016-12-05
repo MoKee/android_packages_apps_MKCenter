@@ -68,12 +68,8 @@
   <string name="donate_dialog_via_paypal">PayPal(USD)</string>
   <string name="donate_dialog_via_alipay">AliPay(CNY)</string>
   <string name="donate_money_toast_success">Хвала на донацији!</string>
-  <string name="donate_money_name">Донирајте MoKee OpenSource</string>
-  <string name="donate_money_description">Донирајте MoKee OpenSource</string>
   <string name="donate_money_again">Donirajte ponovo</string>
-  <string name="remove_ads_name">Уклони рекламе</string>
-  <string name="remove_ads_description">Уклони рекламе</string>
-  <string name="remove_ads_dialog_title">Увек уклањај рекламе</string>
+  <string name="remove_ads_title">Уклони рекламе</string>
   <string name="remove_ads_request_price">Донирано CNY %1$d, Потребно CNY %2$d</string>
   <!-- Update -->
   <string name="unknown">Непознато</string>
@@ -149,4 +145,5 @@
   <string name="show_exp_on">Омогућили сте експериментална подешавања!</string>
   <string name="show_exp_already">Није потребно. Већ сте омогућили експериментална подешавања.</string>
   <!-- Xposed framework check -->
+  <!-- Discount -->
 </resources>

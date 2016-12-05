@@ -68,12 +68,8 @@
   <string name="donate_dialog_via_paypal">PayPal(USD)</string>
   <string name="donate_dialog_via_alipay">AliPay(CNY)</string>
   <string name="donate_money_toast_success">Gràcies per la vostra donació!</string>
-  <string name="donate_money_name">Donació MoKee OpenSource</string>
-  <string name="donate_money_description">Donació MoKee OpenSource</string>
   <string name="donate_money_again">Donar de nou</string>
-  <string name="remove_ads_name">Treu els anuncis</string>
-  <string name="remove_ads_description">Treu els anuncis</string>
-  <string name="remove_ads_dialog_title">Sempre tregui anuncis</string>
+  <string name="remove_ads_title">Treu els anuncis</string>
   <string name="remove_ads_request_price">Donats CNY %1$d, pendent de CNY %2$d</string>
   <!-- Update -->
   <string name="unknown">Desconeguda</string>
@@ -151,4 +147,5 @@ desactivi aquesta opció.</string>
   <string name="show_exp_on">Ha permès  paràmetres experimentals.</string>
   <string name="show_exp_already">No hi ha necessitat, ja heu activat paràmetres experimentals.</string>
   <!-- Xposed framework check -->
+  <!-- Discount -->
 </resources>

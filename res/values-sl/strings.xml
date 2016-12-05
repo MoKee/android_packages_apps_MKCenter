@@ -67,12 +67,8 @@
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_money_toast_success">Zahvaljujemo se vam za vaš prispevek!</string>
-  <string name="donate_money_name">Prispevam k MoKee OpenSource</string>
-  <string name="donate_money_description">Prispevam k MoKee OpenSource</string>
   <string name="donate_money_again">Prispevaj ponovno</string>
-  <string name="remove_ads_name">Odstrani oglase</string>
-  <string name="remove_ads_description">Odstrani oglase</string>
-  <string name="remove_ads_dialog_title">Vedno odstrani oglase</string>
+  <string name="remove_ads_title">Odstrani oglase</string>
   <string name="remove_ads_request_price">Prispevano CNY %1$d, V teku CNY %2$d</string>
   <!-- Update -->
   <string name="unknown">Neznano</string>
@@ -120,7 +116,7 @@
   <string name="download_cancelled">Prenos preklican</string>
   <string name="download_already_running">Prenos se že izvaja</string>
   <string name="unable_to_download_file">Ni bilo mogoče prenesti posodobitvene datoteke</string>
-  <string name="not_download_success">Posodobitev prenesena uspešno</string>
+  <string name="not_download_success">Posodobitev uspešno prenesena</string>
   <string name="not_download_failure">Prenos posodobitve ni uspel</string>
   <string name="not_action_install_update">Ponovni zagon in namestitev</string>
   <string name="not_download_install_notice">Posodobitev <xliff:g id="filename">%s</xliff:g> je bila uspešno prenesena. Pri dotiku \'Reboot and install\', se bo naprava samodejno ponovno zagnala in namestila posodobitve.\n\nOpomba: Ta funkcija zahtava združliv Recovery, drugače prosim namestite ročno.</string>
@@ -148,4 +144,5 @@
   <string name="show_exp_on">Omogočili ste eksperimentalne nastavitve!</string>
   <string name="show_exp_already">Ni potrebno, ste že omogočili eksperimentalne nastavitve.</string>
   <!-- Xposed framework check -->
+  <!-- Discount -->
 </resources>
