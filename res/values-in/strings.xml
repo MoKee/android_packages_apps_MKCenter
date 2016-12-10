@@ -73,6 +73,7 @@
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_restore">Pulihkan</string>
   <string name="donate_money_toast_success">Terima kasih atas donasi Anda!</string>
+  <string name="donate_money_title">Donasi untuk MoKee Open Source</string>
   <string name="donate_money_again">Donasi lagii</string>
   <string name="donate_money_restored_success">Pemulihan berhasil!</string>
   <string name="donate_money_restored_failed">Tidak ada catatan perangkat ditemukan.</string>
@@ -163,4 +164,8 @@
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Xposed framework terpasang, tidak butuh untuk reflash framework setelah menerapkan pembaruan incremental.</string>
   <!-- Discount -->
+  <string name="discount_dialog_title">Waktu penawaran terbatas</string>
+  <string name="discount_dialog_message">Terima kasih untuk dukungan terus menerus terhadap MoKee Open Source. Sebagai tanda penghargaan, Anda berhak mendapatkan penawaran terbatas waktu. Dengan %1$d CNY, Anda dapat menikmati pembaruan inkremental, pembaruan terverify dan menghapus iklan dari pusat MoKee (Hemat %2$d CNY). Jika Anda ingin membayar nanti, Anda dapat menutup dialog ini dan buka pusat MoKee lagi ketika Anda siap.</string>
+  <string name="discount_dialog_expires">Penawaran berakhir dalam %s</string>
+  <string name="discount_dialog_cancel">Jangan ingatkan</string>
 </resources>

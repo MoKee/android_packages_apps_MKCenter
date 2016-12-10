@@ -80,6 +80,14 @@
   <string name="dialog_close">Close</string>
   <string name="no_available_updates_intro">The last check did not find any available updates. To manually check for new updates, use the Refresh button.</string>
   <string name="no_available_ota_intro">The last check did not find any available updates. To manually check for new updates, use the Refresh button. If you are running a version which is out of the supported incremental update date range, you should deselect the \"Incremental updates\" option.</string>
+  <string name="new_update_summary">New</string>
+  <string name="old_update_summary">Old</string>
+  <string name="update_check_title">Check update frequency</string>
+  <string name="check_manual">Manual</string>
+  <string name="nightly_alert">You have selected to include nightly updates in this list. These are unsupported and should be used with caution.</string>
+  <string name="experimenter_alert">You have selected to include experimental updates in this list. These are unsupported and meant for testing only, it should be used with caution.</string>
+  <string name="unofficial_alert">You have selected to include unofficial updates in this list. Keep in mind that these are supported by your device maintainer.</string>
+  <string name="all_alert">You have selected to include all updates (release, nightly) in this list. Take note that nightly updates are unsupported and should be used with caution.</string>
   <string name="alert_title">Caution</string>
   <!-- ChangeLog -->
   <string name="loading_changelog">Loading\u2026</string>

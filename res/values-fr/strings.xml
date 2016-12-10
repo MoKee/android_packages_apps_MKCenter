@@ -65,6 +65,7 @@
   <string name="menu_refresh">Actualiser</string>
   <string name="menu_delete_all">Supprimer le téléchargement</string>
   <string name="menu_remove_ads">Enlever la publicité</string>
+  <string name="menu_restore">Restaurer la license</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Faites-nous un don</string>
   <string name="donate_dialog_message">Contrairement aux entreprises comme Cygn ou MIUI, MoKee OpenSource est un projet purement à but non lucratif né de passe-temps et de passion. Afin de maintenir ce projet, nous devons la plupart du temps investir notre propre argent ou dépendre des dons et de la publicité. Vos dons peuvent aider à réduire notre charge financière et soutenir le développement futur ! Cette option vous permet de supprimer les annonces dans le Centre MoKee, utilisez plutôt l\'option de « Don » si vous préférez des versements (les annonces seront supprimés une fois que la somme a atteint la valeur spécifiée). Veuillez sauvegarder le fichier mokee.license (à la racine de la sdcard, valable uniquement pour le périphérique actuel) une fois que vous avez donné.</string>
@@ -72,6 +73,7 @@
   <string name="donate_dialog_via_alipay">AliPay (CNY)</string>
   <string name="donate_dialog_via_restore">Restaurer</string>
   <string name="donate_money_toast_success">Merci pour votre don!</string>
+  <string name="donate_money_title">Faire un don au projet OpenSource MoKee</string>
   <string name="donate_money_again">Faire un don</string>
   <string name="donate_money_restored_success">Restauration complète !</string>
   <string name="donate_money_restored_failed">Appareil de sauvegarde non trouvée.</string>
@@ -147,6 +149,10 @@
   <string name="pref_ota_check_summary">Obtenir des mises à jour incrémentielles pour économiser du temps et de la bande passante</string>
   <string name="pref_ota_check_donation_request_summary">Activer les mises à jour incrémentielles pour économiser du temps de téléchargement et de la bande passante (Disponible après avoir effectuer un don CNY %d)</string>
   <string name="pref_ota_check_donation_request_pending_summary">Obtenir des mises à jour partielles pour accélérer le chargement et diminuer la bande passante (donation %1$d, disponible à vie après une donation de %2$d en plus, Devise : CNY)</string>
+  <string name="pref_verify_rom">Mises à jour vérifiées</string>
+  <string name="pref_verify_rom_summary">Afficher uniquement les mises à jour qui sont vérifiées par d’autres utilisateurs</string>
+  <string name="pref_verify_rom_donation_request_summary">Afficher uniquement les mises à jour qui sont vérifiées par d’autres utilisateurs (disponible après un don %d CNY)</string>
+  <string name="pref_verify_rom_donation_request_pending_summary">Afficher uniquement les mises à jour qui sont vérifiées par d’autres utilisateurs (Don %1$d, disponible pour la durée de vie après un don de %2$d plus, monnaie : CNY)</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Appliquer la mise à jour</string>
   <string name="apply_update_dialog_text">Vous êtes sur le point de mettre à jour vers  <xliff:g id="filename">%s</xliff:g>.\n\nLorsque vous appuierez sur \"Mettre à jour\", votre appareil redémarrera automatiquement pour installer la mise à jour.\n\nRemarque\u00A0: Cette opération nécessite un recovery compatible, sinon les mises à jour devront être installées manuellement.</string>
@@ -158,4 +164,8 @@
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Xposed framework a été installé. Pas besoin de réinstaller le framework après une mise à jour partielle.</string>
   <!-- Discount -->
+  <string name="discount_dialog_title">Offre à durée limitée</string>
+  <string name="discount_dialog_message">Je vous remercie pour votre soutien continu envers MoKee Open Source. En guise de remerciements, vous avez droit à une offre à durée limitée. Avec %1$d CNY, vous pourrez profiter des mises à jour incrémentielles, vérifier les mises à jour et supprimez des annonces de MoKee Centre (économisez %2$d CNY). Si vous souhaitez payer par la suite, vous pouvez fermer cette boîte de dialogue et relancer MoKee Center à nouveau lorsque vous êtes prêt.</string>
+  <string name="discount_dialog_expires">L’offre se termine dans %s</string>
+  <string name="discount_dialog_cancel">Ne pas rappeler</string>
 </resources>

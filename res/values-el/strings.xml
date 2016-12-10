@@ -29,6 +29,7 @@
   <string name="mokee_issues_title">Κέντρο σφαλμάτων MoKee</string>
   <string name="mokee_issues_summary">Επισκεφθείτε το bug tracker</string>
   <string name="mokee_changelog_title">Αρχείο καταγραφής αλλαγών MoKee</string>
+  <string name="mokee_changelog_summary">Προβολή καθημερινών αλλαγών</string>
   <string name="mokee_build_status_title">Κατάσταση δημιουργίας MoKee</string>
   <string name="mokee_build_status_summary">Προβολή κατάστασης χτισίματος</string>
   <string name="mokee_github_title">MoKee Github</string>
@@ -42,6 +43,8 @@
   <!-- Base Info -->
   <string name="mokee_version_info_title">Πληροφορίες έκδοσης</string>
   <string name="mokee_version_title">Έκδοση MoKee</string>
+  <string name="mokee_unique_id_title">Μοναδικό ID</string>
+  <string name="mokee_donate_info_title">Πληροφορίες δωρεάς</string>
   <string name="mokee_version_type_title">Έκδοση τύπου</string>
   <string name="mokee_last_check_title">Τελευταίος έλεγχος</string>
   <string name="mokee_last_check_never">Ποτέ</string>
@@ -62,12 +65,22 @@
   <string name="menu_refresh">Ανανέωση</string>
   <string name="menu_delete_all">Διαγραφή κατεβασμένου αρχείου</string>
   <string name="menu_remove_ads">Αφαίρεση διαφημίσεων</string>
+  <string name="menu_restore">Επαναφορά άδειας</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Κάντε μας μια δωρεά</string>
+  <string name="donate_dialog_message">Σε αντίθεση με εταιρείες όπως η Cygn ή η MIUI, το project \"MoKee OpenSource\" είναι καθαρά μη κερδοσκοπικού χαρακτήρα. Δημιουργήθηκε ως χόμπυ και από μεράκι. Για να μπορέσουμε να συντηρήσουμε αυτό το project, τις περισσότερες φορές πρέπει να βάλουμε λεφτά απ\' την τσέπη μας, ή να βασιζόμαστε σε δωρεές και σε διαφημίσεις. Οι δωρεές σας ελαφραίνουν τον οικονομικό μας φόρτο και καθιστούν βιώσιμη τη μελλοντική ανάπτυξη του project! Με την επιλογή δωρεάς, μπορείτε να απαλλαγείτε απ\' τις διαφημίσεις στο κέντρο MoKee, ή επιλέξτε \"Donate\", εάν προτιμάτε να δωρίσετε κάποιο μικρότερο ποσό (όταν το συνολικό ποσό που έχετε δωρίσει φτάσει την προκαθορισμένη αξία, θα σταματήσουν να προβάλλονται διαφημίσεις). Παρακαλούμε, εάν επιλέξετε να κάνετε κάποια δωρεά, κάντε ένα backup στο αρχείο mokee. license (στον root directory της κάρτας sd - έγκυρο μόνο για την παρούσα συσκευή).</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
+  <string name="donate_dialog_via_restore">Επαναφορά</string>
   <string name="donate_money_toast_success">Σας ευχαριστούμε για τη δωρεά σας!</string>
+  <string name="donate_money_title">Κάντε δωρεά στο MoKee OpenSource</string>
   <string name="donate_money_again">Δωρίστε ξανά</string>
+  <string name="donate_money_restored_success">Αποκαταστάθηκε με επιτυχία!</string>
+  <string name="donate_money_restored_failed">Δεν βρέθηκαν εγγραφές συσκευής.</string>
+  <string name="donate_money_restored_timeout">Η σύνδεση έληξε, παρακαλώ προσπαθήστε ξανά</string>
+  <string name="donate_money_info">Δωρίσατε ένα ποσό CNY %1$d, περισσότερα από %2$s δωρεές παγκοσμίως!</string>
+  <string name="donate_money_info_with_rank">Δωρίσατε ένα ποσό CNY %1$d, περισσότερα από %2$s δωρεές παγκοσμίως, κατάταξη Νο.%3$d!</string>
+  <string name="donate_money_info_null">Δεν έχετε κάνει δωρεά</string>
   <string name="remove_ads_title">Αφαίρεση διαφημίσεων</string>
   <string name="remove_ads_request_price">Δωρήθηκαν CNY %1$d, Απομένουν CNY %2$d</string>
   <!-- Update -->
@@ -133,6 +146,13 @@
   <string name="delete_updates_success_message">Όλες οι κατεβασμένες ενημερώσεις διαγράφηκαν</string>
   <!-- pref -->
   <string name="pref_ota_check">Ενημερώσεις ΟΤΑ</string>
+  <string name="pref_ota_check_summary">Αποκτήστε ενημερώσεις ΟΤΑ για να εξοικονομήσετε χρόνο λήψης και δεδομένα</string>
+  <string name="pref_ota_check_donation_request_summary">Αποκτήστε ενημερώσεις ΟΤΑ για να εξοικονομήσετε χρόνο λήψης και δεδομένα (διαθέσιμο μετά τη δωρεά CNY %d)</string>
+  <string name="pref_ota_check_donation_request_pending_summary">Πάρτε ενημερώσεις OTA για να γλιτώσετε χρόνο λήψης και δεδομένα (δωρεά %1$d, διαθέσιμο για πάντα μετά από δωρεά %2$d περισσότερα, Νόμισμα: CNY)</string>
+  <string name="pref_verify_rom">Επαληθευμένες ενημερώσεις</string>
+  <string name="pref_verify_rom_summary">Εμφάνιση μόνο των ενημερώσεων που είναι επαληθευμένες από άλλους χρήστες</string>
+  <string name="pref_verify_rom_donation_request_summary">Εμφάνιση μόνο των ενημερώσεων που είναι επαληθευμένες από άλλους χρήστες (διαθέσιμο μετά από δωρεά CNY %d)</string>
+  <string name="pref_verify_rom_donation_request_pending_summary">Εμφάνιση μόνο των ενημερώσεων που είναι επαληθευμένες από άλλους χρήστες (δωρεά %1$d, διαθέσιμο για πάντα μετά από δωρεά %2$d περισσότερα, Currency: CNY)</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Εφαρμογή ενημέρωσης</string>
   <string name="apply_update_dialog_text">Πρόκειται να αναβαθμίσετε σε <xliff:g id="filename">%s</xliff:g>.\n\nΑν πατήσετε το πλήκτρο Ενημέρωση, η συσκευή θα κάνει επανεκκίνηση σε recovery mode για να εγκαταστήσετε την ενημέρωση.\n\nΣημείωση: Αυτή η λειτουργία απαιτεί συμβατό recovery αλλιώς η ενημέρωση θα πρέπει να εγκατασταθεί χειροκίνητα.</string>
@@ -142,5 +162,10 @@
   <string name="show_exp_on">Έχετε ενεργοποιήσει τις πειραματικές ρυθμίσεις!</string>
   <string name="show_exp_already">Δεν χρειάζεται, έχετε ήδη ενεργοποιήσει τις πειραματικές ρυθμίσεις.</string>
   <!-- Xposed framework check -->
+  <string name="installed_xposed_toast">Εγκαταστάθηκε xposed framework, δεν χρειάζεται η εγκατάσταση εκ νέου μετά από ενημερώσεις OTA.</string>
   <!-- Discount -->
+  <string name="discount_dialog_title">Προσφορά περιορισμένου χρόνου</string>
+  <string name="discount_dialog_message">Σας ευχαριστούμε για την συνεχή υποστήριξή σας προς την ανοικτή πηγή MoKee. Ως ένδειξη εκτίμησης, έχετε το δικαίωμα για μια προσφορά περιορισμένου χρόνου. Με %1$d CNY, μπορείτε να απολαύσετε σύντομες ενημερώσεις, επαληθευμένες ενημερώσεις και να αφαιρέσετε τις διαφημίσεις από το κέντρο MoKee (εξοικονόμηση %2$d CNY). Αν θα θέλατε να πληρώσετε αργότερα, μπορείτε να κλείσετε αυτό το παράθυρο διαλόγου και να ξαναρχίσει το MoKee κέντρο και πάλι όταν είστε έτοιμοι.</string>
+  <string name="discount_dialog_expires">Η προσφορά λήγει σε %s</string>
+  <string name="discount_dialog_cancel">Χωρίς υπενθύμιση</string>
 </resources>
