@@ -118,6 +118,14 @@ public class UpdatesRequest extends StringRequest {
             params.put("device_officail", String.valueOf(updateType));
             params.put("rom_all", "0");
         }
+        if (Utils.getPaidTotal(MKCenterApplication.getContext()) >= Constants.DONATION_REQUEST) {
+            String unique_id = Build.getUniqueID(MKCenterApplication.getContext());
+            params.put("user_id", unique_id);
+            String unique_id_external = Build.getUniqueID(MKCenterApplication.getContext(), 0);
+            if (!TextUtils.equals(unique_id, unique_id_external)) {
+                params.put("user_id_external", unique_id_external);
+            }
+        }
         return params;
     }
 }
