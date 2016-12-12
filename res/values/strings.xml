@@ -141,6 +141,7 @@
     <string name="download_running">In progress</string>
     <string name="download_cancelled">Download cancelled</string>
     <string name="download_already_running">A download is already running</string>
+    <string name="download_limited_mode">Downloading at limited speed, please donate to enjoy full speed.</string>
     <string name="unable_to_download_file">Unable to download the update file</string>
     <string name="not_download_success">Update downloaded successfully</string>
     <string name="not_download_failure">Update download was unsuccessful</string>

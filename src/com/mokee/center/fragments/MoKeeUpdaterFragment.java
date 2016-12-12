@@ -917,11 +917,15 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
         if (!MoKeeUtils.isOnline(mContext)) {
             SnackbarManager.show(Snackbar.with(mContext).text(R.string.data_connection_required).colorResource(R.color.snackbar_background));
             return;
-        }
-        if (mDownloading) {
+        } else if (mDownloading) {
             SnackbarManager.show(Snackbar.with(mContext).text(R.string.download_already_running)
                     .duration(Snackbar.SnackbarDuration.LENGTH_LONG).colorResource(R.color.snackbar_background));
             return;
+        } else {
+            if (Utils.getPaidTotal(mContext) < 10) {
+                SnackbarManager.show(Snackbar.with(mContext).text(R.string.download_limited_mode)
+                        .duration(Snackbar.SnackbarDuration.LENGTH_LONG).colorResource(R.color.snackbar_background));
+            }
         }
 
         // We have a match, get ready to trigger the download
