@@ -50,6 +50,7 @@
 
         <activity android:name=".activities.MoKeeCenter"
             android:hardwareAccelerated="true"
+            android:launchMode="singleTask"
             android:label="@string/mokee_center_title" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

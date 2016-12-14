@@ -158,10 +158,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
                 }
                 updateLayout();
             } else if (MoKeeCenter.BR_ONNewIntent.equals(action)) {
-                // 唤醒
-                if (intent.getBooleanExtra(UpdateCheckService.EXTRA_UPDATE_LIST_UPDATED, false)) {
-                    updateLayout();
-                }
+                updateLayout();
                 checkForDownloadCompleted(intent);
             }
         }
@@ -842,18 +839,15 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
         if (intent == null) {
             return;
         }
-
         long downloadId = intent.getLongExtra(UpdateCheckService.EXTRA_FINISHED_DOWNLOAD_ID, -1);
         if (downloadId < 0) {
             return;
         }
-
         String fullPathName = intent
                 .getStringExtra(UpdateCheckService.EXTRA_FINISHED_DOWNLOAD_PATH);
         if (fullPathName == null) {
             return;
         }
-
         String fileName = new File(fullPathName).getName();
 
         // Find the matching preference so we can retrieve the ItemInfo
