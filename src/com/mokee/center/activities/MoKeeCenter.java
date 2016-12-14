@@ -24,7 +24,6 @@ import android.app.AlertDialog.Builder;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.mokee.utils.MoKeeUtils;
 import android.os.Bundle;
 import android.os.UserHandle;
@@ -92,9 +91,9 @@ public class MoKeeCenter extends FragmentActivity {
 
     @Override
     protected void onNewIntent(Intent intent) {
-        // super.onNewIntent(intent);
+        super.onNewIntent(intent);
+        setIntent(intent);
         Intent send = new Intent(BR_ONNewIntent);
-        send.putExtra(UpdateCheckService.EXTRA_UPDATE_LIST_UPDATED, intent.getBooleanExtra(UpdateCheckService.EXTRA_UPDATE_LIST_UPDATED, false));
         send.putExtra(UpdateCheckService.EXTRA_FINISHED_DOWNLOAD_ID, intent.getLongExtra(UpdateCheckService.EXTRA_FINISHED_DOWNLOAD_ID, -1));
         send.putExtra(UpdateCheckService.EXTRA_FINISHED_DOWNLOAD_PATH, intent.getStringExtra(UpdateCheckService.EXTRA_FINISHED_DOWNLOAD_PATH));
         sendBroadcastAsUser(send, UserHandle.CURRENT);
@@ -106,7 +105,7 @@ public class MoKeeCenter extends FragmentActivity {
         final TextView mRequest = (TextView) donateView.findViewById(R.id.request);
         final SeekBar mSeekBar = (SeekBar) donateView.findViewById(R.id.price);
         mSeekBar.setMax(Constants.DONATION_MAX - Constants.DONATION_REQUEST_MIN);
-        mSeekBar.setOnSeekBarChangeListener(new OnSeekBarChangeListener(){
+        mSeekBar.setOnSeekBarChangeListener(new OnSeekBarChangeListener() {
 
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {

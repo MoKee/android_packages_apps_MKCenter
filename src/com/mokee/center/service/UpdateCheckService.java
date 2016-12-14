@@ -74,7 +74,6 @@ public class UpdateCheckService extends IntentService
     public static final String EXTRA_NEW_UPDATE_COUNT = "new_update_count";
 
     // add intent extras
-    public static final String EXTRA_UPDATE_LIST_UPDATED = "update_list_updated";
     public static final String EXTRA_FINISHED_DOWNLOAD_ID = "download_id";
     public static final String EXTRA_FINISHED_DOWNLOAD_PATH = "download_path";
 
@@ -135,7 +134,6 @@ public class UpdateCheckService extends IntentService
             // There are updates available
             // The notification should launch the main app
             Intent i = new Intent(Constants.ACTION_MOKEE_CENTER);
-            i.putExtra(EXTRA_UPDATE_LIST_UPDATED, true);
             PendingIntent contentIntent = PendingIntent.getActivity(this, 0, i,
                     PendingIntent.FLAG_ONE_SHOT);
 
