@@ -65,6 +65,7 @@
   <string name="menu_refresh">Aggiorna</string>
   <string name="menu_delete_all">Elimina download</string>
   <string name="menu_remove_ads">Rimuovi pubblicità</string>
+  <string name="menu_restore">Ripristina la licenza</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Dona a noi</string>
   <string name="donate_dialog_message">A differenza di aziende come Cygn o MIUI, MoKee OpenSource è un progetto puramente non-profit nato per hobby e passione. Al fine di mantenere questo progetto, dobbiamo sborsare nostri soldi la maggior parte delle volte o fare affidamento a donazioni e pubblicità. Le vostre donazioni possono aiutare a ridurre il nostro carico finanziario e sostenere lo sviluppo futuro! Questa opzione consente di rimuovere gli annunci dal centro MoKee, oppure utilizza l\'opzione \"Dona\" invece, se si preferiscono le rate (gli annunci verranno rimossi una volta che il totale ha raggiunto il valore specificato). Si prega di effettuare il backup del file mokee.license (nella directory principale della sdcard, valido solo per il dispositivo corrente) una volta che hai donato.</string>
@@ -72,6 +73,7 @@
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_restore">Ripristina</string>
   <string name="donate_money_toast_success">Grazie per la tua donazione!</string>
+  <string name="donate_money_title">Dona a Mokee Opensource</string>
   <string name="donate_money_again">Dona di nuovo</string>
   <string name="donate_money_restored_success">Ripristinato con successo!</string>
   <string name="donate_money_restored_failed">Nessun record di dispositivo trovato.</string>
@@ -147,6 +149,10 @@
   <string name="pref_ota_check_summary">Ottieni gli aggiornamenti incrementali per risparmiare tempo di download e larghezza di banda</string>
   <string name="pref_ota_check_donation_request_summary">Ottieni gli aggiornamenti incrementali per risparmiare tempo di download e larghezza di banda(disponibile dopo aver donato CNY %d)</string>
   <string name="pref_ota_check_donation_request_pending_summary">Scarica aggiornamenti incrementali per risparmiare tempo e banda (Donato %1$d, disponibile a vita dopo una donazione di %2$d , valuta: CNY)</string>
+  <string name="pref_verify_rom">Verifica aggiornamenti</string>
+  <string name="pref_verify_rom_summary">Visualizzare solo gli aggiornamenti che sono stati verificati da altri utenti</string>
+  <string name="pref_verify_rom_donation_request_summary">Visualizzare solo gli aggiornamenti che vengono verificati da altri utenti (disponibili dopo la donazione CNY %d)</string>
+  <string name="pref_verify_rom_donation_request_pending_summary">Visualizzare solo gli aggiornamenti che vengono verificati da altri utenti (Dopo la donazione di %1$d, disponibile per tutta la vita dopo la donazione di %2$d, Valuta: CNY)</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Applica l\'aggiornamento</string>
   <string name="apply_update_dialog_text">Si sta per aggiornare a <xliff:g id="filename">%s</xliff:g>.\n\nPremendo Aggiorna, il dispositivo verrà riavviato in modalità recovery per l\'installazione dell\'aggiornamento\n\nNota: questa caratteristica richiede una recovery compatibile; in caso contrario sarà necessario installare gli aggiornamenti manualmente.</string>
@@ -158,4 +164,8 @@
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Xposed framework installato, non necessita nuova installazione dopo aggiornamenti incrementali.</string>
   <!-- Discount -->
+  <string name="discount_dialog_title">Offerta a tempo limitato</string>
+  <string name="discount_dialog_message">Grazie per il vostro continuo sostegno verso MoKee Open Source. Come segno di apprezzamento, hai diritto a un\'offerta limitata nel tempo. Con %1$d CNY, si possono godere di aggiornamenti incrementali, verifica degli aggiornamenti e rimozione degli annunci da MoKee Centre (Risparmia %2$d CNY). Se si desidera pagare più tardi, puoi chiudere questa finestra di dialogo e rilanciare MoKee Centre nuovamente quando si è pronti.</string>
+  <string name="discount_dialog_expires">L\'offerta scade tra %s</string>
+  <string name="discount_dialog_cancel">Non ricordarmelo</string>
 </resources>

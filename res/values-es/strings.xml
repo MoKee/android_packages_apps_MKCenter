@@ -50,7 +50,7 @@
   <string name="mokee_last_check_never">Nunca</string>
   <!-- Version -->
   <string name="mokee_info_default">Desconocido</string>
-  <string name="mokee_version_type_release">Versión</string>
+  <string name="mokee_version_type_release">Lanzamiento</string>
   <string name="mokee_version_type_history">Historial</string>
   <string name="mokee_version_type_experimental">Experimental</string>
   <string name="mokee_version_type_nightly">Nocturna</string>
@@ -73,6 +73,7 @@
   <string name="donate_dialog_via_alipay">AliPay(CNY)</string>
   <string name="donate_dialog_via_restore">Restaurar</string>
   <string name="donate_money_toast_success">Gracias por tu donación!</string>
+  <string name="donate_money_title">Donar a MoKee Open Source</string>
   <string name="donate_money_again">Donar otra vez</string>
   <string name="donate_money_restored_success">¡Restaurado con éxito!</string>
   <string name="donate_money_restored_failed">No se han encontrado dispositivos.</string>
@@ -163,4 +164,8 @@
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Xposed framework instalado, no es necesario volver a instalar después de aplicar las actualizaciones incrementales.</string>
   <!-- Discount -->
+  <string name="discount_dialog_title">Oferta por tiempo limitado</string>
+  <string name="discount_dialog_message">Gracias por tu apoyo continuo hacia MoKee Open Source. Como muestra de agradecimiento, tienes derecho a una oferta de tiempo limitado. Con %1$d CNY, podrás disfrutar de actualizaciones incrementales, verificar actualizaciones y quitar los anuncios del centro MoKee (ahorre %2$d CNY). Si deseas pagar más adelante, puedes cerrar este cuadro de diálogo y reabrir el centro MoKee otra vez cuando estés listo.</string>
+  <string name="discount_dialog_expires">La oferta caduca en %s</string>
+  <string name="discount_dialog_cancel">No recordar</string>
 </resources>

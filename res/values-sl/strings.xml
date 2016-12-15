@@ -29,6 +29,7 @@
   <string name="mokee_issues_title">MoKee sledenje napak</string>
   <string name="mokee_issues_summary">Obišči skupnost</string>
   <string name="mokee_changelog_title">MoKee dnevnik sprememb</string>
+  <string name="mokee_changelog_summary">Pregled dnevnih sprememb</string>
   <string name="mokee_build_status_title">MoKee stanje izdaje</string>
   <string name="mokee_build_status_summary">Prikaže informacije o izdaji</string>
   <string name="mokee_github_title">MoKee Github</string>
@@ -42,6 +43,8 @@
   <!-- Base Info -->
   <string name="mokee_version_info_title">Informacije o različici</string>
   <string name="mokee_version_title">MoKee različica</string>
+  <string name="mokee_unique_id_title">Edinstven ID</string>
+  <string name="mokee_donate_info_title">Info o prispevkih</string>
   <string name="mokee_version_type_title">Tip različice</string>
   <string name="mokee_last_check_title">Zadnje preverjanje</string>
   <string name="mokee_last_check_never">Nikoli</string>
@@ -68,6 +71,10 @@
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_money_toast_success">Zahvaljujemo se vam za vaš prispevek!</string>
   <string name="donate_money_again">Prispevaj ponovno</string>
+  <string name="donate_money_restored_timeout">Povezava potekla, prosimo poskusite znova</string>
+  <string name="donate_money_info">Skupaj ste podarili %1$d CNY, več kot %2$s donatorjev v svetovnem merilu!</string>
+  <string name="donate_money_info_with_rank">Skupno ste prispevali CNY %1$d, več kot %2$s donatorjev v svetovnem merilu, uvrstitev št.%3$d!</string>
+  <string name="donate_money_info_null">Niste še prispevali</string>
   <string name="remove_ads_title">Odstrani oglase</string>
   <string name="remove_ads_request_price">Prispevano CNY %1$d, V teku CNY %2$d</string>
   <!-- Update -->
@@ -135,6 +142,7 @@
   <string name="pref_ota_check">Delne posodobitve</string>
   <string name="pref_ota_check_summary">Z delnimi posodobitvami priihranite čas in pasovno širino</string>
   <string name="pref_ota_check_donation_request_summary">Z delnimi posodobitvami prihranite čas prenosa in prenos podatkov (na voljo po prispevku CNY %d)</string>
+  <string name="pref_ota_check_donation_request_pending_summary">Z delnimi posodobitvami prihranite čas prenosa in prenos podatkov (prispevali ste %1$d, na voljo doživljensko po prispevku %2$d več, valuta: CNY)</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Uveljavi posodbitev</string>
   <string name="apply_update_dialog_text">Ste tik pred posodobitvijo na <xliff:g id="filename">%s</xliff:g>.\n\nPri dotiku na posodobi, se bo naprava samodejno ponovno zagnala in namestila posodobitve.\n\nOpomba: Ta funkcija zahtava združliv Recovery, drugače prosim namestite ročno.</string>
@@ -144,5 +152,6 @@
   <string name="show_exp_on">Omogočili ste eksperimentalne nastavitve!</string>
   <string name="show_exp_already">Ni potrebno, ste že omogočili eksperimentalne nastavitve.</string>
   <!-- Xposed framework check -->
+  <string name="installed_xposed_toast">Xposed framework nameščen, osvežitev frameworka ni potrebna po namestitvi delne posodobitve.</string>
   <!-- Discount -->
 </resources>
