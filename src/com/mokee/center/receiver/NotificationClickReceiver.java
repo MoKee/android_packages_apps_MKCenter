@@ -33,7 +33,7 @@ public class NotificationClickReceiver extends BroadcastReceiver {
         Intent i = new Intent(Constants.ACTION_MOKEE_CENTER);
         i.putExtras(extras);
         i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_SINGLE_TOP
-                | Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_EXCLUDE_FROM_RECENTS);
+                | Intent.FLAG_ACTIVITY_CLEAR_TOP);
         context.startActivityAsUser(i, UserHandle.CURRENT);
     }
 }
