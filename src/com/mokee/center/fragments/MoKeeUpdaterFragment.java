@@ -916,7 +916,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
                     .duration(Snackbar.SnackbarDuration.LENGTH_LONG).colorResource(R.color.snackbar_background));
             return;
         } else {
-            if (Utils.getPaidTotal(mContext) < 10) {
+            if (!Utils.checkMinLicensed(mContext)) {
                 SnackbarManager.show(Snackbar.with(mContext).text(R.string.download_limited_mode)
                         .duration(Snackbar.SnackbarDuration.LENGTH_LONG).colorResource(R.color.snackbar_background));
             }
