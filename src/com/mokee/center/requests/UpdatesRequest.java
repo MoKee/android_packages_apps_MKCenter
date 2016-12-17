@@ -118,7 +118,7 @@ public class UpdatesRequest extends StringRequest {
             params.put("device_officail", String.valueOf(updateType));
             params.put("rom_all", "0");
         }
-        if (Utils.getPaidTotal(MKCenterApplication.getContext()) >= 10) {
+        if (Utils.checkMinLicensed(MKCenterApplication.getContext())) {
             String unique_id = Build.getUniqueID(MKCenterApplication.getContext());
             params.put("user_id", unique_id);
             String unique_id_external = Build.getUniqueID(MKCenterApplication.getContext(), 0);

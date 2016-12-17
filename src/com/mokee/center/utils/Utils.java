@@ -299,6 +299,10 @@ public class Utils {
         return getPaidTotal(mContext) >= Constants.DONATION_TOTAL;
     }
 
+    public static boolean checkMinLicensed(Context mContext) {
+        return getPaidTotal(mContext) >= Constants.DONATION_REQUEST;
+    }
+
     public static boolean Discounting(SharedPreferences mPrefs) {
         long flashTime = mPrefs.getLong(Constants.KEY_FLASH_TIME, 0);
         Float amount = mPrefs.getFloat(Constants.KEY_DONATE_AMOUNT, 0);
