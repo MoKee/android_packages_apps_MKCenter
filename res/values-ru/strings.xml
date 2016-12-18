@@ -73,6 +73,7 @@
   <string name="donate_dialog_via_alipay">AliPay(CNY)</string>
   <string name="donate_dialog_via_restore">Восстановление</string>
   <string name="donate_money_toast_success">Благодарим Вас за пожертвование!</string>
+  <string name="donate_money_title">Пожертвовать MoKee Open Source</string>
   <string name="donate_money_again">Пожертвовать снова</string>
   <string name="donate_money_restored_success">Восстановление прошло успешно!</string>
   <string name="donate_money_restored_failed">Не найдено записей об устройстве.</string>
@@ -127,6 +128,7 @@
   <string name="download_running">Выполняется</string>
   <string name="download_cancelled">Загрузка отменена</string>
   <string name="download_already_running">Загрузка уже выполняется</string>
+  <string name="download_limited_mode">Ваша скорость загрузки ограничена. Вы можете сделать пожертвование, чтобы перейти на неограниченную скорость.</string>
   <string name="unable_to_download_file">Невозможно загрузить файл обновления</string>
   <string name="not_download_success">Обновление успешно загружено</string>
   <string name="not_download_failure">Обновление не было загружено</string>
@@ -151,6 +153,7 @@
   <string name="pref_verify_rom">Проверенные обновления</string>
   <string name="pref_verify_rom_summary">Показывать только проверенные другими пользователями обновления</string>
   <string name="pref_verify_rom_donation_request_summary">Показывать только обновления, которые проверяются другими пользователями (доступно после пожертвования CNY %d)</string>
+  <string name="pref_verify_rom_donation_request_pending_summary">Показывать только обновления, проверенные другими пользователями (пожертвовано %1$d, можно перевести после пожертвования еще %2$d, текущая валюта: юань)</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Применить обновление</string>
   <string name="apply_update_dialog_text">Будет выполнено обновление до версии «<xliff:g id="filename">%s</xliff:g>».\n\nПри нажатии кнопки «Обновить» устройство перезагрузится в режим восстановления для установки этого обновления. \n\nПримечание: эта функция требует совместимого Recovery. В противном случае обновление будет необходимо установить вручную.</string>
@@ -162,4 +165,8 @@
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Xposed framework установлен, его не нужно переустанавливать после применения OTA-обновлений.</string>
   <!-- Discount -->
+  <string name="discount_dialog_title">Временное предложение</string>
+  <string name="discount_dialog_message">Благодарим вас за долгую поддержку проекта MoKee Open Source. Мы очень признательны вам, поэтому запускаем временное предложение. За %1$d юань вы можете установить дополнительные обновления, обновления, подтвержденные сообществом, а также убрать рекламу из приложения (со скидкой %2$d юань). Закройте окно и перезапустите приложение, если хотите заплатить позже.</string>
+  <string name="discount_dialog_expires">Предложение закончится через %s</string>
+  <string name="discount_dialog_cancel">Не напоминать</string>
 </resources>

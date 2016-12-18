@@ -128,6 +128,7 @@
   <string name="download_running">En cours</string>
   <string name="download_cancelled">Téléchargement annulé</string>
   <string name="download_already_running">Un téléchargement est déjà en cours</string>
+  <string name="download_limited_mode">Téléchargement à vitesse limitée, faites un don pour profiter pleinement de la vitesse.</string>
   <string name="unable_to_download_file">Impossible de télécharger le fichier de mise à jour</string>
   <string name="not_download_success">Mise à jour téléchargée avec succès</string>
   <string name="not_download_failure">Le téléchargement de la mise à jour a échoué</string>

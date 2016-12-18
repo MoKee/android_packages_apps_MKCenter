@@ -128,6 +128,7 @@
   <string name="download_running">Probíhá</string>
   <string name="download_cancelled">Stahování zrušeno</string>
   <string name="download_already_running">Stahování již běží</string>
+  <string name="download_limited_mode">Stahování omezenou rychlostí, prosím přispějte pro povolení plné rychlosti stahování.</string>
   <string name="unable_to_download_file">Nelze stáhnout soubor aktualizace</string>
   <string name="not_download_success">Aktualizace byla úspěšně stažena</string>
   <string name="not_download_failure">Stažení aktualizace bylo neúspěšné</string>
@@ -149,6 +150,9 @@
   <string name="pref_ota_check_summary">Stahovat OTA aktualizace, aby jste ušetřili data a čas</string>
   <string name="pref_ota_check_donation_request_summary">Stahovat OTA aktualizace, aby jste ušetřili data a čas (dostupné po darování %d CNY)</string>
   <string name="pref_ota_check_donation_request_pending_summary">Získat OTA aktualizaci, ušetřit čas a provoz (přispěl %1$d, k dispozici od dárců více než %2$d měn :. CNY)</string>
+  <string name="pref_verify_rom">Ověřené aktualizace</string>
+  <string name="pref_verify_rom_summary">Zobrazit jen aktualizace ověřené jinými uživateli</string>
+  <string name="pref_verify_rom_donation_request_summary">Zobrazit jen aktualizace ověřené jinými uživateli (k dispozici po darování CNY %d)</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Nainstalovat aktualizaci</string>
   <string name="apply_update_dialog_text">Chystáte se aktualizovat na <xliff:g id="filename">%s</xliff:g>.\n\nPokud stisknete Aktualizovat, telefon se restartuje do režimu recovery, kde bude pokračovat v instalaci aktualizace.\n\nPoznámka: tato funkce vyžaduje nainstalované kompatibilní recovery nebo je nutné instalaci provést ručně.</string>

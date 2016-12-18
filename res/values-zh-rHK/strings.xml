@@ -128,6 +128,7 @@
   <string name="download_running">進行中</string>
   <string name="download_cancelled">下載已取消</string>
   <string name="download_already_running">已經有一個下載在執行</string>
+  <string name="download_limited_mode">下載速度有限，請捐贈享受全速。</string>
   <string name="unable_to_download_file">無法下載更新檔案</string>
   <string name="not_download_success">已成功下載更新。</string>
   <string name="not_download_failure">更新下載失敗</string>
