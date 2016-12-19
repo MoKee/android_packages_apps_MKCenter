@@ -128,6 +128,7 @@
   <string name="download_running">Sedang berlangsung</string>
   <string name="download_cancelled">Unduhan dibatalkan</string>
   <string name="download_already_running">Unduhan sedang berjalan</string>
+  <string name="download_limited_mode">Mengunduh dengan kecepatan terbatas, silahkan donasi untuk menikmati kecepatan penuh.</string>
   <string name="unable_to_download_file">Tidak dapat mengunduh berkas pembaruan</string>
   <string name="not_download_success">Pembaruan berhasil diunduh</string>
   <string name="not_download_failure">Pengunduhan pembaruan tidak berhasil</string>

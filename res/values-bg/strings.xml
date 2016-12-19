@@ -57,12 +57,12 @@
   <string name="mokee_version_type_unofficial">Неофициален</string>
   <string name="mokee_version_type_all">Всички</string>
   <!-- State -->
-  <string name="downloaded_update_summary">Изтеглени</string>
-  <string name="installed_update_summary">Инсталирани</string>
+  <string name="downloaded_update_summary">Изтеглено</string>
+  <string name="installed_update_summary">Инсталирано</string>
   <string name="available_updates_title">Достъпни актуализации</string>
   <!-- Menu -->
   <string name="menu_donate">Дарение</string>
-  <string name="menu_refresh">Обнови</string>
+  <string name="menu_refresh">Опресняване</string>
   <string name="menu_delete_all">Изтриване на изтегляния</string>
   <string name="menu_remove_ads">Премахване на реклами</string>
   <!-- Donate -->
@@ -85,9 +85,9 @@
   <string name="unknown">Неизвестно</string>
   <string name="dialog_update">Ъпдейт</string>
   <string name="dialog_install">Обнови</string>
-  <string name="dialog_ok">ОК</string>
-  <string name="dialog_cancel">Отмени</string>
-  <string name="dialog_close">Затвори</string>
+  <string name="dialog_ok">Окей</string>
+  <string name="dialog_cancel">Отказ</string>
+  <string name="dialog_close">Затваряне</string>
   <string name="no_available_updates_intro">Последната проверка за актуализации не намери нищо. За ръчна проверка използвайте бутона за обновяване.</string>
   <string name="no_available_ota_intro">Последната проверка за активизация не откри нищо. За ръчна проверка натиснете бутона Обнови. Ако сте с версия за рома, която вече не се поддържа, махнете отметката от избор на \"Incremental updates\".</string>
   <string name="new_update_summary">Нов</string>
@@ -123,7 +123,7 @@
   <string name="confirm_download_cancelation_dialog_title">Отмени изтегляне</string>
   <string name="confirm_download_cancelation_dialog_message">Отмяна текущо изтегляне?</string>
   <string name="download_remaining"><xliff:g id="време" example="3 минути">%s</xliff:g> остават</string>
-  <string name="download_running">Извършва се</string>
+  <string name="download_running">Изпълнява се</string>
   <string name="download_cancelled">Изтегляне отменено</string>
   <string name="download_already_running">Изтеглянето вече се извършва</string>
   <string name="unable_to_download_file">Невъзможно е да се изтегли файла</string>
@@ -135,7 +135,7 @@
   <string name="md5_verification_failed">MD5 несъответствие</string>
   <string name="not_apk_action_install_update">Обнови</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Изтриване</string>
+  <string name="confirm_delete_dialog_title">Изтриване на файл</string>
   <string name="confirm_delete_updates_dialog_message">Изтриване на избраните?</string>
   <string name="confirm_delete_updates_all_dialog_message">Изтриване на всички ъпдейт файлове?</string>
   <string name="delete_single_update_success_message">Актуализация <xliff:g id="filename">%s</xliff:g> изтрита</string>
@@ -148,7 +148,7 @@
   <string name="pref_ota_check_donation_request_summary">Вземете Incremental актуализации за да спестите време и трафик (достъпен след дарение CNY%d)</string>
   <string name="pref_ota_check_donation_request_pending_summary">Вземете допълнителни актуализации и спестете време и трафик (Дарени %1$d за проекта след даряването %2$d повече, валута: CNY)</string>
   <!-- Apply install and update strings -->
-  <string name="apply_update_dialog_title">Прилагане</string>
+  <string name="apply_update_dialog_title">Прилагане на обновяване</string>
   <string name="apply_update_dialog_text">Предстои да надстроите до <xliff:g id="filename">%s </xliff:g>. \n\nIf натиснете актуализация, устройството ще се рестартира в рековъри режим за да инсталира актуализацията.\n\nNote: тази функция изисква съвместимо рековъри за да работи.</string>
   <string name="apply_update_ota_dialog_text">Предстои да надстроите до <xliff:g id="filename">%s </xliff:g>. \n\nIf натиснете актуализация, устройството ще се рестартира в рековъри режим и ще инсталира актуализацията.\n\nNote: тази функция изисква съвместимо рековъри, иначе трябва да се инсталира ръчно.\n\nТова е поетапно актуализиране, следователно всички промени, направени в системните файлове може да попречат на обновяването. Ако това се случи, флашнете пълен ROM вместо това.</string>
   <string name="apply_unable_to_reboot_toast">Не може да стартира рековъри</string>
@@ -158,4 +158,5 @@
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Xposed рамката е инсталирана, не е необходимо обновяване след прилагане на актуализации.</string>
   <!-- Discount -->
+  <string name="discount_dialog_cancel">Без напомняне</string>
 </resources>
