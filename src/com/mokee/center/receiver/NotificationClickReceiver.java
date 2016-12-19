@@ -29,9 +29,11 @@ public class NotificationClickReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
         // Bring the main app to the foreground
-        Bundle extras = intent.getExtras();
         Intent i = new Intent(Constants.ACTION_MOKEE_CENTER);
-        i.putExtras(extras);
+        Bundle extras = intent.getExtras();
+        if (extras != null) {
+            i.putExtras(extras);
+        }
         i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_SINGLE_TOP
                 | Intent.FLAG_ACTIVITY_CLEAR_TOP);
         context.startActivityAsUser(i, UserHandle.CURRENT);
