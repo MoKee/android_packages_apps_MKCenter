@@ -16,23 +16,4 @@
      You should have received a copy of the GNU General Public License
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Fragment -->
-  <string name="mokee_center_title">MoKee Center</string>
-  <!-- WebSite -->
-  <!-- Base Info -->
-  <!-- Version -->
-  <!-- State -->
-  <!-- Menu -->
-  <!-- Donate -->
-  <!-- Update -->
-  <!-- ChangeLog -->
-  <!-- checking -->
-  <!-- Downloads -->
-  <!-- deleting -->
-  <!-- pref -->
-  <!-- Apply install and update strings -->
-  <!-- experimenter mode -->
-  <!-- Xposed framework check -->
-  <!-- Discount -->
-</resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2"></resources>
