@@ -18,6 +18,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Fragment -->
+  <string name="mokee_center_title">MoKee Mərkəzi</string>
   <!-- WebSite -->
   <!-- Base Info -->
   <!-- Version -->
