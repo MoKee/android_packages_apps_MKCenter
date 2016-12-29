@@ -23,7 +23,7 @@
   <string name="mokee_updater_title">系统更新</string>
   <!-- WebSite -->
   <string name="mokee_website_title">项目首页</string>
-  <string name="mokee_website_summary">访问魔趣开源计划主页获得最新资讯</string>
+  <string name="mokee_website_summary">访问魔趣开源计划主页以获得最新资讯</string>
   <string name="mokee_forum_title">魔趣论坛</string>
   <string name="mokee_forum_summary">前往魔趣论坛寻求帮助或分享心得</string>
   <string name="mokee_issues_title">问题反馈</string>

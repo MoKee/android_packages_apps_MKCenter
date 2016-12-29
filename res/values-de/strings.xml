@@ -65,6 +65,7 @@
   <string name="menu_refresh">Aktualisieren</string>
   <string name="menu_delete_all">Download löschen</string>
   <string name="menu_remove_ads">Werbung entfernen</string>
+  <string name="menu_restore">Lizenz wiederherstellen</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Unterstützen Sie uns</string>
   <string name="donate_dialog_message">Im Gegensatz zu Unternehmen wie CyanogenMod oder MIUI, ist MoKee Opensource ein Non-Profit-Projekt, das aus einem Hobby und der Leidenschaft heraus geboren wurde. Um dieses Projekt zu erhalten, müssen wir die meiste Zeit unser eigenes Geld investieren und sind somit auf Spenden und Werbung angewiesen. Ihre Spende kann dazu beitragen, uns finanziell zu entlasten und die zukünftige Entwicklung zu gewährleisten! Diese Option ermöglicht ihnen, die Werbung im MoKee Center zu entfernen. Wenn Sie eine Teilzahlung bevorzugen, nutzen Sie bitte die Option “Spenden“ (Die Werbung wird entfernt, sobald der angegebene Schwellenwert erreicht wurde). Bitte sichern Sie die mokee.license Datei (im Root-Verzeichnis der SD-Karte, welche nur für das aktuelle Gerät gültig ist), sobald Sie gespendet haben.</string>
@@ -72,6 +73,7 @@
   <string name="donate_dialog_via_alipay">AliPay (CNY)</string>
   <string name="donate_dialog_via_restore">Wiederherstellen</string>
   <string name="donate_money_toast_success">Vielen Dank für Ihre Spende!</string>
+  <string name="donate_money_title">Spenden Sie an MoKee Open Source</string>
   <string name="donate_money_again">Erneute Spende</string>
   <string name="donate_money_restored_success">Erfolgreich wiederhergestellt!</string>
   <string name="donate_money_restored_failed">Keine Geräteaufzeichnung gefunden.</string>
@@ -126,6 +128,7 @@
   <string name="download_running">In Bearbeitung</string>
   <string name="download_cancelled">Download abgebrochen</string>
   <string name="download_already_running">Es ist bereits ein Download aktiv</string>
+  <string name="download_limited_mode">Begrenzter Download, bitte spenden für volle Geschwindigkeit.</string>
   <string name="unable_to_download_file">Update konnte nicht heruntergeladen werden</string>
   <string name="not_download_success">Update erfolgreich heruntergeladen</string>
   <string name="not_download_failure">Download fehlgeschlagen</string>
@@ -147,6 +150,10 @@
   <string name="pref_ota_check_summary">Erhalte inkrementelle Updates, um Zeit zum Herunterladen und Datenvolumen zu sparen</string>
   <string name="pref_ota_check_donation_request_summary">Erhalte Inkrementelle Updates, um Zeit zum Herunterladen und Datenvolumen zu sparen (möglich nach spenden von CNY %d)</string>
   <string name="pref_ota_check_donation_request_pending_summary">Erhalten Sie inkrementelle Updates um Downloadzeit und Bandbreite zu sparen (bereits gespendet %1$d, lebenslang verfügbar nach weiterer Spende von %2$d, Währung: CNY)</string>
+  <string name="pref_verify_rom">Geprüfte Updates</string>
+  <string name="pref_verify_rom_summary">Nur Aktualisierungen anzeigen, die von anderen Benutzern überprüft wurden</string>
+  <string name="pref_verify_rom_donation_request_summary">Nur Aktualisierungen anzeigen, die von anderen Benutzern überprüft wurden (Verfügbar nach einer Spende von CNY %d)</string>
+  <string name="pref_verify_rom_donation_request_pending_summary">Nur Aktualisierungen anzeigen, die von anderen Benutzern überprüft wurden (Gespendet %1$d, verfügbar nach weiteren %2$d, Aktuell: CNY)</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Update durchführen</string>
   <string name="apply_update_dialog_text">Bereit zum Update auf <xliff:g id="filename">%s</xliff:g>.\n\nNach dem Start des Updates wird das Gerät ins Recovery booten, um das Update durchzuführen.\n\nHinweis: Diese Funktion erfordert ein kompatibles Recovery, andernfalls muss das Update manuell installiert werden.</string>
@@ -158,4 +165,7 @@
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Xposed Framework ist installiert, es muss nicht neu geflasht werden nach der Installation von inkrementellen Updates.</string>
   <!-- Discount -->
+  <string name="discount_dialog_title">Zeitlich begrenztes Angebot</string>
+  <string name="discount_dialog_expires">Angebot endet in %s</string>
+  <string name="discount_dialog_cancel">Nicht erinnern</string>
 </resources>

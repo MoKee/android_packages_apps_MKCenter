@@ -65,6 +65,7 @@
   <string name="menu_refresh">Оновити</string>
   <string name="menu_delete_all">Видалити завантажене</string>
   <string name="menu_remove_ads">Прибрати рекламу</string>
+  <string name="menu_restore">Відновити ліцензію</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Пожертвувати нам</string>
   <string name="donate_dialog_message">На відміну від таких компаній, як Cygn або MIUI, MoKee OpenSource є некомерційним проектом, що з\'явивися на світ завдяки праці ентузіастів. Для того, щоб зберегти цей проект, ми вкладаємо свої власні кошти, а також кошти від пожертвувань і реклами. Ваші пожертвування можуть допомогти зменшити фінансове навантаження і підтримають розвиток проекту! Ця опція дозволить видалити рекламу в Панелі MoKee, або використовуйте сусідню опцію «Пожертвувати», якщо ви віддаєте перевагу розстрочці (реклама буде видалена після досягнення вказаного значення). Створіть резервну копію файлу mokee.license (знаходиться в кореневому каталозі sdcard, дійсна тільки для поточного пристрою), після здійснення пожертвування.</string>
@@ -72,6 +73,7 @@
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_restore">Відновити</string>
   <string name="donate_money_toast_success">Дякуємо вам за ваш внесок!</string>
+  <string name="donate_money_title">Пожертвувати MoKee Open Source</string>
   <string name="donate_money_again">Пожертвувати знову</string>
   <string name="donate_money_restored_success">Відновлено успішно!</string>
   <string name="donate_money_restored_failed">Не знайдено запису про пристрій.</string>
@@ -126,6 +128,7 @@
   <string name="download_running">У процесі</string>
   <string name="download_cancelled">Завантаження скасоване</string>
   <string name="download_already_running">Завантаження вже відбувається</string>
+  <string name="download_limited_mode">Завантаження на обмеженій швидкості, будь ласка, зробіть внесок, щоб насолоджуватися повною швидкістю.</string>
   <string name="unable_to_download_file">Не вдалось завантажити файл оновлення</string>
   <string name="not_download_success">Оновлення успішно завантажено</string>
   <string name="not_download_failure">Не вдалося завантажити оновлення</string>
@@ -147,6 +150,10 @@
   <string name="pref_ota_check_summary">ОТА оновлення для заощадження часу завантаження та трафіку</string>
   <string name="pref_ota_check_donation_request_summary">ОТА оновлення для заощадження часу завантаження та трафіку(доступні після пожертвування CNY %d)</string>
   <string name="pref_ota_check_donation_request_pending_summary">Отримувати часткові оновлення для економії часу завантаження і трафіку (пожертвувано %1$d, буде доступно пожиттєво після пожертви ще %2$d, валюта: CNY)</string>
+  <string name="pref_verify_rom">Перевірені оновлення</string>
+  <string name="pref_verify_rom_summary">Показувати лише оновлення, підтверджені іншими користувачами</string>
+  <string name="pref_verify_rom_donation_request_summary">Показувати лише оновлення, які перевіряються іншими користувачами (доступно після пожертвування CNY %d)</string>
+  <string name="pref_verify_rom_donation_request_pending_summary">Відображати лише оновлення, які перевірені іншими користувачами (пожертвувано %1$d, потрібно пожертвувати ще %2$d, валюта: CNY)</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Застосувати оновлення</string>
   <string name="apply_update_dialog_text">Ви збираєтесь оновитися до <xliff:g id="filename">%s</xliff:g>.\n\nКоли ви натиснете кнопку \"Оновити\", пристрій перезавантажиться в режим \"Recovery\" для встановлення оновлення.\n\nЗауважте, що ця функція вимагає сумісний режим Recovery.інакше оновлення доведеться встановити вручну.</string>
@@ -158,4 +165,8 @@
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Фреймворк Xposed встановлено, нема необхідності перевстановлювати його після застосування часткових оновлень.</string>
   <!-- Discount -->
+  <string name="discount_dialog_title">Тимчасова пропозиція</string>
+  <string name="discount_dialog_message">Дякуємо вам за довгу підтримку проекту MoKee Open Source. Ми дуже вдячні вам, тому запускаємо тимчасову пропозицію. За %1$d юань ви можете встановити додаткові оновлення, оновлення, підтверджені спільнотою, а також прибрати рекламу з програми (зі знижкою %2$d юань). Закрийте вікно і перезапустіть програму, якщо хочете заплатити пізніше.</string>
+  <string name="discount_dialog_expires">Пропозиція закінчиться через %s</string>
+  <string name="discount_dialog_cancel">Не нагадувати</string>
 </resources>
