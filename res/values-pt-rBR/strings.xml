@@ -166,6 +166,7 @@
   <string name="installed_xposed_toast">Xposed framework instalado, sem necessidade de reflash quadro depois de aplicar atualizações incrementais.</string>
   <!-- Discount -->
   <string name="discount_dialog_title">Oferta por tempo limitado</string>
+  <string name="discount_dialog_message">Obrigado pelo seu apoio contínuo ao MoKee Open Source. Como um símbolo de apreciação, você tem direito a uma oferta de tempo limitado. Com% 1 $ d CNY, você pode desfrutar de atualizações incrementais, atualizações verificadas e remover anúncios do MoKee Center (salvar% 2 $ d CNY). Se pretender pagar mais tarde, pode fechar esta caixa de diálogo e relançar o MoKee Center novamente quando estiver pronto.</string>
   <string name="discount_dialog_expires">A oferta expira em %s</string>
   <string name="discount_dialog_cancel">Não lembrar</string>
 </resources>

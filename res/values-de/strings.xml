@@ -28,7 +28,7 @@
   <string name="mokee_forum_summary">Besuchen Sie unser Forum</string>
   <string name="mokee_issues_title">MoKee Bug-Tracker</string>
   <string name="mokee_issues_summary">Besuchen Sie unseren Bug-Tracker</string>
-  <string name="mokee_changelog_title">MoKee Änderungshistorie</string>
+  <string name="mokee_changelog_title">MoKee Changelog</string>
   <string name="mokee_changelog_summary">Tägliches Changelog ansehen</string>
   <string name="mokee_build_status_title">MoKee Buildstatus</string>
   <string name="mokee_build_status_summary">Buildstatus aufrufen</string>
@@ -50,11 +50,11 @@
   <string name="mokee_last_check_never">Niemals</string>
   <!-- Version -->
   <string name="mokee_info_default">Unbekannt</string>
-  <string name="mokee_version_type_release">Stabil</string>
-  <string name="mokee_version_type_history">Versionsverlauf</string>
-  <string name="mokee_version_type_experimental">Experimentell</string>
-  <string name="mokee_version_type_nightly">Nächtliche</string>
-  <string name="mokee_version_type_unofficial">Inoffiziell</string>
+  <string name="mokee_version_type_release">Release</string>
+  <string name="mokee_version_type_history">History</string>
+  <string name="mokee_version_type_experimental">Experimental</string>
+  <string name="mokee_version_type_nightly">Nightly</string>
+  <string name="mokee_version_type_unofficial">Unofficial</string>
   <string name="mokee_version_type_all">Alle</string>
   <!-- State -->
   <string name="downloaded_update_summary"> Heruntergeladen</string>
@@ -74,15 +74,15 @@
   <string name="donate_dialog_via_restore">Wiederherstellen</string>
   <string name="donate_money_toast_success">Vielen Dank für Ihre Spende!</string>
   <string name="donate_money_title">Spenden Sie an MoKee Open Source</string>
-  <string name="donate_money_again">Erneute Spende</string>
+  <string name="donate_money_again">Erneut spenden</string>
   <string name="donate_money_restored_success">Erfolgreich wiederhergestellt!</string>
   <string name="donate_money_restored_failed">Keine Geräteaufzeichnung gefunden.</string>
   <string name="donate_money_restored_timeout">Verbindungs-Timeout, bitte versuchen Sie es erneut</string>
   <string name="donate_money_info">Sie spendeten insgesamt CNY %1$d, mehr als %2$s der Spender weltweit!</string>
-  <string name="donate_money_info_with_rank">Sie spendeten insgesamt CNY %1$d, mehr als %2$s der Spender, weltweit Rang No.%3$d!</string>
+  <string name="donate_money_info_with_rank">Sie spendeten insgesamt CNY %1$d, mehr als %2$s der Spender, weltweiter Rang Nr.%3$d!</string>
   <string name="donate_money_info_null">Sie haben nicht gespendet</string>
   <string name="remove_ads_title">Werbung entfernen</string>
-  <string name="remove_ads_request_price">Gespendet CNY %1$d, Austehende CNY %2$d</string>
+  <string name="remove_ads_request_price">Gespendet: CNY %1$d, Austehend: CNY %2$d</string>
   <!-- Update -->
   <string name="unknown">Unbekannt</string>
   <string name="dialog_update">Aktualisieren</string>
@@ -96,15 +96,15 @@
   <string name="old_update_summary">Alt</string>
   <string name="update_check_title">Updatefrequenz festlegen</string>
   <string name="check_manual">Manuell</string>
-  <string name="nightly_alert">Sie haben Nightlies ausgewählt. Bitte beachten Sie, dass diese nicht unterstützt werden und mit Vorsicht verwendet werden sollen.</string>
+  <string name="nightly_alert">Sie haben Nightlies ausgewählt. Bitte beachten Sie, dass diese nicht unterstützt werden und mit Vorsicht verwendet werden sollten.</string>
   <string name="experimenter_alert">Sie haben experimentelle Updates ausgewählt. Bitte beachten Sie, dass diese nicht unterstützt werden und nur zum Testen gedacht sind. Seien Sie vorsichtig!</string>
-  <string name="unofficial_alert">Sie haben inoffizielle Updates ausgewählt. Bitte beachten Sie, dass diese Versionen ausschließlich vom Gerätehersteller unterstützt werden.</string>
-  <string name="all_alert">Sie haben alle Updates ausgewählt (inklusive stabile und Nightlies). Bitte beachten Sie, dass Nightlies nicht unterstützt werden und mit Vorsicht verwendet werden sollten.</string>
+  <string name="unofficial_alert">Sie haben inoffizielle Updates ausgewählt. Bitte beachten Sie, dass diese Versionen ausschließlich vom Geräteentwickler unterstützt werden und nicht offiziell von uns stammen.</string>
+  <string name="all_alert">Sie haben alle Updates ausgewählt (inklusive Release und Nightlies). Bitte beachten Sie, dass Nightlies nicht unterstützt werden und mit Vorsicht verwendet werden sollten.</string>
   <string name="alert_title">Vorsicht</string>
   <string name="update_type_title">Updatetyp</string>
   <!-- ChangeLog -->
-  <string name="no_changelog_alert">Kein Änderungsprotokoll verfügbar</string>
-  <string name="changelog_dialog_title">Änderungsprotokoll</string>
+  <string name="no_changelog_alert">Kein Changelog verfügbar</string>
+  <string name="changelog_dialog_title">Changelog</string>
   <string name="loading_changelog">Lädt\u2026</string>
   <string name="check_on_boot">Bei jedem Neustart</string>
   <string name="check_twice_daily">Zweimal täglich</string>
@@ -139,25 +139,25 @@
   <string name="not_apk_action_install_update">Installieren</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Datei löschen</string>
-  <string name="confirm_delete_updates_dialog_message">Soll die ausgewählte Updatedatei gelöscht werden?</string>
-  <string name="confirm_delete_updates_all_dialog_message">Sollen alle heruntergeladenen Updatedateien gelöscht werden?</string>
+  <string name="confirm_delete_updates_dialog_message">Soll das ausgewählte Update gelöscht werden?</string>
+  <string name="confirm_delete_updates_all_dialog_message">Sollen alle heruntergeladenen Updates gelöscht werden?</string>
   <string name="delete_single_update_success_message">Update <xliff:g id="filename">%s</xliff:g> gelöscht</string>
   <string name="delete_updates_failure_message">Beim Löschen der Datei ist ein Fehler aufgetreten</string>
   <string name="delete_updates_nofolder_message">Updateverzeichnis nicht gefunden</string>
-  <string name="delete_updates_success_message">Alle heruntergeladenen Updatedateien wurden gelöscht</string>
+  <string name="delete_updates_success_message">Alle heruntergeladenen Updates wurden gelöscht</string>
   <!-- pref -->
-  <string name="pref_ota_check">Inkrementelle updates</string>
+  <string name="pref_ota_check">Inkrementelle Updates</string>
   <string name="pref_ota_check_summary">Erhalte inkrementelle Updates, um Zeit zum Herunterladen und Datenvolumen zu sparen</string>
   <string name="pref_ota_check_donation_request_summary">Erhalte Inkrementelle Updates, um Zeit zum Herunterladen und Datenvolumen zu sparen (möglich nach spenden von CNY %d)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">Erhalten Sie inkrementelle Updates um Downloadzeit und Bandbreite zu sparen (bereits gespendet %1$d, lebenslang verfügbar nach weiterer Spende von %2$d, Währung: CNY)</string>
+  <string name="pref_ota_check_donation_request_pending_summary">Erhalten Sie inkrementelle Updates um Downloadzeit und Bandbreite zu sparen (bereits gespendet %1$d, lebenslang verfügbar nach weiterer Spende von CNY %2$d)</string>
   <string name="pref_verify_rom">Geprüfte Updates</string>
   <string name="pref_verify_rom_summary">Nur Aktualisierungen anzeigen, die von anderen Benutzern überprüft wurden</string>
   <string name="pref_verify_rom_donation_request_summary">Nur Aktualisierungen anzeigen, die von anderen Benutzern überprüft wurden (Verfügbar nach einer Spende von CNY %d)</string>
-  <string name="pref_verify_rom_donation_request_pending_summary">Nur Aktualisierungen anzeigen, die von anderen Benutzern überprüft wurden (Gespendet %1$d, verfügbar nach weiteren %2$d, Aktuell: CNY)</string>
+  <string name="pref_verify_rom_donation_request_pending_summary">Nur Aktualisierungen anzeigen, die von anderen Benutzern überprüft wurden (Gespendet: %1$d, verfügbar nach weiteren %2$d, Aktuell: CNY)</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Update durchführen</string>
   <string name="apply_update_dialog_text">Bereit zum Update auf <xliff:g id="filename">%s</xliff:g>.\n\nNach dem Start des Updates wird das Gerät ins Recovery booten, um das Update durchzuführen.\n\nHinweis: Diese Funktion erfordert ein kompatibles Recovery, andernfalls muss das Update manuell installiert werden.</string>
-  <string name="apply_update_ota_dialog_text">Sie sind im Begriff, ein upgrade auszuführen auf <xliff:g id="filename">%s </xliff:g>. \n\nWenn Sie Update drücken, startet das Gerät selbst neu ins Recovery für die Installationsroutine.\n\nHinweis: diese Funktion erfordert ein kompatibles Recovery oder Updates müssen manuell installiert werden.\n\nDas ist ein inkrementelles Update, das Änderungen an Systemdateien beinhaltet, möglicherweise kann die Aktualisierung fehlschlagen. In diesem Fall bitte eine volle ROM Installieren.</string>
+  <string name="apply_update_ota_dialog_text">Sie sind im Begriff, ein upgrade auszuführen auf <xliff:g id="filename">%s </xliff:g>. \n\nWenn Sie Update drücken, startet das Gerät selbst neu ins Recovery für die Installation.\n\nHinweis: diese Funktion erfordert ein kompatibles Recovery oder Updates müssen manuell installiert werden.\n\nDas ist ein inkrementelles Update, das Änderungen an Systemdateien beinhaltet, möglicherweise kann die Aktualisierung fehlschlagen. In diesem Fall bitte eine volle ROM Installieren.</string>
   <string name="apply_unable_to_reboot_toast">Neustart ins Recovery nicht möglich</string>
   <!-- experimenter mode -->
   <string name="show_exp_on">Experimentelle Einstellungen aktiviert!</string>
