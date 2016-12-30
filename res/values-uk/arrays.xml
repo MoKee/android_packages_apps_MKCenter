@@ -18,7 +18,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <plurals name="not_new_updates_found_body">
-    <item quantity="one"><xliff:g id="count">%d </xliff:g> оновлення доступні для завантаження</item>
+    <item quantity="one"><xliff:g id="count">%d </xliff:g> оновлення доступне для завантаження</item>
     <item quantity="few"><xliff:g id="count">%d </xliff:g> оновлення доступні для завантаження</item>
     <item quantity="other"><xliff:g id="count">%d </xliff:g> оновлень доступно для завантаження</item>
   </plurals>
@@ -28,8 +28,8 @@
     <item quantity="other">+ <xliff:g id="count">%d </xliff:g> більше</item>
   </plurals>
   <plurals name="show_exp_countdown">
-    <item quantity="one">Залишився <xliff:g id="step_count">%1$d</xliff:g> крок для включення налаштувань для розробників.</item>
-    <item quantity="few">Залишилося <xliff:g id="step_count">%1$d</xliff:g> кроки для увімкнення налаштувань для розробників.</item>
-    <item quantity="other">Залишилося <xliff:g id="step_count">%1$d</xliff:g> кроків для увімкнення налаштувань для розробників.</item>
+    <item quantity="one">Залишився <xliff:g id="step_count">%1$d</xliff:g> крок для увімкнення налаштувань розробника.</item>
+    <item quantity="few">Залишилося <xliff:g id="step_count">%1$d</xliff:g> кроки для увімкнення налаштувань розробника.</item>
+    <item quantity="other">Залишилося <xliff:g id="step_count">%1$d</xliff:g> кроків для увімкнення налаштувань розробника.</item>
   </plurals>
 </resources>
