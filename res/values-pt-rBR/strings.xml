@@ -26,7 +26,7 @@
   <string name="mokee_website_summary">Visite o site oficial</string>
   <string name="mokee_forum_title">MoKee Fórum</string>
   <string name="mokee_forum_summary">Visite o fórum MoKee</string>
-  <string name="mokee_issues_title">MoKee Bug Tracker</string>
+  <string name="mokee_issues_title">MoKee Rastreador de Bug</string>
   <string name="mokee_issues_summary">Visite o bug tracker</string>
   <string name="mokee_changelog_title">Registro de alterações Mokee</string>
   <string name="mokee_changelog_summary">Ver Lista de mudanças Diaria</string>
@@ -50,10 +50,10 @@
   <string name="mokee_last_check_never">Nunca</string>
   <!-- Version -->
   <string name="mokee_info_default">Desconhecido</string>
-  <string name="mokee_version_type_release">Release</string>
+  <string name="mokee_version_type_release">Lançamento</string>
   <string name="mokee_version_type_history">Histórico</string>
   <string name="mokee_version_type_experimental">Experimental</string>
-  <string name="mokee_version_type_nightly">Nightly</string>
+  <string name="mokee_version_type_nightly">Noturna</string>
   <string name="mokee_version_type_unofficial">Não oficial</string>
   <string name="mokee_version_type_all">Todas</string>
   <!-- State -->
