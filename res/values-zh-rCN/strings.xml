@@ -90,8 +90,8 @@
   <string name="dialog_ok">确认</string>
   <string name="dialog_cancel">取消</string>
   <string name="dialog_close">关闭</string>
-  <string name="no_available_updates_intro">最后一次检测并未找到可用的更新，请使用刷新按钮来手动检查更新试试。</string>
-  <string name="no_available_ota_intro">最后一次检测并未找到可用的更新，请使用刷新按钮来手动检查更新试试。如果您当前在运行一个超出增量更新支持的早期版本，您需要取消增量更新的勾选。</string>
+  <string name="no_available_updates_intro">最后一次检测并未找到可用的更新，请使用刷新按钮尝试手动检查更新。</string>
+  <string name="no_available_ota_intro">最后一次检测并未找到可用的更新，请使用刷新按钮尝试手动检查更新。如果您正在使用一个超出增量更新支持的早期版本，您需要取消“增量更新”的勾选。</string>
   <string name="new_update_summary">比当前版本新</string>
   <string name="old_update_summary">比当前版本旧</string>
   <string name="update_check_title">检查更新频率</string>
@@ -118,7 +118,7 @@
   <string name="no_updates_found">没有找到新的更新</string>
   <string name="not_new_updates_found_ticker">找到了可用的系统更新</string>
   <string name="not_new_updates_found_title">新的系统更新</string>
-  <string name="update_check_failed">升级检查失败，请检查你的数据连接并重试。</string>
+  <string name="update_check_failed">更新检查失败，请检查你的数据连接并重试。</string>
   <string name="not_action_download">下载</string>
   <string name="data_connection_required">需要一个有效的数据链接</string>
   <!-- Downloads -->
@@ -133,8 +133,8 @@
   <string name="not_download_success">更新已成功下载</string>
   <string name="not_download_failure">下载更新失败</string>
   <string name="not_action_install_update">重启并安装</string>
-  <string name="not_download_install_notice"><xliff:g id="filename">%s</xliff:g> 已成功下载。点击 \'重启并安装\' 时，设备将重新启动并安装更新。\n\n注意：自动安装过程需要一个兼容的恢复程序，不兼容的恢复程序可能导致更新失败。</string>
-  <string name="not_download_install_ota_notice"><xliff:g id="filename">%s</xliff:g> 已成功下载。点击 \'重启并安装\' 时，设备将重新启动并安装更新。\n\n注意：自动安装过程需要一个兼容的恢复程序，不兼容的恢复程序可能导致更新失败。\n\n本次为增量更新，任何人为或带有ROOT权限的程序对系统文件造成的修改可能导致更新失败，若您遭遇此情形，请尝试下载完整包进行更新。</string>
+  <string name="not_download_install_notice"><xliff:g id="filename">%s</xliff:g> 已成功下载。点击“重启并安装”时，设备将重新启动并安装更新。\n\n注意：自动安装过程需要一个兼容的恢复程序，不兼容的恢复程序可能导致更新失败。</string>
+  <string name="not_download_install_ota_notice"><xliff:g id="filename">%s</xliff:g> 已成功下载。点击“重启并安装”时，设备将重新启动并安装更新。\n\n注意：自动安装过程需要一个兼容的恢复程序，不兼容的恢复程序可能导致更新失败。\n\n本次为增量更新，任何人为或带有ROOT权限的程序对系统文件造成的修改可能导致更新失败，若您遭遇此情形，请尝试下载完整包进行更新。</string>
   <string name="md5_verification_failed">MD5 检测失败</string>
   <string name="not_apk_action_install_update">安装</string>
   <!-- deleting -->
