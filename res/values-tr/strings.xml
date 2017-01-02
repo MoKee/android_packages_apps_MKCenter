@@ -128,6 +128,7 @@
   <string name="download_running">Devam Ediyor</string>
   <string name="download_cancelled">İndirme iptal edildi</string>
   <string name="download_already_running">Halihazırda bir indirme mevcut</string>
+  <string name="download_limited_mode">Sınırlı hızla indiriliyor, lütfen hizli indirim zevki için bağış yapın.</string>
   <string name="unable_to_download_file">Güncelleme dosyası indirilemiyor</string>
   <string name="not_download_success">Güncelleme başarıyla indirildi</string>
   <string name="not_download_failure">Güncelleme indirme başarısız oldu</string>
