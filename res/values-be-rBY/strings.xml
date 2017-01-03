@@ -65,6 +65,7 @@
   <string name="menu_refresh">Абнавiць</string>
   <string name="menu_delete_all">Выдаліць спампаванае</string>
   <string name="menu_remove_ads">Прыбраць рэкламу</string>
+  <string name="menu_restore">Аднаўленне ліцэнзіі</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Ахвяраваць нам</string>
   <string name="donate_dialog_message">У адрозненне ад такіх кампаній як Cygn або MIUI, MoKee OpenSource з\'яўляецца чыста некамерцыйным праектам, якi з\'явіўся на свет намаганнямі энтузіястаў. Для таго, каб падтрымліваць гэты праект, мы ўкладваем свае ўласныя сродкі, а таксама сродкі ад ахвяраванняў і рэкламы. Вашы ахвяраванні дапамогуць знізіць нашу фінансавую нагрузку і забяспечыць будучае развіццё! Гэтая опцыя дазваляе выдаліць рэкламу ў Панэлi MoKee, або выкарыстоўвайце опцыю \"Ахвяраваць\" замест гэтага, калі вы аддаеце перавагу растэрміноўцы (рэклама будзе выдалена, як толькі агульная сума дасягнула зададзенага значэння). Калі ласка стварыце рэзервовую копію файла mokee.license (у каранёвым каталогу SDCard, сапраўдна толькі для гэтай прылады), як толькі вы ахвяравалі.</string>
@@ -72,6 +73,7 @@
   <string name="donate_dialog_via_alipay">AliPay(CNY)</string>
   <string name="donate_dialog_via_restore">Аднавіць з рэзервовай копіі</string>
   <string name="donate_money_toast_success">Дзякуй Вам за ахвяраванне!</string>
+  <string name="donate_money_title">Ахвяраваць MoKee OpenSource</string>
   <string name="donate_money_again">Ахвяраваць зноў</string>
   <string name="donate_money_restored_success">Аднаўленне паспяхова завершана!</string>
   <string name="donate_money_restored_failed">Інфармацыі аб ахвяраваннях не знойдзена.</string>
@@ -126,6 +128,7 @@
   <string name="download_running">Выконваецца</string>
   <string name="download_cancelled">Спампоўка адменена</string>
   <string name="download_already_running">Спампоўка ўжо адбываецца</string>
+  <string name="download_limited_mode">Ваша хуткасць загрузкі абмежаваная. Вы можаце зрабіць ахвяраванне, каб перайсці на неабмежаваную хуткасць.</string>
   <string name="unable_to_download_file">Не атрымалася спампаваць файл абнаўлення</string>
   <string name="not_download_success">Абнаўленне паспяхова спампавана</string>
   <string name="not_download_failure">Абнаўленне не было спампавана</string>
@@ -147,6 +150,10 @@
   <string name="pref_ota_check_summary">Атрымаць OTA абнаўленнi, каб зэканоміць час спампавання і прапускную здольнасць</string>
   <string name="pref_ota_check_donation_request_summary">Атрымаць OTA абнаўленнi, каб зэканоміць час спампавання і прапускную здольнасць (даступна пасля ахвяравання ў CNY %d)</string>
   <string name="pref_ota_check_donation_request_pending_summary">Атрымліваць аднауленні малога памеру. Гэта дазваляе эканоміць час і трафік (ахвяраванне: %1$d, атрымліваць такія аднауленні пажыццёва можна пасля ахвяравання %2$d ці больш, Валюта: CNY)</string>
+  <string name="pref_verify_rom">Правераныя абнаўленні</string>
+  <string name="pref_verify_rom_summary">Паказваць толькі правераныя іншымі карыстальнікамі абнаўлення</string>
+  <string name="pref_verify_rom_donation_request_summary">Паказваць толькі абнаўлення, якія правяраюцца іншымі карыстальнікамі (даступна пасля ахвяраванні CNY %d)</string>
+  <string name="pref_verify_rom_donation_request_pending_summary">Адлюстроўваць толькі абнаўлення, якія правераныя іншымі карыстальнікамі (ахвяраваныя %1$d, патрабуецца ахвяраваць яшчэ %2$d, валюта: CNY)</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Прымяніць абнаўленне</string>
   <string name="apply_update_dialog_text">Будзе выканана абнаўленне да версіі <xliff:g id="filename">%s</xliff:g>.\n\n Пры націску кнопкі «Абнавіць» прылада перазагрузіцца ў рэжым аднаўлення для ўстаноўкі гэтага абнаўлення.\n\n Заўвага: гэтая функцыя патрабуе сумяшчальнага Recovery. У адваротным выпадку абнаўленне будзе неабходна ўсталяваць уручную.</string>
@@ -158,4 +165,8 @@
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Надбудова Xposed усталявана, не патрэбна наладжваць яе зноў, пасля устаноўкі Ota-аднаўленняў.</string>
   <!-- Discount -->
+  <string name="discount_dialog_title">Часовая прапанова</string>
+  <string name="discount_dialog_message">Дзякуем вам за доўгую падтрымку праекта MoKee Open Source. Мы вельмі ўдзячныя вам, таму запускаем часовае прапанову. За %1$d юань вы можаце ўсталяваць дадатковыя абнаўлення, абнаўлення, пацверджаныя супольнасцю, а таксама прыбраць рэкламу з прыкладання (са зніжкай %2$d юань). Зачыніце акно і перазапусціце прыкладанне, калі хочаце заплаціць пазней.</string>
+  <string name="discount_dialog_expires">Прапанова скончыцца праз %s</string>
+  <string name="discount_dialog_cancel">Не нагадваць</string>
 </resources>
