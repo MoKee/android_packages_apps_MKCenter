@@ -18,19 +18,83 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Fragment -->
+  <string name="mokee_center_title">മോക്കീ കേന്ദ്രം</string>
+  <string name="mokee_support_title">പിന്തുണ</string>
+  <string name="mokee_updater_title">അപ്ഡേറ്റർ</string>
   <!-- WebSite -->
+  <string name="mokee_website_title">മോക്കീ വെബ്സെെറ്റ്</string>
+  <string name="mokee_website_summary">ഒൗദ്യോഗിക വെബ്സെെറ്റ് സന്ദർശിക്കുക</string>
+  <string name="mokee_forum_title">മോക്കീ ഫോറം</string>
+  <string name="mokee_forum_summary">മോക്കീ ഫോം സന്ദർശിക്കുക</string>
+  <string name="mokee_issues_title">മോക്കീ ബഗ് ട്രാക്കർ</string>
+  <string name="mokee_issues_summary">ബഗ് ട്രാക്കർ സന്ദർശിക്കുക</string>
+  <string name="mokee_changelog_title">മോക്കീ ചേഞ്ച്ലോഗ്</string>
+  <string name="mokee_build_status_title">മോക്കീ ബിൽഡ് നില</string>
+  <string name="mokee_build_status_summary">ബിൽഡ് നില കാണുക</string>
+  <string name="mokee_github_title">മോക്കീ ഗിറ്റ്ഹബ്</string>
+  <string name="mokee_github_summary">മോക്കീ ഗിറ്റഹബ് സന്ദർശിക്കുക</string>
+  <string name="mokee_translate_title">മോക്കീ പരിഭാഷ</string>
+  <string name="mokee_translate_summary">മോക്കീ പരിഭാഷയെ സഹായിക്കുക</string>
+  <string name="mokee_wiki_title">മോക്കീ വിക്കി</string>
+  <string name="mokee_wiki_summary">മോക്കീ വിക്കി സന്ദർശിക്കുക</string>
+  <string name="mokee_news_title">മോക്കീ വാർത്ത</string>
+  <string name="mokee_news_summary">മോക്കീയിൽ നിന്നും ഡവലപ്മെന്റെ വാർത്തകൾ അറിയുക</string>
   <!-- Base Info -->
+  <string name="mokee_version_info_title">വേർഷൻ വിവരം</string>
+  <string name="mokee_version_title">മോക്കീ വേർഷൻ</string>
+  <string name="mokee_version_type_title">വേർഷൻ തരം</string>
+  <string name="mokee_last_check_title">അവസാന നോട്ടം</string>
+  <string name="mokee_last_check_never">ഇതുവരെയില്ല</string>
   <!-- Version -->
+  <string name="mokee_info_default">ലഭ്യമല്ല</string>
+  <string name="mokee_version_type_release">റിലീസ്</string>
+  <string name="mokee_version_type_history">ചരിത്രം</string>
+  <string name="mokee_version_type_experimental">പരീക്ഷണകരം</string>
+  <string name="mokee_version_type_nightly">നെെറ്റ്ലി</string>
+  <string name="mokee_version_type_unofficial">ഔദ്യോഗികം അല്ല</string>
+  <string name="mokee_version_type_all">എല്ലാം</string>
   <!-- State -->
+  <string name="downloaded_update_summary">ഡൗൺലോഡ് ചെയ്തത്</string>
+  <string name="installed_update_summary">ഇൻസ്റ്റാൾ ചെയ്തു</string>
+  <string name="available_updates_title">ലഭ്യമായ അപ്ഡേറ്റുകൾ</string>
   <!-- Menu -->
+  <string name="menu_donate">സംഭാവന</string>
+  <string name="menu_refresh">പുതുക്കുക</string>
+  <string name="menu_delete_all">ഡിലീറ്റ് ഡൗൺലോഡ്</string>
+  <string name="menu_remove_ads">പരസ്യം ഒഴിവാക്കുക</string>
   <!-- Donate -->
+  <string name="donate_dialog_title">സംഭാവന ചെയ്യുക</string>
+  <string name="donate_dialog_via_paypal">പേപാൽ</string>
+  <string name="donate_dialog_via_alipay">അലിപേ</string>
+  <string name="donate_money_toast_success">സംഭാവന നൽകിയതിന് നന്ദി!</string>
+  <string name="donate_money_again">വീണ്ടും സംഭാവന ചെയ്യുക</string>
+  <string name="remove_ads_title">പരസ്യം ഒഴിവാക്കുക</string>
+  <string name="remove_ads_request_price">%1$d CNY സംഭാവന നൽകി, %2$d CNY ബാക്കിയാണ്</string>
   <!-- Update -->
+  <string name="unknown">ലഭ്യമല്ല</string>
+  <string name="dialog_update">അപ്ഡേറ്റ്</string>
+  <string name="dialog_install">ഇൻസ്റ്റാൾ</string>
+  <string name="dialog_ok">ശരി</string>
+  <string name="dialog_cancel">റദ്ദാക്കുക</string>
+  <string name="dialog_close">അടയ്ക്കുക</string>
+  <string name="no_available_updates_intro">അവസാന അന്വേഷണത്തിൽ പുതിയ അപ്ഡേറ്റുകൾ കണ്ടെത്താൻ കഴിഞ്ഞില്ല. സ്വയം അന്വേഷിക്കാനായി പുതുക്കക എന്ന ബട്ടൺ ഉപയോഗിക്കുക.</string>
+  <string name="new_update_summary">പുതിയത്</string>
+  <string name="old_update_summary">പഴയത്</string>
+  <string name="update_check_title">അപ്ഡേറ്റ് തവണകൾ നോക്കുക</string>
+  <string name="check_manual">സ്വയം</string>
+  <string name="nightly_alert">നിങ്ങൾ നെെറ്റ്ലി അപ്ഡേറ്റുകളും പട്ടികയിൽ ഉൾപ്പെടുത്തിയിട്ടുണ്ട്. ഇത് അൺസപ്പോർട്ടഡാണ് അതിനാൽ സൂക്ഷിച്ച്ഉപയോഗിക്കുക.</string>
+  <string name="experimenter_alert">പരീക്ഷണാർഥമുള്ള അപ്ഡേറ്റുകളും നിങ്ങൾ ലിസ്റ്റിൽ ഉൾപ്പെടുത്തിയിട്ടുണ്ട്. ഇല അൺസപ്പോർട്ടഡും ടെസ്റ്റ് ചെയ്യാൻ വേണ്ടി മാത്രം ഉള്ളതുമാണ്. സൂഷിച്ച് ഉപയോഗിക്കുക.</string>
+  <string name="unofficial_alert">അൺഒഫിഷ്യൽ അപ്ഡേറ്റുകളും ലിസ്റ്റിൽ ഉൾപ്പെടുത്തിയിട്ടുണ്ട്. ഇവ ഡിവെെസ് മെയിന്റെയ്നർ സപ്പോർട്ട് ചെയ്യുന്നതാണ്.</string>
   <!-- ChangeLog -->
   <!-- checking -->
   <!-- Downloads -->
+  <string name="not_apk_action_install_update">ഇൻസ്റ്റാൾ</string>
   <!-- deleting -->
+  <string name="confirm_delete_dialog_title">ഫയൽ ഇല്ലാതാക്കുക</string>
   <!-- pref -->
+  <string name="pref_ota_check">ഇൻക്രിമെന്റൽ അപ്ഡേറ്റുകൾ</string>
   <!-- Apply install and update strings -->
+  <string name="apply_update_dialog_title">അപ്ഡേറ്റ് ചെയ്യുക</string>
   <!-- experimenter mode -->
   <!-- Xposed framework check -->
   <!-- Discount -->

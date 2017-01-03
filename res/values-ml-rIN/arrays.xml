@@ -18,12 +18,15 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <plurals name="not_new_updates_found_body">
-    <item quantity="other"><xliff:g id="count">%d</xliff:g> pembaruan tersedia untuk diunduh</item>
+    <item quantity="one"><xliff:g id="count">%d</xliff:g> ഒരു അപ്ഡേറ്റ് ലഭ്യമാണ്</item>
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> അപ്ഡേുകൾ ലഭ്യമാണ്</item>
   </plurals>
   <plurals name="not_additional_count">
-    <item quantity="other"><xliff:g id="count">%d</xliff:g> lainnya</item>
+    <item quantity="one">+ <xliff:g id="count">%d</xliff:g> കൂടുതൽ</item>
+    <item quantity="other">+ <xliff:g id="count">%d</xliff:g> കൂടുതൽ</item>
   </plurals>
   <plurals name="show_exp_countdown">
-    <item quantity="other"><xliff:g id="step_count">%1$d</xliff:g> langkah lagi untuk mengaktifan opsi pengembang.</item>
+    <item quantity="one">പരീക്ഷണ സജ്ജീകരണങ്ങൾ ഒാണാക്കുന്നതിൽ നിന്നും <xliff:g id="step_count">%1$d</xliff:g> സ്റ്റെപ്പ് അകലെയാണ്.</item>
+    <item quantity="other">പരീക്ഷണ സജ്ജീകരണങ്ങൾ ഒാണാക്കുന്നതിൽ നിന്നും <xliff:g id="step_count">%1$d</xliff:g> സ്റ്റെപ്പുകൾ അകലെയാണ്.</item>
   </plurals>
 </resources>
