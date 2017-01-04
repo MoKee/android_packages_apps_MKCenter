@@ -23,10 +23,10 @@
   </plurals>
   <plurals name="not_additional_count">
     <item quantity="one">+ <xliff:g id="count">%d</xliff:g> altro</item>
-    <item quantity="other">+ <xliff:g id="count">%d</xliff:g> Più</item>
+    <item quantity="other">+ <xliff:g id="count">%d</xliff:g> altri</item>
   </plurals>
   <plurals name="show_exp_countdown">
-    <item quantity="one">Sei a <xliff:g id="step_count">%1$d</xliff:g> passo per attivare le opzioni sviluppatore.</item>
-    <item quantity="other">Sei a <xliff:g id="step_count">%1$d</xliff:g> passo per attivare le opzioni sviluppatore.</item>
+    <item quantity="one">Sei a <xliff:g id="step_count">%1$d</xliff:g> passo dall\'attivare le opzioni sviluppatore.</item>
+    <item quantity="other">Sei a <xliff:g id="step_count">%1$d</xliff:g> passi dall\'attivare le opzioni sviluppatore.</item>
   </plurals>
 </resources>

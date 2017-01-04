@@ -68,7 +68,7 @@
   <string name="menu_restore">Pulihkan lisensi</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Donasi untuk kami</string>
-  <string name="donate_dialog_message">Tidak seperti perusahaan seperti Cygn atau MIUI, MoKee OpenSource adalah proyek murni yang tak mencari keuntungan terlahir dari hobi dan semangat. Untuk menjaga proyek ini, kita harus mengeluarkan uang setiap waktunya atau mengandalkan sumbangan dan iklan. Donasi anda dapat membantu mengurangi beban keuangan kami dan menunjang perkembangan kedepannya! Pilihan ini memungkinkan anda untuk menghapus iklan di pusat MoKee, atau menggunakan opsi \"Donasi\" sebaliknya jika anda memilih Angsuran (iklan akan dihapus setelah total mencapai nilai yang tertentu). Mohon cadangkan berkas mokee. license (dalam direktori root dari sdcard, hanya berlaku untuk perangkat saat ini) setelah anda telah menyumbangkan.</string>
+  <string name="donate_dialog_message">Tidak seperti perusahaan Cygn atau MIUI, MoKee OpenSource adalah proyek nirlaba yang murni lahir dari hobi dan semangat. Untuk menjaga proyek ini, kita harus mengeluarkan uang setiap waktunya atau mengandalkan donasi dan iklan. Donasi anda dapat membantu mengurangi beban keuangan kami dan menunjang perkembangan kedepannya! Pilihan ini memungkinkan anda untuk menghapus iklan di Pusat MoKee, atau gunakan \"Donasi\", sebaliknya jika anda memilih cicilan (klan akan dihapus setelah total mencapai nilai yang ditentukan). Silahkan cadangkan berkas mokee. license (dalam direktori root di sdcard, hanya berlaku untuk perangkat saat ini) setelah anda telah melakukan donasi.</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_restore">Pulihkan</string>
@@ -80,7 +80,7 @@
   <string name="donate_money_restored_timeout">Sambungan gagal, silahkan ulangi</string>
   <string name="donate_money_info">Total donasi anda CNY %1$d, lebih dari %2$s dari donatur secara global!</string>
   <string name="donate_money_info_with_rank">Total donasi anda CNY %1$d, lebih dari %2$s dari para donatur global, peringkat No.%3$d!</string>
-  <string name="donate_money_info_null">Anda belum mendonasikan</string>
+  <string name="donate_money_info_null">Anda belum melakukan donasi</string>
   <string name="remove_ads_title">Hapus iklan</string>
   <string name="remove_ads_request_price">Donasikan CNY %1$d, tertunda CNY %2$d</string>
   <!-- Update -->
@@ -94,7 +94,7 @@
   <string name="no_available_ota_intro">Pemeriksaan terakhir tidak menemukan pembaruan tersedia. Untuk memeriksa pembaruan terbaru secara manual, gunakan tombol Segarkan. Jika anda saat ini menggunakan di luar versi incremental, anda harus membuang pilihan \"pembaruan Incremental\".</string>
   <string name="new_update_summary">Baru</string>
   <string name="old_update_summary">Lama</string>
-  <string name="update_check_title">Frekuensi pemeriksaan pembaruan</string>
+  <string name="update_check_title">Frekuensi pemeriksaan</string>
   <string name="check_manual">Manual</string>
   <string name="nightly_alert">Anda telah memilih untuk menyertakan update nightly dalam daftar ini. Hal Ini belum didukung dan harus digunakan dengan hati-hati.</string>
   <string name="experimenter_alert">Anda telah memilih untuk menyertakan pembaruan eksperimental dalam daftar ini. Ini tidak didukung dan dimaksudkan untuk pengujian saja, dan harus digunakan dengan hati-hati.</string>

@@ -22,7 +22,7 @@
   <string name="mokee_support_title">Supporto</string>
   <string name="mokee_updater_title">Aggiornamenti</string>
   <!-- WebSite -->
-  <string name="mokee_website_title">Sito internet di MoKee</string>
+  <string name="mokee_website_title">Sito Web di MoKee</string>
   <string name="mokee_website_summary">Visita il sito ufficiale</string>
   <string name="mokee_forum_title">Forum di MoKee</string>
   <string name="mokee_forum_summary">Visita il forum di MoKee</string>
@@ -33,11 +33,11 @@
   <string name="mokee_build_status_title">Stato delle build di MoKee</string>
   <string name="mokee_build_status_summary">Vedi lo stato delle build</string>
   <string name="mokee_github_title">Github di MoKee</string>
-  <string name="mokee_github_summary">Visita Github</string>
+  <string name="mokee_github_summary">Visita il Github di MoKee</string>
   <string name="mokee_translate_title">Traduzioni di MoKee</string>
   <string name="mokee_translate_summary">Aiuta a tradurre MoKee</string>
   <string name="mokee_wiki_title">Wiki di MoKee</string>
-  <string name="mokee_wiki_summary">Visualizza la wiki</string>
+  <string name="mokee_wiki_summary">Vedi la Wiki di MoKee</string>
   <string name="mokee_news_title">Notizie su MoKee</string>
   <string name="mokee_news_summary">Ricevi notizie sullo sviluppo di Mokee</string>
   <!-- Base Info -->
@@ -50,10 +50,10 @@
   <string name="mokee_last_check_never">Mai</string>
   <!-- Version -->
   <string name="mokee_info_default">Sconosciuto</string>
-  <string name="mokee_version_type_release">Rilascio</string>
+  <string name="mokee_version_type_release">Release</string>
   <string name="mokee_version_type_history">Cronologia</string>
   <string name="mokee_version_type_experimental">Sperimentale</string>
-  <string name="mokee_version_type_nightly">Instabile</string>
+  <string name="mokee_version_type_nightly">Nightly</string>
   <string name="mokee_version_type_unofficial">Non ufficiale</string>
   <string name="mokee_version_type_all">Tutte</string>
   <!-- State -->
@@ -77,8 +77,8 @@
   <string name="donate_money_again">Dona di nuovo</string>
   <string name="donate_money_restored_success">Ripristinato con successo!</string>
   <string name="donate_money_restored_failed">Nessun record di dispositivo trovato.</string>
-  <string name="donate_money_restored_timeout">Connessione scaduta, si prega di riprovare</string>
-  <string name="donate_money_info">Donato un totale di %1$d CNY, più di %2$s rispetto a tutti i donatori!</string>
+  <string name="donate_money_restored_timeout">Connessione scaduta, riprova</string>
+  <string name="donate_money_info">Hai donato un totale di %1$d CNY, più di %2$s rispetto a tutti i donatori!</string>
   <string name="donate_money_info_with_rank">Hai donato un totale di %1$d, più del %2$s dei donatori a livello mondiale, posizione No. %3$d!</string>
   <string name="donate_money_info_null">Non hai donato</string>
   <string name="remove_ads_title">Rimuovi pubblicità</string>
@@ -96,18 +96,18 @@
   <string name="old_update_summary">Vecchia</string>
   <string name="update_check_title">Frequenza controllo aggiornamenti</string>
   <string name="check_manual">Manuale</string>
-  <string name="nightly_alert">Hai scelto di includere le nightlies nella lista di aggiornamenti. Nota bene che non sono supportate e andrebbero usate con cautela.</string>
-  <string name="experimenter_alert">Si è scelto di includere aggiornamenti sperimentali in questo elenco. Questi non sono  supportati e intesi solo per prova, devono essere usati con cautela.</string>
-  <string name="unofficial_alert">Si è scelto di includere gli aggiornamenti non ufficiali in questa lista. Tenete a mente che queste sono supportate dal tuo manutentore del dispositivo.</string>
-  <string name="all_alert">Si è scelto di includere tutti gli aggiornamenti (release e nightly) in questa lista. Prendere atto che tutte le nightlies non sono supportate e devono essere usate con cautela.</string>
+  <string name="nightly_alert">Hai scelto di includere le nightly nella lista degli aggiornamenti. Queste non sono supportate e andrebbero usate con cautela.</string>
+  <string name="experimenter_alert">Hai scelto di includere gli aggiornamenti sperimentali in questa lista. Questi non sono supportati e intesi solo per prova, devono essere usati con cautela.</string>
+  <string name="unofficial_alert">Hai scelto di includere gli aggiornamenti non ufficiali in questa lista. Tieni a mente che queste sono supportate dal tuo manutentore del dispositivo.</string>
+  <string name="all_alert">Hai scelto di includere tutti gli aggiornamenti (release e nightly) in questa lista. Prendi atto che tutte le nightly non sono supportate e devono essere usate con cautela.</string>
   <string name="alert_title">Attenzione</string>
   <string name="update_type_title">Tipo di aggiornamento</string>
   <!-- ChangeLog -->
   <string name="no_changelog_alert">Nessun changelog disponibile</string>
-  <string name="changelog_dialog_title">Modifiche di Versione</string>
+  <string name="changelog_dialog_title">Changelog</string>
   <string name="loading_changelog">Caricamento\u2026</string>
   <string name="check_on_boot">Ad ogni riavvio</string>
-  <string name="check_twice_daily">Due volte ogni giorno</string>
+  <string name="check_twice_daily">Due volte al giorno</string>
   <string name="check_daily">Una volta al giorno</string>
   <string name="check_twice_weekly">Due volte alla settimana</string>
   <string name="check_weekly">Una volta alla settimana</string>
@@ -115,12 +115,12 @@
   <string name="check_monthly">Una volta al mese</string>
   <!-- checking -->
   <string name="checking_for_updates">Controllo aggiornamenti</string>
-  <string name="no_updates_found">Nessun nuovo aggiornamento</string>
-  <string name="not_new_updates_found_ticker">Sono disponibili nuovi aggiornamenti</string>
+  <string name="no_updates_found">Nessun nuovo aggiornamento trovato</string>
+  <string name="not_new_updates_found_ticker">Nuovi aggiornamenti disponibili</string>
   <string name="not_new_updates_found_title">Nuovi aggiornamenti</string>
   <string name="update_check_failed">Controllo degli aggiornamenti non riuscito. Controlla la connessione ad internet e riprova.</string>
-  <string name="not_action_download">scarica</string>
-  <string name="data_connection_required">È necessaria una connessione dati</string>
+  <string name="not_action_download">Download</string>
+  <string name="data_connection_required">È necessaria una connessione dati.</string>
   <!-- Downloads -->
   <string name="confirm_download_cancelation_dialog_title">Annulla download</string>
   <string name="confirm_download_cancelation_dialog_message">Annullare il download attuale?</string>
@@ -128,7 +128,7 @@
   <string name="download_running">In corso</string>
   <string name="download_cancelled">Download annullato</string>
   <string name="download_already_running">Un download è già in corso</string>
-  <string name="download_limited_mode">Velocità di download limitata, per favore donare per usare la piena velocità.</string>
+  <string name="download_limited_mode">Velocità di download limitata, per favore dona per usare la piena velocità.</string>
   <string name="unable_to_download_file">Impossibile effettuare il download dell\'aggiornamento</string>
   <string name="not_download_success">Aggiornamento scaricato con successo</string>
   <string name="not_download_failure">Download dell\'aggiornamento fallito</string>
