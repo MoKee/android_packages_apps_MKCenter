@@ -67,10 +67,13 @@
   <string name="menu_remove_ads">Odstrani oglase</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Prispevajte za nas</string>
+  <string name="donate_dialog_message">Za razliko od podjetij, kot sta Cygn ali MIUI, je MoKee odprtokodni projekt, ki je povsem neprofitno rojen za hobi in strast. Da bi ohranili ta projekt, ga moramo največkrat plačevati z lasten denajem ali pa se zanašati na prispevke in oglase. Vaš prispevek lahko pomaga zmanjšati našo finančno obremenitev in vzdržuje nadaljni razvoj! Ta možnost vam omogoča, da odstranite oglase v MoKee centru, ali pa uporabite ukaz \"Prispevaj\", če vam je ljubše na obroke (oglasi bodo odstranjeni, ko je dosežena določena vrednost). Prosimo varnostno kopirajte datoteko mokee. license (v korenski imenik sdcard, velja le za trenutno napravo), ko ste prispevali.</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
+  <string name="donate_dialog_via_restore">Obnovi</string>
   <string name="donate_money_toast_success">Zahvaljujemo se vam za vaš prispevek!</string>
   <string name="donate_money_again">Prispevaj ponovno</string>
+  <string name="donate_money_restored_success">Uspešno obnovljeno!</string>
   <string name="donate_money_restored_timeout">Povezava potekla, prosimo poskusite znova</string>
   <string name="donate_money_info">Skupaj ste podarili %1$d CNY, več kot %2$s donatorjev v svetovnem merilu!</string>
   <string name="donate_money_info_with_rank">Skupno ste prispevali CNY %1$d, več kot %2$s donatorjev v svetovnem merilu, uvrstitev št.%3$d!</string>
