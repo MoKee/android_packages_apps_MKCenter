@@ -78,10 +78,12 @@
   <string name="dialog_cancel">キャンセル</string>
   <string name="dialog_close">閉じる</string>
   <string name="no_available_updates_intro">利用可能なアップデートを見つけられませんでした。新しいアップデートを手動で確認するには、更新ボタンを使用してください。</string>
+  <string name="no_available_ota_intro">最後の確認ではアップデートはありませんでした。手動でアップデートを確認するには、更新ボタンを押してください。インクリメンタルアップデートがサポートされないバージョンを実行している場合、「インクリメンタルアップデート」の設定を解除してください。</string>
   <string name="new_update_summary">新しい</string>
   <string name="old_update_summary">古い</string>
   <string name="update_check_title">アップデートの確認頻度</string>
   <string name="check_manual">マニュアル</string>
+  <string name="nightly_alert">このリストにNightlyアップデートを含めるようにしました。これらはサポートの対象外ですので、注意して使用してください。</string>
   <string name="alert_title">注意</string>
   <string name="update_type_title">アップデートタイプ</string>
   <!-- ChangeLog -->
