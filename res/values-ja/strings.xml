@@ -102,7 +102,17 @@
   <string name="no_updates_found">新しいアップデートはありません</string>
   <string name="not_new_updates_found_title">新しいアップデート</string>
   <string name="not_action_download">ダウンロード</string>
+  <string name="data_connection_required">データ接続が必要です。</string>
   <!-- Downloads -->
+  <string name="confirm_download_cancelation_dialog_title">ダウンロードをキャンセル</string>
+  <string name="confirm_download_cancelation_dialog_message">このダウンロードをキャンセルしますか？</string>
+  <string name="download_running">実行中</string>
+  <string name="download_cancelled">ダウンロードがキャンセルされました</string>
+  <string name="download_already_running">ダウンロードはすでに実行中です</string>
+  <string name="unable_to_download_file">アップデートファイルをダウンロードできません</string>
+  <string name="not_download_success">アップデートのダウンロードは成功しました</string>
+  <string name="not_download_failure">アップデートをダウンロードできませんでした</string>
+  <string name="not_action_install_update">再起動してインストール</string>
   <string name="not_apk_action_install_update">インストール</string>
   <!-- deleting -->
   <!-- pref -->
