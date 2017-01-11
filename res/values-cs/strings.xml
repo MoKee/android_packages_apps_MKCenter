@@ -153,6 +153,7 @@
   <string name="pref_verify_rom">Ověřené aktualizace</string>
   <string name="pref_verify_rom_summary">Zobrazit jen aktualizace ověřené jinými uživateli</string>
   <string name="pref_verify_rom_donation_request_summary">Zobrazit jen aktualizace ověřené jinými uživateli (k dispozici po darování CNY %d)</string>
+  <string name="pref_verify_rom_donation_request_pending_summary">Jsou zobrazeny pouze aktualizace, které byly potvrzeny jinými uživateli (darované %1$d, k dispozici celoživotně po darování %2$d a více, měna: CNY)</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Nainstalovat aktualizaci</string>
   <string name="apply_update_dialog_text">Chystáte se aktualizovat na <xliff:g id="filename">%s</xliff:g>.\n\nPokud stisknete Aktualizovat, telefon se restartuje do režimu recovery, kde bude pokračovat v instalaci aktualizace.\n\nPoznámka: tato funkce vyžaduje nainstalované kompatibilní recovery nebo je nutné instalaci provést ručně.</string>

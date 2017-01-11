@@ -24,6 +24,6 @@
     <item quantity="other">+ <xliff:g id="count">%d </xliff:g> 更多</item>
   </plurals>
   <plurals name="show_exp_countdown">
-    <item quantity="other">僅需 <xliff:g id="STEP_COUNT">%1$d</xliff:g> 步操作即可進入開發者模式</item>
+    <item quantity="other">僅需 <xliff:g id="step_count">%1$d</xliff:g> 個步驟即可啟用開發人員選項</item>
   </plurals>
 </resources>

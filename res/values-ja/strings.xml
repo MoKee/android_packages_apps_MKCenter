@@ -100,6 +100,7 @@
   <!-- checking -->
   <string name="checking_for_updates">アップデートを確認中</string>
   <string name="no_updates_found">新しいアップデートはありません</string>
+  <string name="not_new_updates_found_ticker">新しいアップデートが利用可能です。</string>
   <string name="not_new_updates_found_title">新しいアップデート</string>
   <string name="not_action_download">ダウンロード</string>
   <string name="data_connection_required">データ接続が必要です。</string>
@@ -115,9 +116,25 @@
   <string name="not_action_install_update">再起動してインストール</string>
   <string name="not_apk_action_install_update">インストール</string>
   <!-- deleting -->
+  <string name="confirm_delete_dialog_title">ファイルの削除</string>
+  <string name="confirm_delete_updates_dialog_message">選択したアップデートファイルを削除しますか？</string>
+  <string name="confirm_delete_updates_all_dialog_message">ダウンロードされた全てのアップデートファイルを削除しますか？</string>
+  <string name="delete_single_update_success_message">アップデートファイル<xliff:g id="filename">%s</xliff:g>は削除されました。</string>
+  <string name="delete_updates_failure_message">アップデートファイルの削除中にエラーが発生しました。</string>
+  <string name="delete_updates_nofolder_message">アップデートフォルダが見つかりませんでした。</string>
+  <string name="delete_updates_success_message">ダウンロードされた全てのアップデートファイルは削除されました。</string>
   <!-- pref -->
+  <string name="pref_ota_check">差分アップデート</string>
+  <string name="pref_ota_check_summary">ダウンロード時間と帯域を節約する差分アップデートを入手</string>
+  <string name="pref_ota_check_donation_request_summary">ダウンロード時間と帯域を節約する差分アップデートを入手 (この機能は%d人民元寄付後に利用可能です)</string>
   <!-- Apply install and update strings -->
+  <string name="apply_update_dialog_title">アップデートを適用</string>
+  <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g> にアップグレードしようとしています。\n\n更新を押すと端末は再起動後、自動でリカバリーモードに移行しアップデートをインストールします。</string>
+  <string name="apply_update_ota_dialog_text"><xliff:g id="filename">%s</xliff:g> にアップグレードしようとしています。\n\n更新を押すと端末は再起動後、自動でリカバリーモードに移行しアップデートをインストールします。\n\n差分アップデートはユーザーによるシステムファイルに加えられた変更が原因でアップデートのインストールに失敗する可能性があります。この場合は差分アップデートではなくROM全体のフラッシュを試してみてください。</string>
+  <string name="apply_unable_to_reboot_toast">リカバリーモードへ再起動できません。</string>
   <!-- experimenter mode -->
+  <string name="show_exp_on">実験的な設定項目が有効になっています！</string>
+  <string name="show_exp_already">変更は必要ありません。既に実験的な設定項目が有効になっています。</string>
   <!-- Xposed framework check -->
   <!-- Discount -->
 </resources>
