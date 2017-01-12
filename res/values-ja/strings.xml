@@ -84,6 +84,9 @@
   <string name="update_check_title">アップデートの確認頻度</string>
   <string name="check_manual">マニュアル</string>
   <string name="nightly_alert">このリストにNightlyアップデートを含めるようにしました。これらはサポートの対象外ですので、注意して使用してください。</string>
+  <string name="experimenter_alert">このリストに実験的な更新を含めることを選択しました。 これらはサポートされておらず、テスト専用であるため使用する際には注意が必要です。</string>
+  <string name="unofficial_alert">このリストに非公式のアップデートを含めることを選択しました。これらはデバイスメンテナによってサポートされていることに注意してください。</string>
+  <string name="all_alert">このリストにすべてのアップデート(リリース及びナイトリービルド) を含めることを選択しました。ナイトリービルドはサポートが行われないため使用する際には注意が必要です。</string>
   <string name="alert_title">注意</string>
   <string name="update_type_title">アップデートタイプ</string>
   <!-- ChangeLog -->
@@ -102,11 +105,13 @@
   <string name="no_updates_found">新しいアップデートはありません</string>
   <string name="not_new_updates_found_ticker">新しいアップデートが利用可能です。</string>
   <string name="not_new_updates_found_title">新しいアップデート</string>
+  <string name="update_check_failed">アップデートの確認に失敗しました。インターネット接続を確認し、しばらくしてからもう一度お試しください。</string>
   <string name="not_action_download">ダウンロード</string>
   <string name="data_connection_required">データ接続が必要です。</string>
   <!-- Downloads -->
   <string name="confirm_download_cancelation_dialog_title">ダウンロードをキャンセル</string>
   <string name="confirm_download_cancelation_dialog_message">このダウンロードをキャンセルしますか？</string>
+  <string name="download_remaining">残り<xliff:g id="duration">%s</xliff:g></string>
   <string name="download_running">実行中</string>
   <string name="download_cancelled">ダウンロードがキャンセルされました</string>
   <string name="download_already_running">ダウンロードはすでに実行中です</string>
@@ -114,6 +119,9 @@
   <string name="not_download_success">アップデートのダウンロードは成功しました</string>
   <string name="not_download_failure">アップデートをダウンロードできませんでした</string>
   <string name="not_action_install_update">再起動してインストール</string>
+  <string name="not_download_install_notice">アップデート <xliff:g id="filename">%s</xliff:g> は正常にダウンロードされました。\"再起動とインストール\"をタッチするとデバイスは再起動されアップデートのインストールを実行します。\n\n注意: この機能は互換性のあるリカバリか手動でのインストールを必要とします。</string>
+  <string name="not_download_install_ota_notice">アップデート <xliff:g id="filename">%s</xliff:g> は正常にダウンロードされました。\"再起動とインストール\"をタッチするとデバイスは再起動されアップデートのインストールを実行します。\n\n注意: この機能は互換性のあるリカバリか手動でのインストールを必要とします。\n\n差分アップデートはユーザーによるシステムファイルに加えられた変更が原因でアップデートのインストールに失敗する可能性があります。この場合は差分アップデートではなくROM全体のフラッシュを試してみてください。</string>
+  <string name="md5_verification_failed">MD5チェックサムが一致しません。</string>
   <string name="not_apk_action_install_update">インストール</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">ファイルの削除</string>
@@ -129,7 +137,7 @@
   <string name="pref_ota_check_donation_request_summary">ダウンロード時間と帯域を節約する差分アップデートを入手 (この機能は%d人民元寄付後に利用可能です)</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">アップデートを適用</string>
-  <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g> にアップグレードしようとしています。\n\n更新を押すと端末は再起動後、自動でリカバリーモードに移行しアップデートをインストールします。</string>
+  <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g> にアップグレードしようとしています。\n\n更新を押すと端末は再起動後、自動でリカバリーモードに移行しアップデートをインストールします。\n\n注意: この機能は互換性のあるリカバリか手動でのインストールを必要とします。</string>
   <string name="apply_update_ota_dialog_text"><xliff:g id="filename">%s</xliff:g> にアップグレードしようとしています。\n\n更新を押すと端末は再起動後、自動でリカバリーモードに移行しアップデートをインストールします。\n\n差分アップデートはユーザーによるシステムファイルに加えられた変更が原因でアップデートのインストールに失敗する可能性があります。この場合は差分アップデートではなくROM全体のフラッシュを試してみてください。</string>
   <string name="apply_unable_to_reboot_toast">リカバリーモードへ再起動できません。</string>
   <!-- experimenter mode -->

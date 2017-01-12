@@ -134,7 +134,7 @@
   <string name="not_download_failure">下载更新失败</string>
   <string name="not_action_install_update">重启并安装</string>
   <string name="not_download_install_notice"><xliff:g id="filename">%s</xliff:g> 已成功下载。点击“重启并安装”时，设备将重新启动并安装更新。\n\n注意：自动安装过程需要一个兼容的恢复程序，不兼容的恢复程序可能导致更新失败。</string>
-  <string name="not_download_install_ota_notice"><xliff:g id="filename">%s</xliff:g> 已成功下载。点击“重启并安装”时，设备将重新启动并安装更新。\n\n注意：自动安装过程需要一个兼容的恢复程序，不兼容的恢复程序可能导致更新失败。\n\n本次为增量更新，任何人为或带有ROOT权限的程序对系统文件造成的修改可能导致更新失败，若您遭遇此情形，请尝试下载完整包进行更新。</string>
+  <string name="not_download_install_ota_notice"><xliff:g id="filename">%s</xliff:g> 已成功下载。点击“重启并安装”后，设备将重新启动并安装更新。\n\n注意：自动安装过程需要一个兼容的恢复程序，不兼容的恢复程序可能导致更新失败。\n\n本次为增量更新，任何人为或带有ROOT权限的程序对系统文件造成的修改可能导致更新失败，如果您遭遇此情形，请尝试下载完整包进行更新。</string>
   <string name="md5_verification_failed">MD5 检测失败</string>
   <string name="not_apk_action_install_update">安装</string>
   <!-- deleting -->
@@ -157,7 +157,7 @@
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">应用更新</string>
   <string name="apply_update_dialog_text">您将要更新到 <xliff:g id="filename">%s</xliff:g>。\n\n如果您选择更新，您的设备将会重启到恢复模式并安装更新。\n\n注意：此功能需要一个兼容的恢复程序。如果您没有的话，您将需要手动安装更新。</string>
-  <string name="apply_update_ota_dialog_text">您将要更新到 <xliff:g id="filename">%s</xliff:g>。\n\n如果您选择更新，您的设备将会重启到恢复模式并安装更新。\n\n注意：此功能需要一个兼容的恢复程序。如果您没有的话，您将需要手动安装更新。\n\n本次为增量更新，任何人为或带有ROOT权限的程序对系统文件造成的修改可能导致更新失败，若您遭遇此情形，请尝试下载完整包进行更新。</string>
+  <string name="apply_update_ota_dialog_text">您将要更新到 <xliff:g id="filename">%s</xliff:g>。\n\n如果您选择更新，您的设备将会重启到恢复模式并安装更新。\n\n注意：此功能需要一个兼容的恢复程序。如果您没有的话，您将需要手动安装更新。\n\n本次为增量更新，任何人为或带有ROOT权限的程序对系统文件造成的修改可能导致更新失败，如果您遭遇此情形，请尝试下载完整包进行更新。</string>
   <string name="apply_unable_to_reboot_toast">无法重启到恢复模式</string>
   <!-- experimenter mode -->
   <string name="show_exp_on">您现在处于测试者模式！</string>
@@ -166,7 +166,7 @@
   <string name="installed_xposed_toast">检测到系统安装了Xposed框架，使用增量更新并不需要在升级后重刷框架。</string>
   <!-- Discount -->
   <string name="discount_dialog_title">限时折扣</string>
-  <string name="discount_dialog_message">感谢您对魔趣开源项目的长期支持，现在您可享有限时优惠，%1$d CNY获得增量更新、放心刷™并移除界面广告（立省 %2$d CNY）！若您想要稍后支付，可点按提示框外关闭窗口并在准备就绪后重新打开程序。</string>
+  <string name="discount_dialog_message">感谢您对魔趣开源项目的长期支持，现在您可享有限时优惠，%1$d CNY获得增量更新、放心刷™并移除界面广告（立省 %2$d CNY）！如果您想要稍后支付，可点按提示框外关闭窗口并在准备就绪后重新打开程序。</string>
   <string name="discount_dialog_expires">距离限时折扣结束还剩 %s</string>
   <string name="discount_dialog_cancel">不再提醒</string>
 </resources>
