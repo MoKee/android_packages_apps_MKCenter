@@ -68,7 +68,7 @@
   <string name="menu_restore">Pulihkan lisensi</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Donasi untuk kami</string>
-  <string name="donate_dialog_message">Tidak seperti perusahaan Cygn atau MIUI, MoKee OpenSource adalah proyek nirlaba yang murni lahir dari hobi dan semangat. Untuk menjaga proyek ini, kita harus mengeluarkan uang setiap waktunya atau mengandalkan donasi dan iklan. Donasi anda dapat membantu mengurangi beban keuangan kami dan menunjang perkembangan kedepannya! Pilihan ini memungkinkan anda untuk menghapus iklan di Pusat MoKee, atau gunakan \"Donasi\", sebaliknya jika anda memilih cicilan (klan akan dihapus setelah total mencapai nilai yang ditentukan). Silahkan cadangkan berkas mokee. license (dalam direktori root di sdcard, hanya berlaku untuk perangkat saat ini) setelah anda telah melakukan donasi.</string>
+  <string name="donate_dialog_message">Tidak seperti perusahaan Cygn atau MIUI, MoKee OpenSource adalah proyek nirlaba yang murni lahir dari hobi dan semangat. Untuk menjaga proyek ini, kita harus mengeluarkan uang setiap waktunya atau mengandalkan donasi dan iklan. Donasi anda dapat membantu mengurangi beban keuangan kami dan menunjang perkembangan kedepannya! Pilihan ini memungkinkan anda untuk menghapus iklan di Pusat MoKee, atau gunakan \"Donasi\", sebaliknya jika anda memilih cicilan (iklan akan dihapus setelah total mencapai nilai yang ditentukan). Silahkan cadangkan berkas mokee.license (dalam direktori root di sdcard, hanya berlaku untuk perangkat saat ini) setelah anda telah melakukan donasi.</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_restore">Pulihkan</string>
