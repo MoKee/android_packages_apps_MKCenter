@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014-2016 The MoKee Open Source Project
+ * Copyright (C) 2014-2017 The MoKee Open Source Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,10 +17,6 @@
 
 package com.mokee.center.utils;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.Locale;
-
 import android.app.Activity;
 import android.app.AlarmManager;
 import android.app.NotificationManager;
@@ -32,7 +28,7 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Environment;
 import android.os.RecoverySystem;
-import android.preference.PreferenceFragment;
+import android.support.v7.preference.PreferenceFragmentCompat;
 import android.text.format.DateUtils;
 
 import com.mokee.center.R;
@@ -43,6 +39,10 @@ import com.mokee.center.misc.DownLoadInfo;
 import com.mokee.center.service.UpdateCheckService;
 import com.mokee.os.Build;
 import com.mokee.security.License;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.Locale;
 
 public class Utils {
 
@@ -214,8 +214,8 @@ public class Utils {
         return (itemDate > nowDate && itemVersion >= nowVersion);
     }
 
-    public static void setSummaryFromString(PreferenceFragment prefFragment, String preference,
-            String value) {
+    public static void setSummaryFromString(PreferenceFragmentCompat prefFragment, String preference,
+                                            String value) {
         if (prefFragment == null) {
             return;
         }
@@ -284,7 +284,7 @@ public class Utils {
         mContext.startActivityForResult(intent, 0);
     }
 
-    public static void sendPaymentRequest (Activity mContext, String channel, String name, String description, String price, String type) {
+    public static void sendPaymentRequest(Activity mContext, String channel, String name, String description, String price, String type) {
         Intent intent = new Intent(Constants.ACTION_PAYMENT_REQUEST);
         intent.putExtra("packagename", mContext.getPackageName());
         intent.putExtra("channel", channel);

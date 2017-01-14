@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014-2016 The MoKee Open Source Project
+ * Copyright (C) 2014-2017 The MoKee Open Source Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -18,13 +18,20 @@
 package com.mokee.center.widget;
 
 import android.content.Context;
-import android.preference.Preference;
-import android.util.AttributeSet;
+import android.support.v7.preference.Preference;
 
-public class EmptyListPreferenceStyle extends Preference {
+import com.mokee.center.R;
 
-    public EmptyListPreferenceStyle(Context context, AttributeSet ui, int style) {
-        super(context, ui, style);
+public class EmptyListPreference extends Preference {
+
+    @SuppressWarnings("WeakerAccess")
+    public EmptyListPreference(Context context, boolean isOTAChecked) {
+        super(context, null, 0, 0);
+        setLayoutResource(R.layout.preference_empty_list);
+        setEnabled(false);
+        setSummary(isOTAChecked
+                ? R.string.no_available_ota_intro
+                : R.string.no_available_updates_intro);
     }
 
 }

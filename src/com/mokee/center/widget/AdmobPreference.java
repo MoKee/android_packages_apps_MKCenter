@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015-2016 The MoKee Open Source Project
+ * Copyright (C) 2015-2017 The MoKee Open Source Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -18,11 +18,10 @@
 package com.mokee.center.widget;
 
 import android.content.Context;
-import android.preference.Preference;
+import android.support.v4.content.res.TypedArrayUtils;
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceViewHolder;
 import android.util.AttributeSet;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
@@ -31,29 +30,36 @@ import com.mokee.center.R;
 public class AdmobPreference extends Preference {
 
     private static AdView adView;
-    private static View admobCustomView;
 
+    @SuppressWarnings("unused")
     public AdmobPreference(Context context) {
-        super(context);
+        this(context, null);
     }
 
+    @SuppressWarnings("WeakerAccess")
     public AdmobPreference(Context context, AttributeSet attrs) {
-        super(context, attrs);
+        this(context, attrs, TypedArrayUtils.getAttr(context,
+                android.support.v7.preference.R.attr.preferenceStyle,
+                android.R.attr.preferenceStyle));
     }
 
-    public AdmobPreference(Context context, AttributeSet ui, int style) {
-        super(context, ui, style);
+    @SuppressWarnings("WeakerAccess")
+    public AdmobPreference(Context context, AttributeSet attrs, int defStyleAttr) {
+        this(context, attrs, defStyleAttr, 0);
+    }
+
+    @SuppressWarnings("WeakerAccess")
+    public AdmobPreference(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
+        super(context, attrs, defStyleAttr, defStyleRes);
+        setLayoutResource(R.layout.preference_admob);
     }
 
     @Override
-    protected View onCreateView(ViewGroup parent) {
-        if (admobCustomView == null) {
-            LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            admobCustomView = inflater.inflate(R.layout.preference_admob, null);
-            adView = (AdView) admobCustomView.findViewById(R.id.adView);
+    public void onBindViewHolder(PreferenceViewHolder holder) {
+        adView = (AdView) holder.itemView;
+        if (adView.getChildCount() == 0) {
             adView.loadAd(new AdRequest.Builder().build());
         }
-        return admobCustomView;
     }
 
     public void onAdCreate() {
@@ -74,9 +80,10 @@ public class AdmobPreference extends Preference {
         }
     }
 
-    public void onAdDestory() {
+    public void onAdDestroy() {
         if (adView != null) {
             adView.destroy();
         }
     }
+
 }
