@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015-2016 The MoKee Open Source Project
+ * Copyright (C) 2015-2017 The MoKee Open Source Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -19,11 +19,10 @@ package com.mokee.center.widget;
 
 import android.app.Activity;
 import android.content.Context;
-import android.preference.Preference;
+import android.support.v4.content.res.TypedArrayUtils;
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceViewHolder;
 import android.util.AttributeSet;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
 import com.mokee.center.R;
@@ -32,31 +31,45 @@ import cn.waps.AppConnect;
 
 public class AppofferPreference extends Preference {
 
-    private static View appofferCustomView;
+    private Activity mContext;
+    private LinearLayout adView;
 
-    private static LinearLayout adView;
+    private boolean hasInited = false;
 
+    @SuppressWarnings("unused")
     public AppofferPreference(Context context) {
-        super(context);
+        this(context, null);
     }
 
+    @SuppressWarnings("WeakerAccess")
     public AppofferPreference(Context context, AttributeSet attrs) {
-        super(context, attrs);
+        this(context, attrs, TypedArrayUtils.getAttr(context,
+                android.support.v7.preference.R.attr.preferenceStyle,
+                android.R.attr.preferenceStyle));
     }
 
-    public AppofferPreference(Context context, AttributeSet ui, int style) {
-        super(context, ui, style);
+    @SuppressWarnings("WeakerAccess")
+    public AppofferPreference(Context context, AttributeSet attrs, int defStyleAttr) {
+        this(context, attrs, defStyleAttr, 0);
+    }
+
+    @SuppressWarnings("WeakerAccess")
+    public AppofferPreference(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
+        super(context, attrs, defStyleAttr, defStyleRes);
+        setLayoutResource(R.layout.preference_appoffer);
     }
 
     @Override
-    protected View onCreateView(ViewGroup parent) {
-        if (appofferCustomView == null) {
-            LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            appofferCustomView = inflater.inflate(R.layout.preference_appoffer, null);
-            adView = (LinearLayout) appofferCustomView.findViewById(R.id.AdView);
-            AppConnect.getInstance(parent.getContext()).showBannerAd(parent.getContext(), adView);
+    public void onBindViewHolder(PreferenceViewHolder holder) {
+        adView = (LinearLayout) holder.findViewById(R.id.adView);
+        if (!hasInited && mContext != null) {
+            hasInited = true;
+            AppConnect.getInstance(mContext).showBannerAd(mContext, adView);
         }
-        return appofferCustomView;
+    }
+
+    public void onAdCreate(Activity context) {
+        this.mContext = context;
     }
 
     public void onAdResume(Activity mContext) {
@@ -67,4 +80,5 @@ public class AppofferPreference extends Preference {
             AppConnect.getInstance(mContext).showBannerAd(mContext, adView);
         }
     }
+
 }

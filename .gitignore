@@ -1,1 +1,10 @@
 .DS_Store
+*.iml
+*.gradle
+*.properties
+/.gradle
+/.idea
+/appoffer
+/build
+/mokee
+/snackbar

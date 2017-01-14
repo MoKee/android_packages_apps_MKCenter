@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014-2016 The MoKee Open Source Project
+ * Copyright (C) 2014-2017 The MoKee Open Source Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,13 +17,41 @@
 
 package com.mokee.center.fragments;
 
-import java.io.File;
-import java.io.IOException;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Date;
-import java.util.LinkedList;
-import java.util.List;
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.ProgressDialog;
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.IntentFilter;
+import android.content.SharedPreferences;
+import android.content.res.Resources;
+import android.icu.text.SimpleDateFormat;
+import android.mokee.utils.MoKeeUtils;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Parcelable;
+import android.os.SystemProperties;
+import android.os.UserHandle;
+import android.support.v14.preference.SwitchPreference;
+import android.support.v7.preference.ListPreference;
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceCategory;
+import android.support.v7.preference.PreferenceFragmentCompat;
+import android.support.v7.preference.PreferenceScreen;
+import android.text.TextUtils;
+import android.text.format.DateFormat;
+import android.text.format.DateUtils;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.LinearLayout;
+import android.widget.ProgressBar;
+import android.widget.TextView;
 
 import com.mokee.center.R;
 import com.mokee.center.activities.MoKeeCenter;
@@ -42,57 +70,28 @@ import com.mokee.center.utils.UpdateFilter;
 import com.mokee.center.utils.Utils;
 import com.mokee.center.widget.AdmobPreference;
 import com.mokee.center.widget.AppofferPreference;
-import com.mokee.center.widget.EmptyListPreferenceStyle;
+import com.mokee.center.widget.EmptyListPreference;
 import com.mokee.center.widget.ItemPreference;
-
-import mokee.support.widget.snackbar.Snackbar;
-import mokee.support.widget.snackbar.SnackbarManager;
-import android.app.Activity;
-import android.app.AlertDialog;
-import android.app.ProgressDialog;
-import android.content.BroadcastReceiver;
-import android.content.Context;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.content.IntentFilter;
-import android.content.SharedPreferences;
-import android.content.res.Resources;
-import android.icu.text.SimpleDateFormat;
-import android.mokee.utils.MoKeeUtils;
-import android.os.Bundle;
-import android.os.Handler;
-import android.os.Parcelable;
-import android.os.SystemProperties;
-import android.os.UserHandle;
-import android.preference.ListPreference;
-import android.preference.Preference;
-import android.preference.Preference.OnPreferenceChangeListener;
-import android.preference.PreferenceCategory;
-import android.preference.PreferenceFragment;
-import android.preference.PreferenceScreen;
-import android.preference.SwitchPreference;
-import android.text.TextUtils;
-import android.text.format.DateFormat;
-import android.text.format.DateUtils;
-import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
-import android.view.View;
-import android.widget.LinearLayout;
-import android.widget.ProgressBar;
-import android.widget.TextView;
-
-import cn.waps.AppConnect;
-
 import com.mokee.os.Build;
 
-public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPreferenceChangeListener,
-        ItemPreference.OnReadyListener, ItemPreference.OnActionListener {
+import java.io.File;
+import java.io.IOException;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Date;
+import java.util.LinkedList;
+import java.util.List;
 
-    private static Activity mContext;
-    private static String TAG = "MoKeeUpdaterFragment";
+import cn.waps.AppConnect;
+import mokee.support.widget.snackbar.Snackbar;
+import mokee.support.widget.snackbar.SnackbarManager;
+
+public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
+        Preference.OnPreferenceChangeListener,
+        ItemPreference.OnReadyListener,
+        ItemPreference.OnActionListener {
+
+    public static final String EXPERIMENTAL_SHOW = "experimental_show";
 
     private static final String KEY_MOKEE_VERSION = "mokee_version";
     private static final String KEY_MOKEE_UNIQUE_ID = "mokee_unique_id";
@@ -100,42 +99,94 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
     private static final String KEY_MOKEE_VERSION_TYPE = "mokee_version_type";
     private static final String KEY_MOKEE_LAST_CHECK = "mokee_last_check";
 
-    private boolean mDownloading = false;
-    private long mDownloadId;
-    private String mFileName;
-    private static String updateTypeString, MoKeeVersionType, MoKeeVersionTypeString;
-
-    private boolean mStartUpdateVisible = false;
-
     private static final String UPDATES_CATEGORY = "updates_category";
 
-    public static final String EXPERIMENTAL_SHOW = "experimental_show";
     private static final int TAPS_TO_BE_A_EXPERIMENTER = 7;
-    private int mExpHitCountdown;
 
-    private static final int MENU_REFRESH = 0;
-    private static final int MENU_DELETE_ALL = 1;
-    private static final int MENU_DONATE = 2;
-    private static final int MENU_REMOVE_ADS = 3;
-    private static final int MENU_RESTORE = 4;
+    private static Activity mContext;
+
+    private static String TAG = "MoKeeUpdaterFragment";
+
+    private static String updateTypeString, MoKeeVersionType, MoKeeVersionTypeString;
 
     private static SharedPreferences mPrefs;
-    private AdmobPreference mAdmobView;
-    private AppofferPreference mAppofferView;
-    private PreferenceScreen mRootView;
     private static SwitchPreference mUpdateOTA;
     private static SwitchPreference mVerifyROM;
 
+    private boolean mDownloading = false;
+    private long mDownloadId;
+    private String mFileName;
+    private boolean mStartUpdateVisible = false;
+    private int mExpHitCountdown;
+
+    private AdmobPreference mAdmobView;
+    private AppofferPreference mAppofferView;
+    private PreferenceScreen mRootView;
     private ListPreference mUpdateCheck;
     private ListPreference mUpdateType;
     private PreferenceCategory mUpdatesList;
     private ItemPreference mDownloadingPreference;
+
     private File mUpdateFolder;
     private ProgressDialog mProgressDialog;
     private Handler mUpdateHandler = new Handler();
 
     private long leftTime;
     private Runnable timerRunnable;
+
+    // 更新进度条
+    private Runnable mUpdateProgress = new Runnable() {
+        public void run() {
+            if (!mDownloading || mDownloadingPreference == null || mDownloadId < 0) {
+                return;
+            }
+
+            ProgressBar progressBar = mDownloadingPreference.getProgressBar();
+            if (progressBar == null) {
+                return;
+            }
+            DownLoadInfo dli = DownLoadDao.getInstance().getDownLoadInfo(String.valueOf(mDownloadId));
+            int status;
+
+            if (dli == null) {
+                // DownloadReceiver has likely already removed the download
+                // from the DB due to failure or MD5 mismatch
+                status = DownLoader.STATUS_PENDING;
+            } else {
+                status = dli.getState();
+            }
+            switch (status) {
+                case DownLoader.STATUS_PENDING:
+                    progressBar.setIndeterminate(true);
+                    break;
+                case DownLoader.STATUS_DOWNLOADING:
+                    List<ThreadDownLoadInfo> threadList = ThreadDownLoadDao.getInstance().getThreadInfoList(dli.getUrl());
+                    int totalBytes = -1;
+                    int downloadedBytes = 0;
+                    for (ThreadDownLoadInfo info : threadList) {
+                        downloadedBytes += info.getDownSize();
+                        totalBytes += info.getEndPos() - info.getStartPos() + 1;
+                    }
+
+                    if (totalBytes < 0) {
+                        progressBar.setIndeterminate(true);
+                    } else {
+                        progressBar.setIndeterminate(false);
+                        progressBar.setMax(totalBytes);
+                        progressBar.setProgress(downloadedBytes);
+                    }
+                    break;
+                case DownLoader.STATUS_ERROR:
+                case DownLoader.STATUS_PAUSED:
+                    mDownloadingPreference.setStyle(ItemPreference.STYLE_NEW);
+                    resetDownloadState();
+                    break;
+            }
+            if (status != DownLoader.STATUS_ERROR) {
+                mUpdateHandler.postDelayed(this, 1500);
+            }
+        }
+    };
 
     private BroadcastReceiver mReceiver = new BroadcastReceiver() {
         @Override
@@ -164,6 +215,57 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
         }
     };
 
+    public static void refreshOption() {
+        mContext.invalidateOptionsMenu();
+        refreshOTAOption();
+        refreshVerifyOption();
+    }
+
+    public static void refreshVerifyOption() {
+        Float currentPaid = Utils.getPaidTotal(mContext);
+        if (currentPaid < Constants.DONATION_TOTAL) {
+            mPrefs.edit().putBoolean(Constants.VERIFY_ROM_PREF, false).apply();
+            mVerifyROM.setEnabled(false);
+            if (currentPaid == 0f) {
+                mVerifyROM.setSummary(String.format(mContext.getString(R.string.pref_verify_rom_donation_request_summary),
+                        Float.valueOf(Constants.DONATION_TOTAL - currentPaid).intValue()));
+            } else {
+                mVerifyROM.setSummary(String.format(mContext.getString(R.string.pref_verify_rom_donation_request_pending_summary),
+                        currentPaid.intValue(), Float.valueOf(Constants.DONATION_TOTAL - currentPaid.intValue()).intValue()));
+            }
+        } else {
+            mVerifyROM.setEnabled(true);
+            mVerifyROM.setSummary(R.string.pref_verify_rom_summary);
+        }
+    }
+
+    public static void refreshOTAOption() {
+        Float currentPaid = Utils.getPaidTotal(mContext);
+        if (currentPaid < Constants.DONATION_REQUEST) {
+            mPrefs.edit().putBoolean(Constants.OTA_CHECK_PREF, false).apply();
+            mUpdateOTA.setEnabled(false);
+            if (currentPaid == 0f) {
+                mUpdateOTA.setSummary(String.format(mContext.getString(R.string.pref_ota_check_donation_request_summary),
+                        Float.valueOf(Constants.DONATION_REQUEST - currentPaid).intValue()));
+            } else {
+                mUpdateOTA.setSummary(String.format(mContext.getString(R.string.pref_ota_check_donation_request_pending_summary),
+                        currentPaid.intValue(), Float.valueOf(Constants.DONATION_REQUEST - currentPaid.intValue()).intValue()));
+            }
+        } else {
+            if (!MoKeeVersionTypeString.equals(updateTypeString)) {
+                mPrefs.edit().putBoolean(Constants.OTA_CHECK_PREF, false).apply();
+            }
+            mUpdateOTA.setEnabled(true);
+            mUpdateOTA.setSummary(R.string.pref_ota_check_summary);
+        }
+    }
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setHasOptionsMenu(true);
+    }
+
     @Override
     public void onPause() {
         super.onPause();
@@ -176,13 +278,12 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
     public void onDestroy() {
         super.onDestroy();
         if (mAdmobView != null) {
-            mAdmobView.onAdDestory();
+            mAdmobView.onAdDestroy();
         }
     }
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         mContext = getActivity();
 
         // Load the layouts
@@ -193,6 +294,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
 
         mRootView = (PreferenceScreen) findPreference(Constants.ROOT_PREF);
         mAppofferView = (AppofferPreference) findPreference(Constants.APPOFFER_PREF);
+        mAppofferView.onAdCreate(mContext);
         mAdmobView = (AdmobPreference) findPreference(Constants.ADMOB_PREF);
         if (!Utils.checkLicensed(mContext)) {
             if (!MoKeeUtils.isSupportLanguage(false)) {
@@ -310,13 +412,13 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
             };
 
             LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-            LinearLayout donateView = (LinearLayout)inflater.inflate(R.layout.donate, null);
+            LinearLayout donateView = (LinearLayout) inflater.inflate(R.layout.donate, null);
             TextView mLeftTimeView = (TextView) donateView.findViewById(R.id.request);
             donateView.findViewById(R.id.price).setVisibility(View.GONE);
             ProgressBar mProgressBar = (ProgressBar) donateView.findViewById(R.id.progress);
             mProgressBar.setMax(100);
             leftTime = mPrefs.getLong(Constants.KEY_LEFT_TIME, Constants.DISCOUNT_THINK_TIME);
-            mProgressBar.setProgress(Float.valueOf((float)leftTime / Constants.DISCOUNT_THINK_TIME * 100).intValue());
+            mProgressBar.setProgress(Float.valueOf((float) leftTime / Constants.DISCOUNT_THINK_TIME * 100).intValue());
             mLeftTimeView.setText(String.format(getString(R.string.discount_dialog_expires), df.format(leftTime)));
 
             AlertDialog.Builder builder = new AlertDialog.Builder(mContext)
@@ -339,7 +441,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
                 @Override
                 public void run() {
                     leftTime = leftTime - DateUtils.SECOND_IN_MILLIS;
-                    mProgressBar.setProgress(Float.valueOf((float)leftTime / Constants.DISCOUNT_THINK_TIME * 100).intValue());
+                    mProgressBar.setProgress(Float.valueOf((float) leftTime / Constants.DISCOUNT_THINK_TIME * 100).intValue());
                     mLeftTimeView.setText(String.format(getString(R.string.discount_dialog_expires), df.format(leftTime)));
                     if (leftTime <= 0) {
                         discountDialog.dismiss();
@@ -388,7 +490,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
 
     private void removeAdmobPreference() {
         if (mAdmobView != null) {
-            mAdmobView.onAdDestory();
+            mAdmobView.onAdDestroy();
             mRootView.removePreference(mAdmobView);
             mAdmobView = null;
         }
@@ -430,53 +532,8 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
         setDonatePreference();
     }
 
-    public static void refreshOption() {
-        mContext.invalidateOptionsMenu();
-        refreshOTAOption();
-        refreshVerifyOption();
-    }
-
-    public static void refreshVerifyOption() {
-        Float currentPaid = Utils.getPaidTotal(mContext);
-        if (currentPaid < Constants.DONATION_TOTAL) {
-            mPrefs.edit().putBoolean(Constants.VERIFY_ROM_PREF, false).apply();
-            mVerifyROM.setEnabled(false);
-            if (currentPaid == 0f) {
-                mVerifyROM.setSummary(String.format(mContext.getString(R.string.pref_verify_rom_donation_request_summary),
-                        Float.valueOf(Constants.DONATION_TOTAL - currentPaid).intValue()));
-            } else {
-                mVerifyROM.setSummary(String.format(mContext.getString(R.string.pref_verify_rom_donation_request_pending_summary),
-                        currentPaid.intValue(), Float.valueOf(Constants.DONATION_TOTAL - currentPaid.intValue()).intValue()));
-            }
-        } else {
-            mVerifyROM.setEnabled(true);
-            mVerifyROM.setSummary(R.string.pref_verify_rom_summary);
-        }
-    }
-
-    public static void refreshOTAOption() {
-        Float currentPaid = Utils.getPaidTotal(mContext);
-        if (currentPaid < Constants.DONATION_REQUEST) {
-            mPrefs.edit().putBoolean(Constants.OTA_CHECK_PREF, false).apply();
-            mUpdateOTA.setEnabled(false);
-            if (currentPaid == 0f) {
-                mUpdateOTA.setSummary(String.format(mContext.getString(R.string.pref_ota_check_donation_request_summary),
-                        Float.valueOf(Constants.DONATION_REQUEST - currentPaid).intValue()));
-            } else {
-                mUpdateOTA.setSummary(String.format(mContext.getString(R.string.pref_ota_check_donation_request_pending_summary),
-                        currentPaid.intValue(), Float.valueOf(Constants.DONATION_REQUEST - currentPaid.intValue()).intValue()));
-            }
-        } else {
-            if (!MoKeeVersionTypeString.equals(updateTypeString)) {
-                mPrefs.edit().putBoolean(Constants.OTA_CHECK_PREF, false).apply();
-            }
-            mUpdateOTA.setEnabled(true);
-            mUpdateOTA.setSummary(R.string.pref_ota_check_summary);
-        }
-    }
-
     @Override
-    public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
+    public boolean onPreferenceTreeClick(Preference preference) {
         if (preference.getKey().equals(KEY_MOKEE_VERSION_TYPE)) {
             // Don't enable experimental option for secondary users.
             if (UserHandle.myUserId() != UserHandle.USER_OWNER)
@@ -506,7 +563,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
                         .duration(Snackbar.SnackbarDuration.LENGTH_LONG).colorResource(R.color.snackbar_background));
             }
         }
-        return super.onPreferenceTreeClick(preferenceScreen, preference);
+        return super.onPreferenceTreeClick(preference);
     }
 
     public void updateLastCheckPreference() {
@@ -524,43 +581,35 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        if (!Utils.checkLicensed(mContext)) {
-            menu.add(0, MENU_REMOVE_ADS, 0, R.string.menu_remove_ads).setShowAsActionFlags(
-                    MenuItem.SHOW_AS_ACTION_ALWAYS | MenuItem.SHOW_AS_ACTION_WITH_TEXT);
+        inflater.inflate(R.menu.updater, menu);
+    }
+
+    @Override
+    public void onPrepareOptionsMenu(Menu menu) {
+        super.onPrepareOptionsMenu(menu);
+        if (Utils.checkLicensed(mContext)) {
+            menu.findItem(R.id.menu_remove_ads).setVisible(false);
         }
-        menu.add(0, MENU_DONATE, 0, R.string.menu_donate).setShowAsActionFlags(
-                MenuItem.SHOW_AS_ACTION_ALWAYS | MenuItem.SHOW_AS_ACTION_WITH_TEXT);
-        menu.add(0, MENU_REFRESH, 0, R.string.menu_refresh)
-                .setIcon(R.drawable.ic_menu_refresh)
-                .setShowAsActionFlags(
-                        MenuItem.SHOW_AS_ACTION_ALWAYS | MenuItem.SHOW_AS_ACTION_WITH_TEXT);
-        menu.add(0, MENU_RESTORE, 0, R.string.menu_restore).setShowAsActionFlags(
-                MenuItem.SHOW_AS_ACTION_COLLAPSE_ACTION_VIEW);
-        menu.add(0, MENU_DELETE_ALL, 0, R.string.menu_delete_all).setShowAsActionFlags(
-                MenuItem.SHOW_AS_ACTION_COLLAPSE_ACTION_VIEW);
-        super.onCreateOptionsMenu(menu, inflater);
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case MENU_DONATE:
-                MoKeeCenter.donateOrRemoveAdsDialog(getActivity(), true);
-                return true;
-            case MENU_REFRESH:
+            case R.id.menu_refresh:
                 checkForUpdates();
                 return true;
-            case MENU_DELETE_ALL:
+            case R.id.menu_delete_all:
                 confirmDeleteAll();
                 return true;
-            case MENU_REMOVE_ADS:
-                MoKeeCenter.donateOrRemoveAdsDialog(getActivity(), false);
+            case R.id.menu_remove_ads:
+                ((MoKeeCenter) getActivity()).donateOrRemoveAdsDialog(false);
                 return true;
-            case MENU_RESTORE:
+            case R.id.menu_restore:
                 Utils.restorePaymentRequest(mContext);
                 return true;
+            default:
+                return super.onOptionsItemSelected(item);
         }
-        return true;
     }
 
     @Override
@@ -577,60 +626,6 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
             // No recovery
         }
     }
-
-    // 更新进度条
-    private Runnable mUpdateProgress = new Runnable() {
-        public void run() {
-            if (!mDownloading || mDownloadingPreference == null || mDownloadId < 0) {
-                return;
-            }
-
-            ProgressBar progressBar = mDownloadingPreference.getProgressBar();
-            if (progressBar == null) {
-                return;
-            }
-            DownLoadInfo dli = DownLoadDao.getInstance().getDownLoadInfo(String.valueOf(mDownloadId));
-            int status;
-
-            if (dli == null) {
-                // DownloadReceiver has likely already removed the download
-                // from the DB due to failure or MD5 mismatch
-                status = DownLoader.STATUS_PENDING;
-            } else {
-                status = dli.getState();
-            }
-            switch (status) {
-                case DownLoader.STATUS_PENDING:
-                    progressBar.setIndeterminate(true);
-                    break;
-                case DownLoader.STATUS_DOWNLOADING:
-                    List<ThreadDownLoadInfo> threadList = ThreadDownLoadDao.getInstance().getThreadInfoList(dli.getUrl());
-                    int totalBytes = -1;
-                    int downloadedBytes = 0;
-                    for (ThreadDownLoadInfo info : threadList) {
-                        downloadedBytes += info.getDownSize();
-                        totalBytes += info.getEndPos() - info.getStartPos() + 1;
-                    }
-
-                    if (totalBytes < 0) {
-                        progressBar.setIndeterminate(true);
-                    } else {
-                        progressBar.setIndeterminate(false);
-                        progressBar.setMax(totalBytes);
-                        progressBar.setProgress(downloadedBytes);
-                    }
-                    break;
-                case DownLoader.STATUS_ERROR:
-                case DownLoader.STATUS_PAUSED:
-                    mDownloadingPreference.setStyle(ItemPreference.STYLE_NEW);
-                    resetDownloadState();
-                    break;
-            }
-            if (status != DownLoader.STATUS_ERROR) {
-                mUpdateHandler.postDelayed(this, 1500);
-            }
-        }
-    };
 
     private void resetDownloadState() {
         mDownloadId = -1;
@@ -728,9 +723,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
         }
         // If no updates are in the list, show the default message
         if (mUpdatesList.getPreferenceCount() == 0) {
-            EmptyListPreferenceStyle pref = new EmptyListPreferenceStyle(mContext, null, R.style.EmptyListPreferenceStyle);
-            pref.setSummary(mUpdateOTA.isChecked() ? R.string.no_available_ota_intro : R.string.no_available_updates_intro);
-            pref.setEnabled(false);
+            EmptyListPreference pref = new EmptyListPreference(mContext, mUpdateOTA.isChecked());
             mUpdatesList.addPreference(pref);
         }
     }
@@ -976,7 +969,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
     public void onPauseDownload(SharedPreferences prefs) {
         // We are OK to stop download, trigger it
         if (mDownloading)
-        SnackbarManager.show(Snackbar.with(mContext).text(R.string.download_cancelled).colorResource(R.color.snackbar_background));
+            SnackbarManager.show(Snackbar.with(mContext).text(R.string.download_cancelled).colorResource(R.color.snackbar_background));
         resetDownloadState();
         mUpdateHandler.removeCallbacks(mUpdateProgress);
         Intent intent = new Intent(mContext, DownLoadService.class);
@@ -997,7 +990,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
         }
         mStartUpdateVisible = true;
         // Get the message body right
-        String dialogBody = getString(itemInfo.getFileName().startsWith("OTA")? R.string.apply_update_ota_dialog_text : R.string.apply_update_dialog_text, itemInfo.getFileName());
+        String dialogBody = getString(itemInfo.getFileName().startsWith("OTA") ? R.string.apply_update_ota_dialog_text : R.string.apply_update_dialog_text, itemInfo.getFileName());
         // Display the dialog
         new AlertDialog.Builder(mContext).setTitle(R.string.apply_update_dialog_title)
                 .setMessage(dialogBody)
@@ -1012,11 +1005,11 @@ public class MoKeeUpdaterFragment extends PreferenceFragment implements OnPrefer
                         }
                     }
                 }).setNegativeButton(R.string.dialog_cancel, new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        mStartUpdateVisible = false;
-                    }
-                }).setCancelable(false).show();
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                mStartUpdateVisible = false;
+            }
+        }).setCancelable(false).show();
     }
 
     @Override
