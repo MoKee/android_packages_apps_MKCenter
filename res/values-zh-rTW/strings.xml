@@ -43,7 +43,7 @@
   <!-- Base Info -->
   <string name="mokee_version_info_title">版本資訊</string>
   <string name="mokee_version_title">魔趣版本</string>
-  <string name="mokee_unique_id_title">設備識別碼</string>
+  <string name="mokee_unique_id_title">唯一識別碼</string>
   <string name="mokee_donate_info_title">捐贈資訊</string>
   <string name="mokee_version_type_title">版本類型</string>
   <string name="mokee_last_check_title">最後檢查時間：</string>
@@ -68,7 +68,7 @@
   <string name="menu_restore">還原憑證</string>
   <!-- Donate -->
   <string name="donate_dialog_title">捐贈給我們</string>
-  <string name="donate_dialog_message">不同于Cygn或MIUI这样，Mokke的开源代码是为爱好与激情而生的纯公益项目。为了维护这个项目，我们必须付出金钱及我们的大部分时间或者依靠广告与捐助。你的捐助能够减少我们的财务负担以及维持未来发展！此选项允许你在MoKee中心移除广告或者捐助。如果你喜欢分期付款(捐助达到一定数额可以移除广告)。在你捐助后请备份mokee.license文件(在sd卡的根目录下,仅对当前使用的设备有效)。</string>
+  <string name="donate_dialog_message">不同於 Cygn 或 MIUI 這樣，Mokke 的開放原始碼為愛好與激情而生的純公益專案。為了維護這個專案，我們必須付出金錢及我們的大部分時間或者依靠廣告與捐助。你的捐助能夠減少我們的財務負擔以及維持未來發展！此選項允許你在 MoKee 中心移除廣告或者捐助。如果你喜歡分期付款 (捐助達到一定數額可以移除廣告)。在你捐助後請備份 mokee.license 檔案 (在 sd 卡的根目錄下，僅對當前使用的設備有效)。</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">支付寶</string>
   <string name="donate_dialog_via_restore">恢複</string>
@@ -105,7 +105,7 @@
   <!-- ChangeLog -->
   <string name="no_changelog_alert">沒有可用的更新日誌</string>
   <string name="changelog_dialog_title">更新日誌</string>
-  <string name="loading_changelog">載入中…\u2026</string>
+  <string name="loading_changelog">載入中\u2026</string>
   <string name="check_on_boot">每次重新開機</string>
   <string name="check_twice_daily">每天兩次</string>
   <string name="check_daily">每天一次</string>
@@ -123,7 +123,7 @@
   <string name="data_connection_required">請開啟您的網際網路連線。</string>
   <!-- Downloads -->
   <string name="confirm_download_cancelation_dialog_title">取消下載</string>
-  <string name="confirm_download_cancelation_dialog_message">取消下載？</string>
+  <string name="confirm_download_cancelation_dialog_message">取消目前下載？</string>
   <string name="download_remaining">剩下<xliff:g id="duration" example="3 minutes">%s</xliff:g></string>
   <string name="download_running">處理中</string>
   <string name="download_cancelled">下載已取消</string>
@@ -155,12 +155,12 @@
   <string name="pref_verify_rom_donation_request_summary">僅檢查經過其它使用者驗證的新版本 (捐贈 %d CNY後永久可用)</string>
   <string name="pref_verify_rom_donation_request_pending_summary">僅檢查經過其它使用者驗證的新版本 (已捐贈 %1$d，再捐贈 %2$d 後永久可用，貨幣單位：CNY)</string>
   <!-- Apply install and update strings -->
-  <string name="apply_update_dialog_title">應用更新</string>
+  <string name="apply_update_dialog_title">套用更新</string>
   <string name="apply_update_dialog_text">您將要更新到 <xliff:g id="filename">%s</xliff:g>。\n\n如果您選擇更新，您的裝置將會重新啟動到 Recovery 模式並安裝更新。\n\n注意：此功能需要一個相容的 Recovery 程式。如果您沒有的話，您將需要手動安裝更新。</string>
   <string name="apply_update_ota_dialog_text">您將要升級到 <xliff:g id="filename">%s </xliff:g>。\n\nIf 如果你選擇升級，裝置將會重新啟動並在 Recovery 模式下安裝 更升級檔。\n\n注意︰ 此功能需要相容的 Recovery 程式，否則您需要手動安裝。\n\n這是增量更新，因此對系統檔所做的任何更改可能會導致更新失敗。如果發生這種情況，請刷入完整 ROM。</string>
   <string name="apply_unable_to_reboot_toast">無法重啟到復原模式</string>
   <!-- experimenter mode -->
-  <string name="show_exp_on">您已啟用實驗設置 ！</string>
+  <string name="show_exp_on">您已啟用實驗性設定 ！</string>
   <string name="show_exp_already">不用了，您已經啟用了實驗設定。</string>
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Xposed 框架已安裝，在應用程式增量更新後無需重新刷新框架。</string>
