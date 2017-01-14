@@ -79,7 +79,6 @@
   <string name="donate_money_restored_failed">No se han encontrado dispositivos.</string>
   <string name="donate_money_restored_timeout">Error de conexión. Por favor, inténtelo de nuevo</string>
   <string name="donate_money_info">Donaste un total de CNY %1$d, más que %2$s de donantes a nivel mundial!</string>
-  <string name="donate_money_info_with_rank">Donaste un total de CNY %1$d, más que %2$s de donantes a nivel mundial!</string>
   <string name="donate_money_info_null">Usted no ha donado</string>
   <string name="remove_ads_title">Eliminar los anuncios</string>
   <string name="remove_ads_request_price">Donado %1$d CNY, pendiente %2$d CNY</string>

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014-2016 The MoKee Open Source Project
+ * Copyright (C) 2014-2017 The MoKee Open Source Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,87 +17,49 @@
 
 package com.mokee.center.adapters;
 
-import java.util.ArrayList;
-
-import android.app.ActionBar;
-import android.app.ActionBar.Tab;
-import android.app.Activity;
-import android.app.Fragment;
-import android.app.FragmentTransaction;
 import android.content.Context;
-import android.os.Bundle;
-import android.support.v13.app.FragmentPagerAdapter;
-import android.support.v4.view.ViewPager;
+import android.support.v4.app.FragmentManager;
 
-public class TabsAdapter extends FragmentPagerAdapter implements ActionBar.TabListener,
-        ViewPager.OnPageChangeListener {
+import com.mokee.center.R;
+import com.mokee.center.fragments.MoKeeSupportFragment;
+import com.mokee.center.fragments.MoKeeUpdaterFragment;
+
+public class TabsAdapter extends android.support.v4.app.FragmentPagerAdapter {
 
     private final Context mContext;
-    private final ActionBar mActionBar;
-    private final ViewPager mViewPager;
-    private final ArrayList<TabInfo> mTabs = new ArrayList<TabInfo>();
 
-    static final class TabInfo {
-        private final Class<?> clss;
-        private final Bundle args;
+    public TabsAdapter(Context context, FragmentManager fm) {
+        super(fm);
+        this.mContext = context;
+    }
 
-        TabInfo(Class<?> _class, Bundle _args) {
-            clss = _class;
-            args = _args;
+    @Override
+    public android.support.v4.app.Fragment getItem(int position) {
+        switch (position) {
+            case 0:
+                return new MoKeeUpdaterFragment();
+            case 1:
+                return new MoKeeSupportFragment();
+            default:
+                return null;
         }
     }
 
-    public TabsAdapter(Activity activity, ViewPager pager) {
-        super(activity.getFragmentManager());
-        mContext = activity;
-        mActionBar = activity.getActionBar();
-        mViewPager = pager;
-        mViewPager.setAdapter(this);
-        mViewPager.setOnPageChangeListener(this);
-    }
-
-    public void addTab(ActionBar.Tab tab, Class<?> clss, Bundle args) {
-        TabInfo info = new TabInfo(clss, args);
-        tab.setTag(info);
-        tab.setTabListener(this);
-        mTabs.add(info);
-        mActionBar.addTab(tab);
-        notifyDataSetChanged();
+    @Override
+    public CharSequence getPageTitle(int position) {
+        switch (position) {
+            case 0:
+                return mContext.getString(R.string.mokee_updater_title);
+            case 1:
+                return mContext.getString(R.string.mokee_support_title);
+            default:
+                return null;
+        }
     }
 
     @Override
     public int getCount() {
-        return mTabs.size();
+        return 2;
     }
 
-    @Override
-    public Fragment getItem(int position) {
-        TabInfo info = mTabs.get(position);
-        return Fragment.instantiate(mContext, info.clss.getName(), info.args);
-    }
-
-    public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-    }
-
-    public void onPageSelected(int position) {
-        mActionBar.setSelectedNavigationItem(position);
-    }
-
-    public void onPageScrollStateChanged(int state) {
-    }
-
-    public void onTabSelected(Tab tab, FragmentTransaction ft) {
-        Object tag = tab.getTag();
-        for (int i = 0; i < mTabs.size(); i++) {
-            if (mTabs.get(i) == tag) {
-                mViewPager.setCurrentItem(i);
-            }
-        }
-    }
-
-    public void onTabUnselected(Tab tab, FragmentTransaction ft) {
-    }
-
-    public void onTabReselected(Tab tab, FragmentTransaction ft) {
-    }
 }

@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2014-2016 The MoKee Open Source Project
+# Copyright (C) 2014-2017 The MoKee Open Source Project
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -30,8 +30,8 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     android-support-v7-preference \
     android-support-v7-appcompat \
     android-support-v14-preference \
+    android-support-design \
     mokee-appoffer \
-    mokee-support-widget-snackbar \
     play \
     volley \
     org.mokee.platform.internal
@@ -43,7 +43,7 @@ LOCAL_RESOURCE_DIR := \
     frameworks/support/v14/preference/res \
     frameworks/support/v7/appcompat/res \
     frameworks/support/v7/recyclerview/res \
-    frameworks/support/widget/snackbar/res
+    frameworks/support/design/res
 
 LOCAL_AAPT_FLAGS := --auto-add-overlay \
     --extra-packages android.support.v7.preference \
@@ -51,7 +51,7 @@ LOCAL_AAPT_FLAGS := --auto-add-overlay \
     --extra-packages android.support.v17.preference \
     --extra-packages android.support.v7.appcompat \
     --extra-packages android.support.v7.recyclerview \
-    --extra-packages mokee.support.widget.snackbar \
+    --extra-packages android.support.design \
     --extra-packages com.google.android.gms
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
