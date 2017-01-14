@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014-2016 The MoKee Open Source Project
+ * Copyright (C) 2014-2017 The MoKee Open Source Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -20,9 +20,10 @@ package com.mokee.center.widget;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
-import android.preference.Preference;
-import android.text.format.Formatter;
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceViewHolder;
 import android.text.TextUtils;
+import android.text.format.Formatter;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.View.OnLongClickListener;
@@ -36,27 +37,16 @@ import com.mokee.center.misc.FetchChangeLogTask;
 import com.mokee.center.misc.ItemInfo;
 import com.mokee.center.utils.Utils;
 
-public class ItemPreference extends Preference implements OnClickListener, OnLongClickListener {
-    private static final float DISABLED_ALPHA = 0.4f;
+public class ItemPreference extends Preference implements
+        OnClickListener, OnLongClickListener {
+
     public static final int STYLE_NEW = 1;
     public static final int STYLE_DOWNLOADING = 2;
     public static final int STYLE_DOWNLOADED = 3;
     public static final int STYLE_INSTALLED = 4;
     public static final int STYLE_OLD = 0;// 旧版本
 
-    public interface OnActionListener {
-        void onStartDownload(ItemPreference pref);
-
-        void onStopDownload(ItemPreference pref);
-
-        void onStartUpdate(ItemPreference pref);
-
-        void onDeleteUpdate(ItemPreference pref);
-    }
-
-    public interface OnReadyListener {
-        void onReady(ItemPreference pref);
-    }
+    private static final float DISABLED_ALPHA = 0.4f;
 
     private OnActionListener mOnActionListener;
     private OnReadyListener mOnReadyListener;
@@ -94,26 +84,24 @@ public class ItemPreference extends Preference implements OnClickListener, OnLon
     };
 
     public ItemPreference(Context context, ItemInfo ui, int style) {
-        super(context, null, R.style.ItemPreferenceStyle);
+        super(context, null, 0);
         setLayoutResource(R.layout.preference_item);
         mStyle = style;
         mItemInfo = ui;
     }
 
     @Override
-    protected void onBindView(View view) {
-        super.onBindView(view);
-
+    public void onBindViewHolder(PreferenceViewHolder holder) {
         // Store the views from the layout
-        mUpdatesButton = (ImageView) view.findViewById(R.id.updates_button);
+        mUpdatesButton = (ImageView) holder.findViewById(R.id.updates_button);
         mUpdatesButton.setOnClickListener(mButtonClickListener);
 
-        mTitleText = (TextView) view.findViewById(android.R.id.title);
-        mSummaryText = (TextView) view.findViewById(android.R.id.summary);
-        mFileSizeText = (TextView) view.findViewById(R.id.file_size);
-        mProgressBar = (ProgressBar) view.findViewById(R.id.download_progress_bar);
+        mTitleText = (TextView) holder.findViewById(android.R.id.title);
+        mSummaryText = (TextView) holder.findViewById(android.R.id.summary);
+        mFileSizeText = (TextView) holder.findViewById(R.id.file_size);
+        mProgressBar = (ProgressBar) holder.findViewById(R.id.download_progress_bar);
 
-        mUpdatesPref = view.findViewById(R.id.updates_pref);
+        mUpdatesPref = holder.findViewById(R.id.updates_pref);
         mUpdatesPref.setOnClickListener(this);
         mUpdatesPref.setOnLongClickListener(this);
 
@@ -188,15 +176,15 @@ public class ItemPreference extends Preference implements OnClickListener, OnLon
         }
     }
 
+    public int getStyle() {
+        return mStyle;
+    }
+
     public void setStyle(int style) {
         mStyle = style;
         if (mUpdatesPref != null) {
             showStyle();
         }
-    }
-
-    public int getStyle() {
-        return mStyle;
     }
 
     public void setProgress(int max, int progress) {
@@ -299,4 +287,19 @@ public class ItemPreference extends Preference implements OnClickListener, OnLon
                 break;
         }
     }
+
+    public interface OnActionListener {
+        void onStartDownload(ItemPreference pref);
+
+        void onStopDownload(ItemPreference pref);
+
+        void onStartUpdate(ItemPreference pref);
+
+        void onDeleteUpdate(ItemPreference pref);
+    }
+
+    public interface OnReadyListener {
+        void onReady(ItemPreference pref);
+    }
+
 }

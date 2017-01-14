@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014-2016 The MoKee Open Source Project
+ * Copyright (C) 2014-2017 The MoKee Open Source Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,24 +17,15 @@
 
 package com.mokee.center;
 
-import java.util.HashSet;
-import java.util.Set;
-
 import android.app.Activity;
 import android.app.ActivityThread;
 import android.app.Application;
 import android.content.Context;
-import android.content.SharedPreferences;
-import android.mokee.utils.MoKeeUtils;
 import android.os.Bundle;
-import android.os.Handler;
-import android.util.Log;
 
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
 import com.mokee.center.activities.MoKeeCenter;
-import com.mokee.os.Build;
-import com.mokee.os.Build.VERSION;
 
 public class MKCenterApplication extends Application implements
         Application.ActivityLifecycleCallbacks {
@@ -42,7 +33,11 @@ public class MKCenterApplication extends Application implements
     private static Context context;
     private boolean mMainActivityActive;
     private RequestQueue mRequestQueue;
-    private SharedPreferences prefs;
+
+    public static Context getContext() {
+        return context;
+    }
+
     @Override
     public void onCreate() {
         super.onCreate();
@@ -53,10 +48,6 @@ public class MKCenterApplication extends Application implements
         mRequestQueue = Volley.newRequestQueue(this);
         context = getApplicationContext();
 
-    }
-
-    public static Context getContext() {
-        return context;
     }
 
     @Override

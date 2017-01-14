@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 The MoKee OpenSource Project
+ * Copyright (C) 2014-2017 The MoKee OpenSource Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,27 +17,19 @@
 
 package com.mokee.center.fragments;
 
-import android.app.Activity;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.mokee.utils.MoKeeUtils;
 import android.net.Uri;
 import android.os.Bundle;
-import android.preference.Preference;
-import android.preference.Preference.OnPreferenceChangeListener;
-import android.preference.PreferenceFragment;
-import android.preference.PreferenceScreen;
-import android.preference.SwitchPreference;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
+import android.support.v14.preference.SwitchPreference;
+import android.support.v7.preference.Preference;
+import android.support.v7.preference.PreferenceFragmentCompat;
 
 import com.mokee.center.R;
-import com.mokee.center.activities.MoKeeCenter;
 
-public class MoKeeSupportFragment extends PreferenceFragment implements OnPreferenceChangeListener {
-
-    private static final int MENU_DONATE = 0;
+public class MoKeeSupportFragment extends PreferenceFragmentCompat
+        implements Preference.OnPreferenceChangeListener {
 
     private static final String MKPUSH_PREF = "mokee_push";
     private static final String PREF_NEWS = "pref_news";
@@ -62,14 +54,17 @@ public class MoKeeSupportFragment extends PreferenceFragment implements OnPrefer
     private static final String URL_MOKEE_GITHUB = "https://github.com/MoKee";
     private static final String URL_MOKEE_WIKI = "http://wiki.mokeedev.com";
 
-    private Activity mContext;
     private SharedPreferences prefs;
     private SwitchPreference mPushNewsPreferences;
 
+    private void goToURL(String url) {
+        Uri uri = Uri.parse(url);
+        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+        startActivity(intent);
+    }
+
     @Override
-    public void onCreate(Bundle icicle) {
-        super.onCreate(icicle);
-        mContext = getActivity();
+    public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         addPreferencesFromResource(R.xml.mokee_support);
         setHasOptionsMenu(true);
         prefs = getActivity().getSharedPreferences(MKPUSH_PREF, 0);
@@ -89,48 +84,36 @@ public class MoKeeSupportFragment extends PreferenceFragment implements OnPrefer
     }
 
     @Override
-    public boolean onPreferenceTreeClick(PreferenceScreen preferenceScreen, Preference preference) {
+    public boolean onPreferenceTreeClick(Preference preference) {
         String key = preference.getKey();
-        if (key.equals(KEY_MOKEE_WEBSITE)) {
-            goToURL(mContext, URL_MOKEE_WEBSITE);
-        } else if (key.equals(KEY_MOKEE_FORUM)) {
-            goToURL(mContext, URL_MOKEE_FORUM);
-        } else if (key.equals(KEY_MOKEE_ISSUES)) {
-            goToURL(mContext, MoKeeUtils.isSupportLanguage(false) ? URL_MOKEE_QUESTION : URL_MOKEE_ISSUES);
-        } else if (key.equals(KEY_MOKEE_CHANGELOG)) {
-            goToURL(mContext, URL_MOKEE_CHANGELOG);
-        } else if (key.equals(KEY_MOKEE_BUILD_STATUS)) {
-            goToURL(mContext, URL_MOKEE_BUILD_STATUS);
-        } else if (key.equals(KEY_MOKEE_TRANSLATE)) {
-            goToURL(mContext, URL_MOKEE_TRANSLATE);
-        } else if (key.equals(KEY_MOKEE_GITHUB)) {
-            goToURL(mContext, URL_MOKEE_GITHUB);
-        } else if (key.equals(KEY_MOKEE_WIKI)) {
-            goToURL(mContext, URL_MOKEE_WIKI);
-        }
-        return super.onPreferenceTreeClick(preferenceScreen, preference);
-    }
-
-    public static void goToURL(Activity mContext, String url) {
-        Uri uri = Uri.parse(url);
-        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-        mContext.startActivity(intent);
-    }
-
-    @Override
-    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
-        menu.add(0, MENU_DONATE, 0, R.string.menu_donate).setShowAsActionFlags(
-                MenuItem.SHOW_AS_ACTION_ALWAYS | MenuItem.SHOW_AS_ACTION_WITH_TEXT);
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
-            case MENU_DONATE:
-                MoKeeCenter.donateOrRemoveAdsDialog(mContext, true);
+        switch (key) {
+            case KEY_MOKEE_WEBSITE:
+                goToURL(URL_MOKEE_WEBSITE);
                 return true;
+            case KEY_MOKEE_FORUM:
+                goToURL(URL_MOKEE_FORUM);
+                return true;
+            case KEY_MOKEE_ISSUES:
+                goToURL(MoKeeUtils.isSupportLanguage(false) ? URL_MOKEE_QUESTION : URL_MOKEE_ISSUES);
+                return true;
+            case KEY_MOKEE_CHANGELOG:
+                goToURL(URL_MOKEE_CHANGELOG);
+                return true;
+            case KEY_MOKEE_BUILD_STATUS:
+                goToURL(URL_MOKEE_BUILD_STATUS);
+                return true;
+            case KEY_MOKEE_TRANSLATE:
+                goToURL(URL_MOKEE_TRANSLATE);
+                return true;
+            case KEY_MOKEE_GITHUB:
+                goToURL(URL_MOKEE_GITHUB);
+                return true;
+            case KEY_MOKEE_WIKI:
+                goToURL(URL_MOKEE_WIKI);
+                return true;
+            default:
+                return super.onPreferenceTreeClick(preference);
         }
-        return true;
     }
 
 }
