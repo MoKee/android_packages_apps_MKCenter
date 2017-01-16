@@ -37,9 +37,17 @@ public class UpdateCheckReceiver extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
+        final String action = intent.getAction();
+
         // Load the required settings from preferences
         SharedPreferences prefs = context.getSharedPreferences(Constants.DOWNLOADER_PREF, 0);
         int updateFrequency = prefs.getInt(Constants.UPDATE_INTERVAL_PREF, Constants.UPDATE_FREQ_DAILY);
+
+        if (Intent.ACTION_BOOT_COMPLETED.equals(action)) {
+            // We just booted. Store the boot check state
+            prefs.edit().putBoolean(Constants.BOOT_CHECK_COMPLETED, false).apply();
+            RequestUtils.getRanking(context);
+        }
 
         // Check if we are set to manual updates and don't do anything
         if (updateFrequency == Constants.UPDATE_FREQ_NONE) {
@@ -47,7 +55,6 @@ public class UpdateCheckReceiver extends BroadcastReceiver {
         }
 
         // Not set to manual updates, parse the received action
-        final String action = intent.getAction();
         if (ConnectivityManager.CONNECTIVITY_ACTION.equals(action)) {
             // Connectivity has changed
             boolean hasConnection = !intent.getBooleanExtra(
@@ -56,10 +63,6 @@ public class UpdateCheckReceiver extends BroadcastReceiver {
             if (!hasConnection) {
                 return;
             }
-        } else if (Intent.ACTION_BOOT_COMPLETED.equals(action)) {
-            // We just booted. Store the boot check state
-            prefs.edit().putBoolean(Constants.BOOT_CHECK_COMPLETED, false).apply();
-            RequestUtils.getRanking(context);
         }
 
         // Handle the actual update check based on the defined frequency
