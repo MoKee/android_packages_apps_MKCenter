@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014-2016 The MoKee Open Source Project
+ * Copyright (C) 2014-2017 The MoKee Open Source Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -69,6 +69,7 @@ public class Constants {
     public static final String LICENSE_FILE = Environment.getExternalStorageDirectory().getAbsolutePath() + "/mokee.license";
 
     // Donation amount
+    public static final String DONATION_FIRST_CHECK = "donation_first_check";
     public static final int DONATION_TOTAL = 68;
     public static final int DONATION_REQUEST = 30;
     public static final int DONATION_DISCOUNT = 20;

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 The MoKee OpenSource Project
+ * Copyright (C) 2014-2017 The MoKee OpenSource Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -46,7 +46,15 @@ public class UpdateCheckReceiver extends BroadcastReceiver {
         if (Intent.ACTION_BOOT_COMPLETED.equals(action)) {
             // We just booted. Store the boot check state
             prefs.edit().putBoolean(Constants.BOOT_CHECK_COMPLETED, false).apply();
-            RequestUtils.getRanking(context);
+            if (Utils.getPaidTotal(context) > 0 ||
+                    prefs.getBoolean(Constants.DONATION_FIRST_CHECK, true)) {
+                RequestUtils.getRanking(context);
+            } else {
+                // Reset donation info
+                prefs.edit().putInt(Constants.KEY_DONATE_PERCENT, 0)
+                        .putInt(Constants.KEY_DONATE_RANK, 0)
+                        .putFloat(Constants.KEY_DONATE_AMOUNT, 0).apply();
+            }
         }
 
         // Check if we are set to manual updates and don't do anything

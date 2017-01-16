@@ -59,6 +59,9 @@ public class RequestUtils {
                     } catch (JSONException e) {
                         e.printStackTrace();
                     }
+                    if (mPrefs.getBoolean(Constants.DONATION_FIRST_CHECK, true)) {
+                        mPrefs.edit().putBoolean(Constants.DONATION_FIRST_CHECK, false).apply();
+                    }
                 }
             }, new Response.ErrorListener() {
                 @Override
