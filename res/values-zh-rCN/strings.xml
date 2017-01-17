@@ -75,7 +75,7 @@
   <string name="donate_money_toast_success">感谢您的捐赠，我们会做的更好！</string>
   <string name="donate_money_title">捐赠魔趣开源项目</string>
   <string name="donate_money_again">再捐一点</string>
-  <string name="donate_money_restored_success">成功恢复授权文件</string>
+  <string name="donate_money_restored_success">授权文件已成功恢复！</string>
   <string name="donate_money_restored_failed">没有找到这台设备的捐赠记录。</string>
   <string name="donate_money_restored_timeout">网络连接超时，请再试一次。</string>
   <string name="donate_money_info">您捐赠了 %1$d CNY，打败了全球 %2$s 的用户！</string>
@@ -130,11 +130,11 @@
   <string name="download_already_running">已有一个正在运行的下载</string>
   <string name="download_limited_mode">当前处于限速模式，捐赠后可加速下载。</string>
   <string name="unable_to_download_file">无法下载更新</string>
-  <string name="not_download_success">成功下载更新</string>
+  <string name="not_download_success">更新已成功下载</string>
   <string name="not_download_failure">下载更新失败</string>
   <string name="not_action_install_update">重启并安装</string>
-  <string name="not_download_install_notice">成功下载 <xliff:g id="filename">%s</xliff:g> 。点击“重启并安装”后，设备将重新启动并安装更新。\n\n注意：自动安装过程需要一个兼容的恢复程序，不兼容的恢复程序可能导致更新失败。</string>
-  <string name="not_download_install_ota_notice">成功下载 <xliff:g id="filename">%s</xliff:g> 。点击“重启并安装”后，设备将重新启动并安装更新。\n\n注意：自动安装过程需要一个兼容的恢复程序，不兼容的恢复程序可能导致更新失败。\n\n本次为增量更新，任何人为或带有ROOT权限的程序对系统文件造成的修改可能导致更新失败，如果您遭遇此情形，请尝试下载完整包进行更新。</string>
+  <string name="not_download_install_notice"><xliff:g id="filename">%s</xliff:g> 已成功下载。点击“重启并安装”后，设备将重新启动并安装更新。\n\n注意：自动安装过程需要一个兼容的恢复程序，不兼容的恢复程序可能导致更新失败。</string>
+  <string name="not_download_install_ota_notice"><xliff:g id="filename">%s</xliff:g> 已成功下载。点击“重启并安装”后，设备将重新启动并安装更新。\n\n注意：自动安装过程需要一个兼容的恢复程序，不兼容的恢复程序可能导致更新失败。\n\n本次为增量更新，任何人为或带有ROOT权限的程序对系统文件造成的修改可能导致更新失败，如果您遭遇此情形，请尝试下载完整包进行更新。</string>
   <string name="md5_verification_failed">MD5 检测失败</string>
   <string name="not_apk_action_install_update">安装</string>
   <!-- deleting -->
@@ -153,7 +153,7 @@
   <string name="pref_verify_rom">放心刷™</string>
   <string name="pref_verify_rom_summary">仅向您推荐其他用户测试可靠的版本</string>
   <string name="pref_verify_rom_donation_request_summary">仅向您推荐其他用户测试可靠的版本（捐赠 %d CNY后永久可用）</string>
-  <string name="pref_verify_rom_donation_request_pending_summary">仅向您推荐经过其他用户测试可靠的版本（已捐赠 %1$d，再捐赠 %2$d 后永久可用，货币单位：CNY）</string>
+  <string name="pref_verify_rom_donation_request_pending_summary">仅向您推荐其他用户测试可靠的版本（已捐赠 %1$d，再捐赠 %2$d 后永久可用，货币单位：CNY）</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">应用更新</string>
   <string name="apply_update_dialog_text">您将要更新到 <xliff:g id="filename">%s</xliff:g>。\n\n如果您选择更新，您的设备将会重启到恢复模式并安装更新。\n\n注意：此功能需要一个兼容的恢复程序。如果您没有的话，您将需要手动安装更新。</string>
