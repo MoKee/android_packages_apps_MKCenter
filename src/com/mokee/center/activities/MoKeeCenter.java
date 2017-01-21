@@ -55,7 +55,7 @@ public class MoKeeCenter extends AppCompatActivity {
 
     public static final String BR_ONNewIntent = "com.mokee.center.action.ON_NEW_INTENT";
 
-    private CoordinatorLayout mRoot;
+    private static CoordinatorLayout mRoot;
 
     public void donateOrRemoveAdsDialog(final boolean isDonate) {
         final LayoutInflater inflater = LayoutInflater.from(this);
@@ -253,4 +253,7 @@ public class MoKeeCenter extends AppCompatActivity {
         return Snackbar.make(mRoot, resId, duration);
     }
 
+    public static CoordinatorLayout getRoot() {
+        return mRoot;
+    }
 }

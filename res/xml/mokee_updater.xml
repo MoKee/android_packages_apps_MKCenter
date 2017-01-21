@@ -31,7 +31,7 @@
         <PreferenceScreen
             android:key="mokee_version"
             android:title="@string/mokee_version_title" />
-        <PreferenceScreen
+        <com.mokee.center.widget.CopyablePreference
             android:key="mokee_unique_id"
             android:title="@string/mokee_unique_id_title" />
         <PreferenceScreen
