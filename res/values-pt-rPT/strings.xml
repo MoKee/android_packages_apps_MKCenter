@@ -24,6 +24,8 @@
   <string name="mokee_forum_title">MoKee - Fórum</string>
   <string name="mokee_forum_summary">Visite o fórum de MoKee</string>
   <string name="mokee_issues_title">MoKee - Rastreador de Erros</string>
+  <string name="mokee_build_status_title">MoKee - Estado da Compilação</string>
+  <string name="mokee_build_status_summary">Ver estado da compilação</string>
   <string name="mokee_github_title">MoKee - Github</string>
   <string name="mokee_github_summary">Visite o Github de MoKee</string>
   <string name="mokee_wiki_title">MoKee - Wiki</string>

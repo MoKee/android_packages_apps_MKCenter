@@ -17,24 +17,7 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Fragment -->
-  <!-- WebSite -->
-  <!-- Base Info -->
-  <!-- Version -->
-  <!-- State -->
-  <!-- Menu -->
-  <!-- Donate -->
-  <!-- Update -->
-  <!-- ChangeLog -->
-  <!-- checking -->
-  <!-- Downloads -->
-  <!-- deleting -->
-  <string name="delete_single_update_success_message"><xliff:g id="filename">%s</xliff:g></string>
-  <!-- pref -->
-  <!-- Apply install and update strings -->
-  <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g>\n\n\n\n</string>
-  <string name="apply_update_ota_dialog_text"><xliff:g id="filename">%s</xliff:g></string>
-  <!-- experimenter mode -->
-  <!-- Xposed framework check -->
-  <!-- Discount -->
+  <plurals name="not_additional_count">
+    <item quantity="other">+ <xliff:g id="count">%d</xliff:g> more<xliff:g id="count">%d</xliff:g></item>
+  </plurals>
 </resources>

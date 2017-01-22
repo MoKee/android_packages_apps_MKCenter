@@ -34,10 +34,22 @@
   <string name="mokee_build_status_summary">বিল্ড স্ট্যাটাস দেখুন</string>
   <string name="mokee_github_title">MoKee Github</string>
   <string name="mokee_github_summary">MoKee Github পরিদর্শন করুন</string>
+  <string name="mokee_translate_title">MoKee Translate</string>
+  <string name="mokee_translate_summary">Help translate MoKee</string>
+  <string name="mokee_wiki_title">MoKee Wiki</string>
+  <string name="mokee_wiki_summary">View the MoKee Wiki</string>
+  <string name="mokee_news_title">MoKee News</string>
+  <string name="mokee_news_summary">Receive development news from MoKee</string>
   <!-- Base Info -->
+  <string name="mokee_version_info_title">Version Info</string>
+  <string name="mokee_version_title">MoKee Version</string>
   <string name="mokee_unique_id_title">Unique ID</string>
   <string name="mokee_donate_info_title">Donate Info</string>
+  <string name="mokee_version_type_title">Version Type</string>
+  <string name="mokee_last_check_title">Last Check</string>
+  <string name="mokee_last_check_never">Never</string>
   <!-- Version -->
+  <string name="mokee_info_default">Unknown</string>
   <string name="mokee_version_type_release">রিলিজ</string>
   <string name="mokee_version_type_history">ইতিহাস</string>
   <string name="mokee_version_type_experimental">পরীক্ষামূলক</string>
@@ -54,6 +66,7 @@
   <string name="menu_delete_all">ডাউনলোড মুছে ফেলুন</string>
   <!-- Donate -->
   <!-- Update -->
+  <string name="unknown">Unknown</string>
   <string name="old_update_summary">পুরাতন</string>
   <string name="update_check_title">আপডেট পুনরাবৃত্তি চেক করুন।</string>
   <string name="check_manual">নির্দেশিকা</string>

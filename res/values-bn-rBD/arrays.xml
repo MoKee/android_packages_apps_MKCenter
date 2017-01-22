@@ -25,4 +25,8 @@
     <item quantity="one">আরো + <xliff:g id="count">%d </xliff:g></item>
     <item quantity="other">আরো + <xliff:g id="count">%d </xliff:g></item>
   </plurals>
+  <plurals name="show_exp_countdown">
+    <item quantity="one">You are now <xliff:g id="step_count">%1$d</xliff:g> step away from enabling experimental settings.</item>
+    <item quantity="other">You are now <xliff:g id="step_count">%1$d</xliff:g> step away from enabling experimental settings.</item>
+  </plurals>
 </resources>
