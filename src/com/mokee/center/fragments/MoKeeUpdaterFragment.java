@@ -396,7 +396,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
         final Float paid = mPrefs.getFloat(Constants.KEY_DONATE_AMOUNT, 0);
 
         // 同步云端支付信息
-        if (paid > Utils.getPaidTotal(moKeeCenter)) {
+        if (paid != Utils.getPaidTotal(moKeeCenter)) {
             Utils.restorePaymentRequest(moKeeCenter);
         }
 
