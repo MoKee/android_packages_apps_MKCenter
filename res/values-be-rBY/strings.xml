@@ -58,7 +58,7 @@
   <string name="mokee_version_type_all">Усе</string>
   <!-- State -->
   <string name="downloaded_update_summary">Запампавана</string>
-  <string name="installed_update_summary">Устаноўлена</string>
+  <string name="installed_update_summary">Усталявана</string>
   <string name="available_updates_title">Даступныя абнаўленнi</string>
   <!-- Menu -->
   <string name="menu_donate">Ахвяраваць</string>
@@ -86,7 +86,7 @@
   <!-- Update -->
   <string name="unknown">Невядома</string>
   <string name="dialog_update">Абнаўленне</string>
-  <string name="dialog_install">Устанавіць</string>
+  <string name="dialog_install">Усталяваць</string>
   <string name="dialog_ok">ОК</string>
   <string name="dialog_cancel">Адмена</string>
   <string name="dialog_close">Закрыць</string>
@@ -132,11 +132,11 @@
   <string name="unable_to_download_file">Не атрымалася спампаваць файл абнаўлення</string>
   <string name="not_download_success">Абнаўленне паспяхова спампавана</string>
   <string name="not_download_failure">Абнаўленне не было спампавана</string>
-  <string name="not_action_install_update">Перазагрузiць і ўстанавiць</string>
+  <string name="not_action_install_update">Перезагрузіць і ўсталяваць</string>
   <string name="not_download_install_notice">Абнаўленне <xliff:g id="filename">%s</xliff:g> паспяхова спампавана. Націсніце \'Перазагрузiць і ўстанавiць\', каб устанавiць абнаўленне.\n\nЗаўвага: Гэта функцыя патрабуе сумяшчальнага Recovery, або абнаўлення павінны быць устаноўлены ўручную.</string>
   <string name="not_download_install_ota_notice">Абнаўленне <xliff:g id="filename">%s</xliff:g> паспяхова спампавана. Націсніце \'Перазагрузiць і ўстанавiць\', каб устанавiць абнаўленне.\n\nГэта функцыя патрабуе сумяшчальнага Recovery, або абнаўлення павінны быць устаноўлены ўручную.\n\nЗаўвага: Гэта інкрыментнае абнаўленне, таму любыя змены, унесеныя ў сістэмныя файлы, могуць выклікаць памылку абнаўлення. Калі гэта адбудзецца ўсталюйце поўную версію MoKee.</string>
   <string name="md5_verification_failed">Неадпаведнасць кантрольнай сумы MD5</string>
-  <string name="not_apk_action_install_update">Устанавіць</string>
+  <string name="not_apk_action_install_update">Усталяваць</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Выдаліць файл</string>
   <string name="confirm_delete_updates_dialog_message">Выдаліць абраны файл абнаўлення?</string>
