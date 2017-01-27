@@ -43,6 +43,7 @@ import com.mokee.security.License;
 import java.io.File;
 import java.io.IOException;
 import java.util.Locale;
+import java.util.Random;
 
 public class Utils {
 
@@ -303,11 +304,18 @@ public class Utils {
         return getPaidTotal(mContext) >= Constants.DONATION_REQUEST;
     }
 
+    private static int getRandomDays() {
+        int max = 45;
+        int min = 30;
+        Random random = new Random();
+        return random.nextInt(max) % (max - min + 1) + min;
+    }
+
     public static boolean Discounting(SharedPreferences mPrefs) {
         long flashTime = mPrefs.getLong(Constants.KEY_FLASH_TIME, 0);
         Float amount = mPrefs.getFloat(Constants.KEY_DONATE_AMOUNT, 0);
         if (flashTime != 0 && amount < Constants.DONATION_REQUEST) {
-            if (flashTime * 1000 + DateUtils.DAY_IN_MILLIS * 30 * 1 < System.currentTimeMillis()) {
+            if (flashTime * 1000 + DateUtils.DAY_IN_MILLIS * getRandomDays() < System.currentTimeMillis()) {
                 long discountTime = mPrefs.getLong(Constants.KEY_DISCOUNT_TIME, 0);
                 if (discountTime == 0 || discountTime + DateUtils.DAY_IN_MILLIS * 30 < System.currentTimeMillis()) {
                     return true;
