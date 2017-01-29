@@ -90,8 +90,8 @@
   <string name="dialog_ok">确认</string>
   <string name="dialog_cancel">取消</string>
   <string name="dialog_close">关闭</string>
-  <string name="no_available_updates_intro">最后一次检测并未找到可用的更新，请使用刷新按钮尝试手动检查更新。</string>
-  <string name="no_available_ota_intro">最后一次检测并未找到可用的更新，请使用刷新按钮尝试手动检查更新。如果您正在使用一个超出增量更新支持的早期版本，您需要取消“增量更新”的勾选。</string>
+  <string name="no_available_updates_intro">最后一次检测并未找到可用的更新，请点击右上角的刷新按钮尝试手动检查更新。</string>
+  <string name="no_available_ota_intro">最后一次检测并未找到可用的更新，请点击右上角的刷新按钮尝试手动检查更新。如果您正在使用一个超出增量更新支持的早期版本，您需要取消“增量更新”的勾选。</string>
   <string name="new_update_summary">比当前版本新</string>
   <string name="old_update_summary">比当前版本旧</string>
   <string name="update_check_title">检查更新频率</string>
