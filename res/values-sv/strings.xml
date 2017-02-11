@@ -42,6 +42,7 @@
   <!-- Base Info -->
   <string name="mokee_version_info_title">Versionsinfo</string>
   <string name="mokee_version_title">MoKee Version</string>
+  <string name="mokee_unique_id_title">Unikt ID</string>
   <string name="mokee_version_type_title">Versionstyp</string>
   <string name="mokee_last_check_title">Senaste kontroll</string>
   <string name="mokee_last_check_never">Aldrig</string>
@@ -62,13 +63,16 @@
   <string name="menu_refresh">Uppdatera</string>
   <string name="menu_delete_all">Radera nedladdning</string>
   <string name="menu_remove_ads">Ta bort annonser</string>
+  <string name="menu_restore">Återställ licens</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Donera till oss</string>
   <string name="donate_dialog_message">Till skillnad från företag som Cygn eller MIUI är MoKee OpenSource ett rent ideellt projekt född av hobby och passion. För att upprätthålla detta projekt, måste vi punga ut våra egna pengar för det mesta eller beroende av donationer och annonser. Din donationer kan hjälpa minska våra finansiella belastning och upprätthålla framtida utveckling! Detta alternativ kan du ta bort annonserna i MoKee Center och i stället använder alternativet \"Donera\" om du föredrar omgångar (annonser kommer att tas bort när totalen har nått det angivna värdet). Vänligen säkerhetskopiera mokee.license fil (i rotkatalogen på sdcard, gäller endast för aktuell enhet) när du har donerat.</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
+  <string name="donate_dialog_via_restore">Återställ</string>
   <string name="donate_money_toast_success">Tack för din donation!</string>
   <string name="donate_money_again">Donera igen</string>
+  <string name="donate_money_info_null">Du har inte donerat</string>
   <string name="remove_ads_title">Ta bort annonser</string>
   <string name="remove_ads_request_price">Donerade CNY %1$d, väntande CNY %2$d</string>
   <!-- Update -->
@@ -145,4 +149,5 @@
   <string name="show_exp_already">Inget behov, du redan har aktiverat experimentella inställningarna.</string>
   <!-- Xposed framework check -->
   <!-- Discount -->
+  <string name="discount_dialog_cancel">Påminn inte</string>
 </resources>
