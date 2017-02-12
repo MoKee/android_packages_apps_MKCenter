@@ -29,6 +29,7 @@
   <string name="mokee_issues_title">MoKee Bug Tracker</string>
   <string name="mokee_issues_summary">Besök bug tracker</string>
   <string name="mokee_changelog_title">MoKee ändringslogg</string>
+  <string name="mokee_changelog_summary">Visa daglig ändringslogg</string>
   <string name="mokee_build_status_title">MoKee Bygg Status</string>
   <string name="mokee_build_status_summary">Se Bygg status</string>
   <string name="mokee_github_title">MoKee Github</string>
@@ -43,6 +44,7 @@
   <string name="mokee_version_info_title">Versionsinfo</string>
   <string name="mokee_version_title">MoKee Version</string>
   <string name="mokee_unique_id_title">Unikt ID</string>
+  <string name="mokee_donate_info_title">Donationsinfo</string>
   <string name="mokee_version_type_title">Versionstyp</string>
   <string name="mokee_last_check_title">Senaste kontroll</string>
   <string name="mokee_last_check_never">Aldrig</string>
@@ -72,6 +74,8 @@
   <string name="donate_dialog_via_restore">Återställ</string>
   <string name="donate_money_toast_success">Tack för din donation!</string>
   <string name="donate_money_again">Donera igen</string>
+  <string name="donate_money_restored_success">Återställd!</string>
+  <string name="donate_money_restored_failed">Ingen enhetspost hittades.</string>
   <string name="donate_money_info_null">Du har inte donerat</string>
   <string name="remove_ads_title">Ta bort annonser</string>
   <string name="remove_ads_request_price">Donerade CNY %1$d, väntande CNY %2$d</string>
@@ -140,6 +144,8 @@
   <string name="pref_ota_check">Inkrementella uppdateringar</string>
   <string name="pref_ota_check_summary">Hämta inkrementella uppdateringar för att spara tid och bandbredd</string>
   <string name="pref_ota_check_donation_request_summary">Hämta inkrementella uppdateringar för att spara tid och bandbredd (tillgänglig efter donation CNY %d)</string>
+  <string name="pref_verify_rom">Verifierade uppdateringar</string>
+  <string name="pref_verify_rom_summary">Visa endast uppdateringar som är verifierade utav andra användare</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Installera uppdateringen</string>
   <string name="apply_update_dialog_text">Du är på väg att uppdatera till <xliff:g id="filename">%s</xliff:g>.\n\nOm du trycker på Uppdatera kommer enheten att starta om till Recoveryläge för att installera uppdateringen.\n \nObs: Denna funktion kräver ett kompatibelt Recoveryläge. I annat fall måste uppdateringarna installeras manuellt.</string>
@@ -149,5 +155,6 @@
   <string name="show_exp_already">Inget behov, du redan har aktiverat experimentella inställningarna.</string>
   <!-- Xposed framework check -->
   <!-- Discount -->
+  <string name="discount_dialog_title">Begränsat erbjudande</string>
   <string name="discount_dialog_cancel">Påminn inte</string>
 </resources>
