@@ -65,6 +65,7 @@
   <string name="menu_refresh">Tải lại</string>
   <string name="menu_delete_all">Xóa phần tải xuống</string>
   <string name="menu_remove_ads">Xóa quảng cáo</string>
+  <string name="menu_restore">Phục hồi cấp phép</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Ủng hộ chúng tôi</string>
   <string name="donate_dialog_message">Không giống như các công ty như Cygn hoặc MIUI, MoKee mã nguồn mở là một dự án phi lợi nhuận hoàn toàn dựa trên sở thích và niềm đam mê. Để duy trì dự án này, chúng tôi phải chi ra tiền của riêng của chúng tôi mọi lúc hoặc dựa vào sự đóng góp và quảng cáo. Đóng góp của bạn có thể giúp làm giảm tải trọng tài chính của chúng tôi và duy trì phát triển trong tương lai! Tùy chọn này cho phép bạn để loại bỏ các quảng cáo trong Trung tâm MoKee, hoặc dùng tùy chọn \"Quyên góp\" thay vào đó, nếu bạn thích nhiều lần (quảng cáo sẽ được gỡ bỏ sau khi tổng số đã đạt giá trị chỉ định). Xin vui lòng sao lưu mokee.license tập tin (trong thư mục gốc của sdcard, chỉ có giá trị cho thiết bị hiện thời) một khi bạn đã quyên góp.</string>
@@ -72,6 +73,7 @@
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_restore">Khôi phục</string>
   <string name="donate_money_toast_success">Cảm ơn sự ủng hộ của bạn!</string>
+  <string name="donate_money_title">Ủng hộ Dự án nguồn mở MoKee</string>
   <string name="donate_money_again">Quyên góp một lần nữa</string>
   <string name="donate_money_restored_success">Khôi phục thành công!</string>
   <string name="donate_money_restored_failed">Không có hồ sơ thiết bị tìm thấy.</string>
@@ -126,6 +128,7 @@
   <string name="download_running">Đang tiến hành</string>
   <string name="download_cancelled">Tải xuống đã bị hủy bỏ</string>
   <string name="download_already_running">Tải xuống đang chạy</string>
+  <string name="download_limited_mode">Đang tải với tốc độ hạn chế, hãy ủng hộ để có được tốc độ tối đa.</string>
   <string name="unable_to_download_file">Không thể tải các tập tin cập nhật</string>
   <string name="not_download_success">Bản cập nhật được tải xuống thành công</string>
   <string name="not_download_failure">Tải về bản Cập Nhật không thành công</string>
@@ -147,6 +150,10 @@
   <string name="pref_ota_check_summary">Lấy bản cập nhật bổ sung để tiết kiệm thời gian tải và băng thông</string>
   <string name="pref_ota_check_donation_request_summary">Lấy bản cập nhật bổ sung để tiết kiệm thời gian tải và băng thông (có sẵn sau khi quyên góp CNY %d)</string>
   <string name="pref_ota_check_donation_request_pending_summary">Tải về được gia tăng Cập Nhật để tiết kiệm thời gian và băng thông (tặng %1$d, có sẵn cho đời sau đợt quyên góp thêm, %2$d thu: CNY)</string>
+  <string name="pref_verify_rom">Cập nhật đã được xác thực</string>
+  <string name="pref_verify_rom_summary">Chỉ hiện các bản cập nhật được những người dùng khác xác nhận</string>
+  <string name="pref_verify_rom_donation_request_summary">Chỉ hiện các bản cập nhật được những người dùng khác xác nhận (khả dụng sau khi ủng hộ %d NDT)</string>
+  <string name="pref_verify_rom_donation_request_pending_summary">Chỉ hiện các bản cập nhật được những người dùng khác xác nhận (đã ủng hộ %1$d, khả dụng mãi mãi sau khi ủng hộ thêm %2$d nữa, đơn vị tiền tệ: NDT)</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Áp dụng Cập Nhật</string>
   <string name="apply_update_dialog_text">Bạn đang định nâng cấp lên <xliff:g id="filename"> %s </xliff:g>. \n\nnếu bạn bấm vào Cập Nhật, điện thoại sẽ tự khởi động lại vào chế độ recovery để cài đặt cập nhật.\n\nLưu ý: tính năng này yêu cầu một bản recovery tương thích hoặc bản cập nhật sẽ cần phải được cài đặt theo cách thủ công.</string>
@@ -158,4 +165,7 @@
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Xposed framework đã cài đặt, không cần phải reflash framework sau khi áp dụng bản Cập Nhật gia tăng.</string>
   <!-- Discount -->
+  <string name="discount_dialog_title">Khuyến mãi có giới hạn</string>
+  <string name="discount_dialog_expires">Khuyến mãi hết hạn trong %s</string>
+  <string name="discount_dialog_cancel">Không nhắc lại</string>
 </resources>
