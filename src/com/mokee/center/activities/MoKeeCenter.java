@@ -67,6 +67,9 @@ public class MoKeeCenter extends AppCompatActivity {
         final TextView mRequest = (TextView) donateView.findViewById(R.id.request);
         final SeekBar mSeekBar = (SeekBar) donateView.findViewById(R.id.price);
 
+        TextView mMessage = (TextView) donateView.findViewById(R.id.message);
+        mMessage.setText(R.string.donate_dialog_message);
+
         mSeekBar.setMax(Constants.DONATION_MAX - Constants.DONATION_REQUEST_MIN);
         mSeekBar.setOnSeekBarChangeListener(new SimpleOnSeekBarChangeListener() {
             @Override
@@ -95,7 +98,6 @@ public class MoKeeCenter extends AppCompatActivity {
 
         final AlertDialog.Builder builder = new AlertDialog.Builder(this)
                 .setTitle(isDonate ? R.string.donate_dialog_title : R.string.remove_ads_title)
-                .setMessage(R.string.donate_dialog_message)
                 .setView(donateView);
 
         final String title = isDonate
