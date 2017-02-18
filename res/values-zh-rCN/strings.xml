@@ -68,7 +68,7 @@
   <string name="menu_restore">恢复授权</string>
   <!-- Donate -->
   <string name="donate_dialog_title">捐赠我们</string>
-  <string name="donate_dialog_message">和 Cyanogen，MIUI 等已接受投资的商业化公司不同，魔趣作为非营利性的民间开源项目，需要通过接受捐赠或是显示界面广告等手段筹集经费，才能负担得起每月的服务器租用及托管、网络带宽、接口授权等高昂支出。因此，您的支持至关重要！它是使我们能够持续为大家更新ROM的基石。请为魔趣出点力，帮助我们做得更好！您的捐赠记录会保存在云端服务器和设备存储分区根目录的 mokee. license 文件中，同时我们会为您激活更多捐赠后才能使用的强大功能（仅限当前设备有效）。</string>
+  <string name="donate_dialog_message">和 Cyanogen，MIUI 等已接受投资的商业化公司不同，魔趣作为非营利性的民间开源项目，需要通过接受捐赠或是显示界面广告等手段筹集经费，才能负担得起每个月的服务器租用及托管、网络带宽、接口授权等高昂支出。因此，您的支持至关重要！它是使我们能够持续为大家更新ROM的基石。请为魔趣出点力，帮助我们做得更好！您的捐赠记录会保存在云端服务器和设备存储分区的 mokee. license 文件中，同时我们会为您激活更多强大功能（仅限当前设备有效）。</string>
   <string name="donate_dialog_via_paypal">贝宝</string>
   <string name="donate_dialog_via_alipay">支付宝</string>
   <string name="donate_dialog_via_restore">恢复授权</string>
