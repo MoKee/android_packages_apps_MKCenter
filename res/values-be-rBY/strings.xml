@@ -34,8 +34,8 @@
   <string name="mokee_build_status_summary">Паглядзець статус зборкі</string>
   <string name="mokee_github_title">Github рэпазіторый MoKee</string>
   <string name="mokee_github_summary">Наведаць MoKee Github</string>
-  <string name="mokee_translate_title">Перавод MoKee</string>
-  <string name="mokee_translate_summary">Дапамажыце перавесці MoKee</string>
+  <string name="mokee_translate_title">Пераклад MoKee</string>
+  <string name="mokee_translate_summary">Дапамажыце перакласці MoKee</string>
   <string name="mokee_wiki_title">MoKee Wiki</string>
   <string name="mokee_wiki_summary">Паглядзець MoKee Wiki</string>
   <string name="mokee_news_title">Навiны MoKee</string>
@@ -88,8 +88,8 @@
   <string name="dialog_update">Абнаўленне</string>
   <string name="dialog_install">Усталяваць</string>
   <string name="dialog_ok">ОК</string>
-  <string name="dialog_cancel">Адмена</string>
-  <string name="dialog_close">Закрыць</string>
+  <string name="dialog_cancel">Скасаваць</string>
+  <string name="dialog_close">Зачыніць</string>
   <string name="no_available_updates_intro">Апошняя праверка не знайшла даступных абнаўленняў. Каб уручную праверыць наяўнасць новых абнаўленняў, націсніце кнопку «Абнавіць».</string>
   <string name="no_available_ota_intro">Апошняя праверка не знайшла даступных абнаўленняў. Каб уручную праверыць наяўнасць новых абнаўленняў, націсніце кнопку «Абнавіць». Калі вы выкарыстоўваеце версію, якая знаходзiцца за межамi дыяпазону дат, падтрымованых OTA абнаўленнямi, выключыце опцыю \"OTA абнаўленнI\".</string>
   <string name="new_update_summary">Новае</string>
@@ -122,11 +122,11 @@
   <string name="not_action_download">Спампаваць</string>
   <string name="data_connection_required">Неабходна злучэнне з Інтэрнэтам.</string>
   <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">Адмянiць спампоўку</string>
-  <string name="confirm_download_cancelation_dialog_message">Адмянiць гэтую спампоўку?</string>
+  <string name="confirm_download_cancelation_dialog_title">Скасаваць спампоўку</string>
+  <string name="confirm_download_cancelation_dialog_message">Скасаваць гэтую спампоўку?</string>
   <string name="download_remaining">Засталося <xliff:g id="duration" example="3 minutes">%s</xliff:g></string>
   <string name="download_running">Выконваецца</string>
-  <string name="download_cancelled">Спампоўка адменена</string>
+  <string name="download_cancelled">Спампоўка скасавана</string>
   <string name="download_already_running">Спампоўка ўжо адбываецца</string>
   <string name="download_limited_mode">Ваша хуткасць загрузкі абмежаваная. Вы можаце зрабіць ахвяраванне, каб перайсці на неабмежаваную хуткасць.</string>
   <string name="unable_to_download_file">Не атрымалася спампаваць файл абнаўлення</string>
@@ -156,14 +156,14 @@
   <string name="pref_verify_rom_donation_request_pending_summary">Адлюстроўваць толькі абнаўлення, якія правераныя іншымі карыстальнікамі (ахвяраваныя %1$d, патрабуецца ахвяраваць яшчэ %2$d, валюта: CNY)</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Прымяніць абнаўленне</string>
-  <string name="apply_update_dialog_text">Будзе выканана абнаўленне да версіі <xliff:g id="filename">%s</xliff:g>.\n\n Пры націску кнопкі «Абнавіць» прылада перазагрузіцца ў рэжым аднаўлення для ўстаноўкі гэтага абнаўлення.\n\n Заўвага: гэтая функцыя патрабуе сумяшчальнага Recovery. У адваротным выпадку абнаўленне будзе неабходна ўсталяваць уручную.</string>
+  <string name="apply_update_dialog_text">Будзе выканана абнаўленне да версіі <xliff:g id="filename">%s</xliff:g>.\n\n Пры націску кнопкі «Абнавіць» прылада перазагрузіцца ў рэжым аднаўлення для усталёўкі гэтага абнаўлення.\n\n Заўвага: гэтая функцыя патрабуе сумяшчальнага Recovery. У адваротным выпадку абнаўленне будзе неабходна ўсталяваць уручную.</string>
   <string name="apply_update_ota_dialog_text">Будзе выканана абнаўленне да версіі <xliff:g id="filename">%s</xliff:g>.\n\n Пры націску кнопкі «Абнавіць» прылада перазагрузіцца ў рэжым аднаўлення для ўстаноўкі гэтага абнаўлення.\n\n Заўвага: гэтая функцыя патрабуе сумяшчальнага Recovery. У адваротным выпадку абнаўленне будзе неабходна ўсталяваць уручную. \n\nГэта інкрыментны абнаўленне, таму змены ў сістэмных файлах могуць прывесці да збою ўстаноўкі абнаўлення. У гэтым выпадку, усталюйце поўную версію Mokee.</string>
   <string name="apply_unable_to_reboot_toast">Немагчыма перазагрузіцца у рэжым Recovery</string>
   <!-- experimenter mode -->
   <string name="show_exp_on">Вы ўключылі эксперыментальныя параметры!</string>
   <string name="show_exp_already">Няма неабходнасці, эксперыментальныя параметры ўжо ўключаны.</string>
   <!-- Xposed framework check -->
-  <string name="installed_xposed_toast">Надбудова Xposed усталявана, не патрэбна наладжваць яе зноў, пасля устаноўкі Ota-аднаўленняў.</string>
+  <string name="installed_xposed_toast">Надбудова Xposed усталявана, не патрэбна наладжваць яе зноў, пасля усталёўкі Ota-аднаўленняў.</string>
   <!-- Discount -->
   <string name="discount_dialog_title">Часовая прапанова</string>
   <string name="discount_dialog_message">Дзякуем вам за доўгую падтрымку праекта MoKee Open Source. Мы вельмі ўдзячныя вам, таму запускаем часовае прапанову. За %1$d юань вы можаце ўсталяваць дадатковыя абнаўлення, абнаўлення, пацверджаныя супольнасцю, а таксама прыбраць рэкламу з прыкладання (са зніжкай %2$d юань). Зачыніце акно і перазапусціце прыкладанне, калі хочаце заплаціць пазней.</string>
