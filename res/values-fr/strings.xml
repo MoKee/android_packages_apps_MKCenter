@@ -23,28 +23,28 @@
   <string name="mokee_updater_title">Mise à jour</string>
   <!-- WebSite -->
   <string name="mokee_website_title">Site Web de MoKee</string>
-  <string name="mokee_website_summary">Visitez le site officiel</string>
+  <string name="mokee_website_summary">Visiter le site officiel</string>
   <string name="mokee_forum_title">Forum de MoKee</string>
   <string name="mokee_forum_summary">Visiter le Forum de MoKee</string>
   <string name="mokee_issues_title">MoKee Bug Tracker</string>
-  <string name="mokee_issues_summary">Visitez le bug tracker</string>
+  <string name="mokee_issues_summary">Visiter le bug tracker</string>
   <string name="mokee_changelog_title">Historique des modifications de MoKee</string>
   <string name="mokee_changelog_summary">Voir le journal des modifications</string>
-  <string name="mokee_build_status_title">Etat de la build MoKee</string>
+  <string name="mokee_build_status_title">État de la build MoKee</string>
   <string name="mokee_build_status_summary">Voir l\'état de la build</string>
   <string name="mokee_github_title">Github de MoKee</string>
-  <string name="mokee_github_summary">Visitez le Github de MoKee</string>
-  <string name="mokee_translate_title">Définition de MoKee</string>
+  <string name="mokee_github_summary">Visiter le Github de MoKee</string>
+  <string name="mokee_translate_title">Traduction de Mokee</string>
   <string name="mokee_translate_summary">Aider à traduire MoKee</string>
-  <string name="mokee_wiki_title">MoKee Wiki</string>
-  <string name="mokee_wiki_summary">Découvrez le Wiki de MoKee</string>
+  <string name="mokee_wiki_title">Wiki de Mokee</string>
+  <string name="mokee_wiki_summary">Découvrir le Wiki de MoKee</string>
   <string name="mokee_news_title">News de MoKee</string>
-  <string name="mokee_news_summary">Recevoir des infos sur le développement de MoKee</string>
+  <string name="mokee_news_summary">Recevoir des informations sur le développement de MoKee</string>
   <!-- Base Info -->
   <string name="mokee_version_info_title">Informations de version</string>
   <string name="mokee_version_title">Version de MoKee</string>
   <string name="mokee_unique_id_title">ID unique</string>
-  <string name="mokee_donate_info_title">Info sur les dons</string>
+  <string name="mokee_donate_info_title">Information sur les dons</string>
   <string name="mokee_version_type_title">Type de version</string>
   <string name="mokee_last_check_title">Dernière vérification</string>
   <string name="mokee_last_check_never">Jamais</string>
@@ -57,20 +57,20 @@
   <string name="mokee_version_type_unofficial">Non officiel</string>
   <string name="mokee_version_type_all">Tout</string>
   <!-- State -->
-  <string name="downloaded_update_summary">Télécharger</string>
-  <string name="installed_update_summary">Installer</string>
+  <string name="downloaded_update_summary">Téléchargé</string>
+  <string name="installed_update_summary">Installé</string>
   <string name="available_updates_title">Mises à jour disponibles</string>
   <!-- Menu -->
   <string name="menu_donate">Faire une donation</string>
   <string name="menu_refresh">Actualiser</string>
   <string name="menu_delete_all">Supprimer le téléchargement</string>
   <string name="menu_remove_ads">Enlever la publicité</string>
-  <string name="menu_restore">Restaurer la license</string>
+  <string name="menu_restore">Restaurer la licence</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Faites-nous un don</string>
-  <string name="donate_dialog_message">Contrairement aux entreprises comme Cygn ou MIUI, MoKee OpenSource est un projet purement à but non lucratif né de passe-temps et de passion. Afin de maintenir ce projet, nous devons la plupart du temps investir notre propre argent ou dépendre des dons et de la publicité. Vos dons peuvent aider à réduire notre charge financière et soutenir le développement futur ! Cette option vous permet de supprimer les annonces dans le Centre MoKee, utilisez plutôt l\'option de « Don » si vous préférez des versements (les annonces seront supprimés une fois que la somme a atteint la valeur spécifiée). Veuillez sauvegarder le fichier mokee.license (à la racine de la sdcard, valable uniquement pour le périphérique actuel) une fois que vous avez donné.</string>
-  <string name="donate_dialog_via_paypal">PayPal (USD)</string>
-  <string name="donate_dialog_via_alipay">AliPay (CNY)</string>
+  <string name="donate_dialog_message">Contrairement aux entreprises comme Cygn ou MIUI, MoKee OpenSource est un projet purement à but non lucratif né de passe-temps et de passion. Afin de maintenir ce projet, nous devons la plupart du temps investir notre propre argent ou dépendre des dons et de la publicité. Vos dons peuvent aider à réduire notre charge financière et soutenir le développement futur ! Cette option vous permet de supprimer les annonces dans le Centre MoKee, utilisez plutôt l\'option de « Don » si vous préférez des versements (les annonces seront supprimés une fois que la somme a atteint la valeur spécifiée). Veuillez sauvegarder le fichier mokee. licence (à la racine de la sdcard, valable uniquement pour le périphérique actuel) une fois que vous avez donné.</string>
+  <string name="donate_dialog_via_paypal">PayPal</string>
+  <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_restore">Restaurer</string>
   <string name="donate_money_toast_success">Merci pour votre don!</string>
   <string name="donate_money_title">Faire un don au projet OpenSource MoKee</string>
@@ -91,24 +91,24 @@
   <string name="dialog_cancel">Annuler</string>
   <string name="dialog_close">Fermer</string>
   <string name="no_available_updates_intro">Aucune mise à jour disponible lors de la dernière vérification. Pour vérifier manuellement les mises à jour, utilisez le bouton Actualiser.</string>
-  <string name="no_available_ota_intro">Le dernier contrôle n\'a pas trouvé les mises à jour disponibles. Pour vérifier manuellement les nouvelles mises à jour, utilisez le bouton Actualiser. Si vous exécutez une version qui est hors de la plage de dates de prise en charge de mise à jour incrémentielle, vous devriez désélectionner l\'option \"Mises à jour incrémentielles\".</string>
+  <string name="no_available_ota_intro">Le dernier contrôle n\'a pas trouvé de mises à jour disponibles. Pour vérifier manuellement les nouvelles mises à jour, utilisez le bouton Actualiser. Si vous exécutez une version qui est hors de la plage de la date de mise à jour incrémentielle, vous devez désélectionner l\'option \"Mises à jour incrémentielles\".</string>
   <string name="new_update_summary">Nouveau</string>
   <string name="old_update_summary">Ancien</string>
   <string name="update_check_title">Fréquence de vérification des mises à jour</string>
   <string name="check_manual">Manuellement</string>
-  <string name="nightly_alert">Vous avez choisi d\'inclure à votre liste les versions de développement. Ces versions ne disposent pas de support technique et doivent être utilisées avec précaution.</string>
+  <string name="nightly_alert">Vous avez choisi d\'inclure à votre liste les versions de développement. Ces versions ne disposent pas d’assistance technique et doivent être utilisées avec précaution.</string>
   <string name="experimenter_alert">Vous avez choisi d\'inclure les mises à jour expérimentales dans cette liste. Ceux-ci sont non pris en charge et destinés aux essais seulement, il doit être utilisé avec prudence.</string>
-  <string name="unofficial_alert">Vous avez choisi d\'inclure les mises à jour non officielles dans cette liste. N\'oubliez pas que ceux-ci sont pris en charge par votre responsable de l\'appareil.</string>
+  <string name="unofficial_alert">Vous avez choisi d\'inclure des mises à jour non officielles dans cette liste. Gardez à l\'esprit que ceux-ci sont pris en charge par le mainteneur de votre appareil.</string>
   <string name="all_alert">Vous avez choisi d\'inclure toutes les mises à jour (release, nightly) dans cette liste. A noter que les nightly ne sont pas supportées et doivent être utilisées avec prudence.</string>
   <string name="alert_title">Attention</string>
-  <string name="update_type_title">Types de mise à jour</string>
+  <string name="update_type_title">Type de mise à jour</string>
   <!-- ChangeLog -->
   <string name="no_changelog_alert">Aucun historique des modifications disponible</string>
   <string name="changelog_dialog_title">Historique des modifications</string>
   <string name="loading_changelog">Chargement\u2026</string>
   <string name="check_on_boot">À chaque redémarrage</string>
-  <string name="check_twice_daily">Deux fois chaque jour</string>
-  <string name="check_daily">Une fois tous les jours</string>
+  <string name="check_twice_daily">Deux fois par jour</string>
+  <string name="check_daily">Une fois par jour</string>
   <string name="check_twice_weekly">Deux fois par semaine</string>
   <string name="check_weekly">Une fois par semaine</string>
   <string name="check_bi_weekly">Une fois tous les quinze jours</string>
@@ -134,8 +134,8 @@
   <string name="not_download_failure">Le téléchargement de la mise à jour a échoué</string>
   <string name="not_action_install_update">Redémarrer et installer</string>
   <string name="not_download_install_notice">La mise à jour <xliff:g id="filename">%s </xliff:g> a été téléchargée avec succès. Lorsque vous toucherez « Redémarrer et installer », l\'appareil va redémarrer pour installer la mise à jour.\n\nNote : Cette fonction nécessite un mode de restauration compatible sinon les mises à jour devront être installées manuellement.</string>
-  <string name="not_download_install_ota_notice">La mise à jour <xliff:g id="filename">%s </xliff:g> a été téléchargé e avec succès. Lorsque vous toucherez « Redémarrer et installer », l\'appareil va redémarrer pour installer la mise à jour.\n\nNote : Cette fonction nécessite un mode de restauration compatible sinon les mises à jour devront être installées manuellement .\n\nn Ceci est une mise à jour incrémentielle, donc toutes les modifications apportées aux fichiers système peuvent provoquer un échec de la mise à jour. Dans ce cas, installez svp une ROM complète.</string>
-  <string name="md5_verification_failed">Incompatibilité de somme de contrôle MD5</string>
+  <string name="not_download_install_ota_notice">La mise à jour <xliff:g id="filename">%s </xliff:g> a été téléchargée avec succès. Lorsque vous toucherez « Redémarrer et installer », l\'appareil va redémarrer pour installer la mise à jour.\n\nNote : Cette fonction nécessite un mode de restauration compatible sinon les mises à jour devront être installées manuellement .\n\nn Ceci est une mise à jour incrémentielle, donc toutes les modifications apportées aux fichiers système peuvent provoquer un échec de la mise à jour. Dans ce cas, installez svp une ROM complète.</string>
+  <string name="md5_verification_failed">Erreur, la somme de contrôle MD5 ne correspond pas</string>
   <string name="not_apk_action_install_update">Installer</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Supprimer le fichier</string>
@@ -163,7 +163,7 @@
   <string name="show_exp_on">Vous avez activé les paramètres expérimentaux !</string>
   <string name="show_exp_already">Inutile, vous avez déjà activé les paramètres expérimentaux.</string>
   <!-- Xposed framework check -->
-  <string name="installed_xposed_toast">Xposed framework a été installé. Pas besoin de réinstaller le framework après une mise à jour partielle.</string>
+  <string name="installed_xposed_toast">Xposed framework a été installé. Il n\'est pas nécessaire de réinstaller le framework après une mise à jour partielle.</string>
   <!-- Discount -->
   <string name="discount_dialog_title">Offre à durée limitée</string>
   <string name="discount_dialog_message">Je vous remercie pour votre soutien continu envers MoKee Open Source. En guise de remerciements, vous avez droit à une offre à durée limitée. Avec %1$d CNY, vous pourrez profiter des mises à jour incrémentielles, vérifier les mises à jour et supprimez des annonces de MoKee Centre (économisez %2$d CNY). Si vous souhaitez payer par la suite, vous pouvez fermer cette boîte de dialogue et relancer MoKee Center à nouveau lorsque vous êtes prêt.</string>
