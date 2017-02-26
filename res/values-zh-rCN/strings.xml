@@ -147,9 +147,9 @@
   <string name="delete_updates_success_message">所有已下载的更新文件已被删除</string>
   <!-- pref -->
   <string name="pref_ota_check">增量更新</string>
-  <string name="pref_ota_check_summary">为您节省时间和流量，随时随地轻松升级。</string>
-  <string name="pref_ota_check_donation_request_summary">为您节省时间和流量，随时随地轻松升级，用过便再也离不开它了！（累计捐赠 %d CNY后永久可用）</string>
-  <string name="pref_ota_check_donation_request_pending_summary">为您节省时间和流量，随时随地轻松升级，用过便再也离不开它了！（已捐赠 %1$d，再捐赠 %2$d 后永久可用，货币单位：CNY）</string>
+  <string name="pref_ota_check_summary">节省时间和流量，随时随地轻松升级。</string>
+  <string name="pref_ota_check_donation_request_summary">节省时间和流量，随时随地轻松升级，用过便再也离不开它了！（累计捐赠 %d CNY后永久可用）</string>
+  <string name="pref_ota_check_donation_request_pending_summary">节省时间和流量，随时随地轻松升级，用过便再也离不开它了！（已捐赠 %1$d，再捐赠 %2$d 后永久可用，货币单位：CNY）</string>
   <string name="pref_verify_rom">放心刷™</string>
   <string name="pref_verify_rom_summary">仅向您推荐经过多数用户测试稳定的版本</string>
   <string name="pref_verify_rom_donation_request_summary">仅向您推荐经过多数用户测试稳定的版本（累计捐赠 %d CNY后永久可用）</string>
