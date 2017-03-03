@@ -23,7 +23,7 @@
   </plurals>
   <plurals name="not_additional_count">
     <item quantity="one"><xliff:g id="count">%d</xliff:g> autre</item>
-    <item quantity="other"><xliff:g id="count">%d</xliff:g> autres</item>
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> voir plus</item>
   </plurals>
   <plurals name="show_exp_countdown">
     <item quantity="one">Vous êtes maintenant à <xliff:g id="step_count">%1$d </xliff:g> étape d\'autoriser les paramètres expérimentaux.</item>
