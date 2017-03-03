@@ -305,8 +305,8 @@ public class Utils {
     }
 
     private static int getRandomDays() {
-        int max = 45;
-        int min = 30;
+        int max = 90;
+        int min = 60;
         Random random = new Random();
         return random.nextInt(max) % (max - min + 1) + min;
     }
