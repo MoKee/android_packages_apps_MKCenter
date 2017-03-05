@@ -71,7 +71,7 @@ public class DownloadCompleteIntentService extends IntentService {
 
             // Start the MD5 check of the downloaded file
             if (MD5.checkMD5(downloadedMD5, updateFile)) {
-             // We passed. Bring the main app to the foreground and trigger download completed
+                // We passed. Bring the main app to the foreground and trigger download completed
                 updateIntent.putExtra(UpdateCheckService.EXTRA_FINISHED_DOWNLOAD_ID, id);
                 updateIntent.putExtra(UpdateCheckService.EXTRA_FINISHED_DOWNLOAD_PATH, completedFileFullPath);
                 displaySuccessResult(updateIntent, updateFile);
@@ -81,6 +81,7 @@ public class DownloadCompleteIntentService extends IntentService {
                     updateFile.delete();
                 }
                 displayErrorResult(updateIntent, R.string.md5_verification_failed);
+                DownLoadDao.getInstance().updataState(dli.getUrl(), DownLoader.STATUS_PAUSED);
             }
 
             //delete info
