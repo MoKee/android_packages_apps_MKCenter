@@ -80,7 +80,7 @@
   <string name="donate_money_restored_timeout">网络连接超时，请再试一次。</string>
   <string name="donate_money_info">您捐赠了 %1$d CNY，打败了全球 %2$s 的用户！</string>
   <string name="donate_money_info_with_rank">您捐赠了 %1$d CNY，打败了全球 %2$s 的用户，排名第 %3$d！</string>
-  <string name="donate_money_info_null">捐赠是国际通行的一种支持免费软件的方式，完成一次光荣捐赠，可以使我们有更多的经费进行发展，在未来向您提供更好用的ROM！聚沙成塔，您个人的一小步，魔趣发展的一大步。</string>
+  <string name="donate_money_info_null">捐赠是国际通行的一种支持免费软件的方式，您既然可以花费数千元购买厂商的手机和万年不更新的系统，何不向魔趣做一次小小的光荣捐赠呢？您的举手之劳，就可以使我们变得更好，持续为您带来更好用的ROM。</string>
   <string name="remove_ads_title">永久移除广告</string>
   <string name="remove_ads_request_price">已捐赠 %1$d，待捐赠 %2$d（货币单位：CNY）</string>
   <!-- Update -->
@@ -148,8 +148,8 @@
   <!-- pref -->
   <string name="pref_ota_check">增量更新</string>
   <string name="pref_ota_check_summary">为您节省时间和流量，随时随地轻松升级</string>
-  <string name="pref_ota_check_donation_request_summary">下载仅有完整包5%%大小的补丁快速更新！赚它一个亿的小目标，从节省自己的时间与流量开始！ (捐赠 %d CNY后永久可用)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">下载仅有完整包5%%大小的补丁快速更新！赚它一个亿的小目标，从节省自己的时间与流量开始！（已捐赠 %1$d，再捐赠 %2$d 后永久可用，货币单位：CNY）</string>
+  <string name="pref_ota_check_donation_request_summary">下载仅有完整包5%%大小的补丁快速更新！ (捐赠 %d CNY后永久可用)</string>
+  <string name="pref_ota_check_donation_request_pending_summary">下载仅有完整包5%%大小的补丁快速更新！（已捐赠 %1$d，再捐赠 %2$d 后永久可用，货币单位：CNY）</string>
   <string name="pref_verify_rom">放心刷™</string>
   <string name="pref_verify_rom_summary">仅向您推荐经过多数用户测试稳定的版本</string>
   <string name="pref_verify_rom_donation_request_summary">仅向您推荐经过多数用户测试稳定的版本（累计捐赠 %d CNY后永久可用）</string>
