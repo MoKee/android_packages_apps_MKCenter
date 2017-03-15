@@ -135,7 +135,7 @@
   <string name="not_action_install_update">重启并安装</string>
   <string name="not_download_install_notice"><xliff:g id="filename">%s</xliff:g> 已成功下载。点击“重启并安装”后，设备将重新启动并安装更新。\n\n注意：自动安装过程需要一个兼容的恢复程序，不兼容的恢复程序可能导致更新失败。</string>
   <string name="not_download_install_ota_notice"><xliff:g id="filename">%s</xliff:g> 已成功下载。点击“重启并安装”后，设备将重新启动并安装更新。\n\n注意：自动安装过程需要一个兼容的恢复程序，不兼容的恢复程序可能导致更新失败。\n\n本次为增量更新，任何人为或带有ROOT权限的程序对系统文件造成的修改可能导致更新失败，如果您遭遇此情形，请尝试下载完整包进行更新。</string>
-  <string name="md5_verification_failed">MD5 检测失败</string>
+  <string name="md5_verification_failed">MD5 检测失败，请刷新后重新下载。</string>
   <string name="not_apk_action_install_update">安装</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">删除文件</string>
