@@ -135,7 +135,7 @@
   <string name="not_action_install_update">重启并安装</string>
   <string name="not_download_install_notice"><xliff:g id="filename">%s</xliff:g> 已成功下载。点击“重启并安装”后，设备将重新启动并安装更新。\n\n注意：自动安装过程需要一个兼容的恢复程序，不兼容的恢复程序可能导致更新失败。</string>
   <string name="not_download_install_ota_notice"><xliff:g id="filename">%s</xliff:g> 已成功下载。点击“重启并安装”后，设备将重新启动并安装更新。\n\n注意：自动安装过程需要一个兼容的恢复程序，不兼容的恢复程序可能导致更新失败。\n\n本次为增量更新，任何人为或带有ROOT权限的程序对系统文件造成的修改可能导致更新失败，如果您遭遇此情形，请尝试下载完整包进行更新。</string>
-  <string name="md5_verification_failed">MD5 检测失败，请刷新后重新下载。</string>
+  <string name="md5_verification_failed">下载过程出现异常，请刷新并重新下载。</string>
   <string name="not_apk_action_install_update">安装</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">删除文件</string>
@@ -148,12 +148,12 @@
   <!-- pref -->
   <string name="pref_ota_check">增量更新</string>
   <string name="pref_ota_check_summary">为您节省时间和流量，随时随地轻松升级</string>
-  <string name="pref_ota_check_donation_request_summary">下载仅有完整包5%%大小的补丁快速更新，方便快捷省流量，原来刷机只需3～5分钟就可以搞定！（捐赠 %d CNY后永久可用）</string>
-  <string name="pref_ota_check_donation_request_pending_summary">下载仅有完整包5%%大小的补丁快速更新，方便快捷省流量，原来刷机只需3～5分钟就可以搞定！（已捐赠 %1$d，再捐赠 %2$d 后永久可用，货币单位：CNY）</string>
+  <string name="pref_ota_check_donation_request_summary">下载仅有完整包5%%大小的补丁快速更新（累计捐赠 %d CNY后永久可用）</string>
+  <string name="pref_ota_check_donation_request_pending_summary">下载仅有完整包5%%大小的补丁快速更新（已捐赠 %1$d，再捐赠 %2$d 后永久可用，货币单位：CNY）</string>
   <string name="pref_verify_rom">放心刷™</string>
   <string name="pref_verify_rom_summary">仅向您推荐经过多数用户测试稳定的版本</string>
-  <string name="pref_verify_rom_donation_request_summary">仅向您推荐经过多数用户测试稳定的版本，避免项目主代码更新后，机型维护者未能第一时间改进设备代码或因过失导致的新版本无法开机等故障，彻底解决其它第三方ROM都难以避免的最大不可控缺陷。（累计捐赠 %d CNY后永久可用）</string>
-  <string name="pref_verify_rom_donation_request_pending_summary">仅向您推荐经过多数用户测试稳定的版本，避免项目主代码更新后，机型维护者未能第一时间改进设备代码或因过失导致的新版本无法开机等故障，彻底解决其它第三方ROM都难以避免的最大不可控缺陷。（已捐赠 %1$d，再捐赠 %2$d 后永久可用，货币单位：CNY）</string>
+  <string name="pref_verify_rom_donation_request_summary">仅向您推荐经过多数用户测试稳定的版本（累计捐赠 %d CNY后永久可用）</string>
+  <string name="pref_verify_rom_donation_request_pending_summary">仅向您推荐经过多数用户测试稳定的版本（已捐赠 %1$d，再捐赠 %2$d 后永久可用，货币单位：CNY）</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">应用更新</string>
   <string name="apply_update_dialog_text">您将要更新到 <xliff:g id="filename">%s</xliff:g>。\n\n如果您点击“更新”，您的设备将会重启到恢复模式并安装更新。\n\n注意：此功能需要一个兼容的恢复程序。如果您没有的话，您可能需要手动安装更新。</string>
