@@ -43,6 +43,8 @@
   <!-- Base Info -->
   <string name="mokee_version_info_title">معلومات الإصدار</string>
   <string name="mokee_version_title">إصدار موكي</string>
+  <string name="mokee_unique_id_title">معرف فريد</string>
+  <string name="mokee_donate_info_title">معلومات التبرع</string>
   <string name="mokee_version_type_title">نوع الإصدار</string>
   <string name="mokee_last_check_title">أخر تحقق</string>
   <string name="mokee_last_check_never">أبداً</string>
@@ -71,8 +73,11 @@
 الرجاء النسخ الاحتياطي تصريح موكي (mokee.license) (في الدليل روت في ملفات الجهاز، وهي صالحة فقط للجهاز الحالي) اذا كنت قد تبرعت.</string>
   <string name="donate_dialog_via_paypal">تبرع باستخدام باي بال</string>
   <string name="donate_dialog_via_alipay">تبرع باستخدام مشترايات علي</string>
+  <string name="donate_dialog_via_restore">استعادة</string>
   <string name="donate_money_toast_success">شكراً لتبرعك!</string>
   <string name="donate_money_again">التبرع مره أخرى</string>
+  <string name="donate_money_restored_success">تمت الاستعادة بنجاح!</string>
+  <string name="donate_money_restored_failed">لم يتم العثور على سجل الجهاز.</string>
   <string name="remove_ads_title">إزالة الإعلانات</string>
   <string name="remove_ads_request_price">تبرعت بقيمة %1$d CNY، ريثما قيمتها CNY %2$d</string>
   <!-- Update -->
