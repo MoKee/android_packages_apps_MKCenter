@@ -65,6 +65,7 @@
   <string name="menu_refresh">Опресняване</string>
   <string name="menu_delete_all">Изтриване на изтегляния</string>
   <string name="menu_remove_ads">Премахване на реклами</string>
+  <string name="menu_restore">Възстанови лиценз</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Дарения за нас</string>
   <string name="donate_dialog_message">За разлика от основите марки и операционни системи, MoKee, както и Cyanogen се основават на отворения код и свободен достъп до ресурсите на системата. Това, както и напълно доброволния труд на програмистите, предполага разход на време и сили, за които не се заплаща. Ето защо в Хелп центъра ние сме вградили реклами на различни наши спонсори, които са направили някакво дарение. Тези реклами не са зловредни, имат за цел да удовлетворят нашите спонсори и да продължи работата по проекта.</string>
@@ -72,6 +73,7 @@
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_restore">Възстанови</string>
   <string name="donate_money_toast_success">Благодарим Ви за вашето дарение!</string>
+  <string name="donate_money_title">Дарение за MoKee OpenSource</string>
   <string name="donate_money_again">Дарете отново</string>
   <string name="donate_money_restored_success">Успешно възстановено!</string>
   <string name="donate_money_restored_failed">Няма запис в устройството.</string>
@@ -126,6 +128,7 @@
   <string name="download_running">Изпълнява се</string>
   <string name="download_cancelled">Изтегляне отменено</string>
   <string name="download_already_running">Изтеглянето вече се извършва</string>
+  <string name="download_limited_mode">Изтегляне на ограничена скорост, моля направете дарение за да се насладите на пълна скорост.</string>
   <string name="unable_to_download_file">Невъзможно е да се изтегли файла</string>
   <string name="not_download_success">Актуализацията е изтеглена</string>
   <string name="not_download_failure">Успешно изтегл. на актуализация</string>
@@ -147,6 +150,10 @@
   <string name="pref_ota_check_summary">Вземете Incremental ъпдейти за да спестите време и трафик</string>
   <string name="pref_ota_check_donation_request_summary">Вземете Incremental актуализации за да спестите време и трафик (достъпен след дарение CNY%d)</string>
   <string name="pref_ota_check_donation_request_pending_summary">Вземете допълнителни актуализации и спестете време и трафик (Дарени %1$d за проекта след даряването %2$d повече, валута: CNY)</string>
+  <string name="pref_verify_rom">Проверени актуализации</string>
+  <string name="pref_verify_rom_summary">Покажи само актуализации, които са проверени от други потребители</string>
+  <string name="pref_verify_rom_donation_request_summary">Покажи само актуализации, които са проверени от други потребители (на разположение след даряването на CNY %d)</string>
+  <string name="pref_verify_rom_donation_request_pending_summary">Покажи само актуализации, които са проверени от други потребители (Дарено %1$d, за доживотна поддръжка, дарете още %2$d, валута: CNY)</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Прилагане на обновяване</string>
   <string name="apply_update_dialog_text">Предстои да надстроите до <xliff:g id="filename">%s </xliff:g>. \n\nIf натиснете актуализация, устройството ще се рестартира в рековъри режим за да инсталира актуализацията.\n\nNote: тази функция изисква съвместимо рековъри за да работи.</string>
@@ -158,5 +165,8 @@
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Xposed рамката е инсталирана, не е необходимо обновяване след прилагане на актуализации.</string>
   <!-- Discount -->
+  <string name="discount_dialog_title">Предложение за ограничено време</string>
+  <string name="discount_dialog_message">Благодарим ви за вашата подкрепа за MoKee Open Source. Като знак на благодарност вие получавате предложение за ограничено време. С дарение от %1$d CNY можете да се насладите на допълнителни актуализации, проверени актуализации и премахване на рекламите от MoKee център (спестявате %2$d CNY). Ако искате да платите по-късно, можете да затворите този диалогов прозорец и да стартирате MoKee център отново, когато сте готови.</string>
+  <string name="discount_dialog_expires">Оферта изтича в %s</string>
   <string name="discount_dialog_cancel">Без напомняне</string>
 </resources>

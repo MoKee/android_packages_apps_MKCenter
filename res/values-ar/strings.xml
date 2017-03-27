@@ -78,6 +78,10 @@
   <string name="donate_money_again">التبرع مره أخرى</string>
   <string name="donate_money_restored_success">تمت الاستعادة بنجاح!</string>
   <string name="donate_money_restored_failed">لم يتم العثور على سجل الجهاز.</string>
+  <string name="donate_money_restored_timeout">فشل الاتصال، الرجاء المحاولة مجدداً</string>
+  <string name="donate_money_info">تبرعت بمجموع %1$d يوان صيني، اكثر من %2$s من المتبرعين عالمياَ!</string>
+  <string name="donate_money_info_with_rank">تبرعت بمجموع %1$d يوان صيني، اكثر من %2$s من المتبرعين عالمياَ، تحتل المرتبة %3$d!</string>
+  <string name="donate_money_info_null">لم تقم بالتبرع</string>
   <string name="remove_ads_title">إزالة الإعلانات</string>
   <string name="remove_ads_request_price">تبرعت بقيمة %1$d CNY، ريثما قيمتها CNY %2$d</string>
   <!-- Update -->
@@ -145,6 +149,7 @@
   <string name="pref_ota_check">تحديثات عن طريق الهواء OTA</string>
   <string name="pref_ota_check_summary">الحصول على التحديثات التزايدية لحفظ وقت التحميل وعرض حجم البيانات</string>
   <string name="pref_ota_check_donation_request_summary">الحصول على التحديثات التزايدية لحفظ وقت التحميل والبيانات (متاح بعد التبرع CNY %d)</string>
+  <string name="pref_ota_check_donation_request_pending_summary">احصل على التحديثات التدريجية لتوفير وقت التنزيل والبيانات (تبرع بـ %1$d، متوفر لمدى الحياة بعد التبرع اكثر بـ %2$d، العملة: اليوان الصيني)</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">تطبيق التحديث</string>
   <string name="apply_update_dialog_text">أنت على وشك الترقية إلى <xliff:g id="filename">%s</xliff:g>.\n\nإذا ضغطت على \"تحديث\"، سيتم إعادة تشغيل الجهاز في وضع الريكوفري لتثبيت التحديث.\n
