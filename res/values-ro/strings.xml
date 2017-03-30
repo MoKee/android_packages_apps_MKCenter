@@ -18,7 +18,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Fragment -->
-  <string name="mokee_center_title">MoKee Center</string>
+  <string name="mokee_center_title">MoKee Centru</string>
   <string name="mokee_support_title">Asistenta</string>
   <string name="mokee_updater_title">Actualizări</string>
   <!-- WebSite -->
@@ -74,6 +74,10 @@
   <string name="donate_money_toast_success">Va multumim pentru donatie!</string>
   <string name="donate_money_again">Donați din nou</string>
   <string name="donate_money_restored_success">Restaurarea s-a terminat cu succes!</string>
+  <string name="donate_money_restored_failed">Pe dispozitiv nu sau găsit înregistrări.</string>
+  <string name="donate_money_restored_timeout">Conexiunea a expirat, vă rugăm să încercaţi din nou</string>
+  <string name="donate_money_info">Ai donat un total de %1$d CNY, mai mult decât %2$s de donatori la nivel global!</string>
+  <string name="donate_money_info_with_rank">Ai donat un total de CNY %1$d, mai mult de %2$s de donatori la nivel global, rang No.%3$d!</string>
   <string name="donate_money_info_null">Nu ai donat</string>
   <string name="remove_ads_title">Anulează publicitate</string>
   <string name="remove_ads_request_price">Ați donat CNY %1$d, în așteptare CNY %2$d</string>
@@ -142,6 +146,7 @@
   <string name="pref_ota_check">Actualizări incrementale</string>
   <string name="pref_ota_check_summary">Primește actualizări incrementale pentru a reduce timpul de descărcat și banda de internet</string>
   <string name="pref_ota_check_donation_request_summary">Primește actualizări incrementale pentru a reduce timpul de descărcat și banda de internet (opțiune activă doar dupo ce donați %d)</string>
+  <string name="pref_ota_check_donation_request_pending_summary">Obţineţi actualizări incrementale pentru a salva timp descarcă bandwidth (donat %1$d, disponibil pentru durata de viaţă după donând %2$d mai multe, moneda: CNY)</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Aplicaţi actualizarea</string>
   <string name="apply_update_dialog_text">Intenţionaţi să faceţi upgrade la <xliff:g id="filename">%s</xliff:g>.\n\nDacă apăsaţi actualizare, dispozitivul va reporni în modul de recuperare pentru a instala actualizarea.\n\nNotă: această caracteristică necesită o versiune de recuperare compatibilă sau actualizările trebuie să fie instalate manual.</string>
@@ -151,5 +156,6 @@
   <string name="show_exp_on">Ați activat setările experimentale!</string>
   <string name="show_exp_already">Nu este necesar, deja ați activat setările experimentale.</string>
   <!-- Xposed framework check -->
+  <string name="installed_xposed_toast">Xposed framework instalate, nu e nevoie de reflash cadru după aplicarea actualizări incrementale.</string>
   <!-- Discount -->
 </resources>
