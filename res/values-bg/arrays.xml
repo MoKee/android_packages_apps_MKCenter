@@ -19,14 +19,14 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <plurals name="not_new_updates_found_body">
     <item quantity="one"><xliff:g id="count">%d</xliff:g> актуализация е достъпна за изтегляне</item>
-    <item quantity="other"><xliff:g id="count">%d</xliff:g> актуализации са достъпни</item>
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> актуализации са достъпни за изтегляне</item>
   </plurals>
   <plurals name="not_additional_count">
-    <item quantity="one">+ <xliff:g id="count">%d</xliff:g>Още</item>
-    <item quantity="other">+ <xliff:g id="count">%d</xliff:g>Още</item>
+    <item quantity="one">+ <xliff:g id="count">%d</xliff:g> Още</item>
+    <item quantity="other">+ <xliff:g id="count">%d</xliff:g> Още</item>
   </plurals>
   <plurals name="show_exp_countdown">
-    <item quantity="one">Вие сте на <xliff:g id="step_count">%1$d</xliff:g> стъпка от вкл. на функции за тест.</item>
-    <item quantity="other">Вие сте на <xliff:g id="step_count">%1$d</xliff:g> стъпка от вкл. на функции за тест.</item>
+    <item quantity="one">Вие сте на <xliff:g id="step_count">%1$d </xliff:g> стъпка от включване на експериментални настройки.</item>
+    <item quantity="other">Вие сте на <xliff:g id="step_count">%1$d </xliff:g> стъпки от включване на експериментални настройки.</item>
   </plurals>
 </resources>
