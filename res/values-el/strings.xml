@@ -128,6 +128,7 @@
   <string name="download_running">Σε εξέλιξη</string>
   <string name="download_cancelled">Η λήψη ακυρώθηκε</string>
   <string name="download_already_running">Μια λήψη εκτελείται ήδη</string>
+  <string name="download_limited_mode">Περιορισμένη ταχύτητα λήψης. Για πλήρη ταχύτητα, κάντε μία δωρεά.</string>
   <string name="unable_to_download_file">Δεν είναι δυνατή η λήψη της ενημέρωσης</string>
   <string name="not_download_success">Η λήψη της ενημέρωσης ολοκληρώθηκε με επιτυχία</string>
   <string name="not_download_failure">Η λήψη της ενημέρωσης ήταν ανεπιτυχής</string>
