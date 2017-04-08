@@ -123,22 +123,21 @@ public class MoKeeCenter extends AppCompatActivity {
                 requestForPayment("alipay", price, title);
             }
         });
-
-        if (isDonate && MoKeeUtils.isSupportLanguage(false)) {
-            builder.setNeutralButton(R.string.donate_dialog_via_point, new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialog, int which) {
-                    Utils.pointPaymentRequest(MoKeeCenter.this);
-                }
-            });
-        } else if (Utils.getPaidTotal(MoKeeCenter.this) == 0f) {
-            builder.setNeutralButton(R.string.donate_dialog_via_restore, new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialog, int which) {
-                    Utils.restorePaymentRequest(MoKeeCenter.this);
-                }
-            });
-        }
+//        if (isDonate && MoKeeUtils.isSupportLanguage(false)) {
+//            builder.setNeutralButton(R.string.donate_dialog_via_point, new DialogInterface.OnClickListener() {
+//                @Override
+//                public void onClick(DialogInterface dialog, int which) {
+//                    Utils.pointPaymentRequest(MoKeeCenter.this);
+//                }
+//            });
+//        } else if (Utils.getPaidTotal(MoKeeCenter.this) == 0f) {
+//            builder.setNeutralButton(R.string.donate_dialog_via_restore, new DialogInterface.OnClickListener() {
+//                @Override
+//                public void onClick(DialogInterface dialog, int which) {
+//                    Utils.restorePaymentRequest(MoKeeCenter.this);
+//                }
+//            });
+//        }
 
         builder.show();
     }
