@@ -55,6 +55,9 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdListener;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.InterstitialAd;
 import com.mokee.center.R;
 import com.mokee.center.activities.MoKeeCenter;
 import com.mokee.center.db.DownLoadDao;
@@ -133,6 +136,8 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
 
     private long leftTime;
     private Runnable timerRunnable;
+
+    private InterstitialAd mInterstitialAd;
 
     // 更新进度条
     private Runnable mUpdateProgress = new Runnable() {
@@ -278,6 +283,25 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
+
+        mInterstitialAd = new InterstitialAd(getContext());
+        mInterstitialAd.setAdUnitId("ca-app-pub-1229799408538170/2292662299");
+        mInterstitialAd.setAdListener(new AdListener() {
+            @Override
+            public void onAdClosed() {
+                requestNewInterstitial();
+                if (!Utils.checkMinLicensed(moKeeCenter)) {
+                    moKeeCenter.makeSnackbar(R.string.download_limited_mode, Snackbar.LENGTH_LONG).show();
+                }
+            }
+        });
+
+        requestNewInterstitial();
+    }
+
+    private void requestNewInterstitial() {
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mInterstitialAd.loadAd(adRequest);
     }
 
     @Override
@@ -971,7 +995,9 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
             return;
         }
 
-        if (!Utils.checkMinLicensed(moKeeCenter)) {
+        if (mInterstitialAd.isLoaded() && !Utils.checkLicensed(moKeeCenter)) {
+            mInterstitialAd.show();
+        } else {
             moKeeCenter.makeSnackbar(R.string.download_limited_mode, Snackbar.LENGTH_LONG).show();
         }
 
