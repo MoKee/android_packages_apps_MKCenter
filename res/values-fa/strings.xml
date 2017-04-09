@@ -18,15 +18,34 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Fragment -->
+  <string name="mokee_support_title">پشتیبانی</string>
+  <string name="mokee_updater_title">بروزرسانی</string>
   <!-- WebSite -->
+  <string name="mokee_website_summary">بازدید از سایت رسمی</string>
   <!-- Base Info -->
+  <string name="mokee_version_info_title">اطلاعات نسخه</string>
+  <string name="mokee_last_check_title">آخرین بررسی</string>
+  <string name="mokee_last_check_never">هرگز</string>
   <!-- Version -->
+  <string name="mokee_info_default">ناشناس</string>
+  <string name="mokee_version_type_history">تاریخچه</string>
+  <string name="mokee_version_type_experimental">آزمایشی</string>
+  <string name="mokee_version_type_nightly">شبانه</string>
+  <string name="mokee_version_type_unofficial">غیر رسمی</string>
+  <string name="mokee_version_type_all">همه</string>
   <!-- State -->
   <string name="downloaded_update_summary">دانلود</string>
   <string name="installed_update_summary">نصب شده</string>
   <!-- Menu -->
+  <string name="menu_refresh">تازه کردن</string>
+  <string name="menu_delete_all">حذف دانلود</string>
+  <string name="menu_remove_ads">حذف تبلیغات</string>
   <!-- Donate -->
+  <string name="donate_dialog_via_paypal">پی پال</string>
+  <string name="donate_dialog_via_restore">بازیابی</string>
+  <string name="remove_ads_title">حذف تبلیغات</string>
   <!-- Update -->
+  <string name="unknown">ناشناس</string>
   <string name="old_update_summary">قدیمی</string>
   <!-- ChangeLog -->
   <string name="no_changelog_alert">هیچ تغییرات موجود</string>
