@@ -63,7 +63,7 @@ public class DownLoader {
             Handler mHandler, long startDown, Context mContext) {
         this.fileUrl = fileUrl;
         this.localFile = localfile;
-        this.threadCount = Utils.checkMinLicensed(mContext) ? 8 : 2;
+        this.threadCount = Utils.checkMinLicensed(mContext) ? 8 : 1;
         this.mHandler = mHandler;
         this.startDown = startDown;
         this.mContext = mContext;
