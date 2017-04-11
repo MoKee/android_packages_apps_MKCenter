@@ -74,7 +74,6 @@ import com.mokee.center.utils.DownLoader;
 import com.mokee.center.utils.UpdateFilter;
 import com.mokee.center.utils.Utils;
 import com.mokee.center.widget.AdmobPreference;
-import com.mokee.center.widget.AppofferPreference;
 import com.mokee.center.widget.EmptyListPreference;
 import com.mokee.center.widget.ItemPreference;
 import com.mokee.os.Build;
@@ -123,7 +122,6 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
     private int mExpHitCountdown;
 
     private AdmobPreference mAdmobView;
-    private AppofferPreference mAppofferView;
     private PreferenceScreen mRootView;
     private ListPreference mUpdateCheck;
     private ListPreference mUpdateType;
@@ -329,13 +327,9 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
         mPrefs = moKeeCenter.getSharedPreferences(Constants.DOWNLOADER_PREF, 0);
 
         mRootView = (PreferenceScreen) findPreference(Constants.ROOT_PREF);
-        mAppofferView = (AppofferPreference) findPreference(Constants.APPOFFER_PREF);
-        mAppofferView.onAdCreate(moKeeCenter);
         mAdmobView = (AdmobPreference) findPreference(Constants.ADMOB_PREF);
         if (!Utils.checkLicensed(moKeeCenter)) {
-            if (!MoKeeUtils.isSupportLanguage(false)) {
-                mAdmobView.onAdCreate();
-            }
+            mAdmobView.onAdCreate();
         }
 
         mUpdatesList = (PreferenceCategory) findPreference(UPDATES_CATEGORY);
@@ -563,13 +557,6 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
         }
     }
 
-    private void removeAppofferPreference() {
-        if (mAppofferView != null) {
-            mRootView.removePreference(mAppofferView);
-            mAppofferView = null;
-        }
-    }
-
     @Override
     public void onResume() {
         super.onResume();
@@ -578,23 +565,16 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
         // Remove Ad
         if (Utils.checkLicensed(moKeeCenter)) {
             removeAdmobPreference();
-            removeAppofferPreference();
         } else {
             if (MoKeeUtils.isSupportLanguage(false)) {
-                removeAdmobPreference();
-                if (mAppofferView != null) {
-                    mAppofferView.onAdResume(moKeeCenter);
-                }
                 final AppConnect appConnect = AppConnect.getInstance(moKeeCenter);
                 if (appConnect.hasPopAd(moKeeCenter)) {
                     appConnect.setPopAdBack(true);
                     appConnect.showPopAd(moKeeCenter);
                 }
-            } else {
-                removeAppofferPreference();
-                if (mAdmobView != null) {
-                    mAdmobView.onAdResume();
-                }
+            }
+            if (mAdmobView != null) {
+                mAdmobView.onAdResume();
             }
         }
         setDonatePreference();

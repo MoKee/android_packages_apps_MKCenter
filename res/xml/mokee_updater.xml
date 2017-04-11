@@ -23,10 +23,6 @@
         android:key="pref_admob"
         android:selectable="false" />
 
-    <com.mokee.center.widget.AppofferPreference
-        android:key="pref_appoffer"
-        android:selectable="false" />
-
     <PreferenceCategory android:title="@string/mokee_version_info_title" >
         <PreferenceScreen
             android:key="mokee_version"
