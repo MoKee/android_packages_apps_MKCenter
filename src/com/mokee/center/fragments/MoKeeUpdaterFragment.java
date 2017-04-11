@@ -998,7 +998,9 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
         if (mInterstitialAd.isLoaded() && !Utils.checkLicensed(moKeeCenter)) {
             mInterstitialAd.show();
         } else {
-            moKeeCenter.makeSnackbar(R.string.download_limited_mode, Snackbar.LENGTH_LONG).show();
+            if (!Utils.checkMinLicensed(moKeeCenter)) {
+                moKeeCenter.makeSnackbar(R.string.download_limited_mode, Snackbar.LENGTH_LONG).show();
+            }
         }
 
         // We have a match, get ready to trigger the download
