@@ -18,19 +18,98 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Fragment -->
+  <string name="mokee_center_title">MoKee-keskus</string>
+  <string name="mokee_support_title">Tuki</string>
+  <string name="mokee_updater_title">Päivitykset</string>
   <!-- WebSite -->
+  <string name="mokee_website_title">MoKee kotisivut</string>
+  <string name="mokee_website_summary">Vieraile virallisella sivustolla</string>
+  <string name="mokee_forum_title">MoKee-foorumi</string>
+  <string name="mokee_forum_summary">Vieraile Mokee-foorumilla</string>
+  <string name="mokee_issues_title">MoKee Bugikanta</string>
+  <string name="mokee_issues_summary">Vieraile bugikannassa</string>
+  <string name="mokee_changelog_title">MoKee muutoslogi</string>
+  <string name="mokee_changelog_summary">Näytä päivittäinen muutosloki</string>
+  <string name="mokee_build_status_title">MoKee version tila</string>
+  <string name="mokee_build_status_summary">Katso version tila</string>
+  <string name="mokee_github_title">MoKee Github</string>
+  <string name="mokee_github_summary">Vieraile MoKee-Githubissa</string>
+  <string name="mokee_translate_title">MoKee kääntäjät</string>
+  <string name="mokee_translate_summary">Auta kääntämään</string>
+  <string name="mokee_wiki_title">MoKee Wiki</string>
+  <string name="mokee_wiki_summary">Katso MoKee Wiki</string>
+  <string name="mokee_news_title">MoKee Uutiset</string>
+  <string name="mokee_news_summary">Vastaanota kehitysuutisia MoKee:sta</string>
   <!-- Base Info -->
+  <string name="mokee_version_info_title">Versiotiedot</string>
+  <string name="mokee_version_title">MoKee versio</string>
+  <string name="mokee_unique_id_title">Yksilöllinen ID</string>
+  <string name="mokee_donate_info_title">Lahjoitus tiedot</string>
+  <string name="mokee_version_type_title">Versiolaji</string>
+  <string name="mokee_last_check_title">Viimeksi tarkistettu</string>
+  <string name="mokee_last_check_never">Ei koskaan</string>
   <!-- Version -->
+  <string name="mokee_info_default">Tuntematon</string>
+  <string name="mokee_version_type_release">Vapauta</string>
+  <string name="mokee_version_type_history">Historia</string>
+  <string name="mokee_version_type_experimental">Kokeellinen</string>
+  <string name="mokee_version_type_nightly">Nightly</string>
+  <string name="mokee_version_type_unofficial">Epävirallinen</string>
+  <string name="mokee_version_type_all">Kaikki</string>
   <!-- State -->
+  <string name="downloaded_update_summary">Ladatut</string>
+  <string name="installed_update_summary">Asennettu</string>
+  <string name="available_updates_title">Saatavilla olevat päivitykset</string>
   <!-- Menu -->
+  <string name="menu_donate">Lahjoita</string>
+  <string name="menu_refresh">Päivitä</string>
+  <string name="menu_delete_all">Poista lataukset</string>
+  <string name="menu_remove_ads">Poista mainokset</string>
+  <string name="menu_restore">Palauta lisenssi</string>
   <!-- Donate -->
+  <string name="donate_dialog_title">Lahjoita meille</string>
+  <string name="donate_dialog_message">Unlike companies like Cygn or MIUI, MoKee OpenSource is a purely non-profit project born of hobby and passion. In order to maintain this project, we have to fork out our own money most of the time or rely on donations and advertisements. Your donations can help reduce our financial load and sustain future development! This option allows you to remove the ads in MoKee Center, or use the \"Donate\" option instead if you prefer installments (ads will be removed once the total has reached the specified value). (in the root directory of sdcard, only valid for current device) once you have donated.</string>
+  <string name="donate_dialog_via_paypal">PayPal</string>
+  <string name="donate_dialog_via_alipay">Alipay</string>
+  <string name="donate_dialog_via_restore">Palauta</string>
+  <string name="donate_money_toast_success">Kiitokset lahjoituksestasi!</string>
+  <string name="donate_money_title">Lahjoita MoKee OpenSourcelle</string>
+  <string name="donate_money_again">Lahjoita uudestaan</string>
+  <string name="donate_money_restored_success">Lahjoitus palautetttiin onnistuneesti.</string>
+  <string name="donate_money_restored_failed">Yhtään laitetta ei löytynyt.</string>
+  <string name="donate_money_restored_timeout">Yhteysvirhe, yritä uudelleen</string>
+  <string name="donate_money_info">Lahjoitit yhteensä CNY %1$d enemmän kuin %2$s luovuttajat maailmanlaajuisesti</string>
+  <string name="donate_money_info_with_rank">Lahjoitit yhteensä CNY %1$d enemmän kuin %2$s luovuttajat maailmanlaajuisesti!</string>
+  <string name="donate_money_info_null">Et ole lahjoittanut</string>
+  <string name="remove_ads_title">Poista mainokset</string>
   <!-- Update -->
+  <string name="unknown">Tuntematon</string>
+  <string name="dialog_update">Päivitä</string>
+  <string name="dialog_install">Asenna</string>
+  <string name="dialog_ok">OK</string>
+  <string name="dialog_cancel">Peruuta</string>
+  <string name="dialog_close">Sulje</string>
+  <string name="new_update_summary">Uusi</string>
+  <string name="old_update_summary">Vanha</string>
+  <string name="check_manual">Manuaali</string>
+  <string name="nightly_alert">Olet valinnut nightly-päivitykset listaan. Nämä eivät ole tuettuja, ja niitä tulisi käyttää varoen.</string>
+  <string name="experimenter_alert">Olet valinnut kokeelliset-päivitykset listaan. Nämä eivät ole tuettuja, ja niitä tulisi käyttää varoen.</string>
+  <string name="unofficial_alert">Olet valinnut epäviralliset-päivitykset listaan. Nämä eivät ole tuettuja, ja niitä tulisi käyttää varoen.</string>
+  <string name="alert_title">Varoitus</string>
   <!-- ChangeLog -->
+  <string name="changelog_dialog_title">Muutoslogi</string>
   <!-- checking -->
+  <string name="no_updates_found">Päivityksiä ei löytynyt</string>
+  <string name="not_new_updates_found_title">Uudet päivitykset</string>
+  <string name="not_action_download">Lataa</string>
   <!-- Downloads -->
+  <string name="confirm_download_cancelation_dialog_title">Peruuta lataus</string>
+  <string name="not_apk_action_install_update">Asenna</string>
   <!-- deleting -->
+  <string name="confirm_delete_dialog_title">Poista tiedosto</string>
   <!-- pref -->
   <!-- Apply install and update strings -->
+  <string name="apply_update_dialog_title">Asenna päivitys</string>
   <!-- experimenter mode -->
   <!-- Xposed framework check -->
   <!-- Discount -->

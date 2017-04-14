@@ -29,6 +29,7 @@
   <string name="mokee_issues_title">MoKee バグトラッカー</string>
   <string name="mokee_issues_summary">バグトラッカーを開く</string>
   <string name="mokee_changelog_title">MoKeeの変更履歴</string>
+  <string name="mokee_changelog_summary">毎日更新履歴</string>
   <string name="mokee_build_status_title">MoKeeのビルド状態</string>
   <string name="mokee_build_status_summary">ビルド状態を表示</string>
   <string name="mokee_github_title">MoKeeのGitHub</string>
@@ -42,6 +43,8 @@
   <!-- Base Info -->
   <string name="mokee_version_info_title">バージョン情報</string>
   <string name="mokee_version_title">MoKeeバージョン</string>
+  <string name="mokee_unique_id_title">ユニークID</string>
+  <string name="mokee_donate_info_title">寄付情報</string>
   <string name="mokee_version_type_title">バージョンタイプ</string>
   <string name="mokee_last_check_title">最終確認</string>
   <string name="mokee_last_check_never">なし</string>
@@ -66,8 +69,12 @@
   <string name="donate_dialog_title">寄付する</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">アリペイ（支付宝）</string>
+  <string name="donate_dialog_via_restore">復元する</string>
   <string name="donate_money_toast_success">寄付していただきありがとうございます!</string>
   <string name="donate_money_again">もう一度寄付する</string>
+  <string name="donate_money_restored_success">成功に復元しました!</string>
+  <string name="donate_money_restored_failed">デバイスの記録が見つかりませんでした。</string>
+  <string name="donate_money_restored_timeout">接続がタイムアウトしたので、もう一度をやり直してください。</string>
   <string name="remove_ads_title">広告を削除</string>
   <string name="remove_ads_request_price">寄付済み %1$d元、不足分 %2$d元</string>
   <!-- Update -->
