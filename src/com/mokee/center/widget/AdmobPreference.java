@@ -65,7 +65,9 @@ public class AdmobPreference extends Preference {
                 @Override
                 public void onAdFailedToLoad(int errorCode) {
                     super.onAdFailedToLoad(errorCode);
-                    mAdView.loadAd(mAdRequest);
+                    if (errorCode == AdRequest.ERROR_CODE_NO_FILL) {
+                        mAdView.loadAd(mAdRequest);
+                    }
                 }
             });
             mAdView.loadAd(mAdRequest);

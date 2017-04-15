@@ -297,7 +297,9 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
             @Override
             public void onAdFailedToLoad(int errorCode) {
                 super.onAdFailedToLoad(errorCode);
-                mInterstitialAd.loadAd(adRequest);
+                if (errorCode == AdRequest.ERROR_CODE_NO_FILL) {
+                    mInterstitialAd.loadAd(adRequest);
+                }
             }
         });
 
