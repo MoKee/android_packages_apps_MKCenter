@@ -314,18 +314,18 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
 
     @Override
     public void onPause() {
-        super.onPause();
         if (mAdmobView != null) {
             mAdmobView.onAdPause();
         }
+        super.onPause();
     }
 
     @Override
     public void onDestroy() {
-        super.onDestroy();
         if (mAdmobView != null) {
             mAdmobView.onAdDestroy();
         }
+        super.onDestroy();
     }
 
     @Override
