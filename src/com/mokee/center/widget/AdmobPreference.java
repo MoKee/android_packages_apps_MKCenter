@@ -22,14 +22,17 @@ import android.support.v4.content.res.TypedArrayUtils;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceViewHolder;
 import android.util.AttributeSet;
+import android.util.Log;
 
+import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.mokee.center.R;
 
 public class AdmobPreference extends Preference {
 
-    private static AdView adView;
+    private AdView mAdView;
+    private AdRequest mAdRequest;
 
     @SuppressWarnings("unused")
     public AdmobPreference(Context context) {
@@ -56,33 +59,38 @@ public class AdmobPreference extends Preference {
 
     @Override
     public void onBindViewHolder(PreferenceViewHolder holder) {
-        adView = (AdView) holder.itemView;
-        if (adView.getChildCount() == 0) {
-            adView.loadAd(new AdRequest.Builder().build());
+        if (mAdView == null) {
+            mAdView = (AdView) holder.itemView;
+            mAdView.setAdListener(new AdListener() {
+                @Override
+                public void onAdFailedToLoad(int errorCode) {
+                    super.onAdFailedToLoad(errorCode);
+                    mAdView.loadAd(mAdRequest);
+                }
+            });
+            mAdView.loadAd(mAdRequest);
         }
     }
 
-    public void onAdCreate() {
-        if (adView != null && !adView.isLoading()) {
-            adView.loadAd(new AdRequest.Builder().build());
-        }
+    public void setAdRequest(AdRequest adRequest) {
+        mAdRequest = adRequest;
     }
 
     public void onAdPause() {
-        if (adView != null) {
-            adView.pause();
+        if (mAdView != null) {
+            mAdView.pause();
         }
     }
 
     public void onAdResume() {
-        if (adView != null) {
-            adView.resume();
+        if (mAdView != null) {
+            mAdView.resume();
         }
     }
 
     public void onAdDestroy() {
-        if (adView != null) {
-            adView.destroy();
+        if (mAdView != null) {
+            mAdView.destroy();
         }
     }
 

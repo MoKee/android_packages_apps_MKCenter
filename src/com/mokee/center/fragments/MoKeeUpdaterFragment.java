@@ -136,6 +136,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
     private Runnable timerRunnable;
 
     private InterstitialAd mInterstitialAd;
+    private AdRequest adRequest;
 
     // 更新进度条
     private Runnable mUpdateProgress = new Runnable() {
@@ -283,7 +284,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
         setHasOptionsMenu(true);
 
         mInterstitialAd = new InterstitialAd(getContext());
-        mInterstitialAd.setAdUnitId("ca-app-pub-1229799408538170/2292662299");
+        mInterstitialAd.setAdUnitId(getString(R.string.interstitial_ad_unit_id));
         mInterstitialAd.setAdListener(new AdListener() {
             @Override
             public void onAdClosed() {
@@ -292,13 +293,20 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
                     moKeeCenter.makeSnackbar(R.string.download_limited_mode, Snackbar.LENGTH_LONG).show();
                 }
             }
+
+            @Override
+            public void onAdFailedToLoad(int errorCode) {
+                super.onAdFailedToLoad(errorCode);
+                mInterstitialAd.loadAd(adRequest);
+            }
         });
 
         requestNewInterstitial();
     }
 
     private void requestNewInterstitial() {
-        AdRequest adRequest = new AdRequest.Builder().build();
+        adRequest = new AdRequest.Builder().build();
+        mAdmobView.setAdRequest(adRequest);
         mInterstitialAd.loadAd(adRequest);
     }
 
@@ -328,9 +336,6 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
 
         mRootView = (PreferenceScreen) findPreference(Constants.ROOT_PREF);
         mAdmobView = (AdmobPreference) findPreference(Constants.ADMOB_PREF);
-        if (!Utils.checkLicensed(moKeeCenter)) {
-            mAdmobView.onAdCreate();
-        }
 
         mUpdatesList = (PreferenceCategory) findPreference(UPDATES_CATEGORY);
         mUpdateCheck = (ListPreference) findPreference(Constants.UPDATE_INTERVAL_PREF);

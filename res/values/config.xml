@@ -23,4 +23,7 @@
     <string name="conf_update_ota_server_url_def" translatable="false">http://ota.mokeedev.com/ota.php</string>
     <string name="conf_get_ranking_server_url_def" translatable="false">http://cloud.mokeedev.com/api/rankingByUserIDv2</string>
 
+    <!-- Google Mobile Ads -->
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-1229799408538170/6499678696</string>
+    <string name="interstitial_ad_unit_id" translatable="false">ca-app-pub-1229799408538170/2292662299</string>
 </resources>
