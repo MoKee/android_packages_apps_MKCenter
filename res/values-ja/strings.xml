@@ -67,6 +67,7 @@
   <string name="menu_remove_ads">広告を削除</string>
   <!-- Donate -->
   <string name="donate_dialog_title">寄付する</string>
+  <string name="donate_dialog_message">Mokee OpenSourceは利益を追求する会社ではなく、ホピ―と情熱で作られたプロジェクトです。我々自分の資金投入以外に寄付金と広告に基づいて引き続き生きています。皆様の寄付金は我々の負担を減らすことに対して助けてくれます。寄付してくれたら（ある金額以上で）、今のディバイスに広告がなくなります。</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">アリペイ（支付宝）</string>
   <string name="donate_dialog_via_restore">復元する</string>
@@ -75,6 +76,9 @@
   <string name="donate_money_restored_success">成功に復元しました!</string>
   <string name="donate_money_restored_failed">デバイスの記録が見つかりませんでした。</string>
   <string name="donate_money_restored_timeout">接続がタイムアウトしたので、もう一度をやり直してください。</string>
+  <string name="donate_money_info">あなたは CNY %1$dを寄付してくれて、グローバルに %2$s 以上のドナーより多いです！</string>
+  <string name="donate_money_info_with_rank">あなたは CNY %1$dを寄付してくれて、グローバルに %2$s 以上のドナーより多いですが、順番No.%3$dです！</string>
+  <string name="donate_money_info_null">また寄付していません</string>
   <string name="remove_ads_title">広告を削除</string>
   <string name="remove_ads_request_price">寄付済み %1$d元、不足分 %2$d元</string>
   <!-- Update -->
@@ -142,6 +146,7 @@
   <string name="pref_ota_check">差分アップデート</string>
   <string name="pref_ota_check_summary">ダウンロード時間と帯域を節約する差分アップデートを入手</string>
   <string name="pref_ota_check_donation_request_summary">ダウンロード時間と帯域を節約する差分アップデートを入手 (この機能は%d人民元寄付後に利用可能です)</string>
+  <string name="pref_ota_check_donation_request_pending_summary">時間と帯域制幅を節約する為に、増分更新内容をダウンロードする （%1$dを寄付してくれて、%2$dをさらに寄付すれば利用できる、通貨: CNY）</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">アップデートを適用</string>
   <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g> にアップグレードしようとしています。\n\n更新を押すと端末は再起動後、自動でリカバリーモードに移行しアップデートをインストールします。\n\n注意: この機能は互換性のあるリカバリか手動でのインストールを必要とします。</string>
@@ -151,5 +156,6 @@
   <string name="show_exp_on">実験的な設定項目が有効になっています！</string>
   <string name="show_exp_already">変更は必要ありません。既に実験的な設定項目が有効になっています。</string>
   <!-- Xposed framework check -->
+  <string name="installed_xposed_toast">Xposed フレームワークがインストールされて、増分更新を適用した後リフラッシュする必要はありません。</string>
   <!-- Discount -->
 </resources>
