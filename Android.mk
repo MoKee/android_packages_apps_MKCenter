@@ -30,19 +30,15 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     android-support-v7-preference \
     android-support-v7-appcompat \
     android-support-v14-preference \
-    android-support-customtabs \
     android-support-design \
     mokee-appoffer \
+    play-services-legacy \
     volley \
     org.mokee.platform.internal
 
-LOCAL_STATIC_JAVA_AAR_LIBRARIES := \
-    play-services-ads \
-    play-services-ads-lite \
-    play-services-basement
-
 LOCAL_RESOURCE_DIR := \
     $(LOCAL_PATH)/res \
+    external/google/play-services-legacy/res \
     frameworks/support/v7/preference/res \
     frameworks/support/v14/preference/res \
     frameworks/support/v7/appcompat/res \
@@ -71,13 +67,3 @@ ifneq ($(INCREMENTAL_BUILDS),)
 endif
 
 include $(BUILD_PACKAGE)
-
-include $(CLEAR_VARS)
-
-PLAY_VERSION := 10.2.1
-LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := \
-    play-services-ads:../../../external/google/play-services-ads/$(PLAY_VERSION)/play-services-ads-$(PLAY_VERSION).aar \
-    play-services-ads-lite:../../../external/google/play-services-ads-lite/$(PLAY_VERSION)/play-services-ads-lite-$(PLAY_VERSION).aar \
-    play-services-basement:../../../external/google/play-services-basement/$(PLAY_VERSION)/play-services-basement-$(PLAY_VERSION).aar
-
-include $(BUILD_MULTI_PREBUILT)
