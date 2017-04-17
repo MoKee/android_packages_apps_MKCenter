@@ -82,6 +82,7 @@
   <string name="donate_money_info_with_rank">Lahjoitit yhteensä CNY %1$d enemmän kuin %2$s luovuttajat maailmanlaajuisesti!</string>
   <string name="donate_money_info_null">Et ole lahjoittanut</string>
   <string name="remove_ads_title">Poista mainokset</string>
+  <string name="remove_ads_request_price">Lahjoitit CNY %1$d, odottaa CNY %2$d</string>
   <!-- Update -->
   <string name="unknown">Tuntematon</string>
   <string name="dialog_update">Päivitä</string>
@@ -89,28 +90,60 @@
   <string name="dialog_ok">OK</string>
   <string name="dialog_cancel">Peruuta</string>
   <string name="dialog_close">Sulje</string>
+  <string name="no_available_updates_intro">Viimeisin tarkistus ei löytänyt yhtään päivitystä. Tarkistaaksesi päivitykset, paina Päivitä.</string>
+  <string name="no_available_ota_intro">Viimeisin tarkistus ei löytänyt yhtään päivitystä. Tarkistaaksesi päivitykset, paina Päivitä. Jos käytät versiota joka ei tue vähittäispäivityksiä niin ota vähittäispäivitykset pois käytöstä.</string>
   <string name="new_update_summary">Uusi</string>
   <string name="old_update_summary">Vanha</string>
+  <string name="update_check_title">Tarkista päivityksen aikaväli</string>
   <string name="check_manual">Manuaali</string>
   <string name="nightly_alert">Olet valinnut nightly-päivitykset listaan. Nämä eivät ole tuettuja, ja niitä tulisi käyttää varoen.</string>
   <string name="experimenter_alert">Olet valinnut kokeelliset-päivitykset listaan. Nämä eivät ole tuettuja, ja niitä tulisi käyttää varoen.</string>
   <string name="unofficial_alert">Olet valinnut epäviralliset-päivitykset listaan. Nämä eivät ole tuettuja, ja niitä tulisi käyttää varoen.</string>
+  <string name="all_alert">Olet valinnut kaikki päivitykset (release, nightly) sisällytetään tähän luetteloon. Huom! Nightly-päivityksiä käytettävä omalla vastuulla.</string>
   <string name="alert_title">Varoitus</string>
+  <string name="update_type_title">Päivitysten tyypit</string>
   <!-- ChangeLog -->
+  <string name="no_changelog_alert">Ei muutoslokia saatavilla</string>
   <string name="changelog_dialog_title">Muutoslogi</string>
+  <string name="loading_changelog">Ladataan\u2026</string>
+  <string name="check_on_boot">Jokaisen uudelleenkäynnistyksen yhteydessä</string>
+  <string name="check_twice_daily">Kahdesti joka päivä</string>
+  <string name="check_daily">Kerran päivässä</string>
+  <string name="check_twice_weekly">Kaksi kertaa viikossa</string>
+  <string name="check_weekly">Kerran viikossa</string>
+  <string name="check_bi_weekly">Kerran kahdessa viikossa</string>
+  <string name="check_monthly">Kerran kuukaudessa</string>
   <!-- checking -->
+  <string name="checking_for_updates">Tarkistetaan päivityksiä</string>
   <string name="no_updates_found">Päivityksiä ei löytynyt</string>
+  <string name="not_new_updates_found_ticker">Uusia päivityksiä saatavilla</string>
   <string name="not_new_updates_found_title">Uudet päivitykset</string>
+  <string name="update_check_failed">Päivitysten tarkistaminen epäonnistui. Tarkista internet-yhteytesi ja yritä uudelleen.</string>
   <string name="not_action_download">Lataa</string>
+  <string name="data_connection_required">Datayhteys tarvitaan.</string>
   <!-- Downloads -->
   <string name="confirm_download_cancelation_dialog_title">Peruuta lataus</string>
+  <string name="confirm_download_cancelation_dialog_message">Peruuta nykyinen lataus?</string>
+  <string name="download_running">Toiminto käynnissä</string>
+  <string name="download_cancelled">Lataus peruttu</string>
+  <string name="unable_to_download_file">Virhe tiedoston lataamisessa</string>
+  <string name="not_download_success">Päivitys ladattu onnistuneesti</string>
+  <string name="not_download_failure">Päivityksen lataaminen epäonnistui</string>
+  <string name="not_action_install_update">Käynnistä uudelleen ja asenna</string>
+  <string name="not_download_install_notice">Päivityksen <xliff:g id="filename">%s</xliff:g> lataaminen onnistui. Kun painat \'Käynnistä uudelleen ja asenna\', laite käynnistyy uudelleen ja asenta päivityksen.\n\nHuomautus: Tämä ominaisuus tarvitsee yhteensopivan Recoveryn tai päivitykset eivät asennu automaattisesti.</string>
+  <string name="md5_verification_failed">Virhe. MD5-tarkistuskoodit eivät täsmää</string>
   <string name="not_apk_action_install_update">Asenna</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Poista tiedosto</string>
+  <string name="confirm_delete_updates_dialog_message">Poista valittu päivitystiedosto?</string>
+  <string name="confirm_delete_updates_all_dialog_message">Poista kaikki ladatut päivitystiedostot?</string>
+  <string name="delete_single_update_success_message">Päivitys <xliff:g id="filename">%s</xliff:g> poistettu</string>
+  <string name="delete_updates_nofolder_message">Päivityskansiota ei löydy</string>
   <!-- pref -->
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Asenna päivitys</string>
   <!-- experimenter mode -->
   <!-- Xposed framework check -->
   <!-- Discount -->
+  <string name="discount_dialog_cancel">Älä muistuta</string>
 </resources>
