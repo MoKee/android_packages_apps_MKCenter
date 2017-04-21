@@ -5,7 +5,17 @@
 -dontwarn mokee.support.**
 -keep class mokee.support.** { *;}
 
-# Google play services
+-keep public class * extends android.support.v7.preference.* {
+    public <init>(android.content.Context, android.util.AttributeSet);
+}
+
+-keep class android.support.design.widget.AppBarLayout$ScrollingViewBehavior { *; }
+
+# Google Play Services
+-keep class * extends java.util.ListResourceBundle {
+    protected java.lang.Object[][] getContents();
+}
+
 # Keep SafeParcelable value, needed for reflection. This is required to support backwards
 # compatibility of some classes.
 -keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {
@@ -18,11 +28,13 @@
     @com.google.android.gms.common.annotation.KeepName *;
 }
 
-# Needed when building against the Marshmallow SDK
--dontwarn com.google.android.gms.**
-
--keep public class * extends android.support.v7.preference.* {
-    public <init>(android.content.Context, android.util.AttributeSet);
+# Needed for Parcelable/SafeParcelable Creators to not get stripped
+-keepnames class * implements android.os.Parcelable {
+    public static final ** CREATOR;
 }
 
--keep class android.support.design.widget.AppBarLayout$ScrollingViewBehavior { *; }
+# Needed when building against the Marshmallow SDK
+-dontwarn org.apache.http.**
+
+# Needed when building against pre-Marshmallow SDK.
+-dontwarn android.security.NetworkSecurityPolicy
