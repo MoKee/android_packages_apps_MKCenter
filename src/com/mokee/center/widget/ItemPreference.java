@@ -228,15 +228,21 @@ public class ItemPreference extends Preference implements
             // Set the title text
             if (mItemInfo.getFileName().startsWith("OTA")) {
                 mTitleText.setText(mItemInfo.getFileName());
-                mSummaryText.setText(R.string.new_update_summary);
+                long diffSize = Long.valueOf(mItemInfo.getDescription());
+                if (diffSize > 0) {
+                    mSummaryText.setText(getContext().getString(R.string.full_diff_update_summary,
+                            Formatter.formatFileSize(getContext(), diffSize)));
+                } else {
+                    mSummaryText.setText(R.string.new_update_summary);
+                }
                 mUpdatesPref.setTag(Constants.INTENT_FLAG_GET_UPDATE);
             } else {
                 mTitleText.setText(mItemInfo.getFileName());
                 if (Utils.isNewVersion(mItemInfo.getFileName())) {
                     long diffSize = Long.valueOf(mItemInfo.getDescription());
                     if (diffSize > 0 ) {
-                        mSummaryText.setText(getContext().getString(R.string.diff_update_summary,
-                                Formatter.formatFileSize(getContext(), Long.valueOf(mItemInfo.getFileSize()) - diffSize)));
+                        mSummaryText.setText(getContext().getString(R.string.ota_diff_update_summary,
+                                Formatter.formatFileSize(getContext(), diffSize)));
                     } else {
                         mSummaryText.setText(R.string.new_update_summary);
                     }
