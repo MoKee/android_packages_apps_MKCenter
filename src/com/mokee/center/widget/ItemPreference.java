@@ -235,7 +235,8 @@ public class ItemPreference extends Preference implements
                 if (Utils.isNewVersion(mItemInfo.getFileName())) {
                     long diffSize = Long.valueOf(mItemInfo.getDescription());
                     if (diffSize > 0 ) {
-                        mSummaryText.setText(getContext().getString(R.string.diff_update_summary, Formatter.formatFileSize(getContext(), diffSize)));
+                        mSummaryText.setText(getContext().getString(R.string.diff_update_summary,
+                                Formatter.formatFileSize(getContext(), Long.valueOf(mItemInfo.getFileSize()) - diffSize)));
                     } else {
                         mSummaryText.setText(R.string.new_update_summary);
                     }
