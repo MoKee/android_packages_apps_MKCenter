@@ -36,7 +36,6 @@ public class ItemInfo implements Parcelable, Serializable {
 
     // extras
     private String mDescription;
-    private String mCheckflag;
 
     private ItemInfo() {
         // Use the builder
@@ -70,10 +69,6 @@ public class ItemInfo implements Parcelable, Serializable {
         return mDescription;
     }
 
-    public String getCheckflag() {
-        return mCheckflag;
-    }
-
     public File getChangeLogFile(Context context) {
         return new File(context.getCacheDir(), mFileName + ".html");
     }
@@ -101,7 +96,6 @@ public class ItemInfo implements Parcelable, Serializable {
         dest.writeString(mDownloadUrl);
         dest.writeString(mChangelogUrl);
         dest.writeString(mDescription);
-        dest.writeString(mCheckflag);
     }
 
     private void readFromParcel(Parcel in) {
@@ -111,7 +105,6 @@ public class ItemInfo implements Parcelable, Serializable {
         mDownloadUrl = in.readString();
         mChangelogUrl = in.readString();
         mDescription = in.readString();
-        mCheckflag = in.readString();
     }
 
     public static class Builder {
@@ -123,7 +116,6 @@ public class ItemInfo implements Parcelable, Serializable {
 
         // Extras
         private String mDescription;
-        private String mCheckflag;
 
         public Builder setChangelog(String changelogUrl) {
             mChangelogUrl = changelogUrl;
@@ -155,11 +147,6 @@ public class ItemInfo implements Parcelable, Serializable {
             return this;
         }
 
-        public Builder setCheckflag(String checkflag) {
-            mCheckflag = checkflag;
-            return this;
-        }
-
         public ItemInfo build() {
             ItemInfo info = new ItemInfo();
             info.mChangelogUrl = mChangelogUrl;
@@ -168,7 +155,6 @@ public class ItemInfo implements Parcelable, Serializable {
             info.mFileSize = mFileSize;
             info.mDownloadUrl = mDownloadUrl;
             info.mDescription = mDescription;
-            info.mCheckflag = mCheckflag;
             return info;
         }
     }

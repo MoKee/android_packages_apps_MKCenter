@@ -287,57 +287,17 @@ public class UpdateCheckService extends IntentService
     }
 
     private ItemInfo parseUpdatesJSON(JSONObject obj) throws JSONException {
+        String description = "0";
+        if (obj.has("diff")) {
+            description = obj.getString("diff");
+        }
         ItemInfo mii = new ItemInfo.Builder()
                 .setFileName(obj.getString("name"))
                 .setFileSize(obj.getString("length"))
                 .setDownloadUrl(obj.getString("rom"))
                 .setMD5Sum(obj.getString("md5"))
-                .setChangelog(obj.getString("log")).build();
-        return mii;
-    }
-
-    private LinkedList<ItemInfo> parseExtrasJSONObject(String jsonString) {
-        LinkedList<ItemInfo> updates = new LinkedList<ItemInfo>();
-        try {
-            JSONArray[] jsonArrays = new JSONArray[2];
-            // 判断全部
-            JSONObject jsonObject = new JSONObject(jsonString);
-            if (jsonObject.has("gms")) {
-                jsonArrays[0] = jsonObject.getJSONArray("gms");
-            }
-            if (jsonObject.has("application")) {
-                jsonArrays[1] = jsonObject.getJSONArray("application");
-            }
-            for (int i = 0; i < jsonArrays.length; i++) {
-                JSONArray jsonArray = jsonArrays[i];
-                if (jsonArray != null) {
-                    for (int j = 0; j < jsonArray.length(); j++) {
-                        if (jsonArray.isNull(j)) {
-                            continue;
-                        }
-                        JSONObject item = jsonArray.getJSONObject(j);
-                        ItemInfo info = parseExtrasJSON(item);
-                        if (info != null) {
-                            updates.add(info);
-                        }
-                    }
-                }
-            }
-        } catch (JSONException e) {
-            Log.e(TAG, "Error in JSON result", e);
-        }
-        return updates;
-    }
-
-    private ItemInfo parseExtrasJSON(JSONObject obj) throws JSONException {
-        ItemInfo mii = new ItemInfo.Builder()
-                .setFileName(obj.getString("name"))
-                .setFileSize(obj.getString("length"))
-                .setDownloadUrl(obj.getString("download"))
-                .setMD5Sum(obj.getString("md5"))
-                .setChangelog(obj.getString("changelog"))
-                .setDescription(obj.getString("description"))
-                .setCheckflag(obj.getString("checkflag")).build();
+                .setChangelog(obj.getString("log"))
+                .setDescription(description).build();
         return mii;
     }
 

@@ -199,10 +199,6 @@ public class ItemPreference extends Preference implements
         return mProgressBar;
     }
 
-    public ImageView getUpdatesButton() {
-        return mUpdatesButton;
-    }
-
     public ItemInfo getItemInfo() {
         return mItemInfo;
     }
@@ -234,13 +230,19 @@ public class ItemPreference extends Preference implements
                 mTitleText.setText(mItemInfo.getFileName());
                 mSummaryText.setText(R.string.new_update_summary);
                 mUpdatesPref.setTag(Constants.INTENT_FLAG_GET_UPDATE);
-            } else if (TextUtils.isEmpty(mItemInfo.getDescription())) {
-                mTitleText.setText(mItemInfo.getFileName());
-                mSummaryText.setText(Utils.isNewVersion(mItemInfo.getFileName()) ? R.string.new_update_summary : R.string.old_update_summary);
-                mUpdatesPref.setTag(Constants.INTENT_FLAG_GET_UPDATE);
             } else {
-                mTitleText.setText(mItemInfo.getDescription());
-                mSummaryText.setText(mItemInfo.getFileName());
+                mTitleText.setText(mItemInfo.getFileName());
+                if (Utils.isNewVersion(mItemInfo.getFileName())) {
+                    long diffSize = Long.valueOf(mItemInfo.getDescription());
+                    if (diffSize > 0 ) {
+                        mSummaryText.setText(getContext().getString(R.string.diff_update_summary, Formatter.formatFileSize(getContext(), diffSize)));
+                    } else {
+                        mSummaryText.setText(R.string.new_update_summary);
+                    }
+                } else {
+                    mSummaryText.setText(R.string.old_update_summary);
+                }
+                mUpdatesPref.setTag(Constants.INTENT_FLAG_GET_UPDATE);
             }
             mFileSizeText.setText(!TextUtils.isEmpty(mItemInfo.getFileSize()) ? Formatter.formatFileSize(getContext(), Long.valueOf(mItemInfo.getFileSize())) : "");
             mTitleText.setVisibility(View.VISIBLE);
