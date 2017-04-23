@@ -26,10 +26,10 @@
   <string name="mokee_website_summary">Посетете официалния сайт</string>
   <string name="mokee_forum_title">MoKee форум</string>
   <string name="mokee_forum_summary">Посетете MoKee форум</string>
-  <string name="mokee_issues_title">Отбелязване на бъгове</string>
-  <string name="mokee_issues_summary">Посетете архива за бъгове</string>
+  <string name="mokee_issues_title">MoKee бъг тракер</string>
+  <string name="mokee_issues_summary">Към бъг тракера</string>
   <string name="mokee_changelog_title">Списък с промени</string>
-  <string name="mokee_changelog_summary">Преглед на промените</string>
+  <string name="mokee_changelog_summary">Преглед на промените за деня</string>
   <string name="mokee_build_status_title">Статус на Mokee Ром</string>
   <string name="mokee_build_status_summary">Вижте състоянието на създаване</string>
   <string name="mokee_github_title">MoKee Github</string>
@@ -39,7 +39,7 @@
   <string name="mokee_wiki_title">MoKee Wiki</string>
   <string name="mokee_wiki_summary">Посетете MoKee Wiki</string>
   <string name="mokee_news_title">MoKee новини</string>
-  <string name="mokee_news_summary">Получавайте новини от MoKee</string>
+  <string name="mokee_news_summary">Получавайте новини за развитието на MoKee</string>
   <!-- Base Info -->
   <string name="mokee_version_info_title">Информация за версията</string>
   <string name="mokee_version_title">Версия на MoKee</string>
@@ -50,11 +50,11 @@
   <string name="mokee_last_check_never">Никога</string>
   <!-- Version -->
   <string name="mokee_info_default">Неизвестно</string>
-  <string name="mokee_version_type_release">Релийз</string>
+  <string name="mokee_version_type_release">Издание</string>
   <string name="mokee_version_type_history">История</string>
   <string name="mokee_version_type_experimental">Експериментално</string>
   <string name="mokee_version_type_nightly">Nightly</string>
-  <string name="mokee_version_type_unofficial">Неофициален</string>
+  <string name="mokee_version_type_unofficial">Неофициално</string>
   <string name="mokee_version_type_all">Всички</string>
   <!-- State -->
   <string name="downloaded_update_summary">Изтеглено</string>

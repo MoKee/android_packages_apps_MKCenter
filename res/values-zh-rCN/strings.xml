@@ -95,7 +95,7 @@
   <string name="new_update_summary">比当前版本新</string>
   <string name="old_update_summary">比当前版本旧</string>
   <string name="ota_diff_update_summary">开启增量更新可节省 %s 流量</string>
-  <string name="full_diff_update_summary">与完整包相比为您节省 %s 流量</string>
+  <string name="full_diff_update_summary">与完整包相比可节省 %s 流量</string>
   <string name="update_check_title">检查更新频率</string>
   <string name="check_manual">手动</string>
   <string name="nightly_alert">您选择了检查每夜版本更新，这是开发阶段的版本，包含当天开发的最新功能但可能存在BUG，请谨慎使用。</string>
