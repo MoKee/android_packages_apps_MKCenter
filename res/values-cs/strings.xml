@@ -94,6 +94,8 @@
   <string name="no_available_ota_intro">Při poslední kontrole nebyla nalezena žádná nová aktualizace. K manuálnímu ověření nových aktualizací stiskněte tlačítko Aktualizovat. Pokud používáte verzi, která je mimo podporu OTA (příliš stará verze), odškrtněte možnost \"OTA aktualizace\".</string>
   <string name="new_update_summary">Nové</string>
   <string name="old_update_summary">Staré</string>
+  <string name="ota_diff_update_summary">Přírůstkové aktualizace lze uložit do %s</string>
+  <string name="full_diff_update_summary">Porovnání s plnou ROM, uloženo v %s</string>
   <string name="update_check_title">Četnost kontroly aktualizací</string>
   <string name="check_manual">Ručně</string>
   <string name="nightly_alert">Zvolili jste možnost zahrnout do seznamu i nightly aktualizace. Tyto verze nejsou podporovány a měly by být používány s opatrností.</string>
