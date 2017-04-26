@@ -58,6 +58,7 @@ import android.widget.TextView;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.MobileAds;
 import com.mokee.center.R;
 import com.mokee.center.activities.MoKeeCenter;
 import com.mokee.center.db.DownLoadDao;
@@ -282,8 +283,9 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
 
-        // Google ads mobile init
+        // Initialize the Mobile Ads SDK.
         if (!Utils.checkLicensed(moKeeCenter)) {
+            MobileAds.initialize(getContext(), getString(R.string.app_id));
             adRequest = new AdRequest.Builder().build();
             if (mAdmobView != null) {
                 mAdmobView.setAdRequest(adRequest);
