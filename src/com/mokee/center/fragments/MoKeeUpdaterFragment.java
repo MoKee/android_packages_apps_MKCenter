@@ -58,7 +58,6 @@ import android.widget.TextView;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;
-import com.google.android.gms.ads.MobileAds;
 import com.mokee.center.R;
 import com.mokee.center.activities.MoKeeCenter;
 import com.mokee.center.db.DownLoadDao;
@@ -134,7 +133,8 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
     private long leftTime;
     private Runnable timerRunnable;
 
-    private InterstitialAd mInterstitialAd;
+    private InterstitialAd mEnterInterstitialAd;
+    private InterstitialAd mStartDownloadInterstitialAd;
     private AdRequest adRequest;
 
     // 更新进度条
@@ -283,35 +283,52 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
         setHasOptionsMenu(true);
 
         // Google ads mobile init
-        adRequest = new AdRequest.Builder().build();
-        mAdmobView.setAdRequest(adRequest);
-        mInterstitialAd = new InterstitialAd(getContext());
-        mInterstitialAd.setAdUnitId(getString(R.string.interstitial_ad_unit_id));
-        mInterstitialAd.setAdListener(new AdListener() {
-            @Override
-            public void onAdClosed() {
-                if (!Utils.checkMinLicensed(moKeeCenter)) {
-                    moKeeCenter.makeSnackbar(R.string.download_limited_mode, Snackbar.LENGTH_LONG).show();
-                }
+        if (!Utils.checkLicensed(moKeeCenter)) {
+            adRequest = new AdRequest.Builder().build();
+            if (mAdmobView != null) {
+                mAdmobView.setAdRequest(adRequest);
             }
 
-            @Override
-            public void onAdFailedToLoad(int errorCode) {
-                super.onAdFailedToLoad(errorCode);
-                if (errorCode == AdRequest.ERROR_CODE_NO_FILL) {
-                    mInterstitialAd.loadAd(adRequest);
+            mEnterInterstitialAd = new InterstitialAd(getContext());
+            mEnterInterstitialAd.setAdUnitId(getString(R.string.interstitial_ad_unit_id));
+            mEnterInterstitialAd.setAdListener(new AdListener() {
+                @Override
+                public void onAdFailedToLoad(int errorCode) {
+                    super.onAdFailedToLoad(errorCode);
+                    if (errorCode == AdRequest.ERROR_CODE_NO_FILL) {
+                        mEnterInterstitialAd.loadAd(adRequest);
+                    }
                 }
-            }
 
-            @Override
-            public void onAdLoaded() {
-                super.onAdLoaded();
-                if (!Utils.checkLicensed(moKeeCenter)) {
-                    mInterstitialAd.show();
+                @Override
+                public void onAdLoaded() {
+                    super.onAdLoaded();
+                    mEnterInterstitialAd.show();
                 }
-            }
-        });
-        mInterstitialAd.loadAd(adRequest);
+            });
+            mEnterInterstitialAd.loadAd(adRequest);
+
+            mStartDownloadInterstitialAd = new InterstitialAd(getContext());
+            mStartDownloadInterstitialAd.setAdUnitId(getString(R.string.interstitial_ad_unit_id));
+            mStartDownloadInterstitialAd.setAdListener(new AdListener() {
+                @Override
+                public void onAdClosed() {
+                    mStartDownloadInterstitialAd.loadAd(adRequest);
+                    if (!Utils.checkMinLicensed(moKeeCenter)) {
+                        moKeeCenter.makeSnackbar(R.string.download_limited_mode, Snackbar.LENGTH_LONG).show();
+                    }
+                }
+
+                @Override
+                public void onAdFailedToLoad(int errorCode) {
+                    super.onAdFailedToLoad(errorCode);
+                    if (errorCode == AdRequest.ERROR_CODE_NO_FILL) {
+                        mStartDownloadInterstitialAd.loadAd(adRequest);
+                    }
+                }
+            });
+            mStartDownloadInterstitialAd.loadAd(adRequest);
+        }
     }
 
     @Override
@@ -977,8 +994,9 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
             return;
         }
 
-        if (mInterstitialAd.isLoaded() && !Utils.checkLicensed(moKeeCenter)) {
-            mInterstitialAd.show();
+        if (!Utils.checkLicensed(moKeeCenter) && mStartDownloadInterstitialAd != null
+                && mStartDownloadInterstitialAd.isLoaded()) {
+            mStartDownloadInterstitialAd.show();
         } else {
             if (!Utils.checkMinLicensed(moKeeCenter)) {
                 moKeeCenter.makeSnackbar(R.string.download_limited_mode, Snackbar.LENGTH_LONG).show();
