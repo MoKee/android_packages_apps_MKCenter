@@ -50,8 +50,6 @@ import com.mokee.center.utils.RequestUtils;
 import com.mokee.center.utils.Utils;
 import com.mokee.center.widget.SimpleOnSeekBarChangeListener;
 
-import cn.waps.AppConnect;
-
 public class MoKeeCenter extends AppCompatActivity {
 
     public static final String BR_ONNewIntent = "com.mokee.center.action.ON_NEW_INTENT";
@@ -166,11 +164,6 @@ public class MoKeeCenter extends AppCompatActivity {
 
         final TabLayout tabLayout = (TabLayout) findViewById(R.id.tabLayout);
         tabLayout.setupWithViewPager(viewPager);
-
-        AppConnect.getInstance("179a03b58d0dc099e7770f1f5e1f8887", "default", this);
-        if (!Utils.checkLicensed(this) && MoKeeUtils.isSupportLanguage(false)) {
-            AppConnect.getInstance(this).initPopAd(this);
-        }
     }
 
     @Override

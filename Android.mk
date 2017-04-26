@@ -31,7 +31,6 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     android-support-v7-appcompat \
     android-support-v14-preference \
     android-support-design \
-    mokee-appoffer \
     play-services-legacy \
     volley \
     org.mokee.platform.internal
