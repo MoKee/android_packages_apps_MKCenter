@@ -1085,12 +1085,17 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
                 .setPositiveButton(R.string.dialog_update, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        try {
-                            Utils.triggerUpdate(moKeeCenter, itemInfo.getFileName());
-                        } catch (IOException e) {
-                            Log.e(TAG, "Unable to reboot into recovery mode", e);
-                            moKeeCenter.makeSnackbar(R.string.apply_unable_to_reboot_toast).show();
-                        }
+                        mUpdateHandler.post(new Runnable() {
+                            @Override
+                            public void run() {
+                                try {
+                                    Utils.triggerUpdate(moKeeCenter, itemInfo.getFileName());
+                                } catch (IOException e) {
+                                    Log.e(TAG, "Unable to reboot into recovery mode", e);
+                                    moKeeCenter.makeSnackbar(R.string.apply_unable_to_reboot_toast).show();
+                                }
+                            }
+                        });
                     }
                 })
                 .setNegativeButton(R.string.dialog_cancel, new DialogInterface.OnClickListener() {
