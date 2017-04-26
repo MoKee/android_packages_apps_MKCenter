@@ -58,6 +58,7 @@ import android.widget.TextView;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;
+import com.google.android.gms.ads.MobileAds;
 import com.mokee.center.R;
 import com.mokee.center.activities.MoKeeCenter;
 import com.mokee.center.db.DownLoadDao;
@@ -85,8 +86,6 @@ import java.util.Comparator;
 import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
-
-import cn.waps.AppConnect;
 
 public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
         Preference.OnPreferenceChangeListener,
@@ -283,12 +282,15 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
         super.onCreate(savedInstanceState);
         setHasOptionsMenu(true);
 
+        // Google ads mobile init
+        MobileAds.initialize(getContext());
+        adRequest = new AdRequest.Builder().build();
+        mAdmobView.setAdRequest(adRequest);
         mInterstitialAd = new InterstitialAd(getContext());
         mInterstitialAd.setAdUnitId(getString(R.string.interstitial_ad_unit_id));
         mInterstitialAd.setAdListener(new AdListener() {
             @Override
             public void onAdClosed() {
-                requestNewInterstitial();
                 if (!Utils.checkMinLicensed(moKeeCenter)) {
                     moKeeCenter.makeSnackbar(R.string.download_limited_mode, Snackbar.LENGTH_LONG).show();
                 }
@@ -301,14 +303,15 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
                     mInterstitialAd.loadAd(adRequest);
                 }
             }
+
+            @Override
+            public void onAdLoaded() {
+                super.onAdLoaded();
+                if (!Utils.checkLicensed(moKeeCenter)) {
+                    mInterstitialAd.show();
+                }
+            }
         });
-
-        requestNewInterstitial();
-    }
-
-    private void requestNewInterstitial() {
-        adRequest = new AdRequest.Builder().build();
-        mAdmobView.setAdRequest(adRequest);
         mInterstitialAd.loadAd(adRequest);
     }
 
@@ -573,13 +576,6 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
         if (Utils.checkLicensed(moKeeCenter)) {
             removeAdmobPreference();
         } else {
-            if (MoKeeUtils.isSupportLanguage(false)) {
-                final AppConnect appConnect = AppConnect.getInstance(moKeeCenter);
-                if (appConnect.hasPopAd(moKeeCenter)) {
-                    appConnect.setPopAdBack(true);
-                    appConnect.showPopAd(moKeeCenter);
-                }
-            }
             if (mAdmobView != null) {
                 mAdmobView.onAdResume();
             }
