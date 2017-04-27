@@ -59,7 +59,7 @@ public class AdmobPreference extends Preference {
 
     @Override
     public void onBindViewHolder(PreferenceViewHolder holder) {
-        if (mAdView == null) {
+        if (mAdView == null && mAdRequest != null) {
             mAdView = (AdView) holder.itemView;
             mAdView.setAdListener(new AdListener() {
                 @Override
