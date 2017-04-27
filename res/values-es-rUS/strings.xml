@@ -94,8 +94,8 @@
   <string name="no_available_ota_intro">El último chequeo no encontró ninguna actualización disponible. Para comprobar manualmente las nuevas versiones, utilice el botón Actualizar. Si está ejecutando una versión que está fuera del rango de fecha de actualización soportada, deberá deseleccionar la opción \"Actualizaciones incrementales\".</string>
   <string name="new_update_summary">Nuevo</string>
   <string name="old_update_summary">Antiguo</string>
-  <string name="ota_diff_update_summary">Actualizaciones incrementales se pueden guardar %s</string>
-  <string name="full_diff_update_summary">En comparación con la ROM completa, salvado %s</string>
+  <string name="ota_diff_update_summary">Actualizaciones incrementales pueden ahorrar %s</string>
+  <string name="full_diff_update_summary">En comparación con la ROM completa, ahorrado %s</string>
   <string name="update_check_title">Comprobar la frecuencia de actualización</string>
   <string name="check_manual">Manual</string>
   <string name="nightly_alert">Has elegido incluir actualizaciones no estables en esta lista. Este tipo de actualizaciones no disponen de soporte al usuario y deberían ser utilizadas con precaución.</string>
