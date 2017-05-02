@@ -94,6 +94,8 @@
   <string name="no_available_ota_intro">Pemeriksaan terakhir tidak menemukan pembaruan tersedia. Untuk memeriksa pembaruan terbaru secara manual, gunakan tombol Segarkan. Jika anda saat ini menggunakan di luar versi incremental, anda harus membuang pilihan \"pembaruan Incremental\".</string>
   <string name="new_update_summary">Baru</string>
   <string name="old_update_summary">Lama</string>
+  <string name="ota_diff_update_summary">Pembaruan inkremental bisa menghemat %s</string>
+  <string name="full_diff_update_summary">Dibandingkan dengan ROM penuh, hemat %s</string>
   <string name="update_check_title">Frekuensi pemeriksaan</string>
   <string name="check_manual">Manual</string>
   <string name="nightly_alert">Anda telah memilih untuk menyertakan update nightly dalam daftar ini. Hal Ini belum didukung dan harus digunakan dengan hati-hati.</string>
