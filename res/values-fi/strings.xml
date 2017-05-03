@@ -94,6 +94,8 @@
   <string name="no_available_ota_intro">Viimeisin tarkistus ei löytänyt yhtään päivitystä. Tarkistaaksesi päivitykset, paina Päivitä. Jos käytät versiota joka ei tue vähittäispäivityksiä niin ota vähittäispäivitykset pois käytöstä.</string>
   <string name="new_update_summary">Uusi</string>
   <string name="old_update_summary">Vanha</string>
+  <string name="ota_diff_update_summary">Inkrementaalisella päivityksellä voidaan säästää %s</string>
+  <string name="full_diff_update_summary">Verrattuna kokonaiseen ROM: iin, säästetty %s</string>
   <string name="update_check_title">Päivityksen aikaväli</string>
   <string name="check_manual">Manuaali</string>
   <string name="nightly_alert">Olet valinnut nightly-päivitykset listaan. Nämä eivät ole tuettuja, ja niitä tulisi käyttää varoen.</string>
