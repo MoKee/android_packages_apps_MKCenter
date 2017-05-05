@@ -94,6 +94,8 @@
   <string name="no_available_ota_intro">Остання перевірка не виявила оновлень. Щоб перевірити наявність оновлень власноруч, використовуйте кнопку \"Оновити\". Якщо ви використовуєте версію, яка знаходиться за межами діапазону дат, що підтримуються ОТА оновленнями, вимкніть опцію \"ОТА оновлення\".</string>
   <string name="new_update_summary">Новий</string>
   <string name="old_update_summary">Старий</string>
+  <string name="ota_diff_update_summary">Інкрементне оновлення можна зберегти %s</string>
+  <string name="full_diff_update_summary">У порівнянні з повним ROM, збережено %s</string>
   <string name="update_check_title">Інтервал перевірки оновлень</string>
   <string name="check_manual">Вручну</string>
   <string name="nightly_alert">Ви обрали нічні (nightly) оновлення в цьому списку. Вони не є стабільними і ви повинні використовувати їх з обережністю.</string>

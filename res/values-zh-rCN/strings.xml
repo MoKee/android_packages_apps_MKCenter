@@ -78,11 +78,11 @@
   <string name="donate_money_restored_success">授权文件已成功恢复！</string>
   <string name="donate_money_restored_failed">没有找到这台设备的捐赠记录。</string>
   <string name="donate_money_restored_timeout">网络连接超时，请再试一次。</string>
-  <string name="donate_money_info">您捐赠了 %1$d CNY，打败了全球 %2$s 的用户！</string>
-  <string name="donate_money_info_with_rank">您捐赠了 %1$d CNY，打败了全球 %2$s 的用户，排名第 %3$d！</string>
+  <string name="donate_money_info">您捐赠了 %1$d 元，打败了全球 %2$s 的用户！</string>
+  <string name="donate_money_info_with_rank">您捐赠了 %1$d 元，打败了全球 %2$s 的用户，排名第 %3$d！</string>
   <string name="donate_money_info_null">当前您还没有过光荣的捐赠行为。捐赠是国际通行的一种支持免费软件的方式，您可以花费千元购买厂商的手机和万年不更新的系统，何不向魔趣做一次小小的捐赠呢？您的举手之劳，就可以使我们变得更好，持续为您带来更好用的ROM。</string>
   <string name="remove_ads_title">解锁全部功能并移除广告</string>
-  <string name="remove_ads_request_price">已捐赠 %1$d，待捐赠 %2$d（货币单位：CNY）</string>
+  <string name="remove_ads_request_price">已捐赠 %1$d，待捐赠 %2$d（货币单位：人民币）</string>
   <!-- Update -->
   <string name="unknown">未知</string>
   <string name="dialog_update">更新</string>
@@ -130,7 +130,7 @@
   <string name="download_running">正在下载</string>
   <string name="download_cancelled">下载已取消</string>
   <string name="download_already_running">已有一个正在运行的下载</string>
-  <string name="download_limited_mode">限速下载模式，累计捐赠超过30 CNY后可享受加速下载。</string>
+  <string name="download_limited_mode">当前是限速下载模式，累计捐赠达到30元即可享受全速下载。</string>
   <string name="unable_to_download_file">无法下载更新</string>
   <string name="not_download_success">更新已成功下载</string>
   <string name="not_download_failure">下载更新失败</string>
@@ -150,12 +150,12 @@
   <!-- pref -->
   <string name="pref_ota_check">增量更新</string>
   <string name="pref_ota_check_summary">为您节省时间和流量，随时随地轻松升级</string>
-  <string name="pref_ota_check_donation_request_summary">想每天更新体验新功能，又觉得下载升级很麻烦？开启它，您只需下载10～20MB的补丁即可快速更新系统，无需下载数百MB的完整包！（累计捐赠 %d CNY后永久可用）</string>
-  <string name="pref_ota_check_donation_request_pending_summary">想每天更新体验新功能，又觉得下载升级很麻烦？开启它，您只需下载10～20MB的补丁即可快速更新系统，无需下载数百MB的完整包！（已捐赠 %1$d，再捐赠 %2$d 后永久可用，货币单位：CNY）</string>
+  <string name="pref_ota_check_donation_request_summary">想每天更新体验新功能，又觉得下载升级很麻烦？开启它，您只需下载10～20MB的补丁即可快速更新系统，无需下载数百MB的完整包！（累计捐赠 %d 元后永久可用）</string>
+  <string name="pref_ota_check_donation_request_pending_summary">想每天更新体验新功能，又觉得下载升级很麻烦？开启它，您只需下载10～20MB的补丁即可快速更新系统，无需下载数百MB的完整包！（已捐赠 %1$d，再捐赠 %2$d 后永久可用，货币单位：人民币）</string>
   <string name="pref_verify_rom">放心刷™</string>
   <string name="pref_verify_rom_summary">仅向您推荐经过多数用户测试稳定的版本</string>
-  <string name="pref_verify_rom_donation_request_summary">作为我们的贵宾，系统仅向您推荐经过多数用户测试稳定的版本。您可以放心的升级，享受新的功能特性。（累计捐赠 %d CNY后永久可用）</string>
-  <string name="pref_verify_rom_donation_request_pending_summary">作为我们的贵宾，系统仅向您推荐经过多数用户测试稳定的版本。您可以放心的升级，享受新的功能特性。（已捐赠 %1$d，再捐赠 %2$d 后永久可用，货币单位：CNY）</string>
+  <string name="pref_verify_rom_donation_request_summary">作为我们的贵宾，系统仅向您推荐经过多数用户测试稳定的版本。您可以放心的升级，享受新的功能特性。（累计捐赠 %d 元后永久可用）</string>
+  <string name="pref_verify_rom_donation_request_pending_summary">作为我们的贵宾，系统仅向您推荐经过多数用户测试稳定的版本。您可以放心的升级，享受新的功能特性。（已捐赠 %1$d，再捐赠 %2$d 后永久可用，货币单位：人民币）</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">应用更新</string>
   <string name="apply_update_dialog_text">您将要更新到 <xliff:g id="filename">%s</xliff:g>。\n\n如果您点击“更新”，您的设备将会重启到恢复模式并安装更新。\n\n注意：此功能需要一个兼容的恢复程序。如果您没有的话，您可能需要手动安装更新。</string>
@@ -168,7 +168,7 @@
   <string name="installed_xposed_toast">检测到系统安装了Xposed框架，使用增量更新并不需要在升级后重刷框架。</string>
   <!-- Discount -->
   <string name="discount_dialog_title">限时折扣</string>
-  <string name="discount_dialog_message">感谢您对魔趣开源项目的长期支持，现在您可享有限时优惠，%1$d CNY获得增量更新、放心刷™并移除界面广告（立省 %2$d CNY）！如果您想要稍后支付，可点按提示框外关闭窗口并在准备就绪后重新打开程序。</string>
+  <string name="discount_dialog_message">感谢您对魔趣开源项目的长期支持，现在您可享受限时优惠，%1$d 元获得增量更新、放心刷™并移除界面广告（立省 %2$d 元）！如果您想要稍后支付，可点按提示框外关闭窗口并在准备就绪后重新打开程序。</string>
   <string name="discount_dialog_expires">距离限时折扣结束还剩 %s</string>
   <string name="discount_dialog_cancel">不再提醒</string>
 </resources>
