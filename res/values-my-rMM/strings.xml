@@ -18,13 +18,53 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Fragment -->
+  <string name="mokee_center_title">Mokee စင်တာ</string>
+  <string name="mokee_support_title">အထောက်အပံ့</string>
+  <string name="mokee_updater_title">အဆင့်မြှင့်မှု့</string>
   <!-- WebSite -->
+  <string name="mokee_website_title">Mokee ဝက်ဘ်ဆိုဒ်</string>
+  <string name="mokee_website_summary">တရားဝင် ဝက်ဘ်ဆိုဒ် သို့ အလည်သွားရန် </string>
+  <string name="mokee_forum_title">MoKee ဖိုရမ်</string>
+  <string name="mokee_forum_summary">MoKee ဖိုရမ်သို့ အလည်သွားရန် </string>
+  <string name="mokee_issues_title">MoKee အမှား ရှာသူ </string>
+  <string name="mokee_translate_title">MoKee ဘာသာပြန်</string>
+  <string name="mokee_translate_summary">MoKee ဘာသာပြန်ရန် ကူညီပါ</string>
+  <string name="mokee_wiki_title">MoKee ဝီကီ</string>
+  <string name="mokee_wiki_summary">MoKee ဝီကီ သို့ အလည်သွားရန်</string>
+  <string name="mokee_news_title">Mokee သတင်းစုံ</string>
+  <string name="mokee_news_summary">MoKee ထံမှ သတင်းအသစ်များကို ရယူရန်</string>
   <!-- Base Info -->
+  <string name="mokee_version_info_title">ဗားရှင်း အကြောင်း</string>
+  <string name="mokee_version_title">MoKee ဗားရှင်း</string>
+  <string name="mokee_unique_id_title">ကိုယ်ပိုင် နံပါတ်</string>
+  <string name="mokee_donate_info_title">လှူဒါန်းရန် အချက်အလက်</string>
+  <string name="mokee_version_type_title">ဗားရှင်း အမျိုးအစား</string>
+  <string name="mokee_last_check_title">နောက်ဆုံး စစ်ဆေးခဲ့သည့် အချိန်</string>
+  <string name="mokee_last_check_never">ဘယ်တော့မှ</string>
   <!-- Version -->
+  <string name="mokee_info_default">မသိ</string>
+  <string name="mokee_version_type_release">ထွက်ရှိမှု့</string>
+  <string name="mokee_version_type_history">မှတ်တမ်း</string>
+  <string name="mokee_version_type_experimental">စမ်းသပ်အဆင့်</string>
+  <string name="mokee_version_type_nightly">မတည်ငြိမ်</string>
+  <string name="mokee_version_type_unofficial">တရားမဝင်</string>
+  <string name="mokee_version_type_all">အားလုံး</string>
   <!-- State -->
+  <string name="downloaded_update_summary">ဒေါင်းလုဒ် လုပ်ထားသော</string>
+  <string name="installed_update_summary">ထည့်သွင်းထားသော</string>
+  <string name="available_updates_title">ရရှိနိူင်သော update များ</string>
   <!-- Menu -->
+  <string name="menu_donate">လှူဒါန်းရန်</string>
+  <string name="menu_delete_all">ဒေါင်းလုဒ် များကို ဖျက်</string>
+  <string name="menu_remove_ads">ကြော်ငြာများကို ဖယ်</string>
   <!-- Donate -->
+  <string name="donate_dialog_title">ကျွန်တော်တို့ကို လှူဒါန်းရန်</string>
+  <string name="donate_dialog_message">Cygn (သို့မဟုတ်) MIUI တို့လို မဟုတ်ပဲ၊ MoKee OpenSource ဟာ ကိုယ်ကျိုးမပါပဲ စစ်မှန်တဲ့ ဝါသနာနဲ့ ပေါက်ဖွားလာတာပါ။ ဒီ ပရောဂျက် ဆက်လက် အသက်ရှင်နေဖို့ အများအားဖြင့် ကျွန်တော်တို့ရဲ့ ကိုယ်ပိုင်ငွေ နဲ့ လှူဒါန်းမှု့နဲ့ ကြော်ငြာ တွေကနေ ရတဲ့ ငွေပေါ် မှာ မှီခိုနေရပါတယ်။ သင့်ရဲ့ လှူဒါန်းမှု့က ကျွန်တော်တို့ရဲ့ ငွေကြေးပြဿနာကို လျှော့ချပေးနိူင်ပြီး ကျွန်တော်တို့ရဲ့ ပရောဂျက်ကို ဆက်လက် လုပ်ကိုင်နိူင်စေမှာပါ။ ဒီ ဟာလေးက MoKee စင်တာက ကြော်ငြာတွေကို ဖယ်ရှားပေးသွားပါလိမ့်မယ်။ အရစ်ကျပေးသွင်းချင်ရင်လည်း \"လှူဒါန်းရန်\" ဆိုတဲ့ ခလုပ်ကို နှိပ်လို့ရပါတယ်။(လှူဒါန်းရန် သတ်မှတ်ထားတဲ့ တန်ဖိုးကို ရောက်ရှိသွားတာနဲ့ ကြော်ငြာတွေ ပေါ်လာတော့မှာမဟုတ်ပါဘူး)။(ယခု အသုံးပြုနေသော device တစ်ခုသာ) </string>
+  <string name="donate_dialog_via_paypal">PayPal</string>
+  <string name="donate_dialog_via_alipay">AliPay</string>
+  <string name="remove_ads_title">ကြော်ငြာများကို ဖယ်</string>
   <!-- Update -->
+  <string name="unknown">မသိ</string>
   <!-- ChangeLog -->
   <!-- checking -->
   <!-- Downloads -->

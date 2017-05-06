@@ -20,7 +20,7 @@
   <!-- Fragment -->
   <string name="mokee_center_title">MoKee 中心</string>
   <string name="mokee_support_title">支援</string>
-  <string name="mokee_updater_title">更新程式</string>
+  <string name="mokee_updater_title">更新器</string>
   <!-- WebSite -->
   <string name="mokee_website_title">MoKee 網站</string>
   <string name="mokee_website_summary">訪問官方網站</string>
@@ -141,8 +141,8 @@
   <string name="not_apk_action_install_update">安裝</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">刪除檔案</string>
-  <string name="confirm_delete_updates_dialog_message">刪除已選取的更新檔案?</string>
-  <string name="confirm_delete_updates_all_dialog_message">刪除所有下載的更新檔案?</string>
+  <string name="confirm_delete_updates_dialog_message">刪除已選取的更新檔案？</string>
+  <string name="confirm_delete_updates_all_dialog_message">刪除所有下載的更新檔案？</string>
   <string name="delete_single_update_success_message">更新 <xliff:g id="filename">%s</xliff:g> 已刪除</string>
   <string name="delete_updates_failure_message">刪除更新檔案時出現錯誤</string>
   <string name="delete_updates_nofolder_message">未找到更新檔所在的資料夾</string>
@@ -152,7 +152,7 @@
   <string name="pref_ota_check_summary">取得增量更新以節省下載時間和數據</string>
   <string name="pref_ota_check_donation_request_summary">取得增量更新以節省下載時間和數據（捐贈 %d 元人民幣後永久可用）</string>
   <string name="pref_ota_check_donation_request_pending_summary">獲取增量更新以節省下載時間和頻寬 (已捐贈 %1$d，更多捐 %2$d 後可終身享用增量更新，貨幣 ︰ ￥ 元)</string>
-  <string name="pref_verify_rom">已驗證的更新</string>
+  <string name="pref_verify_rom">放心刷™</string>
   <string name="pref_verify_rom_summary">僅檢查經過其它使用者刷入驗證的新版本</string>
   <string name="pref_verify_rom_donation_request_summary">僅檢查經過其它使用者驗證的新版本 (捐贈 %d CNY後永久可用)</string>
   <string name="pref_verify_rom_donation_request_pending_summary">僅檢查經過其它使用者驗證的新版本 (已捐贈 %1$d，再捐贈 %2$d 後永久可用，貨幣單位：CNY)</string>
