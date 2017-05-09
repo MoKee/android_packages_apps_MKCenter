@@ -20,26 +20,26 @@
   <!-- Fragment -->
   <string name="mokee_center_title">Centro de Mokee</string>
   <string name="mokee_support_title">Soporte</string>
-  <string name="mokee_updater_title">Actualizar</string>
+  <string name="mokee_updater_title">Actualizaciones</string>
   <!-- WebSite -->
-  <string name="mokee_website_title">Sitio web MoKee</string>
-  <string name="mokee_website_summary">Visite el sitio web oficial</string>
+  <string name="mokee_website_title">Sitio web de MoKee</string>
+  <string name="mokee_website_summary">Visitar el sitio web oficial</string>
   <string name="mokee_forum_title">Foro MoKee</string>
-  <string name="mokee_forum_summary">Visita el foro de MoKee</string>
+  <string name="mokee_forum_summary">Visitar el foro de MoKee</string>
   <string name="mokee_issues_title">Gestor de Bugs Mokee</string>
-  <string name="mokee_issues_summary">Visita el Gestor de Bugs</string>
-  <string name="mokee_changelog_title">Registros de cambios Mokee</string>
+  <string name="mokee_issues_summary">Visitar el Gestor de Bugs</string>
+  <string name="mokee_changelog_title">Registros de cambios de Mokee</string>
   <string name="mokee_changelog_summary">Ver cambios diarios</string>
   <string name="mokee_build_status_title">Estado de compilación Mokee</string>
   <string name="mokee_build_status_summary">Ver estado de la compilación</string>
   <string name="mokee_github_title">Github de MoKee</string>
-  <string name="mokee_github_summary">Visitar MoKee Github</string>
+  <string name="mokee_github_summary">Visitar Github de Mokee</string>
   <string name="mokee_translate_title">Traducir MoKee</string>
   <string name="mokee_translate_summary">Ayudar a traducir MoKee</string>
   <string name="mokee_wiki_title">Wiki de MoKee</string>
-  <string name="mokee_wiki_summary">Ver MoKee Wiki</string>
+  <string name="mokee_wiki_summary">Ver la wiki de MoKee</string>
   <string name="mokee_news_title">Noticias MoKee</string>
-  <string name="mokee_news_summary">Recibir noticias de desarrollo de MoKee</string>
+  <string name="mokee_news_summary">Recibir noticias del desarrollo de MoKee</string>
   <!-- Base Info -->
   <string name="mokee_version_info_title">Información de la Versión</string>
   <string name="mokee_version_title">Versión de MoKee</string>
@@ -50,12 +50,12 @@
   <string name="mokee_last_check_never">Nunca</string>
   <!-- Version -->
   <string name="mokee_info_default">Desconocido</string>
-  <string name="mokee_version_type_release">Versión</string>
+  <string name="mokee_version_type_release">Versión estable</string>
   <string name="mokee_version_type_history">Historial</string>
   <string name="mokee_version_type_experimental">Experimental</string>
-  <string name="mokee_version_type_nightly">Version Nightly</string>
+  <string name="mokee_version_type_nightly">Versión Nightly</string>
   <string name="mokee_version_type_unofficial">No Oficial</string>
-  <string name="mokee_version_type_all">Todos</string>
+  <string name="mokee_version_type_all">Todas las versiones</string>
   <!-- State -->
   <string name="downloaded_update_summary">Descargado</string>
   <string name="installed_update_summary">Instalado</string>
@@ -94,14 +94,14 @@
   <string name="no_available_ota_intro">El último chequeo no encontró ninguna actualización disponible. Para comprobar manualmente las nuevas versiones, utilice el botón Actualizar. Si está ejecutando una versión que está fuera del rango de fecha de actualización soportada, deberá deseleccionar la opción \"Actualizaciones incrementales\".</string>
   <string name="new_update_summary">Nuevo</string>
   <string name="old_update_summary">Antiguo</string>
-  <string name="ota_diff_update_summary">Actualizaciones incrementales pueden ahorrar %s</string>
-  <string name="full_diff_update_summary">En comparación con la ROM completa, ahorrado %s</string>
+  <string name="ota_diff_update_summary">Las actualizaciones incrementales pueden ahorrar %s</string>
+  <string name="full_diff_update_summary">En comparación con la ROM completa, ahorrando %s</string>
   <string name="update_check_title">Comprobar la frecuencia de actualización</string>
   <string name="check_manual">Manual</string>
   <string name="nightly_alert">Has elegido incluir actualizaciones no estables en esta lista. Este tipo de actualizaciones no disponen de soporte al usuario y deberían ser utilizadas con precaución.</string>
   <string name="experimenter_alert">Ha seleccionado incluir versiones experimentales en esta lista. Éstas no tienen soporte al usuario y están destinadas para pruebas solamente, debe utilizarse con precaución.</string>
   <string name="unofficial_alert">Ha seleccionado incluir versiones no oficiales en esta lista. Tenga en cuenta que éstas son apoyadas por el mantenedor del dispositivo.</string>
-  <string name="all_alert">Ha seleccionado incluir todas las actualizaciones (estables, experimentales) en esta lista. Tenga en cuenta que todas las actualizaciones nocturnas no tienen soporte al usuario y se deben utilizar con precaución.</string>
+  <string name="all_alert">Has seleccionado incluir todas las actualizaciones (estables, nightly) en esta lista. Ten en cuenta que todas las actualizaciones nightlies no tienen soporte al usuario y se deben utilizar con precaución.</string>
   <string name="alert_title">Advertencia</string>
   <string name="update_type_title">Tipo de actualización</string>
   <!-- ChangeLog -->
@@ -135,7 +135,7 @@
   <string name="not_download_success">Actualización descargada exitosamente</string>
   <string name="not_download_failure">Actualización no descargada</string>
   <string name="not_action_install_update">Reiniciar e instalar</string>
-  <string name="not_download_install_notice">La actualización <xliff:g id="filename">%s</xliff:g> fue descargada correctamente. Pulsando sobre \'Reiniciar e instalar\', el dispositivo se reiniciará para instalar la actualización.\n\nAviso: Será necesario disponer de un recovery compatible para una instalación automática.</string>
+  <string name="not_download_install_notice">La actualización <xliff:g id="filename">%s</xliff:g> fue descargada correctamente. Pulsando sobre \"Reiniciar e instalar\", el dispositivo se reiniciará para instalar la actualización.\n\nAviso: Será necesario disponer de un recovery compatible para una instalación automática.</string>
   <string name="not_download_install_ota_notice">La actualización <xliff:g id="filename">%s</xliff:g> fue descargada correctamente. Pulsando sobre \'Reiniciar e instalar\', el dispositivo se reiniciará para instalar la actualización.\n\nAviso: Será necesario disponer de un recovery compatible para una instalación automática. Esta es una actualización incremental, por lo tanto cualquier cambio realizado en la estructura de los archivos del sistema pueden hacer que la actualización falle. Si esto sucede, instale una ROM completa en su lugar.</string>
   <string name="md5_verification_failed">Comprobación de MD5 fallida</string>
   <string name="not_apk_action_install_update">Instalar</string>
