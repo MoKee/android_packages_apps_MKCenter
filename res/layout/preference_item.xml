@@ -47,7 +47,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:layout_toLeftOf="@+id/file_size"
                 android:ellipsize="marquee"
                 android:fadingEdge="horizontal"
                 android:maxLines="3"
@@ -80,42 +79,37 @@
 
     </LinearLayout>
 
-    <View
-        android:layout_width="2dip"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="5dip"
-        android:layout_marginTop="5dip"
-        android:background="@android:drawable/divider_horizontal_dark" />
-
     <FrameLayout
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_alignParentEnd="true"
-        android:layout_alignTop="@android:id/summary">
+        android:layout_height="match_parent">
 
-        <ImageView
-            android:id="@+id/updates_button"
+        <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:background="?android:attr/selectableItemBackground"
-            android:clickable="true"
-            android:focusable="true"
-            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
-            android:paddingStart="?android:attr/listPreferredItemPaddingStart"
-            android:src="@drawable/ic_tab_download" />
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical"
+            android:focusable="true">
 
-        <TextView
-            android:id="@+id/file_size"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal|bottom"
-            android:focusable="false"
-            android:paddingBottom="9dip"
-            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
-            android:paddingStart="?android:attr/listPreferredItemPaddingStart"
-            android:textAppearance="?android:attr/textAppearanceListItemSecondary"
-            android:textColor="?android:attr/textColorSecondary" />
+            <ImageView
+                android:id="@+id/updates_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="?android:attr/selectableItemBackground"
+                android:clickable="true"
+                android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+                android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+                android:src="@drawable/ic_tab_download" />
+
+            <TextView
+                android:id="@+id/file_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+                android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+                android:textAppearance="?android:attr/textAppearanceListItemSecondary"
+                android:textColor="?android:attr/textColorSecondary" />
+        </LinearLayout>
+
     </FrameLayout>
 
 </LinearLayout>
