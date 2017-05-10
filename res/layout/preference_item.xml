@@ -47,7 +47,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:layout_toLeftOf="@+id/file_size"
                 android:ellipsize="marquee"
                 android:fadingEdge="horizontal"
                 android:maxLines="3"
@@ -80,13 +79,6 @@
 
     </LinearLayout>
 
-    <View
-        android:layout_width="2dip"
-        android:layout_height="match_parent"
-        android:layout_marginBottom="5dip"
-        android:layout_marginTop="5dip"
-        android:background="@android:drawable/divider_horizontal_dark" />
-
     <FrameLayout
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
@@ -111,6 +103,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal|bottom"
             android:focusable="false"
+            android:paddingTop="2dip"
             android:paddingBottom="9dip"
             android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
             android:paddingStart="?android:attr/listPreferredItemPaddingStart"
