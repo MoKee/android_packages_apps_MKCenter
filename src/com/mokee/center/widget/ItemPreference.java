@@ -237,7 +237,7 @@ public class ItemPreference extends Preference implements
                 }
                 mUpdatesPref.setTag(Constants.INTENT_FLAG_GET_UPDATE);
             } else {
-                mTitleText.setText(mItemInfo.getFileName());
+                mTitleText.setText("MK71.2-lux-2017051-NIGHTLY.zip ");
                 if (Utils.isNewVersion(mItemInfo.getFileName())) {
                     long diffSize = Long.valueOf(mItemInfo.getDescription());
                     if (diffSize > 0 ) {
