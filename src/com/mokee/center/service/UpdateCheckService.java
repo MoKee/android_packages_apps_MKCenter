@@ -194,8 +194,10 @@ public class UpdateCheckService extends IntentService
                 PendingIntent downloadIntent = PendingIntent.getBroadcast(this, 0, i,
                         PendingIntent.FLAG_ONE_SHOT | PendingIntent.FLAG_UPDATE_CURRENT);
 
-                builder.addAction(R.drawable.ic_tab_download,
-                        res.getString(R.string.not_action_download), downloadIntent);
+                if (Utils.checkLicensed(getApplicationContext())) {
+                    builder.addAction(R.drawable.ic_tab_download,
+                            res.getString(R.string.not_action_download), downloadIntent);
+                }
 
                 // Wearable download action
                 NotificationCompat.WearableExtender extender

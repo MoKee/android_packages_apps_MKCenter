@@ -26,6 +26,7 @@ import android.content.Intent;
 import android.support.v4.app.NotificationCompat;
 
 import com.mokee.center.R;
+import com.mokee.center.utils.Utils;
 
 public class DownloadNotifier {
 
@@ -54,10 +55,12 @@ public class DownloadNotifier {
                 .setContentTitle(context.getString(mContentTitleID))
                 .setContentText(updateUiName)
                 .setTicker(context.getString(mTickerID))
-                .setStyle(style)
-                .addAction(R.drawable.ic_tab_install,
-                        context.getString(mActionTitleID),
-                        createInstallPendingIntent(context, updateFile));
+                .setStyle(style);
+        if (Utils.checkLicensed(context)) {
+            builder.addAction(R.drawable.ic_tab_install,
+                    context.getString(mActionTitleID),
+                    createInstallPendingIntent(context, updateFile));
+        }
 
         // Wearable install action
         NotificationCompat.WearableExtender extender = new NotificationCompat.WearableExtender();
