@@ -65,6 +65,7 @@
   <string name="menu_refresh">Osveži</string>
   <string name="menu_delete_all">Izbriši prenos</string>
   <string name="menu_remove_ads">Odstrani oglase</string>
+  <string name="menu_restore">Obnovi licenco</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Prispevajte za nas</string>
   <string name="donate_dialog_message">Za razliko od podjetij, kot sta Cygn ali MIUI, je MoKee odprtokodni projekt, ki je povsem neprofitno rojen za hobi in strast. Da bi ohranili ta projekt, ga moramo največkrat plačevati z lasten denajem ali pa se zanašati na prispevke in oglase. Vaš prispevek lahko pomaga zmanjšati našo finančno obremenitev in vzdržuje nadaljni razvoj! Ta možnost vam omogoča, da odstranite oglase v MoKee centru, ali pa uporabite ukaz \"Prispevaj\", če vam je ljubše na obroke (oglasi bodo odstranjeni, ko je dosežena določena vrednost). Prosimo varnostno kopirajte datoteko mokee. license (v korenski imenik sdcard, velja le za trenutno napravo), ko ste prispevali.</string>

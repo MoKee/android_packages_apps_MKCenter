@@ -29,6 +29,7 @@
   <string name="mokee_issues_title">MoKee Bug Tracker</string>
   <string name="mokee_issues_summary">Visit the bug tracker</string>
   <string name="mokee_changelog_title">Changelog</string>
+  <string name="mokee_changelog_summary">View daily changelog</string>
   <string name="mokee_build_status_title">Build Status</string>
   <string name="mokee_build_status_summary">View build status</string>
   <string name="mokee_github_title">Mokee Source Code</string>
@@ -76,6 +77,7 @@
   <string name="donate_money_restored_failed">No device record found.</string>
   <string name="donate_money_restored_timeout">Connection timed out, please try again</string>
   <string name="donate_money_info">You donated a total of CNY %1$d, more than %2$s of donors globally!</string>
+  <string name="donate_money_info_with_rank">You donated a total of CNY %1$d, more than %2$s of donors globally, rank No.%3$d!</string>
   <string name="donate_money_info_null">You haven\'t donated</string>
   <string name="remove_ads_title">Remove Ads</string>
   <string name="remove_ads_request_price">Donated CNY %1$d, Pending CNY %2$d</string>
