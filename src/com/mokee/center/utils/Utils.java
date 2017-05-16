@@ -19,17 +19,24 @@ package com.mokee.center.utils;
 
 import android.app.Activity;
 import android.app.AlarmManager;
+import android.app.AlertDialog;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Environment;
+import android.os.Handler;
 import android.os.RecoverySystem;
 import android.support.v7.preference.PreferenceFragmentCompat;
 import android.text.format.DateUtils;
+import android.view.LayoutInflater;
+import android.view.ViewGroup;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.mokee.center.R;
 import com.mokee.center.db.DownLoadDao;
@@ -40,8 +47,13 @@ import com.mokee.center.service.UpdateCheckService;
 import com.mokee.os.Build;
 import com.mokee.security.License;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.Locale;
 import java.util.Random;
 
@@ -128,15 +140,114 @@ public class Utils {
         }
     }
 
+    public static void verifySystemCompatible(Context context,String updateFolderPath, String updatePackagePath) throws IOException {
+        File checker = new File("/system/bin/mkchecker");
+        if (updatePackagePath.toLowerCase().startsWith("MK") || !checker.exists()) {
+            // Reboot into recovery and trigger the update
+            RecoverySystem.installPackageLegacy(context, new File(updatePackagePath), false);
+            return;
+        }
+        ProgressDialog pd = new ProgressDialog(context);
+        pd.setCancelable(false);
+        pd.setTitle(context.getText(R.string.verify_system_compatible_title));
+        pd.setMessage(context.getText(R.string.verify_system_compatible_message));
+        pd.show();
+        Handler UiHandler = new Handler();
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                String updateLogPath = updateFolderPath + "/check_log";
+                String command = "mkchecker " + updatePackagePath + " " + updateLogPath;
+                try {
+                    Process process = Runtime.getRuntime().exec(command);
+                    process.waitFor();
+                    int exitStatus = process.exitValue();
+                    String result = "";
+                    AlertDialog.Builder builder = new AlertDialog.Builder(context);
+                    if (exitStatus == 7 && new File(updateLogPath).exists()) {
+                        result = buildSystemCompatibleMessage(context, updateLogPath);
+                        LayoutInflater inflater = LayoutInflater.from(context);
+                        ViewGroup resultView = (ViewGroup) inflater.inflate(R.layout.result, null);
+                        builder.setTitle(R.string.verify_system_compatible_failed)
+                                .setView(resultView)
+                                .setCancelable(false)
+                                .setPositiveButton(android.R.string.ok, null);
+                        TextView textView = (TextView) resultView.findViewById(R.id.message);
+                        textView.setText(result);
+                    }
+                    UiHandler.post(new Runnable() {
+                        @Override
+                        public void run() {
+                            pd.dismiss();
+                            if (exitStatus == 7) {
+                                builder.show();
+                            } else {
+                                // Reboot into recovery and trigger the update
+                                try {
+                                    RecoverySystem.installPackageLegacy(context, new File(updatePackagePath), false);
+                                } catch (IOException e) {
+                                    e.printStackTrace();
+                                }
+                            }
+                        }
+                    });
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }).start();
+    }
+
+    private static String buildSystemCompatibleMessage(Context context, String updateLogPath) {
+        try {
+            InputStream inputStream = new FileInputStream(new File(updateLogPath));
+            StringBuilder stringBuilder = new StringBuilder();
+            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
+            String line;
+            boolean wrotePatchBlock = false;
+            if (bufferedReader != null) {
+                while ((line = bufferedReader.readLine()) != null) {
+                    String msg = line.trim().split("=")[1];
+                    if (line.startsWith("verify_trustzone")) {
+                        stringBuilder.append(String.format(context.getString(R.string.verify_system_compatilte_img),
+                                "trustzone", msg) + "\n");
+                    } else if (line.startsWith("verify_bootloader")) {
+                        stringBuilder.append(String.format(context.getString(R.string.verify_system_compatilte_img),
+                                "bootloader", msg) + "\n");
+                    } else if (line.startsWith("verify_baseband")) {
+                        stringBuilder.append(String.format(context.getString(R.string.verify_system_compatilte_img),
+                                "baseband", msg) + "\n");
+                    } else {
+                        if (line.startsWith("apply_patch")) {
+                            if (!wrotePatchBlock) {
+                                wrotePatchBlock = true;
+                                stringBuilder.append(context.getString(R.string.verify_system_compatilte_patch) + "\n");
+                            }
+                            stringBuilder.append(msg).append("\n");
+                        }
+                    }
+                }
+            }
+            inputStream.close();
+            return stringBuilder.toString();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
     public static void triggerUpdate(Context context, String updateFileName)
             throws IOException {
         // Add the update folder/file name
         String primaryStorage = Environment.getExternalStorageDirectory().getAbsolutePath();
         // Create the path for the update package
-        String updatePackagePath = primaryStorage + "/" + Constants.UPDATES_FOLDER + "/" + updateFileName;
-
-        // Reboot into recovery and trigger the update
-        RecoverySystem.installPackageLegacy(context, new File(updatePackagePath), false);
+        String updateFolderPath = primaryStorage + "/" + Constants.UPDATES_FOLDER;
+        String updatePackagePath = updateFolderPath + "/" + updateFileName;
+        verifySystemCompatible(context, updateFolderPath, updatePackagePath);
     }
 
     public static String getUserAgentString(Context context) {
