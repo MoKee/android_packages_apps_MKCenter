@@ -142,7 +142,7 @@ public class Utils {
 
     public static void verifySystemCompatible(Context context,String updateFolderPath, String updatePackagePath) throws IOException {
         File checker = new File("/system/bin/mkchecker");
-        if (updatePackagePath.toLowerCase().startsWith("MK") || !checker.exists()) {
+        if (updatePackagePath.toUpperCase().startsWith("MK") || !checker.exists()) {
             // Reboot into recovery and trigger the update
             RecoverySystem.installPackageLegacy(context, new File(updatePackagePath), false);
             return;
