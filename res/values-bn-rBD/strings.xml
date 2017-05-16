@@ -99,4 +99,5 @@
   <!-- experimenter mode -->
   <!-- Xposed framework check -->
   <!-- Discount -->
+  <string name="verify_system_compatible_title">MoKee system update</string>
 </resources>

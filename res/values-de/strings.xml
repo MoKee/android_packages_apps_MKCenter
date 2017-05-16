@@ -169,4 +169,5 @@
   <string name="discount_dialog_message">Vielen Dank für Ihre weitere Unterstützung an MoKee Open Source. Als ein Zeichen der Wertschätzung erhalten Sie ein zeitlich begrenztes Angebot. Für %1$d CNY erhalten Sie inkrementelle Updates, geprüfte Updates und keine Werbung im MoKee Center (spare %2$d CNY). Wenn Sie später bezahlen möchten, können Sie dieses Dialogfeld schließen und MoKee Center wieder starten, wenn Sie bereit sind.</string>
   <string name="discount_dialog_expires">Angebot endet in %s</string>
   <string name="discount_dialog_cancel">Nicht erinnern</string>
+  <string name="verify_system_compatible_title">MoKee Systemupdate</string>
 </resources>
