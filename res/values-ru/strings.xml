@@ -171,4 +171,5 @@
   <string name="discount_dialog_message">Благодарим вас за долгую поддержку проекта MoKee Open Source. Мы очень признательны вам, поэтому запускаем временное предложение. За %1$d юань вы можете установить дополнительные обновления, обновления, подтвержденные сообществом, а также убрать рекламу из приложения (со скидкой %2$d юань). Закройте окно и перезапустите приложение, если хотите заплатить позже.</string>
   <string name="discount_dialog_expires">Предложение закончится через %s</string>
   <string name="discount_dialog_cancel">Не напоминать</string>
+  <string name="verify_system_compatible_title">Обновление системы MoKee</string>
 </resources>

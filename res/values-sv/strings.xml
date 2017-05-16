@@ -157,4 +157,5 @@
   <!-- Discount -->
   <string name="discount_dialog_title">Begränsat erbjudande</string>
   <string name="discount_dialog_cancel">Påminn inte</string>
+  <string name="verify_system_compatible_title">MoKee systemuppdatering</string>
 </resources>

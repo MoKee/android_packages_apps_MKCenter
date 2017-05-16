@@ -65,6 +65,7 @@
   <string name="menu_refresh">更新</string>
   <string name="menu_delete_all">ダウンロードを削除</string>
   <string name="menu_remove_ads">広告を削除</string>
+  <string name="menu_restore">ライセンスを復元する</string>
   <!-- Donate -->
   <string name="donate_dialog_title">寄付する</string>
   <string name="donate_dialog_message">Mokee OpenSourceは利益を追求する会社ではなく、ホピ―と情熱で作られたプロジェクトです。我々自分の資金投入以外に寄付金と広告に基づいて引き続き生きています。皆様の寄付金は我々の負担を減らすことに対して助けてくれます。寄付してくれたら（ある金額以上で）、今のディバイスに広告がなくなります。</string>
@@ -72,6 +73,7 @@
   <string name="donate_dialog_via_alipay">アリペイ（支付宝）</string>
   <string name="donate_dialog_via_restore">復元する</string>
   <string name="donate_money_toast_success">寄付していただきありがとうございます!</string>
+  <string name="donate_money_title">MoKee Open Sourceに寄付する</string>
   <string name="donate_money_again">もう一度寄付する</string>
   <string name="donate_money_restored_success">成功に復元しました!</string>
   <string name="donate_money_restored_failed">デバイスの記録が見つかりませんでした。</string>
@@ -92,6 +94,8 @@
   <string name="no_available_ota_intro">最後の確認ではアップデートはありませんでした。手動でアップデートを確認するには、更新ボタンを押してください。インクリメンタルアップデートがサポートされないバージョンを実行している場合、「インクリメンタルアップデート」の設定を解除してください。</string>
   <string name="new_update_summary">新しい</string>
   <string name="old_update_summary">古い</string>
+  <string name="ota_diff_update_summary">差分更新では %s を節約できます。</string>
+  <string name="full_diff_update_summary">フルROMと比較して %s の節約</string>
   <string name="update_check_title">アップデートの確認頻度</string>
   <string name="check_manual">マニュアル</string>
   <string name="nightly_alert">このリストにNightlyアップデートを含めるようにしました。これらはサポートの対象外ですので、注意して使用してください。</string>
@@ -126,6 +130,7 @@
   <string name="download_running">実行中</string>
   <string name="download_cancelled">ダウンロードがキャンセルされました</string>
   <string name="download_already_running">ダウンロードはすでに実行中です</string>
+  <string name="download_limited_mode">ダウンロード速度が制限されています、最高速度にするために寄付をしてください。</string>
   <string name="unable_to_download_file">アップデートファイルをダウンロードできません</string>
   <string name="not_download_success">アップデートのダウンロードは成功しました</string>
   <string name="not_download_failure">アップデートをダウンロードできませんでした</string>
@@ -147,6 +152,10 @@
   <string name="pref_ota_check_summary">ダウンロード時間と帯域を節約する差分アップデートを入手</string>
   <string name="pref_ota_check_donation_request_summary">ダウンロード時間と帯域を節約する差分アップデートを入手 (この機能は%d人民元寄付後に利用可能です)</string>
   <string name="pref_ota_check_donation_request_pending_summary">時間と帯域制幅を節約する為に、増分更新内容をダウンロードする （%1$dを寄付してくれて、%2$dをさらに寄付すれば利用できる、通貨: CNY）</string>
+  <string name="pref_verify_rom">検証済みの更新</string>
+  <string name="pref_verify_rom_summary">他のユーザーにより検証された更新のみを表示する</string>
+  <string name="pref_verify_rom_donation_request_summary">検証された更新のみを表示する(人民元 %d を寄付した後利用可能)</string>
+  <string name="pref_verify_rom_donation_request_pending_summary">他のユーザーにより検証された更新のみを表示( %1$d を寄付し、さらに %2$d を寄付すれば利用可能、通貨: 人民元)</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">アップデートを適用</string>
   <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g> にアップグレードしようとしています。\n\n更新を押すと端末は再起動後、自動でリカバリーモードに移行しアップデートをインストールします。\n\n注意: この機能は互換性のあるリカバリか手動でのインストールを必要とします。</string>
@@ -158,4 +167,9 @@
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Xposed フレームワークがインストールされて、増分更新を適用した後リフラッシュする必要はありません。</string>
   <!-- Discount -->
+  <string name="discount_dialog_title">期間限定サービス</string>
+  <string name="discount_dialog_message">あなたのMoKeeオープンソースへの継続的な支援に感謝します。感謝の気持ちとしてあなたへ期間限定サービスを贈ります。 %1$d 人民元では、差分更新、検証済みの更新、MoKeeセンターからの広告の削除が出来ます。( %2$d 人民元の割引です)。後からでも支払いは可能です。</string>
+  <string name="discount_dialog_expires">サービスの有効期限は %s です。</string>
+  <string name="discount_dialog_cancel">通知を表示しない。</string>
+  <string name="verify_system_compatible_title">MoKee システム更新</string>
 </resources>

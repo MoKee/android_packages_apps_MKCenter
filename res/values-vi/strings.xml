@@ -168,4 +168,5 @@
   <string name="discount_dialog_title">Khuyến mãi có giới hạn</string>
   <string name="discount_dialog_expires">Khuyến mãi hết hạn trong %s</string>
   <string name="discount_dialog_cancel">Không nhắc lại</string>
+  <string name="verify_system_compatible_title">Hệ thống cập nhật MoKee</string>
 </resources>
