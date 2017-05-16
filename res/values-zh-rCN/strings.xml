@@ -174,6 +174,6 @@
   <string name="verify_system_compatible_title">魔趣系统更新</string>
   <string name="verify_system_compatible_message">正在进行增量更新的匹配验证…</string>
   <string name="verify_system_compatible_failed">匹配验证失败</string>
-  <string name="verify_system_compatilte_patch">下列文件不存在或已被篡改，请先恢复才能使用增量更新。</string>
-  <string name="verify_system_compatilte_img">%1$s 版本不匹配，需要 %2$s ，请更新厂商底包。</string>
+  <string name="verify_system_compatible_patch">下列文件不存在或已被篡改，请先恢复才能使用增量更新。</string>
+  <string name="verify_system_compatible_img">%1$s 版本不匹配，需要 %2$s ，请更新厂商底包。</string>
 </resources>

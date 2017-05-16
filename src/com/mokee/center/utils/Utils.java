@@ -211,19 +211,19 @@ public class Utils {
                 while ((line = bufferedReader.readLine()) != null) {
                     String msg = line.trim().split("=")[1];
                     if (line.startsWith("verify_trustzone")) {
-                        stringBuilder.append(String.format(context.getString(R.string.verify_system_compatilte_img),
+                        stringBuilder.append(String.format(context.getString(R.string.verify_system_compatible_img),
                                 "trustzone", msg) + "\n");
                     } else if (line.startsWith("verify_bootloader")) {
-                        stringBuilder.append(String.format(context.getString(R.string.verify_system_compatilte_img),
+                        stringBuilder.append(String.format(context.getString(R.string.verify_system_compatible_img),
                                 "bootloader", msg) + "\n");
                     } else if (line.startsWith("verify_baseband")) {
-                        stringBuilder.append(String.format(context.getString(R.string.verify_system_compatilte_img),
+                        stringBuilder.append(String.format(context.getString(R.string.verify_system_compatible_img),
                                 "baseband", msg) + "\n");
                     } else {
                         if (line.startsWith("apply_patch")) {
                             if (!wrotePatchBlock) {
                                 wrotePatchBlock = true;
-                                stringBuilder.append(context.getString(R.string.verify_system_compatilte_patch) + "\n");
+                                stringBuilder.append(context.getString(R.string.verify_system_compatible_patch) + "\n");
                             }
                             stringBuilder.append(msg).append("\n");
                         }
