@@ -94,8 +94,6 @@
   <string name="no_available_ota_intro">最後の確認ではアップデートはありませんでした。手動でアップデートを確認するには、更新ボタンを押してください。インクリメンタルアップデートがサポートされないバージョンを実行している場合、「インクリメンタルアップデート」の設定を解除してください。</string>
   <string name="new_update_summary">新しい</string>
   <string name="old_update_summary">古い</string>
-  <string name="ota_diff_update_summary">差分更新では %s を節約できます。</string>
-  <string name="full_diff_update_summary">フルROMと比較して %s の節約</string>
   <string name="update_check_title">アップデートの確認頻度</string>
   <string name="check_manual">マニュアル</string>
   <string name="nightly_alert">このリストにNightlyアップデートを含めるようにしました。これらはサポートの対象外ですので、注意して使用してください。</string>

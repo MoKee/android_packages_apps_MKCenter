@@ -94,8 +94,6 @@
   <string name="no_available_ota_intro">上次檢查未發現可用更新。請使用重新整理按鈕手動檢查。如果你正在執行一個不支援增量更新的舊版本，則應取消選擇「增量更新」。</string>
   <string name="new_update_summary">新</string>
   <string name="old_update_summary">舊</string>
-  <string name="ota_diff_update_summary">開啟增量更新可節省 %s 流量</string>
-  <string name="full_diff_update_summary">與完整 ROM 相比可節省 %s 流量</string>
   <string name="update_check_title">更新檢查頻率</string>
   <string name="check_manual">手動</string>
   <string name="nightly_alert">你在清單中已選取包括每夜版更新。這些更新不受支援並應該謹慎使用。</string>

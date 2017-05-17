@@ -94,8 +94,6 @@
   <string name="no_available_ota_intro">Последняя проверка не обнаружила обновлений. Чтобы проверить наличие обновлений вручную, используйте кнопку \"Обновить\". Если вы используете версию, которая находится за пределами диапазона дат, поддерживаемых ОТА обновлениями, выключите опцию \"ОТА обновления\".</string>
   <string name="new_update_summary">Новое</string>
   <string name="old_update_summary">Устаревшее</string>
-  <string name="ota_diff_update_summary">OTA обновления могут быть сохранены в %s</string>
-  <string name="full_diff_update_summary">В сравнении с полной ROM, сохранено в %s</string>
   <string name="update_check_title">Частота проверки обновлений</string>
   <string name="check_manual">Вручную</string>
   <string name="nightly_alert">Вы включили в список для поиска обновлений «ночные сборки». Помните, что техническая поддержка по ним не предоставляется и использование «ночных сборок» должно проводиться с осторожностью.</string>

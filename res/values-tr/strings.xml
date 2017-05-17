@@ -94,7 +94,6 @@
   <string name="no_available_ota_intro">Son kontorlde herhangi  bir güncelleştirme bulunamadı. Yeni güncelleştirmeleri el ile denetlemek için yenile düğmesini kullanın. Desteklenen tarih aralıkları dşında bir sürüm kullanıyorsanız \"Artımlı güncelleştirmeler\" seçeneğindeki işareti kaldırın.</string>
   <string name="new_update_summary">Yeni</string>
   <string name="old_update_summary">Eski</string>
-  <string name="full_diff_update_summary">Tüm ROM ile karşılaştırıldı, %s Sürede kaydedildi</string>
   <string name="update_check_title">Güncelleme sıklığını kontrol et</string>
   <string name="check_manual">Elle</string>
   <string name="nightly_alert">Listede günlük güncellemeleri dahil etmeyi seçtiniz. Günlük güncellemeler desteklenmemektedir ve dikkatle kullanılmalıdır.</string>

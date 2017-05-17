@@ -94,7 +94,7 @@
   <string name="no_available_ota_intro">Апошняя праверка не знайшла даступных абнаўленняў. Каб уручную праверыць наяўнасць новых абнаўленняў, націсніце кнопку «Абнавіць». Калі вы выкарыстоўваеце версію, якая знаходзiцца за межамi дыяпазону дат, падтрымованых OTA абнаўленнямi, выключыце опцыю \"OTA абнаўленнI\".</string>
   <string name="new_update_summary">Новае</string>
   <string name="old_update_summary">Старае</string>
-  <string name="ota_diff_update_summary">Дадатковыя абнаўлення могуць быць захаваны %s</string>
+  <string name="ota_diff_update_summary">Дадатковыя абнаўлення можна захаваць %s</string>
   <string name="full_diff_update_summary">У параўнанні з поўным ROM, захавана %s</string>
   <string name="update_check_title">Частата праверкI абнаўленняў</string>
   <string name="check_manual">Уручную</string>
