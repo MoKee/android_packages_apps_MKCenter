@@ -43,6 +43,12 @@ public class UpdateCheckReceiver extends BroadcastReceiver {
         SharedPreferences prefs = context.getSharedPreferences(Constants.DOWNLOADER_PREF, 0);
         int updateFrequency = prefs.getInt(Constants.UPDATE_INTERVAL_PREF, Constants.UPDATE_FREQ_DAILY);
 
+        // reset for no license user
+        if (!Utils.checkMinLicensed(context)) {
+            updateFrequency = Constants.UPDATE_FREQ_DAILY;
+            prefs.edit().putInt(Constants.UPDATE_INTERVAL_PREF, Constants.UPDATE_FREQ_DAILY).apply();
+        }
+
         if (Intent.ACTION_BOOT_COMPLETED.equals(action)) {
             // We just booted. Store the boot check state
             prefs.edit().putBoolean(Constants.BOOT_CHECK_COMPLETED, false).apply();

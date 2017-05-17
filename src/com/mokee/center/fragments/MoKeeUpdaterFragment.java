@@ -380,10 +380,14 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
         }
 
         if (mUpdateCheck != null) {
-            int check = mPrefs.getInt(Constants.UPDATE_INTERVAL_PREF, Constants.UPDATE_FREQ_DAILY);
-            mUpdateCheck.setValue(String.valueOf(check));
-            mUpdateCheck.setSummary(mapCheckValue(check));
-            mUpdateCheck.setOnPreferenceChangeListener(this);
+            if (Utils.checkMinLicensed(moKeeCenter)) {
+                int check = mPrefs.getInt(Constants.UPDATE_INTERVAL_PREF, Constants.UPDATE_FREQ_DAILY);
+                mUpdateCheck.setValue(String.valueOf(check));
+                mUpdateCheck.setSummary(mapCheckValue(check));
+                mUpdateCheck.setOnPreferenceChangeListener(this);
+            } else {
+                getPreferenceScreen().removePreference(mUpdateCheck);
+            }
         }
 
         if (mUpdateType != null) {
