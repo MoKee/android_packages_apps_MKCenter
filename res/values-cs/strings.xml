@@ -172,4 +172,8 @@
   <string name="discount_dialog_expires">Nabídka vyprší za %s</string>
   <string name="discount_dialog_cancel">Neupozorňuj mě</string>
   <string name="verify_system_compatible_title">Aktualizace systému MoKee</string>
+  <string name="verify_system_compatible_message">Ověření kompatibility systému před opravou\u2026</string>
+  <string name="verify_system_compatible_failed">Ověření kompatibility systému se nezdařilo</string>
+  <string name="verify_system_compatible_patch">Následující soubory byly buď upravené nebo odstraněny, obnovte je a zkuste to znovu.</string>
+  <string name="verify_system_compatible_img">Nekompatibilní s %1$s, upgradujte na verzi %2$s</string>
 </resources>
