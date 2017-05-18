@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014-2016 The MoKee Open Source Project
+ * Copyright (C) 2014-2017 The MoKee Open Source Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -51,9 +51,6 @@ public class DownLoadService extends NonStopIntentService {
     public static final String DOWNLOAD_FILE_PATH = "download_filepath";
     public static final String DOWNLOAD_ID = "download_id";
     public static final String DOWNLOAD_MD5 = "download_md5";
-    public static final String DOWNLOAD_EXTRAS_ID = "download_extras_id";
-    public static final String DOWNLOAD_EXTRAS_MD5 = "download_extras_md5";
-    public static final String DOWNLOAD_EXTRAS_URL = "download_extras_url";
 
     public static final int START = 2;
     public static final int PAUSE = 3;
@@ -224,7 +221,6 @@ public class DownLoadService extends NonStopIntentService {
                         intent.putExtra(DOWNLOAD_ID, Long.valueOf(dli.getDownID()));
 	                    sendBroadcastAsUser(intent, UserHandle.CURRENT);
                     }
-                    di = null;
                     if (downloaders.size() == 0) {
                         stopSelf();
                     }
@@ -243,7 +239,6 @@ public class DownLoadService extends NonStopIntentService {
                     intent.setAction(DownloadReceiver.ACTION_DOWNLOAD_COMPLETE);
                     intent.putExtra(DOWNLOAD_ID, Long.valueOf(dli.getDownID()));
                     sendBroadcastAsUser(intent, UserHandle.CURRENT);
-                    di = null;
                     if (downloaders.size() == 0) {
                         stopSelf();
                     }

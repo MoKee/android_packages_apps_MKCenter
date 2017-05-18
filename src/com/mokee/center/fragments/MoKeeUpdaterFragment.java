@@ -1101,7 +1101,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
                             @Override
                             public void run() {
                                 try {
-                                    Utils.triggerUpdate(moKeeCenter, itemInfo.getFileName());
+                                    Utils.verifySystemCompatible(moKeeCenter, itemInfo.getFileName());
                                 } catch (IOException e) {
                                     Log.e(TAG, "Unable to reboot into recovery mode", e);
                                     moKeeCenter.makeSnackbar(R.string.apply_unable_to_reboot_toast).show();
