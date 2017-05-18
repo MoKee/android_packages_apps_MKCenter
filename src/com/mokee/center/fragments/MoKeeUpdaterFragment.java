@@ -117,7 +117,6 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
     private boolean mDownloading = false;
     private long mDownloadId;
     private String mFileName;
-    private boolean mStartUpdateVisible = false;
     private int mExpHitCountdown;
 
     private AdmobPreference mAdmobView;
@@ -1084,12 +1083,6 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
     public void onStartUpdate(ItemPreference pref) {
         final ItemInfo itemInfo = pref.getItemInfo();
 
-        // Prevent the dialog from being triggered more than once
-        if (mStartUpdateVisible) {
-            return;
-        }
-        mStartUpdateVisible = true;
-
         // Get the message body right
         String dialogBody = getString(
                 itemInfo.getFileName().startsWith("OTA")
@@ -1117,12 +1110,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
                         });
                     }
                 })
-                .setNegativeButton(R.string.dialog_cancel, new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        mStartUpdateVisible = false;
-                    }
-                })
+                .setNegativeButton(R.string.dialog_cancel, null)
                 .setCancelable(false)
                 .show();
     }
