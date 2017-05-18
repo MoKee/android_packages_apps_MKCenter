@@ -94,6 +94,7 @@
   <string name="no_available_ota_intro">Le dernier contrôle n\'a pas trouvé les mises à jour disponibles. Pour vérifier manuellement les nouvelles mises à jour, utilisez le bouton Actualiser. Si vous exécutez une version qui est hors de la plage de dates de prise en charge de mise à jour incrémentielle, vous devriez désélectionner l\'option \"Mises à jour incrémentielles\".</string>
   <string name="new_update_summary">Nouveau</string>
   <string name="old_update_summary">Ancien</string>
+  <string name="ota_diff_update_summary">Les mises à jour OTA peuvent sauver %s</string>
   <string name="update_check_title">Fréquence de vérification des mises à jour</string>
   <string name="check_manual">Manuellement</string>
   <string name="nightly_alert">Vous avez choisi d\'inclure à votre liste les versions de développement. Ces versions ne disposent pas de support technique et doivent être utilisées avec précaution.</string>
@@ -169,5 +170,4 @@
   <string name="discount_dialog_message">Je vous remercie pour votre soutien continu envers MoKee Open Source. En guise de remerciements, vous avez droit à une offre à durée limitée. Avec %1$d CNY, vous pourrez profiter des mises à jour incrémentielles, vérifier les mises à jour et supprimez des annonces de MoKee Centre (économisez %2$d CNY). Si vous souhaitez payer par la suite, vous pouvez fermer cette boîte de dialogue et relancer MoKee Center à nouveau lorsque vous êtes prêt.</string>
   <string name="discount_dialog_expires">L’offre se termine dans %s</string>
   <string name="discount_dialog_cancel">Ne pas rappeler</string>
-  <string name="verify_system_compatible_title">Mise à jour du système MoKee</string>
 </resources>

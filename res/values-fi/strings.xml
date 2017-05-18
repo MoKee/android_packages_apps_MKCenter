@@ -169,5 +169,4 @@
   <string name="discount_dialog_message">Thank you for your ongoing support towards MoKee Open Source. As a token of appreciation, you are entitled to a limited time offer. With %1$d CNY, you can enjoy incremental updates, verified updates and remove ads from MoKee Centre (save %2$d CNY). If you would like to pay later, you can close this dialog and relaunch MoKee Center again when you are ready.</string>
   <string name="discount_dialog_expires">Tarjous päättyy %s</string>
   <string name="discount_dialog_cancel">Älä muistuta</string>
-  <string name="verify_system_compatible_title">Mokee järjestelmän päivitys</string>
 </resources>

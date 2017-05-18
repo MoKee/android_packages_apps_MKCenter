@@ -95,7 +95,6 @@
   <string name="new_update_summary">Nová</string>
   <string name="old_update_summary">Stará</string>
   <string name="ota_diff_update_summary">Prírastkové aktualizácie môžu byť uložené do %s</string>
-  <string name="full_diff_update_summary">V porovnaní s plnou ROM, uložené v %s</string>
   <string name="update_check_title">Frekvencia kontrôl aktualizácií</string>
   <string name="check_manual">Ručne</string>
   <string name="nightly_alert">Zvolili ste si nočné aktualizácie. Tieto aktualizácie nepodliehajú podpore a mali by sa inštalovať s rozvahou.</string>
@@ -171,9 +170,4 @@
   <string name="discount_dialog_message">Ďakujeme vám za vašu stálu podporu smerom k MoKee Open Source. Ako prejav uznania, máte nárok na obmedzenú časovú ponuku. S %1$d CNY, si môžete vychutnať prírastkové aktualizácie, overené aktualizácie a odstránenie reklamy z MoKee centra (ušetríte %2$d CNY). Ak by ste chceli platiť neskôr, môžete zavrieť toto dialógové okno a otvoriť MoKee Centrum znovu, keď budete pripravení.</string>
   <string name="discount_dialog_expires">Ponuka vyprší za %s</string>
   <string name="discount_dialog_cancel">Neupozorňuj ma</string>
-  <string name="verify_system_compatible_title">Aktualizácia systému MoKee</string>
-  <string name="verify_system_compatible_message">Overenie kompatibility systému pred opravou\u2026</string>
-  <string name="verify_system_compatible_failed">Overenie kompatibility systému zlyhalo</string>
-  <string name="verify_system_compatible_patch">Nasledujúce súbory boli buď upravené alebo odstránené, obnovte ich a skúste to znova.</string>
-  <string name="verify_system_compatible_img">Nekompatibilné s %1$s, inovujte na verziu %2$s</string>
 </resources>

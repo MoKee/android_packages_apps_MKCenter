@@ -169,5 +169,4 @@
   <string name="discount_dialog_message">Dziękujemy za dotychczasowe wsparcie dla MoKee Open Source. Jako wyraz naszego uznania otrzymujesz ograniczoną czasowo ofertę. Za %1$d juanów możesz cieszyć się aktualizacjami przyrostowymi, aktualizacjami zweryfikowanymi i możliwością usunięcia reklam z Centrum MoKee (oszczędzasz %2$d juanów). Jeżeli wolisz zapłacić później, to zamknij to okno i odwiedź ponownie Centrum MoKee, gdy będziesz gotowy.</string>
   <string name="discount_dialog_expires">Oferta wygasa za %s</string>
   <string name="discount_dialog_cancel">Nie przypominaj</string>
-  <string name="verify_system_compatible_title">Aktualizacja systemu MoKee</string>
 </resources>

@@ -93,6 +93,7 @@
   <string name="no_available_ota_intro">Zadnji pregled ni našel posodobitev. Za ročno preverjanje novih posodobitev, uporabite gumb Osveži. Če imate nameščeno različico, ki je izven podprte delne posodobitve, izklopite možnost \"Delna posodobitev\".</string>
   <string name="new_update_summary">Novo</string>
   <string name="old_update_summary">Staro</string>
+  <string name="ota_diff_update_summary">Delne posodobitve bi lahko prihranile %s</string>
   <string name="update_check_title">Preverjanja posodobitev</string>
   <string name="check_manual">Ročno</string>
   <string name="nightly_alert">Na seznamu ste izbrali ste tudi nighty posodobitve. Te so nepodprte in jih je treba uporabljati previdno.</string>
@@ -127,6 +128,7 @@
   <string name="download_running">V teku</string>
   <string name="download_cancelled">Prenos preklican</string>
   <string name="download_already_running">Prenos se že izvaja</string>
+  <string name="download_limited_mode">Prenos z omejeno hitrostjo, prosim darujte in uživali boste polno hitrost.</string>
   <string name="unable_to_download_file">Ni bilo mogoče prenesti posodobitvene datoteke</string>
   <string name="not_download_success">Posodobitev uspešno prenesena</string>
   <string name="not_download_failure">Prenos posodobitve ni uspel</string>
@@ -159,5 +161,4 @@
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Xposed framework nameščen, osvežitev frameworka ni potrebna po namestitvi delne posodobitve.</string>
   <!-- Discount -->
-  <string name="verify_system_compatible_title">MoKee nadgradnja sistema</string>
 </resources>

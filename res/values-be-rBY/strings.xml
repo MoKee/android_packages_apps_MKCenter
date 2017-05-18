@@ -95,7 +95,6 @@
   <string name="new_update_summary">Новае</string>
   <string name="old_update_summary">Старае</string>
   <string name="ota_diff_update_summary">Дадатковыя абнаўлення можна захаваць %s</string>
-  <string name="full_diff_update_summary">У параўнанні з поўным ROM, захавана %s</string>
   <string name="update_check_title">Частата праверкI абнаўленняў</string>
   <string name="check_manual">Уручную</string>
   <string name="nightly_alert">Вы ўключылi ў гэты спіс начныя абнаўленнi. Яны не падтрымліваюцца і павінны выкарыстоўвацца з асцярогай.</string>
@@ -171,5 +170,4 @@
   <string name="discount_dialog_message">Дзякуем вам за доўгую падтрымку праекта MoKee Open Source. Мы вельмі ўдзячныя вам, таму запускаем часовае прапанову. За %1$d юань вы можаце ўсталяваць дадатковыя абнаўлення, абнаўлення, пацверджаныя супольнасцю, а таксама прыбраць рэкламу з прыкладання (са зніжкай %2$d юань). Зачыніце акно і перазапусціце прыкладанне, калі хочаце заплаціць пазней.</string>
   <string name="discount_dialog_expires">Прапанова скончыцца праз %s</string>
   <string name="discount_dialog_cancel">Не нагадваць</string>
-  <string name="verify_system_compatible_title">Абнаўленне сістэмы MoKee</string>
 </resources>

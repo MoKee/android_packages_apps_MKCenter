@@ -158,5 +158,4 @@
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Xposed framework installeret, intet behov for at reflashe framework efter anvendelse af trinvise opdateringer.</string>
   <!-- Discount -->
-  <string name="verify_system_compatible_title">MoKee systemopdatering</string>
 </resources>

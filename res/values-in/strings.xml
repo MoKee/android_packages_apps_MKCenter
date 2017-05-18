@@ -169,5 +169,4 @@
   <string name="discount_dialog_message">Terima kasih untuk dukungan terus menerus terhadap MoKee Open Source. Sebagai tanda penghargaan, anda berhak mendapatkan penawaran berbatas waktu. Dengan %1$d CNY, anda dapat menikmati pembaruan incremental, pembaruan terverifikasi dan menghapus iklan dari pusat MoKee (Hemat %2$d CNY). Jika anda ingin membayar nanti, anda dapat menutup dialog ini dan buka pusat MoKee lagi ketika anda sudah siap.</string>
   <string name="discount_dialog_expires">Penawaran berakhir dalam %s</string>
   <string name="discount_dialog_cancel">Jangan ingatkan</string>
-  <string name="verify_system_compatible_title">Pembaruan sistem MoKee</string>
 </resources>

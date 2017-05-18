@@ -159,5 +159,4 @@
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">סביבת Xposed מותקנת, אין צורך להתקין מחדש את הסביבה לאחר התקנה של עדכוני OTA.</string>
   <!-- Discount -->
-  <string name="verify_system_compatible_title">עדכון מערכת MoKee</string>
 </resources>
