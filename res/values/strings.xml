@@ -105,7 +105,7 @@
     <string name="new_update_summary">New</string>
     <string name="old_update_summary">Old</string>
     <string name="ota_diff_update_summary">Incremental updates can save %s</string>
-    <string name="full_diff_update_summary">Compared with full ROM, saves %s</string>
+    <string name="full_diff_update_summary">Saves %s when compared with full ROM</string>
     <string name="update_check_title">Check update freq</string>
     <string name="check_manual">Manual</string>
     <string name="nightly_alert">You have selected to include nightly updates in this list. These are unsupported and should be used with caution.</string>
