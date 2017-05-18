@@ -30,6 +30,9 @@ public class Constants {
     public static final String ACTION_PAYMENT_REQUEST = "com.mokee.pay.action.PAYMENT_REQUEST";
     public static final String ACTION_RESTORE_REQUEST = "com.mokee.pay.action.RESTORE_REQUEST";
     public static final String ACTION_POINT_REQUEST = "com.mokee.pay.action.POINT_REQUEST";
+    public static final String ACTION_VERIFY_REQUEST = "com.mokee.center.action.VERIFY_REQUEST";
+
+    public static final String CHECK_LOG_FILE = "/cache/recovery/check_log";
 
     // Download related
     public static final String UPDATES_FOLDER = "mkupdater";

@@ -64,13 +64,8 @@ public class DownloadReceiver extends BroadcastReceiver {
             if (!TextUtils.isEmpty(downloadUrl)) {
                 DownLoadDao.getInstance().updataState(downloadUrl, DownLoader.STATUS_PAUSED);
             }
-            String downloadExtrasUrl = prefs.getString(DownLoadService.DOWNLOAD_EXTRAS_URL, "");
-            if (!TextUtils.isEmpty(downloadExtrasUrl)) {
-                DownLoadDao.getInstance().updataState(downloadExtrasUrl, DownLoader.STATUS_PAUSED);
-            }
             prefs.edit().remove(DownLoadService.DOWNLOAD_ID).remove(DownLoadService.DOWNLOAD_MD5)
-                    .remove(DownLoadService.DOWNLOAD_URL).remove(DownLoadService.DOWNLOAD_EXTRAS_ID)
-                    .remove(DownLoadService.DOWNLOAD_EXTRAS_MD5).remove(DownLoadService.DOWNLOAD_EXTRAS_URL).apply();
+                    .remove(DownLoadService.DOWNLOAD_URL).apply();
         } else if (ACTION_DOWNLOAD_COMPLETE.equals(action)) { // 接收完成通知
             long id = intent.getLongExtra(DownLoadService.DOWNLOAD_ID, -1);
             handleDownloadComplete(context, prefs, id);

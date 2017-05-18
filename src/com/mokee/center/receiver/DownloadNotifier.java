@@ -42,7 +42,6 @@ public class DownloadNotifier {
         int mContentTitleID, mTickerID, mActionTitleID, mTextID;
         mContentTitleID = R.string.not_download_success;
         mTickerID = R.string.not_download_success;
-        mActionTitleID = R.string.not_action_install_update;
         mTextID = updateUiName.startsWith("OTA") ? R.string.not_download_install_ota_notice : R.string.not_download_install_notice;
 
         NotificationCompat.BigTextStyle style = new NotificationCompat.BigTextStyle()
@@ -56,11 +55,11 @@ public class DownloadNotifier {
                 .setContentText(updateUiName)
                 .setTicker(context.getString(mTickerID))
                 .setStyle(style);
-        if (Utils.checkLicensed(context)) {
-            builder.addAction(R.drawable.ic_tab_install,
-                    context.getString(mActionTitleID),
-                    createInstallPendingIntent(context, updateFile));
-        }
+//        if (Utils.checkLicensed(context)) {
+//            builder.addAction(R.drawable.ic_tab_install,
+//                    context.getString(mActionTitleID),
+//                    createInstallPendingIntent(context, updateFile));
+//        }
 
         // Wearable install action
         NotificationCompat.WearableExtender extender = new NotificationCompat.WearableExtender();

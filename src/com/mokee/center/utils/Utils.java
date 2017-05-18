@@ -19,17 +19,24 @@ package com.mokee.center.utils;
 
 import android.app.Activity;
 import android.app.AlarmManager;
+import android.app.AlertDialog;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Environment;
+import android.os.Handler;
 import android.os.RecoverySystem;
 import android.support.v7.preference.PreferenceFragmentCompat;
 import android.text.format.DateUtils;
+import android.view.LayoutInflater;
+import android.view.ViewGroup;
+import android.widget.TextView;
+import android.widget.Toast;
 
 import com.mokee.center.R;
 import com.mokee.center.db.DownLoadDao;
@@ -40,8 +47,14 @@ import com.mokee.center.service.UpdateCheckService;
 import com.mokee.os.Build;
 import com.mokee.security.License;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.HashMap;
 import java.util.Locale;
 import java.util.Random;
 
@@ -128,13 +141,71 @@ public class Utils {
         }
     }
 
+    public static HashMap<String, String> buildSystemCompatibleMessage(Context context) {
+        try {
+            InputStream inputStream = new FileInputStream(new File(Constants.CHECK_LOG_FILE));
+            StringBuilder stringBuilder = new StringBuilder();
+            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(inputStream));
+            String line;
+            boolean wrotePatchBlock = false;
+            HashMap<String, String> hashMap = new HashMap<>();
+            if (bufferedReader != null) {
+                while ((line = bufferedReader.readLine()) != null) {
+                    String msg = line.trim().split("=")[1];
+                    if (line.startsWith("verify_trustzone")) {
+                        stringBuilder.append(String.format(context.getString(R.string.verify_system_compatible_img),
+                                "trustzone", msg) + "\n");
+                    } else if (line.startsWith("verify_bootloader")) {
+                        stringBuilder.append(String.format(context.getString(R.string.verify_system_compatible_img),
+                                "bootloader", msg) + "\n");
+                    } else if (line.startsWith("verify_baseband")) {
+                        stringBuilder.append(String.format(context.getString(R.string.verify_system_compatible_img),
+                                "baseband", msg) + "\n");
+                    } else if (line.startsWith("exit_status")) {
+                        hashMap.put("status", msg);
+                    } else if (line.startsWith("apply_patch")) {
+                        if (!wrotePatchBlock) {
+                            wrotePatchBlock = true;
+                            stringBuilder.append(context.getString(R.string.verify_system_compatible_patch) + "\n");
+                        }
+                        stringBuilder.append(msg).append("\n");
+                    }
+                }
+                hashMap.put("result", stringBuilder.toString());
+            }
+            inputStream.close();
+            return hashMap;
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    public static void verifySystemCompatible(Activity context, String updateFileName) throws IOException {
+        // Add the update folder/file name
+        String primaryStorage = Environment.getExternalStorageDirectory().getAbsolutePath();
+        // Create the path for the update package
+        String updatePackagePath = primaryStorage + "/" + Constants.UPDATES_FOLDER + "/" + updateFileName;
+
+        File checker = new File("/system/bin/mkchecker");
+        if (updateFileName.toUpperCase().startsWith("MK") || !checker.exists()) {
+            // Reboot into recovery and trigger the update
+            RecoverySystem.installPackageLegacy(context, new File(updatePackagePath), false);
+            return;
+        }
+        Intent intent = new Intent(Constants.ACTION_VERIFY_REQUEST);
+        intent.putExtra("update_package_path", updatePackagePath);
+        context.startActivityForResult(intent, 0);
+    }
+
     public static void triggerUpdate(Context context, String updateFileName)
             throws IOException {
         // Add the update folder/file name
         String primaryStorage = Environment.getExternalStorageDirectory().getAbsolutePath();
         // Create the path for the update package
         String updatePackagePath = primaryStorage + "/" + Constants.UPDATES_FOLDER + "/" + updateFileName;
-
         // Reboot into recovery and trigger the update
         RecoverySystem.installPackageLegacy(context, new File(updatePackagePath), false);
     }

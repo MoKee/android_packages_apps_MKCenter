@@ -171,4 +171,11 @@
   <string name="discount_dialog_message">感谢您对魔趣开源项目的长期支持，现在您可享受限时优惠，%1$d 元获得增量更新、放心刷™并移除界面广告（立省 %2$d 元）！如果您想要稍后支付，可点按提示框外关闭窗口并在准备就绪后重新打开程序。</string>
   <string name="discount_dialog_expires">距离限时折扣结束还剩 %s</string>
   <string name="discount_dialog_cancel">不再提醒</string>
+  <string name="verify_system_compatible_title">魔趣更新验证</string>
+  <string name="verify_system_compatible_message">正在验证增量更新的兼容性</string>
+  <string name="verify_system_compatible_failed">兼容性验证失败</string>
+  <string name="verify_system_compatible_patch">下列文件不存在或已被篡改，请恢复原文件后再使用增量更新。</string>
+  <string name="verify_system_compatible_img">%1$s 版本不匹配，需要 %2$s ，请更新厂商底包。</string>
+  <string name="verify_system_compatible_root_request">更新验证组件需要获取ROOT权限才能完成文件校验，如果您选择"跳过"，这一过程将推迟到进入恢复模式后执行。</string>
+  <string name="verify_system_compatible_root_skip">跳过</string>
 </resources>

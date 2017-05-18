@@ -22,8 +22,8 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.mokee.utils.MoKeeUtils;
 import android.os.Bundle;
+import android.os.RecoverySystem;
 import android.os.UserHandle;
 import android.support.annotation.StringRes;
 import android.support.design.widget.CoordinatorLayout;
@@ -49,6 +49,10 @@ import com.mokee.center.service.UpdateCheckService;
 import com.mokee.center.utils.RequestUtils;
 import com.mokee.center.utils.Utils;
 import com.mokee.center.widget.SimpleOnSeekBarChangeListener;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.HashMap;
 
 public class MoKeeCenter extends AppCompatActivity {
 
@@ -209,6 +213,57 @@ public class MoKeeCenter extends AppCompatActivity {
                 break;
             case 408:
                 makeSnackbar(R.string.donate_money_restored_timeout).show();
+                break;
+            case 8000:
+            case 8001:
+                try {
+                    Bundle bundle = data.getExtras();
+                    String updatePackagePath = bundle.getString("update_package_path");
+                    LayoutInflater inflater = LayoutInflater.from(getApplicationContext());
+                    ViewGroup resultView = (ViewGroup) inflater.inflate(R.layout.result, null);
+                    AlertDialog.Builder builder = new AlertDialog.Builder(getApplicationContext());
+                    if (resultCode == 8000) {
+                        if (new File(Constants.CHECK_LOG_FILE).exists()) {
+                            HashMap<String, String> hashMap = Utils.buildSystemCompatibleMessage(getApplicationContext());
+                            if (hashMap.size() != 0 && hashMap.get("status").equals("7")) {
+                                builder.setTitle(R.string.verify_system_compatible_failed)
+                                        .setView(resultView)
+                                        .setCancelable(false)
+                                        .setPositiveButton(android.R.string.ok, null);
+                                TextView textView = (TextView) resultView.findViewById(R.id.message);
+                                textView.setText(hashMap.get("result"));
+                                builder.show();
+                            } else {
+                                // Reboot into recovery and trigger the update
+                                RecoverySystem.installPackageLegacy(getApplicationContext(), new File(updatePackagePath), false);
+                            }
+                        } else {
+                            // Reboot into recovery and trigger the update
+                            RecoverySystem.installPackageLegacy(getApplicationContext(), new File(updatePackagePath), false);
+                        }
+                    } else {
+                        builder.setTitle(R.string.verify_system_compatible_title)
+                                .setView(resultView)
+                                .setCancelable(false)
+                                .setPositiveButton(android.R.string.ok, null)
+                                .setNegativeButton(R.string.verify_system_compatible_root_skip, new DialogInterface.OnClickListener() {
+                                    @Override
+                                    public void onClick(DialogInterface dialog, int which) {
+                                        // Reboot into recovery and trigger the update
+                                        try {
+                                            RecoverySystem.installPackageLegacy(getApplicationContext(), new File(updatePackagePath), false);
+                                        } catch (IOException e) {
+                                            e.printStackTrace();
+                                        }
+                                    }
+                                });
+                        TextView textView = (TextView) resultView.findViewById(R.id.message);
+                        textView.setText(R.string.verify_system_compatible_root_request);
+                        builder.show();
+                    }
+                } catch (IOException e) {
+                    makeSnackbar(R.string.apply_unable_to_reboot_toast).show();
+                }
                 break;
         }
         super.onActivityResult(requestCode, resultCode, data);
