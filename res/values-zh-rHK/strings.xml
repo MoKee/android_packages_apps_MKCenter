@@ -172,5 +172,10 @@
   <string name="discount_dialog_expires">Offer expires in %s</string>
   <string name="discount_dialog_cancel">Don\'t remind</string>
   <string name="verify_system_compatible_title">MoKee 系統更新</string>
+  <string name="verify_system_compatible_message">正在驗證增量更新的相容性</string>
+  <string name="verify_system_compatible_failed">系統相容性驗證失敗</string>
+  <string name="verify_system_compatible_patch">下列檔案不存在或已被篡改，請還原原檔案後再使用增量更新。</string>
+  <string name="verify_system_compatible_img">%1$s 不相容，請升級到版本 %2$s</string>
+  <string name="verify_system_compatible_root_request">更新驗證組件需要 Root 許可權以即時驗證更新的相容性。如果你選擇跳過，這一步將推遲並在恢復模式下執行。</string>
   <string name="verify_system_compatible_root_skip">略過</string>
 </resources>
