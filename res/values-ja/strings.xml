@@ -169,4 +169,6 @@
   <string name="discount_dialog_message">あなたのMoKeeオープンソースへの継続的な支援に感謝します。感謝の気持ちとしてあなたへ期間限定サービスを贈ります。 %1$d 人民元では、差分更新、検証済みの更新、MoKeeセンターからの広告の削除が出来ます。( %2$d 人民元の割引です)。後からでも支払いは可能です。</string>
   <string name="discount_dialog_expires">サービスの有効期限は %s です。</string>
   <string name="discount_dialog_cancel">通知を表示しない。</string>
+  <string name="verify_system_compatible_title">MoKee システム更新</string>
+  <string name="verify_system_compatible_root_skip">スキップ</string>
 </resources>

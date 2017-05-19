@@ -162,4 +162,5 @@
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">إطار إكسبوسيد مثبتة بالفعل، تمكين التحديث سوف يبقى الإطار.</string>
   <!-- Discount -->
+  <string name="verify_system_compatible_root_skip">تخطي</string>
 </resources>

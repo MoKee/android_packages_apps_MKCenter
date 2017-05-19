@@ -170,4 +170,6 @@
   <string name="discount_dialog_message">Дзякуем вам за доўгую падтрымку праекта MoKee Open Source. Мы вельмі ўдзячныя вам, таму запускаем часовае прапанову. За %1$d юань вы можаце ўсталяваць дадатковыя абнаўлення, абнаўлення, пацверджаныя супольнасцю, а таксама прыбраць рэкламу з прыкладання (са зніжкай %2$d юань). Зачыніце акно і перазапусціце прыкладанне, калі хочаце заплаціць пазней.</string>
   <string name="discount_dialog_expires">Прапанова скончыцца праз %s</string>
   <string name="discount_dialog_cancel">Не нагадваць</string>
+  <string name="verify_system_compatible_title">Абнаўленне сістэмы MoKee</string>
+  <string name="verify_system_compatible_root_skip">Прапусціць</string>
 </resources>

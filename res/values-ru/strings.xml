@@ -94,6 +94,7 @@
   <string name="no_available_ota_intro">Последняя проверка не обнаружила обновлений. Чтобы проверить наличие обновлений вручную, используйте кнопку \"Обновить\". Если вы используете версию, которая находится за пределами диапазона дат, поддерживаемых ОТА обновлениями, выключите опцию \"ОТА обновления\".</string>
   <string name="new_update_summary">Новое</string>
   <string name="old_update_summary">Устаревшее</string>
+  <string name="ota_diff_update_summary">Частичные обновления могут сохранить %s</string>
   <string name="update_check_title">Частота проверки обновлений</string>
   <string name="check_manual">Вручную</string>
   <string name="nightly_alert">Вы включили в список для поиска обновлений «ночные сборки». Помните, что техническая поддержка по ним не предоставляется и использование «ночных сборок» должно проводиться с осторожностью.</string>
@@ -169,4 +170,6 @@
   <string name="discount_dialog_message">Благодарим вас за долгую поддержку проекта MoKee Open Source. Мы очень признательны вам, поэтому запускаем временное предложение. За %1$d юань вы можете установить дополнительные обновления, обновления, подтвержденные сообществом, а также убрать рекламу из приложения (со скидкой %2$d юань). Закройте окно и перезапустите приложение, если хотите заплатить позже.</string>
   <string name="discount_dialog_expires">Предложение закончится через %s</string>
   <string name="discount_dialog_cancel">Не напоминать</string>
+  <string name="verify_system_compatible_title">Обновление системы MoKee</string>
+  <string name="verify_system_compatible_root_skip">Пропустить</string>
 </resources>

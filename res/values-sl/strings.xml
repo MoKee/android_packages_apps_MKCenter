@@ -161,4 +161,6 @@
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Xposed framework nameščen, osvežitev frameworka ni potrebna po namestitvi delne posodobitve.</string>
   <!-- Discount -->
+  <string name="verify_system_compatible_title">MoKee nadgradnja sistema</string>
+  <string name="verify_system_compatible_root_skip">Preskoči</string>
 </resources>

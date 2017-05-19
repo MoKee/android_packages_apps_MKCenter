@@ -158,4 +158,5 @@
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Xposed framework instalate, nu e nevoie de reflash cadru după aplicarea actualizări incrementale.</string>
   <!-- Discount -->
+  <string name="verify_system_compatible_root_skip">Omite</string>
 </resources>

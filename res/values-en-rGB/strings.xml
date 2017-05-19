@@ -157,4 +157,6 @@
   <string name="show_exp_already">No need, you have already enabled experimental settings.</string>
   <!-- Xposed framework check -->
   <!-- Discount -->
+  <string name="verify_system_compatible_title">MoKee system update</string>
+  <string name="verify_system_compatible_root_skip">Skip</string>
 </resources>

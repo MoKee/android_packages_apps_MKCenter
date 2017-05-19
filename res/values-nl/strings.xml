@@ -170,4 +170,6 @@
   <string name="discount_dialog_message">Dank u voor uw voortdurende steun in de richting van Mokee Open Source. Als blijk van waardering, hebt u recht op een beperkte aanbieding. Met%1$d CNY, kunt u genieten van incrementele updates, geverifieerd updates en advertenties vrije Mokee Centre (behalve%2$d CNY). Als je later betalen wilt, kunt u dit dialoog sluiten en herstart Mokee Centre als u klaar bent.</string>
   <string name="discount_dialog_expires">Voorstel verloopt over %s</string>
   <string name="discount_dialog_cancel">Niet herinneren</string>
+  <string name="verify_system_compatible_title">MoKee systeem update</string>
+  <string name="verify_system_compatible_root_skip">Overslaan</string>
 </resources>

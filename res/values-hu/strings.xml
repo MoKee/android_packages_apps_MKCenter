@@ -158,4 +158,6 @@
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Xposed keretrendszer telepítve, nem szükséges visszamásolni inkrementális frissítések alkalmazása után.</string>
   <!-- Discount -->
+  <string name="verify_system_compatible_title">MoKee rendszerfrissítés</string>
+  <string name="verify_system_compatible_root_skip">Kihagyás</string>
 </resources>

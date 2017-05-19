@@ -169,4 +169,6 @@
   <string name="discount_dialog_message">Σας ευχαριστούμε για την συνεχή υποστήριξή σας προς την ανοικτή πηγή MoKee. Ως ένδειξη εκτίμησης, έχετε το δικαίωμα για μια προσφορά περιορισμένου χρόνου. Με %1$d CNY, μπορείτε να απολαύσετε σύντομες ενημερώσεις, επαληθευμένες ενημερώσεις και να αφαιρέσετε τις διαφημίσεις από το κέντρο MoKee (εξοικονόμηση %2$d CNY). Αν θα θέλατε να πληρώσετε αργότερα, μπορείτε να κλείσετε αυτό το παράθυρο διαλόγου και να ξαναρχίσει το MoKee κέντρο και πάλι όταν είστε έτοιμοι.</string>
   <string name="discount_dialog_expires">Η προσφορά λήγει σε %s</string>
   <string name="discount_dialog_cancel">Χωρίς υπενθύμιση</string>
+  <string name="verify_system_compatible_title">Ενημέρωση συστήματος MoKee</string>
+  <string name="verify_system_compatible_root_skip">Παράλειψη</string>
 </resources>
