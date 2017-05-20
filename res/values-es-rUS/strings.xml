@@ -95,6 +95,7 @@
   <string name="new_update_summary">Nuevo</string>
   <string name="old_update_summary">Antiguo</string>
   <string name="ota_diff_update_summary">Las actualizaciones incrementales pueden ahorrar %s</string>
+  <string name="full_diff_update_summary">Ahorrarás %s comparado con la ROM completa</string>
   <string name="update_check_title">Comprobar la frecuencia de actualización</string>
   <string name="check_manual">Manual</string>
   <string name="nightly_alert">Has elegido incluir actualizaciones no estables en esta lista. Este tipo de actualizaciones no disponen de soporte al usuario y deberían ser utilizadas con precaución.</string>
@@ -171,5 +172,10 @@
   <string name="discount_dialog_expires">La oferta caduca en %s</string>
   <string name="discount_dialog_cancel">No recordar</string>
   <string name="verify_system_compatible_title">Actualización del sistema MoKee</string>
+  <string name="verify_system_compatible_message">Verificando compatibilidad del sistema antes de parchear\u2026</string>
+  <string name="verify_system_compatible_failed">No se pudo verificar la compatibilidad del sistema</string>
+  <string name="verify_system_compatible_patch">Los siguientes archivos se han modificado o eliminado, por favor restauralos y vuelve a intentarlo.</string>
+  <string name="verify_system_compatible_img">%1$s es incompatible, actualiza a la versión %2$s</string>
+  <string name="verify_system_compatible_root_request">Permiso de superusuario es requerido por el Plugin de comprobación de actualización para verificar la compatibilidad de actualización ahora. Si decides saltar, este paso se retrasa y será realizado en el modo recovery.</string>
   <string name="verify_system_compatible_root_skip">Saltar</string>
 </resources>
