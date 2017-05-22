@@ -156,6 +156,9 @@ public class Utils {
                     } else if (line.startsWith("verify_baseband")) {
                         stringBuilder.append(String.format(context.getString(R.string.verify_system_compatible_img),
                                 "baseband", msg) + "\n");
+                    } else if (line.startsWith("verify_modem")) {
+                        stringBuilder.append(String.format(context.getString(R.string.verify_system_compatible_img),
+                                "modem", msg) + "\n");
                     } else if (line.startsWith("exit_status")) {
                         hashMap.put("status", msg);
                     } else if (line.startsWith("apply_patch")) {
