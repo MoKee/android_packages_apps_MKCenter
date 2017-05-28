@@ -94,6 +94,8 @@
   <string name="no_available_ota_intro">L\'ultimo controllo non ha trovato eventuali aggiornamenti disponibili. Per controllare manualmente nuovi aggiornamenti, utilizzare il pulsante Aggiorna. Se si esegue una versione che è fuori dal aggiornamento supportato, è necessario deselezionare l\'opzione \"Aggiornamenti incrementali\".</string>
   <string name="new_update_summary">Nuova</string>
   <string name="old_update_summary">Vecchia</string>
+  <string name="ota_diff_update_summary">Gli aggiornamenti incrementali possono salvare %s</string>
+  <string name="full_diff_update_summary">Risparmio del %s se comparato alla ROM completa</string>
   <string name="update_check_title">Frequenza controllo aggiornamenti</string>
   <string name="check_manual">Manuale</string>
   <string name="nightly_alert">Hai scelto di includere le nightly nella lista degli aggiornamenti. Queste non sono supportate e andrebbero usate con cautela.</string>
@@ -170,5 +172,9 @@
   <string name="discount_dialog_expires">L\'offerta scade tra %s</string>
   <string name="discount_dialog_cancel">Non ricordarmelo</string>
   <string name="verify_system_compatible_title">Aggiornamento di sistema MoKee</string>
+  <string name="verify_system_compatible_message">Verifica la compatibilità del sistema prima di patching\u2026</string>
+  <string name="verify_system_compatible_failed">Verifica della compatibilità del sistema fallita</string>
+  <string name="verify_system_compatible_patch">I seguenti file sono sia stati modificati o rimossi, si prega di ripristinarli e riprovare.</string>
+  <string name="verify_system_compatible_img">%1$s incompatibili, si prega di aggiornare alla versione %2$s</string>
   <string name="verify_system_compatible_root_skip">Salta</string>
 </resources>
