@@ -237,11 +237,11 @@ public class MoKeeCenter extends AppCompatActivity {
                                 builder.show();
                             } else {
                                 // Reboot into recovery and trigger the update
-                                Utils.triggerUpdateByHandler(this, mainHandler, updatePackagePath);
+                                Utils.triggerUpdateByPath(this, updatePackagePath);
                             }
                         } else {
                             // Reboot into recovery and trigger the update
-                            Utils.triggerUpdateByHandler(this, mainHandler, updatePackagePath);
+                            Utils.triggerUpdateByPath(this, updatePackagePath);
                         }
                     } else {
                         builder.setTitle(R.string.verify_system_compatible_title)
@@ -253,7 +253,8 @@ public class MoKeeCenter extends AppCompatActivity {
                                     public void onClick(DialogInterface dialog, int which) {
                                         // Reboot into recovery and trigger the update
                                         try {
-                                            Utils.triggerUpdateByHandler(MoKeeCenter.this, mainHandler, updatePackagePath);
+                                            dialog.dismiss();
+                                            Utils.triggerUpdateByPath(MoKeeCenter.this, updatePackagePath);
                                         } catch (IOException e) {
                                             e.printStackTrace();
                                         }

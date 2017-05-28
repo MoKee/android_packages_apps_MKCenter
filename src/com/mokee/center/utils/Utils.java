@@ -209,19 +209,14 @@ public class Utils {
         RecoverySystem.installPackageLegacy(context, new File(updatePackagePath), false);
     }
 
-    public static void triggerUpdateByHandler(Context context, Handler handler, String updatePackagePath)
+    public static void triggerUpdateByPath(Context context, String updatePackagePath)
             throws IOException {
-        handler.post(new Runnable() {
-            @Override
-            public void run() {
-                // Reboot into recovery and trigger the update
-                try {
-                    RecoverySystem.installPackageLegacy(context, new File(updatePackagePath), false);
-                } catch (IOException e) {
-                    e.printStackTrace();
-                }
-            }
-        });
+        // Reboot into recovery and trigger the update
+        try {
+            RecoverySystem.installPackageLegacy(context, new File(updatePackagePath), false);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 
     public static String getUserAgentString(Context context) {
