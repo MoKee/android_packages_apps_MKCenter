@@ -172,5 +172,10 @@
   <string name="discount_dialog_expires">Teklif, %s süresi doldu</string>
   <string name="discount_dialog_cancel">Hiç hatırlatma</string>
   <string name="verify_system_compatible_title">MoKee sistem güncelleme</string>
+  <string name="verify_system_compatible_message">\u2026 Öncesi sistem uyumluluğu doğrulanıyor</string>
+  <string name="verify_system_compatible_failed">Sistem uyumluluğunu doğrulama başarısız oldu</string>
+  <string name="verify_system_compatible_patch">Aşağıdaki dosyalar değiştirilmiş yada kaldırılmış, lütfen onları geri yükleyin veya tekrar deneyin.</string>
+  <string name="verify_system_compatible_img">Uyumsuz sürüm %1$s lütfen versiyonu yükseltin %2$s</string>
+  <string name="verify_system_compatible_root_request">Kök güncelleştirme izini doğrulama eklentisi güncelleştirme uyumluluğunu doğrulamak için gereklidir. Bu işlemi atlamayı seçerseniz, bu adım gecikmeli veya kurtarma modunda yapılacaktır.</string>
   <string name="verify_system_compatible_root_skip">Atla</string>
 </resources>
