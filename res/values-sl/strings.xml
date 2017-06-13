@@ -76,6 +76,7 @@
   <string name="donate_money_title">Prispevam k MoKee OpenSource</string>
   <string name="donate_money_again">Prispevaj ponovno</string>
   <string name="donate_money_restored_success">Uspešno obnovljeno!</string>
+  <string name="donate_money_restored_failed">Ne najdem zapisa o napravi.</string>
   <string name="donate_money_restored_timeout">Povezava potekla, prosimo poskusite znova</string>
   <string name="donate_money_info">Skupaj ste podarili %1$d CNY, več kot %2$s donatorjev v svetovnem merilu!</string>
   <string name="donate_money_info_with_rank">Skupno ste prispevali CNY %1$d, več kot %2$s donatorjev v svetovnem merilu, uvrstitev št.%3$d!</string>
