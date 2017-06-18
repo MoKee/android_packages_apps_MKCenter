@@ -94,6 +94,8 @@
   <string name="no_available_ota_intro">A última verificação não encontrou nenhuma atualização disponível. Para verificar novas atualizações manualmente, use o botão Recarregar. Se você estiver executando uma versão que está fora do intervalo de data de atualização incremental com suporte, você deve desmarcar a opção \"Atualizações incrementais\".</string>
   <string name="new_update_summary">Novo</string>
   <string name="old_update_summary">Antigo</string>
+  <string name="ota_diff_update_summary">Atualizações incrementais podem salvar %s</string>
+  <string name="full_diff_update_summary">Salva %s em relação a ROM completa</string>
   <string name="update_check_title">Verificar frequência de atualização</string>
   <string name="check_manual">Manual</string>
   <string name="nightly_alert">Você selecionou para incluir atualizações nightly nesta lista. Elas não oferecem suporte e devem ser usadas com cautela.</string>
@@ -170,5 +172,10 @@
   <string name="discount_dialog_expires">A oferta expira em %s</string>
   <string name="discount_dialog_cancel">Não lembrar</string>
   <string name="verify_system_compatible_title">Atualização de sistema da Mokee</string>
+  <string name="verify_system_compatible_message">Verificar a compatibilidade do sistema antes de patchear\u2026</string>
+  <string name="verify_system_compatible_failed">Verifição de compatibilidade do sistema falhou</string>
+  <string name="verify_system_compatible_patch">Os seguintes arquivos ou foram modificados ou removidos, por favor, restaure-os e tente novamente.</string>
+  <string name="verify_system_compatible_img">%1$s incompatível, por favor, atualize para a versão %2$s</string>
+  <string name="verify_system_compatible_root_request">Permissão de root é exigida para atualizar o Plugin de verificação de modo a verificar a compatibilidade de atualização. Se você optar por ignorar, esta etapa será adiada e executada no modo de recuperação.</string>
   <string name="verify_system_compatible_root_skip">Pular</string>
 </resources>
