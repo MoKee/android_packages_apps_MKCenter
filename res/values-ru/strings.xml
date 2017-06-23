@@ -95,6 +95,7 @@
   <string name="new_update_summary">Новое</string>
   <string name="old_update_summary">Устаревшее</string>
   <string name="ota_diff_update_summary">Частичные обновления могут сохранить %s</string>
+  <string name="full_diff_update_summary">Сэкономит %s по сравнению с полным пакетом обновления</string>
   <string name="update_check_title">Частота проверки обновлений</string>
   <string name="check_manual">Вручную</string>
   <string name="nightly_alert">Вы включили в список для поиска обновлений «ночные сборки». Помните, что техническая поддержка по ним не предоставляется и использование «ночных сборок» должно проводиться с осторожностью.</string>
@@ -171,5 +172,10 @@
   <string name="discount_dialog_expires">Предложение закончится через %s</string>
   <string name="discount_dialog_cancel">Не напоминать</string>
   <string name="verify_system_compatible_title">Обновление системы MoKee</string>
+  <string name="verify_system_compatible_message">Проверка совместимости системы перед обновлением\u2026</string>
+  <string name="verify_system_compatible_failed">Не удалось проверить совместимость системы</string>
+  <string name="verify_system_compatible_patch">Следующие файлы были изменены или удалены, пожалуйста, восстановите их и повторите попытку.</string>
+  <string name="verify_system_compatible_img">Несовместимый %1$s, пожалуйста обновите до версии %2$s</string>
+  <string name="verify_system_compatible_root_request">Требуется корневой доступ, чтобы обновить Плагин Проверки Совместимости обновлений. Если вы решите пропустить этот шаг, это действие будет выполнено в режиме Recovery.</string>
   <string name="verify_system_compatible_root_skip">Пропустить</string>
 </resources>

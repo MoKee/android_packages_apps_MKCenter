@@ -95,6 +95,7 @@
   <string name="new_update_summary">Новае</string>
   <string name="old_update_summary">Старае</string>
   <string name="ota_diff_update_summary">Дадатковыя абнаўлення можна захаваць %s</string>
+  <string name="full_diff_update_summary">Зэканоміць %s у параўнанні з поўным пакетам абнаўлення</string>
   <string name="update_check_title">Частата праверкI абнаўленняў</string>
   <string name="check_manual">Уручную</string>
   <string name="nightly_alert">Вы ўключылi ў гэты спіс начныя абнаўленнi. Яны не падтрымліваюцца і павінны выкарыстоўвацца з асцярогай.</string>
@@ -171,5 +172,10 @@
   <string name="discount_dialog_expires">Прапанова скончыцца праз %s</string>
   <string name="discount_dialog_cancel">Не нагадваць</string>
   <string name="verify_system_compatible_title">Абнаўленне сістэмы MoKee</string>
+  <string name="verify_system_compatible_message">Праверка сумяшчальнасці сістэмы перад абнаўленнем\u2026</string>
+  <string name="verify_system_compatible_failed">Не атрымалася праверыць сумяшчальнасць сістэмы</string>
+  <string name="verify_system_compatible_patch">Наступныя файлы былі зменены або выдалены, калі ласка, аднавіце іх і паспрабуйце яшчэ раз.</string>
+  <string name="verify_system_compatible_img">Несумяшчальны %1$s, калі ласка абнавіце да версіі %2$s</string>
+  <string name="verify_system_compatible_root_request">Патрабуецца каранёвай доступ, каб абнавіць Плагін Праверкі Сумяшчальнасці абнаўленняў. Калі вы вырашыце прапусціць гэты крок, гэта дзеянне будзе выканана ў рэжыме Recovery.</string>
   <string name="verify_system_compatible_root_skip">Прапусціць</string>
 </resources>
