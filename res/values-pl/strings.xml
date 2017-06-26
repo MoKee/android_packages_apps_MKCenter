@@ -94,6 +94,7 @@
   <string name="no_available_ota_intro">Ostatnio nie znaleźliśmy żadnych dostępnych aktualizacji. Aby ręcznie sprawdzić dostępność nowych aktualizacji, należy użyć \"Odśwież\". Jeśli używasz wersji, która nie obsługuje aktualizacji przyrostowych, odznacz opcję \"Aktualizacje przyrostowe\".</string>
   <string name="new_update_summary">Nowe</string>
   <string name="old_update_summary">Stare</string>
+  <string name="ota_diff_update_summary">Aktualizacje przyrostowe mogą zaoszczędzić %s</string>
   <string name="update_check_title">Częstotliwość sprawdzania aktualizacji</string>
   <string name="check_manual">Ręcznie</string>
   <string name="nightly_alert">Zaznaczyłeś, aby pokazywały się również wersje deweloperskie (nightly). Wydania te nie są oficjalnie wspierane i powinny być użytkowane ostrożnie.</string>
@@ -170,5 +171,6 @@
   <string name="discount_dialog_expires">Oferta wygasa za %s</string>
   <string name="discount_dialog_cancel">Nie przypominaj</string>
   <string name="verify_system_compatible_title">Aktualizacja systemu MoKee</string>
+  <string name="verify_system_compatible_failed">Weryfikowanie zgodności systemu nie powiodło się</string>
   <string name="verify_system_compatible_root_skip">Pomiń</string>
 </resources>
