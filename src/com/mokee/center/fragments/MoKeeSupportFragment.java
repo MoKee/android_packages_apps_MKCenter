@@ -38,7 +38,6 @@ public class MoKeeSupportFragment extends PreferenceFragmentCompat
     private static final String KEY_MOKEE_FORUM = "mokee_forum";
     private static final String KEY_MOKEE_ISSUES = "mokee_issues";
     private static final String KEY_MOKEE_CHANGELOG = "mokee_changelog";
-    private static final String KEY_MOKEE_BUILD_STATUS = "mokee_build_status";
     private static final String KEY_MOKEE_TRANSLATE = "mokee_translate";
     private static final String KEY_MOKEE_GITHUB = "mokee_github";
     private static final String KEY_MOKEE_WIKI = "mokee_wiki";
@@ -49,7 +48,6 @@ public class MoKeeSupportFragment extends PreferenceFragmentCompat
     private static final String URL_MOKEE_ISSUES = "http://issues.mokeedev.com";
     private static final String URL_MOKEE_QUESTION = "http://bbs.mfunz.com/forum.php?mod=forumdisplay&fid=280&filter=typeid&typeid=1358";
     private static final String URL_MOKEE_CHANGELOG = "http://changelog.mokeedev.com";
-    private static final String URL_MOKEE_BUILD_STATUS = "http://build.mokeedev.com";
     private static final String URL_MOKEE_TRANSLATE = "http://translate.mokeedev.com";
     private static final String URL_MOKEE_GITHUB = "https://github.com/MoKee";
     private static final String URL_MOKEE_WIKI = "http://wiki.mokeedev.com";
@@ -98,9 +96,6 @@ public class MoKeeSupportFragment extends PreferenceFragmentCompat
                 return true;
             case KEY_MOKEE_CHANGELOG:
                 goToURL(URL_MOKEE_CHANGELOG);
-                return true;
-            case KEY_MOKEE_BUILD_STATUS:
-                goToURL(URL_MOKEE_BUILD_STATUS);
                 return true;
             case KEY_MOKEE_TRANSLATE:
                 goToURL(URL_MOKEE_TRANSLATE);

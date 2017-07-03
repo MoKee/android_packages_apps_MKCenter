@@ -40,10 +40,6 @@
         android:summary="@string/mokee_changelog_summary"
         android:title="@string/mokee_changelog_title" />
     <PreferenceScreen
-        android:key="mokee_build_status"
-        android:summary="@string/mokee_build_status_summary"
-        android:title="@string/mokee_build_status_title" />
-    <PreferenceScreen
         android:key="mokee_github"
         android:summary="@string/mokee_github_summary"
         android:title="@string/mokee_github_title" />
