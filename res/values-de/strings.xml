@@ -94,6 +94,7 @@
   <string name="no_available_ota_intro">Die letzte Prüfung ergab keine verfügbaren Updates. Um Manuell nach Updates zu suchen, verwenden Sie die Schaltfläche \"Aktualisieren\". Wenn Sie eine Version benutzen, die außerhalb der unterstützten OTA-Datumsspanne stammt, sollten Sie die Option \"OTA-Updates\" deaktivieren.</string>
   <string name="new_update_summary">Neu</string>
   <string name="old_update_summary">Alt</string>
+  <string name="ota_diff_update_summary">Incremental updates can save %s</string>
   <string name="update_check_title">Updatefrequenz festlegen</string>
   <string name="check_manual">Manuell</string>
   <string name="nightly_alert">Sie haben Nightlies ausgewählt. Bitte beachten Sie, dass diese nicht unterstützt werden und mit Vorsicht verwendet werden sollten.</string>

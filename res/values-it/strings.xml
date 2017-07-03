@@ -176,5 +176,6 @@
   <string name="verify_system_compatible_failed">Verifica della compatibilità del sistema fallita</string>
   <string name="verify_system_compatible_patch">I seguenti file sono sia stati modificati o rimossi, si prega di ripristinarli e riprovare.</string>
   <string name="verify_system_compatible_img">%1$s incompatibili, si prega di aggiornare alla versione %2$s</string>
+  <string name="verify_system_compatible_root_request">I permessi di root sono necessari per Aggiornare Verifica Plugin per verificare la compatibilità dell\'aggiornamento. Se ignori, questo passaggio sarà posticipato ed eseguito in modalità recovery.</string>
   <string name="verify_system_compatible_root_skip">Salta</string>
 </resources>
