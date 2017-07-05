@@ -30,8 +30,6 @@
   <string name="mokee_issues_summary">버그 추적기를 방문</string>
   <string name="mokee_changelog_title">MoKee 체인지로그</string>
   <string name="mokee_changelog_summary">Changelog 보기</string>
-  <string name="mokee_build_status_title">MoKee 빌드 상태</string>
-  <string name="mokee_build_status_summary">빌드 상태를 보기</string>
   <string name="mokee_github_title">MoKee Github</string>
   <string name="mokee_github_summary">MoKee Github를 방문</string>
   <string name="mokee_translate_title">MoKee 번역</string>

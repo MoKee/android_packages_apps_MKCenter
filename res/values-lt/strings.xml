@@ -29,8 +29,6 @@
   <string name="mokee_issues_title">Klaidų registras</string>
   <string name="mokee_issues_summary">Aplankyti klaidų registrą</string>
   <string name="mokee_changelog_title">Pakeitimai</string>
-  <string name="mokee_build_status_title">Naujinio statusas</string>
-  <string name="mokee_build_status_summary">Peržiūrėti statymo statusą</string>
   <string name="mokee_github_title">MoKee Github</string>
   <string name="mokee_github_summary">Aplankyti MoKee Github</string>
   <string name="mokee_translate_title">MoKee vertimas</string>

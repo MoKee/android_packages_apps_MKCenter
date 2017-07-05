@@ -30,8 +30,6 @@
   <string name="mokee_issues_summary">Към бъг тракера</string>
   <string name="mokee_changelog_title">Списък с промени</string>
   <string name="mokee_changelog_summary">Преглед на промените за деня</string>
-  <string name="mokee_build_status_title">Статус на Mokee Ром</string>
-  <string name="mokee_build_status_summary">Вижте състоянието на създаване</string>
   <string name="mokee_github_title">MoKee Github</string>
   <string name="mokee_github_summary">Посетете MoKee Github</string>
   <string name="mokee_translate_title">MoKee преводачи</string>

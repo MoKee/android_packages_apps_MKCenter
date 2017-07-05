@@ -30,8 +30,6 @@
   <string name="mokee_issues_summary">Visiter le bug tracker</string>
   <string name="mokee_changelog_title">Historique des modifications de MoKee</string>
   <string name="mokee_changelog_summary">Voir le journal des modifications</string>
-  <string name="mokee_build_status_title">État de la build MoKee</string>
-  <string name="mokee_build_status_summary">Voir l\'état de la build</string>
   <string name="mokee_github_title">Github de MoKee</string>
   <string name="mokee_github_summary">Visiter le Github de MoKee</string>
   <string name="mokee_translate_title">Traduction de Mokee</string>

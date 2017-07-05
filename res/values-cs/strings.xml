@@ -30,8 +30,6 @@
   <string name="mokee_issues_summary">Navštivtit bug tracker</string>
   <string name="mokee_changelog_title">MoKee Changelog</string>
   <string name="mokee_changelog_summary">Zobrazit denní změny</string>
-  <string name="mokee_build_status_title">MoKee sestavení</string>
-  <string name="mokee_build_status_summary">Zobrazit  sestavení</string>
   <string name="mokee_github_title">MoKee Github</string>
   <string name="mokee_github_summary">Navštívit MoKee Github</string>
   <string name="mokee_translate_title">MoKee překlad</string>

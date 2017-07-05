@@ -30,8 +30,6 @@
   <string name="mokee_issues_summary">Truy cập vào công cụ theo dõi lỗi</string>
   <string name="mokee_changelog_title">Nhật ký thay đổi MoKee</string>
   <string name="mokee_changelog_summary">Xem thay đổi hàng ngày</string>
-  <string name="mokee_build_status_title">Tình trạng xây dựng MoKee</string>
-  <string name="mokee_build_status_summary">Xem trạng thái xây dựng</string>
   <string name="mokee_github_title">MoKee Github</string>
   <string name="mokee_github_summary">Truy cập vào MoKee Github</string>
   <string name="mokee_translate_title">Dịch MoKee</string>

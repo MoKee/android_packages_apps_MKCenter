@@ -30,8 +30,6 @@
   <string name="mokee_issues_summary">Bezoek de fout opsporing</string>
   <string name="mokee_changelog_title">MoKee Wijzigingen</string>
   <string name="mokee_changelog_summary">Bekijk dagelijkse changelog</string>
-  <string name="mokee_build_status_title">MoKee Bouwstatus</string>
-  <string name="mokee_build_status_summary">Build status weergeven</string>
   <string name="mokee_github_title">MoKee Github</string>
   <string name="mokee_github_summary">Bezoek de MoKee Github</string>
   <string name="mokee_translate_title">MoKee Vertalingen</string>

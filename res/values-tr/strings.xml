@@ -30,8 +30,6 @@
   <string name="mokee_issues_summary">Hata takipçisini ziyaret et</string>
   <string name="mokee_changelog_title">MoKee Değişim Günlüğü</string>
   <string name="mokee_changelog_summary">Günlük değişikliği görüntüle</string>
-  <string name="mokee_build_status_title">MoKee Sürüm Durumu</string>
-  <string name="mokee_build_status_summary">Sürüm Durumunu İncele</string>
   <string name="mokee_github_title">MoKee Github</string>
   <string name="mokee_github_summary">MoKee Github\'ını Ziyaret Et</string>
   <string name="mokee_translate_title">MoKee Çeviri</string>

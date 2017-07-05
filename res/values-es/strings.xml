@@ -30,8 +30,6 @@
   <string name="mokee_issues_summary">Visita el Gestor de Bugs</string>
   <string name="mokee_changelog_title">Registros de cambios Mokee</string>
   <string name="mokee_changelog_summary">Ver el registro de cambios diarios</string>
-  <string name="mokee_build_status_title">Estado de compilación Mokee</string>
-  <string name="mokee_build_status_summary">Ver estado de la compilación</string>
   <string name="mokee_github_title">Github de MoKee</string>
   <string name="mokee_github_summary">Visite el MoKee Github</string>
   <string name="mokee_translate_title">Traducir MoKee</string>

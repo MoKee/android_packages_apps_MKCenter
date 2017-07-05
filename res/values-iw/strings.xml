@@ -30,8 +30,6 @@
   <string name="mokee_issues_summary">בקר את עוקב הבאגים</string>
   <string name="mokee_changelog_title">רשימת שינויים MoKee</string>
   <string name="mokee_changelog_summary">ראה יומן שינויים יומי</string>
-  <string name="mokee_build_status_title">מצב הבנייה MoKee</string>
-  <string name="mokee_build_status_summary">הצג מצב הבנייה של MoKee</string>
   <string name="mokee_github_title">MoKee Github</string>
   <string name="mokee_github_summary">בקר ב MoKee Github</string>
   <string name="mokee_translate_title">תרגום MoKee</string>

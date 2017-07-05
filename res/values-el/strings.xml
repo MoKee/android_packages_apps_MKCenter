@@ -30,8 +30,6 @@
   <string name="mokee_issues_summary">Επισκεφθείτε το bug tracker</string>
   <string name="mokee_changelog_title">Αρχείο καταγραφής αλλαγών MoKee</string>
   <string name="mokee_changelog_summary">Προβολή καθημερινών αλλαγών</string>
-  <string name="mokee_build_status_title">Κατάσταση δημιουργίας MoKee</string>
-  <string name="mokee_build_status_summary">Προβολή κατάστασης χτισίματος</string>
   <string name="mokee_github_title">MoKee Github</string>
   <string name="mokee_github_summary">Επισκεφθείτε το MoKee Github</string>
   <string name="mokee_translate_title">Μετάφραση MoKee</string>

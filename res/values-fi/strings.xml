@@ -30,8 +30,6 @@
   <string name="mokee_issues_summary">Vieraile bugikannassa</string>
   <string name="mokee_changelog_title">MoKee muutoslogi</string>
   <string name="mokee_changelog_summary">Näytä päivittäinen muutosloki</string>
-  <string name="mokee_build_status_title">MoKee version tila</string>
-  <string name="mokee_build_status_summary">Katso version tila</string>
   <string name="mokee_github_title">MoKee Github</string>
   <string name="mokee_github_summary">Vieraile MoKee-Githubissa</string>
   <string name="mokee_translate_title">MoKee kääntäjät</string>

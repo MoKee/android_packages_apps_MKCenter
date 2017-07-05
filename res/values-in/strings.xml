@@ -30,8 +30,6 @@
   <string name="mokee_issues_summary">Kunjungi Pelacak Bug</string>
   <string name="mokee_changelog_title">Perubahan MoKee</string>
   <string name="mokee_changelog_summary">Lihat perubahan harian</string>
-  <string name="mokee_build_status_title">Status Build MoKee</string>
-  <string name="mokee_build_status_summary">Lihat build status</string>
   <string name="mokee_github_title">MoKee Github</string>
   <string name="mokee_github_summary">Kunjungi Github MoKee</string>
   <string name="mokee_translate_title">Terjemahan MoKee</string>

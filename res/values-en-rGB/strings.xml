@@ -30,8 +30,6 @@
   <string name="mokee_issues_summary">Visit the bug tracker</string>
   <string name="mokee_changelog_title">Changelog</string>
   <string name="mokee_changelog_summary">View daily changelog</string>
-  <string name="mokee_build_status_title">Build Status</string>
-  <string name="mokee_build_status_summary">View build status</string>
   <string name="mokee_github_title">Mokee Source Code</string>
   <string name="mokee_github_summary">Visit the MoKee Github</string>
   <string name="mokee_translate_title">MoKee Translate</string>

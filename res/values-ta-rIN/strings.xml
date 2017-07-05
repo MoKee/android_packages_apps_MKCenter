@@ -30,8 +30,6 @@
   <string name="mokee_issues_summary">MoKee பிழை டிரேக்கர் செல்</string>
   <string name="mokee_changelog_title">MoKee மாற்றம் பதிவு</string>
   <string name="mokee_changelog_summary">தினசரி மாற்றம் பதிவு காண்</string>
-  <string name="mokee_build_status_title">MoKee உருவாக்க நிலை</string>
-  <string name="mokee_build_status_summary">உருவாக்க நிலை பார்க்க</string>
   <string name="mokee_github_title">MoKee Github</string>
   <string name="mokee_github_summary">MoKee Github பார்க்க</string>
   <string name="mokee_translate_title">Mokee மொழிபெயர்ப்பாளர்</string>

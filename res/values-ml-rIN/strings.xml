@@ -29,8 +29,6 @@
   <string name="mokee_issues_title">മോക്കീ ബഗ് ട്രാക്കർ</string>
   <string name="mokee_issues_summary">ബഗ് ട്രാക്കർ സന്ദർശിക്കുക</string>
   <string name="mokee_changelog_title">മോക്കീ ചേഞ്ച്ലോഗ്</string>
-  <string name="mokee_build_status_title">മോക്കീ ബിൽഡ് നില</string>
-  <string name="mokee_build_status_summary">ബിൽഡ് നില കാണുക</string>
   <string name="mokee_github_title">മോക്കീ ഗിറ്റ്ഹബ്</string>
   <string name="mokee_github_summary">മോക്കീ ഗിറ്റഹബ് സന്ദർശിക്കുക</string>
   <string name="mokee_translate_title">മോക്കീ പരിഭാഷ</string>

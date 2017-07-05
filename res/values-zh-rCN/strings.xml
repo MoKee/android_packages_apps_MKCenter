@@ -30,8 +30,6 @@
   <string name="mokee_issues_summary">反馈报告手机使用问题以便我们改进系统</string>
   <string name="mokee_changelog_title">更新日志</string>
   <string name="mokee_changelog_summary">查看魔趣开源计划每天的功能改进清单</string>
-  <string name="mokee_build_status_title">编译状态</string>
-  <string name="mokee_build_status_summary">查看魔趣当前编译清单和状态</string>
   <string name="mokee_github_title">开源代码</string>
   <string name="mokee_github_summary">查看和下载魔趣源代码</string>
   <string name="mokee_translate_title">翻译固件</string>

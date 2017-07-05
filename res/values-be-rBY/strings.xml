@@ -30,8 +30,6 @@
   <string name="mokee_issues_summary">Наведаць трэкер памылак</string>
   <string name="mokee_changelog_title">Спіс змен MoKee</string>
   <string name="mokee_changelog_summary">Паглядзець спіс змен MoKee</string>
-  <string name="mokee_build_status_title">Статус зборкі MoKee</string>
-  <string name="mokee_build_status_summary">Паглядзець статус зборкі</string>
   <string name="mokee_github_title">Github рэпазіторый MoKee</string>
   <string name="mokee_github_summary">Наведаць MoKee Github</string>
   <string name="mokee_translate_title">Пераклад MoKee</string>

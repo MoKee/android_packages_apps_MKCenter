@@ -30,8 +30,6 @@
   <string name="mokee_issues_summary">Látogass el hibajelentő oldalunkra</string>
   <string name="mokee_changelog_title">MoKee változások</string>
   <string name="mokee_changelog_summary">Napi változtatások megtekintése</string>
-  <string name="mokee_build_status_title">MoKee Buildszám</string>
-  <string name="mokee_build_status_summary">Build státus megtekintése</string>
   <string name="mokee_github_title">MoKee GitHub</string>
   <string name="mokee_github_summary">Látogass el a MoKee GitHub-jára</string>
   <string name="mokee_translate_title">MoKee Fordítás</string>

@@ -29,8 +29,6 @@
   <string name="mokee_issues_title">MoKee отклањање грешака</string>
   <string name="mokee_issues_summary">Погледајте извештај о грешкама</string>
   <string name="mokee_changelog_title">MoKee списак измена</string>
-  <string name="mokee_build_status_title">MoKee статус изградње</string>
-  <string name="mokee_build_status_summary">Погледајте статус изградње</string>
   <string name="mokee_github_title">MoKee Github</string>
   <string name="mokee_github_summary">Посетите MoKee Github</string>
   <string name="mokee_translate_title">MoKee превод</string>

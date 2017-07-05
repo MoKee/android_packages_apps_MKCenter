@@ -30,8 +30,6 @@
   <string name="mokee_issues_summary">造訪 bug 追蹤器</string>
   <string name="mokee_changelog_title">MoKee 更新日誌</string>
   <string name="mokee_changelog_summary">查看每日更改日誌</string>
-  <string name="mokee_build_status_title">MoKee 編譯狀態</string>
-  <string name="mokee_build_status_summary">查看編譯狀態</string>
   <string name="mokee_github_title">MoKee Github</string>
   <string name="mokee_github_summary">訪問 MoKee Github</string>
   <string name="mokee_translate_title">MoKee 翻譯</string>

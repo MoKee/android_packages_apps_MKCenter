@@ -30,8 +30,6 @@
   <string name="mokee_issues_summary">Besøg bug tracker</string>
   <string name="mokee_changelog_title">MoKee Ændringsoversigt</string>
   <string name="mokee_changelog_summary">Se daglig ændringsoversigt</string>
-  <string name="mokee_build_status_title">MoKee Build-status</string>
-  <string name="mokee_build_status_summary">Se build-status</string>
   <string name="mokee_github_title">MoKee Github</string>
   <string name="mokee_github_summary">Besøg MoKee på Github</string>
   <string name="mokee_translate_title">MoKee Oversæt</string>

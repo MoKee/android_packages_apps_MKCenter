@@ -30,8 +30,6 @@
   <string name="mokee_issues_summary">Vizitează site-ul cu erori</string>
   <string name="mokee_changelog_title">Schimbări MoKee</string>
   <string name="mokee_changelog_summary">Vezi jurnalul zilnic de schimbări</string>
-  <string name="mokee_build_status_title">Starea de update a MoKee</string>
-  <string name="mokee_build_status_summary">Afișează starea versiunii update</string>
   <string name="mokee_github_title">MoKee Github</string>
   <string name="mokee_github_summary">Vizitează MoKee Github</string>
   <string name="mokee_translate_title">Traducere MoKee</string>

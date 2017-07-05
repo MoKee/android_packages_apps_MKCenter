@@ -30,8 +30,6 @@
   <string name="mokee_issues_summary">Xato kuzatishdan ziyorat qilish</string>
   <string name="mokee_changelog_title">O\'zgarishlar ro\'yxati MoKee</string>
   <string name="mokee_changelog_summary">Ko\'rish o\'zgarishlar ro\'yxati</string>
-  <string name="mokee_build_status_title">Maqomi MoKee qurish</string>
-  <string name="mokee_build_status_summary">Ko\'rish qurilish holati </string>
   <string name="mokee_github_title">MoKee Github</string>
   <string name="mokee_github_summary">Tashrif qilmoq MoKee Github</string>
   <string name="mokee_translate_title">MoKee Tarjima</string>
