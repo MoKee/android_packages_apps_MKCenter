@@ -161,8 +161,6 @@
   <!-- experimenter mode -->
   <string name="show_exp_on">U hebt de experimentele instellingen ingeschakeld!</string>
   <string name="show_exp_already">Niet nodig, de experimentele instellingen zijn reeds ingeschakeld.</string>
-  <!-- Xposed framework check -->
-  <string name="installed_xposed_toast">Xposed framework geïnstalleerd, geen behoefte aan reflash kader na het toepassen van incrementele updates.</string>
   <!-- Discount -->
   <string name="discount_dialog_title">Beperkte tijdaanbieding</string>
   <string name="discount_dialog_message">Dank u voor uw voortdurende steun in de richting van Mokee Open Source. Als blijk van waardering, hebt u recht op een beperkte aanbieding. Met%1$d CNY, kunt u genieten van incrementele updates, geverifieerd updates en advertenties vrije Mokee Centre (behalve%2$d CNY). Als je later betalen wilt, kunt u dit dialoog sluiten en herstart Mokee Centre als u klaar bent.</string>

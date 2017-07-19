@@ -132,7 +132,6 @@
   <!-- experimenter mode -->
   <string name="show_exp_on">Du har aktivert eksperimentelle innstillinger!</string>
   <string name="show_exp_already">Ikke nødvendig, du allerede har aktivert eksperimentelle innstillinger.</string>
-  <!-- Xposed framework check -->
   <!-- Discount -->
   <string name="verify_system_compatible_root_skip">Hopp over</string>
 </resources>

@@ -151,7 +151,6 @@
   <!-- experimenter mode -->
   <string name="show_exp_on">Du har aktiverat experimentella inställningar!</string>
   <string name="show_exp_already">Inget behov, du redan har aktiverat experimentella inställningarna.</string>
-  <!-- Xposed framework check -->
   <!-- Discount -->
   <string name="discount_dialog_title">Begränsat erbjudande</string>
   <string name="discount_dialog_cancel">Påminn inte</string>

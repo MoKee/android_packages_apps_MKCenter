@@ -94,6 +94,5 @@
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">അപ്ഡേറ്റ് ചെയ്യുക</string>
   <!-- experimenter mode -->
-  <!-- Xposed framework check -->
   <!-- Discount -->
 </resources>

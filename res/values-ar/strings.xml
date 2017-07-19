@@ -157,8 +157,6 @@
   <!-- experimenter mode -->
   <string name="show_exp_on">لقد قمت بتفعيل الإعدادات الاختبارية!</string>
   <string name="show_exp_already">لا داعي، لقد قمت بالفعل بتفعيل الإعدادات الاختبارية.</string>
-  <!-- Xposed framework check -->
-  <string name="installed_xposed_toast">إطار إكسبوسيد مثبتة بالفعل، تمكين التحديث سوف يبقى الإطار.</string>
   <!-- Discount -->
   <string name="verify_system_compatible_title">تحديث نظام موكي</string>
   <string name="verify_system_compatible_root_skip">تخطي</string>

@@ -162,8 +162,6 @@
   <!-- experimenter mode -->
   <string name="show_exp_on">Povolili ste nastavenia pre vývojárov!</string>
   <string name="show_exp_already">Nie je potreba, už ste povolili nastavenia pre vývojárov.</string>
-  <!-- Xposed framework check -->
-  <string name="installed_xposed_toast">Xposed framework nainštalovaný, po OTA aktualizácii nemusíte znovu inštalovať Xpossed</string>
   <!-- Discount -->
   <string name="discount_dialog_title">Časovo limitovaná ponuka</string>
   <string name="discount_dialog_message">Ďakujeme vám za vašu stálu podporu smerom k MoKee Open Source. Ako prejav uznania, máte nárok na obmedzenú časovú ponuku. S %1$d CNY, si môžete vychutnať prírastkové aktualizácie, overené aktualizácie a odstránenie reklamy z MoKee centra (ušetríte %2$d CNY). Ak by ste chceli platiť neskôr, môžete zavrieť toto dialógové okno a otvoriť MoKee Centrum znovu, keď budete pripravení.</string>

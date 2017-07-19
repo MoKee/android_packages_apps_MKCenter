@@ -162,8 +162,6 @@
   <!-- experimenter mode -->
   <string name="show_exp_on">Omogočili ste eksperimentalne nastavitve!</string>
   <string name="show_exp_already">Ni potrebno, ste že omogočili eksperimentalne nastavitve.</string>
-  <!-- Xposed framework check -->
-  <string name="installed_xposed_toast">Xposed framework nameščen, osvežitev frameworka ni potrebna po namestitvi delne posodobitve.</string>
   <!-- Discount -->
   <string name="discount_dialog_title">Časovno omejena ponudba</string>
   <string name="discount_dialog_expires">Ponudba poteče čez %s</string>

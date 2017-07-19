@@ -33,7 +33,6 @@
   <!-- pref -->
   <!-- Apply install and update strings -->
   <!-- experimenter mode -->
-  <!-- Xposed framework check -->
   <!-- Discount -->
   <string name="verify_system_compatible_title">MoKee sistem təzələməsi</string>
   <string name="verify_system_compatible_root_skip">Keç</string>

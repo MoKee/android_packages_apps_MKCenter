@@ -153,8 +153,6 @@
   <!-- experimenter mode -->
   <string name="show_exp_on">Du har aktiveret eksperimentelle indstillinger!</string>
   <string name="show_exp_already">Unødvendigt, eksperimentalindstillingerne er allerede aktive.</string>
-  <!-- Xposed framework check -->
-  <string name="installed_xposed_toast">Xposed framework installeret, intet behov for at reflashe framework efter anvendelse af trinvise opdateringer.</string>
   <!-- Discount -->
   <string name="verify_system_compatible_title">MoKee systemopdatering</string>
   <string name="verify_system_compatible_root_skip">Spring over</string>

@@ -35,6 +35,5 @@
   <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g>\n\n\n\n</string>
   <string name="apply_update_ota_dialog_text"><xliff:g id="filename">%s</xliff:g></string>
   <!-- experimenter mode -->
-  <!-- Xposed framework check -->
   <!-- Discount -->
 </resources>

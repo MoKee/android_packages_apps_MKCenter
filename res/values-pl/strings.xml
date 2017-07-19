@@ -161,8 +161,6 @@
   <!-- experimenter mode -->
   <string name="show_exp_on">Włączyłeś ustawienia eksperymentalne!</string>
   <string name="show_exp_already">Nie trzeba, już włączyłeś ustawienia eksperymentalne.</string>
-  <!-- Xposed framework check -->
-  <string name="installed_xposed_toast">Xposed framework zainstalowany, nie trzeba przeinstalowywać frameworku po zastosowaniu aktualizacji przyrostowych.</string>
   <!-- Discount -->
   <string name="discount_dialog_title">Oferta ograniczona czasowo</string>
   <string name="discount_dialog_message">Dziękujemy za dotychczasowe wsparcie dla MoKee Open Source. Jako wyraz naszego uznania otrzymujesz ograniczoną czasowo ofertę. Za %1$d juanów możesz cieszyć się aktualizacjami przyrostowymi, aktualizacjami zweryfikowanymi i możliwością usunięcia reklam z Centrum MoKee (oszczędzasz %2$d juanów). Jeżeli wolisz zapłacić później, to zamknij to okno i odwiedź ponownie Centrum MoKee, gdy będziesz gotowy.</string>

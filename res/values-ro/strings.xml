@@ -153,8 +153,6 @@
   <!-- experimenter mode -->
   <string name="show_exp_on">Ați activat setările experimentale!</string>
   <string name="show_exp_already">Nu este necesar, deja ați activat setările experimentale.</string>
-  <!-- Xposed framework check -->
-  <string name="installed_xposed_toast">Xposed framework instalate, nu e nevoie de reflash cadru după aplicarea actualizări incrementale.</string>
   <!-- Discount -->
   <string name="verify_system_compatible_title">Update sistem Mokee</string>
   <string name="verify_system_compatible_root_skip">Omite</string>

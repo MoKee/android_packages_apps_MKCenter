@@ -100,7 +100,6 @@
   <!-- pref -->
   <!-- Apply install and update strings -->
   <!-- experimenter mode -->
-  <!-- Xposed framework check -->
   <!-- Discount -->
   <string name="verify_system_compatible_root_skip">Skip</string>
 </resources>

@@ -153,8 +153,6 @@
   <!-- experimenter mode -->
   <string name="show_exp_on">Engedélyezted a kísérleti funkciókat!</string>
   <string name="show_exp_already">Már engedélyezted a kísérleti funkciókat.</string>
-  <!-- Xposed framework check -->
-  <string name="installed_xposed_toast">Xposed keretrendszer telepítve, nem szükséges visszamásolni inkrementális frissítések alkalmazása után.</string>
   <!-- Discount -->
   <string name="verify_system_compatible_title">MoKee rendszerfrissítés</string>
   <string name="verify_system_compatible_root_skip">Kihagyás</string>

@@ -162,8 +162,6 @@
   <!-- experimenter mode -->
   <string name="show_exp_on">Vous avez activé les paramètres expérimentaux !</string>
   <string name="show_exp_already">Inutile, vous avez déjà activé les paramètres expérimentaux.</string>
-  <!-- Xposed framework check -->
-  <string name="installed_xposed_toast">Xposed framework a été installé. Pas besoin de réinstaller le framework après une mise à jour partielle.</string>
   <!-- Discount -->
   <string name="discount_dialog_title">Offre à durée limitée</string>
   <string name="discount_dialog_message">Je vous remercie pour votre soutien continu envers MoKee Open Source. En guise de remerciements, vous avez droit à une offre à durée limitée. Avec %1$d CNY, vous pourrez profiter des mises à jour incrémentielles, vérifier les mises à jour et supprimez des annonces de MoKee Centre (économisez %2$d CNY). Si vous souhaitez payer par la suite, vous pouvez fermer cette boîte de dialogue et relancer MoKee Center à nouveau lorsque vous êtes prêt.</string>

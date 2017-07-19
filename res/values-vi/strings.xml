@@ -160,8 +160,6 @@
   <!-- experimenter mode -->
   <string name="show_exp_on">Bạn đã kích hoạt cài đặt thử nghiệm!</string>
   <string name="show_exp_already">Không cần thiết, bạn đã có cho phép cài đặt thử nghiệm.</string>
-  <!-- Xposed framework check -->
-  <string name="installed_xposed_toast">Xposed framework đã cài đặt, không cần phải reflash framework sau khi áp dụng bản Cập Nhật gia tăng.</string>
   <!-- Discount -->
   <string name="discount_dialog_title">Khuyến mãi có giới hạn</string>
   <string name="discount_dialog_expires">Khuyến mãi hết hạn trong %s</string>

@@ -160,8 +160,6 @@
   <!-- experimenter mode -->
   <string name="show_exp_on">実験的な設定項目が有効になっています！</string>
   <string name="show_exp_already">変更は必要ありません。既に実験的な設定項目が有効になっています。</string>
-  <!-- Xposed framework check -->
-  <string name="installed_xposed_toast">Xposed フレームワークがインストールされて、増分更新を適用した後リフラッシュする必要はありません。</string>
   <!-- Discount -->
   <string name="discount_dialog_title">期間限定サービス</string>
   <string name="discount_dialog_message">あなたのMoKeeオープンソースへの継続的な支援に感謝します。感謝の気持ちとしてあなたへ期間限定サービスを贈ります。 %1$d 人民元では、差分更新、検証済みの更新、MoKeeセンターからの広告の削除が出来ます。( %2$d 人民元の割引です)。後からでも支払いは可能です。</string>

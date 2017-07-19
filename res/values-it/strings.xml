@@ -162,8 +162,6 @@
   <!-- experimenter mode -->
   <string name="show_exp_on">Funzioni sperimentali attivate!</string>
   <string name="show_exp_already">Non c\'è bisogno, le funzioni sperimentali sono già attivate</string>
-  <!-- Xposed framework check -->
-  <string name="installed_xposed_toast">Xposed framework installato, non necessita nuova installazione dopo aggiornamenti incrementali.</string>
   <!-- Discount -->
   <string name="discount_dialog_title">Offerta a tempo limitato</string>
   <string name="discount_dialog_message">Grazie per il vostro continuo sostegno verso MoKee Open Source. Come segno di apprezzamento, hai diritto a un\'offerta limitata nel tempo. Con %1$d CNY, si possono godere di aggiornamenti incrementali, verifica degli aggiornamenti e rimozione degli annunci da MoKee Centre (Risparmia %2$d CNY). Se si desidera pagare più tardi, puoi chiudere questa finestra di dialogo e rilanciare MoKee Centre nuovamente quando si è pronti.</string>

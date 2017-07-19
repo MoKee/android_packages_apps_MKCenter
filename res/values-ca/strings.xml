@@ -144,7 +144,6 @@ desactivi aquesta opció.</string>
   <!-- experimenter mode -->
   <string name="show_exp_on">Ha permès  paràmetres experimentals.</string>
   <string name="show_exp_already">No hi ha necessitat, ja heu activat paràmetres experimentals.</string>
-  <!-- Xposed framework check -->
   <!-- Discount -->
   <string name="verify_system_compatible_root_skip">Omet</string>
 </resources>
