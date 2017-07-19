@@ -31,13 +31,13 @@
   <string name="mokee_changelog_title">MoKee 체인지로그</string>
   <string name="mokee_changelog_summary">Changelog 보기</string>
   <string name="mokee_github_title">MoKee Github</string>
-  <string name="mokee_github_summary">MoKee Github를 방문</string>
+  <string name="mokee_github_summary">MoKee Github 방문</string>
   <string name="mokee_translate_title">MoKee 번역</string>
-  <string name="mokee_translate_summary">협조 번역 MoKee</string>
+  <string name="mokee_translate_summary">MoKee 번역 도움</string>
   <string name="mokee_wiki_title">MoKee 위키</string>
-  <string name="mokee_wiki_summary">MoKee 위키를 보기</string>
+  <string name="mokee_wiki_summary">MoKee 위키 보기</string>
   <string name="mokee_news_title">MoKee 뉴스</string>
-  <string name="mokee_news_summary">MoKee에서 개발 뉴스를 수신</string>
+  <string name="mokee_news_summary">MoKee 개발 뉴스 수신</string>
   <!-- Base Info -->
   <string name="mokee_version_info_title">버전 정보</string>
   <string name="mokee_version_title">MoKee 버전</string>
@@ -63,6 +63,7 @@
   <string name="menu_refresh">새로 고침</string>
   <string name="menu_delete_all">다운로드 삭제</string>
   <string name="menu_remove_ads">광고 제거</string>
+  <string name="menu_restore">라이센스 복원</string>
   <!-- Donate -->
   <string name="donate_dialog_title">우리한테 기부</string>
   <string name="donate_dialog_message">Cygn 또는 MIUI 같은 회사, 달리 MoKee OpenSource 취미와 열정 태어난 순수 비영리 프로젝트입니다. 이 프로젝트를 유지, 우리가 우리의 자신의 돈을 밖으로 대부분의 시간을 포크 또는 기부금과 광고에 의존 해야 했다. 당신의 기부는 우리의 금융 부하를 줄이고 미래의 발전을 유지 도울 수 있습니다! 이 옵션을 사용 하면 MoKee 센터에서 광고를 제거 하거나 당신이 선호 하는 분할 (광고 제거 됩니다 총에는 지정된 된 값에 도달 했습니다 일단) 대신 \"기부\" 옵션을 사용 수 있습니다. mokee.license를 백업 하시기 바랍니다 당신이 기부 한 번 (현재 장치에 대 한 유효한 sdcard의 루트 디렉터리)에 파일.</string>
@@ -70,6 +71,7 @@
   <string name="donate_dialog_via_alipay">알리페이</string>
   <string name="donate_dialog_via_restore">복구하기</string>
   <string name="donate_money_toast_success">기부 주셔서 감사합니다!</string>
+  <string name="donate_money_title">MoKee OpenSource에 기부하기</string>
   <string name="donate_money_again">기부 다시하기</string>
   <string name="donate_money_restored_success">성공적으로 복원!</string>
   <string name="donate_money_restored_failed">장치 레코드를 찾을 수 없습니다.</string>
@@ -90,6 +92,8 @@
   <string name="no_available_ota_intro">현재 최신의 업데이트 버전이 존재하지 않습니다.  수동으로 새 업데이트를 확인하려면 새로고침 버튼을 눌러주세요.  OTA 업데이트 지원 불가능한 버전을 사용하고 계신다면, OTA 업데이트 기능을 비활성화 해 주세요.</string>
   <string name="new_update_summary">새로운</string>
   <string name="old_update_summary">이전의</string>
+  <string name="ota_diff_update_summary">증분 업데이트는 %s를(을) 절약할 수 있습니다</string>
+  <string name="full_diff_update_summary">전체 롬 파일에 비교해 %s를(을) 절약할 수 있습니다</string>
   <string name="update_check_title">업데이트 주파수를 확인</string>
   <string name="check_manual">수동</string>
   <string name="nightly_alert">나이틀리 업데이트를 선택했습니다. 이 버전은 지원되지 않고 주의하며 사용해야합니다.</string>
@@ -111,25 +115,26 @@
   <string name="check_monthly">한달 한번</string>
   <!-- checking -->
   <string name="checking_for_updates">업데이트 확인 중</string>
-  <string name="no_updates_found">새 업데이트가 없습니다</string>
-  <string name="not_new_updates_found_ticker">새 업데이트를 사용할 수 있습니다</string>
-  <string name="not_new_updates_found_title">새 업데이트</string>
-  <string name="update_check_failed">업데이트를 확인하지 못했습니다. 인터넷이 제대로 연결되어 있는지 확인한 후에 다시 시도하세요.</string>
+  <string name="no_updates_found">새로운 업데이트가 없습니다</string>
+  <string name="not_new_updates_found_ticker">새로운 업데이트를 사용할 수 있습니다</string>
+  <string name="not_new_updates_found_title">새로운 업데이트</string>
+  <string name="update_check_failed">업데이트를 확인 과정을 진행 하지 못하였습니다. 인터넷이 제대로 연결되어 있는지 확인한 후에 다시 시도하세요.</string>
   <string name="not_action_download">다운로드</string>
-  <string name="data_connection_required">데이터 접속이 필요합니다</string>
+  <string name="data_connection_required">데이터 연결이 필요합니다.</string>
   <!-- Downloads -->
   <string name="confirm_download_cancelation_dialog_title">다운로드 취소</string>
   <string name="confirm_download_cancelation_dialog_message">현재 진행중인 다운로드를 취소하시겠습니까?</string>
-  <string name="download_remaining"><xliff:g id="duration" example="3 minutes">%s </xliff:g> 왼쪽</string>
-  <string name="download_running">진행 중</string>
+  <string name="download_remaining"><xliff:g id="duration" example="3 minutes">%s </xliff:g> 남음</string>
+  <string name="download_running">진행중</string>
   <string name="download_cancelled">다운로드 취소됨</string>
-  <string name="download_already_running">다운로드가 진행중입니다</string>
+  <string name="download_already_running">다운로드가 이미 진행중입니다</string>
+  <string name="download_limited_mode">제한된 속도로 다운로드를 진행합니다. 작은 기부를 통해 빠른 속도를 이용해보세요.</string>
   <string name="unable_to_download_file">업데이트 파일을 다운로드 할 수 없습니다</string>
   <string name="not_download_success">업데이트를 성공적으로 다운로드했습니다</string>
-  <string name="not_download_failure">업데이트 다운로드가 실패했습니다</string>
-  <string name="not_action_install_update">다시 시작 후 설치</string>
-  <string name="not_download_install_notice">업데이트 <xliff:g id="filename">%s </xliff:g> 성공적으로 다운로드 되었습니다. \'재부팅 및 설치\'를 만질 때 장치 자체는 update.\n\nNote 설치를 다시 시작 됩니다:이 기능을 사용 하려면 호환 되는 복구 또는 업데이트를 수동으로 설치할 필요가 있을 것 이다.</string>
-  <string name="not_download_install_ota_notice">업데이트 <xliff:g id="filename">%s </xliff:g> 성공적으로 다운로드 되었습니다. \'재부팅 및 설치\'를 만질 때 장치 자체는 update.\n\nNote 설치를 다시 시작 됩니다:이 기능을 사용 하려면 호환 되는 복구 또는 업데이트를 설치할 필요가 있을 것 이다 manually.\n\nThis는 증분 업데이트, 따라서 시스템 파일의 변경 업데이트 실패 발생할 수 있습니다. 이 경우, 대신 전체 ROM 플래시 하십시오.</string>
+  <string name="not_download_failure">업데이트 다운로드가 실패하였습니다</string>
+  <string name="not_action_install_update">재부팅 후 설치</string>
+  <string name="not_download_install_notice">업데이트 <xliff:g id="filename">%s </xliff:g>가(이) 성공적으로 다운로드 되었습니다. \'재부팅 및 설치\'를 선택할 경우, 장치 가 스스로 재부팅되며 업데이트를 설치하게 됩니다.\n\nNote이 기능을 사용 하려면 호환 되는 리커버리가 필요하며, 그렇지 않을경우 업데이트를 수동으로 설치해야 합니다.</string>
+  <string name="not_download_install_ota_notice">업데이트 <xliff:g id="filename">%s </xliff:g>가(이) 성공적으로 다운로드 되었습니다. \'재부팅 및 설치\'를 선택할 경우 장치는 스스로 재부팅하며 업데이트를 설치하게 됩니다. \n\nNote: 이 기능을 사용 하려면 호환 되는 리커버리가 필요하며, 그렇지 않을경우 업데이트를 수동으로 설치해야 합니다. \n\n이 업데이트는 증분 업데이트이며, 따라서 시스템 파일에 수정된 부분이 있을 경우 업데이트 실패 발생할 수 있습니다. 이런 경우, 전체 ROM 파일 플래싱을 진행하셔야 합니다.</string>
   <string name="md5_verification_failed">MD5 검사 실패</string>
   <string name="not_apk_action_install_update">설치</string>
   <!-- deleting -->
@@ -142,9 +147,15 @@
   <string name="delete_updates_success_message">모든 다운로드된 업데이트들이 삭제되었습니다.</string>
   <!-- pref -->
   <string name="pref_ota_check">OTA 업데이트</string>
-  <string name="pref_ota_check_summary">증분 업데이트 다운로드 시간 및 대역폭을 저장</string>
-  <string name="pref_ota_check_donation_request_summary">증분 업데이트 다운로드 시간과 대역폭 (CNY %d 기증 후 사용 가능)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">저장 하려면 get 증분 업데이트 다운로드 시간과 대역폭 (%1$d, %2$d, 더 많은 통화를 기증 후 평생 사용할 수 있는 기부: CNY)</string>
+  <string name="pref_ota_check_summary">증분 업데이트를 통해 다운로드 시간과 대역폭을 절약 해보세요</string>
+  <string name="pref_ota_check_donation_request_summary">증분 업데이트를 통해 다운로드 시간 및 대역폭 절약 (중국 위안화 %d 기증 후 사용 가능)</string>
+  <string name="pref_ota_check_donation_request_pending_summary">증분 업데이트를 통해 다운로드 시간과 대역폭 절약(%1$d 기부 완료, 중국 위안화 %2$d를 더 기부함으로써 평생동안 사용하실 수 있습니다)</string>
+  <string name="pref_verify_rom">검증된 업데이트</string>
+  <string name="pref_verify_rom_summary">다른 사용자들에 의해 검증된 업데이트만 표시</string>
+  <string name="pref_verify_rom_donation_request_summary">다른 사용자들에 의해 검증된 업데이트만 표시
+( 중국 위안화 %d를 기부하면 사용가능)</string>
+  <string name="pref_verify_rom_donation_request_pending_summary">다른 사용자들에 의해 검증된 업데이트만 표시
+(이미 %1$d를 기부하셨습니다. 추가로 중국 위안화 %2$d를 기부할 경우 평생 이용가능합니다)</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">업데이트 적용</string>
   <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g> 버전으로 업그레이드 합니다. \n\n 업데이트 버튼을 누르면, 이 기기는 자동으로 재시작후, 리커버리 모드로 진입하여 인스톨 합니다.\n
@@ -157,6 +168,15 @@
   <!-- Xposed framework check -->
   <string name="installed_xposed_toast">Xposed 프레임 워크가 설치되었습니다... 업데이트후 플래싱을 안해도 적용되어있습니다</string>
   <!-- Discount -->
+  <string name="discount_dialog_title">기간 한정 세일</string>
+  <string name="discount_dialog_message">MoKee Open Source에 대한 지속적인 지원에 감사합니다. 감사의 표시로, 당신은 기간 한정 세일에 참여하실 수 있습니다. 중국 위안화 %1$d 기부를 통해 증분 업데이트, 검증된 업데이트를 사용하실 수 있으며, MoKee 센터 앱의 광고를 제거할 수 있습니다.(이를 통해 위안화 %2$d 절감) 만약 추후에 지불을 원한다면, 이 대화창을 닫은 후 준비가 되었을 때 다시 MoKee 센터 앱을 재실행하여 진행할 수 있습니다.</string>
+  <string name="discount_dialog_expires">%s에 세일 마감</string>
+  <string name="discount_dialog_cancel">다시 일깨우지 말기</string>
   <string name="verify_system_compatible_title">MoKee 시스템 업데이트</string>
+  <string name="verify_system_compatible_message">\u2026 패치하기 전에 시스템 호환성 확인</string>
+  <string name="verify_system_compatible_failed">시스템 호환성 확인 실패</string>
+  <string name="verify_system_compatible_patch">다음 파일들은 수정되거나 제거되었습니다. 다시 복원한 후 진행해주세요.</string>
+  <string name="verify_system_compatible_img">%1$s은 호환되지 않습니다. %2$s 버전으로 업그레이드 해주세요.</string>
+  <string name="verify_system_compatible_root_request">업데이트 호환성을 확인하기 위해 업데이트 확인 플러그인에 루트 권한이 필요합니다. 만약 당신이 건너띄기를 선택할 경우, 이 과정은 지연될 것이며, 리커버리 모드를 통해 진행됩니다.</string>
   <string name="verify_system_compatible_root_skip">건너뛰기</string>
 </resources>
