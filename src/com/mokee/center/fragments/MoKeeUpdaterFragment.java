@@ -433,11 +433,6 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
 
         setHasOptionsMenu(true);
 
-        float paid = Utils.getPaidTotal(moKeeCenter);
-        if (paid < Constants.DONATION_REQUEST && MoKeeUtils.isApkInstalledAndEnabled("de.robv.android.xposed.installer", moKeeCenter)) {
-            moKeeCenter.makeSnackbar(R.string.installed_xposed_toast, Snackbar.LENGTH_LONG).show();
-        }
-
         discountDialog(mPrefs);
     }
 

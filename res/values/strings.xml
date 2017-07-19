@@ -180,9 +180,6 @@
     <string name="show_exp_on">You have enabled experimental settings!</string>
     <string name="show_exp_already">No need, you have already enabled experimental settings.</string>
 
-    <!-- Xposed framework check -->
-    <string name="installed_xposed_toast">Xposed framework installed, no need to reflash framework after applying incremental updates.</string>
-
     <!-- Discount -->
     <string name="discount_dialog_title">Limited time offer</string>
     <string name="discount_dialog_message">Thank you for your ongoing support towards MoKee Open Source. As a token of appreciation, you are entitled to a limited time offer. With %1$d CNY, you can enjoy incremental updates, verified updates and remove ads from MoKee Centre (save %2$d CNY). If you would like to pay later, you can close this dialog and relaunch MoKee Center again when you are ready.</string>
