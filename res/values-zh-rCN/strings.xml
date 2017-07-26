@@ -85,7 +85,7 @@
   <string name="unknown">未知</string>
   <string name="dialog_update">更新</string>
   <string name="dialog_install">安装</string>
-  <string name="dialog_ok">确定</string>
+  <string name="dialog_ok">确认</string>
   <string name="dialog_cancel">取消</string>
   <string name="dialog_close">关闭</string>
   <string name="no_available_updates_intro">最后一次检测并未找到可用的更新，请点击右上角的刷新按钮尝试手动检查更新。</string>
