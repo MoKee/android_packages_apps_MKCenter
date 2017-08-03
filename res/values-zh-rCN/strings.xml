@@ -43,7 +43,6 @@
   <string name="mokee_version_title">魔趣版本</string>
   <string name="mokee_unique_id_title">设备标识</string>
   <string name="mokee_donate_info_title">捐赠信息</string>
-  <string name="mokee_version_type_title">版本类型</string>
   <string name="mokee_last_check_title">最后检查</string>
   <string name="mokee_last_check_never">从未</string>
   <!-- Version -->

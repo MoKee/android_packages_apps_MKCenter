@@ -43,7 +43,6 @@
   <string name="mokee_version_title">Versiunea MoKee</string>
   <string name="mokee_unique_id_title">ID Unic</string>
   <string name="mokee_donate_info_title">Info donații</string>
-  <string name="mokee_version_type_title">Tipul versiunii</string>
   <string name="mokee_last_check_title">Ultima verificare</string>
   <string name="mokee_last_check_never">Niciodata</string>
   <!-- Version -->

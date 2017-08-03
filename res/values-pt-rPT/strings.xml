@@ -43,7 +43,6 @@
   <string name="mokee_version_title">Versão Mokee</string>
   <string name="mokee_unique_id_title">ID Único</string>
   <string name="mokee_donate_info_title">Informação de doação</string>
-  <string name="mokee_version_type_title">Tipo de Versão</string>
   <string name="mokee_last_check_title">Última Verificação</string>
   <string name="mokee_last_check_never">Nunca</string>
   <!-- Version -->

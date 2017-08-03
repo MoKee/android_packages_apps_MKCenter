@@ -40,7 +40,6 @@
   <!-- Base Info -->
   <string name="mokee_version_info_title">Инфо о верзији</string>
   <string name="mokee_version_title">MoKee верзија</string>
-  <string name="mokee_version_type_title">Тип верзије</string>
   <string name="mokee_last_check_title">Последња провера</string>
   <string name="mokee_last_check_never">Никада</string>
   <!-- Version -->

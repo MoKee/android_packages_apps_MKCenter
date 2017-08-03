@@ -40,7 +40,6 @@
   <!-- Base Info -->
   <string name="mokee_version_info_title">Informació de la versió</string>
   <string name="mokee_version_title">Versió MoKee</string>
-  <string name="mokee_version_type_title">Tipus de versió</string>
   <string name="mokee_last_check_title">Última comprovació</string>
   <string name="mokee_last_check_never">Mai</string>
   <!-- Version -->

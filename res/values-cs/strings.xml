@@ -43,7 +43,6 @@
   <string name="mokee_version_title">Verze MoKee</string>
   <string name="mokee_unique_id_title">Jedinečné ID</string>
   <string name="mokee_donate_info_title">Info darování</string>
-  <string name="mokee_version_type_title">Typ verze</string>
   <string name="mokee_last_check_title">Poslední kontrola</string>
   <string name="mokee_last_check_never">Nikdy</string>
   <!-- Version -->

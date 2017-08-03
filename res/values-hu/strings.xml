@@ -43,7 +43,6 @@
   <string name="mokee_version_title">MoKee verzió</string>
   <string name="mokee_unique_id_title">Egyedi azonosító</string>
   <string name="mokee_donate_info_title">Adományozás információk</string>
-  <string name="mokee_version_type_title">Verzió típusa</string>
   <string name="mokee_last_check_title">Utolsó ellenőrzés</string>
   <string name="mokee_last_check_never">Soha</string>
   <!-- Version -->

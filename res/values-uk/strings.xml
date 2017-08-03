@@ -43,7 +43,6 @@
   <string name="mokee_version_title">Версія MoKee</string>
   <string name="mokee_unique_id_title">Унікальний ідентифікатор</string>
   <string name="mokee_donate_info_title">Інформація для пожертв</string>
-  <string name="mokee_version_type_title">Тип версії</string>
   <string name="mokee_last_check_title">Остання перевірка</string>
   <string name="mokee_last_check_never">Ніколи</string>
   <!-- Version -->

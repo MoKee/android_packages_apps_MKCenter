@@ -40,7 +40,6 @@
   <!-- Base Info -->
   <string name="mokee_version_info_title">Version Info</string>
   <string name="mokee_version_title">MoKee Version</string>
-  <string name="mokee_version_type_title">Version Type</string>
   <string name="mokee_last_check_title">Last Check</string>
   <string name="mokee_last_check_never">Never</string>
   <!-- Version -->

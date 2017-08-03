@@ -40,7 +40,6 @@
   <!-- Base Info -->
   <string name="mokee_version_info_title">വേർഷൻ വിവരം</string>
   <string name="mokee_version_title">മോക്കീ വേർഷൻ</string>
-  <string name="mokee_version_type_title">വേർഷൻ തരം</string>
   <string name="mokee_last_check_title">അവസാന നോട്ടം</string>
   <string name="mokee_last_check_never">ഇതുവരെയില്ല</string>
   <!-- Version -->

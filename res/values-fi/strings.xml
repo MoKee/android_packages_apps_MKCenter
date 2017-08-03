@@ -43,7 +43,6 @@
   <string name="mokee_version_title">MoKee-versio</string>
   <string name="mokee_unique_id_title">Yksilöllinen ID</string>
   <string name="mokee_donate_info_title">Lahjoitus tiedot</string>
-  <string name="mokee_version_type_title">Versiolaji</string>
   <string name="mokee_last_check_title">Viimeisin tarkistus</string>
   <string name="mokee_last_check_never">Ei koskaan</string>
   <!-- Version -->

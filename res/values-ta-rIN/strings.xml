@@ -43,7 +43,6 @@
   <string name="mokee_version_title">MoKee பதிப்பு</string>
   <string name="mokee_unique_id_title">பிரத்யேக ID</string>
   <string name="mokee_donate_info_title">தகவல் நன்கொடையளி</string>
-  <string name="mokee_version_type_title">பதிப்பு வகை</string>
   <string name="mokee_last_check_title">கடந்த சோதனை</string>
   <string name="mokee_last_check_never">ஒருபோதுமில்லை</string>
   <!-- Version -->

@@ -38,7 +38,6 @@
   <string name="mokee_version_title">MoKee ဗားရှင်း</string>
   <string name="mokee_unique_id_title">ကိုယ်ပိုင် နံပါတ်</string>
   <string name="mokee_donate_info_title">လှူဒါန်းရန် အချက်အလက်</string>
-  <string name="mokee_version_type_title">ဗားရှင်း အမျိုးအစား</string>
   <string name="mokee_last_check_title">နောက်ဆုံး စစ်ဆေးခဲ့သည့် အချိန်</string>
   <string name="mokee_last_check_never">ဘယ်တော့မှ</string>
   <!-- Version -->

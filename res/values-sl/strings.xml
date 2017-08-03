@@ -43,7 +43,6 @@
   <string name="mokee_version_title">MoKee različica</string>
   <string name="mokee_unique_id_title">Edinstven ID</string>
   <string name="mokee_donate_info_title">Info o prispevkih</string>
-  <string name="mokee_version_type_title">Tip različice</string>
   <string name="mokee_last_check_title">Zadnje preverjanje</string>
   <string name="mokee_last_check_never">Nikoli</string>
   <!-- Version -->

@@ -43,7 +43,6 @@
   <string name="mokee_version_title">MoKee 버전</string>
   <string name="mokee_unique_id_title">고유 ID</string>
   <string name="mokee_donate_info_title">기부 정보</string>
-  <string name="mokee_version_type_title">버전 유형</string>
   <string name="mokee_last_check_title">마지막 검사</string>
   <string name="mokee_last_check_never">알리지 않음</string>
   <!-- Version -->

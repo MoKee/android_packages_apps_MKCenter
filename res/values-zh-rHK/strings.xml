@@ -43,7 +43,6 @@
   <string name="mokee_version_title">MoKee 版本</string>
   <string name="mokee_unique_id_title">唯一的 ID</string>
   <string name="mokee_donate_info_title">捐贈資訊</string>
-  <string name="mokee_version_type_title">版本類型</string>
   <string name="mokee_last_check_title">上次檢測</string>
   <string name="mokee_last_check_never">永不</string>
   <!-- Version -->

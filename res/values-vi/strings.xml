@@ -43,7 +43,6 @@
   <string name="mokee_version_title">Phiên bản MoKee</string>
   <string name="mokee_unique_id_title">ID duy nhất</string>
   <string name="mokee_donate_info_title">Đóng góp thông tin</string>
-  <string name="mokee_version_type_title">Loại phiên bản</string>
   <string name="mokee_last_check_title">Kiểm tra lần cuối</string>
   <string name="mokee_last_check_never">Không bao giờ</string>
   <!-- Version -->

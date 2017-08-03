@@ -43,7 +43,6 @@
   <string name="mokee_version_title">MoKee Versiyonu</string>
   <string name="mokee_unique_id_title">Benzersiz kimlik</string>
   <string name="mokee_donate_info_title">Bağış bilgisi</string>
-  <string name="mokee_version_type_title">Versiyon türü</string>
   <string name="mokee_last_check_title">Son kontrol</string>
   <string name="mokee_last_check_never">Asla</string>
   <!-- Version -->

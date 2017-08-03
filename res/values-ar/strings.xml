@@ -43,7 +43,6 @@
   <string name="mokee_version_title">إصدار موكي</string>
   <string name="mokee_unique_id_title">معرف فريد</string>
   <string name="mokee_donate_info_title">معلومات التبرع</string>
-  <string name="mokee_version_type_title">نوع الإصدار</string>
   <string name="mokee_last_check_title">أخر تحقق</string>
   <string name="mokee_last_check_never">أبداً</string>
   <!-- Version -->

@@ -43,7 +43,6 @@
   <string name="mokee_version_title">גירסת MoKee</string>
   <string name="mokee_unique_id_title">מספר מזהה</string>
   <string name="mokee_donate_info_title">מידע על תרומות</string>
-  <string name="mokee_version_type_title">סוג גירסה</string>
   <string name="mokee_last_check_title">בדיקה אחרונה</string>
   <string name="mokee_last_check_never">אף פעם</string>
   <!-- Version -->
