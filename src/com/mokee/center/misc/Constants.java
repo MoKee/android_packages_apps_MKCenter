@@ -89,6 +89,8 @@ public class Constants {
     public static final String KEY_DONATE_RANK = "donate_rank";
     public static final String KEY_DONATE_AMOUNT = "donate_amount";
 
+    public static final String ROOT_ACCESS_PROPERTY = "persist.sys.root_access";
+
     // Public key
     public static final String PUB_KEY =
             "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCwN8FdvNOu5A8yP2Bfb7rk1o6N" +

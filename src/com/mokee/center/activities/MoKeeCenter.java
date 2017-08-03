@@ -25,6 +25,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.RecoverySystem;
+import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.support.annotation.StringRes;
 import android.support.design.widget.CoordinatorLayout;
@@ -60,7 +61,6 @@ public class MoKeeCenter extends AppCompatActivity {
     public static final String BR_ONNewIntent = "com.mokee.center.action.ON_NEW_INTENT";
 
     private static CoordinatorLayout mRoot;
-    private Handler mainHandler = new Handler();
 
     public void donateOrRemoveAdsDialog(final boolean isDonate) {
         final LayoutInflater inflater = LayoutInflater.from(this);
@@ -244,25 +244,30 @@ public class MoKeeCenter extends AppCompatActivity {
                             Utils.triggerUpdateByPath(this, updatePackagePath);
                         }
                     } else {
-                        builder.setTitle(R.string.verify_system_compatible_title)
-                                .setView(resultView)
-                                .setCancelable(false)
-                                .setPositiveButton(android.R.string.ok, null)
-                                .setNegativeButton(R.string.verify_system_compatible_root_skip, new DialogInterface.OnClickListener() {
-                                    @Override
-                                    public void onClick(DialogInterface dialog, int which) {
-                                        // Reboot into recovery and trigger the update
-                                        try {
-                                            dialog.dismiss();
-                                            Utils.triggerUpdateByPath(MoKeeCenter.this, updatePackagePath);
-                                        } catch (IOException e) {
-                                            e.printStackTrace();
+                        String value = SystemProperties.get(Constants.ROOT_ACCESS_PROPERTY, "0");
+                        if (value.equals("0") || value.equals("2")) {
+                            Utils.triggerUpdateByPath(MoKeeCenter.this, updatePackagePath);
+                        } else {
+                            builder.setTitle(R.string.verify_system_compatible_title)
+                                    .setView(resultView)
+                                    .setCancelable(false)
+                                    .setPositiveButton(android.R.string.ok, null)
+                                    .setNegativeButton(R.string.verify_system_compatible_root_skip, new DialogInterface.OnClickListener() {
+                                        @Override
+                                        public void onClick(DialogInterface dialog, int which) {
+                                            // Reboot into recovery and trigger the update
+                                            try {
+                                                dialog.dismiss();
+                                                Utils.triggerUpdateByPath(MoKeeCenter.this, updatePackagePath);
+                                            } catch (IOException e) {
+                                                e.printStackTrace();
+                                            }
                                         }
-                                    }
-                                });
-                        TextView textView = (TextView) resultView.findViewById(R.id.message);
-                        textView.setText(R.string.verify_system_compatible_root_request);
-                        builder.show();
+                                    });
+                            TextView textView = (TextView) resultView.findViewById(R.id.message);
+                            textView.setText(R.string.verify_system_compatible_root_request);
+                            builder.show();
+                        }
                     }
                 } catch (IOException e) {
                     makeSnackbar(R.string.apply_unable_to_reboot_toast).show();
