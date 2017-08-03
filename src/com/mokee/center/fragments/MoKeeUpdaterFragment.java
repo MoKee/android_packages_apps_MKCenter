@@ -97,7 +97,6 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
     private static final String KEY_MOKEE_VERSION = "mokee_version";
     private static final String KEY_MOKEE_UNIQUE_ID = "mokee_unique_id";
     private static final String KEY_MOKEE_DONATE_INFO = "mokee_donate_info";
-    private static final String KEY_MOKEE_VERSION_TYPE = "mokee_version_type";
     private static final String KEY_MOKEE_LAST_CHECK = "mokee_last_check";
 
     private static final String UPDATES_CATEGORY = "updates_category";
@@ -409,7 +408,6 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
         }
 
         MoKeeVersionTypeString = Utils.getReleaseVersionTypeString(moKeeCenter, MoKeeVersionType);
-        Utils.setSummaryFromString(this, KEY_MOKEE_VERSION_TYPE, MoKeeVersionTypeString);
 
         if (!MoKeeVersionType.equals("history")) {
             // 增量更新
@@ -601,7 +599,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
 
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
-        if (preference.getKey().equals(KEY_MOKEE_VERSION_TYPE)) {
+        if (preference.getKey().equals(KEY_MOKEE_VERSION)) {
             // Don't enable experimental option for secondary users.
             if (UserHandle.myUserId() != UserHandle.USER_OWNER)
                 return true;
