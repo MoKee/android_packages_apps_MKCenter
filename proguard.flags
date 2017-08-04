@@ -1,12 +1,54 @@
--dontwarn cn.waps.**
--keep public class cn.waps.** { *;}
--keep public interface cn.waps.** { *;}
+-optimizationpasses 5
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-dontpreverify
+-verbose
+-optimizations !code/simplification/arithmetic,!field/*,!class/merging/*
 
--dontwarn mokee.support.**
--keep class mokee.support.** { *;}
+-keep public class * extends android.app.Activity
+-keep public class * extends android.app.Application
+-keep public class * extends android.app.Service
+-keep public class * extends android.content.BroadcastReceiver
+-keep public class * extends android.content.ContentProvider
+-keep public class * extends android.app.backup.BackupAgentHelper
+-keep public class * extends android.preference.Preference
+-keep public class com.android.vending.licensing.ILicensingService
 
--keep public class * extends android.support.v7.preference.* {
+#keep all classes that might be used in XML layouts
+-keep public class * extends android.view.View
+-keep public class * extends android.app.Fragment
+-keep public class * extends android.support.v4.Fragment
+
+#keep all classes
+-keep public class *{
+    public protected *;
+}
+
+#keep all public and protected methods that could be used by java reflection
+-keepclassmembernames class * {
+    public protected <methods>;
+}
+
+-keepclasseswithmembers  class * {
+    native <methods>;
+}
+
+-keepclasseswithmembers  class * {
     public <init>(android.content.Context, android.util.AttributeSet);
+}
+
+-keepclasseswithmembers  class * {
+    public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+
+# Needed for Parcelable/SafeParcelable Creators to not get stripped
+-keepnames class * implements android.os.Parcelable {
+    public static final ** CREATOR;
 }
 
 -keep class android.support.design.widget.AppBarLayout$ScrollingViewBehavior { *; }
@@ -28,13 +70,15 @@
     @com.google.android.gms.common.annotation.KeepName *;
 }
 
-# Needed for Parcelable/SafeParcelable Creators to not get stripped
--keepnames class * implements android.os.Parcelable {
-    public static final ** CREATOR;
-}
-
 # Needed when building against the Marshmallow SDK
 -dontwarn org.apache.http.**
 
 # Needed when building against pre-Marshmallow SDK.
 -dontwarn android.security.NetworkSecurityPolicy
+
+-dontwarn cn.waps.**
+-keep public class cn.waps.** { *;}
+-keep public interface cn.waps.** { *;}
+
+-dontwarn mokee.support.**
+-keep class mokee.support.** { *;}

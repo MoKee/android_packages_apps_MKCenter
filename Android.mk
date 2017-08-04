@@ -62,6 +62,8 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_PRIVILEGED_MODULE := true
 LOCAL_CERTIFICATE := platform
 
+LOCAL_PROGUARD_ENABLED := obfuscation
+
 ifneq ($(INCREMENTAL_BUILDS),)
     LOCAL_PROGUARD_ENABLED := disabled
     LOCAL_JACK_ENABLED := incremental
