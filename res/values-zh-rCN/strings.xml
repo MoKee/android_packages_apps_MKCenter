@@ -78,8 +78,9 @@
   <string name="donate_money_info">您捐赠了 %1$d 元，打败了全球 %2$s 的用户！</string>
   <string name="donate_money_info_with_rank">您捐赠了 %1$d 元，打败了全球 %2$s 的用户，排名第 %3$d！</string>
   <string name="donate_money_info_null">当前您还没有过光荣的捐赠行为。捐赠是国际通行的一种支持免费软件的方式，您可以花费千元购买厂商的手机和万年不更新的系统，何不向魔趣做一次小小的捐赠呢？您的举手之劳，就可以使我们变得更好，持续为您带来更好用的ROM。</string>
-  <string name="remove_ads_title">解锁全部功能并移除广告</string>
-  <string name="remove_ads_request_price">已捐赠 %1$d，待捐赠 %2$d（货币单位：人民币）</string>
+  <string name="unlock_features_title">功能解锁</string>
+  <string name="unlock_features_ota_title">捐赠 %d 元，解锁增量更新和高速下载</string>
+  <string name="unlock_features_verify_rom_title">捐赠 %d 元，解锁增量更新、高速下载、放心刷™并移除广告</string>
   <!-- Update -->
   <string name="unknown">未知</string>
   <string name="dialog_update">更新</string>
