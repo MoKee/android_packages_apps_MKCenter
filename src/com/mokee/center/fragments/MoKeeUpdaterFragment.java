@@ -457,6 +457,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
 
             final ProgressBar mProgressBar = (ProgressBar) donateView.findViewById(R.id.progress);
             mProgressBar.setMax(100);
+            mProgressBar.setVisibility(View.VISIBLE);
 
             leftTime = mPrefs.getLong(Constants.KEY_LEFT_TIME, Constants.DISCOUNT_THINK_TIME);
             mProgressBar.setProgress(Float.valueOf((float) leftTime / Constants.DISCOUNT_THINK_TIME * 100).intValue());
@@ -650,7 +651,9 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
     public void onPrepareOptionsMenu(Menu menu) {
         super.onPrepareOptionsMenu(menu);
         if (Utils.checkLicensed(moKeeCenter)) {
-            menu.findItem(R.id.menu_remove_ads).setVisible(false);
+            menu.findItem(R.id.menu_unlock_features).setVisible(false);
+        } else {
+            menu.findItem(R.id.menu_donate).setVisible(false);
         }
     }
 
@@ -663,8 +666,8 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
             case R.id.menu_delete_all:
                 confirmDeleteAll();
                 return true;
-            case R.id.menu_remove_ads:
-                moKeeCenter.donateOrRemoveAdsDialog(false);
+            case R.id.menu_unlock_features:
+                moKeeCenter.donateOrUnlockFeatureDialog(false);
                 return true;
             case R.id.menu_restore:
                 Utils.restorePaymentRequest(moKeeCenter);
