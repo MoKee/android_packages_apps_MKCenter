@@ -62,7 +62,7 @@ public class MoKeeCenter extends AppCompatActivity {
 
     private static CoordinatorLayout mRoot;
 
-    public void donateOrRemoveAdsDialog(final boolean isDonate) {
+    public void donateOrUnlockFeatureDialog(final boolean isDonate) {
         final LayoutInflater inflater = LayoutInflater.from(this);
 
         @SuppressLint("InflateParams")
@@ -74,46 +74,47 @@ public class MoKeeCenter extends AppCompatActivity {
         TextView mMessage = (TextView) donateView.findViewById(R.id.message);
         mMessage.setText(R.string.donate_dialog_message);
 
-        mSeekBar.setMax(Constants.DONATION_MAX - Constants.DONATION_REQUEST_MIN);
+        Float paid = Utils.getPaidTotal(this);
+        Float unPaid = paid > Constants.DONATION_REQUEST ? Constants.DONATION_TOTAL - paid : Constants.DONATION_REQUEST - paid;
+
+        if (isDonate) {
+            mSeekBar.setMax(Constants.DONATION_MAX - Constants.DONATION_REQUEST_MIN);
+            mRequest.setText(getString(R.string.donate_money_currency, Constants.DONATION_REQUEST_MIN));
+        } else {
+            mSeekBar.setMax(Constants.DONATION_TOTAL);
+            mSeekBar.setProgress(paid.intValue());
+            mRequest.setText(getString(R.string.unlock_features_price, paid.intValue(), unPaid.intValue()));
+        }
+
         mSeekBar.setOnSeekBarChangeListener(new SimpleOnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-                seekBar.setProgress(progress / 10 * 10);
-                mRequest.setText(getString(R.string.donate_money_currency,
-                        progress / 10 * 10 + Constants.DONATION_REQUEST_MIN));
+                if (isDonate) {
+                    seekBar.setProgress(progress / 10 * 10);
+                    mRequest.setText(getString(R.string.donate_money_currency,
+                            progress / 10 * 10 + Constants.DONATION_REQUEST_MIN));
+                } else {
+                    if (progress <= paid) {
+                        seekBar.setProgress(paid.intValue());
+                    } else {
+                        seekBar.setProgress(Constants.DONATION_TOTAL);
+                    }
+                    mRequest.setText(getString(R.string.donate_money_currency,
+                            progress / 10 * 10 + Constants.DONATION_REQUEST_MIN));
+                }
             }
         });
 
-        final ProgressBar mProgressBar = (ProgressBar) donateView.findViewById(R.id.progress);
-        final Float paid = Utils.getPaidTotal(this);
-        final Float unPaid = Constants.DONATION_TOTAL - paid;
-
-        if (isDonate) {
-            mSeekBar.setVisibility(View.VISIBLE);
-            mProgressBar.setVisibility(View.GONE);
-            mRequest.setText(getString(R.string.donate_money_currency, Constants.DONATION_REQUEST_MIN));
-        } else {
-            mSeekBar.setVisibility(View.GONE);
-            mProgressBar.setVisibility(View.VISIBLE);
-            mProgressBar.setMax(Constants.DONATION_TOTAL);
-            mProgressBar.setProgress(paid.intValue());
-            mRequest.setText(getString(R.string.remove_ads_request_price, paid.intValue(), unPaid.intValue()));
-        }
+        String title = isDonate ? getString(R.string.donate_money_title)
+                : getString(R.string.unlock_features_title);
 
         final AlertDialog.Builder builder = new AlertDialog.Builder(this)
-                .setTitle(isDonate ? R.string.donate_dialog_title : R.string.remove_ads_title)
-                .setView(donateView);
-
-        final String title = isDonate
-                ? getString(R.string.donate_money_title)
-                : getString(R.string.remove_ads_title);
+                .setTitle(title).setView(donateView);
 
         builder.setPositiveButton(R.string.donate_dialog_via_paypal, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                float price = isDonate
-                        ? (float) (mSeekBar.getProgress() + Constants.DONATION_REQUEST_MIN)
-                        : unPaid;
+                float price = (float) (mSeekBar.getProgress() + Constants.DONATION_REQUEST_MIN);
                 requestForPayment("paypal", price, title);
             }
         });
@@ -121,9 +122,7 @@ public class MoKeeCenter extends AppCompatActivity {
         builder.setNegativeButton(R.string.donate_dialog_via_alipay, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                float price = isDonate
-                        ? (float) (mSeekBar.getProgress() + Constants.DONATION_REQUEST_MIN)
-                        : unPaid;
+                float price = (float) (mSeekBar.getProgress() + Constants.DONATION_REQUEST_MIN);
                 requestForPayment("alipay", price, title);
             }
         });
@@ -196,7 +195,7 @@ public class MoKeeCenter extends AppCompatActivity {
                         .setAction(R.string.donate_money_again, new View.OnClickListener() {
                             @Override
                             public void onClick(View v) {
-                                donateOrRemoveAdsDialog(true);
+                                donateOrUnlockFeatureDialog(true);
                             }
                         })
                         .show();
@@ -290,7 +289,7 @@ public class MoKeeCenter extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.menu_donate:
-                donateOrRemoveAdsDialog(true);
+                donateOrUnlockFeatureDialog(true);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
