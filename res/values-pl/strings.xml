@@ -61,7 +61,6 @@
   <string name="menu_donate">Dotacja</string>
   <string name="menu_refresh">Odśwież</string>
   <string name="menu_delete_all">Usuń pobrane</string>
-  <string name="menu_remove_ads">Usuń reklamy</string>
   <string name="menu_restore">Przywróć licencję</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Wspomóż nas</string>
@@ -78,8 +77,6 @@
   <string name="donate_money_info">Przekazałeś w sumie %1$d juanów, więcej niż %2$s przekazujących dotację!</string>
   <string name="donate_money_info_with_rank">Przekazałeś w sumie %1$d juanów, więcej niż %2$s przekazujących dotację. Miejsce numer %3$d!</string>
   <string name="donate_money_info_null">Nie przekazałeś dotacji</string>
-  <string name="remove_ads_title">Usuń reklamy</string>
-  <string name="remove_ads_request_price">Podarowałeś %1$d juanów, brakuje %2$d juanów</string>
   <!-- Update -->
   <string name="unknown">Brak informacji</string>
   <string name="dialog_update">Aktualizacja</string>

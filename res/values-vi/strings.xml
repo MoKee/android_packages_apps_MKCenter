@@ -61,7 +61,6 @@
   <string name="menu_donate">Ủng hộ</string>
   <string name="menu_refresh">Tải lại</string>
   <string name="menu_delete_all">Xóa phần tải xuống</string>
-  <string name="menu_remove_ads">Xóa quảng cáo</string>
   <string name="menu_restore">Phục hồi cấp phép</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Ủng hộ chúng tôi</string>
@@ -78,8 +77,6 @@
   <string name="donate_money_info">Bạn tặng tổng cộng của CNY %1$d, nhiều hơn %2$s của các nhà tài trợ toàn cầu!</string>
   <string name="donate_money_info_with_rank">Bạn tặng tổng cộng của CNY %1$d, nhiều hơn %2$s của các nhà tài trợ toàn cầu, xếp hạng Thứ %3$d!</string>
   <string name="donate_money_info_null">Bạn đã không tặng</string>
-  <string name="remove_ads_title">Xóa quảng cáo</string>
-  <string name="remove_ads_request_price">Đã ủng hộ %1$d CNY, %2$d CNY đang chờ giải quyết</string>
   <!-- Update -->
   <string name="unknown">Không rõ</string>
   <string name="dialog_update">Cập nhật</string>

@@ -61,7 +61,6 @@
   <string name="menu_donate">Doneaza</string>
   <string name="menu_refresh">Reimprospatare</string>
   <string name="menu_delete_all">Șterge descărcări</string>
-  <string name="menu_remove_ads">Anulează publicitate</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Donați</string>
   <string name="donate_dialog_message">Spre deosebire de Cygn sau MIUI, MoKee OpenSource este un proiect pur non-profit născut din pasiune și hobby. Pentru a menține acest proiect, utilizează resurse financiare proprii sau din cele obținute din donații și publicitate. Donația dvs. poate ajuta dezvoltatorii ce participă la acest proiect să mențină dezvoltarea lui! Această opțiune elimină publicitatea din MoKee Center, sau puteți opta pentru ”Donează” dacă doriți instalări automate incrementale (în acest caz, publicitatea va dispărea doar la atingerea sumei stabilite prin donații). Vă rugăm să faceți o copie de rezervă a fișierului mokee.license (se găsește în rădăcina spațiului de stocare a telefonului) imediat ce a-ți făcut o donație.</string>
@@ -76,8 +75,6 @@
   <string name="donate_money_info">Ai donat un total de %1$d CNY, mai mult decât %2$s de donatori la nivel global!</string>
   <string name="donate_money_info_with_rank">Ai donat un total de CNY %1$d, mai mult de %2$s de donatori la nivel global, rang No.%3$d!</string>
   <string name="donate_money_info_null">Nu ai donat</string>
-  <string name="remove_ads_title">Anulează publicitate</string>
-  <string name="remove_ads_request_price">Ați donat CNY %1$d, în așteptare CNY %2$d</string>
   <!-- Update -->
   <string name="unknown">Necunoscut</string>
   <string name="dialog_update">Actualizează</string>

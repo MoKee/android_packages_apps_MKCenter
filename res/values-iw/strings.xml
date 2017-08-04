@@ -61,7 +61,6 @@
   <string name="menu_donate">תרום</string>
   <string name="menu_refresh">רענן</string>
   <string name="menu_delete_all">מחיקת הורדה</string>
-  <string name="menu_remove_ads">הסר פרסומות</string>
   <!-- Donate -->
   <string name="donate_dialog_title">תרום לנו</string>
   <string name="donate_dialog_message">שלא כמו חברות כגון CyanogenMod או MIUI, הרום MoKee הוא פרויקט בקוד פתוח וללא מטרות רווח ונולד מתוך תחביב. בשביל לתחזק את הפרויקט, אנחנו צריכים להשיג כסף מתרומות או מפרסומות. התרומה שלך יכולה לעזור לנו בתשלומים ותמוך בפיתוח עתידי! תרומה זו תסיר את הפרסומות ממרכז MoKee, או שתעדיף להשתמש באופצית ה\"תרומה\" במקום אם אתה מעדיך תשלומים (הפרסומות יוסרו שתגיע לערך המינימלי שצויין). לאחר שאתה תורם הקפד לגבות את קובץ הרשיון (mokee.license שנמצא בכרטיס זיכרון בתקיה הראשית, תקף למכשיר זה בלבד).</string>
@@ -76,8 +75,6 @@
   <string name="donate_money_info">תרמת סכום של CNY %1$d, יותר %2$s של תורמים באופן גלובלי!</string>
   <string name="donate_money_info_with_rank">תרמת סך של %1$d CNY, יותר מ%2$s מהתורמים בעולם, דירוג מס\' %3$d!</string>
   <string name="donate_money_info_null">לא תרמת</string>
-  <string name="remove_ads_title">הסר פרסומות</string>
-  <string name="remove_ads_request_price">נתרמו %1$d CNY, חסרים %2$d CNY</string>
   <!-- Update -->
   <string name="unknown">לא ידוע</string>
   <string name="dialog_update">עדכן</string>

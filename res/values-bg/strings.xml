@@ -61,7 +61,6 @@
   <string name="menu_donate">Дарение</string>
   <string name="menu_refresh">Опресняване</string>
   <string name="menu_delete_all">Изтриване на изтегляния</string>
-  <string name="menu_remove_ads">Премахване на реклами</string>
   <string name="menu_restore">Възстанови лиценз</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Дарения за нас</string>
@@ -78,8 +77,6 @@
   <string name="donate_money_info">Дарени общо CNY %1$d, повече от %2$s на донорите в световен мащаб!</string>
   <string name="donate_money_info_with_rank">Ти дари общо CNY %1$d повече от %2$s на донорите в световен мащаб, ранг No.%3$d!</string>
   <string name="donate_money_info_null">Нямате дарения</string>
-  <string name="remove_ads_title">Премахване на реклами</string>
-  <string name="remove_ads_request_price">Дарени CNY %1$d, чакащи CNY %2$d</string>
   <!-- Update -->
   <string name="unknown">Неизвестно</string>
   <string name="dialog_update">Ъпдейт</string>

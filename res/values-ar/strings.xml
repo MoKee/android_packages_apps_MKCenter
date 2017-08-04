@@ -61,7 +61,6 @@
   <string name="menu_donate">تبرع</string>
   <string name="menu_refresh">تحديث</string>
   <string name="menu_delete_all">حذف التنزيل</string>
-  <string name="menu_remove_ads">إزالة الإعلانات</string>
   <!-- Donate -->
   <string name="donate_dialog_title">تبرع لنا</string>
   <string name="donate_dialog_message">خلافا لشركات مثل ساجون أو MIUI، موكي مفتوحة المصدر مشروع غير ربحية بحتة ولد من هواية وعاطفة. 
@@ -79,8 +78,6 @@
   <string name="donate_money_info">تبرعت بمجموع %1$d يوان صيني، اكثر من %2$s من المتبرعين عالمياَ!</string>
   <string name="donate_money_info_with_rank">تبرعت بمجموع %1$d يوان صيني، اكثر من %2$s من المتبرعين عالمياَ، تحتل المرتبة %3$d!</string>
   <string name="donate_money_info_null">لم تقم بالتبرع</string>
-  <string name="remove_ads_title">إزالة الإعلانات</string>
-  <string name="remove_ads_request_price">تبرعت بقيمة %1$d CNY، ريثما قيمتها CNY %2$d</string>
   <!-- Update -->
   <string name="unknown">غير معروف</string>
   <string name="dialog_update">تحديث</string>

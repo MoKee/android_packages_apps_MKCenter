@@ -61,7 +61,6 @@
   <string name="menu_donate">Lahjoita</string>
   <string name="menu_refresh">Päivitä</string>
   <string name="menu_delete_all">Poista lataukset</string>
-  <string name="menu_remove_ads">Poista mainokset</string>
   <string name="menu_restore">Palauta lisenssi</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Lahjoita meille</string>
@@ -78,8 +77,6 @@
   <string name="donate_money_info">Lahjoitit yhteensä CNY %1$d enemmän kuin %2$s lahjoittajat maailmanlaajuisesti!</string>
   <string name="donate_money_info_with_rank">Lahjoitit yhteensä CNY %1$d enemmän kuin %2$s lahjoittajat maailmanlaajuisesti, sijoitus No.%3$d!</string>
   <string name="donate_money_info_null">Et ole lahjoittanut</string>
-  <string name="remove_ads_title">Poista mainokset</string>
-  <string name="remove_ads_request_price">Lahjoitit CNY %1$d, odottaa CNY %2$d</string>
   <!-- Update -->
   <string name="unknown">Tuntematon</string>
   <string name="dialog_update">Päivitä</string>

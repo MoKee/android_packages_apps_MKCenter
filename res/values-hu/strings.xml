@@ -61,7 +61,6 @@
   <string name="menu_donate">Adomány</string>
   <string name="menu_refresh">Frissités</string>
   <string name="menu_delete_all">Letöltés törlése</string>
-  <string name="menu_remove_ads">Hírdetések eltávolítása</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Támogass minket</string>
   <string name="donate_dialog_message">Más olyan cégekhez, mint a Cygn vagy a MIUI a MoKee OpenSource egy teljesen nonprofit elveken működő project, mely hobbiból született. A projekt fenntartásához szükséges anyagiakat legtöbbször saját magunk biztosítjuk, vagy adományokra ls hirdetésekre támaszkodunk. Adományoddal segíthetsz a további fejlesztésben! Ez az opció lehetővé teszi a reklámok eltávolítását a MoKee Centerben, de választhatod az \"Adomány\" opciót is, ha részletekben szeretnél segíteni (amint a részletek összege eléri szükséges szintet, a reklámok eltávolításra kerülnek). Készíts biztonsági másolatot a mokee.license fájlról az adományozás után (megtalálható az SD kártya gyökérkönyvtárában, csak egy eszközre használható).</string>
@@ -76,8 +75,6 @@
   <string name="donate_money_info">Te a lehető legnagyobb összeget adományoztad CNY-ból %1$d, ez több mint %2$s az adományozóink világszerte!</string>
   <string name="donate_money_info_with_rank">Te a lehető legnagyobb összeget adományoztad CNY-ból %1$d, ez több mint %2$s az adományozóink világszerte, rang No.%3$d!</string>
   <string name="donate_money_info_null">Még nem adományoztál</string>
-  <string name="remove_ads_title">Hírdetések eltávolítása</string>
-  <string name="remove_ads_request_price">Adományoztál: %1$d CNY, Hátravan: %2$d CNY</string>
   <!-- Update -->
   <string name="unknown">Ismeretlen</string>
   <string name="dialog_update">Frissítés</string>

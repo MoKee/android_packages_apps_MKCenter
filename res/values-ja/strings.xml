@@ -61,7 +61,6 @@
   <string name="menu_donate">寄付</string>
   <string name="menu_refresh">更新</string>
   <string name="menu_delete_all">ダウンロードを削除</string>
-  <string name="menu_remove_ads">広告を削除</string>
   <string name="menu_restore">ライセンスを復元する</string>
   <!-- Donate -->
   <string name="donate_dialog_title">寄付する</string>
@@ -78,8 +77,6 @@
   <string name="donate_money_info">あなたは CNY %1$dを寄付してくれて、グローバルに %2$s 以上のドナーより多いです！</string>
   <string name="donate_money_info_with_rank">あなたは CNY %1$dを寄付してくれて、グローバルに %2$s 以上のドナーより多いですが、順番No.%3$dです！</string>
   <string name="donate_money_info_null">また寄付していません</string>
-  <string name="remove_ads_title">広告を削除</string>
-  <string name="remove_ads_request_price">寄付済み %1$d元、不足分 %2$d元</string>
   <!-- Update -->
   <string name="unknown">不明</string>
   <string name="dialog_update">更新</string>

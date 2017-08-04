@@ -61,7 +61,7 @@
   <string name="menu_donate">Spenden</string>
   <string name="menu_refresh">Aktualisieren</string>
   <string name="menu_delete_all">Download löschen</string>
-  <string name="menu_remove_ads">Werbung entfernen</string>
+  <string name="menu_unlock_features">Funktionen freischalten</string>
   <string name="menu_restore">Lizenz wiederherstellen</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Unterstützen Sie uns</string>
@@ -78,8 +78,9 @@
   <string name="donate_money_info">Sie spendeten insgesamt CNY %1$d, mehr als %2$s der Spender weltweit!</string>
   <string name="donate_money_info_with_rank">Sie spendeten insgesamt CNY %1$d, mehr als %2$s der Spender, weltweiter Rang Nr.%3$d!</string>
   <string name="donate_money_info_null">Sie haben nicht gespendet</string>
-  <string name="remove_ads_title">Werbung entfernen</string>
-  <string name="remove_ads_request_price">Gespendet: CNY %1$d, Austehend: CNY %2$d</string>
+  <string name="unlock_features_title">Funktionen freischalten</string>
+  <string name="unlock_features_ota_title">Spende Sie %d CNY für das Freischalten von OTA und das Herunterladen in voller Geschwindigkeit.</string>
+  <string name="unlock_features_verify_rom_title">Spenden Sie %d CNY für das Freischalten von OTA, das Herunterladen in voller Geschwindigkeit und das Entfernen der Werbung.</string>
   <!-- Update -->
   <string name="unknown">Unbekannt</string>
   <string name="dialog_update">Aktualisieren</string>

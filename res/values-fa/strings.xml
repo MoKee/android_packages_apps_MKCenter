@@ -39,11 +39,9 @@
   <!-- Menu -->
   <string name="menu_refresh">تازه کردن</string>
   <string name="menu_delete_all">حذف دانلود</string>
-  <string name="menu_remove_ads">حذف تبلیغات</string>
   <!-- Donate -->
   <string name="donate_dialog_via_paypal">پی پال</string>
   <string name="donate_dialog_via_restore">بازیابی</string>
-  <string name="remove_ads_title">حذف تبلیغات</string>
   <!-- Update -->
   <string name="unknown">ناشناس</string>
   <string name="old_update_summary">قدیمی</string>

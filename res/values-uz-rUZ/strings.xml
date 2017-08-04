@@ -61,9 +61,7 @@
   <string name="menu_donate">Ehson</string>
   <string name="menu_refresh">Yangilash</string>
   <string name="menu_delete_all">Download olib tashlash</string>
-  <string name="menu_remove_ads">E\'lonlarni olib tashlash</string>
   <!-- Donate -->
-  <string name="remove_ads_title">E\'lonlarni olib tashlash</string>
   <!-- Update -->
   <string name="unknown">Ko`rsatilmagan</string>
   <!-- ChangeLog -->

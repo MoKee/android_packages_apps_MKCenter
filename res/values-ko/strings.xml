@@ -61,7 +61,6 @@
   <string name="menu_donate">기부</string>
   <string name="menu_refresh">새로 고침</string>
   <string name="menu_delete_all">다운로드 삭제</string>
-  <string name="menu_remove_ads">광고 제거</string>
   <string name="menu_restore">라이센스 복원</string>
   <!-- Donate -->
   <string name="donate_dialog_title">우리한테 기부</string>
@@ -78,8 +77,6 @@
   <string name="donate_money_info">You donated a total of CNY %1$d, more than %2$s of donors globally!</string>
   <string name="donate_money_info_with_rank">You donated a total of CNY %1$d, more than %2$s of donors globally, rank No.%3$d!</string>
   <string name="donate_money_info_null">기부안함</string>
-  <string name="remove_ads_title">광고 제거</string>
-  <string name="remove_ads_request_price">CNY %2$d 보류 CNY %1$d, 기증</string>
   <!-- Update -->
   <string name="unknown">미지</string>
   <string name="dialog_update">업데이트</string>

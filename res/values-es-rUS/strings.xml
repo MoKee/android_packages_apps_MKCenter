@@ -61,7 +61,6 @@
   <string name="menu_donate">Donar</string>
   <string name="menu_refresh">Actualizar</string>
   <string name="menu_delete_all">Eliminar descarga</string>
-  <string name="menu_remove_ads">Eliminar los anuncios</string>
   <string name="menu_restore">Restaurar Licencia</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Hacer una donación</string>
@@ -78,8 +77,6 @@
   <string name="donate_money_info">Donaste un total de CNY %1$d, más que %2$s de donantes a nivel mundial!</string>
   <string name="donate_money_info_with_rank">Donó un total de CNY %1$d, más %2$s de los donantes a nivel mundial, fila No.%3$d!</string>
   <string name="donate_money_info_null">No has donado</string>
-  <string name="remove_ads_title">Eliminar los anuncios</string>
-  <string name="remove_ads_request_price">Donó un total de %1$d CNY, restan %2$d CNY</string>
   <!-- Update -->
   <string name="unknown">Desconocido</string>
   <string name="dialog_update">Actualizar</string>

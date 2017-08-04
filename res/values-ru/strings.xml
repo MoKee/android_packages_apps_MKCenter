@@ -61,7 +61,6 @@
   <string name="menu_donate">Пожертвовать</string>
   <string name="menu_refresh">Обновить</string>
   <string name="menu_delete_all">Удалить загруженное</string>
-  <string name="menu_remove_ads">Убрать рекламу</string>
   <string name="menu_restore">Восстановить Лицензию</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Пожертвовать нам</string>
@@ -78,8 +77,6 @@
   <string name="donate_money_info">Вы пожертвовали в общей сложности CNY %1$d, более чем %2$s доноров во всем мире!</string>
   <string name="donate_money_info_with_rank">Вы пожертвовали в общей сложности CNY %1$d, более чем %2$s доноров во всем мире, ваш номер в списке: %3$d!</string>
   <string name="donate_money_info_null">Вы не произвели пожертвование</string>
-  <string name="remove_ads_title">Убрать рекламу</string>
-  <string name="remove_ads_request_price">Пожертвовано: %1$d CNY, Требуется: CNY %2$d</string>
   <!-- Update -->
   <string name="unknown">Неизвестно</string>
   <string name="dialog_update">Обновление</string>

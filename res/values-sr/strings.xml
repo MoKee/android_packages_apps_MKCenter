@@ -58,7 +58,6 @@
   <string name="menu_donate">Донирајте</string>
   <string name="menu_refresh">Оcвежи</string>
   <string name="menu_delete_all">Избрисати преузето</string>
-  <string name="menu_remove_ads">Уклони рекламе</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Донација</string>
   <string name="donate_dialog_message">MoKee OpenSource се разликује од појединих профитних компанија попут Cygn или MIUI у томе што је прави непрофитни пројекат настао из хобија и жеље. У циљу опстанка пројекта, ми смо принуђени да трошимо сопствени новац или користимо донације или зараду од реклама. Ваше донације нам могу помоћи да смањимо трошкове и подржимо будући развој! Ова опција Вам омогућава да уклоните рекламе из МоКее Центра, или можете користити опцију \"Донирај\" (рекламе ће бити уклоњене када сума достигне одређену вредност). Молимо, бекапујте mokee.license фајл (налази се на рут директоријуму СД картице, и важи само за тренутни уређај) пошто донирате.</string>
@@ -66,8 +65,6 @@
   <string name="donate_dialog_via_alipay">AliPay(CNY)</string>
   <string name="donate_money_toast_success">Хвала на донацији!</string>
   <string name="donate_money_again">Donirajte ponovo</string>
-  <string name="remove_ads_title">Уклони рекламе</string>
-  <string name="remove_ads_request_price">Донирано CNY %1$d, Потребно CNY %2$d</string>
   <!-- Update -->
   <string name="unknown">Непознато</string>
   <string name="dialog_update">Надоградња</string>

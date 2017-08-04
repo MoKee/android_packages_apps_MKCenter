@@ -61,7 +61,6 @@
   <string name="menu_donate">Přispět</string>
   <string name="menu_refresh">Obnovit</string>
   <string name="menu_delete_all">Odstranit stažené</string>
-  <string name="menu_remove_ads">Odstranit reklamy</string>
   <string name="menu_restore">Obnovit licenci</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Přispějte nám</string>
@@ -78,8 +77,6 @@
   <string name="donate_money_info">Celkem darováno %1$d CNY, více než %2$s dárců!</string>
   <string name="donate_money_info_with_rank">Daroval celkem CNY %1$d, více než %2$s dárců celkem, hodnost No.%3$d!</string>
   <string name="donate_money_info_null">Nebylo darováno</string>
-  <string name="remove_ads_title">Odstranit reklamy</string>
-  <string name="remove_ads_request_price">Darováno %1$d CNY, zbývá CNY %2$d</string>
   <!-- Update -->
   <string name="unknown">Neznámá</string>
   <string name="dialog_update">Aktualizovat</string>

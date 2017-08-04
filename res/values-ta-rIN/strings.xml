@@ -61,7 +61,6 @@
   <string name="menu_donate">நன்கொடை</string>
   <string name="menu_refresh">புதுப்பி</string>
   <string name="menu_delete_all">பதிவிறக்கம் அழி</string>
-  <string name="menu_remove_ads">விளம்பரங்களை அகற்று</string>
   <!-- Donate -->
   <string name="donate_dialog_title">எங்களுக்கு நன்கொடை</string>
   <string name="donate_dialog_message">Cygn, MIUI போன்ற நிறுவனங்கள் போலல்லாமல், MoKee ஓப்பன்சோர்ஸ், பொழுதுபோக்கு மற்றும் பேரார்வம் பிறந்த ஒரு முற்றிலும் அல்லாத இலாபம் திட்டம் ஆகும். இந்த திட்டம் பராமரிக்கும் பொருட்டு, நாங்கள் பெரும்பாலான நேரம் எங்கள் சொந்த பணத்தை வெளியே வலுவாக்க வேண்டும் அல்லது நன்கொடைகள் மற்றும் விளம்பரங்களை நம்பியுள்ளன. உங்கள் நன்கொடை எங்கள் நிதி சுமை குறைக்க மற்றும் எதிர்கால மேம்பாட்டு நிலைத்திருக்க உதவும்! இந்த விருப்பத் தேர்வின் மூலம் MoKee மையம் விளம்பரங்களை நீக்க அனுமதிக்கிறது, அல்லது \"தானம்\" விருப்பத்தை விரும்பினால் 
@@ -77,8 +76,6 @@
   <string name="donate_money_info">நீங்கள் மொத்தம் CNY %1$d, உலகளவில் %2$s விட நன்கொடையாக கொடுக்கப்பட்டுள்ளது!</string>
   <string name="donate_money_info_with_rank">நீங்கள் மொத்தம் CNY %1$d, உலகளவில் %2$s விட நன்கொடையாக கொடுக்கப்பட்டுள்ளது, அந்தஸ்து %3$d!</string>
   <string name="donate_money_info_null">நீங்கள் நன்கொடையாக இல்லை</string>
-  <string name="remove_ads_title">விளம்பரங்களை அகற்று</string>
-  <string name="remove_ads_request_price">நன்கொடையாக அளித்தது CNY%1$d, நிலுவையில் CNY%2$d</string>
   <!-- Update -->
   <string name="unknown">அறியாத</string>
   <string name="dialog_update">புதுப்புத்தல்கள்</string>

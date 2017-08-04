@@ -61,7 +61,6 @@
   <string name="menu_donate">Δωρεά</string>
   <string name="menu_refresh">Ανανέωση</string>
   <string name="menu_delete_all">Διαγραφή κατεβασμένου αρχείου</string>
-  <string name="menu_remove_ads">Αφαίρεση διαφημίσεων</string>
   <string name="menu_restore">Επαναφορά άδειας</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Κάντε μας μια δωρεά</string>
@@ -78,8 +77,6 @@
   <string name="donate_money_info">Δωρίσατε ένα ποσό CNY %1$d, περισσότερα από %2$s δωρεές παγκοσμίως!</string>
   <string name="donate_money_info_with_rank">Δωρίσατε ένα ποσό CNY %1$d, περισσότερα από %2$s δωρεές παγκοσμίως, κατάταξη Νο.%3$d!</string>
   <string name="donate_money_info_null">Δεν έχετε κάνει δωρεά</string>
-  <string name="remove_ads_title">Αφαίρεση διαφημίσεων</string>
-  <string name="remove_ads_request_price">Δωρήθηκαν CNY %1$d, Απομένουν CNY %2$d</string>
   <!-- Update -->
   <string name="unknown">Άγνωστο</string>
   <string name="dialog_update">Ενημέρωση</string>

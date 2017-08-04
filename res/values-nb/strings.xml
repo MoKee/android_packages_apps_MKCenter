@@ -58,7 +58,6 @@
   <string name="menu_donate">Donere</string>
   <string name="menu_refresh">Oppdater</string>
   <string name="menu_delete_all">Fjern nedlastinger</string>
-  <string name="menu_remove_ads">Fjerne annonser</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Donere til oss</string>
   <string name="donate_dialog_message">I motsetning til selskaper som Cygn eller MIUI er MoKee OpenSource et rent nonprofitprosjekt født av hobby og lidenskap. For å opprettholde dette prosjektet, må vi bruke våre egen penger mesteparten av tiden eller stole på donasjoner og reklame. Donasjoner kan hjelpe redusere våre finansielle belastning og opprettholde fremtidig utvikling! Dette alternativet lar deg fjerne annonser i MoKee Senter, eller bruk \"Donere\" i stedet hvis du foretrekker det (annonser vil bli fjernet når totalt har nådd angitt verdi). Ta backup på mokee.license fil (i rotkatalogen på sdcard, gjelder bare for gjeldende enhet) når du har donert.</string>
@@ -66,7 +65,6 @@
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_money_toast_success">Takk for din donasjon!</string>
   <string name="donate_money_again">Gi din støtte igjen</string>
-  <string name="remove_ads_title">Fjerne annonser</string>
   <!-- Update -->
   <string name="unknown">Ukjent</string>
   <string name="dialog_update">Oppdater</string>

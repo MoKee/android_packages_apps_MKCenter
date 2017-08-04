@@ -61,7 +61,6 @@
   <string name="menu_donate">Donér</string>
   <string name="menu_refresh">Opdatér</string>
   <string name="menu_delete_all">Slet download</string>
-  <string name="menu_remove_ads">Fjern annoncer</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Donér til os</string>
   <string name="donate_dialog_message">I modsætning til firmaer som Cygn eller MIUI er MoKee OpenSource et rent non-profit projekt skabt af hobby og lidenskab. For at opretholde dette projekt skal vi punge ud med vores egne penge det meste af tiden eller være afhængige af donationer og reklamer. Dine donationer kan hjælpe med at mindske vores finansielle belastning og opretholde fremtidig udvikling! Med denne mulighed kan du fjerne annoncerne i MoKee Center eller i stedet benytte muligheden \"Donér\", hvis du foretrækker ratebetaling (annoncerne fjernes, når det samlede beløb har nået den angivne størrelse). Sikkerhedskopiér venligst MoKee-licensfilen (i rodmappen på SD-kortet, kun gyldig til aktuelle enhed), når du har doneret.</string>
@@ -76,8 +75,6 @@
   <string name="donate_money_info">Du i alt doneret CNY %1$d, mere end %2$s af donorerne globalt!</string>
   <string name="donate_money_info_with_rank">Du donerede i alt CNY %1$d, mere end %2$s af donorerne globalt, rangering %3$d!</string>
   <string name="donate_money_info_null">Du ikke har doneret</string>
-  <string name="remove_ads_title">Fjern annoncer</string>
-  <string name="remove_ads_request_price">Doneret CNY %1$d, Afventende CNY %2$d</string>
   <!-- Update -->
   <string name="unknown">Ukendt</string>
   <string name="dialog_update">Opdatér</string>

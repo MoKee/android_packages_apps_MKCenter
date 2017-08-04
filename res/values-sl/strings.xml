@@ -61,7 +61,6 @@
   <string name="menu_donate">Prispevaj</string>
   <string name="menu_refresh">Osveži</string>
   <string name="menu_delete_all">Izbriši prenos</string>
-  <string name="menu_remove_ads">Odstrani oglase</string>
   <string name="menu_restore">Obnovi licenco</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Prispevajte za nas</string>
@@ -78,8 +77,6 @@
   <string name="donate_money_info">Skupaj ste podarili %1$d CNY, več kot %2$s donatorjev v svetovnem merilu!</string>
   <string name="donate_money_info_with_rank">Skupno ste prispevali CNY %1$d, več kot %2$s donatorjev v svetovnem merilu, uvrstitev št.%3$d!</string>
   <string name="donate_money_info_null">Niste še prispevali</string>
-  <string name="remove_ads_title">Odstrani oglase</string>
-  <string name="remove_ads_request_price">Prispevano CNY %1$d, V teku CNY %2$d</string>
   <!-- Update -->
   <string name="unknown">Neznano</string>
   <string name="dialog_update">Posodobi</string>

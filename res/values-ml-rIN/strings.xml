@@ -58,15 +58,12 @@
   <string name="menu_donate">സംഭാവന</string>
   <string name="menu_refresh">പുതുക്കുക</string>
   <string name="menu_delete_all">ഡിലീറ്റ് ഡൗൺലോഡ്</string>
-  <string name="menu_remove_ads">പരസ്യം ഒഴിവാക്കുക</string>
   <!-- Donate -->
   <string name="donate_dialog_title">സംഭാവന ചെയ്യുക</string>
   <string name="donate_dialog_via_paypal">പേപാൽ</string>
   <string name="donate_dialog_via_alipay">അലിപേ</string>
   <string name="donate_money_toast_success">സംഭാവന നൽകിയതിന് നന്ദി!</string>
   <string name="donate_money_again">വീണ്ടും സംഭാവന ചെയ്യുക</string>
-  <string name="remove_ads_title">പരസ്യം ഒഴിവാക്കുക</string>
-  <string name="remove_ads_request_price">%1$d CNY സംഭാവന നൽകി, %2$d CNY ബാക്കിയാണ്</string>
   <!-- Update -->
   <string name="unknown">ലഭ്യമല്ല</string>
   <string name="dialog_update">അപ്ഡേറ്റ്</string>
