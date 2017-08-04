@@ -1,3 +1,20 @@
+#
+# Copyright (C) 2017 The MoKee Open Source Project
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+
 -optimizationpasses 5
 -dontusemixedcaseclassnames
 -dontskipnonpubliclibraryclasses
@@ -46,39 +63,6 @@
     public static ** valueOf(java.lang.String);
 }
 
-# Needed for Parcelable/SafeParcelable Creators to not get stripped
--keepnames class * implements android.os.Parcelable {
-    public static final ** CREATOR;
+-keep class * implements android.os.Parcelable {
+  public static final android.os.Parcelable$Creator *;
 }
-
--keep class android.support.design.widget.AppBarLayout$ScrollingViewBehavior { *; }
-
-# Google Play Services
--keep class * extends java.util.ListResourceBundle {
-    protected java.lang.Object[][] getContents();
-}
-
-# Keep SafeParcelable value, needed for reflection. This is required to support backwards
-# compatibility of some classes.
--keep public class com.google.android.gms.common.internal.safeparcel.SafeParcelable {
-    public static final *** NULL;
-}
-
-# Keep the names of classes/members we need for client functionality.
--keepnames @com.google.android.gms.common.annotation.KeepName class *
--keepclassmembernames class * {
-    @com.google.android.gms.common.annotation.KeepName *;
-}
-
-# Needed when building against the Marshmallow SDK
--dontwarn org.apache.http.**
-
-# Needed when building against pre-Marshmallow SDK.
--dontwarn android.security.NetworkSecurityPolicy
-
--dontwarn cn.waps.**
--keep public class cn.waps.** { *;}
--keep public interface cn.waps.** { *;}
-
--dontwarn mokee.support.**
--keep class mokee.support.** { *;}
