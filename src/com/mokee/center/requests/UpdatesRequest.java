@@ -89,7 +89,7 @@ public class UpdatesRequest extends StringRequest {
                 long nowVersionDate = Long.valueOf(sdf.parse(nowDate).getTime());
                 long nowSystemDate = System.currentTimeMillis();
                 if (!isExperimental || !isHistory || !isUnofficial) {
-                    if (nowVersionDate + Utils.getVersionLifeTime(releaseVersionType) < nowSystemDate || Utils.getPaidTotal(MKCenterApplication.getContext()) < Constants.DONATION_REQUEST) {
+                    if (nowVersionDate + Utils.getVersionLifeTime(releaseVersionType) < nowSystemDate || !Utils.checkMinLicensed(MKCenterApplication.getContext())) {
                         prefs.edit().putBoolean(Constants.OTA_CHECK_PREF, false).apply();
                         isOTA = false;
                     }

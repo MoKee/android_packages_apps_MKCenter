@@ -859,10 +859,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
         });
 
         if (mPrefs.getBoolean(Constants.OTA_CHECK_PREF, false)) {
-            mPrefs.edit()
-                    .putBoolean(Constants.OTA_CHECK_MANUAL_PREF,
-                            mPrefs.getBoolean(Constants.OTA_CHECK_PREF, false))
-                    .apply();
+            mPrefs.edit().putBoolean(Constants.OTA_CHECK_MANUAL_PREF, true).apply();
         }
 
         Intent checkIntent = new Intent(moKeeCenter, UpdateCheckService.class);

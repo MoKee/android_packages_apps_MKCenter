@@ -223,7 +223,7 @@ public class UpdateCheckService extends IntentService
     private void getAvailableUpdates() {
         // Get the actual ROM Update Server URL
         URI updateServerUri = null;
-        boolean isOTA = getSharedPreferences(Constants.DOWNLOADER_PREF, 0).getBoolean(Constants.OTA_CHECK_PREF, false);
+        boolean isOTA = getSharedPreferences(Constants.DOWNLOADER_PREF, 0).getBoolean(Constants.OTA_CHECK_PREF, false) && Utils.checkMinLicensed(this);
         if (!isOTA) {
             updateServerUri = URI.create(getString(R.string.conf_update_server_url_def));
         } else {
