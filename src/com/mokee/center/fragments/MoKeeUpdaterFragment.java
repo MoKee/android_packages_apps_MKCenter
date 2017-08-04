@@ -651,6 +651,8 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
         super.onPrepareOptionsMenu(menu);
         if (Utils.checkLicensed(moKeeCenter)) {
             menu.findItem(R.id.menu_remove_ads).setVisible(false);
+        } else {
+            menu.findItem(R.id.menu_donate).setVisible(false);
         }
     }
 
@@ -664,7 +666,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
                 confirmDeleteAll();
                 return true;
             case R.id.menu_remove_ads:
-                moKeeCenter.donateOrRemoveAdsDialog(false);
+                moKeeCenter.donateOrUnlockFeatureDialog(false);
                 return true;
             case R.id.menu_restore:
                 Utils.restorePaymentRequest(moKeeCenter);
