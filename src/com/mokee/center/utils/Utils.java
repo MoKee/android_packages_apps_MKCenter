@@ -27,7 +27,6 @@ import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Environment;
-import android.os.Handler;
 import android.os.RecoverySystem;
 import android.support.v7.preference.PreferenceFragmentCompat;
 import android.text.format.DateUtils;

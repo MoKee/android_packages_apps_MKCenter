@@ -22,8 +22,8 @@
     tools:ignore="AlwaysShowAction">
 
     <item
-        android:id="@+id/menu_remove_ads"
-        android:title="@string/menu_remove_ads"
+        android:id="@+id/menu_unlock_features"
+        android:title="@string/menu_unlock_features"
         app:showAsAction="always|withText" />
 
     <item
