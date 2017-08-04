@@ -61,6 +61,7 @@
   <string name="menu_donate">捐贈</string>
   <string name="menu_refresh">重新整理</string>
   <string name="menu_delete_all">刪除下載</string>
+  <string name="menu_unlock_features">功能解鎖</string>
   <string name="menu_restore">還原憑證</string>
   <!-- Donate -->
   <string name="donate_dialog_title">捐贈給我們</string>
@@ -77,6 +78,9 @@
   <string name="donate_money_info">您共捐贈了 ￥ 元 %1$d，超過全球 %2$s 的捐助者！</string>
   <string name="donate_money_info_with_rank">您共捐贈了 ￥ 元 %1$d，超過全球 %2$s 的捐助者，排名%3$d！</string>
   <string name="donate_money_info_null">捐贈是國際上通行的一種支持免費軟體的方式，完成一次光榮的捐贈，使我們能夠做的更好！</string>
+  <string name="unlock_features_title">功能解鎖</string>
+  <string name="unlock_features_ota_title">捐贈%d元解鎖OTA更新以及全速下載。</string>
+  <string name="unlock_features_verify_rom_title">捐贈%d元解鎖OTA更新、全速下載、驗證更新以及去廣告</string>
   <!-- Update -->
   <string name="unknown">未知</string>
   <string name="dialog_update">更新</string>
