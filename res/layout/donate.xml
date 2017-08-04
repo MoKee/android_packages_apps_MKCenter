@@ -44,18 +44,12 @@
         android:paddingStart="25dp"
         android:paddingEnd="25dp" />
 
-    <ProgressBar
-        android:id="@+id/progress"
-        style="?android:attr/progressBarStyleHorizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:paddingStart="20dp"
-        android:paddingEnd="20dp" />
-
     <TextView
         android:id="@+id/request"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:paddingStart="25dp"
+        android:paddingEnd="25dp"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:textColor="@android:color/holo_red_dark" />
 
