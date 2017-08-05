@@ -61,7 +61,7 @@
   <string name="menu_donate">Donar</string>
   <string name="menu_refresh">Actualizar</string>
   <string name="menu_delete_all">Eliminar descarga</string>
-  <string name="menu_unlock_features">Gesto de desbloqueo</string>
+  <string name="menu_unlock_features">Desbloquear funciones</string>
   <string name="menu_restore">Restaurar Licencia</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Hacer una donación</string>
