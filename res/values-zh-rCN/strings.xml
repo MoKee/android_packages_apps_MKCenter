@@ -134,7 +134,7 @@
   <string name="not_download_failure">下载更新失败</string>
   <string name="not_action_install_update">重启并安装</string>
   <string name="not_download_install_notice"><xliff:g id="filename">%s</xliff:g> 已成功下载。点击“重启并安装”后，设备将重新启动并安装更新。\n\n注意：自动安装过程需要一个兼容的恢复程序，不兼容的恢复程序可能导致更新失败。</string>
-  <string name="not_download_install_ota_notice"><xliff:g id="filename">%s</xliff:g> 已成功下载。点击“重启并安装”后，设备将重新启动并安装更新。\n\n注意：自动安装过程需要一个兼容的恢复程序，不兼容的恢复程序可能导致更新失败。\n\n本次为增量更新，任何人为或带有ROOT权限的程序对系统文件造成的修改可能导致更新失败，如果您遭遇此情形，请尝试下载完整包进行更新。</string>
+  <string name="not_download_install_ota_notice"><xliff:g id="filename">%s</xliff:g> 已成功下载。点击“重启并安装”后，设备将重新启动并安装更新。\n\n注意：自动安装过程需要一个兼容的恢复程序，不兼容的恢复程序可能导致更新失败。\n\n本次为增量更新，任何人为或带有 Root 权限的程序对系统文件造成的修改可能导致更新失败，如果您遭遇此情形，请尝试下载完整包进行更新。</string>
   <string name="md5_verification_failed">下载过程出现异常，请刷新并重新下载。</string>
   <string name="not_apk_action_install_update">安装</string>
   <!-- deleting -->
@@ -157,7 +157,7 @@
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">应用更新</string>
   <string name="apply_update_dialog_text">您将要更新到 <xliff:g id="filename">%s</xliff:g>。\n\n如果您点击“更新”，您的设备将会重启到恢复模式并安装更新。\n\n注意：此功能需要一个兼容的恢复程序。如果您没有的话，您可能需要手动安装更新。</string>
-  <string name="apply_update_ota_dialog_text">您将要更新到 <xliff:g id="filename">%s</xliff:g>。\n\n如果您点击“更新”，您的设备将会重启到恢复模式并安装更新。\n\n注意：此功能需要一个兼容的恢复程序。如果您没有的话，您可能需要手动安装更新。\n\n本次为增量更新，任何人为或带有ROOT权限的程序对系统文件造成的修改可能导致更新失败，如果您遭遇此情形，请尝试下载完整包进行更新。</string>
+  <string name="apply_update_ota_dialog_text">您将要更新到 <xliff:g id="filename">%s</xliff:g>。\n\n如果您点击“更新”，您的设备将会重启到恢复模式并安装更新。\n\n注意：此功能需要一个兼容的恢复程序。如果您没有的话，您可能需要手动安装更新。\n\n本次为增量更新，任何人为或带有 Root 权限的程序对系统文件造成的修改可能导致更新失败，如果您遭遇此情形，请尝试下载完整包进行更新。</string>
   <string name="apply_unable_to_reboot_toast">无法重启到恢复模式</string>
   <!-- experimenter mode -->
   <string name="show_exp_on">您现在处于测试者模式！</string>
@@ -172,6 +172,6 @@
   <string name="verify_system_compatible_failed">兼容性验证失败</string>
   <string name="verify_system_compatible_patch">下列文件不存在或已被篡改，请恢复原文件后再进行增量更新。</string>
   <string name="verify_system_compatible_img">%1$s 版本不匹配，需要 %2$s ，请更新厂商底包。</string>
-  <string name="verify_system_compatible_root_request">更新验证组件需要获取ROOT权限以完成文件校验。如果您选择“跳过”，这一过程将在恢复模式下执行。</string>
+  <string name="verify_system_compatible_root_request">更新验证组件需要获取 Root 权限以完成文件校验。如果您选择“跳过”，这一过程将在恢复模式下执行。</string>
   <string name="verify_system_compatible_root_skip">跳过</string>
 </resources>

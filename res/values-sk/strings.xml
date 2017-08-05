@@ -61,6 +61,7 @@
   <string name="menu_donate">Podporte nás</string>
   <string name="menu_refresh">Obnoviť</string>
   <string name="menu_delete_all">Odstrániť prevzaté súbory</string>
+  <string name="menu_unlock_features">Odomknúť funkcie</string>
   <string name="menu_restore">Obnoviť licenciu</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Podporte nás</string>
@@ -77,6 +78,9 @@
   <string name="donate_money_info">Celkom darované %1$d CNY, viac než %2$s darcov!</string>
   <string name="donate_money_info_with_rank">Darovali ste  celkom CNY %1$d, viac než %2$s darcov celkom, hodnotenie No.%3$d!</string>
   <string name="donate_money_info_null">Nedarovali ste</string>
+  <string name="unlock_features_title">Odomknúť funkcie</string>
+  <string name="unlock_features_ota_title">Prispieť %d CNY pre odomknutie OTA a plnej rýchlosti sťahovania.</string>
+  <string name="unlock_features_verify_rom_title">Prispieť %d CNY pre odomknutie OTA, plnej rýchlosti sťahovania, overených aktualizácií a odstránenie reklám.</string>
   <!-- Update -->
   <string name="unknown">Neznáme</string>
   <string name="dialog_update">Aktualizovať</string>
