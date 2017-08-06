@@ -79,8 +79,8 @@
   <string name="donate_money_info_with_rank">您共捐贈了 ￥ 元 %1$d，超過全球 %2$s 的捐助者，排名%3$d！</string>
   <string name="donate_money_info_null">捐贈是國際上通行的一種支持免費軟體的方式，完成一次光榮的捐贈，使我們能夠做的更好！</string>
   <string name="unlock_features_title">功能解鎖</string>
-  <string name="unlock_features_ota_title">捐贈%d元解鎖OTA更新以及全速下載。</string>
-  <string name="unlock_features_verify_rom_title">捐贈%d元解鎖OTA更新、全速下載、驗證更新以及去廣告</string>
+  <string name="unlock_features_ota_title">捐贈 %d 元解鎖 OTA 更新以及全速下載。</string>
+  <string name="unlock_features_verify_rom_title">捐贈 %d 元解鎖 OTA 更新、全速下載、驗證更新以及去廣告</string>
   <!-- Update -->
   <string name="unknown">未知</string>
   <string name="dialog_update">更新</string>
@@ -148,11 +148,11 @@
   <!-- pref -->
   <string name="pref_ota_check">增量更新</string>
   <string name="pref_ota_check_summary">取得增量更新以節省時間和流量</string>
-  <string name="pref_ota_check_donation_request_summary">取得增量更新以節省下載時間和流量 (在捐贈CNY %d之後可用)</string>
+  <string name="pref_ota_check_donation_request_summary">取得增量更新以節省下載時間和流量 (在捐贈 CNY %d 之後可用)</string>
   <string name="pref_ota_check_donation_request_pending_summary">取得增量更新以節省下載時間和頻寬 (已捐贈 %1$d，再捐贈 %2$d 後永久可用，貨幣單位：CNY)</string>
   <string name="pref_verify_rom">已驗證的更新</string>
   <string name="pref_verify_rom_summary">僅檢查經過其它使用者刷入驗證的新版本</string>
-  <string name="pref_verify_rom_donation_request_summary">僅檢查經過其它使用者驗證的新版本 (捐贈 %d CNY後永久可用)</string>
+  <string name="pref_verify_rom_donation_request_summary">僅檢查經過其它使用者驗證的新版本 (捐贈 %d CNY 後永久可用)</string>
   <string name="pref_verify_rom_donation_request_pending_summary">僅檢查經過其它使用者驗證的新版本 (已捐贈 %1$d，再捐贈 %2$d 後永久可用，貨幣單位：CNY)</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">套用更新</string>
