@@ -61,6 +61,7 @@
   <string name="menu_donate">Ахвяраваць</string>
   <string name="menu_refresh">Абнавiць</string>
   <string name="menu_delete_all">Выдаліць спампаванае</string>
+  <string name="menu_unlock_features">Функцыі разблакоўкі</string>
   <string name="menu_restore">Аднаўленне ліцэнзіі</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Ахвяраваць нам</string>
@@ -77,6 +78,9 @@
   <string name="donate_money_info">Ваша ахвяраванне складае CYN: %1$d. Яно больш, чым %2$s з усіх ахвяравальнікаў!</string>
   <string name="donate_money_info_with_rank">Ваша ахвяраванне складае CYN: %1$d. Яно больш, чым %2$s з усіх ахвяравальнікаў! Ваш рэйтынг %3$d!</string>
   <string name="donate_money_info_null">Вы не рабілі ахвяраванняў</string>
+  <string name="unlock_features_title">Функцыі разблакоўкі</string>
+  <string name="unlock_features_ota_title">Ахвяруйце %d CNY для разблакоўкі ота і поўнай хуткасці загрузкі.</string>
+  <string name="unlock_features_verify_rom_title">Ахвяруйце %d CNY для разблакоўкі ота, поўнай хуткасці загрузкі, праверкі абнаўлення і выдалення аб\'яваў.</string>
   <!-- Update -->
   <string name="unknown">Невядома</string>
   <string name="dialog_update">Абнаўленне</string>
