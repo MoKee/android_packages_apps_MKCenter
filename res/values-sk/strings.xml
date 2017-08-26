@@ -92,7 +92,7 @@
   <string name="no_available_ota_intro">Poslednou kontrolou sa nenašli žiadne dostupné aktualizácie. Použite tlačidlo Obnoviť na ručnú kontrolu nových aktualizácií. Ak máte nainštalovanú verziu, ktorá nie je naďalej podporovaná inkrementálnymi aktualizáciami, odznačte možnosť \"Inkrementálne aktualizácie\".</string>
   <string name="new_update_summary">Nová</string>
   <string name="old_update_summary">Stará</string>
-  <string name="ota_diff_update_summary">Prírastkové aktualizácie môžu byť uložené do %s</string>
+  <string name="ota_diff_update_summary">Prírastkové aktualizácie môžu ušetriť %s</string>
   <string name="full_diff_update_summary">Ušetrí %s v porovnaní s plnou ROM</string>
   <string name="update_check_title">Frekvencia kontrôl aktualizácií</string>
   <string name="check_manual">Ručne</string>
