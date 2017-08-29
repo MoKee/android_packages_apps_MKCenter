@@ -61,6 +61,7 @@
   <string name="menu_donate">Donasi</string>
   <string name="menu_refresh">Segarkan</string>
   <string name="menu_delete_all">Hapus unduhan</string>
+  <string name="menu_unlock_features">Buka fitur</string>
   <string name="menu_restore">Pulihkan lisensi</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Donasi untuk kami</string>
@@ -77,6 +78,9 @@
   <string name="donate_money_info">Total donasi anda CNY %1$d, lebih dari %2$s dari donatur secara global!</string>
   <string name="donate_money_info_with_rank">Total donasi anda CNY %1$d, lebih dari %2$s dari para donatur global, peringkat No.%3$d!</string>
   <string name="donate_money_info_null">Anda belum melakukan donasi</string>
+  <string name="unlock_features_title">Buka fitur</string>
+  <string name="unlock_features_ota_title">Donasi %d CNY untuk membuka ota dan unduhan kecepatan penuh.</string>
+  <string name="unlock_features_verify_rom_title">Donasi %d CNY untuk membuka ota, unduhan kecepatan penuh, pembaruan diverifikasi dan menghapus iklan.</string>
   <!-- Update -->
   <string name="unknown">Tidak diketahui</string>
   <string name="dialog_update">Perbarui</string>
