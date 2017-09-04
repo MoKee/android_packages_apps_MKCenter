@@ -44,9 +44,8 @@ public class MoKeeSupportFragment extends PreferenceFragmentCompat
     private static final String KEY_MOKEE_NEWS = "mokee_news";
 
     private static final String URL_MOKEE_WEBSITE = "http://www.mokeedev.com";
-    private static final String URL_MOKEE_FORUM = "http://bbs.mfunz.com";
+    private static final String URL_MOKEE_FORUM = "http://bbs.mokeedev.com";
     private static final String URL_MOKEE_ISSUES = "http://issues.mokeedev.com";
-    private static final String URL_MOKEE_QUESTION = "http://bbs.mfunz.com/forum.php?mod=forumdisplay&fid=280&filter=typeid&typeid=1358";
     private static final String URL_MOKEE_CHANGELOG = "http://changelog.mokeedev.com";
     private static final String URL_MOKEE_TRANSLATE = "http://translate.mokeedev.com";
     private static final String URL_MOKEE_GITHUB = "https://github.com/MoKee";
@@ -92,7 +91,7 @@ public class MoKeeSupportFragment extends PreferenceFragmentCompat
                 goToURL(URL_MOKEE_FORUM);
                 return true;
             case KEY_MOKEE_ISSUES:
-                goToURL(MoKeeUtils.isSupportLanguage(false) ? URL_MOKEE_QUESTION : URL_MOKEE_ISSUES);
+                goToURL(URL_MOKEE_ISSUES);
                 return true;
             case KEY_MOKEE_CHANGELOG:
                 goToURL(URL_MOKEE_CHANGELOG);
