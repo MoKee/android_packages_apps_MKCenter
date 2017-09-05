@@ -61,6 +61,7 @@
   <string name="menu_donate">Dona</string>
   <string name="menu_refresh">Aggiorna</string>
   <string name="menu_delete_all">Elimina download</string>
+  <string name="menu_unlock_features">Sblocca altre funzioni</string>
   <string name="menu_restore">Ripristina la licenza</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Dona a noi</string>
@@ -77,6 +78,9 @@
   <string name="donate_money_info">Hai donato un totale di %1$d CNY, più di %2$s rispetto a tutti i donatori!</string>
   <string name="donate_money_info_with_rank">Hai donato un totale di %1$d, più del %2$s dei donatori a livello mondiale, posizione No. %3$d!</string>
   <string name="donate_money_info_null">Non hai donato</string>
+  <string name="unlock_features_title">Sblocca altre funzioni</string>
+  <string name="unlock_features_ota_title">Dona %d a CNY per sbloccare ota e il download a massima velocità.</string>
+  <string name="unlock_features_verify_rom_title">Dona %d a CNY per sbloccare ota, i download a massima velocità, la verifica per gli aggiornamenti e rimuovere la pubblicità.</string>
   <!-- Update -->
   <string name="unknown">Sconosciuto</string>
   <string name="dialog_update">Aggiorna</string>
