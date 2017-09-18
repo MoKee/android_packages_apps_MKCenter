@@ -79,7 +79,7 @@
   <string name="donate_money_info_with_rank">Вы пожертвовали в общей сложности CNY %1$d, более чем %2$s доноров во всем мире, ваш номер в списке: %3$d!</string>
   <string name="donate_money_info_null">Вы не произвели пожертвование</string>
   <string name="unlock_features_title">Разблокировать функцию</string>
-  <string name="unlock_features_ota_title">Пожертвовать %d CNY для разблокировки ota и полной скорости загрузки.</string>
+  <string name="unlock_features_ota_title">Пожертвовать %d CNY для разблокировки OTA обновлений и полной скорости загрузки.</string>
   <string name="unlock_features_verify_rom_title">Пожертвовать %d CNY для разблокировки ota, полной скорости скачивания, проверка обновлений и удалять объявления.</string>
   <!-- Update -->
   <string name="unknown">Неизвестно</string>
