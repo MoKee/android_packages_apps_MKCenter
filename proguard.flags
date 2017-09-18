@@ -27,35 +27,28 @@
 -keep public class * extends android.app.Service
 -keep public class * extends android.content.BroadcastReceiver
 -keep public class * extends android.content.ContentProvider
--keep public class * extends android.app.backup.BackupAgentHelper
 -keep public class * extends android.preference.Preference
--keep public class com.android.vending.licensing.ILicensingService
-
-#keep all classes that might be used in XML layouts
--keep public class * extends android.view.View
--keep public class * extends android.app.Fragment
--keep public class * extends android.support.v4.Fragment
-
-#keep all classes
--keep public class *{
-    public protected *;
+-keep public class android.support.v7.preference.Preference {
+    public <init>(android.content.Context, android.util.AttributeSet);
 }
-
-#keep all public and protected methods that could be used by java reflection
--keepclassmembernames class * {
-    public protected <methods>;
-}
-
--keepclasseswithmembers  class * {
-    native <methods>;
-}
-
--keepclasseswithmembers  class * {
+-keep public class * extends android.support.v7.preference.Preference {
     public <init>(android.content.Context, android.util.AttributeSet);
 }
 
--keepclasseswithmembers  class * {
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+-keepclasseswithmembers class * {
+    public <init>(android.content.Context, android.util.AttributeSet);
+}
+
+-keepclasseswithmembers class * {
     public <init>(android.content.Context, android.util.AttributeSet, int);
+}
+
+-keepclassmembers class * extends android.app.Activity {
+   public void *(android.view.View);
 }
 
 -keepclassmembers enum * {
@@ -65,4 +58,9 @@
 
 -keep class * implements android.os.Parcelable {
   public static final android.os.Parcelable$Creator *;
+}
+
+-keep @android.support.annotation.Keep class *
+-keepclassmembers class * {
+    @android.support.annotation.Keep *;
 }
