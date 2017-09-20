@@ -48,7 +48,7 @@
 }
 
 -keepclassmembers class * extends android.app.Activity {
-   public void *(android.view.View);
+    public void *(android.view.View);
 }
 
 -keepclassmembers enum * {
@@ -57,10 +57,14 @@
 }
 
 -keep class * implements android.os.Parcelable {
-  public static final android.os.Parcelable$Creator *;
+    public static final android.os.Parcelable$Creator *;
 }
 
 -keep @android.support.annotation.Keep class *
 -keepclassmembers class * {
     @android.support.annotation.Keep *;
+}
+
+-keep class com.mokee.center.misc.ItemInfo {
+  *;
 }
