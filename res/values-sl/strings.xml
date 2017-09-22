@@ -61,6 +61,7 @@
   <string name="menu_donate">Prispevaj</string>
   <string name="menu_refresh">Osveži</string>
   <string name="menu_delete_all">Izbriši prenos</string>
+  <string name="menu_unlock_features">Odklenete funkcije</string>
   <string name="menu_restore">Obnovi licenco</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Prispevajte za nas</string>
@@ -77,6 +78,9 @@
   <string name="donate_money_info">Skupaj ste podarili %1$d CNY, več kot %2$s donatorjev v svetovnem merilu!</string>
   <string name="donate_money_info_with_rank">Skupno ste prispevali CNY %1$d, več kot %2$s donatorjev v svetovnem merilu, uvrstitev št.%3$d!</string>
   <string name="donate_money_info_null">Niste še prispevali</string>
+  <string name="unlock_features_title">Odklenete funkcije</string>
+  <string name="unlock_features_ota_title">Prispevajte %d CNY in odklenite ota ter prenos s polno hitrostjo.</string>
+  <string name="unlock_features_verify_rom_title">Prispevajte %d CNY za odklep ota, prenos s polno hitrostjo, preverjene posodobitve in odstranitev reklam.</string>
   <!-- Update -->
   <string name="unknown">Neznano</string>
   <string name="dialog_update">Posodobi</string>
