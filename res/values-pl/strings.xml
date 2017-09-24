@@ -61,6 +61,7 @@
   <string name="menu_donate">Dotacja</string>
   <string name="menu_refresh">Odśwież</string>
   <string name="menu_delete_all">Usuń pobrane</string>
+  <string name="menu_unlock_features">Gest odblokowania</string>
   <string name="menu_restore">Przywróć licencję</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Wspomóż nas</string>
@@ -77,6 +78,7 @@
   <string name="donate_money_info">Przekazałeś w sumie %1$d juanów, więcej niż %2$s przekazujących dotację!</string>
   <string name="donate_money_info_with_rank">Przekazałeś w sumie %1$d juanów, więcej niż %2$s przekazujących dotację. Miejsce numer %3$d!</string>
   <string name="donate_money_info_null">Nie przekazałeś dotacji</string>
+  <string name="unlock_features_title">Gest odblokowania</string>
   <string name="unlock_features_ota_title">Dotacja w wysokości %d CNY by odblokować OTA oraz pełną prędkość pobierania.</string>
   <string name="unlock_features_verify_rom_title">Dotacja w wysokości %d CNY by odblokować OTA, pełną prędkość pobierania, zweryfikowane aktualizacje oraz usunąć reklamy.</string>
   <!-- Update -->
@@ -169,5 +171,6 @@
   <string name="verify_system_compatible_message">Weryfikowanie zgodności systemu przed patchowaniem \u2026</string>
   <string name="verify_system_compatible_failed">Weryfikowanie zgodności systemu nie powiodło się</string>
   <string name="verify_system_compatible_patch">Następujące pliki albo zostały zmodyfikowane lub usunięte, należy przywrócić je i spróbować ponownie.</string>
+  <string name="verify_system_compatible_img">Niekompatybilny %1$s, zaktualizuj do wersji %2$s</string>
   <string name="verify_system_compatible_root_skip">Pomiń</string>
 </resources>
