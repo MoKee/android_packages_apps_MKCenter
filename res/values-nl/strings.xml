@@ -61,6 +61,7 @@
   <string name="menu_donate">Doneren</string>
   <string name="menu_refresh">Vernieuw</string>
   <string name="menu_delete_all">Download verwijderen</string>
+  <string name="menu_unlock_features">Onderdelen ontgrendelen</string>
   <string name="menu_restore">Herstellen van licentie</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Doneer aan ons</string>
@@ -77,6 +78,7 @@
   <string name="donate_money_info">U doneerde in totaal %1$d CNY, dat is %2$s CNY meer dan er wereldwijd gedoneerd wordt!</string>
   <string name="donate_money_info_with_rank">U geschonk CNY %1$d, in totaal meer dan %2$s van donors wereldwijd, rang No.%3$d!</string>
   <string name="donate_money_info_null">U hebt geen donatie gedaan</string>
+  <string name="unlock_features_title">Onderdelen ontgrendelen</string>
   <!-- Update -->
   <string name="unknown">Onbekend</string>
   <string name="dialog_update">Bijwerken</string>
