@@ -61,6 +61,7 @@
   <string name="menu_donate">Пожертвувати</string>
   <string name="menu_refresh">Оновити</string>
   <string name="menu_delete_all">Видалити завантажене</string>
+  <string name="menu_unlock_features">Розблокувати більше можливостей</string>
   <string name="menu_restore">Відновити ліцензію</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Пожертвувати нам</string>
@@ -77,6 +78,9 @@
   <string name="donate_money_info">Ви пожертвували всього CNY %1$d, це більше, ніж %2$s людей!</string>
   <string name="donate_money_info_with_rank">Ви пожертвували всього CNY %1$d, це більше, ніж %2$s людей всього, Ваш рейтинг %3$d!</string>
   <string name="donate_money_info_null">Ви не пожертвували</string>
+  <string name="unlock_features_title">Розблокувати більше можливостей</string>
+  <string name="unlock_features_ota_title">Пожертвувати %d CNY для розблокування інкремнтальних оновлень по повітрю і завантаження на повній швидкості.</string>
+  <string name="unlock_features_verify_rom_title">Пожертвувати %d CNY для розблокування інкремнтальних оновлень по повітрю, завантаження на повній швидкості, верифікованих оновлень та видалення реклами.</string>
   <!-- Update -->
   <string name="unknown">Невідомо</string>
   <string name="dialog_update">Оновити</string>
@@ -88,6 +92,8 @@
   <string name="no_available_ota_intro">Остання перевірка не виявила оновлень. Щоб перевірити наявність оновлень власноруч, використовуйте кнопку \"Оновити\". Якщо ви використовуєте версію, яка знаходиться за межами діапазону дат, що підтримуються ОТА оновленнями, вимкніть опцію \"ОТА оновлення\".</string>
   <string name="new_update_summary">Новий</string>
   <string name="old_update_summary">Старий</string>
+  <string name="ota_diff_update_summary">Інкрементне оновлення може зекономити %s</string>
+  <string name="full_diff_update_summary">Зберігає %s у порівнянні з повним пакетом прошивки</string>
   <string name="update_check_title">Інтервал перевірки оновлень</string>
   <string name="check_manual">Вручну</string>
   <string name="nightly_alert">Ви обрали нічні (nightly) оновлення в цьому списку. Вони не є стабільними і ви повинні використовувати їх з обережністю.</string>
@@ -162,5 +168,10 @@
   <string name="discount_dialog_expires">Пропозиція закінчиться через %s</string>
   <string name="discount_dialog_cancel">Не нагадувати</string>
   <string name="verify_system_compatible_title">Оновлення програмного забезпечення MoKee</string>
+  <string name="verify_system_compatible_message">Перевірка сумісності системи перед patching\u2026</string>
+  <string name="verify_system_compatible_failed">Перевірка сумісності системи не вдалася</string>
+  <string name="verify_system_compatible_patch">Такі файли або були змінені, або видалені, будь ласка, відновіть їх і повторіть спробу.</string>
+  <string name="verify_system_compatible_img">Несумісні %1$s, будь ласка, оновіться до версії %2$s</string>
+  <string name="verify_system_compatible_root_request">Кореневий доступ необхідний для плагіна перевірки оновлень, щоб перевірити сумісність оновлення зараз. Якщо ви вирішили пропустити цей крок,  він буде відкладений і виконаний в режимі відновлення.</string>
   <string name="verify_system_compatible_root_skip">Пропустити</string>
 </resources>
