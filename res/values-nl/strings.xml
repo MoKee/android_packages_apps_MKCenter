@@ -79,6 +79,8 @@
   <string name="donate_money_info_with_rank">U geschonk CNY %1$d, in totaal meer dan %2$s van donors wereldwijd, rang No.%3$d!</string>
   <string name="donate_money_info_null">U hebt geen donatie gedaan</string>
   <string name="unlock_features_title">Onderdelen ontgrendelen</string>
+  <string name="unlock_features_ota_title">Doneer %d CNY om ota te ontgrendelen en aan de hoogste snelheid te downloaden.</string>
+  <string name="unlock_features_verify_rom_title">Doneer %d CNY om ota te ontgrendelen, aan de hoogste snelheid te downloaden, geverifieerde updates te krijgen en om advertenties te verwijderen.</string>
   <!-- Update -->
   <string name="unknown">Onbekend</string>
   <string name="dialog_update">Bijwerken</string>
@@ -90,6 +92,8 @@
   <string name="no_available_ota_intro">De laatste controle heeft geen beschikbare updates gevonden. Gebruik de knop vernieuwen, om handmatig op nieuwe updates te controleren. Als u een versie gebruikt die niet binnen het \'incrementele update\' datumbereik valt, moet u de \"Incrementele updates\" optie uitschakelen.</string>
   <string name="new_update_summary">Nieuw</string>
   <string name="old_update_summary">Oud</string>
+  <string name="ota_diff_update_summary">Incrementele updates kunnen %s opslaan</string>
+  <string name="full_diff_update_summary">Slaat %s op wanneer vergeleken met volledige ROM</string>
   <string name="update_check_title">Regelmatig controleren naar updates</string>
   <string name="check_manual">Manueel</string>
   <string name="nightly_alert">U heeft ervoor gekozen ook nachtelijke-updates in de lijst weer te geven. Deze worden niet ondersteund en moeten voorzichtig worden gebruikt.</string>
@@ -165,5 +169,10 @@
   <string name="discount_dialog_expires">Voorstel verloopt over %s</string>
   <string name="discount_dialog_cancel">Niet herinneren</string>
   <string name="verify_system_compatible_title">MoKee systeem update</string>
+  <string name="verify_system_compatible_message">Systeemcompatibiliteit verifiëren voor het patchen\u2026</string>
+  <string name="verify_system_compatible_failed">Mislukt om systeemcompatibiliteit te verifiëren</string>
+  <string name="verify_system_compatible_patch">Volgende bestanden zijn ofwel gewijzigd ofwel verwijderd, herstel ze en probeer opnieuw.</string>
+  <string name="verify_system_compatible_img">Incompatibele %1$s, upgrade alstublieft naar versie %2$s</string>
+  <string name="verify_system_compatible_root_request">Roottoegang is vereist voor Update Verification Plugin om updatecompatibiliteit nu te verifiëren. Als je dit overslaat, dan zal deze stap vertraagd worden en verricht worden in herstelmodus.</string>
   <string name="verify_system_compatible_root_skip">Overslaan</string>
 </resources>

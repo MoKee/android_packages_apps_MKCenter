@@ -33,4 +33,6 @@
   <!-- Apply install and update strings -->
   <!-- experimenter mode -->
   <!-- Discount -->
+  <string name="verify_system_compatible_title">Kemaskini sistem Mokee</string>
+  <string name="verify_system_compatible_root_skip">Langkau</string>
 </resources>
