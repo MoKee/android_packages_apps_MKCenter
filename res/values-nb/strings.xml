@@ -29,6 +29,7 @@
   <string name="mokee_issues_title">MoKee feilsøker</string>
   <string name="mokee_issues_summary">Besøk feilsøker</string>
   <string name="mokee_changelog_title">MoKee endringslogg</string>
+  <string name="mokee_changelog_summary">Vis nåværende endringslogg</string>
   <string name="mokee_github_title">MoKee Github</string>
   <string name="mokee_github_summary">Besøk MoKee Github</string>
   <string name="mokee_translate_title">MoKee oversett</string>
@@ -40,6 +41,8 @@
   <!-- Base Info -->
   <string name="mokee_version_info_title">Versjons informasjon</string>
   <string name="mokee_version_title">MoKee versjon</string>
+  <string name="mokee_unique_id_title">Unik ID</string>
+  <string name="mokee_donate_info_title">Doneringsopplysninger</string>
   <string name="mokee_last_check_title">Siste sjekk</string>
   <string name="mokee_last_check_never">Aldri</string>
   <!-- Version -->
@@ -63,8 +66,13 @@
   <string name="donate_dialog_message">I motsetning til selskaper som Cygn eller MIUI er MoKee OpenSource et rent nonprofitprosjekt født av hobby og lidenskap. For å opprettholde dette prosjektet, må vi bruke våre egen penger mesteparten av tiden eller stole på donasjoner og reklame. Donasjoner kan hjelpe redusere våre finansielle belastning og opprettholde fremtidig utvikling! Dette alternativet lar deg fjerne annonser i MoKee Senter, eller bruk \"Donere\" i stedet hvis du foretrekker det (annonser vil bli fjernet når totalt har nådd angitt verdi). Ta backup på mokee.license fil (i rotkatalogen på sdcard, gjelder bare for gjeldende enhet) når du har donert.</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
+  <string name="donate_dialog_via_restore">Gjenopprett</string>
   <string name="donate_money_toast_success">Takk for din donasjon!</string>
   <string name="donate_money_again">Gi din støtte igjen</string>
+  <string name="donate_money_restored_success">Gjenoppretting vellykket!</string>
+  <string name="donate_money_restored_failed">Ingen enhetsregistrering funnet.</string>
+  <string name="donate_money_restored_timeout">Tilkobling tidsavbrutt, vennligst prøv igjen</string>
+  <string name="donate_money_info_null">Du ikke har donert</string>
   <!-- Update -->
   <string name="unknown">Ukjent</string>
   <string name="dialog_update">Oppdater</string>
@@ -78,8 +86,10 @@
   <string name="old_update_summary">Gammel</string>
   <string name="update_check_title">Sjekk oppdateringsfrekvens</string>
   <string name="check_manual">Manuell</string>
+  <string name="nightly_alert">Du har valgt å inkludere eksperimentelle oppdateringer i din liste. Disse er uten støtte og burde brukes med forsiktighet.</string>
   <string name="experimenter_alert">Du har valgt for å inkludere eksperimentelle oppdateringer i denne listen. Disse har ingen støtte, og er bare ment for testing. Dette bør brukes med forsiktighet.</string>
   <string name="unofficial_alert">Du har valgt for å inkludere uoffisiell oppdateringer i denne listen. Vær oppmerksom på at disse støttes kun av den som vedlikeholder programvaren for din enhet.</string>
+  <string name="all_alert">Du har valgt å inkludere alle oppdateringer (ordinære og eksperimentelle) i denne listen. Vær oppmerksom på at eksperimentelle oppdateringer er uten støtte og brukes med forsiktighet.</string>
   <string name="alert_title">Forsiktig</string>
   <string name="update_type_title">Oppdateringstyper</string>
   <!-- ChangeLog -->
@@ -104,6 +114,7 @@
   <!-- Downloads -->
   <string name="confirm_download_cancelation_dialog_title">Avbryt nedlasting</string>
   <string name="confirm_download_cancelation_dialog_message">Avbryte den gjeldende nedlastingen?</string>
+  <string name="download_remaining"><xliff:g id="duration" example="3 minutes">%s</xliff:g> gjenværende</string>
   <string name="download_running">Pågår</string>
   <string name="download_cancelled">Nedlasting avbrutt</string>
   <string name="download_already_running">En nedlasting pågår allerede</string>
@@ -130,5 +141,6 @@
   <string name="show_exp_on">Du har aktivert eksperimentelle innstillinger!</string>
   <string name="show_exp_already">Ikke nødvendig, du allerede har aktivert eksperimentelle innstillinger.</string>
   <!-- Discount -->
+  <string name="verify_system_compatible_title">MoKee systemoppdatering</string>
   <string name="verify_system_compatible_root_skip">Hopp over</string>
 </resources>

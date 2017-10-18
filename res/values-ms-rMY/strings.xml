@@ -18,20 +18,102 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Fragment -->
+  <string name="mokee_center_title">Pusat MoKee</string>
+  <string name="mokee_support_title">Sokongan</string>
+  <string name="mokee_updater_title">Kemas kini</string>
   <!-- WebSite -->
+  <string name="mokee_website_title">Laman web MoKee</string>
+  <string name="mokee_website_summary">Layari laman web rasmi</string>
+  <string name="mokee_forum_title">Forum Mokee</string>
+  <string name="mokee_forum_summary">Lawati Forum Mokee</string>
+  <string name="mokee_issues_title">Pengesan Bug Mokee</string>
+  <string name="mokee_issues_summary">Lawat pengesan bug</string>
+  <string name="mokee_changelog_title">Mokee Logubah</string>
+  <string name="mokee_changelog_summary">Papar logubah harian</string>
+  <string name="mokee_github_title">MoKee Github</string>
+  <string name="mokee_github_summary">Lawat Github Mokee</string>
+  <string name="mokee_translate_title">Terjemahan Mokee</string>
+  <string name="mokee_translate_summary">Bantu terjemah Mokee</string>
+  <string name="mokee_wiki_title">MoKee Wiki</string>
+  <string name="mokee_wiki_summary">Papar Wiki Mokee</string>
+  <string name="mokee_news_title">Berita MoKee</string>
+  <string name="mokee_news_summary">Terima berita pembangunan dari Mokee</string>
   <!-- Base Info -->
+  <string name="mokee_version_info_title">Maklumat versi</string>
+  <string name="mokee_version_title">Versi MoKee</string>
+  <string name="mokee_unique_id_title">Unik ID</string>
+  <string name="mokee_donate_info_title">Info Donasi</string>
+  <string name="mokee_last_check_title">Semakan Terakhir</string>
+  <string name="mokee_last_check_never">Tidak pernah</string>
   <!-- Version -->
+  <string name="mokee_info_default">Tidak diketahui</string>
+  <string name="mokee_version_type_release">Keluaran</string>
+  <string name="mokee_version_type_history">Sejarah</string>
+  <string name="mokee_version_type_experimental">Eksperimen</string>
+  <string name="mokee_version_type_nightly">Percubaan</string>
+  <string name="mokee_version_type_unofficial">Tidak rasmi</string>
+  <string name="mokee_version_type_all">Semua</string>
   <!-- State -->
+  <string name="downloaded_update_summary">Dimuat turun</string>
+  <string name="installed_update_summary">Telah dipasang</string>
+  <string name="available_updates_title">Kemaskini tersedia</string>
   <!-- Menu -->
+  <string name="menu_donate">Donasi</string>
+  <string name="menu_refresh">Kemaskini</string>
+  <string name="menu_delete_all">Hapuskan muat turun</string>
   <!-- Donate -->
+  <string name="donate_dialog_title">Donasi kepada kami</string>
+  <string name="donate_dialog_via_paypal">PayPal</string>
+  <string name="donate_dialog_via_alipay">AliPay</string>
+  <string name="donate_dialog_via_restore">Pulihkan</string>
+  <string name="donate_money_toast_success">Terima kasih atas sumbangan anda!</string>
+  <string name="donate_money_again">Donasi lagi</string>
+  <string name="donate_money_restored_success">Dipulihkan berjaya!</string>
+  <string name="donate_money_restored_failed">Tiada rekod peranti dijumpai.</string>
+  <string name="donate_money_restored_timeout">Sambungan tamat, sila cuba lagi</string>
+  <string name="donate_money_info_null">Anda tidak donasi</string>
   <!-- Update -->
+  <string name="unknown">Tidak diketahui</string>
+  <string name="dialog_update">Kemas kini</string>
+  <string name="dialog_install">Pasang</string>
+  <string name="dialog_ok">OK</string>
+  <string name="dialog_cancel">Batal</string>
+  <string name="dialog_close">Tutup</string>
+  <string name="no_available_updates_intro">Semakan terakhir tidak menjumpai sebarang kemaskini. Untuk semak secara manual, gunakan butang kemaskini semula.</string>
+  <string name="no_available_ota_intro">Semakan terakhir tidak menjumpai sebarang kemaskini. Untuk semak secara manual, gunakan butang kemaskini semula. Jika anda menggunakan versi yang tiada sokongan peningkatan kemaskini, anda perlu nyahaktifkan opsyen peningkatan kemaskini.</string>
+  <string name="new_update_summary">Baru</string>
+  <string name="old_update_summary">Lama</string>
+  <string name="update_check_title">Kekerapan kemas kini</string>
+  <string name="check_manual">Manual</string>
+  <string name="nightly_alert">Anda telah memilih untuk memasukkan kemaskini semalaman didalam senarai ini. Ini tidak disokong dan patut digunakan dengan berhati-hati.</string>
+  <string name="experimenter_alert">Anda telah memilih untuk memasukkan eksperimen kemaskini didalam senarai ini. Ini tidak disokong bermaksud untuk percubaan sahaja, patut digunakan dengan berhati-hati.</string>
+  <string name="unofficial_alert">Anda telah memilih untuk termasuk kemaskini secara tidak rasmi didalam senarai ini. Perlu diingat bahawa ia disokong oleh penyenggara peranti anda.</string>
+  <string name="all_alert">Anda telah memilih untuk memasukkan semua pengemaskinian (lepasan, semalam) didalam senarai ini. Ambil perhatian bahawa kemaskini semalaman adalah tidak disokong dan harus digunakan dengan berhati-hati.</string>
+  <string name="alert_title">Amaran</string>
+  <string name="update_type_title">Jenis kemaskini</string>
   <!-- ChangeLog -->
+  <string name="no_changelog_alert">Tiada log perubahan</string>
+  <string name="changelog_dialog_title">Log perubahan</string>
+  <string name="loading_changelog">Memuatkan\u2026</string>
+  <string name="check_on_boot">Setiap hidupmula</string>
+  <string name="check_twice_daily">Dua kali sehari</string>
+  <string name="check_daily">Sekali sehari</string>
+  <string name="check_twice_weekly">Dua kali seminggu</string>
+  <string name="check_weekly">Sekali seminggu</string>
+  <string name="check_bi_weekly">Sekali setiap 2 minggu</string>
+  <string name="check_monthly">Sekali sebulan</string>
   <!-- checking -->
+  <string name="checking_for_updates">Menyemak untuk kemaskini</string>
+  <string name="no_updates_found">Tiada kemaskini dijumpai</string>
+  <string name="not_new_updates_found_ticker">Kemaskini baru tersedia</string>
+  <string name="not_new_updates_found_title">Kemaskini baru</string>
   <!-- Downloads -->
+  <string name="not_apk_action_install_update">Pasang</string>
   <!-- deleting -->
   <!-- pref -->
   <!-- Apply install and update strings -->
   <!-- experimenter mode -->
+  <string name="show_exp_already">Tidak perlu, anda telahpun mengaktifkan seting eksperimen.</string>
   <!-- Discount -->
   <string name="verify_system_compatible_title">Kemaskini sistem Mokee</string>
   <string name="verify_system_compatible_root_skip">Langkau</string>
