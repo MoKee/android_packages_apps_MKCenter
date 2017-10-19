@@ -75,6 +75,7 @@
     <string name="donate_dialog_message">Unlike companies like Cygn or MIUI, MoKee OpenSource is a purely non-profit project born of hobby and passion. In order to maintain this project, we have to fork out our own money most of the time or rely on donations and advertisements. Your donations can help reduce our financial load and sustain future development! This option allows you to remove the ads in MoKee Center, or use the "Donate" option instead if you prefer installments (ads will be removed once the total has reached the specified value). (in the root directory of sdcard, only valid for current device) once you have donated.</string>
     <string name="donate_dialog_via_paypal">PayPal</string>
     <string name="donate_dialog_via_alipay">AliPay</string>
+    <string name="donate_dialog_via_wechat">WeChat</string>
     <string name="donate_dialog_via_point" translatable="false">使用积分</string>
     <string name="donate_dialog_via_restore">Restore</string>
     <string name="donate_money_toast_success">Thank you for your donation!</string>
@@ -160,7 +161,7 @@
     <string name="delete_updates_nofolder_message">Update folder not found</string>
     <string name="delete_updates_success_message">All downloaded updates deleted</string>
 
-    <!-- pref -->
+    <!-- Pref -->
     <string name="pref_ota_check">Incremental updates</string>
     <string name="pref_ota_check_summary">Get incremental updates to save download time and bandwidth</string>
     <string name="pref_ota_check_donation_request_summary">Get incremental updates to save download time and bandwidth (available after donating %d CNY)</string>
@@ -176,7 +177,7 @@
     <string name="apply_update_ota_dialog_text">You are about to upgrade to <xliff:g id="filename">%s</xliff:g>.\n\nIf you press Update, the device will restart itself in recovery mode to install the update.\n\nNote: This feature requires a compatible Recovery or updates will need to be installed manually.\n\nThis is an incremental update, therefore any changes made to system files might cause the update to fail. If this happens, please flash a full ROM instead.</string>
     <string name="apply_unable_to_reboot_toast">Unable to reboot into recovery</string>
 
-    <!-- experimenter mode -->
+    <!-- Experimenter mode -->
     <string name="show_exp_on">You have enabled experimental settings!</string>
     <string name="show_exp_already">No need, you have already enabled experimental settings.</string>
 
@@ -186,6 +187,7 @@
     <string name="discount_dialog_expires">Offer expires in %s</string>
     <string name="discount_dialog_cancel">Don\'t remind</string>
 
+    <!-- Verify system compatible -->
     <string name="verify_system_compatible_title">MoKee system update</string>
     <string name="verify_system_compatible_message">Verifying system compatibility before patching\u2026</string>
     <string name="verify_system_compatible_failed">Verifying system compatibility failed</string>
@@ -193,4 +195,7 @@
     <string name="verify_system_compatible_img">Incompatible %1$s, please upgrade to version %2$s</string>
     <string name="verify_system_compatible_root_request">Root permission is required by Update Verification Plugin to verify update compatibility now. If you choose to skip, this step will be delayed and performed in recovery mode.</string>
     <string name="verify_system_compatible_root_skip">Skip</string>
+
+    <!-- Common -->
+    <string name="activity_not_found">App isn\'t installed.</string>
 </resources>
