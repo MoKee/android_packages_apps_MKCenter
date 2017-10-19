@@ -21,6 +21,7 @@ import android.app.Activity;
 import android.app.AlarmManager;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
+import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -30,6 +31,7 @@ import android.os.Environment;
 import android.os.RecoverySystem;
 import android.support.v7.preference.PreferenceFragmentCompat;
 import android.text.format.DateUtils;
+import android.widget.Toast;
 
 import com.mokee.center.R;
 import com.mokee.center.db.DownLoadDao;
@@ -365,14 +367,18 @@ public class Utils {
     }
 
     public static void sendPaymentRequest(Activity mContext, String channel, String name, String description, String price, String type) {
-        Intent intent = new Intent(Constants.ACTION_PAYMENT_REQUEST);
-        intent.putExtra("packagename", mContext.getPackageName());
-        intent.putExtra("channel", channel);
-        intent.putExtra("type", type);
-        intent.putExtra("name", name);
-        intent.putExtra("description", description);
-        intent.putExtra("price", price);
-        mContext.startActivityForResult(intent, 0);
+        try {
+            Intent intent = new Intent(Constants.ACTION_PAYMENT_REQUEST);
+            intent.putExtra("packagename", mContext.getPackageName());
+            intent.putExtra("channel", channel);
+            intent.putExtra("type", type);
+            intent.putExtra("name", name);
+            intent.putExtra("description", description);
+            intent.putExtra("price", price);
+            mContext.startActivityForResult(intent, 0);
+        } catch (ActivityNotFoundException e) {
+            Toast.makeText(mContext, R.string.activity_not_found, Toast.LENGTH_SHORT).show();
+        }
     }
 
     public static boolean checkLicensed(Context mContext) {
