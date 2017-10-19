@@ -104,6 +104,8 @@ public class MoKeeCenter extends AppCompatActivity {
 
         String title = isDonate ? getString(R.string.donate_money_title)
                 : getString(R.string.unlock_features_title);
+        float price = isDonate ? (float) (mSeekBar.getProgress() + Constants.DONATION_REQUEST_MIN)
+                : mSeekBar.getProgress() - paid;
 
         final AlertDialog.Builder builder = new AlertDialog.Builder(this)
                 .setTitle(title).setView(donateView);
@@ -111,15 +113,20 @@ public class MoKeeCenter extends AppCompatActivity {
         builder.setPositiveButton(R.string.donate_dialog_via_paypal, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                float price = isDonate ? (float) (mSeekBar.getProgress() + Constants.DONATION_REQUEST_MIN) : mSeekBar.getProgress() - paid;
                 requestForPayment("paypal", price, title);
             }
         });
 
-        builder.setNegativeButton(R.string.donate_dialog_via_alipay, new DialogInterface.OnClickListener() {
+        builder.setNegativeButton(R.string.donate_dialog_via_wechat, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                float price = isDonate ? (float) (mSeekBar.getProgress() + Constants.DONATION_REQUEST_MIN) : mSeekBar.getProgress() - paid;
+                requestForPayment("wechat", price, title);
+            }
+        });
+
+        builder.setNeutralButton(R.string.donate_dialog_via_alipay, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
                 requestForPayment("alipay", price, title);
             }
         });
