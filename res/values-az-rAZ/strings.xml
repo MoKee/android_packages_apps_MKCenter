@@ -19,16 +19,55 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Fragment -->
   <string name="mokee_center_title">MoKee Mərkəzi</string>
+  <string name="mokee_support_title">Dəstək</string>
+  <string name="mokee_updater_title">Yeniləyici</string>
   <!-- WebSite -->
+  <string name="mokee_website_title">MoKee Veb Saytı</string>
+  <string name="mokee_website_summary">Rəsmi veb saytını ziyarət et</string>
+  <string name="mokee_forum_title">MoKee Formu</string>
   <!-- Base Info -->
+  <string name="mokee_last_check_never">Heç vaxt</string>
   <!-- Version -->
+  <string name="mokee_info_default">Bilinməyən</string>
+  <string name="mokee_version_type_history">Tarixçə</string>
+  <string name="mokee_version_type_experimental">Təcrübi</string>
+  <string name="mokee_version_type_nightly">Gecəlik</string>
+  <string name="mokee_version_type_unofficial">Rəsmi olmayan</string>
+  <string name="mokee_version_type_all">Hamısı</string>
   <!-- State -->
+  <string name="downloaded_update_summary">Endirilmiş</string>
+  <string name="installed_update_summary">Quraşdırılmış</string>
+  <string name="available_updates_title">Mövcud yeniləmələr</string>
   <!-- Menu -->
+  <string name="menu_donate">İanə ver</string>
+  <string name="menu_refresh">Yenilə</string>
+  <string name="menu_delete_all">Endirməni sil</string>
   <!-- Donate -->
+  <string name="donate_dialog_title">Bizə ianə ver</string>
+  <string name="donate_dialog_via_paypal">PayPal</string>
+  <string name="donate_dialog_via_alipay">AliPay</string>
+  <string name="donate_dialog_via_restore">Bərpa et</string>
+  <string name="donate_money_toast_success">İanəniz üçün təşəkkürlər!</string>
   <!-- Update -->
+  <string name="unknown">Bilinməyən</string>
+  <string name="alert_title">Diqqət</string>
+  <string name="update_type_title">Yeniləmə növü</string>
   <!-- ChangeLog -->
+  <string name="no_changelog_alert">Dəyişiklik qeydi mövcud deyil</string>
+  <string name="changelog_dialog_title">Dəyişiklik qeydi</string>
+  <string name="loading_changelog">Yüklənir\u2026</string>
+  <string name="check_on_boot">Hər yenidən başlayanda</string>
+  <string name="check_twice_daily">Gündə iki dəfə</string>
+  <string name="check_daily">Gündə bir dəfə</string>
+  <string name="check_twice_weekly">Həftədə iki dəfə</string>
+  <string name="check_weekly">Həftədə bir dəfə</string>
   <!-- checking -->
+  <string name="not_action_download">Endir</string>
+  <string name="data_connection_required">Verilənlər bağlantısı lazımdır.</string>
   <!-- Downloads -->
+  <string name="confirm_download_cancelation_dialog_title">Endirmədən imtina et</string>
+  <string name="confirm_download_cancelation_dialog_message">Davam edən endirmədən imtina edirsiz?</string>
+  <string name="download_running">Davam edir</string>
   <!-- deleting -->
   <!-- pref -->
   <!-- Apply install and update strings -->
