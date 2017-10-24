@@ -101,7 +101,7 @@ public class DownloadCompleteIntentService extends IntentService {
     private void displaySuccessResult(Intent updateIntent, File updateFile) {
         MKCenterApplication app = (MKCenterApplication) getApplicationContext();
         if (app.isMainActivityActive()) {
-            sendBroadcastAsUser(updateIntent, UserHandle.CURRENT);
+//            sendBroadcastAsUser(updateIntent, UserHandle.CURRENT);
         } else {
             DownloadNotifier.notifyDownloadComplete(this, updateIntent, updateFile);
         }

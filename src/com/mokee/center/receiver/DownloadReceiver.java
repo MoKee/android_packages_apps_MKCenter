@@ -20,7 +20,7 @@ package com.mokee.center.receiver;
 import java.io.File;
 import java.io.IOException;
 
-import android.app.StatusBarManager;
+//import android.app.StatusBarManager;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
@@ -79,8 +79,8 @@ public class DownloadReceiver extends BroadcastReceiver {
 
     private void applyTriggerUpdate(Context context, String fileName) {
         try {
-            StatusBarManager sb = (StatusBarManager) context.getSystemService(Context.STATUS_BAR_SERVICE);
-            sb.collapsePanels();
+//            StatusBarManager sb = (StatusBarManager) context.getSystemService(Context.STATUS_BAR_SERVICE);
+//            sb.collapsePanels();
             Utils.cancelNotification(context);
             Utils.triggerUpdate(context, fileName);
         } catch (IOException e) {
@@ -117,7 +117,7 @@ public class DownloadReceiver extends BroadcastReceiver {
         }
         Intent intentBroadcast = new Intent(ACTION_DOWNLOAD_STARTED);
         intentBroadcast.putExtra(DownLoadService.DOWNLOAD_ID, downloadId);
-        context.sendBroadcastAsUser(intentBroadcast, UserHandle.CURRENT);
+//        context.sendBroadcastAsUser(intentBroadcast, UserHandle.CURRENT);
 
         // Store in shared preferences
         prefs.edit().putLong(DownLoadService.DOWNLOAD_ID, downloadId)
@@ -130,7 +130,7 @@ public class DownloadReceiver extends BroadcastReceiver {
         intentService.putExtra(DownLoadService.DOWNLOAD_URL, ui.getDownloadUrl());
         intentService.putExtra(DownLoadService.DOWNLOAD_FILE_PATH, fullFilePath);
         intentService.putExtra(DownLoadService.DOWNLOAD_ID, downloadId);
-        context.startServiceAsUser(intentService, UserHandle.CURRENT);
+//        context.startServiceAsUser(intentService, UserHandle.CURRENT);
         Utils.cancelNotification(context);
     }
 

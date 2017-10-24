@@ -133,7 +133,7 @@ public class DownLoadService extends NonStopIntentService {
         Builder builder = new Builder(this);
         builder.setContentTitle(getString(title));
         builder.setContentText(getString(R.string.download_running));
-        builder.setColor(getResources().getColor(com.android.internal.R.color.system_notification_accent_color));
+//        builder.setColor(getResources().getColor(com.android.internal.R.color.system_notification_accent_color));
         builder.setSmallIcon(android.R.drawable.stat_sys_download);
         /* 设置点击消息时，显示的界面 */
         Intent nextIntent = new Intent(DownloadReceiver.ACTION_NOTIFICATION_CLICKED);
@@ -158,7 +158,7 @@ public class DownLoadService extends NonStopIntentService {
             return;
         }
         Builder notification = notifications.get(id);
-        notification.setContentText(getString(R.string.download_remaining, DateUtils.formatDuration(time)));
+//        notification.setContentText(getString(R.string.download_remaining, DateUtils.formatDuration(time)));
         notification.setContentInfo(String.valueOf(progress) + "%");
         notification.setProgress(100, progress, false);
         manager.notify(id, notification.build());
@@ -219,7 +219,7 @@ public class DownLoadService extends NonStopIntentService {
                         intent = new Intent();
                         intent.setAction(DownloadReceiver.ACTION_DOWNLOAD_COMPLETE);
                         intent.putExtra(DOWNLOAD_ID, Long.valueOf(dli.getDownID()));
-	                    sendBroadcastAsUser(intent, UserHandle.CURRENT);
+//	                    sendBroadcastAsUser(intent, UserHandle.CURRENT);
                     }
                     if (downloaders.size() == 0) {
                         stopSelf();
@@ -238,7 +238,7 @@ public class DownLoadService extends NonStopIntentService {
                     intent = new Intent();
                     intent.setAction(DownloadReceiver.ACTION_DOWNLOAD_COMPLETE);
                     intent.putExtra(DOWNLOAD_ID, Long.valueOf(dli.getDownID()));
-                    sendBroadcastAsUser(intent, UserHandle.CURRENT);
+//                    sendBroadcastAsUser(intent, UserHandle.CURRENT);
                     if (downloaders.size() == 0) {
                         stopSelf();
                     }

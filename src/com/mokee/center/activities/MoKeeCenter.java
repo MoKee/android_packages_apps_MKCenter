@@ -181,7 +181,7 @@ public class MoKeeCenter extends AppCompatActivity {
         send.putExtra(UpdateCheckService.EXTRA_FINISHED_DOWNLOAD_PATH,
                 intent.getStringExtra(UpdateCheckService.EXTRA_FINISHED_DOWNLOAD_PATH));
 
-        sendBroadcastAsUser(send, UserHandle.CURRENT);
+//        sendBroadcastAsUser(send, UserHandle.CURRENT);
     }
 
     @Override

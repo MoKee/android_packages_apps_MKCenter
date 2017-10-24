@@ -602,8 +602,8 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
     public boolean onPreferenceTreeClick(Preference preference) {
         if (preference.getKey().equals(KEY_MOKEE_VERSION)) {
             // Don't enable experimental option for secondary users.
-            if (UserHandle.myUserId() != UserHandle.USER_OWNER)
-                return true;
+//            if (UserHandle.myUserId() != UserHandle.USER_OWNER)
+//                return true;
 
             if (mExpHitCountdown > 0) {
                 mExpHitCountdown--;
@@ -850,7 +850,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
             public void onCancel(DialogInterface dialog) {
                 Intent cancelIntent = new Intent(moKeeCenter, UpdateCheckService.class);
                 cancelIntent.setAction(UpdateCheckService.ACTION_CANCEL_CHECK);
-                moKeeCenter.startServiceAsUser(cancelIntent, UserHandle.CURRENT);
+//                moKeeCenter.startServiceAsUser(cancelIntent, UserHandle.CURRENT);
                 mProgressDialog = null;
                 if (mPrefs.getBoolean(Constants.OTA_CHECK_PREF, false)) {
                     mPrefs.edit().putBoolean(Constants.OTA_CHECK_MANUAL_PREF, false).apply();
@@ -864,7 +864,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
 
         Intent checkIntent = new Intent(moKeeCenter, UpdateCheckService.class);
         checkIntent.setAction(UpdateCheckService.ACTION_CHECK);
-        moKeeCenter.startServiceAsUser(checkIntent, UserHandle.CURRENT);
+//        moKeeCenter.startServiceAsUser(checkIntent, UserHandle.CURRENT);
 
         mProgressDialog.show();
     }
@@ -1017,7 +1017,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
         Intent intent = new Intent(moKeeCenter, DownloadReceiver.class);
         intent.setAction(DownloadReceiver.ACTION_DOWNLOAD_START);
         intent.putExtra(DownloadReceiver.EXTRA_UPDATE_INFO, (Parcelable) ui);
-        moKeeCenter.sendBroadcastAsUser(intent, UserHandle.CURRENT);
+//        moKeeCenter.sendBroadcastAsUser(intent, UserHandle.CURRENT);
     }
 
     @Override
@@ -1069,7 +1069,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
         intent.putExtra(DownLoadService.DOWNLOAD_TYPE, DownLoadService.PAUSE);
         intent.putExtra(DownLoadService.DOWNLOAD_URL, mPrefs.getString(DownLoadService.DOWNLOAD_URL, ""));
 
-        moKeeCenter.startServiceAsUser(intent, UserHandle.CURRENT);
+//        moKeeCenter.startServiceAsUser(intent, UserHandle.CURRENT);
     }
 
     @Override

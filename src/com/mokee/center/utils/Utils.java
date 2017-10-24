@@ -27,7 +27,7 @@ import android.content.SharedPreferences;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Environment;
-import android.os.RecoverySystem;
+//import android.os.RecoverySystem;
 import android.support.v7.preference.PreferenceFragmentCompat;
 import android.text.format.DateUtils;
 
@@ -190,7 +190,7 @@ public class Utils {
         File checker = new File("/system/bin/mkchecker");
         if (updateFileName.toUpperCase().startsWith("MK") || !checker.exists()) {
             // Reboot into recovery and trigger the update
-            RecoverySystem.installPackageLegacy(context, new File(updatePackagePath), false);
+//            RecoverySystem.installPackageLegacy(context, new File(updatePackagePath), false);
         } else {
             Intent intent = new Intent(Constants.ACTION_VERIFY_REQUEST);
             intent.putExtra("update_package_path", updatePackagePath);
@@ -205,17 +205,17 @@ public class Utils {
         // Create the path for the update package
         String updatePackagePath = primaryStorage + "/" + Constants.UPDATES_FOLDER + "/" + updateFileName;
         // Reboot into recovery and trigger the update
-        RecoverySystem.installPackageLegacy(context, new File(updatePackagePath), false);
+//        RecoverySystem.installPackageLegacy(context, new File(updatePackagePath), false);
     }
 
     public static void triggerUpdateByPath(Context context, String updatePackagePath)
             throws IOException {
         // Reboot into recovery and trigger the update
-        try {
-            RecoverySystem.installPackageLegacy(context, new File(updatePackagePath), false);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            RecoverySystem.installPackageLegacy(context, new File(updatePackagePath), false);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
     }
 
     public static String getUserAgentString(Context context) {

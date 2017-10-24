@@ -112,7 +112,7 @@ public class UpdateCheckService extends IntentService
     private void recordAvailableUpdates(LinkedList<ItemInfo> availableUpdates,
             Intent finishedIntent) {
         if (availableUpdates == null) {
-            sendBroadcastAsUser(finishedIntent, UserHandle.CURRENT);
+//            sendBroadcastAsUser(finishedIntent, UserHandle.CURRENT);
             return;
         }
 
@@ -143,7 +143,7 @@ public class UpdateCheckService extends IntentService
 
             // Get the notification ready
             NotificationCompat.Builder builder = new NotificationCompat.Builder(this)
-                    .setColor(getResources().getColor(com.android.internal.R.color.system_notification_accent_color))
+//                    .setColor(getResources().getColor(com.android.internal.R.color.system_notification_accent_color))
                     .setSmallIcon(R.drawable.ic_mokee_updater)
                     .setWhen(System.currentTimeMillis())
                     .setTicker(res.getString(R.string.not_new_updates_found_ticker))
@@ -214,7 +214,7 @@ public class UpdateCheckService extends IntentService
             NotificationManager nm = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
             nm.notify(R.string.not_new_updates_found_title, builder.build());
         }
-        sendBroadcastAsUser(finishedIntent, UserHandle.CURRENT);
+//        sendBroadcastAsUser(finishedIntent, UserHandle.CURRENT);
     }
 
     /**

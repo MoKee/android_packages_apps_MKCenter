@@ -64,6 +64,6 @@ public class CopyablePreference extends Preference {
         ClipboardManager cm =
                 (ClipboardManager) context.getSystemService(Context.CLIPBOARD_SERVICE);
         cm.setText(pref.getCopyableText());
-        Snackbar.make(MoKeeCenter.getRoot(), com.android.internal.R.string.text_copied, Snackbar.LENGTH_SHORT).show();
+//        Snackbar.make(MoKeeCenter.getRoot(), com.android.internal.R.string.text_copied, Snackbar.LENGTH_SHORT).show();
     }
 }
