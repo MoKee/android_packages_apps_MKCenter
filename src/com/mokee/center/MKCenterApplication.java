@@ -22,13 +22,16 @@ import android.app.ActivityThread;
 import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
+import android.content.IntentFilter;
 import android.os.Bundle;
+import android.support.v4.content.LocalBroadcastManager;
 
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
 import com.mokee.center.activities.MoKeeCenter;
+import com.mokee.center.receiver.DownloadReceiver;
+import com.mokee.center.receiver.UpdateCheckReceiver;
 import com.mokee.center.service.DeviceRegistrationService;
-import com.mokee.utils.CommonUtils;
 
 public class MKCenterApplication extends Application implements
         Application.ActivityLifecycleCallbacks {
@@ -52,10 +55,20 @@ public class MKCenterApplication extends Application implements
         context = getApplicationContext();
 
         // Reset device registration ids
-        Intent intent = new Intent();
+        final Intent intent = new Intent();
         intent.setClass(context, DeviceRegistrationService.class);
         startService(intent);
 
+        final LocalBroadcastManager lbm = LocalBroadcastManager.getInstance(this);
+
+        final IntentFilter updateCheckFilter = new IntentFilter();
+        updateCheckFilter.addAction(UpdateCheckReceiver.ACTION_UPDATE_CHECK);
+        lbm.registerReceiver(new UpdateCheckReceiver(), updateCheckFilter);
+
+        final IntentFilter downloadFilter = new IntentFilter();
+        downloadFilter.addAction(DownloadReceiver.ACTION_DOWNLOAD_COMPLETE);
+        downloadFilter.addAction(DownloadReceiver.ACTION_DOWNLOAD_START);
+        lbm.registerReceiver(new DownloadReceiver(), downloadFilter);
     }
 
     @Override

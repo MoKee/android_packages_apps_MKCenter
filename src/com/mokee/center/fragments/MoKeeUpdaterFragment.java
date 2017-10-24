@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014-2017 The MoKee Open Source Project
+ * Copyright (C) 2014-2018 The MoKee Open Source Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -23,7 +23,6 @@ import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.BroadcastReceiver;
 import android.content.Context;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
@@ -37,6 +36,7 @@ import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.support.design.widget.Snackbar;
 import android.support.v14.preference.SwitchPreference;
+import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceCategory;
@@ -81,8 +81,6 @@ import com.mokee.os.Build;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
@@ -100,6 +98,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
     private static final String KEY_MOKEE_LAST_CHECK = "mokee_last_check";
 
     private static final String UPDATES_CATEGORY = "updates_category";
+    private static final String FEATURES_CATEGORY = "features_category";
 
     private static final int TAPS_TO_BE_A_EXPERIMENTER = 7;
 
@@ -135,6 +134,8 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
     private InterstitialAd mEnterInterstitialAd;
     private InterstitialAd mStartDownloadInterstitialAd;
     private AdRequest adRequest;
+
+    private LocalBroadcastManager lbm;
 
     // 更新进度条
     private Runnable mUpdateProgress = new Runnable() {
@@ -221,6 +222,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
     public void onAttach(Activity activity) {
         super.onAttach(activity);
         this.moKeeCenter = (MoKeeCenter) activity;
+        lbm = LocalBroadcastManager.getInstance(activity);
     }
 
     @Override
@@ -384,7 +386,8 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
                 mUpdateCheck.setSummary(mapCheckValue(check));
                 mUpdateCheck.setOnPreferenceChangeListener(this);
             } else {
-                getPreferenceScreen().removePreference(mUpdateCheck);
+                final PreferenceCategory features = (PreferenceCategory) findPreference(FEATURES_CATEGORY);
+                features.removePreference(mUpdateCheck);
             }
         }
 
@@ -448,14 +451,13 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
 
             final LayoutInflater inflater = LayoutInflater.from(moKeeCenter);
 
-            @SuppressLint("InflateParams")
-            final LinearLayout donateView = (LinearLayout) inflater.inflate(R.layout.donate, null);
+            @SuppressLint("InflateParams") final LinearLayout donateView = (LinearLayout) inflater.inflate(R.layout.donate, null);
 
-            final TextView mLeftTimeView = (TextView) donateView.findViewById(R.id.request);
+            final TextView mLeftTimeView = donateView.findViewById(R.id.request);
 
             donateView.findViewById(R.id.price).setVisibility(View.GONE);
 
-            final ProgressBar mProgressBar = (ProgressBar) donateView.findViewById(R.id.progress);
+            final ProgressBar mProgressBar = donateView.findViewById(R.id.progress);
             mProgressBar.setMax(100);
             mProgressBar.setVisibility(View.VISIBLE);
 
@@ -468,43 +470,31 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
                     .setMessage(getString(R.string.discount_dialog_message, unPaid.intValue(), Constants.DONATION_DISCOUNT))
                     .setView(donateView);
 
-            builder.setPositiveButton(R.string.donate_dialog_via_paypal, new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialog, int which) {
-                    requestForDiscountPayment("paypal", unPaid,
-                            getString(R.string.discount_dialog_title));
-                    mUpdateHandler.removeCallbacks(timerRunnable);
-                    mPrefs.edit().putLong(Constants.KEY_LEFT_TIME, leftTime).apply();
-                }
+            builder.setPositiveButton(R.string.donate_dialog_via_paypal, (dialog, which) -> {
+                requestForDiscountPayment("paypal", unPaid,
+                        getString(R.string.discount_dialog_title));
+                mUpdateHandler.removeCallbacks(timerRunnable);
+                mPrefs.edit().putLong(Constants.KEY_LEFT_TIME, leftTime).apply();
             });
 
-            builder.setNegativeButton(R.string.donate_dialog_via_alipay, new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialog, int which) {
-                    requestForDiscountPayment("alipay", unPaid,
-                            getString(R.string.discount_dialog_title));
-                    mUpdateHandler.removeCallbacks(timerRunnable);
-                    mPrefs.edit().putLong(Constants.KEY_LEFT_TIME, leftTime).apply();
-                }
+            builder.setNegativeButton(R.string.donate_dialog_via_alipay, (dialog, which) -> {
+                requestForDiscountPayment("alipay", unPaid,
+                        getString(R.string.discount_dialog_title));
+                mUpdateHandler.removeCallbacks(timerRunnable);
+                mPrefs.edit().putLong(Constants.KEY_LEFT_TIME, leftTime).apply();
             });
 
-            builder.setNeutralButton(R.string.discount_dialog_cancel, new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialog, int which) {
-                    mUpdateHandler.removeCallbacks(timerRunnable);
-                    mPrefs.edit()
-                            .putLong(Constants.KEY_DISCOUNT_TIME, System.currentTimeMillis())
-                            .putLong(Constants.KEY_LEFT_TIME, Constants.DISCOUNT_THINK_TIME)
-                            .apply();
-                }
+            builder.setNeutralButton(R.string.discount_dialog_cancel, (dialog, which) -> {
+                mUpdateHandler.removeCallbacks(timerRunnable);
+                mPrefs.edit()
+                        .putLong(Constants.KEY_DISCOUNT_TIME, System.currentTimeMillis())
+                        .putLong(Constants.KEY_LEFT_TIME, Constants.DISCOUNT_THINK_TIME)
+                        .apply();
             });
 
-            builder.setOnCancelListener(new DialogInterface.OnCancelListener() {
-                @Override
-                public void onCancel(DialogInterface dialog) {
-                    mUpdateHandler.removeCallbacks(timerRunnable);
-                    mPrefs.edit().putLong(Constants.KEY_LEFT_TIME, leftTime).apply();
-                }
+            builder.setOnCancelListener(dialog -> {
+                mUpdateHandler.removeCallbacks(timerRunnable);
+                mPrefs.edit().putLong(Constants.KEY_LEFT_TIME, leftTime).apply();
             });
 
             final AlertDialog discountDialog = builder.create();
@@ -721,17 +711,14 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
                 moKeeCenter, State.UPDATE_FILENAME);
 
         if (!mPrefs.getBoolean(Constants.OTA_CHECK_PREF, false)) {
-            Collections.sort(availableUpdates, new Comparator<ItemInfo>() {
-                @Override
-                public int compare(ItemInfo lhs, ItemInfo rhs) {
-                    /* sort by date descending */
-                    int lhsDate = Integer.valueOf(Utils.subBuildDate(lhs.getFileName(), false));
-                    int rhsDate = Integer.valueOf(Utils.subBuildDate(rhs.getFileName(), false));
-                    if (lhsDate == rhsDate) {
-                        return 0;
-                    }
-                    return lhsDate < rhsDate ? 1 : -1;
+            availableUpdates.sort((lhs, rhs) -> {
+                /* sort by date descending */
+                int lhsDate = Integer.valueOf(Utils.subBuildDate(lhs.getFileName(), false));
+                int rhsDate = Integer.valueOf(Utils.subBuildDate(rhs.getFileName(), false));
+                if (lhsDate == rhsDate) {
+                    return 0;
                 }
+                return lhsDate < rhsDate ? 1 : -1;
             });
         }
 
@@ -831,8 +818,8 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
             return;
         }
 
-        State.saveMKState(moKeeCenter, new LinkedList<ItemInfo>(), State.UPDATE_FILENAME);// clear
-        refreshPreferences(new LinkedList<ItemInfo>());// clear
+        State.saveMKState(moKeeCenter, new LinkedList<>(), State.UPDATE_FILENAME);// clear
+        refreshPreferences(new LinkedList<>());// clear
 
         // If there is no internet connection, display a message and return.
         if (!MoKeeUtils.isOnline(moKeeCenter)) {
@@ -845,16 +832,13 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
         mProgressDialog.setMessage(getString(R.string.checking_for_updates));
         mProgressDialog.setIndeterminate(true);
         mProgressDialog.setCancelable(true);
-        mProgressDialog.setOnCancelListener(new DialogInterface.OnCancelListener() {
-            @Override
-            public void onCancel(DialogInterface dialog) {
-                Intent cancelIntent = new Intent(moKeeCenter, UpdateCheckService.class);
-                cancelIntent.setAction(UpdateCheckService.ACTION_CANCEL_CHECK);
-                moKeeCenter.startServiceAsUser(cancelIntent, UserHandle.CURRENT);
-                mProgressDialog = null;
-                if (mPrefs.getBoolean(Constants.OTA_CHECK_PREF, false)) {
-                    mPrefs.edit().putBoolean(Constants.OTA_CHECK_MANUAL_PREF, false).apply();
-                }
+        mProgressDialog.setOnCancelListener(dialog -> {
+            Intent cancelIntent = new Intent(moKeeCenter, UpdateCheckService.class);
+            cancelIntent.setAction(UpdateCheckService.ACTION_CANCEL_CHECK);
+            moKeeCenter.startService(cancelIntent);
+            mProgressDialog = null;
+            if (mPrefs.getBoolean(Constants.OTA_CHECK_PREF, false)) {
+                mPrefs.edit().putBoolean(Constants.OTA_CHECK_MANUAL_PREF, false).apply();
             }
         });
 
@@ -864,7 +848,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
 
         Intent checkIntent = new Intent(moKeeCenter, UpdateCheckService.class);
         checkIntent.setAction(UpdateCheckService.ACTION_CHECK);
-        moKeeCenter.startServiceAsUser(checkIntent, UserHandle.CURRENT);
+        moKeeCenter.startService(checkIntent);
 
         mProgressDialog.show();
     }
@@ -873,14 +857,11 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
         new AlertDialog.Builder(moKeeCenter)
                 .setTitle(R.string.confirm_delete_dialog_title)
                 .setMessage(R.string.confirm_delete_updates_all_dialog_message)
-                .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        // We are OK to delete, trigger it
-                        onPauseDownload(mPrefs);
-                        deleteOldUpdates();
-                        updateLayout();
-                    }
+                .setPositiveButton(android.R.string.ok, (dialog, which) -> {
+                    // We are OK to delete, trigger it
+                    onPauseDownload(mPrefs);
+                    deleteOldUpdates();
+                    updateLayout();
                 })
                 .setNegativeButton(R.string.dialog_cancel, null)
                 .show();
@@ -961,10 +942,11 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
         }
 
         updateLayout();
-        IntentFilter filter = new IntentFilter(UpdateCheckService.ACTION_CHECK_FINISHED);
+
+        final IntentFilter filter = new IntentFilter(UpdateCheckService.ACTION_CHECK_FINISHED);
         filter.addAction(DownloadReceiver.ACTION_DOWNLOAD_STARTED);
         filter.addAction(MoKeeCenter.BR_ONNewIntent);// 唤醒
-        moKeeCenter.registerReceiver(mReceiver, filter);
+        lbm.registerReceiver(mReceiver, filter);
 
         checkForDownloadCompleted(moKeeCenter.getIntent());
         moKeeCenter.setIntent(null);
@@ -974,7 +956,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
     public void onStop() {
         super.onStop();
         mUpdateHandler.removeCallbacks(mUpdateProgress);
-        moKeeCenter.unregisterReceiver(mReceiver);
+        lbm.unregisterReceiver(mReceiver);
         if (mProgressDialog != null) {
             mProgressDialog.cancel();
             mProgressDialog = null;
@@ -1014,10 +996,10 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
         mDownloading = true;
 
         // Start the download
-        Intent intent = new Intent(moKeeCenter, DownloadReceiver.class);
+        final Intent intent = new Intent(moKeeCenter, DownloadReceiver.class);
         intent.setAction(DownloadReceiver.ACTION_DOWNLOAD_START);
         intent.putExtra(DownloadReceiver.EXTRA_UPDATE_INFO, (Parcelable) ui);
-        moKeeCenter.sendBroadcastAsUser(intent, UserHandle.CURRENT);
+        lbm.sendBroadcast(intent);
     }
 
     @Override
@@ -1035,21 +1017,18 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
         new AlertDialog.Builder(moKeeCenter)
                 .setTitle(R.string.confirm_download_cancelation_dialog_title)
                 .setMessage(R.string.confirm_download_cancelation_dialog_message)
-                .setPositiveButton(R.string.dialog_ok, new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        // Set the preference back to new style
-                        if (!mPrefs.getBoolean(Constants.OTA_CHECK_PREF, false)) {
-                            if (Utils.isNewVersion(pref.getItemInfo().getFileName())) {
-                                pref.setStyle(ItemPreference.STYLE_NEW);
-                            } else {
-                                pref.setStyle(ItemPreference.STYLE_OLD);
-                            }
-                        } else {
+                .setPositiveButton(R.string.dialog_ok, (dialog, which) -> {
+                    // Set the preference back to new style
+                    if (!mPrefs.getBoolean(Constants.OTA_CHECK_PREF, false)) {
+                        if (Utils.isNewVersion(pref.getItemInfo().getFileName())) {
                             pref.setStyle(ItemPreference.STYLE_NEW);
+                        } else {
+                            pref.setStyle(ItemPreference.STYLE_OLD);
                         }
-                        onPauseDownload(mPrefs);
+                    } else {
+                        pref.setStyle(ItemPreference.STYLE_NEW);
                     }
+                    onPauseDownload(mPrefs);
                 })
                 .setNegativeButton(R.string.dialog_cancel, null)
                 .show();
@@ -1069,7 +1048,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
         intent.putExtra(DownLoadService.DOWNLOAD_TYPE, DownLoadService.PAUSE);
         intent.putExtra(DownLoadService.DOWNLOAD_URL, mPrefs.getString(DownLoadService.DOWNLOAD_URL, ""));
 
-        moKeeCenter.startServiceAsUser(intent, UserHandle.CURRENT);
+        moKeeCenter.startService(intent);
     }
 
     @Override
@@ -1087,16 +1066,13 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
         new AlertDialog.Builder(moKeeCenter)
                 .setTitle(R.string.apply_update_dialog_title)
                 .setMessage(dialogBody)
-                .setPositiveButton(R.string.dialog_update, new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        try {
-                            dialog.dismiss();
-                            Utils.verifySystemCompatible(moKeeCenter, itemInfo.getFileName());
-                        } catch (IOException e) {
-                            Log.e(TAG, "Unable to reboot into recovery mode", e);
-                            moKeeCenter.makeSnackbar(R.string.apply_unable_to_reboot_toast).show();
-                        }
+                .setPositiveButton(R.string.dialog_update, (dialog, which) -> {
+                    try {
+                        dialog.dismiss();
+                        Utils.verifySystemCompatible(moKeeCenter, itemInfo.getFileName());
+                    } catch (IOException e) {
+                        Log.e(TAG, "Unable to reboot into recovery mode", e);
+                        moKeeCenter.makeSnackbar(R.string.apply_unable_to_reboot_toast).show();
                     }
                 })
                 .setNegativeButton(R.string.dialog_cancel, null)
@@ -1163,11 +1139,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
                         .setTitle(R.string.alert_title)
                         .setMessage(messageId)
                         .setPositiveButton(getString(R.string.dialog_ok),
-                                new DialogInterface.OnClickListener() {
-                                    public void onClick(DialogInterface dialog, int id) {
-                                        updateUpdatesType(value);
-                                    }
-                                })
+                                (dialog, id) -> updateUpdatesType(value))
                         .setNegativeButton(R.string.dialog_cancel, null)
                         .show();
                 return false;

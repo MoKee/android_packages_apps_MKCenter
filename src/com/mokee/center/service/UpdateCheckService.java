@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014-2016 The MoKee Open Source Project
+ * Copyright (C) 2014-2018 The MoKee Open Source Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,16 +17,6 @@
 
 package com.mokee.center.service;
 
-import java.net.URI;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.Date;
-import java.util.LinkedList;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import android.app.IntentService;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -34,8 +24,8 @@ import android.content.Intent;
 import android.content.res.Resources;
 import android.mokee.utils.MoKeeUtils;
 import android.os.Parcelable;
-import android.os.UserHandle;
 import android.support.v4.app.NotificationCompat;
+import android.support.v4.content.LocalBroadcastManager;
 import android.text.TextUtils;
 import android.util.Log;
 
@@ -45,7 +35,6 @@ import com.android.volley.Response;
 import com.android.volley.Response.Listener;
 import com.android.volley.VolleyError;
 import com.android.volley.VolleyLog;
-
 import com.mokee.center.MKCenterApplication;
 import com.mokee.center.R;
 import com.mokee.center.activities.MoKeeCenter;
@@ -56,10 +45,18 @@ import com.mokee.center.receiver.DownloadReceiver;
 import com.mokee.center.requests.UpdatesRequest;
 import com.mokee.center.utils.Utils;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.net.URI;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.Date;
+import java.util.LinkedList;
+
 public class UpdateCheckService extends IntentService
         implements Response.ErrorListener, Listener<String> {
-
-    private static final String TAG = "UpdateCheckService";
 
     // request actions
     public static final String ACTION_CHECK = "com.mokee.center.action.CHECK";
@@ -77,16 +74,25 @@ public class UpdateCheckService extends IntentService
     public static final String EXTRA_FINISHED_DOWNLOAD_ID = "download_id";
     public static final String EXTRA_FINISHED_DOWNLOAD_PATH = "download_path";
 
+    private static final String TAG = "UpdateCheckService";
+
     // max. number of updates listed in the extras notification
     private static final int EXTRAS_NOTIF_UPDATE_COUNT = 4;
-    private int flag;
 
     // DefaultRetryPolicy values for Volley
     private static final int UPDATE_REQUEST_TIMEOUT = 5000; // 5 seconds
     private static final int UPDATE_REQUEST_MAX_RETRIES = 3;
 
+    private LocalBroadcastManager lbm;
+
     public UpdateCheckService() {
         super("UpdateCheckService");
+    }
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        lbm = LocalBroadcastManager.getInstance(this);
     }
 
     @Override
@@ -110,9 +116,9 @@ public class UpdateCheckService extends IntentService
     }
 
     private void recordAvailableUpdates(LinkedList<ItemInfo> availableUpdates,
-            Intent finishedIntent) {
+                                        Intent finishedIntent) {
         if (availableUpdates == null) {
-            sendBroadcastAsUser(finishedIntent, UserHandle.CURRENT);
+            lbm.sendBroadcast(finishedIntent);
             return;
         }
 
@@ -133,17 +139,22 @@ public class UpdateCheckService extends IntentService
         if (realUpdateCount != 0 && !app.isMainActivityActive()) {
             // There are updates available
             // The notification should launch the main app
-            Intent i = new Intent(Constants.ACTION_MOKEE_CENTER);
-            PendingIntent contentIntent = PendingIntent.getActivity(this, 0, i,
+            final PendingIntent contentIntent = PendingIntent.getActivity(this, 0,
+                    new Intent(this, MoKeeCenter.class)
+                            .addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP
+                                    | Intent.FLAG_ACTIVITY_NEW_TASK
+                                    | Intent.FLAG_ACTIVITY_CLEAR_TOP),
                     PendingIntent.FLAG_ONE_SHOT);
 
             Resources res = getResources();
             String text = res.getQuantityString(R.plurals.not_new_updates_found_body,
                     realUpdateCount, realUpdateCount);
 
+            Utils.createEventsNotificationChannel(this);
+
             // Get the notification ready
-            NotificationCompat.Builder builder = new NotificationCompat.Builder(this)
-                    .setColor(getResources().getColor(com.android.internal.R.color.system_notification_accent_color))
+            NotificationCompat.Builder builder = new NotificationCompat.Builder(this,
+                    Utils.MOKEE_UPDATE_EVENTS_NOTIFICATION_CHANNEL)
                     .setSmallIcon(R.drawable.ic_mokee_updater)
                     .setWhen(System.currentTimeMillis())
                     .setTicker(res.getString(R.string.not_new_updates_found_ticker))
@@ -187,11 +198,11 @@ public class UpdateCheckService extends IntentService
             builder.setNumber(availableUpdates.size());
 
             if (count == 1) {
-                i = new Intent(this, DownloadReceiver.class);
-                i.setAction(DownloadReceiver.ACTION_DOWNLOAD_START);
-                i.putExtra(DownloadReceiver.EXTRA_UPDATE_INFO,
-                        (Parcelable) realUpdates.getFirst());
-                PendingIntent downloadIntent = PendingIntent.getBroadcast(this, 0, i,
+                final PendingIntent downloadIntent = PendingIntent.getBroadcast(this, 0,
+                        new Intent(this, DownloadReceiver.class)
+                                .setAction(DownloadReceiver.ACTION_DOWNLOAD_START)
+                                .putExtra(DownloadReceiver.EXTRA_UPDATE_INFO,
+                                        (Parcelable) realUpdates.getFirst()),
                         PendingIntent.FLAG_ONE_SHOT | PendingIntent.FLAG_UPDATE_CURRENT);
 
                 if (Utils.checkLicensed(getApplicationContext())) {
@@ -214,7 +225,7 @@ public class UpdateCheckService extends IntentService
             NotificationManager nm = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
             nm.notify(R.string.not_new_updates_found_title, builder.build());
         }
-        sendBroadcastAsUser(finishedIntent, UserHandle.CURRENT);
+        lbm.sendBroadcast(finishedIntent);
     }
 
     /**
@@ -222,7 +233,7 @@ public class UpdateCheckService extends IntentService
      */
     private void getAvailableUpdates() {
         // Get the actual ROM Update Server URL
-        URI updateServerUri = null;
+        URI updateServerUri;
         boolean isOTA = getSharedPreferences(Constants.DOWNLOADER_PREF, 0).getBoolean(Constants.OTA_CHECK_PREF, false) && Utils.checkMinLicensed(this);
         if (!isOTA) {
             updateServerUri = URI.create(getString(R.string.conf_update_server_url_def));
@@ -241,7 +252,7 @@ public class UpdateCheckService extends IntentService
 
     /**
      * 判断解析更新数据
-     * 
+     *
      * @param jsonString
      * @param updateType
      * @return
@@ -307,20 +318,21 @@ public class UpdateCheckService extends IntentService
     public void onErrorResponse(VolleyError volleyError) {
         VolleyLog.e("Error: ", volleyError.getMessage());
         VolleyLog.e("Error type: " + volleyError.toString());
-        Intent intent = new Intent(ACTION_CHECK_FINISHED);
-        sendBroadcast(intent);
+        final Intent intent = new Intent(ACTION_CHECK_FINISHED);
+        lbm.sendBroadcast(intent);
     }
 
     @Override
     public void onResponse(String response) {
-        int updateType = getSharedPreferences(Constants.DOWNLOADER_PREF, 0).getInt(Constants.UPDATE_TYPE_PREF, 0);
-        Intent intent = new Intent(ACTION_CHECK_FINISHED);
-        LinkedList<ItemInfo> updates = null;
-        updates = parseUpdatesJSONObject(response, updateType);
+        final int updateType = getSharedPreferences(Constants.DOWNLOADER_PREF, 0)
+                .getInt(Constants.UPDATE_TYPE_PREF, 0);
+        final Intent intent = new Intent(ACTION_CHECK_FINISHED);
+        final LinkedList<ItemInfo> updates = parseUpdatesJSONObject(response, updateType);
         intent.putExtra(EXTRA_UPDATE_COUNT, updates.size());
         intent.putExtra(EXTRA_REAL_UPDATE_COUNT, updates.size());
         intent.putExtra(EXTRA_NEW_UPDATE_COUNT, updates.size());
         recordAvailableUpdates(updates, intent);
         State.saveMKState(this, updates, State.UPDATE_FILENAME);
     }
+
 }

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014-2016 The MoKee Open Source Project
+ * Copyright (C) 2014-2018 The MoKee Open Source Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,8 +17,6 @@
 
 package com.mokee.center.receiver;
 
-import java.io.File;
-
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.Context;
@@ -28,6 +26,8 @@ import android.support.v4.app.NotificationCompat;
 import com.mokee.center.R;
 import com.mokee.center.utils.Utils;
 
+import java.io.File;
+
 public class DownloadNotifier {
 
     private DownloadNotifier() {
@@ -35,31 +35,26 @@ public class DownloadNotifier {
     }
 
     public static void notifyDownloadComplete(Context context,
-            Intent updateIntent, File updateFile) {
+                                              Intent updateIntent, File updateFile) {
         String updateUiName = updateFile.getName();
 
         // Set Notification Info
-        int mContentTitleID, mTickerID, mActionTitleID, mTextID;
-        mContentTitleID = R.string.not_download_success;
-        mTickerID = R.string.not_download_success;
-        mTextID = updateUiName.startsWith("OTA") ? R.string.not_download_install_ota_notice : R.string.not_download_install_notice;
+        final int mContentTitleID = R.string.not_download_success;
+        final int mTickerID = R.string.not_download_success;
+        final int mTextID = updateUiName.startsWith("OTA")
+                ? R.string.not_download_install_ota_notice
+                : R.string.not_download_install_notice;
 
         NotificationCompat.BigTextStyle style = new NotificationCompat.BigTextStyle()
                 .setBigContentTitle(context.getString(mContentTitleID))
                 .bigText(context.getString(mTextID, updateUiName));
 
         NotificationCompat.Builder builder = createBaseContentBuilder(context, updateIntent)
-                .setColor(context.getResources().getColor(com.android.internal.R.color.system_notification_accent_color))
                 .setSmallIcon(R.drawable.ic_mokee_updater)
                 .setContentTitle(context.getString(mContentTitleID))
                 .setContentText(updateUiName)
                 .setTicker(context.getString(mTickerID))
                 .setStyle(style);
-//        if (Utils.checkLicensed(context)) {
-//            builder.addAction(R.drawable.ic_tab_install,
-//                    context.getString(mActionTitleID),
-//                    createInstallPendingIntent(context, updateFile));
-//        }
 
         // Wearable install action
         NotificationCompat.WearableExtender extender = new NotificationCompat.WearableExtender();
@@ -76,20 +71,21 @@ public class DownloadNotifier {
     }
 
     private static NotificationCompat.Builder createBaseContentBuilder(Context context,
-            Intent updateIntent) {
-        PendingIntent contentIntent = PendingIntent.getBroadcast(context, 1,
+                                                                       Intent updateIntent) {
+        Utils.createEventsNotificationChannel(context);
+
+        PendingIntent contentIntent = PendingIntent.getActivity(context, 1,
                 updateIntent, PendingIntent.FLAG_ONE_SHOT | PendingIntent.FLAG_UPDATE_CURRENT);
 
-        return new NotificationCompat.Builder(context)
+        return new NotificationCompat.Builder(context, Utils.MOKEE_UPDATE_EVENTS_NOTIFICATION_CHANNEL)
                 .setWhen(System.currentTimeMillis())
                 .setContentIntent(contentIntent)
                 .setAutoCancel(true);
     }
 
     public static void notifyDownloadError(Context context,
-            Intent updateIntent, int failureMessageResId) {
+                                           Intent updateIntent, int failureMessageResId) {
         NotificationCompat.Builder builder = createBaseContentBuilder(context, updateIntent)
-                .setColor(context.getResources().getColor(com.android.internal.R.color.system_notification_accent_color))
                 .setSmallIcon(android.R.drawable.stat_notify_error)
                 .setContentTitle(context.getString(R.string.not_download_failure))
                 .setContentText(context.getString(failureMessageResId))
@@ -107,4 +103,5 @@ public class DownloadNotifier {
         return PendingIntent.getBroadcast(context, 0,
                 installIntent, PendingIntent.FLAG_ONE_SHOT | PendingIntent.FLAG_UPDATE_CURRENT);
     }
+
 }

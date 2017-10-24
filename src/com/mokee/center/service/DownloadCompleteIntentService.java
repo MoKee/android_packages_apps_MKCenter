@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014-2016 The MoKee Open Source Project
+ * Copyright (C) 2014-2018 The MoKee Open Source Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,26 +17,34 @@
 
 package com.mokee.center.service;
 
-import java.io.File;
-
 import android.app.IntentService;
 import android.content.Intent;
-import android.os.UserHandle;
+import android.support.v4.content.LocalBroadcastManager;
 
 import com.mokee.center.MKCenterApplication;
 import com.mokee.center.R;
+import com.mokee.center.activities.MoKeeCenter;
 import com.mokee.center.db.DownLoadDao;
 import com.mokee.center.db.ThreadDownLoadDao;
 import com.mokee.center.misc.DownLoadInfo;
 import com.mokee.center.receiver.DownloadNotifier;
-import com.mokee.center.receiver.DownloadReceiver;
 import com.mokee.center.utils.DownLoader;
 import com.mokee.center.utils.MD5;
 
+import java.io.File;
+
 public class DownloadCompleteIntentService extends IntentService {
+
+    private LocalBroadcastManager lbm;
 
     public DownloadCompleteIntentService() {
         super(DownloadCompleteIntentService.class.getSimpleName());
+    }
+
+    @Override
+    public void onCreate() {
+        super.onCreate();
+        lbm = LocalBroadcastManager.getInstance(this);
     }
 
     @Override
@@ -51,13 +59,15 @@ public class DownloadCompleteIntentService extends IntentService {
             return;
         }
 
-        DownLoadInfo dli = DownLoadDao.getInstance().getDownLoadInfo(String.valueOf(id));
+        final DownLoadInfo dli = DownLoadDao.getInstance().getDownLoadInfo(String.valueOf(id));
         if (dli == null) {
             return;
         }
-        int status = dli.getState();
-        Intent updateIntent = new Intent(DownloadReceiver.ACTION_NOTIFICATION_CLICKED);
 
+        final Intent updateIntent = new Intent(this, MoKeeCenter.class).addFlags(
+                Intent.FLAG_ACTIVITY_SINGLE_TOP | Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TOP);
+
+        final int status = dli.getState();
         if (status == DownLoader.STATUS_COMPLETE) {
             // Get the full path name of the downloaded file and the MD5
 
@@ -101,9 +111,10 @@ public class DownloadCompleteIntentService extends IntentService {
     private void displaySuccessResult(Intent updateIntent, File updateFile) {
         MKCenterApplication app = (MKCenterApplication) getApplicationContext();
         if (app.isMainActivityActive()) {
-            sendBroadcastAsUser(updateIntent, UserHandle.CURRENT);
+            startActivity(updateIntent);
         } else {
             DownloadNotifier.notifyDownloadComplete(this, updateIntent, updateFile);
         }
     }
+
 }

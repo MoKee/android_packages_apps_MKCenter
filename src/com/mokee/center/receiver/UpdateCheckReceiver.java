@@ -22,7 +22,6 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
-import android.os.UserHandle;
 import android.util.Log;
 
 import com.mokee.center.misc.Constants;
@@ -32,8 +31,9 @@ import com.mokee.center.utils.Utils;
 
 public class UpdateCheckReceiver extends BroadcastReceiver {
 
-    private static final String TAG = "UpdateCheckReceiver";
     public static final String ACTION_UPDATE_CHECK = "com.mokee.center.action.UPDATE_CHECK";
+
+    private static final String TAG = "UpdateCheckReceiver";
 
     @Override
     public void onReceive(Context context, Intent intent) {
@@ -86,11 +86,10 @@ public class UpdateCheckReceiver extends BroadcastReceiver {
                 Log.i(TAG, "Start an on-boot check");
                 Intent i = new Intent(context, UpdateCheckService.class);
                 i.setAction(UpdateCheckService.ACTION_CHECK);
-                context.startServiceAsUser(i, UserHandle.CURRENT);
+                context.startService(i);
             } else {
                 // Nothing to do
                 Log.i(TAG, "On-boot update check was already completed.");
-                return;
             }
         } else if (updateFrequency > 0) {
             Log.i(TAG, "Scheduling future, repeating update checks.");
@@ -98,7 +97,8 @@ public class UpdateCheckReceiver extends BroadcastReceiver {
         } else if (ACTION_UPDATE_CHECK.equals(action)) {
             Intent i = new Intent(context, UpdateCheckService.class);
             i.setAction(UpdateCheckService.ACTION_CHECK);
-            context.startServiceAsUser(i, UserHandle.CURRENT);
+            context.startService(i);
         }
     }
+
 }
