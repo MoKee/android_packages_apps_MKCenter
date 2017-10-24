@@ -22,6 +22,7 @@
   <string name="mokee_support_title">支持中心</string>
   <string name="mokee_updater_title">系统更新</string>
   <!-- WebSite -->
+  <string name="mokee_links">链接</string>
   <string name="mokee_website_title">项目首页</string>
   <string name="mokee_website_summary">访问魔趣开源计划主页以获得最新资讯</string>
   <string name="mokee_forum_title">魔趣论坛</string>
