@@ -28,24 +28,22 @@ import android.os.Bundle;
 import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.support.annotation.StringRes;
-import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.Snackbar;
-import android.support.design.widget.TabLayout;
 import android.support.v4.app.Fragment;
-import android.support.v4.view.ViewPager;
+import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.RadioGroup;
 import android.widget.SeekBar;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.mokee.center.R;
-import com.mokee.center.adapters.TabsAdapter;
 import com.mokee.center.misc.Constants;
 import com.mokee.center.service.UpdateCheckService;
 import com.mokee.center.utils.RequestUtils;
@@ -60,18 +58,18 @@ public class MoKeeCenter extends AppCompatActivity {
 
     public static final String BR_ONNewIntent = "com.mokee.center.action.ON_NEW_INTENT";
 
-    private static CoordinatorLayout mRoot;
+    private DrawerLayout mRoot;
 
     public void donateOrUnlockFeatureDialog(final boolean isDonate) {
         final LayoutInflater inflater = LayoutInflater.from(this);
 
-        @SuppressLint("InflateParams")
-        final ViewGroup donateView = (ViewGroup) inflater.inflate(R.layout.donate, null);
+        @SuppressLint("InflateParams") final ViewGroup donateView = (ViewGroup) inflater.inflate(R.layout.donate, null);
 
-        final TextView mRequest = (TextView) donateView.findViewById(R.id.request);
-        final SeekBar mSeekBar = (SeekBar) donateView.findViewById(R.id.price);
+        final TextView mRequest = donateView.findViewById(R.id.request);
+        final SeekBar mSeekBar = donateView.findViewById(R.id.price);
+        final RadioGroup mVia = donateView.findViewById(R.id.via);
 
-        TextView mMessage = (TextView) donateView.findViewById(R.id.message);
+        TextView mMessage = donateView.findViewById(R.id.message);
         mMessage.setText(R.string.donate_dialog_message);
 
         Float paid = Utils.getPaidTotal(this);
@@ -111,53 +109,34 @@ public class MoKeeCenter extends AppCompatActivity {
 
         String title = isDonate ? getString(R.string.donate_money_title)
                 : getString(R.string.unlock_features_title);
+
         float price = isDonate ? (float) (mSeekBar.getProgress() + Constants.DONATION_REQUEST_MIN)
                 : mSeekBar.getProgress() - paid;
 
-        final AlertDialog.Builder builder = new AlertDialog.Builder(this)
-                .setTitle(title).setView(donateView);
-
-        builder.setPositiveButton(R.string.donate_dialog_via_paypal, new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                requestForPayment("paypal", price, title);
+        if (!MoKeeUtils.isApkInstalledAndEnabled("com.tencent.mm", this)) {
+            mVia.findViewById(R.id.wechat).setVisibility(View.GONE);
+            if (mVia.getCheckedRadioButtonId() == R.id.wechat) {
+                mVia.check(R.id.alipay);
             }
-        });
+        }
 
-        builder.setNegativeButton(R.string.donate_dialog_via_wechat, new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                if (MoKeeUtils.isApkInstalledAndEnabled("com.tencent.mm", MoKeeCenter.this)) {
-                    requestForPayment("wechat", price, title);
-                } else {
-                    Toast.makeText(MoKeeCenter.this, R.string.activity_not_found, Toast.LENGTH_SHORT).show();
-                }
-            }
-        });
-
-        builder.setNeutralButton(R.string.donate_dialog_via_alipay, new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                requestForPayment("alipay", price, title);
-            }
-        });
-//        if (isDonate && MoKeeUtils.isSupportLanguage(false)) {
-//            builder.setNeutralButton(R.string.donate_dialog_via_point, new DialogInterface.OnClickListener() {
-//                @Override
-//                public void onClick(DialogInterface dialog, int which) {
-//                    Utils.pointPaymentRequest(MoKeeCenter.this);
-//                }
-//            });
-//        } else if (Utils.getPaidTotal(MoKeeCenter.this) == 0f) {
-//            builder.setNeutralButton(R.string.donate_dialog_via_restore, new DialogInterface.OnClickListener() {
-//                @Override
-//                public void onClick(DialogInterface dialog, int which) {
-//                    Utils.restorePaymentRequest(MoKeeCenter.this);
-//                }
-//            });
-//        }
-
-        builder.show();
+        new AlertDialog.Builder(this)
+                .setTitle(title)
+                .setView(donateView)
+                .setPositiveButton("下一步", (dialog, which) -> {
+                    switch (mVia.getCheckedRadioButtonId()) {
+                        case R.id.alipay:
+                            requestForPayment("alipay", price, title);
+                            break;
+                        case R.id.wechat:
+                            requestForPayment("wechat", price, title);
+                            break;
+                        case R.id.paypal:
+                            requestForPayment("paypal", price, title);
+                            break;
+                    }
+                })
+                .show();
     }
 
     private void requestForPayment(String measure, float price, String title) {
@@ -174,16 +153,10 @@ public class MoKeeCenter extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
 
-        mRoot = (CoordinatorLayout) findViewById(R.id.root);
+        mRoot = findViewById(R.id.root);
 
-        final Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        final Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-        final ViewPager viewPager = (ViewPager) findViewById(R.id.viewPager);
-        viewPager.setAdapter(new TabsAdapter(this, getSupportFragmentManager()));
-
-        final TabLayout tabLayout = (TabLayout) findViewById(R.id.tabLayout);
-        tabLayout.setupWithViewPager(viewPager);
     }
 
     @Override
@@ -204,7 +177,7 @@ public class MoKeeCenter extends AppCompatActivity {
 
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        switch(resultCode) {
+        switch (resultCode) {
             case Activity.RESULT_OK:
                 makeSnackbar(R.string.donate_money_toast_success)
                         .setAction(R.string.donate_money_again, new View.OnClickListener() {
@@ -312,6 +285,9 @@ public class MoKeeCenter extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
+            case android.R.id.home:
+                mRoot.openDrawer(Gravity.START);
+                return true;
             case R.id.menu_donate:
                 donateOrUnlockFeatureDialog(true);
                 return true;
@@ -336,7 +312,4 @@ public class MoKeeCenter extends AppCompatActivity {
         return Snackbar.make(mRoot, resId, duration);
     }
 
-    public static CoordinatorLayout getRoot() {
-        return mRoot;
-    }
 }

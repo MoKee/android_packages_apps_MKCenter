@@ -22,6 +22,12 @@
     tools:ignore="AlwaysShowAction">
 
     <item
+        android:id="@+id/menu_donate"
+        android:orderInCategory="998"
+        android:title="@string/menu_donate"
+        app:showAsAction="always|withText" />
+
+    <item
         android:id="@+id/menu_unlock_features"
         android:title="@string/menu_unlock_features"
         app:showAsAction="always|withText" />

@@ -1,6 +1,6 @@
 /*
  * Copyright (C) 2015 The Android Open Source Project
- * Copyright (C) 2017 The MoKee Open Source Project
+ * Copyright (C) 2017-2018 The MoKee Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -17,24 +17,22 @@
 
 package com.mokee.center.widget;
 
+import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Context;
-import android.support.design.widget.CoordinatorLayout;
-import android.support.design.widget.Snackbar;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceViewHolder;
 import android.util.AttributeSet;
-import android.view.View;
-import android.view.View.OnLongClickListener;
 import android.widget.Toast;
 
-import com.mokee.center.R;
-import com.mokee.center.activities.MoKeeCenter;
-
+@SuppressWarnings({"WeakerAccess", "unused"})
 public class CopyablePreference extends Preference {
+
+    private final ClipboardManager cm;
 
     public CopyablePreference(Context context, AttributeSet attrs) {
         super(context, attrs);
+        cm = (ClipboardManager) context.getSystemService(Context.CLIPBOARD_SERVICE);
     }
 
     public CopyablePreference(Context context) {
@@ -44,26 +42,12 @@ public class CopyablePreference extends Preference {
     @Override
     public void onBindViewHolder(PreferenceViewHolder holder) {
         super.onBindViewHolder(holder);
-        holder.setDividerAllowedAbove(true);
-        holder.setDividerAllowedBelow(true);
         holder.itemView.setLongClickable(true);
-        holder.itemView.setOnLongClickListener(new OnLongClickListener() {
-            @Override
-            public boolean onLongClick(View v) {
-                copyPreference(getContext(), CopyablePreference.this);
-                return true;
-            }
+        holder.itemView.setOnLongClickListener(v -> {
+            cm.setPrimaryClip(ClipData.newPlainText(null, getSummary()));
+            Toast.makeText(getContext(), com.android.internal.R.string.text_copied, Toast.LENGTH_SHORT).show();
+            return true;
         });
     }
 
-    public CharSequence getCopyableText() {
-        return getSummary();
-    }
-
-    public static void copyPreference(Context context, CopyablePreference pref) {
-        ClipboardManager cm =
-                (ClipboardManager) context.getSystemService(Context.CLIPBOARD_SERVICE);
-        cm.setText(pref.getCopyableText());
-        Snackbar.make(MoKeeCenter.getRoot(), com.android.internal.R.string.text_copied, Snackbar.LENGTH_SHORT).show();
-    }
 }
