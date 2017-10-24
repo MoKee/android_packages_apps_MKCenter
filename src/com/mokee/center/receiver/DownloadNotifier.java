@@ -77,10 +77,12 @@ public class DownloadNotifier {
 
     private static NotificationCompat.Builder createBaseContentBuilder(Context context,
             Intent updateIntent) {
+        Utils.createEventsNotificationChannel(context);
+
         PendingIntent contentIntent = PendingIntent.getBroadcast(context, 1,
                 updateIntent, PendingIntent.FLAG_ONE_SHOT | PendingIntent.FLAG_UPDATE_CURRENT);
 
-        return new NotificationCompat.Builder(context)
+        return new NotificationCompat.Builder(context, Utils.MOKEE_UPDATE_EVENTS_NOTIFICATION_CNANNEL)
                 .setWhen(System.currentTimeMillis())
                 .setContentIntent(contentIntent)
                 .setAutoCancel(true);

@@ -19,6 +19,7 @@ package com.mokee.center.utils;
 
 import android.app.Activity;
 import android.app.AlarmManager;
+import android.app.NotificationChannel;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.ActivityNotFoundException;
@@ -59,6 +60,12 @@ import mokee.providers.MKSettings;
 
 public class Utils {
 
+    public static final String MOKEE_UPDATE_EVENTS_NOTIFICATION_CNANNEL =
+            "mokee_update_events_notification_channel";
+
+    public static final String MOKEE_UPDATE_PROGRESS_NOTIFICATION_CNANNEL =
+            "mokee_update_progress_notification_channel";
+
     public static File makeUpdateFolder() {
         return new File(Environment.getExternalStorageDirectory(),
                 Constants.UPDATES_FOLDER);
@@ -77,6 +84,28 @@ public class Utils {
         final NotificationManager nm = (NotificationManager) context.getSystemService(Context.NOTIFICATION_SERVICE);
         nm.cancel(R.string.not_new_updates_found_title);
         nm.cancel(R.string.not_download_success);
+    }
+
+    public static void createEventsNotificationChannel(Context context) {
+        final NotificationChannel channel = new NotificationChannel(
+                MOKEE_UPDATE_EVENTS_NOTIFICATION_CNANNEL,
+                context.getString(R.string.mokee_center_title),
+                NotificationManager.IMPORTANCE_HIGH);
+
+        final NotificationManager nm = (NotificationManager)
+                context.getSystemService(Context.NOTIFICATION_SERVICE);
+        nm.createNotificationChannel(channel);
+    }
+
+    public static void createProgressNotificationChannel(Context context) {
+        final NotificationChannel channel = new NotificationChannel(
+                MOKEE_UPDATE_PROGRESS_NOTIFICATION_CNANNEL,
+                context.getString(R.string.mokee_center_title),
+                NotificationManager.IMPORTANCE_LOW);
+
+        final NotificationManager nm = (NotificationManager)
+                context.getSystemService(Context.NOTIFICATION_SERVICE);
+        nm.createNotificationChannel(channel);
     }
 
     public static String getReleaseVersionTypeString(Context mContext, String MoKeeVersionType) {
