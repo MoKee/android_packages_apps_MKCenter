@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2014-2016 The MoKee Open Source Project
+     Copyright (C) 2014-2018 The MoKee Open Source Project
 
      This program is free software: you can redistribute it and/or modify
      it under the terms of the GNU General Public License as published by
@@ -17,96 +17,92 @@
 -->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:baselineAligned="false"
     android:gravity="center_vertical"
-    android:minHeight="?android:attr/listPreferredItemHeight">
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal">
 
     <LinearLayout
         android:id="@+id/updates_pref"
-        android:layout_width="0dip"
-        android:layout_height="match_parent"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
         android:background="?android:attr/selectableItemBackground"
-        android:baselineAligned="false"
         android:clickable="true"
         android:focusable="true"
-        android:gravity="center_vertical"
-        android:paddingStart="?android:attr/listPreferredItemPaddingStart">
+        android:orientation="vertical"
+        android:paddingBottom="8dp"
+        android:paddingEnd="0dp"
+        android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+        android:paddingTop="8dp">
 
-        <RelativeLayout
-            android:layout_width="0dip"
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="6dip"
-            android:layout_marginEnd="6dip"
-            android:layout_marginTop="6dip"
-            android:layout_weight="1">
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textAppearance="?android:attr/textAppearanceListItem"
+            tools:text="MK81.0-dumpling-201811120631-NIGHTLY.zip" />
 
-            <TextView
-                android:id="@+android:id/title"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:ellipsize="marquee"
-                android:fadingEdge="horizontal"
-                android:maxLines="3"
-                android:textAppearance="?android:attr/textAppearanceListItem" />
+        <ProgressBar
+            android:id="@+id/download_progress_bar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="3dip"
+            android:visibility="gone"
+            tools:progress="20"
+            tools:visibility="visible" />
 
-            <ProgressBar
-                android:id="@+id/download_progress_bar"
-                style="?android:attr/progressBarStyleHorizontal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignStart="@android:id/title"
-                android:layout_below="@android:id/title"
-                android:paddingBottom="3dip"
-                android:visibility="gone" />
-
-            <TextView
-                android:id="@android:id/summary"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignStart="@android:id/title"
-                android:layout_below="@id/download_progress_bar"
-                android:focusable="false"
-                android:maxLines="4"
-                android:paddingBottom="3dip"
-                android:textAppearance="?android:attr/textAppearanceListItemSecondary"
-                android:textColor="?android:attr/textColorSecondary"
-                android:visibility="gone" />
-
-        </RelativeLayout>
+        <TextView
+            android:id="@+id/summary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="4"
+            android:paddingBottom="3dip"
+            android:textAppearance="?android:attr/textAppearanceListItemSecondary"
+            android:textColor="?android:attr/textColorSecondary"
+            android:visibility="gone"
+            tools:text="The latest version"
+            tools:visibility="visible" />
 
     </LinearLayout>
 
-    <FrameLayout
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/update"
+        style="?borderlessButtonStyle"
+        android:layout_width="96dp"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:focusable="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="8dp">
 
         <ImageView
-            android:id="@+id/updates_button"
+            android:id="@+id/icon"
             android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_gravity="center"
-            android:background="?android:attr/selectableItemBackground"
-            android:clickable="true"
-            android:focusable="true"
-            android:paddingBottom="9dip"
+            android:layout_height="wrap_content"
             android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
             android:paddingStart="?android:attr/listPreferredItemPaddingStart"
-            android:src="@drawable/ic_tab_download" />
+            android:src="@drawable/ic_tab_download"
+            android:tint="?colorAccent"
+            tools:ignore="ContentDescription" />
 
         <TextView
             android:id="@+id/file_size"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal|bottom"
-            android:focusable="false"
-            android:paddingBottom="9dip"
-            android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
-            android:paddingStart="?android:attr/listPreferredItemPaddingStart"
-            android:textAppearance="?android:attr/textAppearanceListItemSecondary"
-            android:textColor="?android:attr/textColorSecondary" />
-    </FrameLayout>
+            android:layout_marginTop="8dp"
+            android:singleLine="true"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:textColor="?android:attr/textColorSecondary"
+            tools:text="600 MB" />
+
+    </LinearLayout>
 
 </LinearLayout>

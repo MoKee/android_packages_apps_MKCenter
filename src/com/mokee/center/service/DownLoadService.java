@@ -37,6 +37,7 @@ import com.mokee.center.misc.Constants;
 import com.mokee.center.misc.DownLoadInfo;
 import com.mokee.center.receiver.DownloadReceiver;
 import com.mokee.center.utils.DownLoader;
+import com.mokee.center.utils.Utils;
 
 public class DownLoadService extends NonStopIntentService {
     private static final String TAG = "DownLoadService";
@@ -130,7 +131,8 @@ public class DownLoadService extends NonStopIntentService {
      * 添加通知
      */
     private void addNotification(int id, int title) {
-        Builder builder = new Builder(this);
+        Utils.createProgressNotificationChannel(this);
+        Builder builder = new Builder(this, Utils.MOKEE_UPDATE_PROGRESS_NOTIFICATION_CNANNEL);
         builder.setContentTitle(getString(title));
         builder.setContentText(getString(R.string.download_running));
         builder.setColor(getResources().getColor(com.android.internal.R.color.system_notification_accent_color));
@@ -140,9 +142,7 @@ public class DownLoadService extends NonStopIntentService {
         PendingIntent pengdingIntent = PendingIntent.getBroadcast(this, 0, nextIntent,
                 PendingIntent.FLAG_UPDATE_CURRENT);
         builder.setContentIntent(pengdingIntent);
-        builder.setProgress(100, 0, false);
-        builder.setAutoCancel(true);
-        builder.setTicker(getString(title));
+        builder.setProgress(100, 0, true);
         builder.setOngoing(true);
         notifications.put(id, builder);
         // Notification not = builder.build();
@@ -159,7 +159,6 @@ public class DownLoadService extends NonStopIntentService {
         }
         Builder notification = notifications.get(id);
         notification.setContentText(getString(R.string.download_remaining, DateUtils.formatDuration(time)));
-        notification.setContentInfo(String.valueOf(progress) + "%");
         notification.setProgress(100, progress, false);
         manager.notify(id, notification.build());
     }

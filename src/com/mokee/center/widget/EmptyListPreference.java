@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014-2017 The MoKee Open Source Project
+ * Copyright (C) 2014-2018 The MoKee Open Source Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -26,7 +26,7 @@ public class EmptyListPreference extends Preference {
 
     @SuppressWarnings("WeakerAccess")
     public EmptyListPreference(Context context, boolean isOTAChecked) {
-        super(context, null, 0, 0);
+        super(context, null, 0, R.style.SettingsPreference);
         setLayoutResource(R.layout.preference_empty_list);
         setEnabled(false);
         setSummary(isOTAChecked
