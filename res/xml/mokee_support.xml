@@ -16,38 +16,44 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <SwitchPreference 
+    <SwitchPreference
         android:key="mokee_news"
         android:summary="@string/mokee_news_summary"
         android:title="@string/mokee_news_title" />
 
-    <PreferenceScreen
+    <Preference
         android:key="mokee_website"
         android:summary="@string/mokee_website_summary"
         android:title="@string/mokee_website_title" />
-    <PreferenceScreen
+
+    <Preference
         android:key="mokee_forum"
         android:summary="@string/mokee_forum_summary"
         android:title="@string/mokee_forum_title" />
-    <PreferenceScreen
+
+    <Preference
         android:key="mokee_issues"
         android:summary="@string/mokee_issues_summary"
         android:title="@string/mokee_issues_title" />
-    <PreferenceScreen
+
+    <Preference
         android:key="mokee_changelog"
         android:summary="@string/mokee_changelog_summary"
         android:title="@string/mokee_changelog_title" />
-    <PreferenceScreen
+
+    <Preference
         android:key="mokee_github"
         android:summary="@string/mokee_github_summary"
         android:title="@string/mokee_github_title" />
-    <PreferenceScreen
+
+    <Preference
         android:key="mokee_translate"
         android:summary="@string/mokee_translate_summary"
         android:title="@string/mokee_translate_title" />
-    <PreferenceScreen
+
+    <Preference
         android:key="mokee_wiki"
         android:summary="@string/mokee_wiki_summary"
         android:title="@string/mokee_wiki_title" />

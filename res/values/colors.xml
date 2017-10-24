@@ -16,10 +16,9 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<resources>
     <color name="snackbar_background">#ff212121</color>
-    <!-- Palette colors referenced by top-level themes. -->
-    <color name="theme_primary">#ff212121</color>
-    <color name="theme_primary_dark">#ff000000</color>
+    <color name="theme_primary">#fff5f5f5</color>
+    <color name="theme_primary_dark">#ffe0e0e0</color>
     <color name="theme_accent">#ff009688</color>
 </resources>
