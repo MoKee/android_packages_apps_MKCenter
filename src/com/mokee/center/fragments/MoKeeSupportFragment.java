@@ -17,8 +17,6 @@
 
 package com.mokee.center.fragments;
 
-import android.content.Intent;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v14.preference.SwitchPreference;
 import android.support.v7.preference.Preference;
@@ -31,30 +29,9 @@ import com.mokee.center.R;
 public class MoKeeSupportFragment extends PreferenceFragmentCompat
         implements Preference.OnPreferenceChangeListener {
 
-    private static final String KEY_MOKEE_WEBSITE = "mokee_website";
-    private static final String KEY_MOKEE_FORUM = "mokee_forum";
-    private static final String KEY_MOKEE_ISSUES = "mokee_issues";
-    private static final String KEY_MOKEE_CHANGELOG = "mokee_changelog";
-    private static final String KEY_MOKEE_TRANSLATE = "mokee_translate";
-    private static final String KEY_MOKEE_GITHUB = "mokee_github";
-    private static final String KEY_MOKEE_WIKI = "mokee_wiki";
     private static final String KEY_MOKEE_NEWS = "mokee_news";
 
-    private static final String URL_MOKEE_WEBSITE = "http://www.mokeedev.com";
-    private static final String URL_MOKEE_FORUM = "http://bbs.mokeedev.com";
-    private static final String URL_MOKEE_ISSUES = "http://issues.mokeedev.com";
-    private static final String URL_MOKEE_CHANGELOG = "http://changelog.mokeedev.com";
-    private static final String URL_MOKEE_TRANSLATE = "http://translate.mokeedev.com";
-    private static final String URL_MOKEE_GITHUB = "https://github.com/MoKee";
-    private static final String URL_MOKEE_WIKI = "http://wiki.mokeedev.com";
-
     private SwitchPreference mPushNewsPreferences;
-
-    private void goToURL(String url) {
-        Uri uri = Uri.parse(url);
-        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-        startActivity(intent);
-    }
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
@@ -72,36 +49,6 @@ public class MoKeeSupportFragment extends PreferenceFragmentCompat
             return true;
         }
         return false;
-    }
-
-    @Override
-    public boolean onPreferenceTreeClick(Preference preference) {
-        String key = preference.getKey();
-        switch (key) {
-            case KEY_MOKEE_WEBSITE:
-                goToURL(URL_MOKEE_WEBSITE);
-                return true;
-            case KEY_MOKEE_FORUM:
-                goToURL(URL_MOKEE_FORUM);
-                return true;
-            case KEY_MOKEE_ISSUES:
-                goToURL(URL_MOKEE_ISSUES);
-                return true;
-            case KEY_MOKEE_CHANGELOG:
-                goToURL(URL_MOKEE_CHANGELOG);
-                return true;
-            case KEY_MOKEE_TRANSLATE:
-                goToURL(URL_MOKEE_TRANSLATE);
-                return true;
-            case KEY_MOKEE_GITHUB:
-                goToURL(URL_MOKEE_GITHUB);
-                return true;
-            case KEY_MOKEE_WIKI:
-                goToURL(URL_MOKEE_WIKI);
-                return true;
-            default:
-                return super.onPreferenceTreeClick(preference);
-        }
     }
 
 }
