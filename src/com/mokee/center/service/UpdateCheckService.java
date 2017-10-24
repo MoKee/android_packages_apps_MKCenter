@@ -141,8 +141,11 @@ public class UpdateCheckService extends IntentService
             String text = res.getQuantityString(R.plurals.not_new_updates_found_body,
                     realUpdateCount, realUpdateCount);
 
+            Utils.createEventsNotificationChannel(this);
+
             // Get the notification ready
-            NotificationCompat.Builder builder = new NotificationCompat.Builder(this)
+            NotificationCompat.Builder builder = new NotificationCompat.Builder(this,
+                    Utils.MOKEE_UPDATE_EVENTS_NOTIFICATION_CNANNEL)
                     .setColor(getResources().getColor(com.android.internal.R.color.system_notification_accent_color))
                     .setSmallIcon(R.drawable.ic_mokee_updater)
                     .setWhen(System.currentTimeMillis())

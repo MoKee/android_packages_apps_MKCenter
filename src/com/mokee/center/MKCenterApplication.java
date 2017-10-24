@@ -28,7 +28,6 @@ import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
 import com.mokee.center.activities.MoKeeCenter;
 import com.mokee.center.service.DeviceRegistrationService;
-import com.mokee.utils.CommonUtils;
 
 public class MKCenterApplication extends Application implements
         Application.ActivityLifecycleCallbacks {
