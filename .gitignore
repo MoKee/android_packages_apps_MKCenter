@@ -1,1 +1,13 @@
 .DS_Store
+
+/.idea
+/.gradle
+
+/build
+/gradle
+
+/gradlew
+/gradlew.bat
+
+*.iml
+*.properties
