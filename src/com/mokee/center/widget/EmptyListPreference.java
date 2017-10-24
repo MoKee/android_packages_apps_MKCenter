@@ -26,7 +26,7 @@ public class EmptyListPreference extends Preference {
 
     @SuppressWarnings("WeakerAccess")
     public EmptyListPreference(Context context, boolean isOTAChecked) {
-        super(context, null, 0, 0);
+        super(context, null, 0, R.style.SettingsPreference);
         setLayoutResource(R.layout.preference_empty_list);
         setEnabled(false);
         setSummary(isOTAChecked

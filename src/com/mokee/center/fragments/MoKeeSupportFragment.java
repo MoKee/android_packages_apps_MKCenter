@@ -19,7 +19,6 @@ package com.mokee.center.fragments;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.mokee.utils.MoKeeUtils;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v14.preference.SwitchPreference;
