@@ -16,46 +16,52 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<!--suppress AndroidElementNotAllowed -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <SwitchPreference
         android:key="mokee_news"
         android:summary="@string/mokee_news_summary"
         android:title="@string/mokee_news_title" />
 
-    <Preference
-        android:key="mokee_website"
-        android:summary="@string/mokee_website_summary"
-        android:title="@string/mokee_website_title" />
+    <PreferenceCategory android:title="@string/mokee_links">
 
-    <Preference
-        android:key="mokee_forum"
-        android:summary="@string/mokee_forum_summary"
-        android:title="@string/mokee_forum_title" />
+        <com.mokee.center.widget.LinkPreference
+            android:summary="@string/mokee_website_summary"
+            android:title="@string/mokee_website_title"
+            app:url="http://www.mokeedev.com" />
 
-    <Preference
-        android:key="mokee_issues"
-        android:summary="@string/mokee_issues_summary"
-        android:title="@string/mokee_issues_title" />
+        <com.mokee.center.widget.LinkPreference
+            android:summary="@string/mokee_forum_summary"
+            android:title="@string/mokee_forum_title"
+            app:url="http://bbs.mokeedev.com" />
 
-    <Preference
-        android:key="mokee_changelog"
-        android:summary="@string/mokee_changelog_summary"
-        android:title="@string/mokee_changelog_title" />
+        <com.mokee.center.widget.LinkPreference
+            android:summary="@string/mokee_issues_summary"
+            android:title="@string/mokee_issues_title"
+            app:url="http://issues.mokeedev.com" />
 
-    <Preference
-        android:key="mokee_github"
-        android:summary="@string/mokee_github_summary"
-        android:title="@string/mokee_github_title" />
+        <com.mokee.center.widget.LinkPreference
+            android:summary="@string/mokee_changelog_summary"
+            android:title="@string/mokee_changelog_title"
+            app:url="http://changelog.mokeedev.com" />
 
-    <Preference
-        android:key="mokee_translate"
-        android:summary="@string/mokee_translate_summary"
-        android:title="@string/mokee_translate_title" />
+        <com.mokee.center.widget.LinkPreference
+            android:summary="@string/mokee_github_summary"
+            android:title="@string/mokee_github_title"
+            app:url="https://github.com/MoKee" />
 
-    <Preference
-        android:key="mokee_wiki"
-        android:summary="@string/mokee_wiki_summary"
-        android:title="@string/mokee_wiki_title" />
+        <com.mokee.center.widget.LinkPreference
+            android:summary="@string/mokee_translate_summary"
+            android:title="@string/mokee_translate_title"
+            app:url="http://translate.mokeedev.com" />
+
+        <com.mokee.center.widget.LinkPreference
+            android:summary="@string/mokee_wiki_summary"
+            android:title="@string/mokee_wiki_title"
+            app:url="http://wiki.mokeedev.com" />
+
+    </PreferenceCategory>
 
 </PreferenceScreen>
