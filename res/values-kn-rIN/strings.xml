@@ -18,16 +18,72 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Fragment -->
+  <string name="mokee_center_title">Mokee ಕೇಂದ್ರ</string>
+  <string name="mokee_support_title">ಬೆಂಬಲ</string>
+  <string name="mokee_updater_title">ನವೀಕರಣ</string>
   <!-- WebSite -->
+  <string name="mokee_website_title">MoKee ಜಾಲತಾಣ</string>
+  <string name="mokee_website_summary">ಅಧಿಕೃತ ಜಾಲತಾಣ ಭೇಟಿ</string>
+  <string name="mokee_forum_title">MoKee ವೇದಿಕೆ</string>
+  <string name="mokee_forum_summary">MoKee ವೇದಿಕೆಯನ್ನು ಭೇಟಿ ಮಾಡಿ</string>
+  <string name="mokee_github_summary">MoKee Github ಗೆ ಭೇಟಿ ನೀಡಿ</string>
+  <string name="mokee_translate_title">MoKee ಭಾಷಾಂತರ</string>
+  <string name="mokee_translate_summary">MoKee ಭಾಷಾಂತರಿಸಲು ಸಹಾಯ ಮಾಡಿ</string>
+  <string name="mokee_wiki_title">MoKee Wiki</string>
+  <string name="mokee_wiki_summary">MoKee Wiki ವೀಕ್ಷಿಸಿ</string>
+  <string name="mokee_news_title">MoKee ಸುದ್ದಿಗಳು</string>
+  <string name="mokee_news_summary">MoKee ಯಿಂದ ಅಭಿವೃದ್ಧಿಗಳನ್ನು ಪಡೆಯಿರಿ</string>
   <!-- Base Info -->
+  <string name="mokee_version_info_title">ಆವೃತ್ತಿಯ ಮಾಹಿತಿ</string>
+  <string name="mokee_version_title">MoKee ಆವೃತ್ತಿ</string>
+  <string name="mokee_unique_id_title">ಏಕಮಾತ್ರ ಗುರುತು</string>
+  <string name="mokee_donate_info_title">ಕಾಣಿಕೆ ಮಾಹಿತಿ</string>
+  <string name="mokee_last_check_title">ಕೊನೆಯ ಪರಿಶೀಲನೆ</string>
+  <string name="mokee_last_check_never">ಎಂದಿಗೂ</string>
   <!-- Version -->
+  <string name="mokee_info_default">ಅಪರಿಚಿತ</string>
+  <string name="mokee_version_type_release">ಬಿಡುಗಡೆ</string>
+  <string name="mokee_version_type_history">ಇತಿಹಾಸ</string>
+  <string name="mokee_version_type_experimental">ಪ್ರಾಯೋಗಿಕ</string>
+  <string name="mokee_version_type_nightly">ರಾತ್ರಿಯ</string>
+  <string name="mokee_version_type_unofficial">ಅನಧಿಕೃತ</string>
+  <string name="mokee_version_type_all">ಎಲ್ಲ</string>
   <!-- State -->
+  <string name="downloaded_update_summary">ಡೌನ್‍ಲೋಡ್ ಮಾಡಲಾದ</string>
+  <string name="installed_update_summary">ಅಳವಡಿಸಿದೆ</string>
+  <string name="available_updates_title">ಲಭ್ಯವಿರುವ ನವೀಕರಣಗಳು</string>
   <!-- Menu -->
+  <string name="menu_donate">ಕಾಣಿಕೆ</string>
+  <string name="menu_delete_all">ಡೌನ್‍ಲೋಡ್‍ಗಳನ್ನು ಅಳಿಸಿ</string>
   <!-- Donate -->
+  <string name="donate_dialog_title">ನಮಗೆ ಕಾಣಿಕೆ ನೀಡಿ</string>
+  <string name="donate_dialog_via_paypal">PayPal</string>
+  <string name="donate_dialog_via_alipay">AliPay</string>
+  <string name="donate_dialog_via_restore">ಮರುಸಂಗ್ರಹಿಸಿ</string>
   <!-- Update -->
+  <string name="unknown">ಅಪರಿಚಿತ</string>
+  <string name="dialog_cancel">ರದ್ದು</string>
+  <string name="dialog_close">ಮುಚ್ಚಿ</string>
   <!-- ChangeLog -->
   <!-- checking -->
+  <string name="no_updates_found">ಯಾವುದೇ ಹೊಸ ನವೀಕರಣೆಗಳು ಕಂಡುಬಂದಿಲ್ಲ</string>
+  <string name="not_new_updates_found_ticker">ಹೊಸ ನವೀಕರಣೆಗಳು ಲಭ್ಯವಿವೆ</string>
+  <string name="not_new_updates_found_title">ಹೊಸ ನವೀಕರಣೆಗಳು</string>
+  <string name="update_check_failed">ನವೀಕರಣೆ ಪರಿಶೀಲನೆ ವಿಫಲವಾಗಿದೆ. ದಯವಿಟ್ಟು ನಿಮ್ಮ ಅಂತರ್ಜಾಲ ಸಂಪರ್ಕವನ್ನು ಪರಿಶೀಲಿಸಿ ಮತ್ತು ನಂತರ ಪ್ರಯತ್ನಿಸಿ.</string>
+  <string name="not_action_download">ಡೌನ್‍ಲೋಡ್</string>
+  <string name="data_connection_required">ಡೇಟಾ ಸಂಪರ್ಕದ ಅಗತ್ಯವಿದೆ.</string>
   <!-- Downloads -->
+  <string name="confirm_download_cancelation_dialog_title">ಡೌನ್‍ಲೋಡ್ ರದ್ದುಗೊಳಿಸಿ</string>
+  <string name="confirm_download_cancelation_dialog_message">ಪ್ರಸ್ತುತ ಡೌನ್‍ಲೋಡ್ ರದ್ದುಗೊಳಿಸುವುದೇ?</string>
+  <string name="download_remaining"><xliff:g ಗುರುತು="ಅವಧಿ" ಉದಾಹರಣೆ="3 ನಿಮಿಷಗಳು">%s</xliff:g> ಉಳಿದಿವೆ</string>
+  <string name="download_running">ಪ್ರಗತಿಯಲ್ಲಿದೆ</string>
+  <string name="download_cancelled">ಡೌನ್‍ಲೋಡ್ ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ</string>
+  <string name="download_already_running">ಒಂದು ಡೌನ್‍ಲೋಡ್ ಈಗಾಗಲೇ ಚಾಲನೆಯಲ್ಲಿದೆ</string>
+  <string name="unable_to_download_file">ನವೀಕರಣೆ ಕಡತವನ್ನು ಡೌನ್‍ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ</string>
+  <string name="not_download_success">ನವೀಕರಣ ಯಶಸ್ವಿಯಾಗಿ ಡೌನ್‍ಲೋಡ್ ಆಗಿದೆ</string>
+  <string name="not_download_failure">ನವೀಕರಣೆ ಡೌನ್‍ಲೋಡ್ ವಿಫಲಗೊಂಡಿದೆ</string>
+  <string name="not_action_install_update">ಮರುಪ್ರಾರಂಭಿಸಿ ಮತ್ತು ಅಳವಡಿಸಿ</string>
+  <string name="not_download_install_notice">ನವೀಕರಣ <xliff:g id="ದಾಖಲೆ ಹೆಸರು">%s</xliff:g> ಯಶಸ್ವಿಯಾಗಿ ಡೌನ್‍ಲೋಡ್ ಆಗಿದೆ. \'ಮರುಪ್ರಾರಂಭಿಸಿ ಮತ್ತು ಅಳವಡಿಸಿ\' ಸ್ಪರ್ಶಿಸಿದಾಗ, ಸಾಧನವು ನವೀಕರಣಗಳನ್ನು ಅಳವಡಿಸಲು ಸ್ವತ: ಮರುಪ್ರಾರಂಭಗೊಳ್ಳುತ್ತದೆ.\n\nಗಮನಿಸಿ: ಈ ವೈಶಿಷ್ಟ್ಯಕ್ಕೆ ಹೊಂದಿಕೊಳ್ಳುವ ಪುನ:ಸಂಪಾದನೆಯ ಅಥವಾ ದೈಹಿಕವಾಗಿ ನವೀಕರಣಗಳನ್ನು ಅಳವಡಿಸುವ ಅಗತ್ಯವಿದೆ.</string>
   <!-- deleting -->
   <!-- pref -->
   <!-- Apply install and update strings -->

@@ -25,7 +25,14 @@
   <string name="mokee_website_title">MoKee Veb Saytı</string>
   <string name="mokee_website_summary">Rəsmi veb saytını ziyarət et</string>
   <string name="mokee_forum_title">MoKee Formu</string>
+  <string name="mokee_changelog_title">MoKee Dəyişiklik qeydi</string>
+  <string name="mokee_changelog_summary">Günlük dəyişiklik qeydinə bax</string>
+  <string name="mokee_translate_title">MoKee Tərcümə</string>
+  <string name="mokee_translate_summary">MoKee-nin tərcüməsinə kömək et</string>
   <!-- Base Info -->
+  <string name="mokee_version_info_title">Versiya Məlumat</string>
+  <string name="mokee_version_title">MoKee versiyası</string>
+  <string name="mokee_donate_info_title">İanə Məlumatı</string>
   <string name="mokee_last_check_never">Heç vaxt</string>
   <!-- Version -->
   <string name="mokee_info_default">Bilinməyən</string>
@@ -48,8 +55,14 @@
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_restore">Bərpa et</string>
   <string name="donate_money_toast_success">İanəniz üçün təşəkkürlər!</string>
+  <string name="donate_money_again">Yenidən ianə ver</string>
+  <string name="donate_money_restored_success">Uğurla bərpa edildi!</string>
+  <string name="donate_money_info_null">İanə verməmisiniz</string>
   <!-- Update -->
   <string name="unknown">Bilinməyən</string>
+  <string name="dialog_update">Yenilə</string>
+  <string name="new_update_summary">Yeni</string>
+  <string name="old_update_summary">Köhnə</string>
   <string name="alert_title">Diqqət</string>
   <string name="update_type_title">Yeniləmə növü</string>
   <!-- ChangeLog -->
@@ -62,15 +75,23 @@
   <string name="check_twice_weekly">Həftədə iki dəfə</string>
   <string name="check_weekly">Həftədə bir dəfə</string>
   <!-- checking -->
+  <string name="checking_for_updates">Yeniləmələri yoxla</string>
+  <string name="no_updates_found">Yeniləmə tapılmadı</string>
+  <string name="not_new_updates_found_ticker">Yeniləmə mövcuddur</string>
+  <string name="not_new_updates_found_title">Ən son yeniləmələr</string>
   <string name="not_action_download">Endir</string>
   <string name="data_connection_required">Verilənlər bağlantısı lazımdır.</string>
   <!-- Downloads -->
   <string name="confirm_download_cancelation_dialog_title">Endirmədən imtina et</string>
   <string name="confirm_download_cancelation_dialog_message">Davam edən endirmədən imtina edirsiz?</string>
   <string name="download_running">Davam edir</string>
+  <string name="not_action_install_update">Yenidən başlat və quraşdır</string>
   <!-- deleting -->
+  <string name="delete_updates_nofolder_message">Yeniləmə qovluğu tapılmadı</string>
+  <string name="delete_updates_success_message">Endirilən bütün yeniləmələr silindi</string>
   <!-- pref -->
   <!-- Apply install and update strings -->
+  <string name="apply_update_dialog_title">Yeniləməni tətbiq et</string>
   <!-- experimenter mode -->
   <!-- Discount -->
   <string name="verify_system_compatible_title">MoKee sistem təzələməsi</string>
