@@ -54,18 +54,43 @@
   <string name="available_updates_title">ಲಭ್ಯವಿರುವ ನವೀಕರಣಗಳು</string>
   <!-- Menu -->
   <string name="menu_donate">ಕಾಣಿಕೆ</string>
+  <string name="menu_refresh">ಹೊಸತಾಗಿಸಿ</string>
   <string name="menu_delete_all">ಡೌನ್‍ಲೋಡ್‍ಗಳನ್ನು ಅಳಿಸಿ</string>
   <!-- Donate -->
   <string name="donate_dialog_title">ನಮಗೆ ಕಾಣಿಕೆ ನೀಡಿ</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_restore">ಮರುಸಂಗ್ರಹಿಸಿ</string>
+  <string name="donate_money_toast_success">ನಿಮ್ಮ ಕಾಣಿಕೆಗೆ ಧನ್ಯವಾದಗಳು!</string>
+  <string name="donate_money_again">ಮತ್ತೆ ಕಾಣಿಕೆ ನೀಡಿ</string>
+  <string name="donate_money_restored_success">ಯಶಸ್ವಿಯಾಗಿ ಮರುಸಂಗ್ರಹಿಸಲಾಗಿದೆ!</string>
+  <string name="donate_money_restored_failed">ಸಾಧನದ ಯಾವುದೇ ದಾಖಲೆಗಳು ಕಂಡುಬಂದಿಲ್ಲ.</string>
+  <string name="donate_money_restored_timeout">ಸಂಪರ್ಕದ ಸಮಯವು ಮೀರಿದೆ, ದಯವಿಟ್ಟು ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ</string>
+  <string name="donate_money_info_null">ನೀವು ಕಾಣಿಕೆ ನೀಡಿಲ್ಲ</string>
   <!-- Update -->
   <string name="unknown">ಅಪರಿಚಿತ</string>
+  <string name="dialog_update">ನವೀಕರಿಸಿ</string>
+  <string name="dialog_install">ಅಳವಡಿಸಿ</string>
+  <string name="dialog_ok">ಸರಿ</string>
   <string name="dialog_cancel">ರದ್ದು</string>
   <string name="dialog_close">ಮುಚ್ಚಿ</string>
+  <string name="new_update_summary">ನೂತನ</string>
+  <string name="old_update_summary">ಪುರಾತನ</string>
+  <string name="update_check_title">ಆಗಾಗ ನವೀಕರಣ ಪರಿಶೀಲಿಸಿ</string>
+  <string name="check_manual">ಹಸ್ತಚಾಲಿತ</string>
+  <string name="alert_title">ಎಚ್ಚರಿಕೆ</string>
+  <string name="update_type_title">ನವೀಕರಣ ಮಾದರಿ</string>
   <!-- ChangeLog -->
+  <string name="loading_changelog">ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ\u2026</string>
+  <string name="check_on_boot">ಪ್ರತಿ ಮರುಪ್ರಾರಂಭಕ್ಕೆ</string>
+  <string name="check_twice_daily">ಪ್ರತಿದಿನ ಎರಡು ಸಲ</string>
+  <string name="check_daily">ಪ್ರತಿದಿನ ಒಂದು ಸಲ</string>
+  <string name="check_twice_weekly">ಪ್ರತಿವಾರಕ್ಕೆ ಎರಡು ಸಲ</string>
+  <string name="check_weekly">ಪ್ರತಿವಾರಕ್ಕೊಮ್ಮೆ</string>
+  <string name="check_bi_weekly">ಪ್ರತಿ ಹದಿನೈದು ದಿನಕ್ಕೊಮ್ಮೆ</string>
+  <string name="check_monthly">ಪ್ರತಿ ತಿಂಗಳಿಗೊಮ್ಮೆ</string>
   <!-- checking -->
+  <string name="checking_for_updates">ನವೀಕರಣಗಳಿಗಾಗಿ ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ</string>
   <string name="no_updates_found">ಯಾವುದೇ ಹೊಸ ನವೀಕರಣೆಗಳು ಕಂಡುಬಂದಿಲ್ಲ</string>
   <string name="not_new_updates_found_ticker">ಹೊಸ ನವೀಕರಣೆಗಳು ಲಭ್ಯವಿವೆ</string>
   <string name="not_new_updates_found_title">ಹೊಸ ನವೀಕರಣೆಗಳು</string>
@@ -84,6 +109,7 @@
   <string name="not_download_failure">ನವೀಕರಣೆ ಡೌನ್‍ಲೋಡ್ ವಿಫಲಗೊಂಡಿದೆ</string>
   <string name="not_action_install_update">ಮರುಪ್ರಾರಂಭಿಸಿ ಮತ್ತು ಅಳವಡಿಸಿ</string>
   <string name="not_download_install_notice">ನವೀಕರಣ <xliff:g id="ದಾಖಲೆ ಹೆಸರು">%s</xliff:g> ಯಶಸ್ವಿಯಾಗಿ ಡೌನ್‍ಲೋಡ್ ಆಗಿದೆ. \'ಮರುಪ್ರಾರಂಭಿಸಿ ಮತ್ತು ಅಳವಡಿಸಿ\' ಸ್ಪರ್ಶಿಸಿದಾಗ, ಸಾಧನವು ನವೀಕರಣಗಳನ್ನು ಅಳವಡಿಸಲು ಸ್ವತ: ಮರುಪ್ರಾರಂಭಗೊಳ್ಳುತ್ತದೆ.\n\nಗಮನಿಸಿ: ಈ ವೈಶಿಷ್ಟ್ಯಕ್ಕೆ ಹೊಂದಿಕೊಳ್ಳುವ ಪುನ:ಸಂಪಾದನೆಯ ಅಥವಾ ದೈಹಿಕವಾಗಿ ನವೀಕರಣಗಳನ್ನು ಅಳವಡಿಸುವ ಅಗತ್ಯವಿದೆ.</string>
+  <string name="not_apk_action_install_update">ಅಳವಡಿಸಿ</string>
   <!-- deleting -->
   <!-- pref -->
   <!-- Apply install and update strings -->
