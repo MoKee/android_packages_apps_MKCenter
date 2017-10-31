@@ -19,19 +19,93 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Fragment -->
   <string name="mokee_support_title">Suporta</string>
+  <string name="mokee_updater_title">Pang-update</string>
   <!-- WebSite -->
+  <string name="mokee_website_title">Website ng MoKee</string>
+  <string name="mokee_website_summary">Bisitahin ang opisyal na website</string>
+  <string name="mokee_forum_title">Forum ng MoKee</string>
+  <string name="mokee_forum_summary">Bisitahin ang Forum ng MoKee</string>
+  <string name="mokee_issues_title">Panghanap ng Bug sa MoKee</string>
+  <string name="mokee_issues_summary">Tignan ang mga panghanap ng bug</string>
+  <string name="mokee_changelog_title">Listahan ng mga Nabago sa MoKee</string>
+  <string name="mokee_changelog_summary">Tignan ang arawang listahan ng pagbabago</string>
+  <string name="mokee_github_title">MoKee sa Github</string>
+  <string name="mokee_github_summary">Bisitahin ang MoKee sa Github</string>
+  <string name="mokee_translate_title">Pagsasalin ng MoKee</string>
+  <string name="mokee_translate_summary">Tumulong sa pagsasalin ng MoKee</string>
+  <string name="mokee_wiki_title">Wiki ng MoKee</string>
+  <string name="mokee_wiki_summary">Tignan ang Wiki ng MoKee</string>
+  <string name="mokee_news_title">Mga Balita sa Mokee</string>
+  <string name="mokee_news_summary">Tumanggap ng mga balitang pag-unlad mula sa MoKee</string>
   <!-- Base Info -->
+  <string name="mokee_version_info_title">Impormasyon para sa Bersyon</string>
+  <string name="mokee_version_title">Bersyon ng MoKee</string>
+  <string name="mokee_unique_id_title">Natatanging ID</string>
+  <string name="mokee_last_check_title">Huling Natignan</string>
+  <string name="mokee_last_check_never">Hindi kailanman</string>
   <!-- Version -->
+  <string name="mokee_info_default">Hindi alam</string>
+  <string name="mokee_version_type_release">Pagkakawalan</string>
+  <string name="mokee_version_type_history">Kasaysayan</string>
+  <string name="mokee_version_type_experimental">Eksperimental</string>
+  <string name="mokee_version_type_nightly">Gabi-gabi</string>
+  <string name="mokee_version_type_unofficial">Hindi opisyal</string>
+  <string name="mokee_version_type_all">Lahat</string>
   <!-- State -->
+  <string name="downloaded_update_summary">Nai-download</string>
+  <string name="installed_update_summary">Naka-install</string>
+  <string name="available_updates_title">Magagamit na mga update</string>
   <!-- Menu -->
+  <string name="menu_donate">Mag-donate</string>
+  <string name="menu_refresh">I-refresh</string>
+  <string name="menu_delete_all">Burahin ang download</string>
   <!-- Donate -->
+  <string name="donate_dialog_title">Magbigay ng donasyon sa amin</string>
+  <string name="donate_dialog_via_paypal">PayPal</string>
+  <string name="donate_dialog_via_alipay">AliPay</string>
+  <string name="donate_dialog_via_restore">Pgsasabalik</string>
+  <string name="donate_money_toast_success">Salamat sa inyong donasyon!</string>
+  <string name="donate_money_again">Magbigay muli ng donasyon</string>
+  <string name="donate_money_restored_success">Matagumpay na naibalik!</string>
+  <string name="donate_money_restored_failed">Walang tala ng gamit na device.</string>
+  <string name="donate_money_restored_timeout">Naputol ang koneksyon, pakisubukan muli</string>
+  <string name="donate_money_info_null">Hindi ka pa nakapagbigay</string>
   <!-- Update -->
+  <string name="unknown">Hindi alam</string>
+  <string name="dialog_update">I-update</string>
+  <string name="dialog_install">Mag-install</string>
+  <string name="dialog_ok">OK</string>
+  <string name="dialog_cancel">Kanselahin</string>
+  <string name="dialog_close">Isara</string>
+  <string name="new_update_summary">Bago</string>
+  <string name="old_update_summary">Luma</string>
+  <string name="check_manual">Mano-mano</string>
   <!-- ChangeLog -->
+  <string name="check_on_boot">Sa bawat muling pagbukas</string>
+  <string name="check_twice_daily">Dalawang beses bawat araw</string>
+  <string name="check_daily">Isang beses sa bawat araw</string>
+  <string name="check_twice_weekly">Dalawang beses kada linggo</string>
+  <string name="check_weekly">Isang beses sa bawat linggo</string>
+  <string name="check_bi_weekly">Isang beses bawat labing-apat na araw</string>
+  <string name="check_monthly">Isang beses sa bawat buwan</string>
   <!-- checking -->
+  <string name="checking_for_updates">Naghahanap ng mga update</string>
   <!-- Downloads -->
+  <string name="download_already_running">Mayroon nang dinadownload</string>
+  <string name="unable_to_download_file">Hindi makapag-download ng mga file na pang-update</string>
+  <string name="not_download_success">Ang download ng update ay matagumpay</string>
+  <string name="not_download_failure">Ang download ng update ay hindi matagumpay</string>
+  <string name="not_action_install_update">Muling buksan at i-install</string>
+  <string name="not_apk_action_install_update">Mag-install</string>
   <!-- deleting -->
+  <string name="confirm_delete_dialog_title">Burahin ang file</string>
+  <string name="confirm_delete_updates_all_dialog_message">I-delete ang lahat ng mga file ng na-download na pang-update?</string>
+  <string name="delete_updates_failure_message">Nagkaroon ng error sa pag-delete ng file na pang-update</string>
+  <string name="delete_updates_nofolder_message">Ang folder na pang-update hindi natagpuan</string>
   <!-- pref -->
   <!-- Apply install and update strings -->
+  <string name="apply_update_dialog_title">I-apply ang update</string>
   <!-- experimenter mode -->
   <!-- Discount -->
+  <string name="verify_system_compatible_root_skip">Laktawan</string>
 </resources>
