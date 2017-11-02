@@ -20,6 +20,8 @@ package com.mokee.center.widget;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.res.TypedArray;
+import android.graphics.Color;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceViewHolder;
 import android.text.TextUtils;
@@ -226,6 +228,9 @@ public class ItemPreference extends Preference implements
             }
 
             // Set the title text
+            TypedArray typedArray = getContext().getTheme().obtainStyledAttributes(
+                    new int[] {android.R.attr.textColorSecondary});
+            mSummaryText.setTextColor(typedArray.getColor(0, 0));
             if (mItemInfo.getFileName().startsWith("OTA")) {
                 mTitleText.setText(mItemInfo.getFileName());
                 long diffSize = Long.valueOf(mItemInfo.getDescription());
@@ -243,6 +248,7 @@ public class ItemPreference extends Preference implements
                     if (diffSize > 0 ) {
                         mSummaryText.setText(getContext().getString(R.string.ota_diff_update_summary,
                                 Formatter.formatFileSize(getContext(), diffSize)));
+                        mSummaryText.setTextColor(Color.RED);
                     } else {
                         mSummaryText.setText(R.string.new_update_summary);
                     }
