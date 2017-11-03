@@ -74,7 +74,6 @@
   <string name="donate_money_again">再捐一点</string>
   <string name="donate_money_restored_success">授权文件已成功恢复！</string>
   <string name="donate_money_restored_failed">没有找到这台设备的捐赠记录。</string>
-  <string name="donate_money_restored_failed_solution">解决方案</string>
   <string name="donate_money_restored_timeout">网络连接超时，请再试一次。</string>
   <string name="donate_money_info">您捐赠了 %1$d 元，打败了全球 %2$s 的用户！</string>
   <string name="donate_money_info_with_rank">您捐赠了 %1$d 元，打败了全球 %2$s 的用户，排名第 %3$d！</string>
