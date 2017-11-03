@@ -84,6 +84,7 @@
     <string name="donate_money_again">Donate again</string>
     <string name="donate_money_restored_success">Restored successfully!</string>
     <string name="donate_money_restored_failed">No device record found.</string>
+    <string name="donate_money_restored_failed_solution">Solution</string>
     <string name="donate_money_restored_timeout">Connection timed out, please try again</string>
     <string name="donate_money_info">You donated a total of %1$d CNY, more than %2$s of donors globally!</string>
     <string name="donate_money_info_with_rank">You donated a total of %1$d CNY, more than %2$s of donors globally, rank No.%3$d!</string>
