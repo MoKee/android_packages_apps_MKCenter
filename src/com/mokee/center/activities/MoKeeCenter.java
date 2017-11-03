@@ -22,6 +22,7 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.os.SystemProperties;
 import android.os.UserHandle;
@@ -207,7 +208,14 @@ public class MoKeeCenter extends AppCompatActivity {
                 RequestUtils.getRanking(this);
                 break;
             case 500:
-                makeSnackbar(R.string.donate_money_restored_failed).show();
+                makeSnackbar(R.string.donate_money_restored_failed).setAction(R.string.donate_money_restored_failed_solution, new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Uri uri = Uri.parse("https://bbs.mokeedev.com/t/topic/577");
+                        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                        startActivity(intent);
+                    }
+                }).show();
                 break;
             case 408:
                 makeSnackbar(R.string.donate_money_restored_timeout).show();
