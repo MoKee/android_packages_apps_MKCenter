@@ -29,6 +29,7 @@
   <string name="mokee_issues_title">MoKee Bug Tracker</string>
   <string name="mokee_issues_summary">Visit the bug tracker</string>
   <string name="mokee_changelog_title">MoKee Changelog</string>
+  <string name="mokee_changelog_summary">View daily changelog</string>
   <string name="mokee_github_title">MoKee Github</string>
   <string name="mokee_github_summary">Visit the MoKee Github</string>
   <string name="mokee_translate_title">MoKee Translate</string>
@@ -90,6 +91,8 @@
   <string name="update_check_failed">The update check failed. Please check your internet connection and try again later.</string>
   <string name="not_action_download">Download</string>
   <!-- Downloads -->
+  <string name="not_download_install_ota_notice">The update <xliff:g id="filename">%s</xliff:g> was successfully downloaded. When touching \'Reboot and install\', the device will restart itself to install the update.\n\nNote: This feature requires a compatible Recovery else updates will need to be installed manually.\n\nThis is an incremental update, therefore any changes made to system files might cause the update to fail. If this happens, please flash a full ROM instead.</string>
+  <string name="md5_verification_failed">MD5 checksum mismatch</string>
   <string name="not_apk_action_install_update">Install</string>
   <!-- deleting -->
   <string name="delete_single_update_success_message">Update <xliff:g id="filename">%s</xliff:g> deleted</string>

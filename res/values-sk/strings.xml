@@ -74,6 +74,7 @@
   <string name="donate_money_again">Prispejte znovu</string>
   <string name="donate_money_restored_success">Úspešne obnovené!</string>
   <string name="donate_money_restored_failed">Nebol nájdený žiadny záznam o zariadení.</string>
+  <string name="donate_money_restored_failed_solution">Riešenie</string>
   <string name="donate_money_restored_timeout">Časový limit pripojenia vypršal, zkúste to prosím znovu</string>
   <string name="donate_money_info">Celkom darované %1$d CNY, viac než %2$s darcov!</string>
   <string name="donate_money_info_with_rank">Darovali ste  celkom CNY %1$d, viac než %2$s darcov celkom, hodnotenie No.%3$d!</string>

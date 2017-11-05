@@ -74,6 +74,7 @@
   <string name="donate_money_again">再次捐贈</string>
   <string name="donate_money_restored_success">恢復成功 ！</string>
   <string name="donate_money_restored_failed">沒有找到設備記錄。</string>
+  <string name="donate_money_restored_failed_solution">解決方案</string>
   <string name="donate_money_restored_timeout">連接逾時，請重試</string>
   <string name="donate_money_info">你共捐贈了￥ %1$d 元，已超過全球 %2$s 的捐助者！</string>
   <string name="donate_money_info_with_rank">你共捐贈了￥ %1$d 元，已超過全球 %2$s 的捐助者，排名 No.%3$d ！</string>
