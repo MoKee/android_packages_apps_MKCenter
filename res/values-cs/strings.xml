@@ -74,6 +74,7 @@
   <string name="donate_money_again">Darovat znovu</string>
   <string name="donate_money_restored_success">Úspěšně obnoveno!</string>
   <string name="donate_money_restored_failed">Žádný záznam zařízení nenalezen.</string>
+  <string name="donate_money_restored_failed_solution">Řešení</string>
   <string name="donate_money_restored_timeout">Připojení vypršelo, zkuste to prosím znovu</string>
   <string name="donate_money_info">Celkem darováno %1$d CNY, více než %2$s dárců!</string>
   <string name="donate_money_info_with_rank">Daroval celkem CNY %1$d, více než %2$s dárců celkem, hodnost No.%3$d!</string>
