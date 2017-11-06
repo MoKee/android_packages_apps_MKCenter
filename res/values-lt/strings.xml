@@ -82,9 +82,12 @@
   <string name="not_apk_action_install_update">Įrašyti</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Ištrinti failą</string>
-  <!-- pref -->
+  <!-- Pref -->
   <!-- Apply install and update strings -->
-  <!-- experimenter mode -->
+  <!-- Experimenter mode -->
   <!-- Discount -->
+  <!-- Verify system compatible -->
   <string name="verify_system_compatible_root_skip">Praleisti</string>
+  <!-- Common -->
+  <string name="activity_not_found">Programa neįdiegta.</string>
 </resources>

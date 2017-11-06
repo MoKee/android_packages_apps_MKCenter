@@ -139,7 +139,7 @@
   <string name="delete_updates_failure_message">حدث خطأ أثناء حذف ملف التحديث</string>
   <string name="delete_updates_nofolder_message">لم يتم العثور على مجلد التحديث</string>
   <string name="delete_updates_success_message">تم حذف كل التحديثات المنزلة</string>
-  <!-- pref -->
+  <!-- Pref -->
   <string name="pref_ota_check">تحديثات عن طريق الهواء OTA</string>
   <string name="pref_ota_check_summary">الحصول على التحديثات التزايدية لحفظ وقت التحميل وعرض حجم البيانات</string>
   <string name="pref_ota_check_donation_request_summary">الحصول على التحديثات التزايدية لحفظ وقت التحميل والبيانات (متاح بعد التبرع CNY %d)</string>
@@ -150,10 +150,13 @@
         \nملاحظة: هذه الميزة تتطلب ريكوفري متوافق، وإلا ستحتاج لتثبيت التحديثات يدوياً.</string>
   <string name="apply_update_ota_dialog_text">أنت على وشك الترقية إلى <xliff:g id="filename">%s </xliff:g>. \n\nIf تضغط Update، الجهاز سيقوم بإعادة تشغيل نفسها في وضع الاسترداد تثبيت update.\n\nNote: تتطلب هذه الميزة ريكفري متوافقة أو التحديثات سوف تحتاج إلى تثبيت يدوي manually.\n\n ثم أية تغييرات يتم إجراؤها على نظام الملفات قد يتسبب فشل التحديث. إذا حدث هذا، الرجاء فلاش الروم كامل.</string>
   <string name="apply_unable_to_reboot_toast">غير قادر على إعادة التسغيل إلى وضع الريكفري</string>
-  <!-- experimenter mode -->
+  <!-- Experimenter mode -->
   <string name="show_exp_on">لقد قمت بتفعيل الإعدادات الاختبارية!</string>
   <string name="show_exp_already">لا داعي، لقد قمت بالفعل بتفعيل الإعدادات الاختبارية.</string>
   <!-- Discount -->
+  <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">تحديث نظام موكي</string>
   <string name="verify_system_compatible_root_skip">تخطي</string>
+  <!-- Common -->
+  <string name="activity_not_found">لم يتم تثبيت التطبيق.</string>
 </resources>

@@ -68,12 +68,14 @@
   <string name="donate_dialog_message">Diferentemente de projetos como Cygn ou MIUI, o MoKee OpenSource é um projeto puramente sem fins lucrativos nascido do hobby e da paixão. Para mantermos este projeto, tivemos que pôr nosso próprio dinheiro na maior parte do tempo ou depender de doações e anúncios. Suas doações podem ajudar a reduzir nossa carga financeira e sustentar o desenvolvimento futuro! Essa opção permite à você remover os anúncios da MoKee Center, ou use a opção \"Doar\" se preferir parcelar (anúncios serão removidos uma vez que se atinja o valor especificado). Por favor, faça uma cópia de segurança do arquivo mokee.license (na raiz da pasta sdcard, válido apenas ao dispositivo atual) uma vez feita a doação.</string>
   <string name="donate_dialog_via_paypal">Paypal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
+  <string name="donate_dialog_via_wechat">WeChat</string>
   <string name="donate_dialog_via_restore">Restaurar</string>
   <string name="donate_money_toast_success">Obrigado por sua doação!</string>
   <string name="donate_money_title">Doar para MoKee Open Source</string>
   <string name="donate_money_again">Doar novamente</string>
   <string name="donate_money_restored_success">Restauração Concluída!</string>
   <string name="donate_money_restored_failed">Sem registros de dispositivo.</string>
+  <string name="donate_money_restored_failed_solution">Solução</string>
   <string name="donate_money_restored_timeout">Conexão Expirou, por favor tente novamente</string>
   <string name="donate_money_info">Você doou um total de CNY %1$d, mais do que %2$s de doadores globalmente!</string>
   <string name="donate_money_info_with_rank">Você doou um total de CNY %1$d, mais do que %2$s de doadores globalmente, rank No.%3$d!</string>
@@ -145,7 +147,7 @@
   <string name="delete_updates_failure_message">Houve um erro ao excluir o arquivo de atualização</string>
   <string name="delete_updates_nofolder_message">Pasta de atualização não encontrada</string>
   <string name="delete_updates_success_message">Todas as atualizações baixadas foram excluídas</string>
-  <!-- pref -->
+  <!-- Pref -->
   <string name="pref_ota_check">Atualizações incrementais</string>
   <string name="pref_ota_check_summary">Obter atualizações incrementais para poupar tempo de download e largura de banda</string>
   <string name="pref_ota_check_donation_request_summary">Obter atualizações incrementais para poupar tempo de download e largura de banda (disponível após doação de %d CNY)</string>
@@ -159,7 +161,7 @@
   <string name="apply_update_dialog_text">Você irá atualizar para o <xliff:g id="filename">%s</xliff:g>.\n\nSe você pressionar Atualizar, o dispositivo irá reiniciar em recovery mode para instalar a atualização.\n\nAviso: Esse recurso requer uma recovery compatível ou a atualização deverá ser instalada manualmente.</string>
   <string name="apply_update_ota_dialog_text">Você irá atualizar para o <xliff:g id="filename">%s</xliff:g>.\n\nSe você pressionar Atualizar, o dispositivo irá reiniciar em recovery mode para instalar a atualização.\n\nAviso: Esse recurso requer uma recovery compatível ou a atualização deverá ser instalada manualmente.\n\nEssa é uma atualização incremental, no entanto qualquer mudança feita nos arquivos de sistema pode ocasionar em uma falha na atualização. Se isso acontecer, instale uma versão completa da ROM.</string>
   <string name="apply_unable_to_reboot_toast">Não foi possível reiniciar em recovery mode</string>
-  <!-- experimenter mode -->
+  <!-- Experimenter mode -->
   <string name="show_exp_on">Você habilitou as configurações experimentais!</string>
   <string name="show_exp_already">Não precisa, você já habilitou as configurações experimentais.</string>
   <!-- Discount -->
@@ -167,6 +169,7 @@
   <string name="discount_dialog_message">Obrigado pelo seu apoio contínuo ao MoKee Open Source. Como um símbolo de apreciação, você tem direito a uma oferta de tempo limitado. Com %1$d CNY, você pode desfrutar de atualizações incrementais, atualizações verificadas e remover anúncios do MoKee Center (salvar %2$d CNY). Se pretender pagar mais tarde, pode fechar esta caixa de diálogo e relançar o MoKee Center novamente quando estiver pronto.</string>
   <string name="discount_dialog_expires">A oferta expira em %s</string>
   <string name="discount_dialog_cancel">Não lembrar</string>
+  <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">Atualização de sistema da Mokee</string>
   <string name="verify_system_compatible_message">Verificar a compatibilidade do sistema antes de patchear\u2026</string>
   <string name="verify_system_compatible_failed">Verifição de compatibilidade do sistema falhou</string>
@@ -174,4 +177,6 @@
   <string name="verify_system_compatible_img">%1$s incompatível, por favor, atualize para a versão %2$s</string>
   <string name="verify_system_compatible_root_request">Permissão de root é exigida para atualizar o Plugin de verificação de modo a verificar a compatibilidade de atualização. Se você optar por ignorar, esta etapa será adiada e executada no modo de recuperação.</string>
   <string name="verify_system_compatible_root_skip">Pular</string>
+  <!-- Common -->
+  <string name="activity_not_found">O app não está instalado.</string>
 </resources>

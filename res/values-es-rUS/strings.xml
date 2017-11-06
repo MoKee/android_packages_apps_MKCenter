@@ -145,7 +145,7 @@
   <string name="delete_updates_failure_message">Error al eliminar el archivo de actualización</string>
   <string name="delete_updates_nofolder_message">Carpeta de actualizaciones no encontrada</string>
   <string name="delete_updates_success_message">Todas las actualizaciones fueron borradas</string>
-  <!-- pref -->
+  <!-- Pref -->
   <string name="pref_ota_check">Actualizaciones Incrementales</string>
   <string name="pref_ota_check_summary">Obtener actualizaciones incrementales para ahorrar ancho de banda y tiempo de descarga</string>
   <string name="pref_ota_check_donation_request_summary">Obtener actualizaciones incrementales para ahorrar tiempo de descarga y ancho de banda (disponible después de donar %d CNY)</string>
@@ -159,7 +159,7 @@
   <string name="apply_update_dialog_text">Se actualizará a la versión <xliff:g id="filename">%s</xliff:g>.\n\nPulsando sobre \u00ABActualizar\u00BB, el dispositivo se reiniciará para instalar la actualización.\n\nAviso: Será necesario disponer de un recovery compatible o las actualizaciones deberán ser instaladas manualmente.</string>
   <string name="apply_update_ota_dialog_text">Va a actualizar a <xliff:g id="filename">%s </xliff:g>. \n\nSi pulsa actualizar, el dispositivo se reiniciará en modo recovery para instalar la actualización.\n\nNota: esta función requiere un recovery compatible o las actualizaciones tendrán que instalarse manualmente.\n\nEsta es una actualización incremental, por lo tanto los cambios realizados en los archivos del sistema pueden hacer que la actualización falle. Si esto sucede, instale una ROM completa.</string>
   <string name="apply_unable_to_reboot_toast">Imposible reiniciar en modo recovery</string>
-  <!-- experimenter mode -->
+  <!-- Experimenter mode -->
   <string name="show_exp_on">¡Ha activado las configuraciónes experimentales!</string>
   <string name="show_exp_already">No es necesario, ya ha activado las opciones de configuración experimental.</string>
   <!-- Discount -->
@@ -167,6 +167,7 @@
   <string name="discount_dialog_message">Gracias por tu apoyo continuo hacia MoKee Open Source. Como muestra de agradecimiento, tienes derecho a una oferta de tiempo limitado. Con %1$d CNY, podrás disfrutar de actualizaciones incrementales, verificar actualizaciones y quitar los anuncios del centro MoKee (ahorre %2$d CNY). Si deseas pagar más adelante, puedes cerrar este cuadro de diálogo y reabrir el centro MoKee otra vez cuando estés listo.</string>
   <string name="discount_dialog_expires">La oferta caduca en %s</string>
   <string name="discount_dialog_cancel">No recordar</string>
+  <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">Actualización del sistema MoKee</string>
   <string name="verify_system_compatible_message">Verificando compatibilidad del sistema antes de parchear\u2026</string>
   <string name="verify_system_compatible_failed">No se pudo verificar la compatibilidad del sistema</string>
@@ -174,4 +175,6 @@
   <string name="verify_system_compatible_img">%1$s es incompatible, actualiza a la versión %2$s</string>
   <string name="verify_system_compatible_root_request">Permiso de superusuario es requerido por el Plugin de comprobación de actualización para verificar la compatibilidad de actualización ahora. Si decides saltar, este paso se retrasa y será realizado en el modo recovery.</string>
   <string name="verify_system_compatible_root_skip">Saltar</string>
+  <!-- Common -->
+  <string name="activity_not_found">No se instaló la aplicación.</string>
 </resources>

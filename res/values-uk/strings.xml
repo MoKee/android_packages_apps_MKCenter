@@ -145,7 +145,7 @@
   <string name="delete_updates_failure_message">Виникла помилка при видаленні файлу оновлення</string>
   <string name="delete_updates_nofolder_message">Каталог з оновленнями не знайдено</string>
   <string name="delete_updates_success_message">Всі завантажені оновлення видалені</string>
-  <!-- pref -->
+  <!-- Pref -->
   <string name="pref_ota_check">OTA оновлення</string>
   <string name="pref_ota_check_summary">ОТА оновлення для заощадження часу завантаження та трафіку</string>
   <string name="pref_ota_check_donation_request_summary">ОТА оновлення для заощадження часу завантаження та трафіку(доступні після пожертвування CNY %d)</string>
@@ -159,7 +159,7 @@
   <string name="apply_update_dialog_text">Ви збираєтесь оновитися до <xliff:g id="filename">%s</xliff:g>.\n\nКоли ви натиснете кнопку \"Оновити\", пристрій перезавантажиться в режим \"Recovery\" для встановлення оновлення.\n\nЗауважте, що ця функція вимагає сумісний режим Recovery, інакше оновлення доведеться встановити вручну.</string>
   <string name="apply_update_ota_dialog_text">Ви хочете виконати оновлення до <xliff:g id="filename">%s</xliff:g>.\n\n Якщо ви натиснете \"Оновлення\", ваш пристрій будет перезавантажений в режим Recovery, для встановлення оновлення.\n\n Примітка: Для цього необхідно встановлене сумісне Recovery, або оновлення буде необхідно встановлювати вручну.\n\n Це ОТА оновлення, тому будь-які зміни, внесені до системних файлів можуть призвести до збою при встановленні оновлення. Якщо це сталося, будь-ласка, встановіть ROM не як OTA оновлення.</string>
   <string name="apply_unable_to_reboot_toast">Неможливо перезавантажитись у Recovery</string>
-  <!-- experimenter mode -->
+  <!-- Experimenter mode -->
   <string name="show_exp_on">Експериментальні налаштування активовано!</string>
   <string name="show_exp_already">Немає необхідності, експериментальні налаштування вже активовані.</string>
   <!-- Discount -->
@@ -167,6 +167,7 @@
   <string name="discount_dialog_message">Дякуємо вам за довгу підтримку проекту MoKee Open Source. Ми дуже вдячні вам, тому запускаємо тимчасову пропозицію. За %1$d юань ви можете встановити додаткові оновлення, оновлення, підтверджені спільнотою, а також прибрати рекламу з програми (зі знижкою %2$d юань). Закрийте вікно і перезапустіть програму, якщо хочете заплатити пізніше.</string>
   <string name="discount_dialog_expires">Пропозиція закінчиться через %s</string>
   <string name="discount_dialog_cancel">Не нагадувати</string>
+  <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">Оновлення програмного забезпечення MoKee</string>
   <string name="verify_system_compatible_message">Перевірка сумісності системи перед patching\u2026</string>
   <string name="verify_system_compatible_failed">Перевірка сумісності системи не вдалася</string>
@@ -174,4 +175,6 @@
   <string name="verify_system_compatible_img">Несумісні %1$s, будь ласка, оновіться до версії %2$s</string>
   <string name="verify_system_compatible_root_request">Кореневий доступ необхідний для плагіна перевірки оновлень, щоб перевірити сумісність оновлення зараз. Якщо ви вирішили пропустити цей крок,  він буде відкладений і виконаний в режимі відновлення.</string>
   <string name="verify_system_compatible_root_skip">Пропустити</string>
+  <!-- Common -->
+  <string name="activity_not_found">Додаток видалено.</string>
 </resources>

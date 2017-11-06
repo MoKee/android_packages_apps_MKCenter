@@ -74,8 +74,11 @@
   <string name="not_download_success">به روز رسانی با موفقیت انجام شد</string>
   <string name="not_download_failure">دانلود به روز رسانی ناموفق بود</string>
   <!-- deleting -->
-  <!-- pref -->
+  <!-- Pref -->
   <!-- Apply install and update strings -->
-  <!-- experimenter mode -->
+  <!-- Experimenter mode -->
   <!-- Discount -->
+  <!-- Verify system compatible -->
+  <!-- Common -->
+  <string name="activity_not_found">برنامه نصب نشده است.</string>
 </resources>

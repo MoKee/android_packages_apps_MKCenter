@@ -145,7 +145,7 @@
   <string name="delete_updates_failure_message">Произошла ошибка при удалении файла обновлений</string>
   <string name="delete_updates_nofolder_message">Каталог с обновлениями не найден</string>
   <string name="delete_updates_success_message">Все загруженные обновления удалены</string>
-  <!-- pref -->
+  <!-- Pref -->
   <string name="pref_ota_check">OTA обновления</string>
   <string name="pref_ota_check_summary">Инкрементные обновления для экономии места и трафика</string>
   <string name="pref_ota_check_donation_request_summary">Инкрементные обновления для экономии места и трафика (доступно после пожертвования в CNY %d)</string>
@@ -159,7 +159,7 @@
   <string name="apply_update_dialog_text">Будет выполнено обновление до версии «<xliff:g id="filename">%s</xliff:g>».\n\nПри нажатии кнопки «Обновить» устройство перезагрузится в режим восстановления для установки этого обновления. \n\nПримечание: эта функция требует совместимого Recovery. В противном случае обновление будет необходимо установить вручную.</string>
   <string name="apply_update_ota_dialog_text">Будет выполнено обновление до версии «<xliff:g id="filename">%s</xliff:g>».\n\nПри нажатии кнопки «Обновить» устройство перезагрузится в режим восстановления для установки этого обновления. \n\nПримечание: эта функция требует совместимого Recovery. В противном случае обновление будет необходимо установить вручную.\n\nЭто инкрементное обновление, поэтому изменения в системных файлах могут привести к сбою установки обновления. В этом случае, установите полную версию Mokee.</string>
   <string name="apply_unable_to_reboot_toast">Невозможно перезагрузиться в режим Recovery</string>
-  <!-- experimenter mode -->
+  <!-- Experimenter mode -->
   <string name="show_exp_on">Вы включили экспериментальные параметры!</string>
   <string name="show_exp_already">Нет необходимости, экспериментальные параметры уже включены.</string>
   <!-- Discount -->
@@ -167,6 +167,7 @@
   <string name="discount_dialog_message">Благодарим вас за долгую поддержку проекта MoKee Open Source. Мы очень признательны вам, поэтому запускаем временное предложение. За %1$d юань вы можете установить дополнительные обновления, обновления, подтвержденные сообществом, а также убрать рекламу из приложения (со скидкой %2$d юань). Закройте окно и перезапустите приложение, если хотите заплатить позже.</string>
   <string name="discount_dialog_expires">Предложение закончится через %s</string>
   <string name="discount_dialog_cancel">Не напоминать</string>
+  <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">Обновление системы MoKee</string>
   <string name="verify_system_compatible_message">Проверка совместимости системы перед обновлением\u2026</string>
   <string name="verify_system_compatible_failed">Не удалось проверить совместимость системы</string>
@@ -174,4 +175,6 @@
   <string name="verify_system_compatible_img">Несовместимый %1$s, пожалуйста обновите до версии %2$s</string>
   <string name="verify_system_compatible_root_request">Требуется корневой доступ, чтобы обновить Плагин Проверки Совместимости обновлений. Если вы решите пропустить этот шаг, это действие будет выполнено в режиме Recovery.</string>
   <string name="verify_system_compatible_root_skip">Пропустить</string>
+  <!-- Common -->
+  <string name="activity_not_found">Приложение удалено</string>
 </resources>

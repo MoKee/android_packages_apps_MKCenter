@@ -145,7 +145,7 @@
   <string name="delete_updates_failure_message">Beim Löschen der Datei ist ein Fehler aufgetreten</string>
   <string name="delete_updates_nofolder_message">Updateverzeichnis nicht gefunden</string>
   <string name="delete_updates_success_message">Alle heruntergeladenen Updates wurden gelöscht</string>
-  <!-- pref -->
+  <!-- Pref -->
   <string name="pref_ota_check">Inkrementelle Updates</string>
   <string name="pref_ota_check_summary">Erhalte inkrementelle Updates, um Zeit zum Herunterladen und Datenvolumen zu sparen</string>
   <string name="pref_ota_check_donation_request_summary">Erhalte Inkrementelle Updates, um Zeit zum Herunterladen und Datenvolumen zu sparen (möglich nach spenden von CNY %d)</string>
@@ -159,7 +159,7 @@
   <string name="apply_update_dialog_text">Bereit zum Update auf <xliff:g id="filename">%s</xliff:g>.\n\nNach dem Start des Updates wird das Gerät ins Recovery booten, um das Update durchzuführen.\n\nHinweis: Diese Funktion erfordert ein kompatibles Recovery, andernfalls muss das Update manuell installiert werden.</string>
   <string name="apply_update_ota_dialog_text">Sie sind im Begriff, ein upgrade auszuführen auf <xliff:g id="filename">%s </xliff:g>. \n\nWenn Sie Update drücken, startet das Gerät selbst neu ins Recovery für die Installation.\n\nHinweis: diese Funktion erfordert ein kompatibles Recovery oder Updates müssen manuell installiert werden.\n\nDas ist ein inkrementelles Update, das Änderungen an Systemdateien beinhaltet, möglicherweise kann die Aktualisierung fehlschlagen. In diesem Fall bitte eine volle ROM Installieren.</string>
   <string name="apply_unable_to_reboot_toast">Neustart ins Recovery nicht möglich</string>
-  <!-- experimenter mode -->
+  <!-- Experimenter mode -->
   <string name="show_exp_on">Experimentelle Einstellungen aktiviert!</string>
   <string name="show_exp_already">Nicht nötig: Experimentelle Einstellungen sind bereits aktiviert.</string>
   <!-- Discount -->
@@ -167,6 +167,7 @@
   <string name="discount_dialog_message">Vielen Dank für Ihre weitere Unterstützung an MoKee Open Source. Als ein Zeichen der Wertschätzung erhalten Sie ein zeitlich begrenztes Angebot. Für %1$d CNY erhalten Sie inkrementelle Updates, geprüfte Updates und keine Werbung im MoKee Center (spare %2$d CNY). Wenn Sie später bezahlen möchten, können Sie dieses Dialogfeld schließen und MoKee Center wieder starten, wenn Sie bereit sind.</string>
   <string name="discount_dialog_expires">Angebot endet in %s</string>
   <string name="discount_dialog_cancel">Nicht erinnern</string>
+  <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">MoKee Systemupdate</string>
   <string name="verify_system_compatible_message">Überprüfung der Systemkompatibilität bevor patchen\u2026</string>
   <string name="verify_system_compatible_failed">Fehler beim Überprüfen der Systemkompatibilität</string>
@@ -174,4 +175,6 @@
   <string name="verify_system_compatible_img">Inkompatible %1$s bitte upgrade auf Version %2$s</string>
   <string name="verify_system_compatible_root_request">Root-Berechtigungen sind benötigt vom Update Verifizierung Plugin zum Verifizieren der Update-Kompatibilität. Wenn Sie überspringen, wird dieser Schritt verzögert und im Recovery-Modus durchgeführt.</string>
   <string name="verify_system_compatible_root_skip">Überspringen</string>
+  <!-- Common -->
+  <string name="activity_not_found">App ist nicht installiert.</string>
 </resources>

@@ -68,6 +68,7 @@
   <string name="donate_dialog_message">Na rozdiel od projektov ako CyanogenMod alebo MIUI, MoKee OpenSource je čisto neziskový projekt, ktorý vznikol zo záľuby a z vášne. Aby sme mohli projekt aj naďalej udržiavať, musíme vkladať do projektu zvyčajne vlastné finančné zdroje alebo spoliehať na Vaše príspevky a výnosy z reklamy. Vaše príspevky pomôžu zredukovať naše finančné zaťaženie a udržať budúci rozvoj! Táto možnosť Vám umožňuje odstrániť reklamy z MoKee centra, ale ak preferujete nižšie splátky, zvoľte možnosť \"Podporte nás\" (reklamy budú odstránené až splátky dosiahnú špecifickú sumu). Potom, ako nás podporíte, zazálohujte si prosím súbor mokee.license (v koreni zložky sdcard), ktorý je platný len pre súčasné zariadenie.</string>
   <string name="donate_dialog_via_paypal">Paypal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
+  <string name="donate_dialog_via_wechat">WeChat</string>
   <string name="donate_dialog_via_restore">Obnoviť</string>
   <string name="donate_money_toast_success">Ďakujeme za Váš príspevok!</string>
   <string name="donate_money_title">Podporte MoKee OpenSource</string>
@@ -146,7 +147,7 @@
   <string name="delete_updates_failure_message">Vyskytla sa chyba pri mazaní súboru aktualizácie</string>
   <string name="delete_updates_nofolder_message">Priečinok s aktualizáciou sa nenašiel</string>
   <string name="delete_updates_success_message">Všetky prevzaté aktualizácie boli odstránené</string>
-  <!-- pref -->
+  <!-- Pref -->
   <string name="pref_ota_check">Inkrementálne aktualizácie</string>
   <string name="pref_ota_check_summary">Získajte inkrementálne aktualizácie aby ste obmedzili čas sťahovania a prenesené dáta</string>
   <string name="pref_ota_check_donation_request_summary">Získajte inkrementálne aktualizácie aby ste obmedzili čas sťahovania a prenesené dáta (k dispozícii po prispení %d CNY)</string>
@@ -160,7 +161,7 @@
   <string name="apply_update_dialog_text">Chystáte sa inovovať na verziu <xliff:g id="filename">%s</xliff:g>.\n\nAk stlačíte tlačidlo Aktualizovať, zariadenie sa samé reštartuje do režimu Recovery kvôli inštalácii aktualizácie.\n\nPoznámka: Táto funkcia vyžaduje kompatibilné Recovery, inak budú musieť byť aktualizácie inštalované ručne.</string>
   <string name="apply_update_ota_dialog_text">Chystáte sa inovovať na verziu <xliff:g id="filename">%s</xliff:g>.\n\nAk stlačíte tlačidlo Aktualizovať, zariadenie sa samé reštartuje do režimu Recovery kvôli inštalácii aktualizácie.\n\nPoznámka: Táto funkcia vyžaduje kompatibilné Recovery, inak budú musieť byť aktualizácie inštalované ručne.\n\nToto je inkrementálna aktualizácia, preto akékoľvek zmeny systémových súborov môžu spôsobiť neúspešnú aktualizáciu. Ak sa tak stane, použite k inštalácii plnú verziu ROM.</string>
   <string name="apply_unable_to_reboot_toast">Nie je možný reštart do režimu recovery</string>
-  <!-- experimenter mode -->
+  <!-- Experimenter mode -->
   <string name="show_exp_on">Povolili ste nastavenia pre vývojárov!</string>
   <string name="show_exp_already">Nie je potreba, už ste povolili nastavenia pre vývojárov.</string>
   <!-- Discount -->
@@ -168,6 +169,7 @@
   <string name="discount_dialog_message">Ďakujeme vám za vašu stálu podporu smerom k MoKee Open Source. Ako prejav uznania, máte nárok na obmedzenú časovú ponuku. S %1$d CNY, si môžete vychutnať prírastkové aktualizácie, overené aktualizácie a odstránenie reklamy z MoKee centra (ušetríte %2$d CNY). Ak by ste chceli platiť neskôr, môžete zavrieť toto dialógové okno a otvoriť MoKee Centrum znovu, keď budete pripravení.</string>
   <string name="discount_dialog_expires">Ponuka vyprší za %s</string>
   <string name="discount_dialog_cancel">Neupozorňuj ma</string>
+  <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">Aktualizácia systému MoKee</string>
   <string name="verify_system_compatible_message">Overenie kompatibility systému pred opravou\u2026</string>
   <string name="verify_system_compatible_failed">Overenie kompatibility systému zlyhalo</string>
@@ -175,4 +177,6 @@
   <string name="verify_system_compatible_img">Nekompatibilné s %1$s, inovujte na verziu %2$s</string>
   <string name="verify_system_compatible_root_request">Update Verification Plugin vyžaduje oprávnenia root pre overenie kompatibility s aktualizáciou. Ak sa to rozhodnete preskočiť, bude tento krok odložený a vykonaný v režime recovery.</string>
   <string name="verify_system_compatible_root_skip">Preskočiť</string>
+  <!-- Common -->
+  <string name="activity_not_found">Aplikácia nie je nainštalovaná.</string>
 </resources>

@@ -30,8 +30,11 @@
   <!-- checking -->
   <!-- Downloads -->
   <!-- deleting -->
-  <!-- pref -->
+  <!-- Pref -->
   <!-- Apply install and update strings -->
-  <!-- experimenter mode -->
+  <!-- Experimenter mode -->
   <!-- Discount -->
+  <!-- Verify system compatible -->
+  <!-- Common -->
+  <string name="activity_not_found">აპი არ არის დაყენებული.</string>
 </resources>

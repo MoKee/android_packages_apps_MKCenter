@@ -18,29 +18,29 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Fragment -->
-  <string name="mokee_center_title">魔趣中心</string>
+  <string name="mokee_center_title">MoKee 中心</string>
   <string name="mokee_support_title">支援</string>
   <string name="mokee_updater_title">更新程式</string>
   <!-- WebSite -->
   <string name="mokee_website_title">MoKee 網站</string>
   <string name="mokee_website_summary">造訪官方網站</string>
-  <string name="mokee_forum_title">魔趣論壇</string>
-  <string name="mokee_forum_summary">造訪魔趣論壇</string>
-  <string name="mokee_issues_title">魔趣 Bug 追蹤器</string>
+  <string name="mokee_forum_title">MoKee 論壇</string>
+  <string name="mokee_forum_summary">造訪MoKee 論壇</string>
+  <string name="mokee_issues_title">MoKee Bug 追蹤器</string>
   <string name="mokee_issues_summary">造訪 Bug 追蹤器</string>
-  <string name="mokee_changelog_title">魔趣更新日誌</string>
+  <string name="mokee_changelog_title">MoKee 更新日誌</string>
   <string name="mokee_changelog_summary">查看更新日誌</string>
   <string name="mokee_github_title">MoKee 的 Github</string>
   <string name="mokee_github_summary">造訪 MoKee Github</string>
-  <string name="mokee_translate_title">魔趣翻譯</string>
+  <string name="mokee_translate_title">MoKee 翻譯</string>
   <string name="mokee_translate_summary">協助翻譯 MoKee</string>
-  <string name="mokee_wiki_title">魔趣的 Wiki</string>
-  <string name="mokee_wiki_summary">造訪魔趣 Wiki</string>
-  <string name="mokee_news_title">魔趣新聞</string>
-  <string name="mokee_news_summary">從魔趣接收開發人員新聞</string>
+  <string name="mokee_wiki_title">MoKee 的 Wiki</string>
+  <string name="mokee_wiki_summary">造訪 MoKee Wiki</string>
+  <string name="mokee_news_title">MoKee 新聞</string>
+  <string name="mokee_news_summary">從MoKee 接收開發人員新聞</string>
   <!-- Base Info -->
   <string name="mokee_version_info_title">版本資訊</string>
-  <string name="mokee_version_title">魔趣版本</string>
+  <string name="mokee_version_title">MoKee 版本</string>
   <string name="mokee_unique_id_title">唯一識別碼</string>
   <string name="mokee_donate_info_title">捐贈資訊</string>
   <string name="mokee_last_check_title">最後檢查時間：</string>
@@ -65,9 +65,10 @@
   <string name="menu_restore">還原憑證</string>
   <!-- Donate -->
   <string name="donate_dialog_title">捐贈給我們</string>
-  <string name="donate_dialog_message">不同於 Cygn 或 MIUI 這樣，Mokke 的開放原始碼為愛好與激情而生的純公益專案。為了維護這個專案，我們必須付出金錢及我們的大部分時間或者依靠廣告與捐助。你的捐助能夠減少我們的財務負擔以及維持未來發展！此選項允許你在 MoKee 中心移除廣告或者捐助。如果你喜歡分期付款 (捐助達到一定數額可以移除廣告)。在你捐助後請備份 mokee.license 檔案 (在 sd 卡的根目錄下，僅對當前使用的設備有效)。</string>
+  <string name="donate_dialog_message">和 Cyanogen，MIUI 等已接受投資的商業化公司不同，MoKee作為非營利性的民間開源專案，需要通過接受捐贈或是顯示介面廣告等手段籌集經費，才能負擔得起每個月的伺服器租用及託管、網路頻寬、介面授權等高昂支出。因此，您的支援至關重要！請為MoKee 出些力，幫助我們做得更好！捐贈完成後，我們會為您啟用捐贈使用者獨享的強大功能！同時，您的捐贈記錄會永久儲存在雲端伺服器上，當您清除資料或從其它ROM刷回MoKee時，捐贈記錄將會自動恢復。</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">支付寶</string>
+  <string name="donate_dialog_via_wechat">微信</string>
   <string name="donate_dialog_via_restore">恢複</string>
   <string name="donate_money_toast_success">謝謝您的捐贈 ！</string>
   <string name="donate_money_title">贊助 MoKee OpenSource</string>
@@ -146,7 +147,7 @@
   <string name="delete_updates_failure_message">刪除更新檔案時出現錯誤</string>
   <string name="delete_updates_nofolder_message">未找到更新檔所在的資料夾</string>
   <string name="delete_updates_success_message">所有已下載的更新檔已刪除</string>
-  <!-- pref -->
+  <!-- Pref -->
   <string name="pref_ota_check">增量更新</string>
   <string name="pref_ota_check_summary">取得增量更新以節省時間和流量</string>
   <string name="pref_ota_check_donation_request_summary">取得增量更新以節省下載時間和流量 (在捐贈 CNY %d 之後可用)</string>
@@ -160,7 +161,7 @@
   <string name="apply_update_dialog_text">您將要更新到 <xliff:g id="filename">%s</xliff:g>。\n\n如果您選擇更新，您的裝置將會重新啟動到 Recovery 模式並安裝更新。\n\n注意：此功能需要一個相容的 Recovery 程式。如果您沒有的話，您將需要手動安裝更新。</string>
   <string name="apply_update_ota_dialog_text">您將要升級到 <xliff:g id="filename">%s </xliff:g>。\n\nIf 如果你選擇升級，裝置將會重新啟動並在 Recovery 模式下安裝 更升級檔。\n\n注意︰ 此功能需要相容的 Recovery 程式，否則您需要手動安裝。\n\n這是增量更新，因此對系統檔所做的任何更改可能會導致更新失敗。如果發生這種情況，請刷入完整 ROM。</string>
   <string name="apply_unable_to_reboot_toast">無法重啟到復原模式</string>
-  <!-- experimenter mode -->
+  <!-- Experimenter mode -->
   <string name="show_exp_on">您已啟用實驗性設定 ！</string>
   <string name="show_exp_already">不用了，您已經啟用了實驗設定。</string>
   <!-- Discount -->
@@ -168,6 +169,7 @@
   <string name="discount_dialog_message">感謝您向 MoKee 開放原始碼的長期支援，現在您可享有限時優惠，%1$d CNY 取得增量更新、放心刷™並移除介面廣告！(立省 %2$d CNY) 若您想要稍後支付，可點選關閉此對話方塊並在準備就緒後重新開啟應用程式。</string>
   <string name="discount_dialog_expires">%s 優惠截止</string>
   <string name="discount_dialog_cancel">不要提醒</string>
+  <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">MoKee 系統更新</string>
   <string name="verify_system_compatible_message">正在驗證增量更新的相容性</string>
   <string name="verify_system_compatible_failed">系統相容性驗證失敗</string>
@@ -175,4 +177,6 @@
   <string name="verify_system_compatible_img">%1$s 不相容，請升級到版本 %2$s</string>
   <string name="verify_system_compatible_root_request">更新驗證元件需要 Root 權限以即時驗證更新的相容性。如果你選擇跳過，這一步將推遲並在 Recovery 模式下執行。</string>
   <string name="verify_system_compatible_root_skip">略過</string>
+  <!-- Common -->
+  <string name="activity_not_found">應用程式未安裝。</string>
 </resources>

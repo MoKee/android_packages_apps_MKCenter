@@ -102,10 +102,12 @@
   <string name="confirm_delete_updates_all_dialog_message">I-delete ang lahat ng mga file ng na-download na pang-update?</string>
   <string name="delete_updates_failure_message">Nagkaroon ng error sa pag-delete ng file na pang-update</string>
   <string name="delete_updates_nofolder_message">Ang folder na pang-update hindi natagpuan</string>
-  <!-- pref -->
+  <!-- Pref -->
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">I-apply ang update</string>
-  <!-- experimenter mode -->
+  <!-- Experimenter mode -->
   <!-- Discount -->
+  <!-- Verify system compatible -->
   <string name="verify_system_compatible_root_skip">Laktawan</string>
+  <!-- Common -->
 </resources>

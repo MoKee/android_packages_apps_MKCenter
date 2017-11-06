@@ -139,7 +139,7 @@
   <string name="delete_updates_failure_message">மேம்படுத்தல் கோப்பு நீக்குவதில் பிழை இருந்தது</string>
   <string name="delete_updates_nofolder_message">புதுப்பிக்கப்பட்டது கோப்புறை இல்லை</string>
   <string name="delete_updates_success_message">அனைத்து பதிவிறக்கம் மேம்படுத்தல்கள் நீக்கப்பட்டது</string>
-  <!-- pref -->
+  <!-- Pref -->
   <string name="pref_ota_check">கூடுதல் மேம்படுத்தல்</string>
   <string name="pref_ota_check_summary">பதிவிறக்க நேரத்தை மற்றும் அலைவரிசையை காப்பாற்ற கிடைக்கும் கூடுதல் மேம்படுத்தல்களை பயன்படுத்தவும்</string>
   <string name="pref_ota_check_donation_request_summary">பதிவிறக்க நேரத்தை மற்றும் அலைவரிசையை காப்பாற்ற கிடைக்கும் கூடுதல் மேம்படுத்தல்களை பயன்படுத்தவும் (நன்கொடை CNY %d பிறகு)</string>
@@ -149,10 +149,13 @@
   <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g> மேம்படுத்தல் செய்ய போகிறீர்கள்.\n\n மேம்படுத்தல் தொடும்போது சாதனம் recovery மறுதொடக்கம் ஆகும்.\n\nகுறிப்பு: இதற்காக இணக்கமான Recovery வேண்டும். அல்லது மேம்படுத்தல்கள் கைமுறையாக நிறுவ வேண்டும்.</string>
   <string name="apply_update_ota_dialog_text"><xliff:g id="filename">%s</xliff:g> மேம்படுத்தல் செய்ய போகிறீர்கள்.\n\n மேம்படுத்தல் தொடும்போது சாதனம் recovery மறுதொடக்கம் ஆகும்.\n\nகுறிப்பு: இதற்காக இணக்கமான Recovery வேண்டும். அல்லது மேம்படுத்தல்கள் கைமுறையாக நிறுவ வேண்டும்.\n\nஇது, ஒரு கூடுதல் மேம்படுத்தல், எனவே மேம்படுத்தல் தோல்வி ஏற்படுத்தக்கூடும். அது நடந்தால், ஒரு முழு ரோம் ப்ளாஷ் செயல்படுத்தலாம்.</string>
   <string name="apply_unable_to_reboot_toast">Recovery துவக்க முடியவில்லை</string>
-  <!-- experimenter mode -->
+  <!-- Experimenter mode -->
   <string name="show_exp_on">நீங்கள் சோதனை அமைப்புகளை இயக்கியுள்ளீர்கள்!</string>
   <string name="show_exp_already">தேவை இல்லை, நீங்கள் ஏற்கனவே சோதனை அமைப்புகளை இயக்கியுள்ளீர்கள்.</string>
   <!-- Discount -->
+  <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">MoKee கணினி மேம்படுத்தல்</string>
   <string name="verify_system_compatible_root_skip">தவிர்</string>
+  <!-- Common -->
+  <string name="activity_not_found">செயலி நிறுவப்படவில்லை.</string>
 </resources>

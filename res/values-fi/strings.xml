@@ -139,7 +139,7 @@
   <string name="delete_updates_failure_message">Virhe poistettaessa päivitystiedostoa</string>
   <string name="delete_updates_nofolder_message">Päivityskansiota ei löydy</string>
   <string name="delete_updates_success_message">Kaikki päivitykset poistettu</string>
-  <!-- pref -->
+  <!-- Pref -->
   <string name="pref_ota_check">Inkrementaaliset päivitykset</string>
   <string name="pref_ota_check_summary">Säästä latausaikaa ja kaistaa</string>
   <string name="pref_ota_check_donation_request_summary">Säästä latausaikaa ja kaistaa (saatavilla lahjoituksen jälkeen CNY %d)</string>
@@ -153,7 +153,7 @@
   <string name="apply_update_dialog_text">Olet päivittämässä versioon <xliff:g id="filename">%s</xliff:g>.\n\nJos painat Päivitä, laite käynnistyy uudelleen Recovery-tilaan asentaakseen päivityksen.\n\nHuomautus: Tämä ominaisuus vaatii yhteensopivan Recoveryn tai päivitykset eivät asennu automaattisesti.</string>
   <string name="apply_update_ota_dialog_text">The update <xliff:g id="filename">%s</xliff:g> was successfully downloaded. When touching \'Reboot and install\', the device will restart itself to install the update.\n\nNote: This feature requires a compatible Recovery or updates will need to be installed manually.\n\nThis is an incremental update, therefore any changes made to system files might cause the update to fail. If this happens, please flash a full ROM instead.</string>
   <string name="apply_unable_to_reboot_toast">Recovery-tilan käynnistäminen epäonnistui</string>
-  <!-- experimenter mode -->
+  <!-- Experimenter mode -->
   <string name="show_exp_on">Kehittäjäasetukset on nyt käytössä!</string>
   <string name="show_exp_already">Olet jo ottanut kehittäjäasetukset käyttöön.</string>
   <!-- Discount -->
@@ -161,6 +161,9 @@
   <string name="discount_dialog_message">Thank you for your ongoing support towards MoKee Open Source. As a token of appreciation, you are entitled to a limited time offer. With %1$d CNY, you can enjoy incremental updates, verified updates and remove ads from MoKee Centre (save %2$d CNY). If you would like to pay later, you can close this dialog and relaunch MoKee Center again when you are ready.</string>
   <string name="discount_dialog_expires">Tarjous päättyy %s</string>
   <string name="discount_dialog_cancel">Älä muistuta</string>
+  <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">Mokee järjestelmän päivitys</string>
   <string name="verify_system_compatible_root_skip">Ohita</string>
+  <!-- Common -->
+  <string name="activity_not_found">Sovellusta ei ole asennettu.</string>
 </resources>

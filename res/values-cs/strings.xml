@@ -68,6 +68,7 @@
   <string name="donate_dialog_message">Na rozdíl od společností, jako jsou Cygn nebo MIUI, MoKee OpenSource je ryze neziskový projekt vzniklý z koníčku a vášně. Pro vývoj jsme nuceni pokrýt náklady z vlastních peněz a času nebo se spolehnout na dary a reklamy. Vaše dary mohou pomoci snížit naše finanční zatížení a zajistit udržení budoucího vývoje! Tato možnost Vám umožňuje odstranit reklamy v MoKee centru nebo můžete použít možnost \"Darovat\", pokud radši dáváte přednost splátkám (reklamy budou odstraněny, jakmile celkový součet splátek dosáhne zadané hodnoty). Vytvořte si prosím záložní kopii souboru mokee.license (v kořenovém adresáři sdcard, platné pouze pro toto zařízení), pokud jste již darovali.</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
+  <string name="donate_dialog_via_wechat">WeChat</string>
   <string name="donate_dialog_via_restore">Obnovení</string>
   <string name="donate_money_toast_success">Děkujeme vám za váš příspěvek!</string>
   <string name="donate_money_title">Přispět na MoKee OpenSource</string>
@@ -146,7 +147,7 @@
   <string name="delete_updates_failure_message">Během mazání souboru aktualizace došlo k chybě</string>
   <string name="delete_updates_nofolder_message">Složka aktualizace nenalezena</string>
   <string name="delete_updates_success_message">Všechny stažené aktualizace odstraněny</string>
-  <!-- pref -->
+  <!-- Pref -->
   <string name="pref_ota_check">OTA aktualizace</string>
   <string name="pref_ota_check_summary">Stahovat OTA aktualizace, aby jste ušetřili data a čas</string>
   <string name="pref_ota_check_donation_request_summary">Stahovat OTA aktualizace, aby jste ušetřili data a čas (dostupné po darování %d CNY)</string>
@@ -160,7 +161,7 @@
   <string name="apply_update_dialog_text">Chystáte se aktualizovat na <xliff:g id="filename">%s</xliff:g>.\n\nPokud stisknete Aktualizovat, telefon se restartuje do režimu recovery, kde bude pokračovat v instalaci aktualizace.\n\nPoznámka: tato funkce vyžaduje nainstalované kompatibilní recovery nebo je nutné instalaci provést ručně.</string>
   <string name="apply_update_ota_dialog_text">Chystáte se upgradovat na <xliff:g id="filename">%s</xliff:g>\n\nPokud stisknete Aktualizovat, zařízení se restartuje do recovery a nainstaluje se aktualizace\n\nPoznámka: Tato funkce vyžaduje kompatibilní recovery, nebo aktualizace bude nutné nainstalovat ručně.\n\nToto je OTA aktualizace, tudíž změny zásahy do sytému mohou způsobit selhání aktualizace. Pokud k tomu dojde, nainstalujte plnou aktualizaci.</string>
   <string name="apply_unable_to_reboot_toast">Nelze restartovat do režimu recovery</string>
-  <!-- experimenter mode -->
+  <!-- Experimenter mode -->
   <string name="show_exp_on">Povolili jste experimentální nastavení!</string>
   <string name="show_exp_already">Není třeba, experimentální nastavení je již povoleno.</string>
   <!-- Discount -->
@@ -168,6 +169,7 @@
   <string name="discount_dialog_message">Děkujeme vám za vaši stálou podporu směrem k MoKee Open Source. Jako projev uznání, máte nárok na omezenou časovou nabídku. S %1$d CNY, si můžete vychutnat přírůstkové aktualizace, ověřené aktualizace a odstranění reklamy z Mokee centra (ušetříte %2$d CNY). Pokud byste chtěli platit později, můžete zavřít toto dialogové okno a otevřít Mokee Centrum znovu, když budete připraveni.</string>
   <string name="discount_dialog_expires">Nabídka vyprší za %s</string>
   <string name="discount_dialog_cancel">Neupozorňuj mě</string>
+  <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">Aktualizace systému MoKee</string>
   <string name="verify_system_compatible_message">Ověření kompatibility systému před opravou\u2026</string>
   <string name="verify_system_compatible_failed">Ověření kompatibility systému se nezdařilo</string>
@@ -175,4 +177,6 @@
   <string name="verify_system_compatible_img">Nekompatibilní s %1$s, upgradujte na verzi %2$s</string>
   <string name="verify_system_compatible_root_request">Update Verification Plugin vyžaduje povolení oprávnění root pro ověření kompatibility s aktualizací. Pokud se rozhodnete přeskočit, bude tento krok zpožděn a proveden v režimu obnovení.</string>
   <string name="verify_system_compatible_root_skip">Přeskočit</string>
+  <!-- Common -->
+  <string name="activity_not_found">Aplikace není nainstalována.</string>
 </resources>

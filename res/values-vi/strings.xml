@@ -141,7 +141,7 @@
   <string name="delete_updates_failure_message">Đã có lỗi khi đang xóa các tập tin Cập Nhật</string>
   <string name="delete_updates_nofolder_message">Không tìm thấy thư mục cập nhật</string>
   <string name="delete_updates_success_message">Đã xóa tất cả các tập tin cập nhật đã tải về</string>
-  <!-- pref -->
+  <!-- Pref -->
   <string name="pref_ota_check">Cập nhật bổ sung</string>
   <string name="pref_ota_check_summary">Lấy bản cập nhật bổ sung để tiết kiệm thời gian tải và băng thông</string>
   <string name="pref_ota_check_donation_request_summary">Lấy bản cập nhật bổ sung để tiết kiệm thời gian tải và băng thông (có sẵn sau khi quyên góp CNY %d)</string>
@@ -155,13 +155,16 @@
   <string name="apply_update_dialog_text">Bạn đang định nâng cấp lên <xliff:g id="filename"> %s </xliff:g>. \n\nnếu bạn bấm vào Cập Nhật, điện thoại sẽ tự khởi động lại vào chế độ recovery để cài đặt cập nhật.\n\nLưu ý: tính năng này yêu cầu một bản recovery tương thích hoặc bản cập nhật sẽ cần phải được cài đặt theo cách thủ công.</string>
   <string name="apply_update_ota_dialog_text">Bạn đang định nâng cấp lên <xliff:g id="filename">%s </xliff:g>. \n\nnếu bạn bấm Cập Nhật, điện thoại sẽ tự khởi động lại trong chế độ recovery để cài đặt bản cập nha.\n\nNote: tính năng này yêu cầu một phục hồi tương thích hoặc bản Cập Nhật sẽ cần phải được cài đặt thủ công.\n\nThis là một bản Cập Nhật bổ sung, do đó bất kỳ thay đổi nào được thực hiện để hệ thống tập tin có thể gây ra các bản Cập Nhật không thành công. Nếu điều này xảy ra, xin vui lòng flash lại bản ROM đầy đủ để thay thế.</string>
   <string name="apply_unable_to_reboot_toast">Không thể khởi động lại vào recovery</string>
-  <!-- experimenter mode -->
+  <!-- Experimenter mode -->
   <string name="show_exp_on">Bạn đã kích hoạt cài đặt thử nghiệm!</string>
   <string name="show_exp_already">Không cần thiết, bạn đã có cho phép cài đặt thử nghiệm.</string>
   <!-- Discount -->
   <string name="discount_dialog_title">Khuyến mãi có giới hạn</string>
   <string name="discount_dialog_expires">Khuyến mãi hết hạn trong %s</string>
   <string name="discount_dialog_cancel">Không nhắc lại</string>
+  <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">Hệ thống cập nhật MoKee</string>
   <string name="verify_system_compatible_root_skip">Bỏ qua</string>
+  <!-- Common -->
+  <string name="activity_not_found">Ứng dụng chưa được cài đặt.</string>
 </resources>

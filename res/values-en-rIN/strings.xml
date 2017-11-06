@@ -96,9 +96,11 @@
   <string name="not_apk_action_install_update">Install</string>
   <!-- deleting -->
   <string name="delete_single_update_success_message">Update <xliff:g id="filename">%s</xliff:g> deleted</string>
-  <!-- pref -->
+  <!-- Pref -->
   <!-- Apply install and update strings -->
-  <!-- experimenter mode -->
+  <!-- Experimenter mode -->
   <!-- Discount -->
+  <!-- Verify system compatible -->
   <string name="verify_system_compatible_root_skip">Skip</string>
+  <!-- Common -->
 </resources>

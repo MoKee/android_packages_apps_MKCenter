@@ -126,7 +126,7 @@
   <string name="delete_updates_failure_message">Дошло је до грешке приликом брисања фајла за ажурирање</string>
   <string name="delete_updates_nofolder_message">Фасцикла Ажурирање није пронађена</string>
   <string name="delete_updates_success_message">Сва преузета ажурирања су избрисана</string>
-  <!-- pref -->
+  <!-- Pref -->
   <string name="pref_ota_check">ОТА надоградње</string>
   <string name="pref_ota_check_summary">Преузмите постепену надоградњу ради уштеде времена и података</string>
   <string name="pref_ota_check_donation_request_summary">Преузмите постепену надоградњу ради уштеде времена и података (могуће после донације од %d CNY)</string>
@@ -135,9 +135,12 @@
   <string name="apply_update_dialog_text">Надоградња на <xliff:g id="filename">%s</xliff:g>.\n\nАко притиснеш Ажурирај, уређај ће се поново покренути у \'Опоравак\' да инсталира ажурирање.\n\nНапомена: Ова функција захтева компатибилни \'Опоравак\' или ћеш морати ажурирање да инсталираш ручно.</string>
   <string name="apply_update_ota_dialog_text">Надоградићете на <xliff:g id="filename">%s</xliff:g>.\n\n ако притиснете Надоградња. Уређај ће се рестартовати ради инсталације надоградње.\n\nИнфо: Ова функција захтева компатибилни Опоравак или морате ручно инсталирати.\n\nОво је постепена надоградња па може доћи до пада система. Уколико се то деси, инсталирајте комплетан систем.</string>
   <string name="apply_unable_to_reboot_toast">Немогуће да се рестартовање у мод опоравка</string>
-  <!-- experimenter mode -->
+  <!-- Experimenter mode -->
   <string name="show_exp_on">Омогућили сте експериментална подешавања!</string>
   <string name="show_exp_already">Није потребно. Већ сте омогућили експериментална подешавања.</string>
   <!-- Discount -->
+  <!-- Verify system compatible -->
   <string name="verify_system_compatible_root_skip">Прескочи</string>
+  <!-- Common -->
+  <string name="activity_not_found">Апликација није инсталирана.</string>
 </resources>

@@ -136,7 +136,7 @@
   <string name="delete_updates_failure_message">En fejl opstod ved sletning af opdateringsfilen</string>
   <string name="delete_updates_nofolder_message">Opdateringsmappe ikke fundet</string>
   <string name="delete_updates_success_message">Alle downloadede opdateringer slettet</string>
-  <!-- pref -->
+  <!-- Pref -->
   <string name="pref_ota_check">Trinvise opdateringer</string>
   <string name="pref_ota_check_summary">Få trinvise opdateringer for at spare downloadtid og båndbredde</string>
   <string name="pref_ota_check_donation_request_summary">Få trinvise opdateringer for at spare downloadtid og båndbredde (tilgængelig efter donation af CNY %d)</string>
@@ -146,10 +146,13 @@
   <string name="apply_update_dialog_text">Du er ved at opgradere til <xliff:g id="filename">%s</xliff:g>.\n\nTrykkes Opdatér vil enheden genstartes i Recovery-tilstand for at installere opdateringen.\n\nDenne funktion kræver en kompatibel Recovery, da opdateringen ellers skal udføres manuelt.</string>
   <string name="apply_update_ota_dialog_text">Du er ved at opgradere til <xliff:g id="filename">%s </xliff:g>.\n\nTrykkes Opdatér vil enheden genstartes i Recovery-tilstand for at installere opdateringen.\n\nBemærk, at denne funktion kræver en kompatibel Recovery, da opdateringen ellers skal installeres manuelt.\n\nDette er en trinvis opdatering, hvorfor ændringer af systemfiler kan medføre opdateringsfejl. Sker dette, bedes du venligst flash en fuld ROM i stedet.</string>
   <string name="apply_unable_to_reboot_toast">Kan ikke genstarte til recovery</string>
-  <!-- experimenter mode -->
+  <!-- Experimenter mode -->
   <string name="show_exp_on">Du har aktiveret eksperimentelle indstillinger!</string>
   <string name="show_exp_already">Unødvendigt, eksperimentalindstillingerne er allerede aktive.</string>
   <!-- Discount -->
+  <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">MoKee systemopdatering</string>
   <string name="verify_system_compatible_root_skip">Spring over</string>
+  <!-- Common -->
+  <string name="activity_not_found">Appen er ikke installeret.</string>
 </resources>

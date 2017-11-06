@@ -91,10 +91,13 @@
   <string name="confirm_delete_dialog_title">ফাইল মুছে ফেলুন</string>
   <string name="confirm_delete_updates_dialog_message">নির্বাচিত আপডেট ফাইলটি মুছে ফেলবেন?</string>
   <string name="confirm_delete_updates_all_dialog_message">সব ডাউনলোড করা আপডেট ফাইল ডিলিট করবেন?</string>
-  <!-- pref -->
+  <!-- Pref -->
   <!-- Apply install and update strings -->
-  <!-- experimenter mode -->
+  <!-- Experimenter mode -->
   <!-- Discount -->
+  <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">MoKee system update</string>
   <string name="verify_system_compatible_root_skip">Skip</string>
+  <!-- Common -->
+  <string name="activity_not_found">অ্যাপ্লিকেশান ইনস্টল করা নেই৷</string>
 </resources>

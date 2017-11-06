@@ -141,7 +141,7 @@
   <string name="delete_updates_failure_message">Une erreur est survenue lors de la suppression des fichiers de mise à jour</string>
   <string name="delete_updates_nofolder_message">Dossier de mise à jour introuvable</string>
   <string name="delete_updates_success_message">Toutes les mises à jour téléchargées ont été supprimées</string>
-  <!-- pref -->
+  <!-- Pref -->
   <string name="pref_ota_check">Mises à jour OTA</string>
   <string name="pref_ota_check_summary">Obtenir des mises à jour incrémentielles pour économiser du temps et de la bande passante</string>
   <string name="pref_ota_check_donation_request_summary">Activer les mises à jour incrémentielles pour économiser du temps de téléchargement et de la bande passante (Disponible après avoir effectué un don CNY %d)</string>
@@ -155,7 +155,7 @@
   <string name="apply_update_dialog_text">Vous êtes sur le point de mettre à jour vers  <xliff:g id="filename">%s</xliff:g>.\n\nLorsque vous appuierez sur \"Mettre à jour\", votre appareil redémarrera automatiquement pour installer la mise à jour.\n\nRemarque\u00A0: Cette opération nécessite un recovery compatible, sinon les mises à jour devront être installées manuellement.</string>
   <string name="apply_update_ota_dialog_text">Vous êtes sur le point de mettre à niveau vers <xliff:g id="filename">%s </xliff:g>. \n\nSi vous appuyez sur mise à jour, l\'appareil va redémarrer lui-même en mode de récupération pour installer la mise à jour.\n\nNote : cette fonction nécessite un Recovery compatible ou les mises à jour devront être installées manuellement.\n\nCeci est une mise à jour incrémentielle, donc toutes les modifications apportées aux fichiers système peuvent provoquer l\'échec de la mise à jour. Dans ce cas, s\'il vous plaît flashez une ROM complète à la place.</string>
   <string name="apply_unable_to_reboot_toast">Impossible de redémarrer en mode recovery</string>
-  <!-- experimenter mode -->
+  <!-- Experimenter mode -->
   <string name="show_exp_on">Vous avez activé les paramètres expérimentaux !</string>
   <string name="show_exp_already">Inutile, vous avez déjà activé les paramètres expérimentaux.</string>
   <!-- Discount -->
@@ -163,6 +163,7 @@
   <string name="discount_dialog_message">Je vous remercie pour votre soutien continu envers MoKee Open Source. En guise de remerciements, vous avez droit à une offre à durée limitée. Avec %1$d CNY, vous pourrez profiter des mises à jour incrémentielles, vérifier les mises à jour et supprimez des annonces de MoKee Centre (économisez %2$d CNY). Si vous souhaitez payer par la suite, vous pouvez fermer cette boîte de dialogue et relancer MoKee Center à nouveau lorsque vous êtes prêt.</string>
   <string name="discount_dialog_expires">L’offre se termine dans %s</string>
   <string name="discount_dialog_cancel">Ne pas rappeler</string>
+  <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">Mise à jour du système MoKee</string>
   <string name="verify_system_compatible_message">Vérification de la compatibilité du système avant de patcher\u2026</string>
   <string name="verify_system_compatible_failed">Echec de la vérification de la compatibilité du système</string>
@@ -170,4 +171,6 @@
   <string name="verify_system_compatible_img">%1$s non compatible, veuillez mettre à niveau vers la version %2$s</string>
   <string name="verify_system_compatible_root_request">L\'autorisation Root est nécessaire pour mettre à jour des Plugin de vérification pour vérifier la compatibilité de mise à jour maintenant. Si vous choisissez d’ignorer, cette étape sera retardée et exécutée en mode de récupération.</string>
   <string name="verify_system_compatible_root_skip">Ignorer</string>
+  <!-- Common -->
+  <string name="activity_not_found">L\'application n\'est pas installée.</string>
 </resources>

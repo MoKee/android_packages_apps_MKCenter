@@ -145,7 +145,7 @@
   <string name="delete_updates_failure_message">Адбылася памылка выдалення файла абнаўлення</string>
   <string name="delete_updates_nofolder_message">Каталог з абнаўленнямi не знойдзены</string>
   <string name="delete_updates_success_message">Усе спампаваныя абнаўленнi выдалены</string>
-  <!-- pref -->
+  <!-- Pref -->
   <string name="pref_ota_check">OTA абнаўленнi</string>
   <string name="pref_ota_check_summary">Атрымаць OTA абнаўленнi, каб зэканоміць час спампавання і прапускную здольнасць</string>
   <string name="pref_ota_check_donation_request_summary">Атрымаць OTA абнаўленнi, каб зэканоміць час спампавання і прапускную здольнасць (даступна пасля ахвяравання ў CNY %d)</string>
@@ -159,7 +159,7 @@
   <string name="apply_update_dialog_text">Будзе выканана абнаўленне да версіі <xliff:g id="filename">%s</xliff:g>.\n\n Пры націску кнопкі «Абнавіць» прылада перазагрузіцца ў рэжым аднаўлення для усталёўкі гэтага абнаўлення.\n\n Заўвага: гэтая функцыя патрабуе сумяшчальнага Recovery. У адваротным выпадку абнаўленне будзе неабходна ўсталяваць уручную.</string>
   <string name="apply_update_ota_dialog_text">Будзе выканана абнаўленне да версіі <xliff:g id="filename">%s</xliff:g>.\n\n Пры націску кнопкі «Абнавіць» прылада перазагрузіцца ў рэжым аднаўлення для ўстаноўкі гэтага абнаўлення.\n\n Заўвага: гэтая функцыя патрабуе сумяшчальнага Recovery. У адваротным выпадку абнаўленне будзе неабходна ўсталяваць уручную. \n\nГэта інкрыментны абнаўленне, таму змены ў сістэмных файлах могуць прывесці да збою ўстаноўкі абнаўлення. У гэтым выпадку, усталюйце поўную версію Mokee.</string>
   <string name="apply_unable_to_reboot_toast">Немагчыма перазагрузіцца у рэжым Recovery</string>
-  <!-- experimenter mode -->
+  <!-- Experimenter mode -->
   <string name="show_exp_on">Вы ўключылі эксперыментальныя параметры!</string>
   <string name="show_exp_already">Няма неабходнасці, эксперыментальныя параметры ўжо ўключаны.</string>
   <!-- Discount -->
@@ -167,6 +167,7 @@
   <string name="discount_dialog_message">Дзякуем вам за доўгую падтрымку праекта MoKee Open Source. Мы вельмі ўдзячныя вам, таму запускаем часовае прапанову. За %1$d юань вы можаце ўсталяваць дадатковыя абнаўлення, абнаўлення, пацверджаныя супольнасцю, а таксама прыбраць рэкламу з прыкладання (са зніжкай %2$d юань). Зачыніце акно і перазапусціце прыкладанне, калі хочаце заплаціць пазней.</string>
   <string name="discount_dialog_expires">Прапанова скончыцца праз %s</string>
   <string name="discount_dialog_cancel">Не нагадваць</string>
+  <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">Абнаўленне сістэмы MoKee</string>
   <string name="verify_system_compatible_message">Праверка сумяшчальнасці сістэмы перад абнаўленнем\u2026</string>
   <string name="verify_system_compatible_failed">Не атрымалася праверыць сумяшчальнасць сістэмы</string>
@@ -174,4 +175,6 @@
   <string name="verify_system_compatible_img">Несумяшчальны %1$s, калі ласка абнавіце да версіі %2$s</string>
   <string name="verify_system_compatible_root_request">Патрабуецца каранёвай доступ, каб абнавіць Плагін Праверкі Сумяшчальнасці абнаўленняў. Калі вы вырашыце прапусціць гэты крок, гэта дзеянне будзе выканана ў рэжыме Recovery.</string>
   <string name="verify_system_compatible_root_skip">Прапусціць</string>
+  <!-- Common -->
+  <string name="activity_not_found">Праграма не ўсталявана.</string>
 </resources>

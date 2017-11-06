@@ -136,7 +136,7 @@
   <string name="delete_updates_failure_message">Hiba történt a frissítő fájlok törlésekor</string>
   <string name="delete_updates_nofolder_message">Frissítéseket tartalmazó mappa nem található</string>
   <string name="delete_updates_success_message">Az összes letöltött frissítés törölve</string>
-  <!-- pref -->
+  <!-- Pref -->
   <string name="pref_ota_check">Növekményes frissítések</string>
   <string name="pref_ota_check_summary">Növekményes frissítések használata a letöltési idő és sávszélesség kímélése érdekében</string>
   <string name="pref_ota_check_donation_request_summary">Növekményes frissítések használata a letöltési idő és sávszélesség kímélése érdekében (%d CNY támogatást követően)</string>
@@ -146,10 +146,13 @@
   <string name="apply_update_dialog_text">A  <xliff:g id="filename">%s</xliff:g> frissítés telepítését választottad. Ha a Frissítésre nyomsz, a készülék újraindul recovery módba, hogy telepítse a frissítést. \n\nMegjegyzés: Az autómatikus frissítéshez kompatibilis recovery kell, különben manuális telepítésre lesz szükség.</string>
   <string name="apply_update_ota_dialog_text">Frissítés a következőre: <xliff:g id="filename">%s</xliff:g>.\n\nHa a frissítésre koppintasz, az eszköz újraindul recovery módban és telepíti a frissítést.\n\nMegjegyzés: Ehhez a funkcióhoz egy kompatibilis recovery-re van szükség, vagy manuálisan kell telepíteni a frissítést.\n\nEz egy közbenső frissítés. Ha módosított rendzserfájlok találhatók az eszközön, lehetséges, hogy a frissítés sikertelen lesz. Ha ez megtörténik, a teljes ROM-ot kell flashelni.</string>
   <string name="apply_unable_to_reboot_toast">Nem lehetséges az újraindítás Recovery módban</string>
-  <!-- experimenter mode -->
+  <!-- Experimenter mode -->
   <string name="show_exp_on">Engedélyezted a kísérleti funkciókat!</string>
   <string name="show_exp_already">Már engedélyezted a kísérleti funkciókat.</string>
   <!-- Discount -->
+  <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">MoKee rendszerfrissítés</string>
   <string name="verify_system_compatible_root_skip">Kihagyás</string>
+  <!-- Common -->
+  <string name="activity_not_found">Az alkalmazás nincs telepítve.</string>
 </resources>

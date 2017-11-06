@@ -110,11 +110,14 @@
   <!-- Downloads -->
   <string name="not_apk_action_install_update">Pasang</string>
   <!-- deleting -->
-  <!-- pref -->
+  <!-- Pref -->
   <!-- Apply install and update strings -->
-  <!-- experimenter mode -->
+  <!-- Experimenter mode -->
   <string name="show_exp_already">Tidak perlu, anda telahpun mengaktifkan seting eksperimen.</string>
   <!-- Discount -->
+  <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">Kemaskini sistem Mokee</string>
   <string name="verify_system_compatible_root_skip">Langkau</string>
+  <!-- Common -->
+  <string name="activity_not_found">Apl tidak dipasang.</string>
 </resources>

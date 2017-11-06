@@ -128,7 +128,7 @@ desactivi aquesta opció.</string>
   <string name="delete_updates_failure_message">Hi ha hagut un error esborrant l\'arxiu d\'actualització</string>
   <string name="delete_updates_nofolder_message">No s\'ha trobat la carpeta de l\'actualització</string>
   <string name="delete_updates_success_message">Totes les actualitzacions descarregades s\'han esborrat</string>
-  <!-- pref -->
+  <!-- Pref -->
   <string name="pref_ota_check">OTA actualitzacions</string>
   <string name="pref_ota_check_summary">Obtenir actualitzacions incrementals per estalviar temps de descàrrega i ample de banda</string>
   <string name="pref_ota_check_donation_request_summary">Obtenir actualitzacions incrementals per estalviar temps de descàrrega i amplada de banda (disponible després de la donació de %d CNY)</string>
@@ -137,9 +137,12 @@ desactivi aquesta opció.</string>
   <string name="apply_update_dialog_text">Estàs a punt d\'actualitzar a <xliff:g id="filename">%s</xliff:g>.\n\nSi apretes Actualitza, el dispositiu es reiniciarà ell mateix cap al mode de recuperació per tal d\'instal·lar l\'actualització.\n\nNota: Aquesta característica necessita un sistema de recuperació (Recovery) compatible o l\'actualització haurà de ser instal·lada manualment.</string>
   <string name="apply_update_ota_dialog_text">Esteu a punt de millorar a <xliff:g id="filename">%s </xliff:g>. \n\nIf prem actualització, el dispositiu en si es reprendrà en el mode de recuperació per instal·lar el update.\n\nNote: aquesta característica requereix una recuperació compatible o actualitzacions haurà d\'instal·lar manually.\n\nThis és una actualització incremental, per tant els canvis realitzats en arxius de sistema podria provocar l\'actualització falli. Si això passa, si us plau flaix una ROM de ple en el seu lloc.</string>
   <string name="apply_unable_to_reboot_toast">Impossible reiniciar en mode recovery</string>
-  <!-- experimenter mode -->
+  <!-- Experimenter mode -->
   <string name="show_exp_on">Ha permès  paràmetres experimentals.</string>
   <string name="show_exp_already">No hi ha necessitat, ja heu activat paràmetres experimentals.</string>
   <!-- Discount -->
+  <!-- Verify system compatible -->
   <string name="verify_system_compatible_root_skip">Omet</string>
+  <!-- Common -->
+  <string name="activity_not_found">L\'aplicació no s\'ha instal·lat.</string>
 </resources>

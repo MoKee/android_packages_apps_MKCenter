@@ -111,8 +111,11 @@
   <string name="not_download_install_notice">ನವೀಕರಣ <xliff:g id="ದಾಖಲೆ ಹೆಸರು">%s</xliff:g> ಯಶಸ್ವಿಯಾಗಿ ಡೌನ್‍ಲೋಡ್ ಆಗಿದೆ. \'ಮರುಪ್ರಾರಂಭಿಸಿ ಮತ್ತು ಅಳವಡಿಸಿ\' ಸ್ಪರ್ಶಿಸಿದಾಗ, ಸಾಧನವು ನವೀಕರಣಗಳನ್ನು ಅಳವಡಿಸಲು ಸ್ವತ: ಮರುಪ್ರಾರಂಭಗೊಳ್ಳುತ್ತದೆ.\n\nಗಮನಿಸಿ: ಈ ವೈಶಿಷ್ಟ್ಯಕ್ಕೆ ಹೊಂದಿಕೊಳ್ಳುವ ಪುನ:ಸಂಪಾದನೆಯ ಅಥವಾ ದೈಹಿಕವಾಗಿ ನವೀಕರಣಗಳನ್ನು ಅಳವಡಿಸುವ ಅಗತ್ಯವಿದೆ.</string>
   <string name="not_apk_action_install_update">ಅಳವಡಿಸಿ</string>
   <!-- deleting -->
-  <!-- pref -->
+  <!-- Pref -->
   <!-- Apply install and update strings -->
-  <!-- experimenter mode -->
+  <!-- Experimenter mode -->
   <!-- Discount -->
+  <!-- Verify system compatible -->
+  <!-- Common -->
+  <string name="activity_not_found">ಅಪ್ಲಿಕೇಶನ್‌ ಅನ್ನು ಸ್ಥಾಪಿಸಲಾಗಿಲ್ಲ</string>
 </resources>

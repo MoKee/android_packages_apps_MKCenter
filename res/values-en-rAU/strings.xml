@@ -126,7 +126,7 @@
   <string name="delete_updates_failure_message">There was an error deleting the update file</string>
   <string name="delete_updates_nofolder_message">Update folder not found</string>
   <string name="delete_updates_success_message">All downloaded updates deleted</string>
-  <!-- pref -->
+  <!-- Pref -->
   <string name="pref_ota_check">Incremental updates</string>
   <string name="pref_ota_check_summary">Get incremental updates to save download time and bandwidth</string>
   <string name="pref_ota_check_donation_request_summary">Get incremental updates to save download time and bandwidth (available after donating CNY %d)</string>
@@ -135,9 +135,11 @@
   <string name="apply_update_dialog_text">You are about to upgrade to <xliff:g id="filename">%s</xliff:g>.\n\nIf you press Update, the device will restart itself in recovery mode to install the update.\n\nNote: This feature requires a compatible Recovery or updates will need to be installed manually.</string>
   <string name="apply_update_ota_dialog_text">You are about to upgrade to <xliff:g id="filename">%s</xliff:g>.\n\nIf you press Update, the device will restart itself in recovery mode to install the update.\n\nNote: This feature requires a compatible Recovery or updates will need to be installed manually.\n\nThis is an incremental update, therefore any changes made to system files might cause the update to fail. If this happens, please flash a full ROM instead.</string>
   <string name="apply_unable_to_reboot_toast">Unable to reboot into recovery</string>
-  <!-- experimenter mode -->
+  <!-- Experimenter mode -->
   <string name="show_exp_on">You have enabled experimental settings!</string>
   <string name="show_exp_already">No need, you have already enabled experimental settings.</string>
   <!-- Discount -->
+  <!-- Verify system compatible -->
   <string name="verify_system_compatible_root_skip">Skip</string>
+  <!-- Common -->
 </resources>

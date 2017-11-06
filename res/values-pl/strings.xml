@@ -145,7 +145,7 @@
   <string name="delete_updates_failure_message">Wystąpił błąd podczas usuwania pliku aktualizacji</string>
   <string name="delete_updates_nofolder_message">Nie odnaleziono folderu aktualizacji</string>
   <string name="delete_updates_success_message">Usunięto wszystkie pobrane aktualizacje</string>
-  <!-- pref -->
+  <!-- Pref -->
   <string name="pref_ota_check">Aktualizacje przyrostowe</string>
   <string name="pref_ota_check_summary">Pobierz aktualizacje przyrostowe, aby zaoszczędzić czas i transfer</string>
   <string name="pref_ota_check_donation_request_summary">Pobierz aktualizacje przyrostowe, aby zaoszczędzić czas i transfer (dostępne po wpłaceniu %d juanów)</string>
@@ -159,7 +159,7 @@
   <string name="apply_update_dialog_text">Zostanie dokonana aktualizacja do <xliff:g id="filename">%s</xliff:g>.\n\n Wciśnięcie \"Aktualizuj\" zrestartuje urządzenie do trybu Recovery i dokona instalacji.\n\nUwaga: ta funkcja wymaga kompatybilnego trybu Recovery, w innym przypadku będzie wymagane ręczne wykonanie aktualizacji.</string>
   <string name="apply_update_ota_dialog_text">Zostanie dokonana aktualizacja do <xliff:g id="filename">%s</xliff:g>.\n\n Wciśnięcie \"Aktualizuj\" zrestartuje urządzenie do trybu Recovery i dokona instalacji.\n\nUwaga: ta funkcja wymaga kompatybilnego trybu Recovery, w innym przypadku będzie wymagane ręczne wykonanie aktualizacji.\n\nTo jest aktualizacja przyrostowa, dlatego wszelkie zmiany wprowadzone w systemie mogą sprawić, że aktualizacja nie powiedzie się. W takim przypadku prosimy o instalację pełnego ROMu.</string>
   <string name="apply_unable_to_reboot_toast">Nie można uruchomić trybu Recovery</string>
-  <!-- experimenter mode -->
+  <!-- Experimenter mode -->
   <string name="show_exp_on">Włączyłeś ustawienia eksperymentalne!</string>
   <string name="show_exp_already">Nie trzeba, już włączyłeś ustawienia eksperymentalne.</string>
   <!-- Discount -->
@@ -167,10 +167,13 @@
   <string name="discount_dialog_message">Dziękujemy za dotychczasowe wsparcie dla MoKee Open Source. Jako wyraz naszego uznania otrzymujesz ograniczoną czasowo ofertę. Za %1$d juanów możesz cieszyć się aktualizacjami przyrostowymi, aktualizacjami zweryfikowanymi i możliwością usunięcia reklam z Centrum MoKee (oszczędzasz %2$d juanów). Jeżeli wolisz zapłacić później, to zamknij to okno i odwiedź ponownie Centrum MoKee, gdy będziesz gotowy.</string>
   <string name="discount_dialog_expires">Oferta wygasa za %s</string>
   <string name="discount_dialog_cancel">Nie przypominaj</string>
+  <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">Aktualizacja systemu MoKee</string>
   <string name="verify_system_compatible_message">Weryfikowanie zgodności systemu przed patchowaniem \u2026</string>
   <string name="verify_system_compatible_failed">Weryfikowanie zgodności systemu nie powiodło się</string>
   <string name="verify_system_compatible_patch">Następujące pliki albo zostały zmodyfikowane lub usunięte, należy przywrócić je i spróbować ponownie.</string>
   <string name="verify_system_compatible_img">Niekompatybilny %1$s, zaktualizuj do wersji %2$s</string>
   <string name="verify_system_compatible_root_skip">Pomiń</string>
+  <!-- Common -->
+  <string name="activity_not_found">Aplikacja nie jest zainstalowana.</string>
 </resources>

@@ -145,7 +145,7 @@
   <string name="delete_updates_failure_message">Kan update bestand niet verwijderen</string>
   <string name="delete_updates_nofolder_message">Kon update map niet vinden</string>
   <string name="delete_updates_success_message">Alle opgeslagen updates zijn verwijderd</string>
-  <!-- pref -->
+  <!-- Pref -->
   <string name="pref_ota_check">Incrementele updates</string>
   <string name="pref_ota_check_summary">Haal incrementele updates binnen om de downloadtijd en bandbreedte te besparen</string>
   <string name="pref_ota_check_donation_request_summary">Haal incrementele updates binnen om de downloadtijd en bandbreedte te besparen (beschikbaar na het doneren van CNY %d)</string>
@@ -160,7 +160,7 @@
   <string name="apply_update_dialog_text">Uw systeem wordt bijgewerkt naar <xliff:g id="filename">%s</xliff:g>.\n\nWanneer u \'Bijwerken\' selecteert, zal het toestel herstarten om de update te installeren.\n\nLet op: Een ondersteunende recovery is vereist, anders moet de update handmatig worden geïnstalleerd.</string>
   <string name="apply_update_ota_dialog_text">U staat op het punt om te upgraden naar <xliff:g id="filename">%s </xliff:g>. \n\nals u op Update drukt, wordt het apparaat uit zich zelf opnieuw opgestart in de herstelmodus om de update te installeren.\n\n Let op: deze functie vereist een ondersteunende Recovery anders zullen de updates handmatig moeten worden geïnstalleerd.\n\nDit is een experimentele update, dus wijzigingen in de systeembestanden kunnen er voor zorgen dat de update mislukt. Als dit gebeurt, flash dan alstublieft een volledige ROM.</string>
   <string name="apply_unable_to_reboot_toast">Niet mogelijk om te herstarten naar recovery</string>
-  <!-- experimenter mode -->
+  <!-- Experimenter mode -->
   <string name="show_exp_on">U hebt de experimentele instellingen ingeschakeld!</string>
   <string name="show_exp_already">Niet nodig, de experimentele instellingen zijn reeds ingeschakeld.</string>
   <!-- Discount -->
@@ -168,6 +168,7 @@
   <string name="discount_dialog_message">Dank u voor uw voortdurende steun in de richting van Mokee Open Source. Als blijk van waardering, hebt u recht op een beperkte aanbieding. Met%1$d CNY, kunt u genieten van incrementele updates, geverifieerd updates en advertenties vrije Mokee Centre (behalve%2$d CNY). Als je later betalen wilt, kunt u dit dialoog sluiten en herstart Mokee Centre als u klaar bent.</string>
   <string name="discount_dialog_expires">Voorstel verloopt over %s</string>
   <string name="discount_dialog_cancel">Niet herinneren</string>
+  <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">MoKee systeem update</string>
   <string name="verify_system_compatible_message">Systeemcompatibiliteit verifiëren voor het patchen\u2026</string>
   <string name="verify_system_compatible_failed">Mislukt om systeemcompatibiliteit te verifiëren</string>
@@ -175,4 +176,6 @@
   <string name="verify_system_compatible_img">Incompatibele %1$s, upgrade alstublieft naar versie %2$s</string>
   <string name="verify_system_compatible_root_request">Roottoegang is vereist voor Update Verification Plugin om updatecompatibiliteit nu te verifiëren. Als je dit overslaat, dan zal deze stap vertraagd worden en verricht worden in herstelmodus.</string>
   <string name="verify_system_compatible_root_skip">Overslaan</string>
+  <!-- Common -->
+  <string name="activity_not_found">App is niet geïnstalleerd.</string>
 </resources>

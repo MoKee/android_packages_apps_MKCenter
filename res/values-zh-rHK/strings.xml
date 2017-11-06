@@ -68,6 +68,7 @@
   <string name="donate_dialog_message">和 Cyanogen、MIUI 等已接受投資的商業化公司不同。Mokee 因愛好而生，是純粹的非營利性開源項目。我們需要自籌資金或者透過捐贈、廣告等手段才能讓這個項目長期存活。你的捐贈將減輕我們每月承擔的經濟壓力，使我們能繼續為大家提供更優秀的 ROM！你的捐贈記錄會儲存在記憶咭根目錄的 mokee.license 檔案，你可以備份它以便意外丟失、格式化存儲區後恢復（僅限當前裝置使用）。</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">支付寶</string>
+  <string name="donate_dialog_via_wechat">微信</string>
   <string name="donate_dialog_via_restore">恢復</string>
   <string name="donate_money_toast_success">多謝你的捐贈！</string>
   <string name="donate_money_title">Donate to MoKee Open Source</string>
@@ -146,7 +147,7 @@
   <string name="delete_updates_failure_message">刪除更新檔案時出現錯誤</string>
   <string name="delete_updates_nofolder_message">未找到更新檔所在的資料夾</string>
   <string name="delete_updates_success_message">所有已下載的更新檔已刪除</string>
-  <!-- pref -->
+  <!-- Pref -->
   <string name="pref_ota_check">增量更新</string>
   <string name="pref_ota_check_summary">取得增量更新以節省下載時間和數據</string>
   <string name="pref_ota_check_donation_request_summary">取得增量更新以節省下載時間和數據（捐贈 %d 元人民幣後永久可用）</string>
@@ -160,7 +161,7 @@
   <string name="apply_update_dialog_text">你將要更新到 <xliff:g id="filename">%s</xliff:g>。\n\n如果選擇更新，你的裝置將會重新啓動到復原模式並安裝更新。\n\n注意：此功能需要一個相容的恢復程式。如果沒有的話，你需要手動安裝更新。</string>
   <string name="apply_update_ota_dialog_text">你將要升級到 <xliff:g id="filename">%s </xliff:g>。\n\n如果你確定更新，裝置將重新啟動到恢復模式並安裝更新。\n\n注意：此功能需要相容的恢復程式，否則你需要手動安裝更新。\n\n此為增量更新，因此對系統檔案所做的任何更改都可能會導致更新失敗。如果發生這種情況，請下載完整 ROM。</string>
   <string name="apply_unable_to_reboot_toast">無法重新啟動進入修復模式</string>
-  <!-- experimenter mode -->
+  <!-- Experimenter mode -->
   <string name="show_exp_on">你已經啟用實驗設定！</string>
   <string name="show_exp_already">不用了，你已經啟用實驗設定。</string>
   <!-- Discount -->
@@ -168,6 +169,7 @@
   <string name="discount_dialog_message">Thank you for your ongoing support towards MoKee Open Source. As a token of appreciation, you are entitled to a limited time offer. With %1$d CNY, you can enjoy incremental updates, verified updates and remove ads from MoKee Centre (save %2$d CNY). If you would like to pay later, you can close this dialog and relaunch MoKee Center again when you are ready.</string>
   <string name="discount_dialog_expires">Offer expires in %s</string>
   <string name="discount_dialog_cancel">Don\'t remind</string>
+  <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">MoKee 系統更新</string>
   <string name="verify_system_compatible_message">正在驗證增量更新的相容性</string>
   <string name="verify_system_compatible_failed">系統相容性驗證失敗</string>
@@ -175,4 +177,6 @@
   <string name="verify_system_compatible_img">%1$s 不相容，請升級到版本 %2$s</string>
   <string name="verify_system_compatible_root_request">更新驗證組件需要 Root 許可權以即時驗證更新的相容性。如果你選擇跳過，這一步將推遲並在恢復模式下執行。</string>
   <string name="verify_system_compatible_root_skip">略過</string>
+  <!-- Common -->
+  <string name="activity_not_found">尚未安裝應用程式。</string>
 </resources>

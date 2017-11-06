@@ -147,7 +147,7 @@
   <string name="delete_updates_failure_message">删除更新文件时发生了错误</string>
   <string name="delete_updates_nofolder_message">未找到更新文件所在的文件夹</string>
   <string name="delete_updates_success_message">所有已下载的更新文件已被删除</string>
-  <!-- pref -->
+  <!-- Pref -->
   <string name="pref_ota_check">增量更新</string>
   <string name="pref_ota_check_summary">为您节省时间和流量，随时随地轻松升级</string>
   <string name="pref_ota_check_donation_request_summary">想每天更新体验新功能，又觉得下载升级很麻烦？开启它，您只需下载10～20MB的补丁即可快速更新系统，无需下载400～700 MB的完整包。（累计捐赠 %d 元后永久可用）</string>
@@ -161,7 +161,7 @@
   <string name="apply_update_dialog_text">您将要更新到 <xliff:g id="filename">%s</xliff:g>。\n\n如果您点击“更新”，您的设备将会重启到恢复模式并安装更新。\n\n注意：此功能需要一个兼容的恢复程序。如果您没有的话，您可能需要手动安装更新。</string>
   <string name="apply_update_ota_dialog_text">您将要更新到 <xliff:g id="filename">%s</xliff:g>。\n\n如果您点击“更新”，您的设备将会重启到恢复模式并安装更新。\n\n注意：此功能需要一个兼容的恢复程序。如果您没有的话，您可能需要手动安装更新。\n\n本次为增量更新，任何人为或带有 Root 权限的程序对系统文件造成的修改可能导致更新失败，如果您遭遇此情形，请尝试下载完整包进行更新。</string>
   <string name="apply_unable_to_reboot_toast">无法重启到恢复模式</string>
-  <!-- experimenter mode -->
+  <!-- Experimenter mode -->
   <string name="show_exp_on">您现在处于测试者模式！</string>
   <string name="show_exp_already">您已处于测试者模式，无需进行此操作。</string>
   <!-- Discount -->
@@ -169,6 +169,7 @@
   <string name="discount_dialog_message">感谢您对魔趣开源项目的长期支持，现在您可享受限时优惠，%1$d 元获得增量更新、放心刷™并移除界面广告（立省 %2$d 元）！如果您想要稍后支付，可点按提示框外关闭窗口并在准备就绪后重新打开程序。</string>
   <string name="discount_dialog_expires">距离限时折扣结束还剩 %s</string>
   <string name="discount_dialog_cancel">不再提醒</string>
+  <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">魔趣更新验证</string>
   <string name="verify_system_compatible_message">正在验证增量更新的兼容性</string>
   <string name="verify_system_compatible_failed">兼容性验证失败</string>
@@ -176,7 +177,6 @@
   <string name="verify_system_compatible_img">%1$s 版本不匹配，需要 %2$s ，请更新厂商底包。</string>
   <string name="verify_system_compatible_root_request">更新验证组件需要获取 Root 权限以完成文件校验。如果您选择“跳过”，这一过程将在恢复模式下执行。</string>
   <string name="verify_system_compatible_root_skip">跳过</string>
-
   <!-- Common -->
-  <string name="activity_not_found">应用程序未安装</string>
+  <string name="activity_not_found">未安装该应用</string>
 </resources>
