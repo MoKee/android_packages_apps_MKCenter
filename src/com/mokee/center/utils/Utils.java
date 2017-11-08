@@ -41,6 +41,7 @@ import com.mokee.center.misc.DownLoadInfo;
 import com.mokee.center.service.UpdateCheckService;
 import com.mokee.os.Build;
 import com.mokee.security.License;
+import com.mokee.security.LicenseInfo;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -49,6 +50,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Random;
@@ -342,10 +344,12 @@ public class Utils {
     public static Float getPaidTotal(Context mContext) {
         if (new File(Constants.LICENSE_FILE).exists()) {
             try {
-                String licenseInfo[] = License.readLincense(Constants.LICENSE_FILE, Constants.PUB_KEY).split(" ");
-                if (licenseInfo[0].equals(Build.getUniqueID(mContext)) && licenseInfo[1].equals(mContext.getPackageName())
-                        || licenseInfo[0].equals(Build.getUniqueID(mContext, 0)) && licenseInfo[1].equals(mContext.getPackageName())) {
-                    return Float.valueOf(licenseInfo[licenseInfo.length - 1]);
+                LicenseInfo licenseInfo = License.readLicense(Constants.LICENSE_FILE, Constants.PUB_KEY);
+                if (Arrays.asList(licenseInfo.getUniqueID()).contains(Build.getUniqueID(mContext))
+                        && licenseInfo.getPackageName().equals(mContext.getPackageName())
+                        || Arrays.asList(licenseInfo.getUniqueID()).contains(Build.getUniqueID(mContext, 0))
+                        && licenseInfo.getPackageName().equals(mContext.getPackageName())) {
+                    return licenseInfo.getPrice();
                 }
             } catch (Exception e) {
                 e.printStackTrace();
