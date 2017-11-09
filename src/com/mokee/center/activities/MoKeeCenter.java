@@ -94,9 +94,13 @@ public class MoKeeCenter extends AppCompatActivity {
                     mRequest.setText(getString(R.string.donate_money_currency,
                             progress / 10 * 10 + Constants.DONATION_REQUEST_MIN));
                 } else {
-                    if (paid >= Constants.DONATION_REQUEST || progress > Constants.DONATION_REQUEST) {
+                    if (progress > Constants.DONATION_REQUEST) {
                         seekBar.setProgress(Constants.DONATION_TOTAL);
-                        mRequest.setText(getString(R.string.unlock_features_verify_rom_title, mSeekBar.getProgress() - paid.intValue()));
+                        if (paid >= Constants.DONATION_REQUEST) {
+                            mRequest.setText(getString(R.string.unlock_features_verify_rom_title, mSeekBar.getProgress() - paid.intValue()));
+                        } else {
+                            mRequest.setText(getString(R.string.unlock_features_all_title, mSeekBar.getProgress() - paid.intValue()));
+                        }
                     } else {
                         seekBar.setProgress(Constants.DONATION_REQUEST);
                         mRequest.setText(getString(R.string.unlock_features_ota_title, mSeekBar.getProgress() - paid.intValue()));

@@ -91,7 +91,8 @@
     <string name="donate_money_info_null">You haven\'t donated</string>
     <string name="unlock_features_title">Unlock features</string>
     <string name="unlock_features_ota_title">Donate %d CNY for unlock ota and full speed download.</string>
-    <string name="unlock_features_verify_rom_title">Donate %d CNY for unlock ota, full speed download, verified updates and remove ads.</string>
+    <string name="unlock_features_verify_rom_title">Donate %d CNY for verified updates and remove ads.</string>
+    <string name="unlock_features_all_title">Donate %d CNY for unlock ota, full speed download, verified updates and remove ads.</string>
 
     <!-- Update -->
     <string name="unknown">Unknown</string>
