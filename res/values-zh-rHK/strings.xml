@@ -82,7 +82,8 @@
   <string name="donate_money_info_null">捐贈是國際上通行的一種支持免費軟件的方式，完成一次光榮的捐贈，使我們能夠做的更好！</string>
   <string name="unlock_features_title">功能解鎖</string>
   <string name="unlock_features_ota_title">捐贈%d元解鎖OTA更新以及全速下載。</string>
-  <string name="unlock_features_verify_rom_title">捐贈%d元解鎖OTA更新、全速下載、驗證更新以及去廣告</string>
+  <string name="unlock_features_verify_rom_title">捐贈 %d 人民幣，開啟驗證更新和去廣告</string>
+  <string name="unlock_features_all_title">捐贈 %d 人民幣解鎖 OTA 更新、全速下載、驗證更新以及去廣告</string>
   <!-- Update -->
   <string name="unknown">不明</string>
   <string name="dialog_update">更新</string>

@@ -80,7 +80,6 @@
   <string name="donate_money_info_null">Вы не рабілі ахвяраванняў</string>
   <string name="unlock_features_title">Функцыі разблакоўкі</string>
   <string name="unlock_features_ota_title">Ахвяруйце %d CNY для разблакоўкі ота і поўнай хуткасці загрузкі.</string>
-  <string name="unlock_features_verify_rom_title">Ахвяруйце %d CNY для разблакоўкі ота, поўнай хуткасці загрузкі, праверкі абнаўлення і выдалення аб\'яваў.</string>
   <!-- Update -->
   <string name="unknown">Невядома</string>
   <string name="dialog_update">Абнаўленне</string>

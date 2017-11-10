@@ -82,7 +82,6 @@
   <string name="donate_money_info_null">Nebylo darováno</string>
   <string name="unlock_features_title">Odemknout funkce</string>
   <string name="unlock_features_ota_title">Přispět %d CNY pro odemknutí OTA a plné rychlosti stahování.</string>
-  <string name="unlock_features_verify_rom_title">Přispět %d CNY pro odemknutí OTA, plné rychlosti stahování, ověřených aktualizací a odstranění reklam.</string>
   <!-- Update -->
   <string name="unknown">Neznámá</string>
   <string name="dialog_update">Aktualizovat</string>

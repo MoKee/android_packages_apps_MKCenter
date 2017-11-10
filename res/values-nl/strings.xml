@@ -80,7 +80,6 @@
   <string name="donate_money_info_null">U hebt geen donatie gedaan</string>
   <string name="unlock_features_title">Onderdelen ontgrendelen</string>
   <string name="unlock_features_ota_title">Doneer %d CNY om ota te ontgrendelen en aan de hoogste snelheid te downloaden.</string>
-  <string name="unlock_features_verify_rom_title">Doneer %d CNY om ota te ontgrendelen, aan de hoogste snelheid te downloaden, geverifieerde updates te krijgen en om advertenties te verwijderen.</string>
   <!-- Update -->
   <string name="unknown">Onbekend</string>
   <string name="dialog_update">Bijwerken</string>
