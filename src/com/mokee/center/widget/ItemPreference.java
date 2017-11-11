@@ -248,7 +248,9 @@ public class ItemPreference extends Preference implements
                     if (diffSize > 0 ) {
                         mSummaryText.setText(getContext().getString(R.string.ota_diff_update_summary,
                                 Formatter.formatFileSize(getContext(), diffSize)));
-                        mSummaryText.setTextColor(Color.RED);
+                        if (!Utils.checkMinLicensed(getContext())) {
+                            mSummaryText.setTextColor(Color.RED);
+                        }
                     } else {
                         mSummaryText.setText(R.string.new_update_summary);
                     }
