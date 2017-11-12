@@ -18,7 +18,6 @@
 package com.mokee.center.fragments;
 
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.mokee.utils.MoKeeUtils;
 import android.net.Uri;
 import android.os.Bundle;
@@ -26,13 +25,12 @@ import android.support.v14.preference.SwitchPreference;
 import android.support.v7.preference.Preference;
 import android.support.v7.preference.PreferenceFragmentCompat;
 
+import mokee.providers.MKSettings;
+
 import com.mokee.center.R;
 
 public class MoKeeSupportFragment extends PreferenceFragmentCompat
         implements Preference.OnPreferenceChangeListener {
-
-    private static final String MKPUSH_PREF = "mokee_push";
-    private static final String PREF_NEWS = "pref_news";
 
     private static final String KEY_MOKEE_WEBSITE = "mokee_website";
     private static final String KEY_MOKEE_FORUM = "mokee_forum";
@@ -51,7 +49,6 @@ public class MoKeeSupportFragment extends PreferenceFragmentCompat
     private static final String URL_MOKEE_GITHUB = "https://github.com/MoKee";
     private static final String URL_MOKEE_WIKI = "http://wiki.mokeedev.com";
 
-    private SharedPreferences prefs;
     private SwitchPreference mPushNewsPreferences;
 
     private void goToURL(String url) {
@@ -64,17 +61,15 @@ public class MoKeeSupportFragment extends PreferenceFragmentCompat
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
         addPreferencesFromResource(R.xml.mokee_support);
         setHasOptionsMenu(true);
-        prefs = getActivity().getSharedPreferences(MKPUSH_PREF, 0);
         mPushNewsPreferences = (SwitchPreference) findPreference(KEY_MOKEE_NEWS);
         mPushNewsPreferences.setOnPreferenceChangeListener(this);
-        mPushNewsPreferences.setChecked(prefs.getBoolean(PREF_NEWS, true));
+        mPushNewsPreferences.setChecked(MKSettings.System.getInt(getContext().getContentResolver(), MKSettings.System.RECEIVE_PUSH_NOTIFICATIONS, 1) == 1);
     }
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
         if (preference == mPushNewsPreferences) {
-            boolean value = (Boolean) newValue;
-            prefs.edit().putBoolean(PREF_NEWS, value).apply();
+            MKSettings.System.putInt(getContext().getContentResolver(), MKSettings.System.RECEIVE_PUSH_NOTIFICATIONS, (Boolean) newValue ? 1 : 0);
             return true;
         }
         return false;
