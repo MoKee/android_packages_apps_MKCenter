@@ -83,6 +83,7 @@
   <string name="unlock_features_title">Odomknúť funkcie</string>
   <string name="unlock_features_ota_title">Prispieť %d CNY pre odomknutie OTA a plnej rýchlosti sťahovania.</string>
   <string name="unlock_features_verify_rom_title">Prispieť %d CNY pre odomknutie OTA, plnej rýchlosti sťahovania, overených aktualizácií a odstránenie reklám.</string>
+  <string name="unlock_features_all_title">Prispieť %d CNY pre odomknutie OTA, plnej rýchlosti sťahovania, overených aktualizácií a odstránenie reklám.</string>
   <!-- Update -->
   <string name="unknown">Neznáme</string>
   <string name="dialog_update">Aktualizovať</string>

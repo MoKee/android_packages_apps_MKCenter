@@ -83,6 +83,7 @@
   <string name="unlock_features_title">Desbloquear recursos</string>
   <string name="unlock_features_ota_title">Doar %d CNY para desbloquear OTA e download em velocidade máxima.</string>
   <string name="unlock_features_verify_rom_title">Doar %d CNY para desbloquear OTA, download em velocidade máxima, atualizações verificadas e remover anúncios.</string>
+  <string name="unlock_features_all_title">Doar %d CNY para desbloquear OTA, download em velocidade máxima, atualizações verificadas e remover anúncios.</string>
   <!-- Update -->
   <string name="unknown">Desconhecido</string>
   <string name="dialog_update">Atualizar</string>
