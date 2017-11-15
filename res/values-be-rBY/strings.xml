@@ -68,18 +68,22 @@
   <string name="donate_dialog_message">У адрозненне ад такіх кампаній як Cygn або MIUI, MoKee OpenSource з\'яўляецца чыста некамерцыйным праектам, якi з\'явіўся на свет намаганнямі энтузіястаў. Для таго, каб падтрымліваць гэты праект, мы ўкладваем свае ўласныя сродкі, а таксама сродкі ад ахвяраванняў і рэкламы. Вашы ахвяраванні дапамогуць знізіць нашу фінансавую нагрузку і забяспечыць будучае развіццё! Гэтая опцыя дазваляе выдаліць рэкламу ў Панэлi MoKee, або выкарыстоўвайце опцыю \"Ахвяраваць\" замест гэтага, калі вы аддаеце перавагу растэрміноўцы (рэклама будзе выдалена, як толькі агульная сума дасягнула зададзенага значэння). Калі ласка стварыце рэзервовую копію файла mokee.license (у каранёвым каталогу SDCard, сапраўдна толькі для гэтай прылады), як толькі вы ахвяравалі.</string>
   <string name="donate_dialog_via_paypal">PayPal(USD)</string>
   <string name="donate_dialog_via_alipay">AliPay(CNY)</string>
+  <string name="donate_dialog_via_wechat">WeChat</string>
   <string name="donate_dialog_via_restore">Аднавіць з рэзервовай копіі</string>
   <string name="donate_money_toast_success">Дзякуй Вам за ахвяраванне!</string>
   <string name="donate_money_title">Ахвяраваць MoKee OpenSource</string>
   <string name="donate_money_again">Ахвяраваць зноў</string>
   <string name="donate_money_restored_success">Аднаўленне паспяхова завершана!</string>
   <string name="donate_money_restored_failed">Інфармацыі аб ахвяраваннях не знойдзена.</string>
+  <string name="donate_money_restored_failed_solution">Рашэнне</string>
   <string name="donate_money_restored_timeout">Спалучэнне дадзеных перарвана, калі ласка паспрабуйце зноў</string>
   <string name="donate_money_info">Ваша ахвяраванне складае CYN: %1$d. Яно больш, чым %2$s з усіх ахвяравальнікаў!</string>
   <string name="donate_money_info_with_rank">Ваша ахвяраванне складае CYN: %1$d. Яно больш, чым %2$s з усіх ахвяравальнікаў! Ваш рэйтынг %3$d!</string>
   <string name="donate_money_info_null">Вы не рабілі ахвяраванняў</string>
   <string name="unlock_features_title">Функцыі разблакоўкі</string>
   <string name="unlock_features_ota_title">Ахвяруйце %d CNY для разблакоўкі ота і поўнай хуткасці загрузкі.</string>
+  <string name="unlock_features_verify_rom_title">Ахвяраваць %d CNY для разблакоўкі OTA абнаўленняў, поўнай хуткасці спампоўкі, праверкі абнаўленняў і выдалення аб\'явы.</string>
+  <string name="unlock_features_all_title">Ахвяруйце %d CNY для разблакоўкі ота, поўнай хуткасці загрузкі, праверкі абнаўлення і выдалення аб\'яваў.</string>
   <!-- Update -->
   <string name="unknown">Невядома</string>
   <string name="dialog_update">Абнаўленне</string>

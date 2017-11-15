@@ -68,12 +68,14 @@
   <string name="donate_dialog_message">A diferencia de empresas como Cygn o MIUI, MoKee OpenSource es un proyecto puramente sin ánimo de lucro nacido de la entusiasmo y la pasión. Para mantener este proyecto, tenemos que dedicar nuestro propio dinero la mayor parte del tiempo o depender de donaciones y la publicidad. Sus donaciones pueden ayudar a reducir la carga financiera y sostener el desarrollo futuro. Esta opción le permite quitar los anuncios del Centro MoKee, o utilizar la opción \"Donar\" en cambio si prefieres cuotas (los anuncios se eliminaran una vez que el total alcanza el valor especificado). Por favor haz una copia de seguridad del archivo mokee.license (en el directorio raíz de la sdcard, solo válido para el dispositivo actual) una vez hecha la donación.</string>
   <string name="donate_dialog_via_paypal">PayPal(USD)</string>
   <string name="donate_dialog_via_alipay">AliPay(CNY)</string>
+  <string name="donate_dialog_via_wechat">WeChat</string>
   <string name="donate_dialog_via_restore">Restaurar</string>
   <string name="donate_money_toast_success">Gracias por tu donación!</string>
   <string name="donate_money_title">Donar a MoKee Open Source</string>
   <string name="donate_money_again">Donar otra vez</string>
   <string name="donate_money_restored_success">¡Restaurado con éxito!</string>
   <string name="donate_money_restored_failed">No se han encontrado dispositivos.</string>
+  <string name="donate_money_restored_failed_solution">Solución</string>
   <string name="donate_money_restored_timeout">Error de conexión. Por favor, inténtelo de nuevo</string>
   <string name="donate_money_info">Donaste un total de CNY %1$d, más que %2$s de donantes a nivel mundial!</string>
   <string name="donate_money_info_with_rank">Donaste un total de CNY %1$d, más que %2$s de donantes a nivel mundial, rank No.%3$d!</string>
@@ -81,6 +83,7 @@
   <string name="unlock_features_title">Gesto de desbloqueo</string>
   <string name="unlock_features_ota_title">Donar %d CNY para desbloquear toda velocidad descarga y ota.</string>
   <string name="unlock_features_verify_rom_title">Donar %d CNY para desbloquear ota, descargar velocidad completa, verificar actualizaciones y eliminar anuncios.</string>
+  <string name="unlock_features_all_title">Donar %d CNY para desbloquear OTA, velocidad de descarga máxima, verificar actualizaciones y quitar publicidad.</string>
   <!-- Update -->
   <string name="unknown">Desconocido</string>
   <string name="dialog_update">Actualización</string>
