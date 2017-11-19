@@ -68,12 +68,14 @@
   <string name="donate_dialog_message">Tidak seperti perusahaan Cygn atau MIUI, MoKee OpenSource adalah proyek nirlaba yang murni lahir dari hobi dan semangat. Untuk menjaga proyek ini, kita harus mengeluarkan uang setiap waktunya atau mengandalkan donasi dan iklan. Donasi anda dapat membantu mengurangi beban keuangan kami dan menunjang perkembangan kedepannya! Pilihan ini memungkinkan anda untuk menghapus iklan di Pusat MoKee, atau gunakan \"Donasi\", sebaliknya jika anda memilih cicilan (iklan akan dihapus setelah total mencapai nilai yang ditentukan). Silahkan cadangkan berkas mokee.license (dalam direktori root di sdcard, hanya berlaku untuk perangkat saat ini) setelah anda telah melakukan donasi.</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
+  <string name="donate_dialog_via_wechat">Wechat</string>
   <string name="donate_dialog_via_restore">Pulihkan</string>
   <string name="donate_money_toast_success">Terima kasih untuk donasi anda!</string>
   <string name="donate_money_title">Donasi untuk MoKee Open Source</string>
   <string name="donate_money_again">Donasi lagi</string>
   <string name="donate_money_restored_success">Pemulihan berhasil!</string>
   <string name="donate_money_restored_failed">Tidak ada catatan perangkat ditemukan.</string>
+  <string name="donate_money_restored_failed_solution">Solusi</string>
   <string name="donate_money_restored_timeout">Sambungan gagal, silahkan ulangi</string>
   <string name="donate_money_info">Total donasi anda CNY %1$d, lebih dari %2$s dari donatur secara global!</string>
   <string name="donate_money_info_with_rank">Total donasi anda CNY %1$d, lebih dari %2$s dari para donatur global, peringkat No.%3$d!</string>
@@ -81,6 +83,7 @@
   <string name="unlock_features_title">Buka fitur</string>
   <string name="unlock_features_ota_title">Donasi %d CNY untuk membuka ota dan unduhan kecepatan penuh.</string>
   <string name="unlock_features_verify_rom_title">Donasi %d CNY untuk membuka ota, unduhan kecepatan penuh, pembaruan diverifikasi dan menghapus iklan.</string>
+  <string name="unlock_features_all_title">%d CNY menyumbang untuk membuka ota, download kecepatan penuh, pembaruan di verifikasi dan menghapus iklan.</string>
   <!-- Update -->
   <string name="unknown">Tidak diketahui</string>
   <string name="dialog_update">Perbarui</string>

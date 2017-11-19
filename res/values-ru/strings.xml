@@ -83,6 +83,7 @@
   <string name="unlock_features_title">Разблокировать функцию</string>
   <string name="unlock_features_ota_title">Пожертвовать %d CNY для разблокировки OTA обновлений и полной скорости загрузки.</string>
   <string name="unlock_features_verify_rom_title">Пожертвовать %d CNY для разблокировки OTA обновлений, полной скорости скачивания, проверка обновлений и удалять объявления.</string>
+  <string name="unlock_features_all_title">Пожертвовать %d CNY для доступа к OTA обновлениям, полной скорости скачивания, проверке обновлений и удаления рекламы.</string>
   <!-- Update -->
   <string name="unknown">Неизвестно</string>
   <string name="dialog_update">Обновление</string>
