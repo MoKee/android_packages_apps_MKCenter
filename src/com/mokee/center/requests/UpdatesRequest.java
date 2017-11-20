@@ -35,6 +35,7 @@ import com.mokee.center.MKCenterApplication;
 import com.mokee.center.fragments.MoKeeUpdaterFragment;
 import com.mokee.center.misc.Constants;
 import com.mokee.center.utils.Utils;
+import com.mokee.security.RSAUtils;
 
 public class UpdatesRequest extends StringRequest {
     private String mUserAgent;
@@ -53,7 +54,7 @@ public class UpdatesRequest extends StringRequest {
         }
         headers.put("Cache-Control", "no-cache");
 
-        Locale mLocale = MKCenterApplication.getContext().getResources().getConfiguration().locale;
+        Locale mLocale = Locale.getDefault();
         String language = mLocale.getLanguage();
         String country = mLocale.getCountry();
         headers.put("Accept-Language", (language + "-" + country).toLowerCase(Locale.ENGLISH));
@@ -111,9 +112,14 @@ public class UpdatesRequest extends StringRequest {
             params.put("is_verified", "1");
         }
 
-        params.put("device_name", Build.PRODUCT);
-        params.put("device_version", Build.VERSION);
+        try {
+            params.put("device_name", RSAUtils.rsaEncryptByPublicKey(Build.PRODUCT));
+            params.put("device_version", RSAUtils.rsaEncryptByPublicKey(Build.VERSION));
+        } catch (Exception e) {
+        }
         params.put("build_user", android.os.Build.USER);
+        params.put("is_encrypted", "1");
+
         if (!isOTA) {
             params.put("device_officail", String.valueOf(updateType));
             params.put("rom_all", "0");
