@@ -68,18 +68,22 @@
   <string name="donate_dialog_message">In tegenstelling tot bedrijven zoals Cygn of MIUI is MoKee OpenSource en een zuiver non-profit project geboren uit een hobby en passie. Om dit project te onderhouden, moeten wij meestal zelf ons eigen geld neerleggen of vertrouwen op donaties en reclame. Uw donaties kunnen helpen van het verminderen van onze financiële belastingen en duurzame toekomstige ontwikkelingen! Dit biedt u de mogelijkheid om advertenties te verwijderen in MoKee Center, of gebruik de \"donatie\" optie als u liever in termijnen betaald (advertenties worden verwijderd wanneer het totaal opgegeven bedrag bereikt is) maak alsjeblieft een kopie van het mokee.license bestand (in de rootdirectory van de sdcard, enkel geldig voor een geldig apparaat) zodra u heeft gedoneerd.</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
+  <string name="donate_dialog_via_wechat">WeChat</string>
   <string name="donate_dialog_via_restore">Terugzetten</string>
   <string name="donate_money_toast_success">Dank u voor uw donatie!</string>
   <string name="donate_money_title">Doneer aan MoKee OpenSource</string>
   <string name="donate_money_again">Opnieuw doneren</string>
   <string name="donate_money_restored_success">Terugzetten gelukt!</string>
   <string name="donate_money_restored_failed">Telefoon niet gevonden.</string>
+  <string name="donate_money_restored_failed_solution">Oplossing</string>
   <string name="donate_money_restored_timeout">Verbindings- time out, probeer het later opniew</string>
   <string name="donate_money_info">U doneerde in totaal %1$d CNY, dat is %2$s CNY meer dan er wereldwijd gedoneerd wordt!</string>
   <string name="donate_money_info_with_rank">U geschonk CNY %1$d, in totaal meer dan %2$s van donors wereldwijd, rang No.%3$d!</string>
   <string name="donate_money_info_null">U hebt geen donatie gedaan</string>
   <string name="unlock_features_title">Onderdelen ontgrendelen</string>
   <string name="unlock_features_ota_title">Doneer %d CNY om ota te ontgrendelen en aan de hoogste snelheid te downloaden.</string>
+  <string name="unlock_features_verify_rom_title">Doneer %d CNY voor geverifieerde updates en verwijderen van de advertenties.</string>
+  <string name="unlock_features_all_title">%d CNY doneren voor ontgrendelen OTA, volle snelheid downloaden, updates gecontroleerd en verwijder advertenties.</string>
   <!-- Update -->
   <string name="unknown">Onbekend</string>
   <string name="dialog_update">Bijwerken</string>
