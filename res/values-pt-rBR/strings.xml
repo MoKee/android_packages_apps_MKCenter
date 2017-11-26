@@ -77,8 +77,8 @@
   <string name="donate_money_restored_failed">Sem registros de dispositivo.</string>
   <string name="donate_money_restored_failed_solution">Solução</string>
   <string name="donate_money_restored_timeout">Conexão Expirou, por favor tente novamente</string>
-  <string name="donate_money_info">Você doou um total de CNY %1$d, mais do que %2$s de doadores globalmente!</string>
-  <string name="donate_money_info_with_rank">Você doou um total de CNY %1$d, mais do que %2$s de doadores globalmente, rank No.%3$d!</string>
+  <string name="donate_money_info">Você doou um total de %1$d CNY, mais do que %2$s de doadores globalmente!</string>
+  <string name="donate_money_info_with_rank">Você doou um total de %1$d CNY, mais do que %2$s de doadores globalmente, rank No.%3$d!</string>
   <string name="donate_money_info_null">Você ainda não doou</string>
   <string name="unlock_features_title">Desbloquear recursos</string>
   <string name="unlock_features_ota_title">Doar %d CNY para desbloquear OTA e download em velocidade máxima.</string>
@@ -172,12 +172,12 @@
   <string name="discount_dialog_cancel">Não lembrar</string>
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">Atualização de sistema da Mokee</string>
-  <string name="verify_system_compatible_message">Verificar a compatibilidade do sistema antes de patchear\u2026</string>
-  <string name="verify_system_compatible_failed">Verifição de compatibilidade do sistema falhou</string>
-  <string name="verify_system_compatible_patch">Os seguintes arquivos ou foram modificados ou removidos, por favor, restaure-os e tente novamente.</string>
+  <string name="verify_system_compatible_message">Verificar a compatibilidade do sistema antes de incrementar\u2026</string>
+  <string name="verify_system_compatible_failed">A verificação de compatibilidade do sistema falhou</string>
+  <string name="verify_system_compatible_patch">Os seguintes arquivos ou foram modificados ou foram removidos, por favor, restaure-os e tente novamente.</string>
   <string name="verify_system_compatible_img">%1$s incompatível, por favor, atualize para a versão %2$s</string>
   <string name="verify_system_compatible_root_request">A permissão de root é exigida pelo \"Plugin de Verificação de Atualização\" de modo a verificar a compatibilidade da atualização. Se você optar por ignorar, esta etapa será adiada e executada no modo recuperação.</string>
   <string name="verify_system_compatible_root_skip">Pular</string>
   <!-- Common -->
-  <string name="activity_not_found">O app não está instalado.</string>
+  <string name="activity_not_found">O aplicativo não está instalado.</string>
 </resources>
