@@ -62,6 +62,7 @@
   <string name="menu_refresh">Yangilash</string>
   <string name="menu_delete_all">Download olib tashlash</string>
   <!-- Donate -->
+  <string name="donate_dialog_title">Xayriya qiling</string>
   <!-- Update -->
   <string name="unknown">Ko`rsatilmagan</string>
   <!-- ChangeLog -->

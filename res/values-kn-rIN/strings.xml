@@ -26,6 +26,10 @@
   <string name="mokee_website_summary">ಅಧಿಕೃತ ಜಾಲತಾಣ ಭೇಟಿ</string>
   <string name="mokee_forum_title">MoKee ವೇದಿಕೆ</string>
   <string name="mokee_forum_summary">MoKee ವೇದಿಕೆಯನ್ನು ಭೇಟಿ ಮಾಡಿ</string>
+  <string name="mokee_issues_title">ಮೊಕಿ ಬಗ್ ಟ್ರಾಕರ್</string>
+  <string name="mokee_issues_summary">ದೋಷ ಟ್ರ್ಯಾಕರ್ ಅನ್ನು ಭೇಟಿ ಮಾಡಿ</string>
+  <string name="mokee_changelog_title">MoKee ಚೇಂಜ್ಲಾಗ್</string>
+  <string name="mokee_changelog_summary">ದೈನಂದಿನ ಚೇಂಜ್ಲಾಗ್ಗಳನ್ನು ವೀಕ್ಷಿಸಿ</string>
   <string name="mokee_github_title">MoKee Github</string>
   <string name="mokee_github_summary">MoKee Github ಗೆ ಭೇಟಿ ನೀಡಿ</string>
   <string name="mokee_translate_title">MoKee ಭಾಷಾಂತರ</string>

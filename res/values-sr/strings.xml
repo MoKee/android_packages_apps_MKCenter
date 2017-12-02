@@ -29,6 +29,7 @@
   <string name="mokee_issues_title">MoKee отклањање грешака</string>
   <string name="mokee_issues_summary">Погледајте извештај о грешкама</string>
   <string name="mokee_changelog_title">MoKee списак измена</string>
+  <string name="mokee_changelog_summary">Šta je novo</string>
   <string name="mokee_github_title">MoKee Github</string>
   <string name="mokee_github_summary">Посетите MoKee Github</string>
   <string name="mokee_translate_title">MoKee превод</string>
@@ -40,6 +41,7 @@
   <!-- Base Info -->
   <string name="mokee_version_info_title">Инфо о верзији</string>
   <string name="mokee_version_title">MoKee верзија</string>
+  <string name="mokee_donate_info_title">Informacije o donaciji</string>
   <string name="mokee_last_check_title">Последња провера</string>
   <string name="mokee_last_check_never">Никада</string>
   <!-- Version -->
@@ -65,6 +67,9 @@
   <string name="donate_dialog_via_alipay">AliPay(CNY)</string>
   <string name="donate_money_toast_success">Хвала на донацији!</string>
   <string name="donate_money_again">Donirajte ponovo</string>
+  <string name="donate_money_restored_success">Uspešno obnovljeno!</string>
+  <string name="donate_money_restored_failed">Nisu pronađeni zapisi o oruđaju.</string>
+  <string name="donate_money_restored_timeout">Isteklo vreme veze, molim vas pokušajte ponovo</string>
   <!-- Update -->
   <string name="unknown">Непознато</string>
   <string name="dialog_update">Надоградња</string>

@@ -68,12 +68,14 @@
   <string name="donate_dialog_message">W odróżnieniu od firm takich jak Cyanogen lub MIUI, MoKee OpenSource jest projektem czysto non-profit zrodzonym z hobby i pasji. W celu utrzymania tego projektu wydajemy nasze własne pieniądze lub polegamy na darowiźnie i reklamie. Darowizny mogą pomóc zmniejszyć nasze obciążenie finansowe i utrzymać przyszły rozwój! Opcja ta pozwala na usunięcie reklam w centrum MoKee, można też użyć opcji \"Wspomóż nas\", jeśli wolisz raty (reklamy zostaną usunięte, gdy suma osiągnie określoną wartość). Proszę wykonać kopię zapasową pliku mokee. license (w katalogu głównym, ważne tylko dla bieżącego urządzenia), jeśli dokonałeś wpłaty.</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
+  <string name="donate_dialog_via_wechat">Wechat</string>
   <string name="donate_dialog_via_restore">Przywróć</string>
   <string name="donate_money_toast_success">Dziękujemy za wsparcie!</string>
   <string name="donate_money_title">Wspomóż MoKee OpenSource</string>
   <string name="donate_money_again">Wesprzyj ponownie</string>
   <string name="donate_money_restored_success">Pomyślnie przywrócono!</string>
   <string name="donate_money_restored_failed">Nie znaleziono rekordu urządzenia.</string>
+  <string name="donate_money_restored_failed_solution">Rozwiązanie</string>
   <string name="donate_money_restored_timeout">Połączenie zostało przerwane, spróbuj ponownie</string>
   <string name="donate_money_info">Przekazałeś w sumie %1$d juanów, więcej niż %2$s przekazujących dotację!</string>
   <string name="donate_money_info_with_rank">Przekazałeś w sumie %1$d juanów, więcej niż %2$s przekazujących dotację. Miejsce numer %3$d!</string>
@@ -81,6 +83,7 @@
   <string name="unlock_features_title">Gest odblokowania</string>
   <string name="unlock_features_ota_title">Dotacja w wysokości %d CNY by odblokować OTA oraz pełną prędkość pobierania.</string>
   <string name="unlock_features_verify_rom_title">Dotacja w wysokości %d CNY by odblokować OTA, pełną prędkość pobierania, zweryfikowane aktualizacje oraz usunąć reklamy.</string>
+  <string name="unlock_features_all_title">Dotacja w wysokości %d CNY by odblokować OTA, pełną prędkość pobierania, zweryfikowane aktualizacje oraz usunąć reklamy.</string>
   <!-- Update -->
   <string name="unknown">Brak informacji</string>
   <string name="dialog_update">Aktualizacja</string>
@@ -173,6 +176,7 @@
   <string name="verify_system_compatible_failed">Weryfikowanie zgodności systemu nie powiodło się</string>
   <string name="verify_system_compatible_patch">Następujące pliki albo zostały zmodyfikowane lub usunięte, należy przywrócić je i spróbować ponownie.</string>
   <string name="verify_system_compatible_img">Niekompatybilny %1$s, zaktualizuj do wersji %2$s</string>
+  <string name="verify_system_compatible_root_request">Do weryfikacji aktualizacji potrzebne są uprawnienia Root. Jeżeli to pominiesz, krok zostanie wykonany później w trybie recovery.</string>
   <string name="verify_system_compatible_root_skip">Pomiń</string>
   <!-- Common -->
   <string name="activity_not_found">Aplikacja nie jest zainstalowana.</string>
