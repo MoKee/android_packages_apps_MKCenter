@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2014-2016 The MoKee Open Source Project
+     Copyright (C) 2014-2018 The MoKee Open Source Project
 
      This program is free software: you can redistribute it and/or modify
      it under the terms of the GNU General Public License as published by
@@ -21,7 +21,7 @@
     <!-- Server Interface Config -->
     <string name="conf_update_server_url_def" translatable="false">http://ota.mokeedev.com/full.php</string>
     <string name="conf_update_ota_server_url_def" translatable="false">http://ota.mokeedev.com/ota.php</string>
-    <string name="conf_get_ranking_server_url_def" translatable="false">http://cloud.mokeedev.com/api/rankingByUserIDv2</string>
+    <string name="conf_get_ranking_server_url_def" translatable="false">http://cloud.mokeedev.com/api/rankingByUserIDv3</string>
 
     <!-- Google Mobile Ads -->
     <string name="app_id" translatable="false">ca-app-pub-1229799408538170~5022945496</string>
