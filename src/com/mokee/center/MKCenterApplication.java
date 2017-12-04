@@ -21,11 +21,18 @@ import android.app.Activity;
 import android.app.ActivityThread;
 import android.app.Application;
 import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.text.TextUtils;
 
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
 import com.mokee.center.activities.MoKeeCenter;
+import com.mokee.center.service.DeviceRegistrationService;
+import com.mokee.utils.CommonUtils;
+
+import mokee.providers.MKSettings;
 
 public class MKCenterApplication extends Application implements
         Application.ActivityLifecycleCallbacks {
@@ -33,6 +40,7 @@ public class MKCenterApplication extends Application implements
     private static Context context;
     private boolean mMainActivityActive;
     private RequestQueue mRequestQueue;
+    private SharedPreferences mSharedPreferences;
 
     public static Context getContext() {
         return context;
@@ -47,6 +55,12 @@ public class MKCenterApplication extends Application implements
         registerActivityLifecycleCallbacks(this);
         mRequestQueue = Volley.newRequestQueue(this);
         context = getApplicationContext();
+
+        if (TextUtils.isEmpty(MKSettings.Secure.getString(getContentResolver(), MKSettings.Secure.UNIQUE_REGISTRATION_IDS)) && CommonUtils.hasTelephony(context)) {
+            Intent intent = new Intent();
+            intent.setClass(context, DeviceRegistrationService.class);
+            startService(intent);
+        }
 
     }
 
