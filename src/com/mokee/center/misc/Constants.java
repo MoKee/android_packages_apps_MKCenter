@@ -46,6 +46,7 @@ public class Constants {
     public static final String OTA_CHECK_PREF = "pref_ota_check";
     public static final String VERIFY_ROM_PREF = "pref_verify_rom";
     public static final String LAST_UPDATE_CHECK_PREF = "pref_last_update_check";
+    public static final String UNIQUE_REGISTRATION_IDS = "unique_registration_ids";
 
     // Update Check items
     public static final String BOOT_CHECK_COMPLETED = "boot_check_completed";
