@@ -29,10 +29,12 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Environment;
 import android.os.RecoverySystem;
+import android.preference.PreferenceManager;
 import android.support.v7.preference.PreferenceFragmentCompat;
 import android.text.format.DateUtils;
 import android.widget.Toast;
 
+import com.mokee.center.MKCenterApplication;
 import com.mokee.center.R;
 import com.mokee.center.db.DownLoadDao;
 import com.mokee.center.db.ThreadDownLoadDao;
@@ -414,6 +416,10 @@ public class Utils {
             }
         }
         return false;
+    }
+
+    public static SharedPreferences getDefaultSharedPreferences() {
+        return PreferenceManager.getDefaultSharedPreferences(MKCenterApplication.getContext());
     }
 
 }
