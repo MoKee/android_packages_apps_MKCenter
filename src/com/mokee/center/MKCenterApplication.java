@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014-2017 The MoKee Open Source Project
+ * Copyright (C) 2014-2018 The MoKee Open Source Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -23,18 +23,12 @@ import android.app.Application;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
-import android.text.TextUtils;
 
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
 import com.mokee.center.activities.MoKeeCenter;
 import com.mokee.center.service.DeviceRegistrationService;
-import com.mokee.os.Build;
 import com.mokee.utils.CommonUtils;
-
-import java.util.Arrays;
-
-import mokee.providers.MKSettings;
 
 public class MKCenterApplication extends Application implements
         Application.ActivityLifecycleCallbacks {
@@ -58,13 +52,10 @@ public class MKCenterApplication extends Application implements
         context = getApplicationContext();
 
         if (!CommonUtils.hasTelephony(context)) return;
-
-        String unique_registration_ids = MKSettings.Secure.getString(getContentResolver(), MKSettings.Secure.UNIQUE_REGISTRATION_IDS);
-        if (TextUtils.isEmpty(unique_registration_ids)) {
-            Intent intent = new Intent();
-            intent.setClass(context, DeviceRegistrationService.class);
-            startService(intent);
-        }
+        // Reset device registration ids
+        Intent intent = new Intent();
+        intent.setClass(context, DeviceRegistrationService.class);
+        startService(intent);
 
     }
 
