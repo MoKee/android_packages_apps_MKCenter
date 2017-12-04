@@ -127,10 +127,6 @@ public class UpdatesRequest extends StringRequest {
         if (Utils.checkMinLicensed(MKCenterApplication.getContext())) {
             String unique_id = Build.getUniqueID(MKCenterApplication.getContext());
             params.put("user_id", unique_id);
-            String unique_id_external = Build.getUniqueID(MKCenterApplication.getContext(), 0);
-            if (!TextUtils.equals(unique_id, unique_id_external)) {
-                params.put("user_id_external", unique_id_external);
-            }
         }
         return params;
     }

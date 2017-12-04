@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2016 The MoKee Open Source Project
+ * Copyright (C) 2016-2018 The MoKee Open Source Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -30,6 +30,8 @@ import com.mokee.os.Build;
 
 import com.mokee.center.MKCenterApplication;
 
+import mokee.providers.MKSettings;
+
 public class InfoRequest extends StringRequest {
 
     private String mUserAgent;
@@ -48,7 +50,7 @@ public class InfoRequest extends StringRequest {
         }
         headers.put("Cache-Control", "no-cache");
 
-        Locale mLocale = MKCenterApplication.getContext().getResources().getConfiguration().locale;
+        Locale mLocale = Locale.getDefault();
         String language = mLocale.getLanguage();
         String country = mLocale.getCountry();
         headers.put("Accept-Language", (language + "-" + country).toLowerCase(Locale.ENGLISH));
@@ -59,12 +61,8 @@ public class InfoRequest extends StringRequest {
     @Override
     protected Map<String, String> getParams() throws AuthFailureError {
         Map<String, String> params = new HashMap<String, String>();
-        String unique_id = Build.getUniqueID(MKCenterApplication.getContext());
-        params.put("user_id", unique_id);
-        String unique_id_external = Build.getUniqueID(MKCenterApplication.getContext(), 0);
-        if (!TextUtils.equals(unique_id, unique_id_external)) {
-            params.put("user_id_external", unique_id_external);
-        }
+        String unique_ids = MKSettings.Secure.getString(MKCenterApplication.getContext().getContentResolver(), MKSettings.Secure.UNIQUE_REGISTRATION_IDS);
+        params.put("user_ids", unique_ids);
         return params;
     }
 
