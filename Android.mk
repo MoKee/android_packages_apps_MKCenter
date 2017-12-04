@@ -22,7 +22,7 @@ include $(CLEAR_VARS)
 LOCAL_PACKAGE_NAME := MKCenter
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 
-LOCAL_JAVA_LIBRARIES := org.apache.http.legacy
+LOCAL_JAVA_LIBRARIES := org.apache.http.legacy telephony-common
 LOCAL_STATIC_JAVA_LIBRARIES := \
     android-support-v4 \
     android-support-v13 \
