@@ -60,8 +60,7 @@ public class MKCenterApplication extends Application implements
         if (!CommonUtils.hasTelephony(context)) return;
 
         String unique_registration_ids = MKSettings.Secure.getString(getContentResolver(), MKSettings.Secure.UNIQUE_REGISTRATION_IDS);
-        if (TextUtils.isEmpty(unique_registration_ids) ||
-                !Arrays.asList(unique_registration_ids.split(",")).contains(Build.getUniqueID(context))) {
+        if (TextUtils.isEmpty(unique_registration_ids)) {
             Intent intent = new Intent();
             intent.setClass(context, DeviceRegistrationService.class);
             startService(intent);
