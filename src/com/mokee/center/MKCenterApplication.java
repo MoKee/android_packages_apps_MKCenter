@@ -21,11 +21,21 @@ import android.app.Activity;
 import android.app.ActivityThread;
 import android.app.Application;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
+import android.util.Log;
 
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.Volley;
 import com.mokee.center.activities.MoKeeCenter;
+import com.mokee.center.service.DeviceRegistrationService;
+import com.mokee.os.Build;
+import com.mokee.utils.CommonUtils;
+
+import java.util.Arrays;
+
+import mokee.providers.MKSettings;
 
 public class MKCenterApplication extends Application implements
         Application.ActivityLifecycleCallbacks {
@@ -47,6 +57,17 @@ public class MKCenterApplication extends Application implements
         registerActivityLifecycleCallbacks(this);
         mRequestQueue = Volley.newRequestQueue(this);
         context = getApplicationContext();
+
+        if (!CommonUtils.hasTelephony(context)) return;
+
+        String unique_registration_ids = MKSettings.Secure.getString(getContentResolver(), MKSettings.Secure.UNIQUE_REGISTRATION_IDS);
+        if (TextUtils.isEmpty(unique_registration_ids) ||
+                !Arrays.asList(unique_registration_ids.split(",")).contains(Build.getUniqueID(context))) {
+            Intent intent = new Intent();
+            intent.setClass(context, DeviceRegistrationService.class);
+            startService(intent);
+            Log.i("MOKEEE", "first init!");
+        }
 
     }
 
