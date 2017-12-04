@@ -55,6 +55,8 @@ import java.util.HashMap;
 import java.util.Locale;
 import java.util.Random;
 
+import mokee.providers.MKSettings;
+
 public class Utils {
 
     public static File makeUpdateFolder() {
@@ -345,9 +347,8 @@ public class Utils {
         if (new File(Constants.LICENSE_FILE).exists()) {
             try {
                 LicenseInfo licenseInfo = License.readLicense(Constants.LICENSE_FILE, Constants.PUB_KEY);
-                if (Arrays.asList(licenseInfo.getUniqueID()).contains(Build.getUniqueID(mContext))
-                        && licenseInfo.getPackageName().equals(mContext.getPackageName())
-                        || Arrays.asList(licenseInfo.getUniqueID()).contains(Build.getUniqueID(mContext, 0))
+                String unique_ids = MKSettings.Secure.getString(mContext.getContentResolver(), MKSettings.Secure.UNIQUE_REGISTRATION_IDS);
+                if (Arrays.asList(unique_ids.split(",")).contains(Build.getUniqueID(mContext))
                         && licenseInfo.getPackageName().equals(mContext.getPackageName())) {
                     return licenseInfo.getPrice();
                 }
