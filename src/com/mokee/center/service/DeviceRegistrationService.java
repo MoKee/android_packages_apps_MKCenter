@@ -18,16 +18,8 @@
 package com.mokee.center.service;
 
 import android.app.IntentService;
-import android.content.Context;
 import android.content.Intent;
-import android.telephony.TelephonyManager;
-
-import com.android.internal.telephony.Phone;
-import com.android.internal.telephony.PhoneConstants;
-import com.android.internal.telephony.PhoneFactory;
-import com.mokee.utils.CommonUtils;
-
-import mokee.providers.MKSettings;
+import com.mokee.os.Build;
 
 public class DeviceRegistrationService extends IntentService {
 
@@ -37,29 +29,7 @@ public class DeviceRegistrationService extends IntentService {
 
     @Override
     protected void onHandleIntent(Intent intent) {
-        final TelephonyManager telephonyManager =
-                (TelephonyManager)getSystemService(Context.TELEPHONY_SERVICE);
-        StringBuffer stringBuffer = new StringBuffer();
-        for (int slotId = 0; slotId < telephonyManager.getSimCount(); slotId ++) {
-            final Phone phone = PhoneFactory.getPhone(slotId);
-            if (phone != null) {
-                if (phone.getPhoneType() == TelephonyManager.PHONE_TYPE_CDMA) {
-                    if (CommonUtils.isValid(phone.getMeid())) {
-                        stringBuffer.append(CommonUtils.digest(phone.getMeid() + android.os.Build.SERIAL)).append(",");
-                    }
-                    if (phone.getLteOnCdmaMode() == PhoneConstants.LTE_ON_CDMA_TRUE) {
-                        if (CommonUtils.isValid(phone.getImei())) {
-                            stringBuffer.append(CommonUtils.digest(phone.getImei() + android.os.Build.SERIAL)).append(",");
-                        }
-                    }
-                } else {
-                    if (CommonUtils.isValid(phone.getImei())) {
-                        stringBuffer.append(CommonUtils.digest(phone.getImei() + android.os.Build.SERIAL)).append(",");
-                    }
-                }
-            }
-        }
-        MKSettings.Secure.putString(getContentResolver(), MKSettings.Secure.UNIQUE_REGISTRATION_IDS, stringBuffer.toString());
+        Build.setUniqueIDS(getApplicationContext());
         stopSelf();
     }
 }

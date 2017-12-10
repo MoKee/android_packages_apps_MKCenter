@@ -51,7 +51,6 @@ public class MKCenterApplication extends Application implements
         mRequestQueue = Volley.newRequestQueue(this);
         context = getApplicationContext();
 
-        if (!CommonUtils.hasTelephony(context)) return;
         // Reset device registration ids
         Intent intent = new Intent();
         intent.setClass(context, DeviceRegistrationService.class);
