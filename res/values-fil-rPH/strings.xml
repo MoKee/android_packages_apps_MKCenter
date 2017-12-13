@@ -18,6 +18,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Fragment -->
+  <string name="mokee_center_title">Mokee Center</string>
   <string name="mokee_support_title">Suporta</string>
   <string name="mokee_updater_title">Pang-update</string>
   <!-- WebSite -->
@@ -41,6 +42,7 @@
   <string name="mokee_version_info_title">Impormasyon para sa Bersyon</string>
   <string name="mokee_version_title">Bersyon ng MoKee</string>
   <string name="mokee_unique_id_title">Natatanging ID</string>
+  <string name="mokee_donate_info_title">Magbigay ng impormasyon</string>
   <string name="mokee_last_check_title">Huling Natignan</string>
   <string name="mokee_last_check_never">Hindi kailanman</string>
   <!-- Version -->

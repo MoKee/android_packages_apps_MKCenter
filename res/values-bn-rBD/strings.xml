@@ -62,6 +62,7 @@
   <string name="menu_refresh">রিফ্রেশ</string>
   <string name="menu_delete_all">ডাউনলোড মুছে ফেলুন</string>
   <!-- Donate -->
+  <string name="donate_dialog_title">আমাদের দান করুন।</string>
   <!-- Update -->
   <string name="unknown">Unknown</string>
   <string name="old_update_summary">পুরাতন</string>
