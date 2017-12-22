@@ -61,22 +61,29 @@
   <string name="menu_donate">Bağış yap</string>
   <string name="menu_refresh">Yenile</string>
   <string name="menu_delete_all">İndirmeyi sil</string>
+  <string name="menu_unlock_features">Özelliklerin kilidini aç</string>
   <string name="menu_restore">Lisans Geri Yükleme</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Bize bağışta bulunun</string>
   <string name="donate_dialog_message">Cygn veya MIUI gibi şirketlerin aksine, MoKee OpenSource hobiden ve tutkudan doğan tamamen kar amacı gütmeyen bir projedir. Bu projeyi sürdürebilmek için, çoğu zaman kendi paramızı ödemek veya bağış ve reklamlara güvenmek zorundayız. Bağışlarınız mali yükümüzü düşürüp gelecekteki gelişimi sürdürebilir! Bu seçenek, MoKee Merkezi\'ndeki reklamları kaldırmanıza veya taksitleri tercih ederseniz bunun yerine \"Bağış\" seçeneğini kullanmanıza izin verir (Toplam, belirtilen değerin üzerine ulaştığında reklamlar kaldırılır). Bağış yapıldığında (Sdcard\'ın kök dizininde, yalnızca geçerli cihaz için geçerlidir). geçerlidir.</string>
   <string name="donate_dialog_via_paypal">PayPal(USD)</string>
   <string name="donate_dialog_via_alipay">AliPay(CNY)</string>
+  <string name="donate_dialog_via_wechat">WeChat</string>
   <string name="donate_dialog_via_restore">Geri yükle</string>
   <string name="donate_money_toast_success">Bağış için teşekkür ederiz!</string>
   <string name="donate_money_title">MoKee Açık Kaynak\'a bağışta bulunun</string>
   <string name="donate_money_again">Tekrar bağışla</string>
   <string name="donate_money_restored_success">Geri yükleme Başarılı</string>
   <string name="donate_money_restored_failed">Aygıt bulunamadı</string>
+  <string name="donate_money_restored_failed_solution">Çözüm</string>
   <string name="donate_money_restored_timeout">Bağlantı zaman aşımına ugradı lütfen tekrar deneyiniz</string>
   <string name="donate_money_info">Toplamda bağışta bulundun CNY %1$d, daha fazla bağış %2$s toplam hibe!</string>
   <string name="donate_money_info_with_rank">Toplamda CNY %1$d bağışta bulundun, diğer bağışçılaradan %2$s daha fazla bağışta bulundun, sıra no %3$d!</string>
   <string name="donate_money_info_null">Bağiş Yapılmadı</string>
+  <string name="unlock_features_title">Özelliklerin kilidini aç</string>
+  <string name="unlock_features_ota_title">Kilit açma ve tam hızda indirmek için %d CNY bağışla.</string>
+  <string name="unlock_features_verify_rom_title">Doğrulanmış güncellemeler ve reklamları kaldırmak için %d CNY bağışlayın.</string>
+  <string name="unlock_features_all_title">Kilit açma, tam hızda indirme, doğrulanmış güncellemeler ve reklamları kaldırmak için %d CNY bağışla.</string>
   <!-- Update -->
   <string name="unknown">Bilinmiyor</string>
   <string name="dialog_update">Güncelle</string>

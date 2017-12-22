@@ -63,6 +63,7 @@
   <string name="menu_delete_all">Burahin ang download</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Magbigay ng donasyon sa amin</string>
+  <string name="donate_dialog_message">Hindi tulad ng mga kumpanya tulad ng Cygn o MIUI, ang MoKee OpenSource ay isang panay na di-kumikitang proyektong nabuo ng libangan at ng pasyon. Upang mapangalagaan ang proyektong ito, kailangan naming itabi ang aming sariling pera sa halos lahat ng oras o umaasa sa mga donasyon at mga patalastas. Ang iyong mga donasyon ay maaaring makatulong na mabawasan ang aming pinansiyal na pagkarga at suportahan ang pag-unlad sa hinaharap! Pinapayagan ka ng pagpipiliang ito na alisin ang mga ad sa MoKee Center, o gamitin ang opsyon na \"Mag-donate\" sa halip kung gusto mo ng mga installment (aalisin ang mga ad kapag nakarating na ang kabuuan ng tinukoy na halaga). (sa direktoryo ng root ng sdcard, tanging may bisa para sa kasalukuyang aparato) sa sandaling ikaw ay naibigay.</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_restore">Pgsasabalik</string>
@@ -79,10 +80,22 @@
   <string name="dialog_ok">OK</string>
   <string name="dialog_cancel">Kanselahin</string>
   <string name="dialog_close">Isara</string>
+  <string name="no_available_updates_intro">Ang huling tseke ay hindi nakahanap ng anumang available na mga update. Upang manu-manong suriin para sa mga bagong update, gamitin ang pindutan ng I-refresh.</string>
+  <string name="no_available_ota_intro">Ang huling tseke ay hindi nakahanap ng anumang available na mga update. Upang manu-manong suriin para sa mga bagong update, gamitin ang pindutan ang I-refresh. Kung nagpapatakbo ka ng isang bersyon na wala sa suportadong incremental na hanay ng update ng petsa, dapat mong alisin sa pagkakapili ang pagpipiliang \"Incremental update\".</string>
   <string name="new_update_summary">Bago</string>
   <string name="old_update_summary">Luma</string>
+  <string name="update_check_title">Suriin ang pag-update ng freq</string>
   <string name="check_manual">Mano-mano</string>
+  <string name="nightly_alert">Pinili mong isama ang mga update sa gabi sa listahan na ito. Ang mga ito ay hindi suportado at dapat gamitin nang may pag-iingat.</string>
+  <string name="experimenter_alert">Pinili mo na isama ang mga pang-eksperimentong update sa listahang ito. Ang mga ito ay hindi suportado at sinadya para sa pagsubok lamang, dapat itong magamit nang may pag-iingat.</string>
+  <string name="unofficial_alert">Pinili mong isama ang mga hindi opisyal na update sa listahang ito. Tandaan na ang mga ito ay suportado ng tagapangasiwa ng iyong aparato.</string>
+  <string name="all_alert">Pinili mo na isama ang lahat ng mga update (release, gabi-gabi) sa listahang ito. Tandaan na ang mga update sa gabi ay hindi suportado at dapat gamitin nang may pag-iingat.</string>
+  <string name="alert_title">Mag-ingat</string>
+  <string name="update_type_title">Uri ng update</string>
   <!-- ChangeLog -->
+  <string name="no_changelog_alert">Walang available na changelog</string>
+  <string name="changelog_dialog_title">Changelog</string>
+  <string name="loading_changelog">Naglo-load \ u2026</string>
   <string name="check_on_boot">Sa bawat muling pagbukas</string>
   <string name="check_twice_daily">Dalawang beses bawat araw</string>
   <string name="check_daily">Isang beses sa bawat araw</string>
@@ -92,22 +105,40 @@
   <string name="check_monthly">Isang beses sa bawat buwan</string>
   <!-- checking -->
   <string name="checking_for_updates">Naghahanap ng mga update</string>
+  <string name="no_updates_found">Walang nakita na mga bagong update</string>
+  <string name="not_new_updates_found_ticker">Available ang mga bagong update</string>
+  <string name="not_new_updates_found_title">Mga bagong update</string>
+  <string name="update_check_failed">Nabigo ang pag-check ng update. Mangyaring suriin ang iyong koneksyon sa internet at subukan muli sa ibang pagkakataon.</string>
+  <string name="not_action_download">I-download</string>
+  <string name="data_connection_required">Kinakailangan ang koneksyon ng data.</string>
   <!-- Downloads -->
+  <string name="confirm_download_cancelation_dialog_title">Kanselahin ang pag-download</string>
+  <string name="confirm_download_cancelation_dialog_message">Kanselahin ang kasalukuyang pag-download?</string>
+  <string name="download_running">Isinasagawa</string>
+  <string name="download_cancelled">Kinansela ang pag-download</string>
   <string name="download_already_running">Mayroon nang dinadownload</string>
   <string name="unable_to_download_file">Hindi makapag-download ng mga file na pang-update</string>
   <string name="not_download_success">Ang download ng update ay matagumpay</string>
   <string name="not_download_failure">Ang download ng update ay hindi matagumpay</string>
   <string name="not_action_install_update">Muling buksan at i-install</string>
+  <string name="md5_verification_failed">MD5 checksum mismatch</string>
   <string name="not_apk_action_install_update">Mag-install</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Burahin ang file</string>
+  <string name="confirm_delete_updates_dialog_message">Tanggalin ang napiling file ng pag-update?</string>
   <string name="confirm_delete_updates_all_dialog_message">I-delete ang lahat ng mga file ng na-download na pang-update?</string>
   <string name="delete_updates_failure_message">Nagkaroon ng error sa pag-delete ng file na pang-update</string>
   <string name="delete_updates_nofolder_message">Ang folder na pang-update hindi natagpuan</string>
+  <string name="delete_updates_success_message">Ang lahat ng nai-download na mga update ay tinanggal</string>
   <!-- Pref -->
+  <string name="pref_ota_check">Incremental na mga update</string>
+  <string name="pref_ota_check_summary">Kumuha ng mga incremental update upang i-save ang oras ng pag-download at bandwidth</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">I-apply ang update</string>
+  <string name="apply_unable_to_reboot_toast">Hindi ma-reboot sa recovery</string>
   <!-- Experimenter mode -->
+  <string name="show_exp_on">Pinagana mo ang mga pang-eksperimentong setting!</string>
+  <string name="show_exp_already">Hindi na kailangan, na pinagana mo ang mga pang-eksperimentong setting.</string>
   <!-- Discount -->
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_root_skip">Laktawan</string>
