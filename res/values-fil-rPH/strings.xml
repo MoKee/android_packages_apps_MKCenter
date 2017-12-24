@@ -114,7 +114,6 @@
   <!-- Downloads -->
   <string name="confirm_download_cancelation_dialog_title">Kanselahin ang pag-download</string>
   <string name="confirm_download_cancelation_dialog_message">Kanselahin ang kasalukuyang pag-download?</string>
-  <string name="download_remaining"><xliff: g id = "duration" example = "3 minutes">% s </ xliff: g> kaliwa</string>
   <string name="download_running">Isinasagawa</string>
   <string name="download_cancelled">Kinansela ang pag-download</string>
   <string name="download_already_running">Mayroon nang dinadownload</string>
@@ -122,15 +121,12 @@
   <string name="not_download_success">Ang download ng update ay matagumpay</string>
   <string name="not_download_failure">Ang download ng update ay hindi matagumpay</string>
   <string name="not_action_install_update">Muling buksan at i-install</string>
-  <string name="not_download_install_notice">Ang pag-update <xliff: g id = "filename">% s </ xliff: g> ay matagumpay na na-download. Kapag hinawakan ang \'I-reboot at i-install\', sisimulan ng device ang sarili nito upang i-install ang update. \ N \ nTandaan: Ang tampok na ito ay nangangailangan ng isang katugmang Pagbawi o mga update ay kailangang ma-install nang manu-mano.</string>
-  <string name="not_download_install_ota_notice">Ang pag-update <xliff: g id = "filename">% s </ xliff: g> ay matagumpay na na-download. Kapag hinawakan ang \'I-reboot at i-install\', sisimulan ng device ang sarili nito upang i-install ang update. \ N \ nTandaan: Ang tampok na ito ay nangangailangan ng isang katugmang Recovery o mga update ay kailangang mai-install nang mano-mano. \ N \ nThis ay isang incremental update, kaya ang anumang mga pagbabago ginawa sa mga file system ay maaaring maging sanhi ng pag-update na mabibigo. Kung mangyari ito, mangyaring mag-flash sa isang buong ROM sa halip.</string>
   <string name="md5_verification_failed">MD5 checksum mismatch</string>
   <string name="not_apk_action_install_update">Mag-install</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Burahin ang file</string>
   <string name="confirm_delete_updates_dialog_message">Tanggalin ang napiling file ng pag-update?</string>
   <string name="confirm_delete_updates_all_dialog_message">I-delete ang lahat ng mga file ng na-download na pang-update?</string>
-  <string name="delete_single_update_success_message">I-update ang <xliff: g id = "filename">% s </ xliff: g> tinanggal</string>
   <string name="delete_updates_failure_message">Nagkaroon ng error sa pag-delete ng file na pang-update</string>
   <string name="delete_updates_nofolder_message">Ang folder na pang-update hindi natagpuan</string>
   <string name="delete_updates_success_message">Ang lahat ng nai-download na mga update ay tinanggal</string>
@@ -139,8 +135,6 @@
   <string name="pref_ota_check_summary">Kumuha ng mga incremental update upang i-save ang oras ng pag-download at bandwidth</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">I-apply ang update</string>
-  <string name="apply_update_dialog_text">Ikaw ay mag-upgrade sa <xliff: g id = "filename">% s </ xliff: g>. \ N \ nKung pinindot mo ang I-update, sisimulang i-restart ang device mismo sa mode ng pagbawi upang i-install ang update. \ N \ n: Ang tampok na ito ay nangangailangan ng isang katugmang Recovery o mga update ay kailangang mai-install nang manu-mano.</string>
-  <string name="apply_update_ota_dialog_text">Magiging mag-upgrade ka sa <xliff: g id = "filename">% s </ xliff: g>. \ N \ nKung pindutin ang I-update, sisimulang i-restart ang device mismo sa mode ng pagbawi upang i-install ang update.: Ang tampok na ito ay nangangailangan ng isang katugmang Recovery o mga update ay kailangang mai-install nang mano-mano. \ N \ nThis ay isang pag-update ng incremental, kaya ang anumang mga pagbabago na ginawa sa mga file system ay maaaring maging sanhi ng pag-update na mabibigo. Kung mangyari ito, mangyaring mag-flash sa isang buong ROM sa halip.</string>
   <string name="apply_unable_to_reboot_toast">Hindi ma-reboot sa recovery</string>
   <!-- Experimenter mode -->
   <string name="show_exp_on">Pinagana mo ang mga pang-eksperimentong setting!</string>
