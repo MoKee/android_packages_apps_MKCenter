@@ -18,20 +18,54 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Fragment -->
+  <string name="mokee_center_title">MoKee केंद्र</string>
+  <string name="mokee_support_title">समर्थन</string>
   <!-- WebSite -->
+  <string name="mokee_news_summary">MoKee से विकास समाचार प्राप्त करें</string>
   <!-- Base Info -->
   <!-- Version -->
   <!-- State -->
   <!-- Menu -->
   <!-- Donate -->
+  <string name="donate_dialog_message">सिगन या एमआईयूआई जैसी कंपनियों के विपरीत, मोकी ओपनसोर्स एक शौकिया और जुनून का जन्म एक विशुद्ध रूप से गैर लाभकारी परियोजना है। इस परियोजना को बनाए रखने के लिए, हमें ज्यादातर समय अपने स्वयं के पैसे को भरना होगा या दान और विज्ञापनों पर भरोसा करना होगा। आपका दान हमारे वित्तीय भार को कम करने और भविष्य के विकास को बनाए रखने में मदद कर सकता है! यदि आप किश्तों को पसंद करते हैं तो यह विकल्प आपको MoKee केंद्र में विज्ञापन निकालने, या \"दान\" विकल्प का उपयोग करने की अनुमति देता है (कुल मिलाकर निर्दिष्ट मूल्य तक पहुंचने के बाद विज्ञापनों को हटा दिया जाएगा)। (एसडीसीआर की रूट डायरेक्टरी में, केवल वर्तमान डिवाइस के लिए वैध) एक बार आपने दान किया है</string>
+  <string name="donate_money_restored_failed">कोई डिवाइस रिकॉर्ड नहीं मिला</string>
+  <string name="donate_money_restored_timeout">कनेक्शन का समय समाप्त हो गया, कृपया पुनः प्रयास करें</string>
   <!-- Update -->
+  <string name="no_available_updates_intro">अंतिम जांच में कोई भी उपलब्ध अपडेट नहीं मिला। नए अपडेट की मैन्युअल रूप से जांच करने के लिए, ताज़ा करें बटन का उपयोग करें।</string>
+  <string name="no_available_ota_intro">अंतिम जांच में कोई भी उपलब्ध अपडेट नहीं मिला। नए अपडेट की मैन्युअल रूप से जांच करने के लिए, ताज़ा करें बटन का उपयोग करें। यदि आप एक संस्करण चला रहे हैं जो समर्थित वृद्धिशील अद्यतन तिथि सीमा से बाहर है, तो आपको \"वृद्धिशील अद्यतन\" विकल्प को अचयनित करना चाहिए।</string>
+  <string name="nightly_alert">आपने इस सूची में रात के अपडेट शामिल करने के लिए चुना है। ये असमर्थित हैं और सावधानी के साथ उपयोग किया जाना चाहिए।</string>
+  <string name="experimenter_alert">आपने इस सूची में प्रयोगात्मक अपडेट शामिल करने के लिए चुना है। ये असमर्थित हैं और केवल परीक्षण के लिए हैं, इसका सावधानी से उपयोग किया जाना चाहिए</string>
+  <string name="unofficial_alert">आपने इस सूची में अनधिकृत अपडेट शामिल करने के लिए चुना है ध्यान रखें कि ये आपके डिवाइस के रखरखाव के द्वारा समर्थित हैं।</string>
+  <string name="all_alert">आपने इस सूची में सभी अपडेट (रिलीज़, रात) को शामिल करने का चयन किया है ध्यान दें कि रात के अपडेट असमर्थित हैं और सावधानी के साथ उपयोग किया जाना चाहिए।</string>
   <!-- ChangeLog -->
+  <string name="no_changelog_alert">कोई चैंज उपलब्ध नहीं है</string>
+  <string name="check_on_boot">प्रत्येक रिबूट पर</string>
+  <string name="check_twice_daily">दो बार हर दिन</string>
+  <string name="check_daily">प्रत्येक दिन एक बार</string>
+  <string name="check_twice_weekly">दो बार हर हफ्ते</string>
+  <string name="check_weekly">प्रत्येक सप्ताह एक बार</string>
+  <string name="check_bi_weekly">एक बार हर पखवाड़े के बाद</string>
+  <string name="check_monthly">प्रत्येक महीने एक बार</string>
   <!-- checking -->
+  <string name="checking_for_updates">अपडेट्स के लिए जांच हो रही है</string>
+  <string name="no_updates_found">कोई नया अपडेट नहीं मिला</string>
+  <string name="not_new_updates_found_ticker">नए अद्यतन उपलब्ध हैं</string>
+  <string name="update_check_failed">अद्यतन जांच असफल रही कृपया अपना इंटरनेट कनेक्शन जांचें और बाद में फिर से प्रयास करें।</string>
+  <string name="data_connection_required">एक डेटा कनेक्शन आवश्यक है।</string>
   <!-- Downloads -->
+  <string name="confirm_download_cancelation_dialog_message">वर्तमान डाउनलोड रद्द करें?</string>
+  <string name="download_already_running">एक डाउनलोड पहले से ही चल रहा है</string>
+  <string name="unable_to_download_file">अपडेट फ़ाइल डाउनलोड करने में असमर्थ</string>
+  <string name="not_download_success">अपडेट सफलतापूर्वक डाउनलोड किया गया</string>
+  <string name="not_download_failure">अपडेट डाउनलोड असफल रहा था</string>
+  <string name="not_action_install_update">रिबूट करें और इंस्टॉल करें</string>
   <!-- deleting -->
   <!-- Pref -->
+  <string name="pref_ota_check_summary">डाउनलोड समय और बैंडविड्थ को बचाने के लिए वृद्धिशील अपडेट प्राप्त करें</string>
   <!-- Apply install and update strings -->
   <!-- Experimenter mode -->
+  <string name="show_exp_on">आपने प्रयोगात्मक सेटिंग सक्षम की हैं!</string>
+  <string name="show_exp_already">कोई ज़रूरत नहीं है, आपने पहले से ही प्रयोगात्मक सेटिंग सक्षम की हैं</string>
   <!-- Discount -->
   <!-- Verify system compatible -->
   <!-- Common -->

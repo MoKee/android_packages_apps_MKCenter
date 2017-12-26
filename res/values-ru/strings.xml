@@ -35,7 +35,7 @@
   <string name="mokee_translate_title">Перевод MoKee</string>
   <string name="mokee_translate_summary">Помогите перевести MoKee</string>
   <string name="mokee_wiki_title">Wiki MoKee</string>
-  <string name="mokee_wiki_summary">Посмотреть Wiki MoKee</string>
+  <string name="mokee_wiki_summary">Посетить MoKee Wiki</string>
   <string name="mokee_news_title">Новости MoKee</string>
   <string name="mokee_news_summary">Получать новости о развитии MoKee</string>
   <!-- Base Info -->
@@ -62,7 +62,7 @@
   <string name="menu_refresh">Обновить</string>
   <string name="menu_delete_all">Удалить загруженное</string>
   <string name="menu_unlock_features">Разблокировать функцию</string>
-  <string name="menu_restore">Восстановить Лицензию</string>
+  <string name="menu_restore">Восстановить лицензию</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Пожертвовать нам</string>
   <string name="donate_dialog_message">В отличие от таких компаний, как Cygn или MIUI, MoKee OpenSource является некоммерческим проектом, появившимся на свет трудами энтузиастов. Для того, чтобы сохранить этот проект, мы вкладываем свои собственные средства, а также средства от пожертвований и рекламы. Ваши пожертвования могут помочь уменьшить нашу финансовую нагрузку и поддержат развитие проекта! Эта опция позволит удалить рекламу в Панели MoKee, или используйте соседнюю опцию «Пожертвовать», если вы предпочитаете рассрочку (реклама будет удалена после достижения указанного значения). Создайте резервную копию файла mokee.license  (находится в корневом каталоге sdcard, действительна только для текущего устройства), после совершения пожертвования.</string>
@@ -72,7 +72,7 @@
   <string name="donate_dialog_via_restore">Восстановление</string>
   <string name="donate_money_toast_success">Благодарим Вас за пожертвование!</string>
   <string name="donate_money_title">Пожертвовать MoKee Open Source</string>
-  <string name="donate_money_again">Пожертвовать снова</string>
+  <string name="donate_money_again">Пожертвовать ещё раз</string>
   <string name="donate_money_restored_success">Восстановление прошло успешно!</string>
   <string name="donate_money_restored_failed">Не найдено записей об устройстве.</string>
   <string name="donate_money_restored_failed_solution">Решение</string>
@@ -131,7 +131,7 @@
   <string name="download_running">Выполняется</string>
   <string name="download_cancelled">Загрузка отменена</string>
   <string name="download_already_running">Загрузка уже выполняется</string>
-  <string name="download_limited_mode">Ваша скорость загрузки ограничена. Вы можете сделать пожертвование, чтобы перейти на неограниченную скорость.</string>
+  <string name="download_limited_mode">Скорость загрузки ограничена. Вы можете сделать пожертвование, чтобы снять ограничения скорости.</string>
   <string name="unable_to_download_file">Невозможно загрузить файл обновления</string>
   <string name="not_download_success">Обновление успешно загружено</string>
   <string name="not_download_failure">Обновление не было загружено</string>

@@ -63,6 +63,7 @@
   <string name="menu_delete_all">Hapuskan muat turun</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Donasi kepada kami</string>
+  <string name="donate_dialog_message">Tidak sama seperti syarikat-syarikat seperti Cygn atau MIUI, MoKee OpenSource ialah sebuah projek yang tidak beruntungan semata-mata dan dilahirkan oleh hobi serta keghairahan. Untuk mengekalkan projek ini, kami terpaksa untuk menggunakan wang kami setiap kali atau bergantung kepada dermaan dan pengiklanan. Dermaan anda boleh tolong mengurangkan beban kewangan dan meneruskan pembangunan masa depan! Pilihan ini membenarkan anda mengeluarkan iklan dalam MoKee Center, atau menggunakan pilihan \"Donate\" jika anda lebih suka ansuran (iklan akan dikeluarkan sehingga jumlah telah mencapai nilai tertentu). (dalam direktori akar kad sd, sah sahaja untuk peranti semasa) sebaik sahaja anda telah membuat dermaan.</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_restore">Pulihkan</string>
@@ -107,11 +108,37 @@
   <string name="no_updates_found">Tiada kemaskini dijumpai</string>
   <string name="not_new_updates_found_ticker">Kemaskini baru tersedia</string>
   <string name="not_new_updates_found_title">Kemaskini baru</string>
+  <string name="update_check_failed">Semakan kemaskini gagal. Sila semak sambungan internet anda dan cuba lagi kemudian.</string>
+  <string name="not_action_download">Muat turun</string>
+  <string name="data_connection_required">Sambungan data diperlukan.</string>
   <!-- Downloads -->
+  <string name="confirm_download_cancelation_dialog_title">Batal muat turun</string>
+  <string name="confirm_download_cancelation_dialog_message">Batalkan muat turun semasa?</string>
+  <string name="download_remaining"><xliff:g id="duration" example="3 minutes">%s</xliff:g> kiri</string>
+  <string name="download_running">Sedang berjalan</string>
+  <string name="download_cancelled">Muat turun dibatalkan</string>
+  <string name="download_already_running">Muat turun sedang berjalan</string>
+  <string name="unable_to_download_file">Tidak dapat muat turun fail kemaskini</string>
+  <string name="not_download_success">Kemaskini berjaya dimuat turun</string>
+  <string name="not_download_failure">Muat turun kemaskini tidak berjaya</string>
+  <string name="not_action_install_update">Hidupkan semula dan pasang</string>
+  <string name="not_download_install_notice">Kemaskini <xliff:g id="filename">%s</xliff:g> telah berjaya dimuat turun. Apabila menyentuh \'But semula dan pasang\', peranti akan dimulakan semula untuk memasang kemaskini.\n\nNota: Ciri ini memerlukan satu pemulihan atau kemaskini yang serase akan perlu dipasangkan secara manual.</string>
+  <string name="not_download_install_ota_notice">Kemaskini <xliff:g id="filename">%s</xliff:g> telah berjaya dimuat turun. Apabila menyentuh \'But semula dan pasang\', peranti akan dimulankan semula untuk pasang kemaskini.\n\nNota: Ciri ini memerlukan pemulihan atau kemaskini yang serasi akan diperlukan untuk dipasangkan secara manual.\n\nIni adalah kemaskini tambahan, oleh itu setiap perubahan dibuat kepada fail-fail sistem mungkin menyebabkan kemaskini gagal. Jika ini berlaku, sila imbaskan ROM penuh.</string>
+  <string name="md5_verification_failed">MD5 tidak sepadan</string>
   <string name="not_apk_action_install_update">Pasang</string>
   <!-- deleting -->
+  <string name="confirm_delete_dialog_title">Padam fail</string>
+  <string name="confirm_delete_updates_dialog_message">Padam fail kemaskini pilihan?</string>
+  <string name="confirm_delete_updates_all_dialog_message">Padam semua fail kemaskini yang dimuat turun?</string>
+  <string name="delete_single_update_success_message">Kemaskini <xliff:g id="filename">%s</xliff:g> dipadam</string>
+  <string name="delete_updates_failure_message">Berlaku ralat memadam fail kemaskini</string>
+  <string name="delete_updates_nofolder_message">Direktori kemaskini tidak dijumpai</string>
+  <string name="delete_updates_success_message">Semua kemaskini yang dimuat turun dipadam</string>
   <!-- Pref -->
+  <string name="pref_ota_check">Kemaskini tambahan</string>
+  <string name="pref_ota_check_summary">Dapatkan kemaskini tambahan untuk menjimatkan masa download dan lebar jalur</string>
   <!-- Apply install and update strings -->
+  <string name="apply_update_dialog_title">Terima kemaskini</string>
   <!-- Experimenter mode -->
   <string name="show_exp_already">Tidak perlu, anda telahpun mengaktifkan seting eksperimen.</string>
   <!-- Discount -->
