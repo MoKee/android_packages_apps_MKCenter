@@ -68,18 +68,22 @@
   <string name="donate_dialog_message">Im Gegensatz zu Unternehmen wie CyanogenMod oder MIUI, ist MoKee Opensource ein Non-Profit-Projekt, das aus einem Hobby und der Leidenschaft heraus geboren wurde. Um dieses Projekt zu erhalten, müssen wir die meiste Zeit unser eigenes Geld investieren und sind somit auf Spenden und Werbung angewiesen. Ihre Spende kann dazu beitragen, uns finanziell zu entlasten und die zukünftige Entwicklung zu gewährleisten! Diese Option ermöglicht ihnen, die Werbung im MoKee Center zu entfernen. Wenn Sie eine Teilzahlung bevorzugen, nutzen Sie bitte die Option “Spenden“ (Die Werbung wird entfernt, sobald der angegebene Schwellenwert erreicht wurde). Bitte sichern Sie die mokee.license Datei (im Root-Verzeichnis der SD-Karte, welche nur für das aktuelle Gerät gültig ist), sobald Sie gespendet haben.</string>
   <string name="donate_dialog_via_paypal">PayPal (EUR)</string>
   <string name="donate_dialog_via_alipay">AliPay (CNY)</string>
+  <string name="donate_dialog_via_wechat">WeChat</string>
   <string name="donate_dialog_via_restore">Wiederherstellen</string>
   <string name="donate_money_toast_success">Vielen Dank für Ihre Spende!</string>
   <string name="donate_money_title">Spenden Sie an MoKee Open Source</string>
   <string name="donate_money_again">Erneut spenden</string>
   <string name="donate_money_restored_success">Erfolgreich wiederhergestellt!</string>
   <string name="donate_money_restored_failed">Keine Geräteaufzeichnung gefunden.</string>
+  <string name="donate_money_restored_failed_solution">Lösung</string>
   <string name="donate_money_restored_timeout">Verbindungs-Timeout, bitte versuchen Sie es erneut</string>
   <string name="donate_money_info">Sie spendeten insgesamt CNY %1$d, mehr als %2$s der Spender weltweit!</string>
   <string name="donate_money_info_with_rank">Sie spendeten insgesamt CNY %1$d, mehr als %2$s der Spender, weltweiter Rang Nr.%3$d!</string>
   <string name="donate_money_info_null">Sie haben nicht gespendet</string>
   <string name="unlock_features_title">Funktionen freischalten</string>
   <string name="unlock_features_ota_title">Spende Sie %d CNY für das Freischalten von OTA und das Herunterladen in voller Geschwindigkeit.</string>
+  <string name="unlock_features_verify_rom_title">Spenden Sie %d CNY für verifizierte Updates und das Entfernen der Werbung.</string>
+  <string name="unlock_features_all_title">Spenden Sie %d CNY für das Freischalten von OTA, das Herunterladen in voller Geschwindigkeit und das Entfernen der Werbung.</string>
   <!-- Update -->
   <string name="unknown">Unbekannt</string>
   <string name="dialog_update">Aktualisieren</string>

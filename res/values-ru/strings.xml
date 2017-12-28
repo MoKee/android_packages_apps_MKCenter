@@ -179,5 +179,5 @@
   <string name="verify_system_compatible_root_request">Требуется корневой доступ, чтобы обновить Плагин Проверки Совместимости обновлений. Если вы решите пропустить этот шаг, это действие будет выполнено в режиме Recovery.</string>
   <string name="verify_system_compatible_root_skip">Пропустить</string>
   <!-- Common -->
-  <string name="activity_not_found">Приложение удалено</string>
+  <string name="activity_not_found">Приложение не установлено.</string>
 </resources>

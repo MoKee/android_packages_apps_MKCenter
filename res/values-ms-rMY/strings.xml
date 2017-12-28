@@ -122,7 +122,7 @@
   <string name="not_download_success">Kemaskini berjaya dimuat turun</string>
   <string name="not_download_failure">Muat turun kemaskini tidak berjaya</string>
   <string name="not_action_install_update">Hidupkan semula dan pasang</string>
-  <string name="not_download_install_notice">Kemaskini <xliff:g id="filename">%s</xliff:g> telah berjaya dimuat turun. Apabila menyentuh \'But semula dan pasang\', peranti akan dimulakan semula untuk memasang kemaskini.\n\nNota: Ciri ini memerlukan satu pemulihan atau kemaskini yang serase akan perlu dipasangkan secara manual.</string>
+  <string name="not_download_install_notice">Kemaskini <xliff:g id="filename">%s</xliff:g> telah berjaya dimuat turun. Apabila menyentuh \'But semula dan pasang\', peranti akan dimulakan semula untuk memasang kemaskini.\n\nNota: Ciri ini memerlukan satu pemulihan atau kemaskini yang serasi akan diperlukan untuk dipasangkan secara manual.</string>
   <string name="not_download_install_ota_notice">Kemaskini <xliff:g id="filename">%s</xliff:g> telah berjaya dimuat turun. Apabila menyentuh \'But semula dan pasang\', peranti akan dimulankan semula untuk pasang kemaskini.\n\nNota: Ciri ini memerlukan pemulihan atau kemaskini yang serasi akan diperlukan untuk dipasangkan secara manual.\n\nIni adalah kemaskini tambahan, oleh itu setiap perubahan dibuat kepada fail-fail sistem mungkin menyebabkan kemaskini gagal. Jika ini berlaku, sila imbaskan ROM penuh.</string>
   <string name="md5_verification_failed">MD5 tidak sepadan</string>
   <string name="not_apk_action_install_update">Pasang</string>
@@ -136,10 +136,14 @@
   <string name="delete_updates_success_message">Semua kemaskini yang dimuat turun dipadam</string>
   <!-- Pref -->
   <string name="pref_ota_check">Kemaskini tambahan</string>
-  <string name="pref_ota_check_summary">Dapatkan kemaskini tambahan untuk menjimatkan masa download dan lebar jalur</string>
+  <string name="pref_ota_check_summary">Dapatkan kemaskini tambahan untuk menjimatkan masa muat turun dan lebar jalur</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Terima kemaskini</string>
+  <string name="apply_update_dialog_text">Anda akan naik taraf kepada <xliff:g id="filename">%s</xliff:g>.\n\nJika anda tekan Kemaskini, peranti akan dimulakan semula dalam mod pemulihan untuk memasang kemaskini.\n\nNota: Ciri ini memerlukan Pemulihan atau kemaskini yang serasi akan diperlukan untuk dipasangkan secara manual.</string>
+  <string name="apply_update_ota_dialog_text">Anda akan naik taraf kepada <xliff:g id="filename">%s</xliff:g>.\n\nJika anda tekan Kemaskini, peranti akan dimulakan semula dalam mod pemulihan untuk memasang kemaskini.\n\nNota: Ciri ini memerlukan Pemulihan atau kemaskini yang serasi akan diperlukan untuk dipasangkan secara manual.\n\nIni adalah kemaskini tambahan, oleh itu setiap perubahan dibuat kepada fail-fail sistem mungkin menyebabkan kemaskini gagal. Jika ini berlaku, sila imbaskan ROM penuh.</string>
+  <string name="apply_unable_to_reboot_toast">Tidak dapat but semula kepada pemulihan</string>
   <!-- Experimenter mode -->
+  <string name="show_exp_on">Anda telah mendayakan seting percubaan!</string>
   <string name="show_exp_already">Tidak perlu, anda telahpun mengaktifkan seting eksperimen.</string>
   <!-- Discount -->
   <!-- Verify system compatible -->
