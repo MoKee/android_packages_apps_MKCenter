@@ -61,22 +61,29 @@
   <string name="menu_donate">기부</string>
   <string name="menu_refresh">새로 고침</string>
   <string name="menu_delete_all">다운로드 삭제</string>
+  <string name="menu_unlock_features">기능 잠금해제</string>
   <string name="menu_restore">라이센스 복원</string>
   <!-- Donate -->
   <string name="donate_dialog_title">우리한테 기부</string>
   <string name="donate_dialog_message">Cygn 또는 MIUI 같은 회사, 달리 MoKee OpenSource 취미와 열정 태어난 순수 비영리 프로젝트입니다. 이 프로젝트를 유지, 우리가 우리의 자신의 돈을 밖으로 대부분의 시간을 포크 또는 기부금과 광고에 의존 해야 했다. 당신의 기부는 우리의 금융 부하를 줄이고 미래의 발전을 유지 도울 수 있습니다! 이 옵션을 사용 하면 MoKee 센터에서 광고를 제거 하거나 당신이 선호 하는 분할 (광고 제거 됩니다 총에는 지정된 된 값에 도달 했습니다 일단) 대신 \"기부\" 옵션을 사용 수 있습니다. mokee.license를 백업 하시기 바랍니다 당신이 기부 한 번 (현재 장치에 대 한 유효한 sdcard의 루트 디렉터리)에 파일.</string>
   <string name="donate_dialog_via_paypal">페이팔</string>
   <string name="donate_dialog_via_alipay">알리페이</string>
+  <string name="donate_dialog_via_wechat">WeChat</string>
   <string name="donate_dialog_via_restore">복구하기</string>
   <string name="donate_money_toast_success">기부 주셔서 감사합니다!</string>
   <string name="donate_money_title">MoKee OpenSource에 기부하기</string>
   <string name="donate_money_again">기부 다시하기</string>
   <string name="donate_money_restored_success">성공적으로 복원!</string>
   <string name="donate_money_restored_failed">장치 레코드를 찾을 수 없습니다.</string>
+  <string name="donate_money_restored_failed_solution">해결 방법</string>
   <string name="donate_money_restored_timeout">연결 시간 초과, 다시 시도하십시오</string>
   <string name="donate_money_info">You donated a total of CNY %1$d, more than %2$s of donors globally!</string>
   <string name="donate_money_info_with_rank">You donated a total of CNY %1$d, more than %2$s of donors globally, rank No.%3$d!</string>
   <string name="donate_money_info_null">기부안함</string>
+  <string name="unlock_features_title">기능 잠금해제</string>
+  <string name="unlock_features_ota_title">%d CNY을 기부하면 ota와 빠른 다운로드 속도를 얻을 수 있습니다.</string>
+  <string name="unlock_features_verify_rom_title">%d CNY을 기부하면 광고 제거와 검증된 업데이트를 받을 수 있습니다.</string>
+  <string name="unlock_features_all_title">%d CNY을 기부하면 ota와 빠른 다운로드 속도, 검증된 업데이트와 광고 제거 혜택을 받을 수 있습니다.</string>
   <!-- Update -->
   <string name="unknown">미지</string>
   <string name="dialog_update">업데이트</string>
