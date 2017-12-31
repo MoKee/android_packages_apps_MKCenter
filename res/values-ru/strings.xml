@@ -20,21 +20,21 @@
   <!-- Fragment -->
   <string name="mokee_center_title">Панель MoKee</string>
   <string name="mokee_support_title">Поддержка</string>
-  <string name="mokee_updater_title">Обновления</string>
+  <string name="mokee_updater_title">Обновление</string>
   <!-- WebSite -->
   <string name="mokee_website_title">Сайт MoKee</string>
   <string name="mokee_website_summary">Посетить официальный веб-сайт</string>
   <string name="mokee_forum_title">Форум MoKee</string>
   <string name="mokee_forum_summary">Посетить форум MoKee</string>
-  <string name="mokee_issues_title">Отслеживание ошибок MoKee</string>
-  <string name="mokee_issues_summary">Посетить bug tracker</string>
+  <string name="mokee_issues_title">Центр отслеживания ошибок MoKee</string>
+  <string name="mokee_issues_summary">Посетить страницу отслеживания ошибок</string>
   <string name="mokee_changelog_title">Список изменений MoKee</string>
   <string name="mokee_changelog_summary">Посмотреть список изменений</string>
-  <string name="mokee_github_title">Github репозиторий MoKee</string>
-  <string name="mokee_github_summary">Посетить MoKee Github</string>
+  <string name="mokee_github_title">Репозиторий MoKee на GitHub</string>
+  <string name="mokee_github_summary">Открыть репозиторий MoKee на GitHub</string>
   <string name="mokee_translate_title">Перевод MoKee</string>
   <string name="mokee_translate_summary">Помогите перевести MoKee</string>
-  <string name="mokee_wiki_title">Wiki MoKee</string>
+  <string name="mokee_wiki_title">MoKee Wiki</string>
   <string name="mokee_wiki_summary">Посетить MoKee Wiki</string>
   <string name="mokee_news_title">Новости MoKee</string>
   <string name="mokee_news_summary">Получать новости о развитии MoKee</string>
@@ -44,13 +44,13 @@
   <string name="mokee_unique_id_title">Идентификатор устройства</string>
   <string name="mokee_donate_info_title">Информация о пожертвовании</string>
   <string name="mokee_last_check_title">Последняя проверка</string>
-  <string name="mokee_last_check_never">Еще не проводилась</string>
+  <string name="mokee_last_check_never">Не проводилось</string>
   <!-- Version -->
   <string name="mokee_info_default">Неизвестно</string>
-  <string name="mokee_version_type_release">Релиз</string>
+  <string name="mokee_version_type_release">Стабильная версия</string>
   <string name="mokee_version_type_history">История версий</string>
   <string name="mokee_version_type_experimental">Экспериментальная</string>
-  <string name="mokee_version_type_nightly">Ночная</string>
+  <string name="mokee_version_type_nightly">Ночные сборки</string>
   <string name="mokee_version_type_unofficial">Неофициальная</string>
   <string name="mokee_version_type_all">Все</string>
   <!-- State -->
@@ -61,13 +61,13 @@
   <string name="menu_donate">Пожертвовать</string>
   <string name="menu_refresh">Обновить</string>
   <string name="menu_delete_all">Удалить загруженное</string>
-  <string name="menu_unlock_features">Разблокировать функцию</string>
+  <string name="menu_unlock_features">Разблок. все функции</string>
   <string name="menu_restore">Восстановить лицензию</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Пожертвовать нам</string>
-  <string name="donate_dialog_message">В отличие от таких компаний, как Cygn или MIUI, MoKee OpenSource является некоммерческим проектом, появившимся на свет трудами энтузиастов. Для того, чтобы сохранить этот проект, мы вкладываем свои собственные средства, а также средства от пожертвований и рекламы. Ваши пожертвования могут помочь уменьшить нашу финансовую нагрузку и поддержат развитие проекта! Эта опция позволит удалить рекламу в Панели MoKee, или используйте соседнюю опцию «Пожертвовать», если вы предпочитаете рассрочку (реклама будет удалена после достижения указанного значения). Создайте резервную копию файла mokee.license  (находится в корневом каталоге sdcard, действительна только для текущего устройства), после совершения пожертвования.</string>
-  <string name="donate_dialog_via_paypal">PayPal(USD)</string>
-  <string name="donate_dialog_via_alipay">AliPay(CNY)</string>
+  <string name="donate_dialog_message">В отличие от таких компаний, как Cygn или MIUI, MoKee Open Source является некоммерческим проектом, появившимся на свет трудами энтузиастов. Для того, чтобы сохранить этот проект, мы вкладываем свои собственные средства, а также средства от пожертвований и рекламы. Ваши пожертвования могут помочь уменьшить нашу финансовую нагрузку и поддержат развитие проекта! Эта опция позволит удалить рекламу в Панели MoKee, или используйте соседнюю опцию «Пожертвовать», если вы предпочитаете рассрочку (реклама будет удалена после достижения указанного значения). Создайте резервную копию файла mokee.license  (находится в корневом каталоге sdcard, действительна только для текущего устройства), после совершения пожертвования.</string>
+  <string name="donate_dialog_via_paypal">PayPal (USD)</string>
+  <string name="donate_dialog_via_alipay">AliPay (CNY)</string>
   <string name="donate_dialog_via_wechat">WeChat</string>
   <string name="donate_dialog_via_restore">Восстановление</string>
   <string name="donate_money_toast_success">Благодарим Вас за пожертвование!</string>
@@ -76,39 +76,39 @@
   <string name="donate_money_restored_success">Восстановление прошло успешно!</string>
   <string name="donate_money_restored_failed">Не найдено записей об устройстве.</string>
   <string name="donate_money_restored_failed_solution">Решение</string>
-  <string name="donate_money_restored_timeout">Тайм-аут соединения. Повторите снова</string>
-  <string name="donate_money_info">Вы пожертвовали в общей сложности CNY %1$d, более чем %2$s доноров во всем мире!</string>
-  <string name="donate_money_info_with_rank">Вы пожертвовали в общей сложности CNY %1$d, более чем %2$s доноров во всем мире, ваш номер в списке: %3$d!</string>
+  <string name="donate_money_restored_timeout">Время ожидания превышено. Пожалуйста, попробуйте ещё раз.</string>
+  <string name="donate_money_info">Вы пожертвовали в общей сложности %1$d юаней, более чем %2$s донатеров во всем мире!</string>
+  <string name="donate_money_info_with_rank">Вы пожертвовали в общей сложности %1$d юаней, более чем %2$s донатеров во всем мире, ваш номер в списке: %3$d!</string>
   <string name="donate_money_info_null">Вы не произвели пожертвование</string>
-  <string name="unlock_features_title">Разблокировать функцию</string>
-  <string name="unlock_features_ota_title">Пожертвовать %d CNY для разблокировки OTA обновлений и полной скорости загрузки.</string>
-  <string name="unlock_features_verify_rom_title">Пожертвовать %d CNY для разблокировки OTA обновлений, полной скорости скачивания, проверка обновлений и удалять объявления.</string>
-  <string name="unlock_features_all_title">Пожертвовать %d CNY для доступа к OTA обновлениям, полной скорости скачивания, проверке обновлений и удаления рекламы.</string>
+  <string name="unlock_features_title">Разблок. все функции</string>
+  <string name="unlock_features_ota_title">Пожертвуйте %d юаней для разблокировки OTA-обновлений и полной скорости загрузки.</string>
+  <string name="unlock_features_verify_rom_title">Пожертвуйте %d юаней для разблокировки OTA-обновлений, полной скорости скачивания, проверки обновлений и удаления рекламы.</string>
+  <string name="unlock_features_all_title">Пожертвуйте %d юаней для доступа к OTA-обновлениям, полной скорости скачивания, проверке обновлений и удаления рекламы.</string>
   <!-- Update -->
   <string name="unknown">Неизвестно</string>
   <string name="dialog_update">Обновление</string>
   <string name="dialog_install">Установить</string>
-  <string name="dialog_ok">Да</string>
+  <string name="dialog_ok">ОК</string>
   <string name="dialog_cancel">Отмена</string>
   <string name="dialog_close">Закрыть</string>
   <string name="no_available_updates_intro">Во время последней проверки не найдено доступных обновлений. Чтобы вручную проверить доступные обновления, используйте кнопку \"Обновить\".</string>
   <string name="no_available_ota_intro">Последняя проверка не обнаружила обновлений. Чтобы проверить наличие обновлений вручную, используйте кнопку \"Обновить\". Если вы используете версию, которая находится за пределами диапазона дат, поддерживаемых ОТА обновлениями, выключите опцию \"ОТА обновления\".</string>
-  <string name="new_update_summary">Новое</string>
-  <string name="old_update_summary">Устаревшее</string>
-  <string name="ota_diff_update_summary">Частичные обновления могут сохранить %s</string>
+  <string name="new_update_summary">Новое обновление</string>
+  <string name="old_update_summary">Устаревшее обновление</string>
+  <string name="ota_diff_update_summary">ОТА-обновления могут сохранить %s трафика</string>
   <string name="full_diff_update_summary">Сэкономит %s по сравнению с полным пакетом обновления</string>
   <string name="update_check_title">Частота проверки обновлений</string>
   <string name="check_manual">Вручную</string>
-  <string name="nightly_alert">Вы включили в список для поиска обновлений «ночные сборки». Помните, что техническая поддержка по ним не предоставляется и использование «ночных сборок» должно проводиться с осторожностью.</string>
+  <string name="nightly_alert">Вы включили в список для поиска обновлений ночные сборки. Помните, что техническая поддержка по ним не предоставляется и использование ночных сборок должно проводиться с осторожностью.</string>
   <string name="experimenter_alert">Вы включили в список для поиска обновлений «экспериментальные обновления». Помните, что техническая поддержка по ним не предоставляется, они предназначены только для тестирования, использование «экспериментальных обновлений» должно проводиться с осторожностью.</string>
   <string name="unofficial_alert">Вы включили в список для поиска обновлений «неофициальные обновления». Помните, что техническая поддержка по ним осуществляется только автором неофициального обновления под Ваше устройство.</string>
-  <string name="all_alert">Вы предпочли включить все обновления (релизы, экспериментальные) в этот список. Обратите внимание, что ночные обновления не имеют поддержки разработчиков и должны использоваться с осторожностью.</string>
-  <string name="alert_title">Осторожно</string>
-  <string name="update_type_title">Тип обновления</string>
+  <string name="all_alert">Вы предпочли включить все виды обновлений (стабильные, ночные сборки) в этот список. Обратите внимание, что ночные сборки не имеют поддержки со стороны разработчиков и должны использоваться с осторожностью.</string>
+  <string name="alert_title">Предупреждение</string>
+  <string name="update_type_title">Тип обновлений</string>
   <!-- ChangeLog -->
   <string name="no_changelog_alert">Список изменений недоступен</string>
   <string name="changelog_dialog_title">Список изменений</string>
-  <string name="loading_changelog">Загрузка\u2026</string>
+  <string name="loading_changelog">Загрузка...</string>
   <string name="check_on_boot">При каждой перезагрузке</string>
   <string name="check_twice_daily">Дважды в день</string>
   <string name="check_daily">Ежедневно, один раз в день</string>
@@ -117,18 +117,18 @@
   <string name="check_bi_weekly">Раз в две недели</string>
   <string name="check_monthly">Раз в месяц</string>
   <!-- checking -->
-  <string name="checking_for_updates">Проверка наличия обновлений</string>
+  <string name="checking_for_updates">Проверка наличия обновлений...</string>
   <string name="no_updates_found">Новые обновления не найдены</string>
   <string name="not_new_updates_found_ticker">Доступны новые обновления</string>
   <string name="not_new_updates_found_title">Новые обновления</string>
   <string name="update_check_failed">Не удалось выполнить проверку обновлений. Пожалуйста, проверьте подключение к Интернету, либо повторите попытку позже.</string>
   <string name="not_action_download">Загрузить</string>
-  <string name="data_connection_required">Требуется подключение к Сети.</string>
+  <string name="data_connection_required">Необходимо подключение к Интернету.</string>
   <!-- Downloads -->
   <string name="confirm_download_cancelation_dialog_title">Отменить загрузку</string>
   <string name="confirm_download_cancelation_dialog_message">Отменить текущую загрузку?</string>
   <string name="download_remaining">Осталось <xliff:g id="duration" example="3 minutes">%s</xliff:g></string>
-  <string name="download_running">Выполняется</string>
+  <string name="download_running">Идёт загрузка обновления...</string>
   <string name="download_cancelled">Загрузка отменена</string>
   <string name="download_already_running">Загрузка уже выполняется</string>
   <string name="download_limited_mode">Скорость загрузки ограничена. Вы можете сделать пожертвование, чтобы снять ограничения скорости.</string>
@@ -136,8 +136,8 @@
   <string name="not_download_success">Обновление успешно загружено</string>
   <string name="not_download_failure">Обновление не было загружено</string>
   <string name="not_action_install_update">Перезагрузить и установить</string>
-  <string name="not_download_install_notice">Обновление <xliff:g id="filename">%s</xliff:g> было успешно загружено. Нажмите \'Перезагрузить и установить\' для установки обновления. \n\nПримечание: Для установки в автоматическом режиме требуется совместимое Recovery.</string>
-  <string name="not_download_install_ota_notice">Обновление <xliff:g id="filename">%s</xliff:g> было успешно загружено. Нажмите \'Перезагрузить и установить\' для установки обновления. \n\nПримечание: Для установки в автоматическом режиме требуется совместимое Recovery. Это инкрементное обновление, поэтому изменения в системных файлах могут привести к сбою установки обновления. В этом случае, установите полную версию Mokee.</string>
+  <string name="not_download_install_notice">Обновление <xliff:g id="filename">%s</xliff:g> было успешно загружено. Нажмите \'Перезагрузить и установить\' для установки обновления. \n\nПримечание: для установки в автоматическом режиме требуется совместимое меню Recovery.</string>
+  <string name="not_download_install_ota_notice">Обновление <xliff:g id="filename">%s</xliff:g> было успешно загружено. Нажмите «Перезагрузить и установить» для установки обновления.\n\nПримечание: для установки в автоматическом режиме требуется совместимое меню Recovery.\n\nЭто ОТА-обновление, поэтому изменения в системных файлах могут привести к сбою установки обновления. Если вы столкнетесь с этой проблемом, прошейте полную версию MoKee.</string>
   <string name="md5_verification_failed">Несовпадение контрольной суммы MD5</string>
   <string name="not_apk_action_install_update">Установить</string>
   <!-- deleting -->
@@ -149,34 +149,34 @@
   <string name="delete_updates_nofolder_message">Каталог с обновлениями не найден</string>
   <string name="delete_updates_success_message">Все загруженные обновления удалены</string>
   <!-- Pref -->
-  <string name="pref_ota_check">OTA обновления</string>
-  <string name="pref_ota_check_summary">Инкрементные обновления для экономии места и трафика</string>
-  <string name="pref_ota_check_donation_request_summary">Инкрементные обновления для экономии места и трафика (доступно после пожертвования в CNY %d)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">Получить OTA-обновления для экономии времени и трафика (Пожертвовано %1$d, доступный период после пожертвования более %2$d. Валюта: CNY)</string>
+  <string name="pref_ota_check">OTA-обновления</string>
+  <string name="pref_ota_check_summary">Получать ОТА-обновления для экономии трафика и времени загрузки</string>
+  <string name="pref_ota_check_donation_request_summary">ОТА-обновления экономят место на устройстве и ваш трафик (доступно после пожертвования в %d юаней)</string>
+  <string name="pref_ota_check_donation_request_pending_summary">Получать OTA-обновления для экономии времени и трафика (пожертвовано %1$d, доступный период после пожертвования более %2$d, валюта: юани)</string>
   <string name="pref_verify_rom">Проверенные обновления</string>
   <string name="pref_verify_rom_summary">Показывать только проверенные другими пользователями обновления</string>
-  <string name="pref_verify_rom_donation_request_summary">Показывать только обновления, которые проверяются другими пользователями (доступно после пожертвования CNY %d)</string>
-  <string name="pref_verify_rom_donation_request_pending_summary">Показывать только обновления, проверенные другими пользователями (пожертвовано %1$d, можно перевести после пожертвования еще %2$d, текущая валюта: юань)</string>
+  <string name="pref_verify_rom_donation_request_summary">Показывать только обновления, которые проверены другими пользователями (доступно после пожертвования %d юаней)</string>
+  <string name="pref_verify_rom_donation_request_pending_summary">Показывать только обновления, проверенные другими пользователями (пожертвовано %1$d, можно перевести после пожертвования ещё %x2$d, текущая валюта: юани)</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Применить обновление</string>
   <string name="apply_update_dialog_text">Будет выполнено обновление до версии «<xliff:g id="filename">%s</xliff:g>».\n\nПри нажатии кнопки «Обновить» устройство перезагрузится в режим восстановления для установки этого обновления. \n\nПримечание: эта функция требует совместимого Recovery. В противном случае обновление будет необходимо установить вручную.</string>
-  <string name="apply_update_ota_dialog_text">Будет выполнено обновление до версии «<xliff:g id="filename">%s</xliff:g>».\n\nПри нажатии кнопки «Обновить» устройство перезагрузится в режим восстановления для установки этого обновления. \n\nПримечание: эта функция требует совместимого Recovery. В противном случае обновление будет необходимо установить вручную.\n\nЭто инкрементное обновление, поэтому изменения в системных файлах могут привести к сбою установки обновления. В этом случае, установите полную версию Mokee.</string>
+  <string name="apply_update_ota_dialog_text">Будет выполнено обновление до версии «<xliff:g id="filename">%s</xliff:g>».\n\nПри нажатии кнопки «Обновить» устройство перезагрузится в режим восстановления для установки этого обновления. \n\nПримечание: эта функция требует совместимого меню Recovery. В противном случае обновление будет необходимо установить вручную.\n\nЭто ОТА-обновление, поэтому изменения в системных файлах могут привести к сбою установки обновления. Если вы столкнетесь с этой проблемом, прошейте полную версию MoKee.</string>
   <string name="apply_unable_to_reboot_toast">Невозможно перезагрузиться в режим Recovery</string>
   <!-- Experimenter mode -->
   <string name="show_exp_on">Вы включили экспериментальные параметры!</string>
-  <string name="show_exp_already">Нет необходимости, экспериментальные параметры уже включены.</string>
+  <string name="show_exp_already">Не нужно, настройки для разработчиков уже включены.</string>
   <!-- Discount -->
-  <string name="discount_dialog_title">Временное предложение</string>
-  <string name="discount_dialog_message">Благодарим вас за долгую поддержку проекта MoKee Open Source. Мы очень признательны вам, поэтому запускаем временное предложение. За %1$d юань вы можете установить дополнительные обновления, обновления, подтвержденные сообществом, а также убрать рекламу из приложения (со скидкой %2$d юань). Закройте окно и перезапустите приложение, если хотите заплатить позже.</string>
+  <string name="discount_dialog_title">Ограниченное предложение!</string>
+  <string name="discount_dialog_message">Благодарим вас за поддержку проекта MoKee Open Source! Мы очень признательны вам, поэтому предлагаем ограниченное предложение. За %1$d юаней вы можете устанавливать обновления по воздуху (ОТА); обновления, подтвержденные сообществом, а также убрать рекламу в Панели MoKee (со скидкой %2$d юаней). Если вы хотите разблокировать эти функции позже, вы можете закрыть Панель MoKee и открыть снова, когда будете готовы разблокировать их.</string>
   <string name="discount_dialog_expires">Предложение закончится через %s</string>
   <string name="discount_dialog_cancel">Не напоминать</string>
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">Обновление системы MoKee</string>
-  <string name="verify_system_compatible_message">Проверка совместимости системы перед обновлением\u2026</string>
+  <string name="verify_system_compatible_message">Проверка совместимости системы перед обновлением...</string>
   <string name="verify_system_compatible_failed">Не удалось проверить совместимость системы</string>
   <string name="verify_system_compatible_patch">Следующие файлы были изменены или удалены, пожалуйста, восстановите их и повторите попытку.</string>
-  <string name="verify_system_compatible_img">Несовместимый %1$s, пожалуйста обновите до версии %2$s</string>
-  <string name="verify_system_compatible_root_request">Требуется корневой доступ, чтобы обновить Плагин Проверки Совместимости обновлений. Если вы решите пропустить этот шаг, это действие будет выполнено в режиме Recovery.</string>
+  <string name="verify_system_compatible_img">Несовместимый файл обновления %1$s, пожалуйста, обновите до версии %2$s</string>
+  <string name="verify_system_compatible_root_request">Плагину проверки обновлений сейчас требуется root-доступ для проверки совместимости обновления. Если вы решите пропустить этот шаг, это действие будет отложено и выполнено в режиме Recovery.</string>
   <string name="verify_system_compatible_root_skip">Пропустить</string>
   <!-- Common -->
   <string name="activity_not_found">Приложение не установлено.</string>
