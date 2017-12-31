@@ -156,7 +156,6 @@
   <string name="pref_verify_rom">Проверенные обновления</string>
   <string name="pref_verify_rom_summary">Показывать только проверенные другими пользователями обновления</string>
   <string name="pref_verify_rom_donation_request_summary">Показывать только обновления, которые проверены другими пользователями (доступно после пожертвования %d юаней)</string>
-  <string name="pref_verify_rom_donation_request_pending_summary">Показывать только обновления, проверенные другими пользователями (пожертвовано %1$d, можно перевести после пожертвования ещё %x2$d, текущая валюта: юани)</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Применить обновление</string>
   <string name="apply_update_dialog_text">Будет выполнено обновление до версии «<xliff:g id="filename">%s</xliff:g>».\n\nПри нажатии кнопки «Обновить» устройство перезагрузится в режим восстановления для установки этого обновления. \n\nПримечание: эта функция требует совместимого Recovery. В противном случае обновление будет необходимо установить вручную.</string>
