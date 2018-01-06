@@ -31,6 +31,7 @@
   <string name="mokee_changelog_title">Listahan ng mga nabago sa MoKee</string>
   <string name="mokee_changelog_summary">Tingnan ang araw-araw na listahan ng pagbabago</string>
   <string name="mokee_github_title">MoKee Github</string>
+  <string name="mokee_github_summary">Bisitahin ang MoKee sa Github</string>
   <string name="mokee_translate_title">Pagsasalin ng MoKee</string>
   <string name="mokee_translate_summary">Tumulong sa pagsasalin ng MoKee</string>
   <string name="mokee_wiki_title">MoKee Wiki</string>
@@ -42,6 +43,7 @@
   <string name="mokee_version_title">Bersyon ng MoKee</string>
   <string name="mokee_unique_id_title">Natatanging ID</string>
   <string name="mokee_donate_info_title">Impormasyon sa donasyon</string>
+  <string name="mokee_last_check_title">Huling Natingnan</string>
   <string name="mokee_last_check_never">Hindi kailanman</string>
   <!-- Version -->
   <string name="mokee_info_default">Hindi tiyak</string>
@@ -64,11 +66,47 @@
   <string name="donate_dialog_message">Hindi tulad ng mga kumpanya tulad ng Cygn o MIUI, ang MoKee OpenSource ay isang ganap na di-kumikitang proyektong nabuo ng libangan at pasyon. Upang mapanatili ang proyektong ito, kailangan naming itabi ang aming sariling pera sa lahat ng oras o umaasa sa mga donasyon at mga patalastas. Ang iyong mga donasyon ay maaaring makatulong na mabawasan ang aming pinansiyal at suportahan ang pag-unlad sa hinaharap! Itong opsyon ay pinapayagan kang alisin ang mga ad sa MoKee Center, o gamitin ang \"Mag-donate\" na opsyon sa halip kung gusto mo ng mga installment (aalisin ang mga ad kapag nakarating na ang kabuuang tinukoy na halaga). (sa direktoryo ng root ng sdcard, balido lamang sa kasalukuyang aparato) sa sandaling ikaw ay nagbigay.</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
+  <string name="donate_dialog_via_restore">Pagsasabalik</string>
   <string name="donate_money_toast_success">Salamat sa inyong donasyon!</string>
+  <string name="donate_money_again">Magbigay muli ng donasyon</string>
+  <string name="donate_money_restored_success">Matagumpay na naibalik!</string>
+  <string name="donate_money_restored_failed">Walang nakitang device na rekord.</string>
+  <string name="donate_money_restored_timeout">Naputol ang koneksyon, pakisubukan muli</string>
+  <string name="donate_money_info_null">Hindi ka pa nakapagbigay</string>
   <!-- Update -->
   <string name="unknown">Hindi tiyak</string>
+  <string name="dialog_update">I-update</string>
+  <string name="dialog_install">I-install</string>
+  <string name="dialog_ok">OK</string>
+  <string name="dialog_cancel">Kanselahin</string>
+  <string name="dialog_close">Isara</string>
+  <string name="no_available_updates_intro">Ang huling pagsusri ay hindi nakahanap ng anumang available na mga update. Sa manu-manong pagsusuri para sa mga bagong update, gamitin ang refresh na button.</string>
+  <string name="no_available_ota_intro">Ang huling pagsusuri ay hindi nakahanap ng anumang available na mga update. Sa manu-manong pagsusuri para sa mga bagong update, gamitin ang Refresh button. Kung nagpapatakbo ka ng isang bersyon na wala sa suportadong incremental na update sa hanay ng petsa, dapat mong hindi piliin ang \"Incremental update\" na opsyon.</string>
+  <string name="new_update_summary">Bago</string>
+  <string name="old_update_summary">Luma</string>
+  <string name="update_check_title">Suriin madalas ang update</string>
+  <string name="check_manual">Mano-mano</string>
+  <string name="nightly_alert">Pinili mong isali ang mga update sa gabi sa listahan na ito. Ang mga ito ay hindi suportado at dapat gamitin nang may pag-iingat.</string>
+  <string name="experimenter_alert">Pinili mo na isali ang mga pang-eksperimentong update sa listahang ito. Ang mga ito ay hindi suportado at sinadya para sa pagsubok lamang, dapat itong gamitin nang may pag-iingat.</string>
+  <string name="unofficial_alert">Pinili mong isaliang mga hindi opisyal na update sa listahang ito. Tandaan ang mga ito na ito ay suportado ng tagapangasiwa ng iyong device.</string>
+  <string name="all_alert">Pinili mo na isali ang lahat ng mga update (release, gabi-gabi) sa listahang ito. Tandaan na ang mga update gabi-gabi ay hindi suportado at dapat gamitin nang may pag-iingat.</string>
+  <string name="alert_title">Mag-ingat</string>
+  <string name="update_type_title">I-update ang uri</string>
   <!-- ChangeLog -->
+  <string name="no_changelog_alert">Walang makukuha na changelog</string>
+  <string name="changelog_dialog_title">Changelog</string>
+  <string name="loading_changelog">Naglo-load \ u2026</string>
+  <string name="check_on_boot">Sa bawat muling pagpapagana</string>
+  <string name="check_twice_daily">Dalawang beses bawat araw</string>
+  <string name="check_daily">Isang beses sa bawat araw</string>
+  <string name="check_twice_weekly">Dalawang beses kada linggo</string>
+  <string name="check_weekly">Isang beses sa bawat linggo</string>
+  <string name="check_monthly">Isang beses sa bawat buwan</string>
   <!-- checking -->
+  <string name="checking_for_updates">Naghahanap ng mga update</string>
+  <string name="no_updates_found">Walang mga bagong update na nakita</string>
+  <string name="not_new_updates_found_ticker">Mga bagong update na magagamit</string>
+  <string name="not_new_updates_found_title">Mga bagong update</string>
   <string name="update_check_failed">Nabigo ang pag-check ng update. Mangyaring suriin ang iyong internet koneksyon at subukan ulit mamaya.</string>
   <string name="not_action_download">I-download</string>
   <string name="data_connection_required">Kinakailangan ang koneksyon ng datos.</string>
@@ -84,15 +122,20 @@
   <string name="not_download_install_notice">Ang pag-update <xliff:g id="filename">%s</xliff:g> ay matagumpay na na-download. Kapag hinawakan ang \'I-reboot at i-install\', sisimulan ng device ang sarili nito upang i-install ang update.\n\n Paalala: Ang tampok na ito ay nangangailangan ng isang katugmang Recovery o mga update ay kailangang ma-install nang manu-mano.</string>
   <string name="not_download_install_ota_notice">Ang pag-update <xliff:g id="filename">%s</xliff:g> ay matagumpay na na-download. Kapag hinawakan ang \'I-reboot at i-install\', sisimulan ng device ang sarili nito upang i-install ang update.\n\nPaalala: Ang tampok na ito ay nangangailangan ng isang katugmang Recovery o mga update ay kailangang mai-install nang mano-mano.\n\nIto ay isang incremental na update, kaya ang anumang mga pagbabago ginawa sa mga system file ay maaaring magdulot ng pag-update na mabibigo. Kung mangyari ito, maaring mag-flash sa isang buong ROM sa halip.</string>
   <string name="md5_verification_failed">MD5 checksum mismatch</string>
+  <string name="not_apk_action_install_update">I-install</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Tanggalin ang file</string>
   <string name="confirm_delete_updates_dialog_message">Tanggalin ang napiling update na file?</string>
   <string name="confirm_delete_updates_all_dialog_message">Tanggalin lahat na nai-download na mga update file?</string>
+  <string name="delete_updates_failure_message">Nagkaroon ng error sa pag-delete ng update na file</string>
   <!-- Pref -->
   <!-- Apply install and update strings -->
+  <string name="apply_update_dialog_text">Ikaw ay mag-upgrade sa <xliff:g id="filename">%s</xliff:g>.\n\nKung pindutin ang I-update, sisimulang i-restart ng device mismo sa recovery na mode upang i-install ang update.\n\nTandaan: Ang tampok na ito ay nangangailangan ng isang katugmang Recovery o mga update ay kailangang i-install nang mano-mano.</string>
+  <string name="apply_update_ota_dialog_text">Ikaw ay mag-upgrade sa <xliff:g id="filename">%s</xliff:g>.\n\nKung pindutin ang I-update, sisimulang i-restart ng device mismo sa recovery na mode upang i-install ang update.\n\nTandaan: Ang tampok na ito ay nangangailangan ng isang katugmang Recovery o mga update ay kailangang i-install nang mano-mano.\n\nIto ay isang incremental na update, kaya ang anumang mga pagbabago na ginawa sa mga file system ay maaaring maging sanhi ng pagkabigo sa update. Kung mangyari man ito, paki-flash ng ROM sa halip.</string>
   <!-- Experimenter mode -->
   <!-- Discount -->
   <!-- Verify system compatible -->
+  <string name="verify_system_compatible_title">Pag-update ng MoKee system</string>
   <!-- Common -->
   <string name="activity_not_found">Hindi naka-install ang app.</string>
 </resources>

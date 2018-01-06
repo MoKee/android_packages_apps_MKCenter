@@ -61,18 +61,29 @@
   <string name="menu_donate">Mag-donate</string>
   <string name="menu_refresh">I-refresh</string>
   <string name="menu_delete_all">Burahin ang download</string>
+  <string name="menu_unlock_features">I-unlock ang mga katangian</string>
+  <string name="menu_restore">Ibalik ang lisensya</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Magbigay ng donasyon sa amin</string>
   <string name="donate_dialog_message">Hindi tulad ng mga kumpanya tulad ng Cygn o MIUI, ang MoKee OpenSource ay isang panay na di-kumikitang proyektong nabuo ng libangan at ng pasyon. Upang mapangalagaan ang proyektong ito, kailangan naming itabi ang aming sariling pera sa halos lahat ng oras o umaasa sa mga donasyon at mga patalastas. Ang iyong mga donasyon ay maaaring makatulong na mabawasan ang aming pinansiyal na pagkarga at suportahan ang pag-unlad sa hinaharap! Pinapayagan ka ng pagpipiliang ito na alisin ang mga ad sa MoKee Center, o gamitin ang opsyon na \"Mag-donate\" sa halip kung gusto mo ng mga installment (aalisin ang mga ad kapag nakarating na ang kabuuan ng tinukoy na halaga). (sa direktoryo ng root ng sdcard, tanging may bisa para sa kasalukuyang aparato) sa sandaling ikaw ay naibigay.</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
+  <string name="donate_dialog_via_wechat">WeChat</string>
   <string name="donate_dialog_via_restore">Pgsasabalik</string>
   <string name="donate_money_toast_success">Salamat sa inyong donasyon!</string>
+  <string name="donate_money_title">Magbigay ng donasyon sa MoKee Open Source</string>
   <string name="donate_money_again">Magbigay muli ng donasyon</string>
   <string name="donate_money_restored_success">Matagumpay na naibalik!</string>
   <string name="donate_money_restored_failed">Walang tala ng gamit na device.</string>
+  <string name="donate_money_restored_failed_solution">Solusyon</string>
   <string name="donate_money_restored_timeout">Naputol ang koneksyon, pakisubukan muli</string>
+  <string name="donate_money_info">Ikaw ay nag-donate ng %1$d CNY sa kabuuan, higit pa sa %2$s ng mga donor sa buong mundo!</string>
+  <string name="donate_money_info_with_rank">Ikaw ay nag-donate ng %1$d CNY sa kabuuan, higit pa sa %2$s ng mga donor sa buong mundo, ika-%3$d na ranggo!</string>
   <string name="donate_money_info_null">Hindi ka pa nakapagbigay</string>
+  <string name="unlock_features_title">I-unlock ang mga katangian</string>
+  <string name="unlock_features_ota_title">I-unlock_mga tampok_ota_pamagat.</string>
+  <string name="unlock_features_verify_rom_title">I-unlock_tampok_patunayan_rom_pamagat</string>
+  <string name="unlock_features_all_title">I-unlock_mga tampok_lahat_pamagat</string>
   <!-- Update -->
   <string name="unknown">Hindi alam</string>
   <string name="dialog_update">I-update</string>
@@ -84,6 +95,8 @@
   <string name="no_available_ota_intro">Ang huling tseke ay hindi nakahanap ng anumang available na mga update. Upang manu-manong suriin para sa mga bagong update, gamitin ang pindutan ang I-refresh. Kung nagpapatakbo ka ng isang bersyon na wala sa suportadong incremental na hanay ng update ng petsa, dapat mong alisin sa pagkakapili ang pagpipiliang \"Incremental update\".</string>
   <string name="new_update_summary">Bago</string>
   <string name="old_update_summary">Luma</string>
+  <string name="ota_diff_update_summary">ota_diff_I-update_buod</string>
+  <string name="full_diff_update_summary">Buong_diff_I-update_buod</string>
   <string name="update_check_title">Suriin ang pag-update ng freq</string>
   <string name="check_manual">Mano-mano</string>
   <string name="nightly_alert">Pinili mong isama ang mga update sa gabi sa listahan na ito. Ang mga ito ay hindi suportado at dapat gamitin nang may pag-iingat.</string>
@@ -118,6 +131,7 @@
   <string name="download_running">Isinasagawa</string>
   <string name="download_cancelled">Kinansela ang pag-download</string>
   <string name="download_already_running">Mayroon nang dinadownload</string>
+  <string name="download_limited_mode">I-download_limitado_mode.</string>
   <string name="unable_to_download_file">Hindi makapag-download ng mga file na pang-update</string>
   <string name="not_download_success">Ang download ng update ay matagumpay</string>
   <string name="not_download_failure">Ang download ng update ay hindi matagumpay</string>
@@ -137,6 +151,12 @@
   <!-- Pref -->
   <string name="pref_ota_check">Incremental na mga update</string>
   <string name="pref_ota_check_summary">Kumuha ng mga incremental update upang i-save ang oras ng pag-download at bandwidth</string>
+  <string name="pref_ota_check_donation_request_summary">Pref_ota_suriin_donasyon_hiling_buod</string>
+  <string name="pref_ota_check_donation_request_pending_summary">Pref_ota_suriin_donasyon_hiling_nakabinbin_buod</string>
+  <string name="pref_verify_rom">Pref_patunayan_rom</string>
+  <string name="pref_verify_rom_summary">Ipakita lamang ang mga update na napatunayan na ng ibang mga gumagamit</string>
+  <string name="pref_verify_rom_donation_request_summary">Ipakita lamang ang mga update na napatunayan na ng ibang mga gumagamit (makikita pagkatapos mag-donate ng %d CNY)</string>
+  <string name="pref_verify_rom_donation_request_pending_summary">Ipakita lamang ang mga update na napatunayan na ng ibang mga gumagamit (nag-donate ng %1$d CNY, makikita habambuhay pagkatapos mag-donate ng dagdag na %2$d)</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">I-apply ang update</string>
   <string name="apply_update_dialog_text">Ikaw ay mag-upgrade sa <xliff:g id="filename">%s </xliff:g>. \n\nKung pinindot mo ang I-update, sisimulang i-restart ang device mismo sa mode ng pagbawi upang i-install ang update. \n\n: Ang tampok na ito ay nangangailangan ng isang katugmang Recovery o mga update ay kailangang mai-install nang manu-mano.</string>
@@ -146,8 +166,17 @@
   <string name="show_exp_on">Pinagana mo ang mga pang-eksperimentong setting!</string>
   <string name="show_exp_already">Hindi na kailangan, na pinagana mo ang mga pang-eksperimentong setting.</string>
   <!-- Discount -->
+  <string name="discount_dialog_title">Limitadong oras na alok</string>
+  <string name="discount_dialog_message">Salamat sa iyong patuloy na suporta sa MoKee Open Source. Bilang tanda ng pasasalamat, ikaw ay may karapatan sa isang limitadong oras na alok. Sa %1$d CNY, matatamasa mo ang mga incremental update, mga napatunayang update at alisin ang mga patalastas mula sa MoKee Centre (makakasave ng %2$d CNY). Kung gugustuhin mo na magbayad kalaunan, maaari mong isara ang diyalogong ito at muling ilunsad ang MoKee Center kapag ikaw ay handa na.</string>
+  <string name="discount_dialog_expires">Ang alok ay mag-e-expire sa %s</string>
+  <string name="discount_dialog_cancel">Huwag ipaalala</string>
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">Pag-update ng MoKee system</string>
+  <string name="verify_system_compatible_message">Pag-verify ng pagkakabagay ng sistema bago i-patch ang \u2026</string>
+  <string name="verify_system_compatible_failed">Ang pag-verify ng pagkakabagay ng sistema ay bigo</string>
+  <string name="verify_system_compatible_patch">Ang sumusunod na mga file ay maaaring binago o tinanggal, mangyaring ibalik ang mga ito at subukang muli.</string>
+  <string name="verify_system_compatible_img">Hindi tugma na %1$s, mangyaring mag-upgrade sa %2$s na bersyon</string>
+  <string name="verify_system_compatible_root_request">patunayan_system_mga katugmang_root_hiling.</string>
   <string name="verify_system_compatible_root_skip">Laktawan</string>
   <!-- Common -->
   <string name="activity_not_found">Hindi naka-install ang app.</string>

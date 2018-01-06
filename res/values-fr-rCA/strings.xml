@@ -26,7 +26,7 @@
   <string name="mokee_website_summary">Visitez le site officiel</string>
   <string name="mokee_forum_title">Forum de MoKee</string>
   <string name="mokee_forum_summary">Visiter le Forum de MoKee</string>
-  <string name="mokee_issues_title">MoKee Bug Tracker</string>
+  <string name="mokee_issues_title">Gestionnaire de bogues de MoKee</string>
   <string name="mokee_issues_summary">Visitez le bug tracker</string>
   <string name="mokee_changelog_title">Historique des modifications de MoKee</string>
   <string name="mokee_changelog_summary">Voir le journal des modifications</string>
@@ -34,7 +34,7 @@
   <string name="mokee_github_summary">Visitez le Github de MoKee</string>
   <string name="mokee_translate_title">Définition de MoKee</string>
   <string name="mokee_translate_summary">Aider à traduire MoKee</string>
-  <string name="mokee_wiki_title">MoKee Wiki</string>
+  <string name="mokee_wiki_title">Wiki MoKee</string>
   <string name="mokee_wiki_summary">Découvrez le Wiki de MoKee</string>
   <string name="mokee_news_title">News de MoKee</string>
   <string name="mokee_news_summary">Recevoir des infos sur le développement de MoKee</string>
