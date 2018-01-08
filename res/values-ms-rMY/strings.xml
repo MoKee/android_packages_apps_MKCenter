@@ -61,18 +61,29 @@
   <string name="menu_donate">Donasi</string>
   <string name="menu_refresh">Kemaskini</string>
   <string name="menu_delete_all">Hapuskan muat turun</string>
+  <string name="menu_unlock_features">Buka kunci ciri-ciri</string>
+  <string name="menu_restore">Memulihkan lesen</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Donasi kepada kami</string>
   <string name="donate_dialog_message">Tidak sama seperti syarikat-syarikat seperti Cygn atau MIUI, MoKee OpenSource ialah sebuah projek yang tidak beruntungan semata-mata dan dilahirkan oleh hobi serta keghairahan. Untuk mengekalkan projek ini, kami terpaksa untuk menggunakan wang kami setiap kali atau bergantung kepada dermaan dan pengiklanan. Dermaan anda boleh tolong mengurangkan beban kewangan dan meneruskan pembangunan masa depan! Pilihan ini membenarkan anda mengeluarkan iklan dalam MoKee Center, atau menggunakan pilihan \"Donate\" jika anda lebih suka ansuran (iklan akan dikeluarkan sehingga jumlah telah mencapai nilai tertentu). (dalam direktori akar kad sd, sah sahaja untuk peranti semasa) sebaik sahaja anda telah membuat dermaan.</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
+  <string name="donate_dialog_via_wechat">WeChat</string>
   <string name="donate_dialog_via_restore">Pulihkan</string>
   <string name="donate_money_toast_success">Terima kasih atas sumbangan anda!</string>
+  <string name="donate_money_title">Menderma kepada MoKee Open Source</string>
   <string name="donate_money_again">Donasi lagi</string>
   <string name="donate_money_restored_success">Dipulihkan berjaya!</string>
   <string name="donate_money_restored_failed">Tiada rekod peranti dijumpai.</string>
+  <string name="donate_money_restored_failed_solution">Penyelesaian</string>
   <string name="donate_money_restored_timeout">Sambungan tamat, sila cuba lagi</string>
+  <string name="donate_money_info">Anda telah menderma sejumlah %1$d CNY, lebih daripada %2$s penderma seluruh dunia!</string>
+  <string name="donate_money_info_with_rank">Anda telah menderma sejumlah %1$d CNY, lebih daripada %2$s penderma di seluruh dunia, No taraf %3$d!</string>
   <string name="donate_money_info_null">Anda tidak donasi</string>
+  <string name="unlock_features_title">Buka kunci ciri-ciri</string>
+  <string name="unlock_features_ota_title">Menderma %d CNY untuk membuka kunci ota dan kelajuan muat turun penuh.</string>
+  <string name="unlock_features_verify_rom_title">Menderma %d CNY untuk kemaskini yang disahkan dan mengeluarkan iklan.</string>
+  <string name="unlock_features_all_title">Menderma %d CNY untuk membuka kunci ota, kelajuan muat turun penuh, kemaskini disahkan dan mengeluarkan iklan.</string>
   <!-- Update -->
   <string name="unknown">Tidak diketahui</string>
   <string name="dialog_update">Kemas kini</string>
@@ -84,6 +95,7 @@
   <string name="no_available_ota_intro">Semakan terakhir tidak menjumpai sebarang kemaskini. Untuk semak secara manual, gunakan butang kemaskini semula. Jika anda menggunakan versi yang tiada sokongan peningkatan kemaskini, anda perlu nyahaktifkan opsyen peningkatan kemaskini.</string>
   <string name="new_update_summary">Baru</string>
   <string name="old_update_summary">Lama</string>
+  <string name="full_diff_update_summary">Menjimatkan %s apabila berbanding dengan ROM penuh</string>
   <string name="update_check_title">Kekerapan kemas kini</string>
   <string name="check_manual">Manual</string>
   <string name="nightly_alert">Anda telah memilih untuk memasukkan kemaskini semalaman didalam senarai ini. Ini tidak disokong dan patut digunakan dengan berhati-hati.</string>
@@ -118,6 +130,7 @@
   <string name="download_running">Sedang berjalan</string>
   <string name="download_cancelled">Muat turun dibatalkan</string>
   <string name="download_already_running">Muat turun sedang berjalan</string>
+  <string name="download_limited_mode">Sedang muat turun dengan kelajuan yang terhad, sila derma untuk menikmati kelajuan yang sepenuhnya.</string>
   <string name="unable_to_download_file">Tidak dapat muat turun fail kemaskini</string>
   <string name="not_download_success">Kemaskini berjaya dimuat turun</string>
   <string name="not_download_failure">Muat turun kemaskini tidak berjaya</string>
@@ -137,6 +150,10 @@
   <!-- Pref -->
   <string name="pref_ota_check">Kemaskini tambahan</string>
   <string name="pref_ota_check_summary">Dapatkan kemaskini tambahan untuk menjimatkan masa muat turun dan lebar jalur</string>
+  <string name="pref_verify_rom">Kemaskini disahkan</string>
+  <string name="pref_verify_rom_summary">Hanya memaparkan kemaskini yang disahkan oleh pengguna-pengguna lain</string>
+  <string name="pref_verify_rom_donation_request_summary">Hanya memaparkan kemaskini yang disahkan oleh pengguna-pengguna lain (didapati selepas menderma %d CNY)</string>
+  <string name="pref_verify_rom_donation_request_pending_summary">Hanya memaparkan kemaskini yang disahkan oleh pengguna-pengguna lain (menderma %1$d CNY, didapati sepanjang umur selepas menderma %2$d lebih)</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Terima kemaskini</string>
   <string name="apply_update_dialog_text">Anda akan naik taraf kepada <xliff:g id="filename">%s</xliff:g>.\n\nJika anda tekan Kemaskini, peranti akan dimulakan semula dalam mod pemulihan untuk memasang kemaskini.\n\nNota: Ciri ini memerlukan Pemulihan atau kemaskini yang serasi akan diperlukan untuk dipasangkan secara manual.</string>
@@ -146,8 +163,16 @@
   <string name="show_exp_on">Anda telah mendayakan seting percubaan!</string>
   <string name="show_exp_already">Tidak perlu, anda telahpun mengaktifkan seting eksperimen.</string>
   <!-- Discount -->
+  <string name="discount_dialog_title">Tawaran masa terhad</string>
+  <string name="discount_dialog_message">Terima kasih sebab sokongan anda yang berterusan terhadap MoKee Open Source. Sebagai tanda penghargaan, anda telah berlayak untuk tawaran masa terhad. Dengan %1$d CNY, anda dapat menikmati kemaskini tambahan, kemaskini yang telah disahkan dan mengeluarkan iklan dari MoKee Centre (menjimat %2$d CNY). Jika anda ingin menbayar kemudian, anda boleh menutup dialog dan melancarkan MoKee Center lagi apabila anda sudah bersedia.</string>
+  <string name="discount_dialog_expires">Tawaran tamat dalam %s</string>
+  <string name="discount_dialog_cancel">Jangan mengingatkan</string>
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">Kemaskini sistem Mokee</string>
+  <string name="verify_system_compatible_message">Mengesahkan keserasian sistem sebelum penampalan\u2026</string>
+  <string name="verify_system_compatible_failed">Mengesahkan keserasian sistem gagal</string>
+  <string name="verify_system_compatible_patch">Fail-fail berikut telah diubahsuai atao dikeluarkan, sila memulihkan dan mencuba lagi.</string>
+  <string name="verify_system_compatible_img">%1$s tidak serasi, sila menaik taraf kepada versi %2$s</string>
   <string name="verify_system_compatible_root_skip">Langkau</string>
   <!-- Common -->
   <string name="activity_not_found">Apl tidak dipasang.</string>
