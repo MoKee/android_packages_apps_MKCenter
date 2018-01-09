@@ -297,7 +297,9 @@ public class MoKeeCenter extends AppCompatActivity {
         }
         super.onActivityResult(requestCode, resultCode, data);
         for (Fragment fragment : getSupportFragmentManager().getFragments()) {
-            fragment.onActivityResult(requestCode, resultCode, data);
+            if (fragment != null) {
+                fragment.onActivityResult(requestCode, resultCode, data);
+            }
         }
     }
 
