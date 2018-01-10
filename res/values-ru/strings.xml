@@ -95,7 +95,7 @@
   <string name="no_available_ota_intro">Последняя проверка не обнаружила обновлений. Чтобы проверить наличие обновлений вручную, используйте кнопку \"Обновить\". Если вы используете версию, которая находится за пределами диапазона дат, поддерживаемых ОТА обновлениями, выключите опцию \"ОТА обновления\".</string>
   <string name="new_update_summary">Новое обновление</string>
   <string name="old_update_summary">Устаревшее обновление</string>
-  <string name="ota_diff_update_summary">ОТА-обновления могут сохранить %s трафика</string>
+  <string name="ota_diff_update_summary">ОТА-обновления могут сэкономить %s трафика</string>
   <string name="full_diff_update_summary">Сэкономит %s по сравнению с полным пакетом обновления</string>
   <string name="update_check_title">Частота проверки обновлений</string>
   <string name="check_manual">Вручную</string>
@@ -152,11 +152,11 @@
   <string name="pref_ota_check">OTA-обновления</string>
   <string name="pref_ota_check_summary">Получать ОТА-обновления для экономии трафика и времени загрузки</string>
   <string name="pref_ota_check_donation_request_summary">ОТА-обновления экономят место на устройстве и ваш трафик (доступно после пожертвования в %d юаней)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">Получать OTA-обновления для экономии времени и трафика (пожертвовано %1$d, доступный период после пожертвования более %2$d, валюта: юани)</string>
+  <string name="pref_ota_check_donation_request_pending_summary">Получать OTA-обновления для экономии времени и трафика (пожертвовано %1$d, доступный период после пожертвования более %2$d, валюта: юань)</string>
   <string name="pref_verify_rom">Проверенные обновления</string>
   <string name="pref_verify_rom_summary">Показывать только проверенные другими пользователями обновления</string>
   <string name="pref_verify_rom_donation_request_summary">Показывать только обновления, которые проверены другими пользователями (доступно после пожертвования %d юаней)</string>
-  <string name="pref_verify_rom_donation_request_pending_summary">Показывать только обновления, проверенные другими пользователями (пожертвовано %1$d, можно перевести после пожертвования еще %2$d, текущая валюта: юань)</string>
+  <string name="pref_verify_rom_donation_request_pending_summary">Показывать только обновления, проверенные другими пользователями (пожертвовано %1$d, можно перевести после пожертвования ещё %2$d, текущая валюта: юань)</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Применить обновление</string>
   <string name="apply_update_dialog_text">Будет выполнено обновление до версии «<xliff:g id="filename">%s</xliff:g>».\n\nПри нажатии кнопки «Обновить» устройство перезагрузится в режим восстановления для установки этого обновления. \n\nПримечание: эта функция требует совместимого Recovery. В противном случае обновление будет необходимо установить вручную.</string>
