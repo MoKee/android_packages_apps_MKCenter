@@ -43,7 +43,8 @@
 
     </PreferenceCategory>
 
-    <PreferenceCategory>
+    <PreferenceCategory
+        android:key="features_category">
 
         <ListPreference
             android:dialogTitle="@string/update_check_title"

@@ -100,6 +100,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
     private static final String KEY_MOKEE_LAST_CHECK = "mokee_last_check";
 
     private static final String UPDATES_CATEGORY = "updates_category";
+    private static final String FEATURES_CATEGORY = "features_category";
 
     private static final int TAPS_TO_BE_A_EXPERIMENTER = 7;
 
@@ -123,6 +124,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
     private ListPreference mUpdateCheck;
     private ListPreference mUpdateType;
     private PreferenceCategory mUpdatesList;
+    private PreferenceCategory mFeatureList;
     private ItemPreference mDownloadingPreference;
 
     private File mUpdateFolder;
@@ -359,6 +361,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
         mAdmobView = (AdmobPreference) findPreference(Constants.ADMOB_PREF);
 
         mUpdatesList = (PreferenceCategory) findPreference(UPDATES_CATEGORY);
+        mFeatureList = (PreferenceCategory) findPreference(FEATURES_CATEGORY);
         mUpdateCheck = (ListPreference) findPreference(Constants.UPDATE_INTERVAL_PREF);
         mUpdateType = (ListPreference) findPreference(Constants.UPDATE_TYPE_PREF);
         mUpdateOTA = (SwitchPreference) findPreference(Constants.OTA_CHECK_PREF);
@@ -384,7 +387,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
                 mUpdateCheck.setSummary(mapCheckValue(check));
                 mUpdateCheck.setOnPreferenceChangeListener(this);
             } else {
-                getPreferenceScreen().removePreference(mUpdateCheck);
+                mFeatureList.removePreference(mUpdateCheck);
             }
         }
 
