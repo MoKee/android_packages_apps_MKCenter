@@ -119,6 +119,7 @@
   <string name="unable_to_download_file">Hindi makapag-download ng mga update file</string>
   <string name="not_download_success">Ang download ng update ay matagumpay</string>
   <string name="not_download_failure">Ang download ng update ay hindi matagumpay</string>
+  <string name="not_action_install_update">I-reboot at i-install</string>
   <string name="not_download_install_notice">Ang pag-update <xliff:g id="filename">%s</xliff:g> ay matagumpay na na-download. Kapag hinawakan ang \'I-reboot at i-install\', sisimulan ng device ang sarili nito upang i-install ang update.\n\n Paalala: Ang tampok na ito ay nangangailangan ng isang katugmang Recovery o mga update ay kailangang ma-install nang manu-mano.</string>
   <string name="not_download_install_ota_notice">Ang pag-update <xliff:g id="filename">%s</xliff:g> ay matagumpay na na-download. Kapag hinawakan ang \'I-reboot at i-install\', sisimulan ng device ang sarili nito upang i-install ang update.\n\nPaalala: Ang tampok na ito ay nangangailangan ng isang katugmang Recovery o mga update ay kailangang mai-install nang mano-mano.\n\nIto ay isang incremental na update, kaya ang anumang mga pagbabago ginawa sa mga system file ay maaaring magdulot ng pag-update na mabibigo. Kung mangyari ito, maaring mag-flash sa isang buong ROM sa halip.</string>
   <string name="md5_verification_failed">MD5 checksum mismatch</string>
@@ -127,15 +128,32 @@
   <string name="confirm_delete_dialog_title">Tanggalin ang file</string>
   <string name="confirm_delete_updates_dialog_message">Tanggalin ang napiling update na file?</string>
   <string name="confirm_delete_updates_all_dialog_message">Tanggalin lahat na nai-download na mga update file?</string>
+  <string name="delete_single_update_success_message">Update <xliff:g id="filename">%s</xliff:g> binura na</string>
   <string name="delete_updates_failure_message">Nagkaroon ng error sa pag-delete ng update na file</string>
+  <string name="delete_updates_nofolder_message">Update folder ay hindi mahanap</string>
+  <string name="delete_updates_success_message">Lahat ng na-download na mga update ay nabura na</string>
   <!-- Pref -->
+  <string name="pref_verify_rom_summary">Ipakita lamang ang mga update na napatunayan ng ibang mga user</string>
+  <string name="pref_verify_rom_donation_request_summary">Ipakita lamang ang mga update na napatunayan ng ibang mga user (magagamit pagkatapos magbigay ng donasyon na %d CNY)</string>
+  <string name="pref_verify_rom_donation_request_pending_summary">Ipakita lamang ang mga update na napatunayan ng ibang mga user (nagbigay ng donasyon na %1$d CNY, magagamit habang buhay pagkatapos magbigay ng donasyon na %2$d na dagdag)</string>
   <!-- Apply install and update strings -->
+  <string name="apply_update_dialog_title">I-apply ang update</string>
   <string name="apply_update_dialog_text">Ikaw ay mag-upgrade sa <xliff:g id="filename">%s</xliff:g>.\n\nKung pindutin ang I-update, sisimulang i-restart ng device mismo sa recovery na mode upang i-install ang update.\n\nTandaan: Ang tampok na ito ay nangangailangan ng isang katugmang Recovery o mga update ay kailangang i-install nang mano-mano.</string>
   <string name="apply_update_ota_dialog_text">Ikaw ay mag-upgrade sa <xliff:g id="filename">%s</xliff:g>.\n\nKung pindutin ang I-update, sisimulang i-restart ng device mismo sa recovery na mode upang i-install ang update.\n\nTandaan: Ang tampok na ito ay nangangailangan ng isang katugmang Recovery o mga update ay kailangang i-install nang mano-mano.\n\nIto ay isang incremental na update, kaya ang anumang mga pagbabago na ginawa sa mga file system ay maaaring maging sanhi ng pagkabigo sa update. Kung mangyari man ito, paki-flash ng ROM sa halip.</string>
   <!-- Experimenter mode -->
+  <string name="show_exp_on">Pinagana mo ang experimental na mga setting!</string>
+  <string name="show_exp_already">Hindi na kailangan, pinagana mo na ang experimental na mga setting.</string>
   <!-- Discount -->
+  <string name="discount_dialog_title">Alok na may limitadong oras</string>
+  <string name="discount_dialog_expires">Ang alok ay mag-e-expire sa loob ng %s</string>
+  <string name="discount_dialog_cancel">Huwag ipaalala</string>
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">Pag-update ng MoKee system</string>
+  <string name="verify_system_compatible_message">Pinapatunayan ang system compatibility bago i-patch ang \u2026</string>
+  <string name="verify_system_compatible_failed">Ang pagpapatunay sa system compatibility ay nabigo</string>
+  <string name="verify_system_compatible_patch">Ang sumusunod na mga file ay binago o inalis, mangyaring ibalik ang mga ito at subukan muli.</string>
+  <string name="verify_system_compatible_img">Hindi tugma na %1$s, mangyaring mag-upgrade sa bersyon na %2$s</string>
+  <string name="verify_system_compatible_root_request">Ang root permission ay kinakailangan ng Update Verification Plugin upang patunayan ang update compatibility ngayon. Kung pipiliin mong lumaktaw, ang hakbang na ito ay maaantala at gagawin sa recovery mode.</string>
   <string name="verify_system_compatible_root_skip">Laktawan</string>
   <!-- Common -->
   <string name="activity_not_found">Hindi naka-install ang app.</string>
