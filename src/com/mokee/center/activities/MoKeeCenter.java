@@ -124,16 +124,16 @@ public class MoKeeCenter extends AppCompatActivity {
             }
         });
 
-        builder.setNegativeButton(R.string.donate_dialog_via_wechat, new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                if (MoKeeUtils.isApkInstalledAndEnabled("com.tencent.mm", MoKeeCenter.this)) {
-                    requestForPayment("wechat", price, title);
-                } else {
-                    Toast.makeText(MoKeeCenter.this, R.string.activity_not_found, Toast.LENGTH_SHORT).show();
-                }
-            }
-        });
+        // builder.setNegativeButton(R.string.donate_dialog_via_wechat, new DialogInterface.OnClickListener() {
+        //     @Override
+        //     public void onClick(DialogInterface dialog, int which) {
+        //         if (MoKeeUtils.isApkInstalledAndEnabled("com.tencent.mm", MoKeeCenter.this)) {
+        //             requestForPayment("wechat", price, title);
+        //         } else {
+        //             Toast.makeText(MoKeeCenter.this, R.string.activity_not_found, Toast.LENGTH_SHORT).show();
+        //         }
+        //     }
+        // });
 
         builder.setNeutralButton(R.string.donate_dialog_via_alipay, new DialogInterface.OnClickListener() {
             @Override
