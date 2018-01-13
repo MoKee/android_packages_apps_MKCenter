@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2014-2016 The MoKee Open Source Project
+     Copyright (C) 2014-2018 The MoKee Open Source Project
 
      This program is free software: you can redistribute it and/or modify
      it under the terms of the GNU General Public License as published by
@@ -21,41 +21,42 @@
     android:sharedUserId="android.uid.system"
     coreApp="true" >
 
-    <uses-sdk android:minSdkVersion="25" />
+    <uses-sdk android:minSdkVersion="27" />
 
-    <uses-permission android:name="android.permission.INTERNET"/>
-    <uses-permission android:name="android.permission.VIBRATE"/>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
-    <uses-permission android:name="android.permission.WAKE_LOCK"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
-    <uses-permission android:name="android.permission.REBOOT"/>
-    <uses-permission android:name="android.permission.RECOVERY"/>
-    <uses-permission android:name="android.permission.ACCESS_CACHE_FILESYSTEM"/>
-    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR"/>
-    <uses-permission android:name="android.permission.REAL_GET_TASKS"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.REBOOT" />
+    <uses-permission android:name="android.permission.RECOVERY" />
+    <uses-permission android:name="android.permission.ACCESS_CACHE_FILESYSTEM" />
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+    <uses-permission android:name="android.permission.REAL_GET_TASKS" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 
     <application
         android:name="com.mokee.center.MKCenterApplication"
-        android:theme="@style/Theme.Settings"
         android:allowBackup="true"
+        android:defaultToDeviceProtectedStorage="false"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/mokee_center_title"
         android:supportsRtl="true"
-        android:defaultToDeviceProtectedStorage="false" >
+        android:theme="@style/Theme.Settings">
 
         <uses-library android:name="org.apache.http.legacy" />
 
-        <activity android:name=".activities.MoKeeCenter"
+        <activity
+            android:name=".activities.MoKeeCenter"
             android:hardwareAccelerated="true"
-            android:launchMode="singleTask"
-            android:label="@string/mokee_center_title" >
+            android:label="@string/mokee_center_title"
+            android:launchMode="singleTask">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <action android:name="com.mokee.center.action.MOKEE_CENTER" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
@@ -67,29 +68,19 @@
 
         <service android:name=".service.DownloadCompleteIntentService" />
 
-        <service android:name=".service.DeviceRegistrationService"
+        <service
+            android:name=".service.DeviceRegistrationService"
             android:process="com.android.phone" />
 
-        <receiver android:name=".receiver.UpdateCheckReceiver" >
+        <receiver android:name=".receiver.UpdateCheckReceiver">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
-                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-                <action android:name="com.mokee.center.action.UPDATE_CHECK" />
             </intent-filter>
         </receiver>
 
-        <receiver android:name=".receiver.DownloadReceiver" >
+        <receiver android:name=".receiver.DownloadReceiver">
             <intent-filter>
-                <action android:name="com.mokee.center.action.DOWNLOAD_COMPLETED" />
-                <action android:name="com.mokee.center.action.DOWNLOAD_START" />
                 <action android:name="android.intent.action.ACTION_SHUTDOWN" />
-            </intent-filter>
-        </receiver>
-
-        <receiver android:name=".receiver.NotificationClickReceiver" >
-            <intent-filter>
-                <action android:name="android.intent.action.DOWNLOAD_NOTIFICATION_CLICKED" />
-                <action android:name="com.mokee.center.action.NOTIFICATION_CLICKED" />
             </intent-filter>
         </receiver>
 

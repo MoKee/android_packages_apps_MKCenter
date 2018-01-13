@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 The MoKee OpenSource Project
+ * Copyright (C) 2014-2018 The MoKee OpenSource Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -17,15 +17,11 @@
 
 package com.mokee.center.receiver;
 
-import java.io.File;
-import java.io.IOException;
-
-import android.app.StatusBarManager;
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.os.UserHandle;
+import android.support.v4.content.LocalBroadcastManager;
 import android.text.TextUtils;
 import android.util.Log;
 import android.widget.Toast;
@@ -40,24 +36,27 @@ import com.mokee.center.service.DownloadCompleteIntentService;
 import com.mokee.center.utils.DownLoader;
 import com.mokee.center.utils.Utils;
 
+import java.io.File;
+import java.io.IOException;
+
 public class DownloadReceiver extends BroadcastReceiver {
-    private static final String TAG = "DownloadReceiver";
 
     public static final String ACTION_DOWNLOAD_START = "com.mokee.center.action.DOWNLOAD_START";
     public static final String ACTION_DOWNLOAD_COMPLETE = "com.mokee.center.action.DOWNLOAD_COMPLETED";
     public static final String EXTRA_UPDATE_INFO = "update_info";
     public static final String ACTION_DOWNLOAD_STARTED = "com.mokee.center.action.DOWNLOAD_STARTED";
-    public static final String ACTION_NOTIFICATION_CLICKED = "com.mokee.center.action.NOTIFICATION_CLICKED";
 
     public static final String ACTION_INSTALL_UPDATE = "com.mokee.center.action.INSTALL_UPDATE";
     public static final String EXTRA_FILENAME = "filename";
+
+    private static final String TAG = "DownloadReceiver";
 
     @Override
     public void onReceive(Context context, Intent intent) {
         String action = intent.getAction();
         SharedPreferences prefs = context.getSharedPreferences(Constants.DOWNLOADER_PREF, 0);
         if (ACTION_DOWNLOAD_START.equals(action)) {
-            ItemInfo ui = (ItemInfo) intent.getParcelableExtra(EXTRA_UPDATE_INFO);
+            ItemInfo ui = intent.getParcelableExtra(EXTRA_UPDATE_INFO);
             handleStartDownload(context, prefs, ui);
         } else if (Intent.ACTION_SHUTDOWN.equals(action)) {
             String downloadUrl = prefs.getString(DownLoadService.DOWNLOAD_URL, "");
@@ -79,8 +78,6 @@ public class DownloadReceiver extends BroadcastReceiver {
 
     private void applyTriggerUpdate(Context context, String fileName) {
         try {
-            StatusBarManager sb = (StatusBarManager) context.getSystemService(Context.STATUS_BAR_SERVICE);
-            sb.collapsePanels();
             Utils.cancelNotification(context);
             Utils.triggerUpdate(context, fileName);
         } catch (IOException e) {
@@ -115,9 +112,10 @@ public class DownloadReceiver extends BroadcastReceiver {
         if (DownLoadDao.getInstance().isHasInfos(ui.getDownloadUrl())) {
             DownLoadDao.getInstance().updataState(ui.getDownloadUrl(), DownLoader.STATUS_PENDING);
         }
-        Intent intentBroadcast = new Intent(ACTION_DOWNLOAD_STARTED);
+
+        final Intent intentBroadcast = new Intent(ACTION_DOWNLOAD_STARTED);
         intentBroadcast.putExtra(DownLoadService.DOWNLOAD_ID, downloadId);
-        context.sendBroadcastAsUser(intentBroadcast, UserHandle.CURRENT);
+        LocalBroadcastManager.getInstance(context).sendBroadcast(intentBroadcast);
 
         // Store in shared preferences
         prefs.edit().putLong(DownLoadService.DOWNLOAD_ID, downloadId)
@@ -130,7 +128,7 @@ public class DownloadReceiver extends BroadcastReceiver {
         intentService.putExtra(DownLoadService.DOWNLOAD_URL, ui.getDownloadUrl());
         intentService.putExtra(DownLoadService.DOWNLOAD_FILE_PATH, fullFilePath);
         intentService.putExtra(DownLoadService.DOWNLOAD_ID, downloadId);
-        context.startServiceAsUser(intentService, UserHandle.CURRENT);
+        context.startService(intentService);
         Utils.cancelNotification(context);
     }
 
@@ -153,4 +151,5 @@ public class DownloadReceiver extends BroadcastReceiver {
                 .remove(DownLoadService.DOWNLOAD_MD5)
                 .remove(DownLoadService.DOWNLOAD_URL).apply();
     }
+
 }

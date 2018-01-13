@@ -26,17 +26,19 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Handler;
 import android.os.Message;
-import android.os.UserHandle;
 import android.support.v4.app.NotificationCompat.Builder;
+import android.support.v4.content.LocalBroadcastManager;
 import android.text.format.DateUtils;
 import android.util.SparseArray;
 
 import com.mokee.center.R;
+import com.mokee.center.activities.MoKeeCenter;
 import com.mokee.center.db.DownLoadDao;
 import com.mokee.center.misc.Constants;
 import com.mokee.center.misc.DownLoadInfo;
 import com.mokee.center.receiver.DownloadReceiver;
 import com.mokee.center.utils.DownLoader;
+import com.mokee.center.utils.Utils;
 
 public class DownLoadService extends NonStopIntentService {
     private static final String TAG = "DownLoadService";
@@ -63,12 +65,14 @@ public class DownLoadService extends NonStopIntentService {
     private static SparseArray<Builder> notifications = new SparseArray<Builder>();// 通知队列
     private static int notificationID = Constants.INTENT_FLAG_GET_UPDATE;
     private NotificationManager manager;
+    private LocalBroadcastManager lbm;
     private SharedPreferences mPrefs;
 
     @Override
     public void onCreate() {
         super.onCreate();
         manager = (NotificationManager) getSystemService(NOTIFICATION_SERVICE);
+        lbm = LocalBroadcastManager.getInstance(this);
     }
 
     @Override
@@ -130,23 +134,26 @@ public class DownLoadService extends NonStopIntentService {
      * 添加通知
      */
     private void addNotification(int id, int title) {
-        Builder builder = new Builder(this);
+        Utils.createProgressNotificationChannel(this);
+
+        final Builder builder = new Builder(this, Utils.MOKEE_UPDATE_PROGRESS_NOTIFICATION_CHANNEL);
         builder.setContentTitle(getString(title));
         builder.setContentText(getString(R.string.download_running));
-        builder.setColor(getResources().getColor(com.android.internal.R.color.system_notification_accent_color));
         builder.setSmallIcon(android.R.drawable.stat_sys_download);
+
         /* 设置点击消息时，显示的界面 */
-        Intent nextIntent = new Intent(DownloadReceiver.ACTION_NOTIFICATION_CLICKED);
-        PendingIntent pengdingIntent = PendingIntent.getBroadcast(this, 0, nextIntent,
+        final PendingIntent pendingIntent = PendingIntent.getActivity(this, 0,
+                new Intent(this, MoKeeCenter.class)
+                        .addFlags(Intent.FLAG_ACTIVITY_SINGLE_TOP
+                                | Intent.FLAG_ACTIVITY_NEW_TASK
+                                | Intent.FLAG_ACTIVITY_CLEAR_TOP),
                 PendingIntent.FLAG_UPDATE_CURRENT);
-        builder.setContentIntent(pengdingIntent);
-        builder.setProgress(100, 0, false);
-        builder.setAutoCancel(true);
-        builder.setTicker(getString(title));
+
+        builder.setContentIntent(pendingIntent);
+        builder.setProgress(100, 0, true);
         builder.setOngoing(true);
+
         notifications.put(id, builder);
-        // Notification not = builder.build();
-        // not.flags = Notification.FLAG_NO_CLEAR;
         manager.notify(id, builder.build());
     }
 
@@ -159,7 +166,6 @@ public class DownLoadService extends NonStopIntentService {
         }
         Builder notification = notifications.get(id);
         notification.setContentText(getString(R.string.download_remaining, DateUtils.formatDuration(time)));
-        notification.setContentInfo(String.valueOf(progress) + "%");
         notification.setProgress(100, progress, false);
         manager.notify(id, notification.build());
     }
@@ -219,7 +225,7 @@ public class DownLoadService extends NonStopIntentService {
                         intent = new Intent();
                         intent.setAction(DownloadReceiver.ACTION_DOWNLOAD_COMPLETE);
                         intent.putExtra(DOWNLOAD_ID, Long.valueOf(dli.getDownID()));
-	                    sendBroadcastAsUser(intent, UserHandle.CURRENT);
+	                    lbm.sendBroadcast(intent);
                     }
                     if (downloaders.size() == 0) {
                         stopSelf();
@@ -238,7 +244,7 @@ public class DownLoadService extends NonStopIntentService {
                     intent = new Intent();
                     intent.setAction(DownloadReceiver.ACTION_DOWNLOAD_COMPLETE);
                     intent.putExtra(DOWNLOAD_ID, Long.valueOf(dli.getDownID()));
-                    sendBroadcastAsUser(intent, UserHandle.CURRENT);
+                    lbm.sendBroadcast(intent);
                     if (downloaders.size() == 0) {
                         stopSelf();
                     }

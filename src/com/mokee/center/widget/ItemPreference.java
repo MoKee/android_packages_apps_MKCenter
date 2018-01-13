@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014-2017 The MoKee Open Source Project
+ * Copyright (C) 2014-2018 The MoKee Open Source Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -56,7 +56,8 @@ public class ItemPreference extends Preference implements
     private ItemInfo mItemInfo = null;
     private int mStyle;
 
-    private ImageView mUpdatesButton;
+    private View mUpdateButton;
+    private ImageView mIcon;
     private TextView mTitleText;
     private TextView mSummaryText;
     private TextView mFileSizeText;
@@ -95,11 +96,13 @@ public class ItemPreference extends Preference implements
     @Override
     public void onBindViewHolder(PreferenceViewHolder holder) {
         // Store the views from the layout
-        mUpdatesButton = (ImageView) holder.findViewById(R.id.updates_button);
-        mUpdatesButton.setOnClickListener(mButtonClickListener);
+        mUpdateButton = holder.findViewById(R.id.update);
+        mUpdateButton.setOnClickListener(mButtonClickListener);
 
-        mTitleText = (TextView) holder.findViewById(android.R.id.title);
-        mSummaryText = (TextView) holder.findViewById(android.R.id.summary);
+        mIcon = (ImageView) holder.findViewById(R.id.icon);
+
+        mTitleText = (TextView) holder.findViewById(R.id.title);
+        mSummaryText = (TextView) holder.findViewById(R.id.summary);
         mFileSizeText = (TextView) holder.findViewById(R.id.file_size);
         mProgressBar = (ProgressBar) holder.findViewById(R.id.download_progress_bar);
 
@@ -206,9 +209,9 @@ public class ItemPreference extends Preference implements
     }
 
     private void disablePreferenceViews() {
-        if (mUpdatesButton != null) {
-            mUpdatesButton.setEnabled(false);
-            mUpdatesButton.setAlpha(DISABLED_ALPHA);
+        if (mUpdateButton != null) {
+            mUpdateButton.setEnabled(false);
+            mUpdateButton.setAlpha(DISABLED_ALPHA);
         }
         if (mUpdatesPref != null) {
             mUpdatesPref.setEnabled(false);
@@ -229,7 +232,7 @@ public class ItemPreference extends Preference implements
 
             // Set the title text
             TypedArray typedArray = getContext().getTheme().obtainStyledAttributes(
-                    new int[] {android.R.attr.textColorSecondary});
+                    new int[]{android.R.attr.textColorSecondary});
             mSummaryText.setTextColor(typedArray.getColor(0, 0));
             if (mItemInfo.getFileName().startsWith("OTA")) {
                 mTitleText.setText(mItemInfo.getFileName());
@@ -245,7 +248,7 @@ public class ItemPreference extends Preference implements
                 mTitleText.setText(mItemInfo.getFileName());
                 if (Utils.isNewVersion(mItemInfo.getFileName())) {
                     long diffSize = Long.valueOf(mItemInfo.getDescription());
-                    if (diffSize > 0 ) {
+                    if (diffSize > 0) {
                         mSummaryText.setText(getContext().getString(R.string.ota_diff_update_summary,
                                 Formatter.formatFileSize(getContext(), diffSize)));
                         if (!Utils.checkMinLicensed(getContext())) {
@@ -271,23 +274,23 @@ public class ItemPreference extends Preference implements
         switch (mStyle) {
             case STYLE_DOWNLOADED:
                 // Show the install image and summary of 'Downloaded'
-                mUpdatesButton.setImageResource(R.drawable.ic_tab_install);
-                mUpdatesButton.setEnabled(true);
+                mIcon.setImageResource(R.drawable.ic_tab_install);
+                mUpdateButton.setEnabled(true);
                 mSummaryText.setText(R.string.downloaded_update_summary);
                 mSummaryText.setVisibility(View.VISIBLE);
                 mProgressBar.setVisibility(View.GONE);
                 break;
             case STYLE_DOWNLOADING:
                 // Show the cancel button image and progress bar
-                mUpdatesButton.setImageResource(R.drawable.ic_tab_cancel);
-                mUpdatesButton.setEnabled(true);
+                mIcon.setImageResource(R.drawable.ic_tab_cancel);
+                mUpdateButton.setEnabled(true);
                 mSummaryText.setVisibility(View.VISIBLE);
                 mProgressBar.setVisibility(View.VISIBLE);
                 break;
             case STYLE_INSTALLED:
                 // Show the installed button image and summary of 'Installed'
-                mUpdatesButton.setImageResource(R.drawable.ic_tab_installed);
-                mUpdatesButton.setEnabled(false);
+                mIcon.setImageResource(R.drawable.ic_tab_installed);
+                mUpdateButton.setEnabled(false);
                 mSummaryText.setText(R.string.installed_update_summary);
                 mSummaryText.setVisibility(View.VISIBLE);
                 mProgressBar.setVisibility(View.GONE);
@@ -297,8 +300,8 @@ public class ItemPreference extends Preference implements
             case STYLE_OLD:
             default:
                 // Show the download button image and summary of 'New'
-                mUpdatesButton.setImageResource(R.drawable.ic_tab_download);
-                mUpdatesButton.setEnabled(true);
+                mIcon.setImageResource(R.drawable.ic_tab_download);
+                mUpdateButton.setEnabled(true);
                 mSummaryText.setVisibility(View.VISIBLE);
                 mProgressBar.setVisibility(View.GONE);
                 break;
