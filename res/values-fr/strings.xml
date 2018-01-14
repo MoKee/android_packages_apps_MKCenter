@@ -61,22 +61,29 @@
   <string name="menu_donate">Faire une donation</string>
   <string name="menu_refresh">Actualiser</string>
   <string name="menu_delete_all">Supprimer le téléchargement</string>
+  <string name="menu_unlock_features">Fonctionnalités de déverrouillage</string>
   <string name="menu_restore">Restaurer la licence</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Faites-nous un don</string>
   <string name="donate_dialog_message">Contrairement aux entreprises comme Cygn ou MIUI, MoKee OpenSource est un projet purement à but non lucratif né de passe-temps et de passion. Afin de maintenir ce projet, nous devons la plupart du temps investir notre propre argent ou dépendre des dons et de la publicité. Vos dons peuvent aider à réduire notre charge financière et soutenir le développement futur ! Cette option vous permet de supprimer les annonces dans le Centre MoKee, utilisez plutôt l\'option de « Don » si vous préférez des versements (les annonces seront supprimés une fois que la somme a atteint la valeur spécifiée). Veuillez sauvegarder le fichier mokee. licence (à la racine de la sdcard, valable uniquement pour le périphérique actuel) une fois que vous avez donné.</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
+  <string name="donate_dialog_via_wechat">WeChat</string>
   <string name="donate_dialog_via_restore">Restaurer</string>
   <string name="donate_money_toast_success">Merci pour votre don!</string>
   <string name="donate_money_title">Faire un don au projet OpenSource MoKee</string>
   <string name="donate_money_again">Faire un don</string>
   <string name="donate_money_restored_success">Restauration complète !</string>
   <string name="donate_money_restored_failed">Appareil de sauvegarde non trouvée.</string>
+  <string name="donate_money_restored_failed_solution">Solution</string>
   <string name="donate_money_restored_timeout">Durée de connexion dépassée, veuillez réessayer</string>
   <string name="donate_money_info">Vous avez fait un don total de %1$d CNY, soit plus que %2$s de tous les donateurs !</string>
   <string name="donate_money_info_with_rank">Vous avez donné un total de %1$d CNY, plus que %2$s des donateurs, rang n°%3$d!</string>
   <string name="donate_money_info_null">Vous n\'avez fait aucun don</string>
+  <string name="unlock_features_title">Option de déverrouillage</string>
+  <string name="unlock_features_ota_title">Donner%d CNY pour déverrouiller l\'OTA et la vitesse de téléchargement maximum.</string>
+  <string name="unlock_features_verify_rom_title">Donner %d CYN pour des mise à jour vérifiée et enlever la publicité.</string>
+  <string name="unlock_features_all_title">Donner %d CNY pour déverrouiller l\'OTA, une vitesse de téléchargement maximum, des mise à jour vérifiée et enlever les pubs.</string>
   <!-- Update -->
   <string name="unknown">Inconnu</string>
   <string name="dialog_update">Mettre à jour</string>
