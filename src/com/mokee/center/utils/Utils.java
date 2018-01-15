@@ -348,7 +348,7 @@ public class Utils {
             try {
                 LicenseInfo licenseInfo = License.readLicense(Constants.LICENSE_FILE, Constants.PUB_KEY);
                 String unique_ids = MKSettings.Secure.getString(mContext.getContentResolver(), MKSettings.Secure.UNIQUE_REGISTRATION_IDS);
-                if (Arrays.asList(unique_ids.split(",")).contains(Build.getUniqueID(mContext))
+                if (Arrays.asList(unique_ids.split(",")).contains(licenseInfo.getUniqueID())
                         && licenseInfo.getPackageName().equals(mContext.getPackageName())) {
                     return licenseInfo.getPrice();
                 }
