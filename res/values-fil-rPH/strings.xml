@@ -127,7 +127,7 @@
   <!-- Downloads -->
   <string name="confirm_download_cancelation_dialog_title">Kanselahin ang pag-download</string>
   <string name="confirm_download_cancelation_dialog_message">Kanselahin ang kasalukuyang pag-download?</string>
-  <string name="download_remaining"><xliff:g id = "duration" example = "3 minutes">%s</xliff:g> kaliwa</string>
+  <string name="download_remaining"><xliff:g id="duration" example="3 minutes">%s</xliff:g> kaliwa</string>
   <string name="download_running">Isinasagawa</string>
   <string name="download_cancelled">Kinansela ang pag-download</string>
   <string name="download_already_running">Mayroon nang dinadownload</string>
