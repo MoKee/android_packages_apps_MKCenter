@@ -22,6 +22,7 @@
   <string name="mokee_support_title">支援</string>
   <string name="mokee_updater_title">更新程式</string>
   <!-- WebSite -->
+  <string name="mokee_links">連結</string>
   <string name="mokee_website_title">MoKee 網站</string>
   <string name="mokee_website_summary">造訪官方網站</string>
   <string name="mokee_forum_title">MoKee 論壇</string>
@@ -51,7 +52,7 @@
   <string name="mokee_version_type_history">歷史版</string>
   <string name="mokee_version_type_experimental">實驗版</string>
   <string name="mokee_version_type_nightly">每夜版</string>
-  <string name="mokee_version_type_unofficial">非官方版</string>
+  <string name="mokee_version_type_unofficial">非官方版本</string>
   <string name="mokee_version_type_all">所有的</string>
   <!-- State -->
   <string name="downloaded_update_summary">已下載</string>
@@ -69,7 +70,7 @@
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">支付寶</string>
   <string name="donate_dialog_via_wechat">微信 (WeChat)</string>
-  <string name="donate_dialog_via_restore">恢複</string>
+  <string name="donate_dialog_via_restore">復原</string>
   <string name="donate_money_toast_success">謝謝您的捐贈 ！</string>
   <string name="donate_money_title">贊助 MoKee OpenSource</string>
   <string name="donate_money_again">繼續捐贈</string>

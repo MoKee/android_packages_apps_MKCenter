@@ -47,11 +47,11 @@
   <string name="mokee_last_check_never">Не проводилось</string>
   <!-- Version -->
   <string name="mokee_info_default">Неизвестно</string>
-  <string name="mokee_version_type_release">Стабильная версия</string>
+  <string name="mokee_version_type_release">Стабильные версии</string>
   <string name="mokee_version_type_history">История версий</string>
-  <string name="mokee_version_type_experimental">Экспериментальная</string>
+  <string name="mokee_version_type_experimental">Экспериментальные</string>
   <string name="mokee_version_type_nightly">Ночные сборки</string>
-  <string name="mokee_version_type_unofficial">Неофициальная</string>
+  <string name="mokee_version_type_unofficial">Неофициальные</string>
   <string name="mokee_version_type_all">Все</string>
   <!-- State -->
   <string name="downloaded_update_summary">Загружено</string>
@@ -69,7 +69,7 @@
   <string name="donate_dialog_via_paypal">PayPal (USD)</string>
   <string name="donate_dialog_via_alipay">AliPay (CNY)</string>
   <string name="donate_dialog_via_wechat">WeChat</string>
-  <string name="donate_dialog_via_restore">Восстановление</string>
+  <string name="donate_dialog_via_restore">Восстановить</string>
   <string name="donate_money_toast_success">Благодарим Вас за пожертвование!</string>
   <string name="donate_money_title">Пожертвовать MoKee Open Source</string>
   <string name="donate_money_again">Пожертвовать ещё раз</string>
@@ -100,8 +100,8 @@
   <string name="update_check_title">Частота проверки обновлений</string>
   <string name="check_manual">Вручную</string>
   <string name="nightly_alert">Вы включили в список для поиска обновлений ночные сборки. Помните, что техническая поддержка по ним не предоставляется и использование ночных сборок должно проводиться с осторожностью.</string>
-  <string name="experimenter_alert">Вы включили в список для поиска обновлений «экспериментальные обновления». Помните, что техническая поддержка по ним не предоставляется, они предназначены только для тестирования, использование «экспериментальных обновлений» должно проводиться с осторожностью.</string>
-  <string name="unofficial_alert">Вы включили в список для поиска обновлений «неофициальные обновления». Помните, что техническая поддержка по ним осуществляется только автором неофициального обновления под Ваше устройство.</string>
+  <string name="experimenter_alert">Вы включили в список для поиска обновлений экспериментальные обновления. Помните, что техническая поддержка по ним не предоставляется, они предназначены только для тестирования, использование экспериментальных обновлений должно проводиться с осторожностью.</string>
+  <string name="unofficial_alert">Вы включили в список для поиска обновлений неофициальные обновления. Помните, что техническая поддержка по ним осуществляется только автором неофициального обновления под Ваше устройство.</string>
   <string name="all_alert">Вы предпочли включить все виды обновлений (стабильные, ночные сборки) в этот список. Обратите внимание, что ночные сборки не имеют поддержки со стороны разработчиков и должны использоваться с осторожностью.</string>
   <string name="alert_title">Предупреждение</string>
   <string name="update_type_title">Тип обновлений</string>
