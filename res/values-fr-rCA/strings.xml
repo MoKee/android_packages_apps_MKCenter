@@ -61,7 +61,7 @@
   <string name="menu_donate">Faire une don</string>
   <string name="menu_refresh">Actualiser</string>
   <string name="menu_delete_all">Supprimer les téléchargements</string>
-  <string name="menu_unlock_features">Déverrouiller des fonctionnalités</string>
+  <string name="menu_unlock_features">Débloquer des fonctions</string>
   <string name="menu_restore">Restaurer la license</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Faites-nous un don</string>
@@ -80,7 +80,7 @@
   <string name="donate_money_info">Vous avez fait un don total de %1$d CNY, soit plus que %2$s de tous les donateurs !</string>
   <string name="donate_money_info_with_rank">Vous avez donné un total de %1$d CNY, plus que %2$s des donateurs mondiaux, %3$de rang!</string>
   <string name="donate_money_info_null">Vous n\'avez fait aucun don</string>
-  <string name="unlock_features_title">Déverrouiller des fonctionnalités</string>
+  <string name="unlock_features_title">Débloquer des fonctions</string>
   <string name="unlock_features_ota_title">Donner%d CNY pour déverrouiller l\'OTA et la vitesse de téléchargement maximum.</string>
   <string name="unlock_features_verify_rom_title">Donner %d CYN pour des mise à jour vérifiée et enlever la publicité.</string>
   <string name="unlock_features_all_title">Donner %d CNY pour déverrouiller l\'OTA, une vitesse de téléchargement maximum, des mise à jour vérifiée et enlever les pubs.</string>
@@ -161,7 +161,7 @@
   <string name="apply_update_dialog_title">Appliquer la mise à jour</string>
   <string name="apply_update_dialog_text">Vous êtes sur le point de mettre à niveau vers <xliff:g id="filename">%s</xliff:g>.\n\nSi vous appuyez sur Mise à jour, l’appareil redémarrera en mode de récupération pour installer la mise à jour.\n\nNote : cette fonction exige un mode de restauration « Recovery » compatible, sinon les mises à jour devront être installées manuellement.</string>
   <string name="apply_update_ota_dialog_text">Vous êtes sur le point de mettre à niveau vers <xliff:g id="filename">%s</xliff:g>.\n\nSi vous appuyez sur Mise à jour, l’appareil redémarrera en mode de récupération pour installer la mise à jour.\n\nNote : cette fonction exige un mode de restauration « Recovery » compatible, sinon les mises à jour devront être installées manuellement.\n\nCette mise à jour est incrémentielle. Toutes modifications apportées aux fichiers système pourraient entraîner l’échec de la mise à jour. Le cas échéant, veuillez plutôt installer une ROM complète.</string>
-  <string name="apply_unable_to_reboot_toast">Impossible de redémarrer en mode recovery</string>
+  <string name="apply_unable_to_reboot_toast">Impossible de redémarrer en mode restauration</string>
   <!-- Experimenter mode -->
   <string name="show_exp_on">Vous avez activé les paramètres expérimentaux !</string>
   <string name="show_exp_already">Inutile, vous avez déjà activé les paramètres expérimentaux.</string>
@@ -176,7 +176,7 @@
   <string name="verify_system_compatible_failed">Echec de la vérification de la compatibilité du système</string>
   <string name="verify_system_compatible_patch">Les fichiers suivants ont soit été modifiés ou supprimés, s’il vous plaît les restaurer et essayez à nouveau.</string>
   <string name="verify_system_compatible_img">%1$s non compatible, veuillez mettre à niveau vers la version %2$s</string>
-  <string name="verify_system_compatible_root_request">L\'autorisation Root est nécessaire pour mettre à jour des Plugin de vérification pour vérifier la compatibilité de mise à jour maintenant. Si vous choisissez d’ignorer, cette étape sera retardée et exécutée en mode de récupération.</string>
+  <string name="verify_system_compatible_root_request">L’autorisation Racine est exigée par le greffon de vérification des mises à jour pour vérifier maintenant la compatibilité de la mise à jour. Si vous choisissez de l’ignorer, cette étape sera retardée et exécutée en mode de récupération.</string>
   <string name="verify_system_compatible_root_skip">Ignorer</string>
   <!-- Common -->
   <string name="activity_not_found">L\'application n\'est pas installée.</string>
