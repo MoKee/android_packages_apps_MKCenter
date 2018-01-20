@@ -74,7 +74,7 @@
   <string name="donate_money_title">Faire un don au projet OpenSource MoKee</string>
   <string name="donate_money_again">Faire un don à nouveau</string>
   <string name="donate_money_restored_success">Restauration complète !</string>
-  <string name="donate_money_restored_failed">Appareil de sauvegarde non trouvée.</string>
+  <string name="donate_money_restored_failed">Aucun enregistrement n’a été trouvé pour cet appareil.</string>
   <string name="donate_money_restored_failed_solution">Solution</string>
   <string name="donate_money_restored_timeout">Durée de connexion dépassée, veuillez réessayer</string>
   <string name="donate_money_info">Vous avez fait un don total de %1$d CNY, soit plus que %2$s de tous les donateurs !</string>

@@ -95,6 +95,7 @@
   <string name="no_available_ota_intro">Semakan terakhir tidak menjumpai sebarang kemaskini. Untuk semak secara manual, gunakan butang kemaskini semula. Jika anda menggunakan versi yang tiada sokongan peningkatan kemaskini, anda perlu nyahaktifkan opsyen peningkatan kemaskini.</string>
   <string name="new_update_summary">Baru</string>
   <string name="old_update_summary">Lama</string>
+  <string name="ota_diff_update_summary">Kemaskini tambahan boleh menjimat %s</string>
   <string name="full_diff_update_summary">Menjimatkan %s apabila berbanding dengan ROM penuh</string>
   <string name="update_check_title">Kekerapan kemas kini</string>
   <string name="check_manual">Manual</string>
@@ -150,6 +151,8 @@
   <!-- Pref -->
   <string name="pref_ota_check">Kemaskini tambahan</string>
   <string name="pref_ota_check_summary">Dapatkan kemaskini tambahan untuk menjimatkan masa muat turun dan lebar jalur</string>
+  <string name="pref_ota_check_donation_request_summary">Mendapatkan kemaskini tambahan untuk menjimat masa muat turun dan jalur lebar (boleh didapati selepas menderma %d CNY)</string>
+  <string name="pref_ota_check_donation_request_pending_summary">Mendapatkan kemaskini tambahan untuk menjimat masa muat turun dan jalur lebar (telah menderma %1$d CNY, boleh didapati sepanjang umur selepas menderma %2$d CNY lebih)</string>
   <string name="pref_verify_rom">Kemaskini disahkan</string>
   <string name="pref_verify_rom_summary">Hanya memaparkan kemaskini yang disahkan oleh pengguna-pengguna lain</string>
   <string name="pref_verify_rom_donation_request_summary">Hanya memaparkan kemaskini yang disahkan oleh pengguna-pengguna lain (didapati selepas menderma %d CNY)</string>
@@ -173,6 +176,7 @@
   <string name="verify_system_compatible_failed">Mengesahkan keserasian sistem gagal</string>
   <string name="verify_system_compatible_patch">Fail-fail berikut telah diubahsuai atao dikeluarkan, sila memulihkan dan mencuba lagi.</string>
   <string name="verify_system_compatible_img">%1$s tidak serasi, sila menaik taraf kepada versi %2$s</string>
+  <string name="verify_system_compatible_root_request">Keizinan Root adalah diperlukan oleh Plugin Pengesahan Kemaskini untuk mengesahkan keserasian kemaskini sekarang. Jika anda memilih untuk langkau, langkah ini akan ditangguhkan dan dilaksanakan dalam mod pemulihan.</string>
   <string name="verify_system_compatible_root_skip">Langkau</string>
   <!-- Common -->
   <string name="activity_not_found">Apl tidak dipasang.</string>
