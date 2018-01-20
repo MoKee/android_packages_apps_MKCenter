@@ -234,13 +234,14 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
         if (currentPaid < Constants.DONATION_REQUEST) {
             mPrefs.edit().putBoolean(Constants.OTA_CHECK_PREF, false).apply();
             mUpdateOTA.setEnabled(false);
+            CharSequence mUpdateOTASummary = TextUtils.concat(getString(R.string.pref_ota_check_summary), " ");
             if (currentPaid == 0f) {
-                mUpdateOTA.setSummary(getString(R.string.pref_ota_check_donation_request_summary,
+                mUpdateOTA.setSummary(mUpdateOTASummary + getString(R.string.unlock_features_request_summary,
                         Float.valueOf(Constants.DONATION_REQUEST - currentPaid).intValue()));
             } else {
-                mUpdateOTA.setSummary(getString(R.string.pref_ota_check_donation_request_pending_summary,
+                mUpdateOTA.setSummary(mUpdateOTASummary + getString(R.string.unlock_features_pending_summary,
                         currentPaid.intValue(),
-                        Float.valueOf(Constants.DONATION_REQUEST - currentPaid.intValue()).intValue()));
+                        Float.valueOf(Constants.DONATION_REQUEST - currentPaid).intValue()));
             }
         } else {
             if (!MoKeeVersionTypeString.equals(updateTypeString)) {
@@ -256,13 +257,14 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
         if (currentPaid < Constants.DONATION_TOTAL) {
             mPrefs.edit().putBoolean(Constants.VERIFY_ROM_PREF, false).apply();
             mVerifyROM.setEnabled(false);
+            CharSequence mVerifyROMSummary = TextUtils.concat(getString(R.string.pref_verify_rom_summary), " ");
             if (currentPaid == 0f) {
-                mVerifyROM.setSummary(getString(R.string.pref_verify_rom_donation_request_summary,
+                mVerifyROM.setSummary(mVerifyROMSummary + getString(R.string.unlock_features_request_summary,
                         Float.valueOf(Constants.DONATION_TOTAL - currentPaid).intValue()));
             } else {
-                mVerifyROM.setSummary(getString(R.string.pref_verify_rom_donation_request_pending_summary,
+                mVerifyROM.setSummary(mVerifyROMSummary + getString(R.string.unlock_features_pending_summary,
                         currentPaid.intValue(),
-                        Float.valueOf(Constants.DONATION_TOTAL - currentPaid.intValue()).intValue()));
+                        Float.valueOf(Constants.DONATION_TOTAL - currentPaid).intValue()));
             }
         } else {
             mVerifyROM.setEnabled(true);
