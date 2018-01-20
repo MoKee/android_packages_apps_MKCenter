@@ -94,6 +94,8 @@
     <string name="unlock_features_ota_title">Donate %d CNY for unlock ota and full speed download.</string>
     <string name="unlock_features_verify_rom_title">Donate %d CNY for verified updates and remove ads.</string>
     <string name="unlock_features_all_title">Donate %d CNY for unlock ota, full speed download, verified updates and remove ads.</string>
+    <string name="unlock_features_request_summary">(available after donating %d CNY)</string>
+    <string name="unlock_features_pending_summary">(donated %1$d CNY, available for lifetime after donating %2$d CNY more)</string>
 
     <!-- Update -->
     <string name="unknown">Unknown</string>
@@ -167,12 +169,10 @@
     <!-- Pref -->
     <string name="pref_ota_check">Incremental updates</string>
     <string name="pref_ota_check_summary">Get incremental updates to save download time and bandwidth</string>
-    <string name="pref_ota_check_donation_request_summary">Get incremental updates to save download time and bandwidth (available after donating %d CNY)</string>
-    <string name="pref_ota_check_donation_request_pending_summary">Get incremental updates to save download time and bandwidth (donated %1$d CNY, available for lifetime after donating %2$d CNY more)</string>
+    <string name="pref_ota_check_request_summary">Get incremental updates to save download time and bandwidth</string>
     <string name="pref_verify_rom">Verified updates</string>
     <string name="pref_verify_rom_summary">Only display updates that are verified by other users</string>
-    <string name="pref_verify_rom_donation_request_summary">Only display updates that are verified by other users (available after donating %d CNY)</string>
-    <string name="pref_verify_rom_donation_request_pending_summary">Only display updates that are verified by other users (donated %1$d CNY, available for lifetime after donating %2$d more)</string>
+    <string name="pref_verify_rom_request_summary">Only display updates that are verified by other users</string>
 
     <!-- Apply install and update strings -->
     <string name="apply_update_dialog_title">Apply update</string>
