@@ -151,12 +151,10 @@
   <!-- Pref -->
   <string name="pref_ota_check">Kemaskini tambahan</string>
   <string name="pref_ota_check_summary">Dapatkan kemaskini tambahan untuk menjimatkan masa muat turun dan lebar jalur</string>
-  <string name="pref_ota_check_donation_request_summary">Mendapatkan kemaskini tambahan untuk menjimat masa muat turun dan jalur lebar (boleh didapati selepas menderma %d CNY)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">Mendapatkan kemaskini tambahan untuk menjimat masa muat turun dan jalur lebar (telah menderma %1$d CNY, boleh didapati sepanjang umur selepas menderma %2$d CNY lebih)</string>
+  <string name="pref_ota_check_request_summary">Dapatkan kemaskini tambahan untuk menjimatkan masa muat turun dan lebar jalur</string>
   <string name="pref_verify_rom">Kemaskini disahkan</string>
   <string name="pref_verify_rom_summary">Hanya memaparkan kemaskini yang disahkan oleh pengguna-pengguna lain</string>
-  <string name="pref_verify_rom_donation_request_summary">Hanya memaparkan kemaskini yang disahkan oleh pengguna-pengguna lain (didapati selepas menderma %d CNY)</string>
-  <string name="pref_verify_rom_donation_request_pending_summary">Hanya memaparkan kemaskini yang disahkan oleh pengguna-pengguna lain (menderma %1$d CNY, didapati sepanjang umur selepas menderma %2$d lebih)</string>
+  <string name="pref_verify_rom_request_summary">Hanya memaparkan kemaskini yang disahkan oleh pengguna-pengguna lain</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Terima kemaskini</string>
   <string name="apply_update_dialog_text">Anda akan naik taraf kepada <xliff:g id="filename">%s</xliff:g>.\n\nJika anda tekan Kemaskini, peranti akan dimulakan semula dalam mod pemulihan untuk memasang kemaskini.\n\nNota: Ciri ini memerlukan Pemulihan atau kemaskini yang serasi akan diperlukan untuk dipasangkan secara manual.</string>

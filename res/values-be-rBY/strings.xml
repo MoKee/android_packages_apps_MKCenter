@@ -151,12 +151,10 @@
   <!-- Pref -->
   <string name="pref_ota_check">OTA абнаўленнi</string>
   <string name="pref_ota_check_summary">Атрымаць OTA абнаўленнi, каб зэканоміць час спампавання і прапускную здольнасць</string>
-  <string name="pref_ota_check_donation_request_summary">Атрымаць OTA абнаўленнi, каб зэканоміць час спампавання і прапускную здольнасць (даступна пасля ахвяравання ў CNY %d)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">Атрымліваць аднауленні малога памеру. Гэта дазваляе эканоміць час і трафік (ахвяраванне: %1$d, атрымліваць такія аднауленні пажыццёва можна пасля ахвяравання %2$d ці больш, Валюта: CNY)</string>
+  <string name="pref_ota_check_request_summary">Атрымаць OTA абнаўленнi, каб зэканоміць час спампавання і прапускную здольнасць</string>
   <string name="pref_verify_rom">Правераныя абнаўленні</string>
   <string name="pref_verify_rom_summary">Паказваць толькі правераныя іншымі карыстальнікамі абнаўлення</string>
-  <string name="pref_verify_rom_donation_request_summary">Паказваць толькі абнаўлення, якія правяраюцца іншымі карыстальнікамі (даступна пасля ахвяраванні CNY %d)</string>
-  <string name="pref_verify_rom_donation_request_pending_summary">Адлюстроўваць толькі абнаўлення, якія правераныя іншымі карыстальнікамі (ахвяраваныя %1$d, патрабуецца ахвяраваць яшчэ %2$d, валюта: CNY)</string>
+  <string name="pref_verify_rom_request_summary">Паказваць толькі правераныя іншымі карыстальнікамі абнаўлення</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Прымяніць абнаўленне</string>
   <string name="apply_update_dialog_text">Будзе выканана абнаўленне да версіі <xliff:g id="filename">%s</xliff:g>.\n\n Пры націску кнопкі «Абнавіць» прылада перазагрузіцца ў рэжым аднаўлення для усталёўкі гэтага абнаўлення.\n\n Заўвага: гэтая функцыя патрабуе сумяшчальнага Recovery. У адваротным выпадку абнаўленне будзе неабходна ўсталяваць уручную.</string>

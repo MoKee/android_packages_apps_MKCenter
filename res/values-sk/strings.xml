@@ -84,6 +84,8 @@
   <string name="unlock_features_ota_title">Prispieť %d CNY pre odomknutie OTA a plnej rýchlosti sťahovania.</string>
   <string name="unlock_features_verify_rom_title">Prispieť %d CNY pre odomknutie OTA, plnej rýchlosti sťahovania, overených aktualizácií a odstránenie reklám.</string>
   <string name="unlock_features_all_title">Prispieť %d CNY pre odomknutie OTA, plnej rýchlosti sťahovania, overených aktualizácií a odstránenie reklám.</string>
+  <string name="unlock_features_request_summary">(k dispozícii po darovaní %d CNY)</string>
+  <string name="unlock_features_pending_summary">(darované %1$d CNY, k dispozícii doživotne po darovaní o %2$d CNY viac)</string>
   <!-- Update -->
   <string name="unknown">Neznáme</string>
   <string name="dialog_update">Aktualizovať</string>
@@ -151,12 +153,10 @@
   <!-- Pref -->
   <string name="pref_ota_check">Inkrementálne aktualizácie</string>
   <string name="pref_ota_check_summary">Získajte inkrementálne aktualizácie aby ste obmedzili čas sťahovania a prenesené dáta</string>
-  <string name="pref_ota_check_donation_request_summary">Získajte inkrementálne aktualizácie aby ste obmedzili čas sťahovania a prenesené dáta (k dispozícii po prispení %d CNY)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">Získať OTA aktualizáciu, ušetriť čas a prevádzku (prispel %1$d, k dispozícii od darcov viac než %2$d mien: CNY)</string>
+  <string name="pref_ota_check_request_summary">Získajte inkrementálne aktualizácie aby ste obmedzili čas sťahovania a prenesené dáta</string>
   <string name="pref_verify_rom">Overené aktualizácie</string>
   <string name="pref_verify_rom_summary">Zobraziť len aktualizácie, ktoré sú overené inými užívateľmi</string>
-  <string name="pref_verify_rom_donation_request_summary">Zobraziť len aktualizácie, ktoré sú overené inými užívateľmi (k dispozícii po darovaní CNY %d)</string>
-  <string name="pref_verify_rom_donation_request_pending_summary">Zobraziť len aktualizácie, ktoré sú overené inými užívateľmi (daroval %1$d, k dispozícii doživotne po darovaní %2$d a viac, mena: CNY)</string>
+  <string name="pref_verify_rom_request_summary">Zobraziť len aktualizácie, ktoré sú overené inými užívateľmi</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Aplikovať aktualizáciu</string>
   <string name="apply_update_dialog_text">Chystáte sa inovovať na verziu <xliff:g id="filename">%s</xliff:g>.\n\nAk stlačíte tlačidlo Aktualizovať, zariadenie sa samé reštartuje do režimu Recovery kvôli inštalácii aktualizácie.\n\nPoznámka: Táto funkcia vyžaduje kompatibilné Recovery, inak budú musieť byť aktualizácie inštalované ručne.</string>

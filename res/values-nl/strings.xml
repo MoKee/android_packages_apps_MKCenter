@@ -151,13 +151,10 @@
   <!-- Pref -->
   <string name="pref_ota_check">Incrementele updates</string>
   <string name="pref_ota_check_summary">Haal incrementele updates binnen om de downloadtijd en bandbreedte te besparen</string>
-  <string name="pref_ota_check_donation_request_summary">Haal incrementele updates binnen om de downloadtijd en bandbreedte te besparen (beschikbaar na het doneren van CNY %d)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">Incrementele updates, om download tijd en bandbreedte te besparen, zijn levenslang beschikbaar na donatie.
-(%1$d CNY gedoneerd, nog %2$d CNY te gaan)</string>
+  <string name="pref_ota_check_request_summary">Haal incrementele updates binnen om de downloadtijd en bandbreedte te besparen</string>
   <string name="pref_verify_rom">Geverifieerde updates</string>
   <string name="pref_verify_rom_summary">Alleen updates die worden geverifieerd door andere gebruikers worden weergegeven</string>
-  <string name="pref_verify_rom_donation_request_summary">Alleen het weergeven van updates die worden geverifieerd door andere gebruikers (beschikbaar na CNY %d doneren)</string>
-  <string name="pref_verify_rom_donation_request_pending_summary">Alleen het weergeven van updates die door andere gebruikers worden geverifieerd (%1$d, beschikbaar voor leven na het doneren van %2$d meer, valuta gedoneerd: CNY)</string>
+  <string name="pref_verify_rom_request_summary">Alleen updates die worden geverifieerd door andere gebruikers worden weergegeven</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Update toepassen</string>
   <string name="apply_update_dialog_text">Uw systeem wordt bijgewerkt naar <xliff:g id="filename">%s</xliff:g>.\n\nWanneer u \'Bijwerken\' selecteert, zal het toestel herstarten om de update te installeren.\n\nLet op: Een ondersteunende recovery is vereist, anders moet de update handmatig worden geïnstalleerd.</string>

@@ -151,12 +151,10 @@
   <!-- Pref -->
   <string name="pref_ota_check">Mises à jour OTA</string>
   <string name="pref_ota_check_summary">Obtenir des mises à jour incrémentielles pour économiser du temps et de la bande passante</string>
-  <string name="pref_ota_check_donation_request_summary">Activer les mises à jour incrémentielles pour économiser du temps de téléchargement et de la bande passante (Disponible après avoir effectué un don CNY %d)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">Obtenir des mises à jour partielles pour accélérer le chargement et diminuer la bande passante (donation %1$d, disponible à vie après une donation de %2$d en plus, Devise : CNY)</string>
+  <string name="pref_ota_check_request_summary">Obtenir des mises à jour incrémentielles pour économiser du temps et de la bande passante</string>
   <string name="pref_verify_rom">Mises à jour vérifiées</string>
   <string name="pref_verify_rom_summary">Afficher uniquement les mises à jour qui sont vérifiées par d’autres utilisateurs</string>
-  <string name="pref_verify_rom_donation_request_summary">Afficher uniquement les mises à jour qui sont vérifiées par d’autres utilisateurs (Disponible après un don %d CNY)</string>
-  <string name="pref_verify_rom_donation_request_pending_summary">Afficher uniquement les mises à jour qui sont vérifiées par d’autres utilisateurs (Don %1$d, disponible pour la durée de vie après un don de %2$d plus, monnaie : CNY)</string>
+  <string name="pref_verify_rom_request_summary">Afficher uniquement les mises à jour qui sont vérifiées par d’autres utilisateurs</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Appliquer la mise à jour</string>
   <string name="apply_update_dialog_text">Vous êtes sur le point de mettre à jour vers  <xliff:g id="filename">%s</xliff:g>.\n\nLorsque vous appuierez sur \"Mettre à jour\", votre appareil redémarrera automatiquement pour installer la mise à jour.\n\nRemarque\u00A0: Cette opération nécessite un recovery compatible, sinon les mises à jour devront être installées manuellement.</string>

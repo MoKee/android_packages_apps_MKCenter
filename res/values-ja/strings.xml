@@ -148,12 +148,10 @@
   <!-- Pref -->
   <string name="pref_ota_check">差分アップデート</string>
   <string name="pref_ota_check_summary">ダウンロード時間と帯域を節約する差分アップデートを入手</string>
-  <string name="pref_ota_check_donation_request_summary">ダウンロード時間と帯域を節約する差分アップデートを入手 (この機能は%d人民元寄付後に利用可能です)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">時間と帯域制幅を節約する為に、増分更新内容をダウンロードする （%1$dを寄付してくれて、%2$dをさらに寄付すれば利用できる、通貨: CNY）</string>
+  <string name="pref_ota_check_request_summary">ダウンロード時間と帯域を節約する差分アップデートを入手</string>
   <string name="pref_verify_rom">検証済みの更新</string>
   <string name="pref_verify_rom_summary">他のユーザーにより検証された更新のみを表示する</string>
-  <string name="pref_verify_rom_donation_request_summary">検証された更新のみを表示する(人民元 %d を寄付した後利用可能)</string>
-  <string name="pref_verify_rom_donation_request_pending_summary">他のユーザーにより検証された更新のみを表示( %1$d を寄付し、さらに %2$d を寄付すれば利用可能、通貨: 人民元)</string>
+  <string name="pref_verify_rom_request_summary">他のユーザーにより検証された更新のみを表示する</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">アップデートを適用</string>
   <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g> にアップグレードしようとしています。\n\n更新を押すと端末は再起動後、自動でリカバリーモードに移行しアップデートをインストールします。\n\n注意: この機能は互換性のあるリカバリか手動でのインストールを必要とします。</string>

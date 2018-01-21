@@ -151,12 +151,10 @@
   <!-- Pref -->
   <string name="pref_ota_check">OTA güncellemeleri</string>
   <string name="pref_ota_check_summary">Yükleme süresi ve veri tasarrufu için ek -ota güncelleştirmeleri alın</string>
-  <string name="pref_ota_check_donation_request_summary">İndirme zamanını ve bant genişliğini azaltmak için artımlı güncelleştirmeler yapın (Bağışta bulunulduktan sonra kullanılabilir CNY %d)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">İndirme zamanını ve bant genişliğini azaltmak için artımlı güncelleştirmeler yapın ( %1$d bağışlandı, %2$d daha fazla bağış yaptıktan sonra ömür boyunca kulanılabilir, Para Birimi: CNY)</string>
+  <string name="pref_ota_check_request_summary">Yükleme süresi ve veri tasarrufu için ek -ota güncelleştirmeleri alın</string>
   <string name="pref_verify_rom">Doğrulanmış güncellemeler</string>
   <string name="pref_verify_rom_summary">Yalnızca diğer kullanıcılar tarafından doğrulanan güncellemeleri görüntüleyin</string>
-  <string name="pref_verify_rom_donation_request_summary">Yalnızca diğer kullanıcılar tarafından doğrulanan güncellemeleri görüntüleyin (CNY %d bağışta bulunarak kullanılabilir)</string>
-  <string name="pref_verify_rom_donation_request_pending_summary">Yalnızca diğer kullanıcılar tarafından doğrulanan güncellemeleri görüntüleyin (%1$d bağışlandı,%2$d daha bağışta bulunarak ömür boyu kullanılabilir hale getirildi, Para Birimi: CNY)</string>
+  <string name="pref_verify_rom_request_summary">Yalnızca diğer kullanıcılar tarafından doğrulanan güncellemeleri görüntüleyin</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Güncellemeyi uygula</string>
   <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g> güncellemesi yapılacak.\n\nGüncelleye bastığınızda, güncellemeyi kurmak için cihaz kurtarma modunda yeniden başlatılacak.\n\nNot: Bu özellik, uyumlu bir Kurtarma bölümü gerektirir, aksi takdirde güncellemelerin elle kurulması gerekir.</string>

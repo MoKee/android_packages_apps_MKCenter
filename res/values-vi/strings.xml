@@ -144,12 +144,10 @@
   <!-- Pref -->
   <string name="pref_ota_check">Cập nhật bổ sung</string>
   <string name="pref_ota_check_summary">Lấy bản cập nhật bổ sung để tiết kiệm thời gian tải và băng thông</string>
-  <string name="pref_ota_check_donation_request_summary">Lấy bản cập nhật bổ sung để tiết kiệm thời gian tải và băng thông (có sẵn sau khi quyên góp CNY %d)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">Tải về được gia tăng Cập Nhật để tiết kiệm thời gian và băng thông (tặng %1$d, có sẵn cho đời sau đợt quyên góp thêm, %2$d thu: CNY)</string>
+  <string name="pref_ota_check_request_summary">Lấy bản cập nhật bổ sung để tiết kiệm thời gian tải và băng thông</string>
   <string name="pref_verify_rom">Cập nhật đã được xác thực</string>
   <string name="pref_verify_rom_summary">Chỉ hiện các bản cập nhật được những người dùng khác xác nhận</string>
-  <string name="pref_verify_rom_donation_request_summary">Chỉ hiện các bản cập nhật được những người dùng khác xác nhận (khả dụng sau khi ủng hộ %d NDT)</string>
-  <string name="pref_verify_rom_donation_request_pending_summary">Chỉ hiện các bản cập nhật được những người dùng khác xác nhận (đã ủng hộ %1$d, khả dụng mãi mãi sau khi ủng hộ thêm %2$d nữa, đơn vị tiền tệ: NDT)</string>
+  <string name="pref_verify_rom_request_summary">Chỉ hiện các bản cập nhật được những người dùng khác xác nhận</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Áp dụng Cập Nhật</string>
   <string name="apply_update_dialog_text">Bạn đang định nâng cấp lên <xliff:g id="filename"> %s </xliff:g>. \n\nnếu bạn bấm vào Cập Nhật, điện thoại sẽ tự khởi động lại vào chế độ recovery để cài đặt cập nhật.\n\nLưu ý: tính năng này yêu cầu một bản recovery tương thích hoặc bản cập nhật sẽ cần phải được cài đặt theo cách thủ công.</string>

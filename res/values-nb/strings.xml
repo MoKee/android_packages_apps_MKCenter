@@ -134,6 +134,7 @@
   <!-- Pref -->
   <string name="pref_ota_check">Trinnvise oppdateringer</string>
   <string name="pref_ota_check_summary">Få trinnvise oppdateringer for å spare nedlastingstid og båndbredde</string>
+  <string name="pref_ota_check_request_summary">Få trinnvise oppdateringer for å spare nedlastingstid og båndbredde</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Installer oppdatering</string>
   <string name="apply_unable_to_reboot_toast">Kunne ikke starte opp i recovery-modus</string>

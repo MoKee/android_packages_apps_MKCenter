@@ -62,6 +62,7 @@
   <!-- deleting -->
   <!-- Pref -->
   <string name="pref_ota_check_summary">डाउनलोड समय और बैंडविड्थ को बचाने के लिए वृद्धिशील अपडेट प्राप्त करें</string>
+  <string name="pref_ota_check_request_summary">डाउनलोड समय और बैंडविड्थ को बचाने के लिए वृद्धिशील अपडेट प्राप्त करें</string>
   <!-- Apply install and update strings -->
   <!-- Experimenter mode -->
   <string name="show_exp_on">आपने प्रयोगात्मक सेटिंग सक्षम की हैं!</string>

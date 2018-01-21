@@ -62,6 +62,7 @@
   <string name="menu_refresh">I-refresh</string>
   <string name="menu_delete_all">Tanggalin ang download</string>
   <string name="menu_unlock_features">I-unlock ang mga feature</string>
+  <string name="menu_restore">Ibalik ang lisensya</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Magbigay ng donasyon sa amin</string>
   <string name="donate_dialog_message">Hindi tulad ng mga kumpanya tulad ng Cygn o MIUI, ang MoKee OpenSource ay isang ganap na di-kumikitang proyektong nabuo ng libangan at pasyon. Upang mapanatili ang proyektong ito, kailangan naming itabi ang aming sariling pera sa lahat ng oras o umaasa sa mga donasyon at mga patalastas. Ang iyong mga donasyon ay maaaring makatulong na mabawasan ang aming pinansiyal at suportahan ang pag-unlad sa hinaharap! Itong opsyon ay pinapayagan kang alisin ang mga ad sa MoKee Center, o gamitin ang \"Mag-donate\" na opsyon sa halip kung gusto mo ng mga installment (aalisin ang mga ad kapag nakarating na ang kabuuang tinukoy na halaga). (sa direktoryo ng root ng sdcard, balido lamang sa kasalukuyang aparato) sa sandaling ikaw ay nagbigay.</string>
@@ -82,6 +83,8 @@
   <string name="unlock_features_ota_title">Magbigay ng donasyon na %d CNY para i-unlock ang ota at ang lubusang bilis ng pag-download.</string>
   <string name="unlock_features_verify_rom_title">Magbigay ng donasyon na %d CNY para sa verified na mga update at tanggalin ang mga ads.</string>
   <string name="unlock_features_all_title">Magbigay ng donasyon na %d CNY para i-unlock ang ota, lubusang bilis ng pag-download, veried na mga update at tanggalin ang mga ads.</string>
+  <string name="unlock_features_request_summary">(Magagamit pagkatapos magbigay ng %d CNY)</string>
+  <string name="unlock_features_pending_summary">(nagbigay ng %1$d CNY, magagamit sa habang buhay pagkatapos magbigay ng %2$d CNY higit pa)</string>
   <!-- Update -->
   <string name="unknown">Hindi tiyak</string>
   <string name="dialog_update">I-update</string>
@@ -149,12 +152,10 @@
   <!-- Pref -->
   <string name="pref_ota_check">Incremental na mga update</string>
   <string name="pref_ota_check_summary">Kumuha ng mga incremental update upang maka-save ng oras sa pag-download at bandwidth</string>
-  <string name="pref_ota_check_donation_request_summary">Kumuha ng mga incremental update upang maka-save sa oras ng pag-download at bandwidth (magagamit pagkatapos magbigay ng donasyon na %d CNY)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">Kumuha ng mga incremental update upang maka-save sa oras ng pag-download at bandwidth (nagbigay ng donasyon na %1$d CNY, magagamit habambuhay pagkatapos magbigay ng donasyon na %2$d CNY na higit pa)</string>
+  <string name="pref_ota_check_request_summary">Kumuha ng mga incremental update upang maka-save ng oras sa pag-download at bandwidth</string>
   <string name="pref_verify_rom">Na-verify na mga update</string>
   <string name="pref_verify_rom_summary">Ipakita lamang ang mga update na napatunayan ng ibang mga user</string>
-  <string name="pref_verify_rom_donation_request_summary">Ipakita lamang ang mga update na napatunayan ng ibang mga user (magagamit pagkatapos magbigay ng donasyon na %d CNY)</string>
-  <string name="pref_verify_rom_donation_request_pending_summary">Ipakita lamang ang mga update na napatunayan ng ibang mga user (nagbigay ng donasyon na %1$d CNY, magagamit habang buhay pagkatapos magbigay ng donasyon na %2$d na dagdag)</string>
+  <string name="pref_verify_rom_request_summary">Ipakita lamang ang mga update na napatunayan ng ibang mga user</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">I-apply ang update</string>
   <string name="apply_update_dialog_text">Ikaw ay mag-upgrade sa <xliff:g id="filename">%s</xliff:g>.\n\nKung pindutin ang I-update, sisimulang i-restart ng device mismo sa recovery na mode upang i-install ang update.\n\nTandaan: Ang tampok na ito ay nangangailangan ng isang katugmang Recovery o mga update ay kailangang i-install nang mano-mano.</string>

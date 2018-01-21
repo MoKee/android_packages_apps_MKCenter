@@ -139,9 +139,10 @@
   <!-- Pref -->
   <string name="pref_ota_check">Inkrementella uppdateringar</string>
   <string name="pref_ota_check_summary">Hämta inkrementella uppdateringar för att spara tid och bandbredd</string>
-  <string name="pref_ota_check_donation_request_summary">Hämta inkrementella uppdateringar för att spara tid och bandbredd (tillgänglig efter donation CNY %d)</string>
+  <string name="pref_ota_check_request_summary">Hämta inkrementella uppdateringar för att spara tid och bandbredd</string>
   <string name="pref_verify_rom">Verifierade uppdateringar</string>
   <string name="pref_verify_rom_summary">Visa endast uppdateringar som är verifierade utav andra användare</string>
+  <string name="pref_verify_rom_request_summary">Visa endast uppdateringar som är verifierade utav andra användare</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Installera uppdateringen</string>
   <string name="apply_update_dialog_text">Du är på väg att uppdatera till <xliff:g id="filename">%s</xliff:g>.\n\nOm du trycker på Uppdatera kommer enheten att starta om till Recoveryläge för att installera uppdateringen.\n \nObs: Denna funktion kräver ett kompatibelt Recoveryläge. I annat fall måste uppdateringarna installeras manuellt.</string>

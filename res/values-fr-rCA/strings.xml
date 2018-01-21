@@ -91,8 +91,8 @@
   <string name="dialog_ok">OK</string>
   <string name="dialog_cancel">Annuler</string>
   <string name="dialog_close">Fermer</string>
-  <string name="no_available_updates_intro">La dernière vérification n’a trouvé aucune mise à jour. Pour vérifier les mises à jour manuellement, utiliser le bouton Actualiser.</string>
-  <string name="no_available_ota_intro">La dernière vérification n’a trouvé aucune mise à jour. Pour vérifier les mises à jour manuellement, utiliser le bouton Actualiser. Si vous exécutez une version qui est antérieure à la plage prise en charge de dates de mise à jour incrémentielle, vous devriez dessélectionner l’option « Mises à jour incrémentielles ».</string>
+  <string name="no_available_updates_intro">La dernière vérification n’a trouvé aucune mise à jour. Pour vérifier manuellement les nouvelles mises à jour, utiliser le bouton Actualiser.</string>
+  <string name="no_available_ota_intro">La dernière vérification n’a trouvé aucune mise à jour. Pour vérifier manuellement les nouvelles mises à jour, utiliser le bouton Actualiser. Si vous exécutez une version antérieure à la plage de dates de mises à jour incrémentielles prise en charge, vous devriez dessélectionner l’option « Mises à jour incrémentielles ».</string>
   <string name="new_update_summary">Nouveau</string>
   <string name="old_update_summary">Ancien</string>
   <string name="ota_diff_update_summary">Les mises à jour incrémentielles peuvent économiser %s</string>
@@ -118,7 +118,7 @@
   <string name="check_monthly">Une fois par mois</string>
   <!-- checking -->
   <string name="checking_for_updates">Vérifier les mises à jour</string>
-  <string name="no_updates_found">Aucune nouvelle mise à jour disponible</string>
+  <string name="no_updates_found">Aucune nouvelle mise à jour n\'a été trouvée</string>
   <string name="not_new_updates_found_ticker">De nouvelles mises à jour sont proposées</string>
   <string name="not_new_updates_found_title">Nouvelles mises à jour</string>
   <string name="update_check_failed">La vérification de mise à jour a échoué. Veuillez vérifier votre connexion internet et réessayez plus tard.</string>
@@ -151,12 +151,10 @@
   <!-- Pref -->
   <string name="pref_ota_check">Mises à jour incrémentielles</string>
   <string name="pref_ota_check_summary">Obtenir des mises à jour incrémentielles pour gagner du temps et économiser de la bande passante</string>
-  <string name="pref_ota_check_donation_request_summary">Obtenir des mises à jour incrémentielles pour gagner du temps et économiser de la bande passante (proposé après avoir effectué un don de %d CNY)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">Obtenir des mises à jour incrémentielles pour gagner du temps et économiser de la bande passante (don effectué %1$d CNY, proposé à vie après un don d’encore %2$d)</string>
+  <string name="pref_ota_check_request_summary">Obtenir des mises à jour incrémentielles pour gagner du temps et économiser de la bande passante</string>
   <string name="pref_verify_rom">Mises à jour vérifiées</string>
   <string name="pref_verify_rom_summary">N’afficher que les mises à jour vérifiées par d’autres utilisateurs</string>
-  <string name="pref_verify_rom_donation_request_summary">N’afficher que les mises à jour vérifiées par d’autres utilisateurs (proposé après un don %d CNY)</string>
-  <string name="pref_verify_rom_donation_request_pending_summary">N’afficher que les mises à jour vérifiées par d’autres utilisateurs (don effectué %1$d CNY, proposé à vie après un don d’encore %2$d)</string>
+  <string name="pref_verify_rom_request_summary">N’afficher que les mises à jour vérifiées par d’autres utilisateurs</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Appliquer la mise à jour</string>
   <string name="apply_update_dialog_text">Vous êtes sur le point de mettre à niveau vers <xliff:g id="filename">%s</xliff:g>.\n\nSi vous appuyez sur Mise à jour, l’appareil redémarrera en mode de récupération pour installer la mise à jour.\n\nNote : cette fonction exige un mode de restauration « Recovery » compatible, sinon les mises à jour devront être installées manuellement.</string>

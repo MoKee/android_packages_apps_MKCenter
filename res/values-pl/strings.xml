@@ -151,12 +151,10 @@
   <!-- Pref -->
   <string name="pref_ota_check">Aktualizacje przyrostowe</string>
   <string name="pref_ota_check_summary">Pobierz aktualizacje przyrostowe, aby zaoszczędzić czas i transfer</string>
-  <string name="pref_ota_check_donation_request_summary">Pobierz aktualizacje przyrostowe, aby zaoszczędzić czas i transfer (dostępne po wpłaceniu %d juanów)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">Pobierz aktualizacje przyrostowe, aby zaoszczędzić czas i transfer (przekazano %1$d, dostępne dożywotnio po przekazaniu dodatkowych %2$d, waluta: juany)</string>
+  <string name="pref_ota_check_request_summary">Pobierz aktualizacje przyrostowe, aby zaoszczędzić czas i transfer</string>
   <string name="pref_verify_rom">Sprawdzone aktualizacje</string>
   <string name="pref_verify_rom_summary">Pokaż tylko te aktualizacje, które zostały sprawdzone przez innych</string>
-  <string name="pref_verify_rom_donation_request_summary">Pokaż tylko te aktualizacje, które zostały sprawdzone przez innych (dostępne po przekazaniu dotacji %d juanów)</string>
-  <string name="pref_verify_rom_donation_request_pending_summary">Pokaż tylko te aktualizacje, które zostały sprawdzone przez innych (przekazano %1$d, dostępne dożywotnio po przekazaniu dodatkowych %2$d, waluta: juany)</string>
+  <string name="pref_verify_rom_request_summary">Pokaż tylko te aktualizacje, które zostały sprawdzone przez innych</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Zatwierdź aktualizację</string>
   <string name="apply_update_dialog_text">Zostanie dokonana aktualizacja do <xliff:g id="filename">%s</xliff:g>.\n\n Wciśnięcie \"Aktualizuj\" zrestartuje urządzenie do trybu Recovery i dokona instalacji.\n\nUwaga: ta funkcja wymaga kompatybilnego trybu Recovery, w innym przypadku będzie wymagane ręczne wykonanie aktualizacji.</string>
