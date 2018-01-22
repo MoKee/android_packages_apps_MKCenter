@@ -18,29 +18,29 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Fragment -->
-  <string name="mokee_center_title">Панель MoKee OS</string>
+  <string name="mokee_center_title">Панель MoKee</string>
   <string name="mokee_support_title">Поддержка</string>
   <string name="mokee_updater_title">Обновление</string>
   <!-- WebSite -->
-  <string name="mokee_website_title">Сайт MoKee OS</string>
+  <string name="mokee_website_title">Сайт MoKee</string>
   <string name="mokee_website_summary">Посетить официальный веб-сайт</string>
-  <string name="mokee_forum_title">Форум MoKee OS</string>
-  <string name="mokee_forum_summary">Посетить форум MoKee OS</string>
-  <string name="mokee_issues_title">Центр отслеживания ошибок MoKee OS</string>
+  <string name="mokee_forum_title">Форум MoKee</string>
+  <string name="mokee_forum_summary">Посетить форум MoKee</string>
+  <string name="mokee_issues_title">Центр отслеживания ошибок MoKee</string>
   <string name="mokee_issues_summary">Посетить страницу отслеживания ошибок</string>
-  <string name="mokee_changelog_title">Список изменений MoKee OS</string>
+  <string name="mokee_changelog_title">Список изменений MoKee</string>
   <string name="mokee_changelog_summary">Посмотреть список изменений</string>
-  <string name="mokee_github_title">Репозиторий MoKee OS на GitHub</string>
-  <string name="mokee_github_summary">Открыть репозиторий MoKee OS на GitHub</string>
-  <string name="mokee_translate_title">Перевод MoKee OS</string>
-  <string name="mokee_translate_summary">Помогите перевести MoKee OS</string>
-  <string name="mokee_wiki_title">MoKee OS Wiki</string>
-  <string name="mokee_wiki_summary">Посетить MoKee OS Wiki</string>
-  <string name="mokee_news_title">Новости MoKee OS</string>
-  <string name="mokee_news_summary">Получать новости о развитии MoKee OS</string>
+  <string name="mokee_github_title">Репозиторий MoKee на GitHub</string>
+  <string name="mokee_github_summary">Открыть репозиторий MoKee на GitHub</string>
+  <string name="mokee_translate_title">Перевод MoKee</string>
+  <string name="mokee_translate_summary">Помогите перевести MoKee</string>
+  <string name="mokee_wiki_title">MoKee Wiki</string>
+  <string name="mokee_wiki_summary">Посетить MoKee Wiki</string>
+  <string name="mokee_news_title">Новости MoKee</string>
+  <string name="mokee_news_summary">Получать новости о развитии MoKee</string>
   <!-- Base Info -->
   <string name="mokee_version_info_title">Информация о версии</string>
-  <string name="mokee_version_title">Версия MoKee OS</string>
+  <string name="mokee_version_title">Версия MoKee</string>
   <string name="mokee_unique_id_title">Идентификатор устройства</string>
   <string name="mokee_donate_info_title">Информация о пожертвовании</string>
   <string name="mokee_last_check_title">Последняя проверка</string>
@@ -84,8 +84,8 @@
   <string name="unlock_features_ota_title">Пожертвуйте %d юаней для разблокировки OTA-обновлений и полной скорости загрузки.</string>
   <string name="unlock_features_verify_rom_title">Пожертвуйте %d юаней для доступа к проверенным обновлениям и удаления рекламы.</string>
   <string name="unlock_features_all_title">Пожертвуйте %d юаней для разблокировки OTA-обновлений, полной скорости загрузки, для доступа к проверенным обновлениям и удаления рекламы.</string>
-  <string name="unlock_features_request_summary">(доступно после сдачи %d CNY)</string>
-  <string name="unlock_features_pending_summary">(Дар %1$d CNY, доступные для жизни после сдачи %2$d CNY более)</string>
+  <string name="unlock_features_request_summary">(доступно после пожертвования %d юаней)</string>
+  <string name="unlock_features_pending_summary">(пожертвовано %1$d юаней, доступно для жизни после пожертвования ещё %2$d юаней и более)</string>
   <!-- Update -->
   <string name="unknown">Неизвестно</string>
   <string name="dialog_update">Обновление</string>
@@ -120,7 +120,7 @@
   <string name="check_monthly">Раз в месяц</string>
   <!-- checking -->
   <string name="checking_for_updates">Проверка наличия обновлений...</string>
-  <string name="no_updates_found">Новые обновления не найдены</string>
+  <string name="no_updates_found">Новые обновления не найдены.</string>
   <string name="not_new_updates_found_ticker">Доступны новые обновления</string>
   <string name="not_new_updates_found_title">Новые обновления</string>
   <string name="update_check_failed">Не удалось выполнить проверку обновлений. Пожалуйста, проверьте подключение к Интернету, либо повторите попытку позже.</string>

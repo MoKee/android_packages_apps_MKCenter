@@ -84,6 +84,8 @@
   <string name="unlock_features_ota_title">Přispět %d CNY pro odemknutí OTA a plné rychlosti stahování.</string>
   <string name="unlock_features_verify_rom_title">Přispět %d CNY pro ověřené aktualizace a odstranění reklam.</string>
   <string name="unlock_features_all_title">Přispět %d CNY pro odemknutí OTA, plné rychlosti stahování, ověřených aktualizací a odstranění reklam.</string>
+  <string name="unlock_features_request_summary">(k dispozici po darování %d CNY)</string>
+  <string name="unlock_features_pending_summary">(darováno %1$d CNY, doživotně k dispozici po darování o %2$d CNY více)</string>
   <!-- Update -->
   <string name="unknown">Neznámá</string>
   <string name="dialog_update">Aktualizovat</string>

@@ -68,6 +68,7 @@
   <string name="donate_dialog_message">Hindi tulad ng mga kumpanya tulad ng Cygn o MIUI, ang MoKee OpenSource ay isang ganap na di-kumikitang proyektong nabuo ng libangan at pasyon. Upang mapanatili ang proyektong ito, kailangan naming itabi ang aming sariling pera sa lahat ng oras o umaasa sa mga donasyon at mga patalastas. Ang iyong mga donasyon ay maaaring makatulong na mabawasan ang aming pinansiyal at suportahan ang pag-unlad sa hinaharap! Itong opsyon ay pinapayagan kang alisin ang mga ad sa MoKee Center, o gamitin ang \"Mag-donate\" na opsyon sa halip kung gusto mo ng mga installment (aalisin ang mga ad kapag nakarating na ang kabuuang tinukoy na halaga). (sa direktoryo ng root ng sdcard, balido lamang sa kasalukuyang aparato) sa sandaling ikaw ay nagbigay.</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
+  <string name="donate_dialog_via_wechat">WeChat</string>
   <string name="donate_dialog_via_restore">Pagsasabalik</string>
   <string name="donate_money_toast_success">Salamat sa inyong donasyon!</string>
   <string name="donate_money_title">Magbigay ng donasyon sa MoKee Open Source</string>
@@ -160,6 +161,7 @@
   <string name="apply_update_dialog_title">I-apply ang update</string>
   <string name="apply_update_dialog_text">Ikaw ay mag-upgrade sa <xliff:g id="filename">%s</xliff:g>.\n\nKung pindutin ang I-update, sisimulang i-restart ng device mismo sa recovery na mode upang i-install ang update.\n\nTandaan: Ang tampok na ito ay nangangailangan ng isang katugmang Recovery o mga update ay kailangang i-install nang mano-mano.</string>
   <string name="apply_update_ota_dialog_text">Ikaw ay mag-upgrade sa <xliff:g id="filename">%s</xliff:g>.\n\nKung pindutin ang I-update, sisimulang i-restart ng device mismo sa recovery na mode upang i-install ang update.\n\nTandaan: Ang tampok na ito ay nangangailangan ng isang katugmang Recovery o mga update ay kailangang i-install nang mano-mano.\n\nIto ay isang incremental na update, kaya ang anumang mga pagbabago na ginawa sa mga file system ay maaaring maging sanhi ng pagkabigo sa update. Kung mangyari man ito, paki-flash ng ROM sa halip.</string>
+  <string name="apply_unable_to_reboot_toast">Hindi maaaring ma-reboot sa pagkabawi</string>
   <!-- Experimenter mode -->
   <string name="show_exp_on">Pinagana mo ang experimental na mga setting!</string>
   <string name="show_exp_already">Hindi na kailangan, pinagana mo na ang experimental na mga setting.</string>

@@ -84,6 +84,8 @@
   <string name="unlock_features_ota_title">Donner%d CNY pour déverrouiller l\'OTA et la vitesse de téléchargement maximum.</string>
   <string name="unlock_features_verify_rom_title">Donner %d CYN pour des mise à jour vérifiée et enlever la publicité.</string>
   <string name="unlock_features_all_title">Donner %d CNY pour déverrouiller l\'OTA, une vitesse de téléchargement maximum, des mise à jour vérifiée et enlever les pubs.</string>
+  <string name="unlock_features_request_summary">(proposé après un don de %d CNY)</string>
+  <string name="unlock_features_pending_summary">(don effectué de %1$d CNY, proposé à vie après un don d’encore %2$d CNY)</string>
   <!-- Update -->
   <string name="unknown">Inconnu</string>
   <string name="dialog_update">Mise à jour</string>
@@ -170,7 +172,7 @@
   <string name="discount_dialog_cancel">Ne pas rappeler</string>
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">Mise à jour du système MoKee</string>
-  <string name="verify_system_compatible_message">Vérification de la compatibilité du système avant de patcher\u2026</string>
+  <string name="verify_system_compatible_message">Vérification de la compatibilité du système avant d’appliquer la màj\u2026</string>
   <string name="verify_system_compatible_failed">Echec de la vérification de la compatibilité du système</string>
   <string name="verify_system_compatible_patch">Les fichiers suivants ont soit été modifiés ou supprimés, s’il vous plaît les restaurer et essayez à nouveau.</string>
   <string name="verify_system_compatible_img">%1$s non compatible, veuillez mettre à niveau vers la version %2$s</string>

@@ -84,6 +84,8 @@
   <string name="unlock_features_ota_title">Dotacja w wysokości %d CNY by odblokować OTA oraz pełną prędkość pobierania.</string>
   <string name="unlock_features_verify_rom_title">Dotacja w wysokości %d CNY by odblokować OTA, pełną prędkość pobierania, zweryfikowane aktualizacje oraz usunąć reklamy.</string>
   <string name="unlock_features_all_title">Dotacja w wysokości %d CNY by odblokować OTA, pełną prędkość pobierania, zweryfikowane aktualizacje oraz usunąć reklamy.</string>
+  <string name="unlock_features_request_summary">(dostępne po dotacji %d CNY)</string>
+  <string name="unlock_features_pending_summary">(przekazano %1$d CNY, dostępne dożywotnio po przekazaniu więcej %2$d CNY)</string>
   <!-- Update -->
   <string name="unknown">Brak informacji</string>
   <string name="dialog_update">Aktualizacja</string>
