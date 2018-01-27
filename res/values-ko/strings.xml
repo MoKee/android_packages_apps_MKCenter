@@ -151,14 +151,10 @@
   <!-- Pref -->
   <string name="pref_ota_check">OTA 업데이트</string>
   <string name="pref_ota_check_summary">증분 업데이트를 통해 다운로드 시간과 대역폭을 절약 해보세요</string>
-  <string name="pref_ota_check_donation_request_summary">증분 업데이트를 통해 다운로드 시간 및 대역폭 절약 (중국 위안화 %d 기증 후 사용 가능)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">증분 업데이트를 통해 다운로드 시간과 대역폭 절약(%1$d 기부 완료, 중국 위안화 %2$d를 더 기부함으로써 평생동안 사용하실 수 있습니다)</string>
+  <string name="pref_ota_check_request_summary">증분 업데이트를 통해 다운로드 시간과 대역폭을 절약 해보세요</string>
   <string name="pref_verify_rom">검증된 업데이트</string>
   <string name="pref_verify_rom_summary">다른 사용자들에 의해 검증된 업데이트만 표시</string>
-  <string name="pref_verify_rom_donation_request_summary">다른 사용자들에 의해 검증된 업데이트만 표시
-( 중국 위안화 %d를 기부하면 사용가능)</string>
-  <string name="pref_verify_rom_donation_request_pending_summary">다른 사용자들에 의해 검증된 업데이트만 표시
-(이미 %1$d를 기부하셨습니다. 추가로 중국 위안화 %2$d를 기부할 경우 평생 이용가능합니다)</string>
+  <string name="pref_verify_rom_request_summary">다른 사용자들에 의해 검증된 업데이트만 표시</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">업데이트 적용</string>
   <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g> 버전으로 업그레이드 합니다. \n\n 업데이트 버튼을 누르면, 이 기기는 자동으로 재시작후, 리커버리 모드로 진입하여 인스톨 합니다.\n

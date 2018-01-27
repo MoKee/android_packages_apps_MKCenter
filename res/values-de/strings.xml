@@ -151,12 +151,10 @@
   <!-- Pref -->
   <string name="pref_ota_check">Inkrementelle Updates</string>
   <string name="pref_ota_check_summary">Erhalte inkrementelle Updates, um Zeit zum Herunterladen und Datenvolumen zu sparen</string>
-  <string name="pref_ota_check_donation_request_summary">Erhalte Inkrementelle Updates, um Zeit zum Herunterladen und Datenvolumen zu sparen (möglich nach spenden von CNY %d)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">Erhalten Sie inkrementelle Updates um Downloadzeit und Bandbreite zu sparen (bereits gespendet %1$d, lebenslang verfügbar nach weiterer Spende von CNY %2$d)</string>
+  <string name="pref_ota_check_request_summary">Erhalte inkrementelle Updates, um Zeit zum Herunterladen und Datenvolumen zu sparen</string>
   <string name="pref_verify_rom">Geprüfte Updates</string>
   <string name="pref_verify_rom_summary">Nur Aktualisierungen anzeigen, die von anderen Benutzern überprüft wurden</string>
-  <string name="pref_verify_rom_donation_request_summary">Nur Aktualisierungen anzeigen, die von anderen Benutzern überprüft wurden (Verfügbar nach einer Spende von CNY %d)</string>
-  <string name="pref_verify_rom_donation_request_pending_summary">Nur Aktualisierungen anzeigen, die von anderen Benutzern überprüft wurden (Gespendet: %1$d, verfügbar nach weiteren %2$d, Aktuell: CNY)</string>
+  <string name="pref_verify_rom_request_summary">Nur Aktualisierungen anzeigen, die von anderen Benutzern überprüft wurden</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Update durchführen</string>
   <string name="apply_update_dialog_text">Bereit zum Update auf <xliff:g id="filename">%s</xliff:g>.\n\nNach dem Start des Updates wird das Gerät ins Recovery booten, um das Update durchzuführen.\n\nHinweis: Diese Funktion erfordert ein kompatibles Recovery, andernfalls muss das Update manuell installiert werden.</string>

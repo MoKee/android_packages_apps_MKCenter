@@ -139,8 +139,7 @@
   <!-- Pref -->
   <string name="pref_ota_check">עדכונים OTA</string>
   <string name="pref_ota_check_summary">קבל עדכונים מצטברים כדי לחסוך בזמני ההורדה ובנתונים</string>
-  <string name="pref_ota_check_donation_request_summary">קבל עדכונים מצטברים כדי לחסוך בזמני ההורדה ובנתונים (זמין לאחר תרומת %d CNY)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">קבל עדכוני OTA כדי לחסוך זמן הורדה ורוחב פס (נתרמו %1$d, זמין לכל החיים לאחר תרומה של %2$d נוספים, מטבע: CNY)</string>
+  <string name="pref_ota_check_request_summary">קבל עדכונים מצטברים כדי לחסוך בזמני ההורדה ובנתונים</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">החל עדכון</string>
   <string name="apply_update_dialog_text">אתה עומד לעדכן ל-<xliff:g id="filename">%s</xliff:g>.\n\nאם תלחץ על \"עדכן\", המכשיר יאתחל את עצמו למצב \"Rocovery\" על מנת להתקין את העדכון.\n

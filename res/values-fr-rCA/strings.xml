@@ -57,7 +57,7 @@
   <!-- State -->
   <string name="downloaded_update_summary">Télécharger</string>
   <string name="installed_update_summary">Installer</string>
-  <string name="available_updates_title">Mises à jour disponibles</string>
+  <string name="available_updates_title">Mises à jour proposées</string>
   <!-- Menu -->
   <string name="menu_donate">Faire une donation</string>
   <string name="menu_refresh">Actualiser</string>
@@ -75,7 +75,7 @@
   <string name="donate_money_title">Faire un don au projet OpenSource MoKee</string>
   <string name="donate_money_again">Faire un don à nouveau</string>
   <string name="donate_money_restored_success">Restauration complète !</string>
-  <string name="donate_money_restored_failed">Appareil de sauvegarde non trouvée.</string>
+  <string name="donate_money_restored_failed">Aucun enregistrement n’a été trouvé pour cet appareil.</string>
   <string name="donate_money_restored_failed_solution">Solution</string>
   <string name="donate_money_restored_timeout">Durée de connexion dépassée, veuillez réessayer</string>
   <string name="donate_money_info">Vous avez fait un don total de %1$d CNY, soit plus que %2$s de tous les donateurs !</string>
@@ -85,6 +85,8 @@
   <string name="unlock_features_ota_title">Donner%d CNY pour déverrouiller l\'OTA et la vitesse de téléchargement maximum.</string>
   <string name="unlock_features_verify_rom_title">Donner %d CYN pour des mise à jour vérifiée et enlever la publicité.</string>
   <string name="unlock_features_all_title">Donner %d CNY pour déverrouiller l\'OTA, une vitesse de téléchargement maximum, des mise à jour vérifiée et enlever les pubs.</string>
+  <string name="unlock_features_request_summary">(proposé après un don de %d CNY)</string>
+  <string name="unlock_features_pending_summary">(don effectué de %1$d CNY, proposé à vie après un don d’encore %2$d CNY)</string>
   <!-- Update -->
   <string name="unknown">Inconnu</string>
   <string name="dialog_update">Mettre à jour</string>
@@ -92,7 +94,7 @@
   <string name="dialog_ok">OK</string>
   <string name="dialog_cancel">Annuler</string>
   <string name="dialog_close">Fermer</string>
-  <string name="no_available_updates_intro">Aucune mise à jour disponible lors de la dernière vérification. Pour vérifier manuellement les mises à jour, utilisez le bouton Actualiser.</string>
+  <string name="no_available_updates_intro">La dernière vérification n’a trouvé aucune mise à jour. Pour vérifier manuellement les nouvelles mises à jour, utiliser le bouton Actualiser.</string>
   <string name="no_available_ota_intro">Le dernier contrôle n\'a pas trouvé les mises à jour disponibles. Pour vérifier manuellement les nouvelles mises à jour, utilisez le bouton Actualiser. Si vous exécutez une version qui est hors de la plage de dates de prise en charge de mise à jour incrémentielle, vous devriez désélectionner l\'option \"Mises à jour incrémentielles\".</string>
   <string name="new_update_summary">Nouveau</string>
   <string name="old_update_summary">Ancien</string>
@@ -107,7 +109,7 @@
   <string name="alert_title">Attention</string>
   <string name="update_type_title">Types de mise à jour</string>
   <!-- ChangeLog -->
-  <string name="no_changelog_alert">Aucun historique des modifications disponible</string>
+  <string name="no_changelog_alert">Aucun journal des changements n’est proposé</string>
   <string name="changelog_dialog_title">Historique des modifications</string>
   <string name="loading_changelog">Chargement\u2026</string>
   <string name="check_on_boot">À chaque redémarrage</string>
@@ -118,9 +120,9 @@
   <string name="check_bi_weekly">Une fois tous les quinze jours</string>
   <string name="check_monthly">Une fois par mois</string>
   <!-- checking -->
-  <string name="checking_for_updates">Vérifier les mises à jour</string>
-  <string name="no_updates_found">Aucune nouvelle mise à jour disponible</string>
-  <string name="not_new_updates_found_ticker">De nouvelles mises à jour sont disponibles</string>
+  <string name="checking_for_updates">Vérification des mises à jour</string>
+  <string name="no_updates_found">Aucune nouvelle mise à jour n\'a été trouvée</string>
+  <string name="not_new_updates_found_ticker">De nouvelles mises à jour sont proposées</string>
   <string name="not_new_updates_found_title">Nouvelles mises à jour</string>
   <string name="update_check_failed">La vérification de mise à jour a échoué. Veuillez vérifier votre connexion internet et réessayez plus tard.</string>
   <string name="not_action_download">Télécharger</string>
@@ -152,12 +154,10 @@
   <!-- Pref -->
   <string name="pref_ota_check">Mises à jour OTA</string>
   <string name="pref_ota_check_summary">Obtenir des mises à jour incrémentielles pour économiser du temps et de la bande passante</string>
-  <string name="pref_ota_check_donation_request_summary">Activer les mises à jour incrémentielles pour gagner du économiser du temps de téléchargement et de la bande passante (Disponible après avoir effectuer un don CNY %d)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">Obtenir des mises à jour partielles pour accélérer le chargement et diminuer la bande passante (donation %1$d, disponible à vie après une donation de %2$d en plus, Devise : CNY)</string>
+  <string name="pref_ota_check_request_summary">Obtenir des mises à jour incrémentielles pour gagner du temps et économiser de la bande passante</string>
   <string name="pref_verify_rom">Mises à jour vérifiées</string>
   <string name="pref_verify_rom_summary">Afficher uniquement les mises à jour qui sont vérifiées par d’autres utilisateurs</string>
-  <string name="pref_verify_rom_donation_request_summary">Afficher uniquement les mises à jour qui sont vérifiées par d’autres utilisateurs (disponible après un don %d CNY)</string>
-  <string name="pref_verify_rom_donation_request_pending_summary">Afficher uniquement les mises à jour qui sont vérifiées par d’autres utilisateurs (Don %1$d, disponible pour la durée de vie après un don de %2$d plus, monnaie : CNY)</string>
+  <string name="pref_verify_rom_request_summary">N’afficher que les mises à jour vérifiées par d’autres utilisateurs</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Appliquer la mise à jour</string>
   <string name="apply_update_dialog_text">Vous êtes sur le point de mettre à niveau vers <xliff:g id="filename">%s</xliff:g>.\n\nSi vous appuyez sur Mise à jour, l’appareil redémarrera en mode de récupération pour installer la mise à jour.\n\nNote : cette fonction exige un mode de restauration compatible, sinon les mises à jour devront être installées manuellement.</string>
@@ -173,7 +173,7 @@
   <string name="discount_dialog_cancel">Ne pas rappeler</string>
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">Mise à jour du système MoKee</string>
-  <string name="verify_system_compatible_message">Vérification de la compatibilité du système avant de patcher\u2026</string>
+  <string name="verify_system_compatible_message">Vérification de la compatibilité du système avant d’appliquer la màj\u2026</string>
   <string name="verify_system_compatible_failed">Echec de la vérification de la compatibilité du système</string>
   <string name="verify_system_compatible_patch">Les fichiers suivants ont soit été modifiés ou supprimés, s’il vous plaît les restaurer et essayez à nouveau.</string>
   <string name="verify_system_compatible_img">%1$s non compatible, veuillez mettre à niveau vers la version %2$s</string>

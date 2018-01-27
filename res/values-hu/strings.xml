@@ -139,8 +139,7 @@
   <!-- Pref -->
   <string name="pref_ota_check">Növekményes frissítések</string>
   <string name="pref_ota_check_summary">Növekményes frissítések használata a letöltési idő és sávszélesség kímélése érdekében</string>
-  <string name="pref_ota_check_donation_request_summary">Növekményes frissítések használata a letöltési idő és sávszélesség kímélése érdekében (%d CNY támogatást követően)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">Juss járulékos frissítésekhez, letöltési időt és sávszélességet spórolva ezzel (adományoztál %1$d, ez felhasználható életreszólóan, további %2$d adományozása esetében, Pénznem: CNY/Kínai renminbi)</string>
+  <string name="pref_ota_check_request_summary">Növekményes frissítések használata a letöltési idő és sávszélesség kímélése érdekében</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Frissítés alkalmazása</string>
   <string name="apply_update_dialog_text">A  <xliff:g id="filename">%s</xliff:g> frissítés telepítését választottad. Ha a Frissítésre nyomsz, a készülék újraindul recovery módba, hogy telepítse a frissítést. \n\nMegjegyzés: Az autómatikus frissítéshez kompatibilis recovery kell, különben manuális telepítésre lesz szükség.</string>

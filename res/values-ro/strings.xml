@@ -139,8 +139,7 @@
   <!-- Pref -->
   <string name="pref_ota_check">Actualizări incrementale</string>
   <string name="pref_ota_check_summary">Primește actualizări incrementale pentru a reduce timpul de descărcat și banda de internet</string>
-  <string name="pref_ota_check_donation_request_summary">Primește actualizări incrementale pentru a reduce timpul de descărcat și banda de internet (opțiune activă doar dupo ce donați %d)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">Obţineţi actualizări incrementale pentru a salva timp descarcă bandwidth (donat %1$d, disponibil pentru durata de viaţă după donând %2$d mai multe, moneda: CNY)</string>
+  <string name="pref_ota_check_request_summary">Primește actualizări incrementale pentru a reduce timpul de descărcat și banda de internet</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Aplicaţi actualizarea</string>
   <string name="apply_update_dialog_text">Intenţionaţi să faceţi upgrade la <xliff:g id="filename">%s</xliff:g>.\n\nDacă apăsaţi actualizare, dispozitivul va reporni în modul de recuperare pentru a instala actualizarea.\n\nNotă: această caracteristică necesită o versiune de recuperare compatibilă sau actualizările trebuie să fie instalate manual.</string>

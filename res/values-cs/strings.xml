@@ -85,6 +85,8 @@
   <string name="unlock_features_ota_title">Přispět %d CNY pro odemknutí OTA a plné rychlosti stahování.</string>
   <string name="unlock_features_verify_rom_title">Přispět %d CNY pro ověřené aktualizace a odstranění reklam.</string>
   <string name="unlock_features_all_title">Přispět %d CNY pro odemknutí OTA, plné rychlosti stahování, ověřených aktualizací a odstranění reklam.</string>
+  <string name="unlock_features_request_summary">(k dispozici po darování %d CNY)</string>
+  <string name="unlock_features_pending_summary">(darováno %1$d CNY, doživotně k dispozici po darování o %2$d CNY více)</string>
   <!-- Update -->
   <string name="unknown">Neznámá</string>
   <string name="dialog_update">Aktualizovat</string>
@@ -152,12 +154,10 @@
   <!-- Pref -->
   <string name="pref_ota_check">OTA aktualizace</string>
   <string name="pref_ota_check_summary">Stahovat OTA aktualizace, aby jste ušetřili data a čas</string>
-  <string name="pref_ota_check_donation_request_summary">Stahovat OTA aktualizace, aby jste ušetřili data a čas (dostupné po darování %d CNY)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">Získat OTA aktualizaci, ušetřit čas a provoz (přispěl %1$d, k dispozici od dárců více než %2$d měn :. CNY)</string>
+  <string name="pref_ota_check_request_summary">Stahovat OTA aktualizace, aby jste ušetřili data a čas</string>
   <string name="pref_verify_rom">Ověřené aktualizace</string>
   <string name="pref_verify_rom_summary">Zobrazit jen aktualizace ověřené jinými uživateli</string>
-  <string name="pref_verify_rom_donation_request_summary">Zobrazit jen aktualizace ověřené jinými uživateli (k dispozici po darování CNY %d)</string>
-  <string name="pref_verify_rom_donation_request_pending_summary">Jsou zobrazeny pouze aktualizace, které byly potvrzeny jinými uživateli (darované %1$d, k dispozici celoživotně po darování %2$d a více, měna: CNY)</string>
+  <string name="pref_verify_rom_request_summary">Zobrazit jen aktualizace ověřené jinými uživateli</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Nainstalovat aktualizaci</string>
   <string name="apply_update_dialog_text">Chystáte se aktualizovat na <xliff:g id="filename">%s</xliff:g>.\n\nPokud stisknete Aktualizovat, telefon se restartuje do režimu recovery, kde bude pokračovat v instalaci aktualizace.\n\nPoznámka: tato funkce vyžaduje nainstalované kompatibilní recovery nebo je nutné instalaci provést ručně.</string>

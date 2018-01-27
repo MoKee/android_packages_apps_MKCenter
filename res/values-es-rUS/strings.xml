@@ -22,6 +22,7 @@
   <string name="mokee_support_title">Soporte</string>
   <string name="mokee_updater_title">Actualizaciones</string>
   <!-- WebSite -->
+  <string name="mokee_links">Enlaces</string>
   <string name="mokee_website_title">Sitio web de MoKee</string>
   <string name="mokee_website_summary">Visitar el sitio web oficial</string>
   <string name="mokee_forum_title">Foro MoKee</string>
@@ -84,6 +85,8 @@
   <string name="unlock_features_ota_title">Donar %d CNY para desbloquear toda velocidad descarga y ota.</string>
   <string name="unlock_features_verify_rom_title">Donar %d CNY para desbloquear ota, descargar velocidad completa, verificar actualizaciones y eliminar anuncios.</string>
   <string name="unlock_features_all_title">Donar %d CNY para desbloquear OTA, velocidad de descarga máxima, verificar actualizaciones y quitar publicidad.</string>
+  <string name="unlock_features_request_summary">(disponible después de donar %d CNY)</string>
+  <string name="unlock_features_pending_summary">(donado %1$d CNY, disponible para toda la vida después de donar %2$d CNY más)</string>
   <!-- Update -->
   <string name="unknown">Desconocido</string>
   <string name="dialog_update">Actualizar</string>
@@ -151,12 +154,10 @@
   <!-- Pref -->
   <string name="pref_ota_check">Actualizaciones Incrementales</string>
   <string name="pref_ota_check_summary">Obtener actualizaciones incrementales para ahorrar ancho de banda y tiempo de descarga</string>
-  <string name="pref_ota_check_donation_request_summary">Obtener actualizaciones incrementales para ahorrar tiempo de descarga y ancho de banda (disponible después de donar %d CNY)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">Descargar actualizaciones incrementales para ahorrar tiempo y ancho de banda (donado %1$d, disponible para toda la vida después de donar más, %2$d moneda: CNY)</string>
+  <string name="pref_ota_check_request_summary">Obtener actualizaciones incrementales para ahorrar ancho de banda y tiempo de descarga</string>
   <string name="pref_verify_rom">Actualizaciones verificadas</string>
   <string name="pref_verify_rom_summary">Mostrar sólo las actualizaciones verificadas por otros usuarios</string>
-  <string name="pref_verify_rom_donation_request_summary">Mostrar sólo actualizaciones que son verificadas por otros usuarios (disponibles después de donar %d CNY)</string>
-  <string name="pref_verify_rom_donation_request_pending_summary">Mostrar sólo actualizaciones verificadas por otros usuarios (donado %1$d, disponible de por vida después de donar %2$d más, moneda: CNY)</string>
+  <string name="pref_verify_rom_request_summary">Mostrar sólo las actualizaciones verificadas por otros usuarios</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Aplicar actualización</string>
   <string name="apply_update_dialog_text">Se actualizará a la versión <xliff:g id="filename">%s</xliff:g>.\n\nPulsando sobre \u00ABActualizar\u00BB, el dispositivo se reiniciará para instalar la actualización.\n\nAviso: Será necesario disponer de un recovery compatible o las actualizaciones deberán ser instaladas manualmente.</string>

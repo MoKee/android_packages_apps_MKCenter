@@ -151,12 +151,10 @@
   <!-- Pref -->
   <string name="pref_ota_check">Delne posodobitve</string>
   <string name="pref_ota_check_summary">Z delnimi posodobitvami priihranite čas in pasovno širino</string>
-  <string name="pref_ota_check_donation_request_summary">Z delnimi posodobitvami prihranite čas prenosa in prenos podatkov (na voljo po prispevku CNY %d)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">Z delnimi posodobitvami prihranite čas prenosa in prenos podatkov (prispevali ste %1$d, na voljo doživljensko po prispevku %2$d več, valuta: CNY)</string>
+  <string name="pref_ota_check_request_summary">Z delnimi posodobitvami priihranite čas in pasovno širino</string>
   <string name="pref_verify_rom">Preverjene posodobitve</string>
   <string name="pref_verify_rom_summary">Prikazane so le posodobitve, ki so jih potrdili drugi uporabniki</string>
-  <string name="pref_verify_rom_donation_request_summary">Prikazane so le posodobitve, ki so jih potrdili drugi uporabniki (na voljo po prispevku CNY %d)</string>
-  <string name="pref_verify_rom_donation_request_pending_summary">Prikazane so le posodobitve, ki so jih potrdili drugi uporabniki (prispevali ste %1$d, na voljo doživljensko po prispevku %2$d več, valuta: CNY)</string>
+  <string name="pref_verify_rom_request_summary">Prikazane so le posodobitve, ki so jih potrdili drugi uporabniki</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Uveljavi posodbitev</string>
   <string name="apply_update_dialog_text">Ste tik pred posodobitvijo na <xliff:g id="filename">%s</xliff:g>.\n\nPri dotiku na posodobi, se bo naprava samodejno ponovno zagnala in namestila posodobitve.\n\nOpomba: Ta funkcija zahtava združliv Recovery, drugače prosim namestite ročno.</string>

@@ -22,6 +22,7 @@
   <string name="mokee_support_title">Поддержка</string>
   <string name="mokee_updater_title">Обновление</string>
   <!-- WebSite -->
+  <string name="mokee_links">Ссылки</string>
   <string name="mokee_website_title">Сайт MoKee</string>
   <string name="mokee_website_summary">Посетить официальный веб-сайт</string>
   <string name="mokee_forum_title">Форум MoKee</string>
@@ -47,7 +48,7 @@
   <string name="mokee_last_check_never">Не проводилось</string>
   <!-- Version -->
   <string name="mokee_info_default">Неизвестно</string>
-  <string name="mokee_version_type_release">Стабильные версии</string>
+  <string name="mokee_version_type_release">Релизы</string>
   <string name="mokee_version_type_history">История версий</string>
   <string name="mokee_version_type_experimental">Экспериментальные</string>
   <string name="mokee_version_type_nightly">Ночные сборки</string>
@@ -84,6 +85,8 @@
   <string name="unlock_features_ota_title">Пожертвуйте %d юаней для разблокировки OTA-обновлений и полной скорости загрузки.</string>
   <string name="unlock_features_verify_rom_title">Пожертвуйте %d юаней для разблокировки OTA-обновлений, полной скорости скачивания, проверки обновлений и удаления рекламы.</string>
   <string name="unlock_features_all_title">Пожертвуйте %d юаней для доступа к OTA-обновлениям, полной скорости скачивания, проверке обновлений и удаления рекламы.</string>
+  <string name="unlock_features_request_summary">(доступно после пожертвования в %d юаней)</string>
+  <string name="unlock_features_pending_summary">(пожертвовано %1$d юаней, будет доступно навсегда после пожертвования ещё %2$d юаней и более)</string>
   <!-- Update -->
   <string name="unknown">Неизвестно</string>
   <string name="dialog_update">Обновление</string>
@@ -118,7 +121,7 @@
   <string name="check_monthly">Раз в месяц</string>
   <!-- checking -->
   <string name="checking_for_updates">Проверка наличия обновлений...</string>
-  <string name="no_updates_found">Новые обновления не найдены</string>
+  <string name="no_updates_found">Новые обновления не найдены.</string>
   <string name="not_new_updates_found_ticker">Доступны новые обновления</string>
   <string name="not_new_updates_found_title">Новые обновления</string>
   <string name="update_check_failed">Не удалось выполнить проверку обновлений. Пожалуйста, проверьте подключение к Интернету, либо повторите попытку позже.</string>
@@ -151,12 +154,10 @@
   <!-- Pref -->
   <string name="pref_ota_check">OTA-обновления</string>
   <string name="pref_ota_check_summary">Получать ОТА-обновления для экономии трафика и времени загрузки</string>
-  <string name="pref_ota_check_donation_request_summary">ОТА-обновления экономят место на устройстве и ваш трафик (доступно после пожертвования в %d юаней)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">Получать OTA-обновления для экономии времени и трафика (пожертвовано %1$d, доступный период после пожертвования более %2$d, валюта: юань)</string>
+  <string name="pref_ota_check_request_summary">Получать ОТА-обновления для экономии трафика и времени загрузки</string>
   <string name="pref_verify_rom">Проверенные обновления</string>
   <string name="pref_verify_rom_summary">Показывать только проверенные другими пользователями обновления</string>
-  <string name="pref_verify_rom_donation_request_summary">Показывать только обновления, которые проверены другими пользователями (доступно после пожертвования %d юаней)</string>
-  <string name="pref_verify_rom_donation_request_pending_summary">Показывать только обновления, проверенные другими пользователями (пожертвовано %1$d, можно перевести после пожертвования ещё %2$d, текущая валюта: юань)</string>
+  <string name="pref_verify_rom_request_summary">Показывать только проверенные другими пользователями обновления</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Применить обновление</string>
   <string name="apply_update_dialog_text">Будет выполнено обновление до версии «<xliff:g id="filename">%s</xliff:g>».\n\nПри нажатии кнопки «Обновить» устройство перезагрузится в режим восстановления для установки этого обновления. \n\nПримечание: эта функция требует совместимого Recovery. В противном случае обновление будет необходимо установить вручную.</string>

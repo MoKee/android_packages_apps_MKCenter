@@ -151,12 +151,10 @@
   <!-- Pref -->
   <string name="pref_ota_check">Incremental na mga update</string>
   <string name="pref_ota_check_summary">Kumuha ng mga incremental update upang i-save ang oras ng pag-download at bandwidth</string>
-  <string name="pref_ota_check_donation_request_summary">Pref_ota_suriin_donasyon_hiling_buod</string>
-  <string name="pref_ota_check_donation_request_pending_summary">Pref_ota_suriin_donasyon_hiling_nakabinbin_buod</string>
+  <string name="pref_ota_check_request_summary">Kumuha ng mga incremental update upang i-save ang oras ng pag-download at bandwidth</string>
   <string name="pref_verify_rom">Pref_patunayan_rom</string>
   <string name="pref_verify_rom_summary">Ipakita lamang ang mga update na napatunayan na ng ibang mga gumagamit</string>
-  <string name="pref_verify_rom_donation_request_summary">Ipakita lamang ang mga update na napatunayan na ng ibang mga gumagamit (makikita pagkatapos mag-donate ng %d CNY)</string>
-  <string name="pref_verify_rom_donation_request_pending_summary">Ipakita lamang ang mga update na napatunayan na ng ibang mga gumagamit (nag-donate ng %1$d CNY, makikita habambuhay pagkatapos mag-donate ng dagdag na %2$d)</string>
+  <string name="pref_verify_rom_request_summary">Ipakita lamang ang mga update na napatunayan na ng ibang mga gumagamit</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">I-apply ang update</string>
   <string name="apply_update_dialog_text">Ikaw ay mag-upgrade sa <xliff:g id="filename">%s </xliff:g>. \n\nKung pinindot mo ang I-update, sisimulang i-restart ang device mismo sa mode ng pagbawi upang i-install ang update. \n\n: Ang tampok na ito ay nangangailangan ng isang katugmang Recovery o mga update ay kailangang mai-install nang manu-mano.</string>

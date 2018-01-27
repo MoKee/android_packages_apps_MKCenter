@@ -59,19 +59,19 @@
   <string name="installed_update_summary">Installé</string>
   <string name="available_updates_title">Mises à jour disponibles</string>
   <!-- Menu -->
-  <string name="menu_donate">Faire une donation</string>
+  <string name="menu_donate">Faire un don</string>
   <string name="menu_refresh">Actualiser</string>
   <string name="menu_delete_all">Supprimer le téléchargement</string>
   <string name="menu_unlock_features">Fonctionnalités de déverrouillage</string>
   <string name="menu_restore">Restaurer la licence</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Faites-nous un don</string>
-  <string name="donate_dialog_message">Contrairement aux entreprises comme Cygn ou MIUI, MoKee OpenSource est un projet purement à but non lucratif né de passe-temps et de passion. Afin de maintenir ce projet, nous devons la plupart du temps investir notre propre argent ou dépendre des dons et de la publicité. Vos dons peuvent aider à réduire notre charge financière et soutenir le développement futur ! Cette option vous permet de supprimer les annonces dans le Centre MoKee, utilisez plutôt l\'option de « Don » si vous préférez des versements (les annonces seront supprimés une fois que la somme a atteint la valeur spécifiée). Veuillez sauvegarder le fichier mokee. licence (à la racine de la sdcard, valable uniquement pour le périphérique actuel) une fois que vous avez donné.</string>
+  <string name="donate_dialog_message">Contrairement aux entreprises comme Cygn ou MIUI, MoKee OpenSource est un projet purement à but non lucratif né de passe-temps et de passion. Afin de maintenir ce projet, nous devons la plupart du temps investir notre propre argent ou dépendre des dons et de la publicité. Vos dons peuvent aider à réduire notre charge financière et soutenir le développement futur ! Cette option vous permet de supprimer les annonces dans le Centre MoKee, utilisez plutôt l\'option de « Don » si vous préférez des versements (les annonces seront supprimés une fois que la somme a atteint la valeur spécifiée). Veuillez sauvegarder le fichier mokee.license (à la racine de la sdcard, valable uniquement pour le périphérique actuel) une fois que vous avez donné.</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_wechat">WeChat</string>
   <string name="donate_dialog_via_restore">Restaurer</string>
-  <string name="donate_money_toast_success">Merci pour votre don!</string>
+  <string name="donate_money_toast_success">Merci pour votre don !</string>
   <string name="donate_money_title">Faire un don au projet OpenSource MoKee</string>
   <string name="donate_money_again">Faire un don</string>
   <string name="donate_money_restored_success">Restauration complète !</string>
@@ -85,6 +85,8 @@
   <string name="unlock_features_ota_title">Donner%d CNY pour déverrouiller l\'OTA et la vitesse de téléchargement maximum.</string>
   <string name="unlock_features_verify_rom_title">Donner %d CYN pour des mise à jour vérifiée et enlever la publicité.</string>
   <string name="unlock_features_all_title">Donner %d CNY pour déverrouiller l\'OTA, une vitesse de téléchargement maximum, des mise à jour vérifiée et enlever les pubs.</string>
+  <string name="unlock_features_request_summary">(proposé après un don de %d CNY)</string>
+  <string name="unlock_features_pending_summary">(don effectué de %1$d CNY, proposé à vie après un don d’encore %2$d CNY)</string>
   <!-- Update -->
   <string name="unknown">Inconnu</string>
   <string name="dialog_update">Mettre à jour</string>
@@ -118,7 +120,7 @@
   <string name="check_bi_weekly">Une fois tous les quinze jours</string>
   <string name="check_monthly">Une fois par mois</string>
   <!-- checking -->
-  <string name="checking_for_updates">Vérifier les mises à jour</string>
+  <string name="checking_for_updates">Vérification des mises à jour</string>
   <string name="no_updates_found">Aucune nouvelle mise à jour disponible</string>
   <string name="not_new_updates_found_ticker">De nouvelles mises à jour sont disponibles</string>
   <string name="not_new_updates_found_title">Nouvelles mises à jour</string>
@@ -137,8 +139,8 @@
   <string name="not_download_success">Mise à jour téléchargée avec succès</string>
   <string name="not_download_failure">Le téléchargement de la mise à jour a échoué</string>
   <string name="not_action_install_update">Redémarrer et installer</string>
-  <string name="not_download_install_notice">La mise à jour <xliff:g id="filename">%s </xliff:g> a été téléchargée avec succès. Lorsque vous toucherez « Redémarrer et installer », l\'appareil va redémarrer pour installer la mise à jour.\n\nNote : Cette fonction nécessite un mode de restauration compatible sinon les mises à jour devront être installées manuellement.</string>
-  <string name="not_download_install_ota_notice">La mise à jour <xliff:g id="filename">%s </xliff:g> a été téléchargée avec succès. Lorsque vous toucherez « Redémarrer et installer », l\'appareil va redémarrer pour installer la mise à jour.\n\nNote : Cette fonction nécessite un mode de restauration compatible sinon les mises à jour devront être installées manuellement .\n\nn Ceci est une mise à jour incrémentielle, donc toutes les modifications apportées aux fichiers système peuvent provoquer un échec de la mise à jour. Dans ce cas, installez svp une ROM complète.</string>
+  <string name="not_download_install_notice">La mise à jour <xliff:g id="filename">%s</xliff:g> a été téléchargée avec succès. Après avoir touché « Redémarrer et installer », l’appareil redémarrera pour installer la mise à jour.\n\nNote : cette fonction exige un mode de récupération compatible, sinon les mises à jour devront être installées manuellement.</string>
+  <string name="not_download_install_ota_notice">La mise à jour <xliff:g id="filename">%s</xliff:g> a été téléchargée avec succès. Après avoir touché « Redémarrer et installer », l’appareil redémarrera pour installer la mise à jour.\n\nNote : cette fonction exige un mode de restauration compatible, sinon les mises à jour devront être installées manuellement.\n\nCette mise à jour est incrémentielle. Toutes modifications apportées aux fichiers système pourraient entraîner l’échec de la mise à jour. Le cas échéant, veuillez plutôt installer une ROM complète.</string>
   <string name="md5_verification_failed">Erreur, la somme de contrôle MD5 ne correspond pas</string>
   <string name="not_apk_action_install_update">Installer</string>
   <!-- deleting -->
@@ -152,17 +154,15 @@
   <!-- Pref -->
   <string name="pref_ota_check">Mises à jour OTA</string>
   <string name="pref_ota_check_summary">Obtenir des mises à jour incrémentielles pour économiser du temps et de la bande passante</string>
-  <string name="pref_ota_check_donation_request_summary">Activer les mises à jour incrémentielles pour économiser du temps de téléchargement et de la bande passante (Disponible après avoir effectué un don CNY %d)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">Obtenir des mises à jour partielles pour accélérer le chargement et diminuer la bande passante (donation %1$d, disponible à vie après une donation de %2$d en plus, Devise : CNY)</string>
+  <string name="pref_ota_check_request_summary">Obtenir des mises à jour incrémentielles pour économiser du temps et de la bande passante</string>
   <string name="pref_verify_rom">Mises à jour vérifiées</string>
   <string name="pref_verify_rom_summary">Afficher uniquement les mises à jour qui sont vérifiées par d’autres utilisateurs</string>
-  <string name="pref_verify_rom_donation_request_summary">Afficher uniquement les mises à jour qui sont vérifiées par d’autres utilisateurs (Disponible après un don %d CNY)</string>
-  <string name="pref_verify_rom_donation_request_pending_summary">Afficher uniquement les mises à jour qui sont vérifiées par d’autres utilisateurs (Don %1$d, disponible pour la durée de vie après un don de %2$d plus, monnaie : CNY)</string>
+  <string name="pref_verify_rom_request_summary">Afficher uniquement les mises à jour qui sont vérifiées par d’autres utilisateurs</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Appliquer la mise à jour</string>
-  <string name="apply_update_dialog_text">Vous êtes sur le point de mettre à jour vers  <xliff:g id="filename">%s</xliff:g>.\n\nLorsque vous appuierez sur \"Mettre à jour\", votre appareil redémarrera automatiquement pour installer la mise à jour.\n\nRemarque\u00A0: Cette opération nécessite un recovery compatible, sinon les mises à jour devront être installées manuellement.</string>
+  <string name="apply_update_dialog_text">Vous êtes sur le point de mettre à niveau vers <xliff:g id="filename">%s</xliff:g>.\n\nSi vous appuyez sur Mise à jour, l’appareil redémarrera en mode de récupération pour installer la mise à jour.\n\nNote : cette fonction exige un mode de restauration compatible, sinon les mises à jour devront être installées manuellement.</string>
   <string name="apply_update_ota_dialog_text">Vous êtes sur le point de mettre à niveau vers <xliff:g id="filename">%s </xliff:g>. \n\nSi vous appuyez sur mise à jour, l\'appareil va redémarrer lui-même en mode de récupération pour installer la mise à jour.\n\nNote : cette fonction nécessite un Recovery compatible ou les mises à jour devront être installées manuellement.\n\nCeci est une mise à jour incrémentielle, donc toutes les modifications apportées aux fichiers système peuvent provoquer l\'échec de la mise à jour. Dans ce cas, s\'il vous plaît flashez une ROM complète à la place.</string>
-  <string name="apply_unable_to_reboot_toast">Impossible de redémarrer en mode recovery</string>
+  <string name="apply_unable_to_reboot_toast">Impossible de redémarrer en mode de récupération</string>
   <!-- Experimenter mode -->
   <string name="show_exp_on">Vous avez activé les paramètres expérimentaux !</string>
   <string name="show_exp_already">Inutile, vous avez déjà activé les paramètres expérimentaux.</string>
@@ -173,11 +173,11 @@
   <string name="discount_dialog_cancel">Ne pas rappeler</string>
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">Mise à jour du système MoKee</string>
-  <string name="verify_system_compatible_message">Vérification de la compatibilité du système avant de patcher\u2026</string>
+  <string name="verify_system_compatible_message">Vérification de la compatibilité du système avant d’appliquer la màj\u2026</string>
   <string name="verify_system_compatible_failed">Echec de la vérification de la compatibilité du système</string>
   <string name="verify_system_compatible_patch">Les fichiers suivants ont soit été modifiés ou supprimés, s’il vous plaît les restaurer et essayez à nouveau.</string>
   <string name="verify_system_compatible_img">%1$s non compatible, veuillez mettre à niveau vers la version %2$s</string>
-  <string name="verify_system_compatible_root_request">L\'autorisation Root est nécessaire pour mettre à jour des Plugin de vérification pour vérifier la compatibilité de mise à jour maintenant. Si vous choisissez d’ignorer, cette étape sera retardée et exécutée en mode de récupération.</string>
+  <string name="verify_system_compatible_root_request">L’autorisation Racine est exigée par le greffon de vérification des mises à jour pour vérifier maintenant la compatibilité de la mise à jour. Si vous choisissez de l’ignorer, cette étape sera retardée et exécutée en mode de récupération.</string>
   <string name="verify_system_compatible_root_skip">Ignorer</string>
   <!-- Common -->
   <string name="activity_not_found">L\'application n\'est pas installée.</string>

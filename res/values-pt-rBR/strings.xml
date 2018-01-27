@@ -151,12 +151,10 @@
   <!-- Pref -->
   <string name="pref_ota_check">Atualizações incrementais</string>
   <string name="pref_ota_check_summary">Obter atualizações incrementais para poupar tempo de download e largura de banda</string>
-  <string name="pref_ota_check_donation_request_summary">Obter atualizações incrementais para poupar tempo de download e largura de banda (disponível após doação de %d CNY)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">Obter atualizações incrementais para economizar tempo de download e largura de banda (doados %1$d CNY, disponível para toda a vida após a doação de mais %2$d CNY)</string>
+  <string name="pref_ota_check_request_summary">Obter atualizações incrementais para poupar tempo de download e largura de banda</string>
   <string name="pref_verify_rom">Verificação de atualizações</string>
   <string name="pref_verify_rom_summary">Exibir somente as atualizações que são verificadas por outros usuários</string>
-  <string name="pref_verify_rom_donation_request_summary">Exibir somente as atualizações que são verificadas por outros usuários (disponível após a doação de %d CNY)</string>
-  <string name="pref_verify_rom_donation_request_pending_summary">Exibir somente as atualizações que são verificadas por outros usuários (%1$d CNY doados, disponível para toda a vida após a doação de mais de %2$d)</string>
+  <string name="pref_verify_rom_request_summary">Exibir somente as atualizações que são verificadas por outros usuários</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Aplicar atualização</string>
   <string name="apply_update_dialog_text">Você irá atualizar para o <xliff:g id="filename">%s</xliff:g>.\n\nSe você pressionar Atualizar, o dispositivo irá reiniciar em recovery mode para instalar a atualização.\n\nAviso: Esse recurso requer uma recovery compatível ou a atualização deverá ser instalada manualmente.</string>

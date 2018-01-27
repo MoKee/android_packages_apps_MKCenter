@@ -139,8 +139,7 @@
   <!-- Pref -->
   <string name="pref_ota_check">Trinvise opdateringer</string>
   <string name="pref_ota_check_summary">Få trinvise opdateringer for at spare downloadtid og båndbredde</string>
-  <string name="pref_ota_check_donation_request_summary">Få trinvise opdateringer for at spare downloadtid og båndbredde (tilgængelig efter donation af CNY %d)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">Få trinvise opdateringer for at spare downloadtid og båndbredde (doneret %1$d, tilgængelige for livstid efter donation af yderligere %2$d, Valuta: CNY)</string>
+  <string name="pref_ota_check_request_summary">Få trinvise opdateringer for at spare downloadtid og båndbredde</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Anvend opdatering</string>
   <string name="apply_update_dialog_text">Du er ved at opgradere til <xliff:g id="filename">%s</xliff:g>.\n\nTrykkes Opdatér vil enheden genstartes i Recovery-tilstand for at installere opdateringen.\n\nDenne funktion kræver en kompatibel Recovery, da opdateringen ellers skal udføres manuelt.</string>

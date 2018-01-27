@@ -142,12 +142,10 @@
   <!-- Pref -->
   <string name="pref_ota_check">Incremental ъпдейти</string>
   <string name="pref_ota_check_summary">Вземете Incremental ъпдейти за да спестите време и трафик</string>
-  <string name="pref_ota_check_donation_request_summary">Вземете Incremental актуализации за да спестите време и трафик (достъпен след дарение CNY%d)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">Вземете допълнителни актуализации и спестете време и трафик (Дарени %1$d за проекта след даряването %2$d повече, валута: CNY)</string>
+  <string name="pref_ota_check_request_summary">Вземете Incremental ъпдейти за да спестите време и трафик</string>
   <string name="pref_verify_rom">Проверени актуализации</string>
   <string name="pref_verify_rom_summary">Покажи само актуализации, които са проверени от други потребители</string>
-  <string name="pref_verify_rom_donation_request_summary">Покажи само актуализации, които са проверени от други потребители (на разположение след даряването на CNY %d)</string>
-  <string name="pref_verify_rom_donation_request_pending_summary">Покажи само актуализации, които са проверени от други потребители (Дарено %1$d, за доживотна поддръжка, дарете още %2$d, валута: CNY)</string>
+  <string name="pref_verify_rom_request_summary">Покажи само актуализации, които са проверени от други потребители</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Прилагане на обновяване</string>
   <string name="apply_update_dialog_text">Предстои да надстроите до <xliff:g id="filename">%s </xliff:g>. \n\nIf натиснете актуализация, устройството ще се рестартира в рековъри режим за да инсталира актуализацията.\n\nNote: тази функция изисква съвместимо рековъри за да работи.</string>

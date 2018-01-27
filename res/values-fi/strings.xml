@@ -142,12 +142,10 @@
   <!-- Pref -->
   <string name="pref_ota_check">Inkrementaaliset päivitykset</string>
   <string name="pref_ota_check_summary">Säästä latausaikaa ja kaistaa</string>
-  <string name="pref_ota_check_donation_request_summary">Säästä latausaikaa ja kaistaa (saatavilla lahjoituksen jälkeen CNY %d)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">Säästä latausaikaa ja kaistaa (lahjoita %1$d saatavilla ikuisesti lahjoittamalla %2$d enemmän, valuutta: CNY)</string>
+  <string name="pref_ota_check_request_summary">Säästä latausaikaa ja kaistaa</string>
   <string name="pref_verify_rom">Todennetut päivitykset</string>
   <string name="pref_verify_rom_summary">Näytä vain päivitykset, jotka muut käyttäjät ovat todentaneet</string>
-  <string name="pref_verify_rom_donation_request_summary">Näytä vain päivitykset, jotka muut käyttäjät ovat todentaneet (käytettävissä lahjoituksen jälkeen CNY %d)</string>
-  <string name="pref_verify_rom_donation_request_pending_summary">Näytä vain päivitykset, jotka muut käyttäjät ovat todentaneet (lahjoita %1$d, saatavilla ikuisesti lahjoitamalla %2$d enemmän, valuutta: CNY)</string>
+  <string name="pref_verify_rom_request_summary">Näytä vain päivitykset, jotka muut käyttäjät ovat todentaneet</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Asenna päivitys</string>
   <string name="apply_update_dialog_text">Olet päivittämässä versioon <xliff:g id="filename">%s</xliff:g>.\n\nJos painat Päivitä, laite käynnistyy uudelleen Recovery-tilaan asentaakseen päivityksen.\n\nHuomautus: Tämä ominaisuus vaatii yhteensopivan Recoveryn tai päivitykset eivät asennu automaattisesti.</string>

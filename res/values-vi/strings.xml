@@ -22,6 +22,7 @@
   <string name="mokee_support_title">Hỗ trợ</string>
   <string name="mokee_updater_title">Cập Nhật</string>
   <!-- WebSite -->
+  <string name="mokee_links">Liên kết</string>
   <string name="mokee_website_title">Trang Web của MoKee</string>
   <string name="mokee_website_summary">Truy cập vào các trang web chính thức</string>
   <string name="mokee_forum_title">Diễn đàn MoKee</string>
@@ -68,17 +69,24 @@
   <string name="donate_dialog_message">Không giống như các công ty như Cygn hoặc MIUI, MoKee mã nguồn mở là một dự án phi lợi nhuận hoàn toàn dựa trên sở thích và niềm đam mê. Để duy trì dự án này, chúng tôi phải chi ra tiền của riêng của chúng tôi mọi lúc hoặc dựa vào sự đóng góp và quảng cáo. Đóng góp của bạn có thể giúp làm giảm tải trọng tài chính của chúng tôi và duy trì phát triển trong tương lai! Tùy chọn này cho phép bạn để loại bỏ các quảng cáo trong Trung tâm MoKee, hoặc dùng tùy chọn \"Quyên góp\" thay vào đó, nếu bạn thích nhiều lần (quảng cáo sẽ được gỡ bỏ sau khi tổng số đã đạt giá trị chỉ định). Xin vui lòng sao lưu mokee.license tập tin (trong thư mục gốc của sdcard, chỉ có giá trị cho thiết bị hiện thời) một khi bạn đã quyên góp.</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
+  <string name="donate_dialog_via_wechat">Wechat</string>
   <string name="donate_dialog_via_restore">Khôi phục</string>
   <string name="donate_money_toast_success">Cảm ơn sự ủng hộ của bạn!</string>
   <string name="donate_money_title">Ủng hộ Dự án nguồn mở MoKee</string>
   <string name="donate_money_again">Quyên góp một lần nữa</string>
   <string name="donate_money_restored_success">Khôi phục thành công!</string>
   <string name="donate_money_restored_failed">Không có hồ sơ thiết bị tìm thấy.</string>
+  <string name="donate_money_restored_failed_solution">Giải pháp</string>
   <string name="donate_money_restored_timeout">Kết nối hết thời gian, xin vui lòng thử lại</string>
   <string name="donate_money_info">Bạn tặng tổng cộng của CNY %1$d, nhiều hơn %2$s của các nhà tài trợ toàn cầu!</string>
   <string name="donate_money_info_with_rank">Bạn tặng tổng cộng của CNY %1$d, nhiều hơn %2$s của các nhà tài trợ toàn cầu, xếp hạng Thứ %3$d!</string>
   <string name="donate_money_info_null">Bạn đã không tặng</string>
   <string name="unlock_features_title">Mở khóa tất cả tính năng</string>
+  <string name="unlock_features_ota_title">Tặng %d CNY cho mở khóa Cập Nhật ota và tốc độ tối đa download.</string>
+  <string name="unlock_features_verify_rom_title">Tặng %d CNY xác minh bản Cập Nhật và loại bỏ các quảng cáo.</string>
+  <string name="unlock_features_all_title">Tặng %d CNY cho mở khóa ota, tốc độ download, xác nhận thông tin Cập Nhật và loại bỏ các quảng cáo.</string>
+  <string name="unlock_features_request_summary">(có sẵn sau khi tặng %d CNY)</string>
+  <string name="unlock_features_pending_summary">(tặng %1$d CNY, có sẵn cho đời sau đợt quyên góp %2$d CNY hơn)</string>
   <!-- Update -->
   <string name="unknown">Không rõ</string>
   <string name="dialog_update">Cập nhật</string>
@@ -90,6 +98,8 @@
   <string name="no_available_ota_intro">Lần kiểm tra cuối cùng không tìm thấy bất kỳ bản cập nhật nào. Để kiểm tra cập nhật mới một cách thủ công, sử dụng nút Tải lại. Nếu bạn đang chạy một phiên bản nằm ngoài phạm vi thời gian được hỗ trợ, bạn nên bỏ chọn \"cập nhật phạm vi\".</string>
   <string name="new_update_summary">Mới</string>
   <string name="old_update_summary">Cũ</string>
+  <string name="ota_diff_update_summary">Gia tăng Cập Nhật có thể tiết kiệm %s</string>
+  <string name="full_diff_update_summary">Tiết kiệm %s khi so sánh với đầy đủ ROM</string>
   <string name="update_check_title">Kiểm tra tần suất cập nhật</string>
   <string name="check_manual">Thủ công</string>
   <string name="nightly_alert">Bạn đã chọn để bao gồm các bản cập nhật đêm trong danh sách này. Các bản này không được hỗ trợ và nên được dùng thận trọng.</string>
@@ -144,12 +154,10 @@
   <!-- Pref -->
   <string name="pref_ota_check">Cập nhật bổ sung</string>
   <string name="pref_ota_check_summary">Lấy bản cập nhật bổ sung để tiết kiệm thời gian tải và băng thông</string>
-  <string name="pref_ota_check_donation_request_summary">Lấy bản cập nhật bổ sung để tiết kiệm thời gian tải và băng thông (có sẵn sau khi quyên góp CNY %d)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">Tải về được gia tăng Cập Nhật để tiết kiệm thời gian và băng thông (tặng %1$d, có sẵn cho đời sau đợt quyên góp thêm, %2$d thu: CNY)</string>
+  <string name="pref_ota_check_request_summary">Lấy bản cập nhật bổ sung để tiết kiệm thời gian tải và băng thông</string>
   <string name="pref_verify_rom">Cập nhật đã được xác thực</string>
   <string name="pref_verify_rom_summary">Chỉ hiện các bản cập nhật được những người dùng khác xác nhận</string>
-  <string name="pref_verify_rom_donation_request_summary">Chỉ hiện các bản cập nhật được những người dùng khác xác nhận (khả dụng sau khi ủng hộ %d NDT)</string>
-  <string name="pref_verify_rom_donation_request_pending_summary">Chỉ hiện các bản cập nhật được những người dùng khác xác nhận (đã ủng hộ %1$d, khả dụng mãi mãi sau khi ủng hộ thêm %2$d nữa, đơn vị tiền tệ: NDT)</string>
+  <string name="pref_verify_rom_request_summary">Chỉ hiện các bản cập nhật được những người dùng khác xác nhận</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Áp dụng Cập Nhật</string>
   <string name="apply_update_dialog_text">Bạn đang định nâng cấp lên <xliff:g id="filename"> %s </xliff:g>. \n\nnếu bạn bấm vào Cập Nhật, điện thoại sẽ tự khởi động lại vào chế độ recovery để cài đặt cập nhật.\n\nLưu ý: tính năng này yêu cầu một bản recovery tương thích hoặc bản cập nhật sẽ cần phải được cài đặt theo cách thủ công.</string>
@@ -160,10 +168,16 @@
   <string name="show_exp_already">Không cần thiết, bạn đã có cho phép cài đặt thử nghiệm.</string>
   <!-- Discount -->
   <string name="discount_dialog_title">Khuyến mãi có giới hạn</string>
+  <string name="discount_dialog_message">Cảm ơn bạn đã hỗ trợ liên tục của bạn đối với mã nguồn mở MoKee. Như là một mã thông báo của sự đánh giá cao, bạn có quyền cung cấp thời gian giới hạn. Với %1$d CNY, bạn có thể thưởng thức gia tăng Cập Nhật, xác minh thông tin Cập Nhật và loại bỏ quảng cáo từ Trung tâm MoKee (tiết kiệm %2$d CNY). Nếu bạn muốn thanh toán sau, bạn có thể đóng hộp thoại này và relaunch MoKee Trung tâm một lần nữa khi bạn đã sẵn sàng.</string>
   <string name="discount_dialog_expires">Khuyến mãi hết hạn trong %s</string>
   <string name="discount_dialog_cancel">Không nhắc lại</string>
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">Hệ thống cập nhật MoKee</string>
+  <string name="verify_system_compatible_message">Xác nhận hệ thống khả năng tương thích trước khi patching\u2026</string>
+  <string name="verify_system_compatible_failed">Xác minh khả năng tương thích hệ thống thất bại</string>
+  <string name="verify_system_compatible_patch">Các tập tin hoặc đã bị sửa đổi hoặc loại bỏ, xin vui lòng khôi phục lại chúng rồi thử lại.</string>
+  <string name="verify_system_compatible_img">%1$s không tương thích, xin vui lòng nâng cấp lên phiên bản %2$s</string>
+  <string name="verify_system_compatible_root_request">Chủ quyền là cần thiết bởi Cập Nhật xác nhận Plugin để xác minh tính tương thích Cập Nhật bây giờ. Nếu bạn chọn để bỏ qua, bước này sẽ được trì hoãn và thực hiện trong chế độ phục hồi.</string>
   <string name="verify_system_compatible_root_skip">Bỏ qua</string>
   <!-- Common -->
   <string name="activity_not_found">Ứng dụng chưa được cài đặt.</string>

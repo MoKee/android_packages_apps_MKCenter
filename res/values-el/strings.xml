@@ -142,12 +142,10 @@
   <!-- Pref -->
   <string name="pref_ota_check">Ενημερώσεις ΟΤΑ</string>
   <string name="pref_ota_check_summary">Αποκτήστε ενημερώσεις ΟΤΑ για να εξοικονομήσετε χρόνο λήψης και δεδομένα</string>
-  <string name="pref_ota_check_donation_request_summary">Αποκτήστε ενημερώσεις ΟΤΑ για να εξοικονομήσετε χρόνο λήψης και δεδομένα (διαθέσιμο μετά τη δωρεά CNY %d)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">Πάρτε ενημερώσεις OTA για να γλιτώσετε χρόνο λήψης και δεδομένα (δωρεά %1$d, διαθέσιμο για πάντα μετά από δωρεά %2$d περισσότερα, Νόμισμα: CNY)</string>
+  <string name="pref_ota_check_request_summary">Αποκτήστε ενημερώσεις ΟΤΑ για να εξοικονομήσετε χρόνο λήψης και δεδομένα</string>
   <string name="pref_verify_rom">Επαληθευμένες ενημερώσεις</string>
   <string name="pref_verify_rom_summary">Εμφάνιση μόνο των ενημερώσεων που είναι επαληθευμένες από άλλους χρήστες</string>
-  <string name="pref_verify_rom_donation_request_summary">Εμφάνιση μόνο των ενημερώσεων που είναι επαληθευμένες από άλλους χρήστες (διαθέσιμο μετά από δωρεά CNY %d)</string>
-  <string name="pref_verify_rom_donation_request_pending_summary">Εμφάνιση μόνο των ενημερώσεων που είναι επαληθευμένες από άλλους χρήστες (δωρεά %1$d, διαθέσιμο για πάντα μετά από δωρεά %2$d περισσότερα, Currency: CNY)</string>
+  <string name="pref_verify_rom_request_summary">Εμφάνιση μόνο των ενημερώσεων που είναι επαληθευμένες από άλλους χρήστες</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Εφαρμογή ενημέρωσης</string>
   <string name="apply_update_dialog_text">Πρόκειται να αναβαθμίσετε σε <xliff:g id="filename">%s</xliff:g>.\n\nΑν πατήσετε το πλήκτρο Ενημέρωση, η συσκευή θα κάνει επανεκκίνηση σε recovery mode για να εγκαταστήσετε την ενημέρωση.\n\nΣημείωση: Αυτή η λειτουργία απαιτεί συμβατό recovery αλλιώς η ενημέρωση θα πρέπει να εγκατασταθεί χειροκίνητα.</string>

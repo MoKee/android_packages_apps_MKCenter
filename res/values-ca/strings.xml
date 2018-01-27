@@ -131,7 +131,7 @@ desactivi aquesta opció.</string>
   <!-- Pref -->
   <string name="pref_ota_check">OTA actualitzacions</string>
   <string name="pref_ota_check_summary">Obtenir actualitzacions incrementals per estalviar temps de descàrrega i ample de banda</string>
-  <string name="pref_ota_check_donation_request_summary">Obtenir actualitzacions incrementals per estalviar temps de descàrrega i amplada de banda (disponible després de la donació de %d CNY)</string>
+  <string name="pref_ota_check_request_summary">Obtenir actualitzacions incrementals per estalviar temps de descàrrega i ample de banda</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Aplica actualització</string>
   <string name="apply_update_dialog_text">Estàs a punt d\'actualitzar a <xliff:g id="filename">%s</xliff:g>.\n\nSi apretes Actualitza, el dispositiu es reiniciarà ell mateix cap al mode de recuperació per tal d\'instal·lar l\'actualització.\n\nNota: Aquesta característica necessita un sistema de recuperació (Recovery) compatible o l\'actualització haurà de ser instal·lada manualment.</string>

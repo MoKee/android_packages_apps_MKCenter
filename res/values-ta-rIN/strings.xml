@@ -142,8 +142,7 @@
   <!-- Pref -->
   <string name="pref_ota_check">கூடுதல் மேம்படுத்தல்</string>
   <string name="pref_ota_check_summary">பதிவிறக்க நேரத்தை மற்றும் அலைவரிசையை காப்பாற்ற கிடைக்கும் கூடுதல் மேம்படுத்தல்களை பயன்படுத்தவும்</string>
-  <string name="pref_ota_check_donation_request_summary">பதிவிறக்க நேரத்தை மற்றும் அலைவரிசையை காப்பாற்ற கிடைக்கும் கூடுதல் மேம்படுத்தல்களை பயன்படுத்தவும் (நன்கொடை CNY %d பிறகு)</string>
-  <string name="pref_ota_check_donation_request_pending_summary">சேமிக்க மிகையான புதுப்பித்தல்களை பெறவும் பதிவிறக்க நேரம் மற்றும் பேண்ட்வித் (நன்கொடை %1$d, மேலும், %2$d செலாவணி கொடுப்பதன் பிறகு கவர்வீர்கள் கிடைக்கிறது: CNY)</string>
+  <string name="pref_ota_check_request_summary">பதிவிறக்க நேரத்தை மற்றும் அலைவரிசையை காப்பாற்ற கிடைக்கும் கூடுதல் மேம்படுத்தல்களை பயன்படுத்தவும்</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">மேம்படுத்தல் விண்ணப்பிக்க</string>
   <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g> மேம்படுத்தல் செய்ய போகிறீர்கள்.\n\n மேம்படுத்தல் தொடும்போது சாதனம் recovery மறுதொடக்கம் ஆகும்.\n\nகுறிப்பு: இதற்காக இணக்கமான Recovery வேண்டும். அல்லது மேம்படுத்தல்கள் கைமுறையாக நிறுவ வேண்டும்.</string>
