@@ -119,7 +119,7 @@
   <string name="check_bi_weekly">Une fois tous les quinze jours</string>
   <string name="check_monthly">Une fois par mois</string>
   <!-- checking -->
-  <string name="checking_for_updates">Vérifier les mises à jour</string>
+  <string name="checking_for_updates">Vérification des mises à jour</string>
   <string name="no_updates_found">Aucune nouvelle mise à jour n\'a été trouvée</string>
   <string name="not_new_updates_found_ticker">De nouvelles mises à jour sont proposées</string>
   <string name="not_new_updates_found_title">Nouvelles mises à jour</string>
@@ -138,7 +138,7 @@
   <string name="not_download_success">Mise à jour téléchargée avec succès</string>
   <string name="not_download_failure">Le téléchargement de la mise à jour a échoué</string>
   <string name="not_action_install_update">Redémarrer et installer</string>
-  <string name="not_download_install_notice">La mise à jour <xliff:g id="filename">%s</xliff:g> a été téléchargée avec succès. Après avoir touché « Redémarrer et installer », l’appareil redémarrera pour installer la mise à jour.\n\nNote : cette fonction exige un mode de restauration « Recovery » compatible, sinon les mises à jour devront être installées manuellement.</string>
+  <string name="not_download_install_notice">La mise à jour <xliff:g id="filename">%s</xliff:g> a été téléchargée avec succès. Après avoir touché « Redémarrer et installer », l’appareil redémarrera pour installer la mise à jour.\n\nNote : cette fonction exige un mode de récupération compatible, sinon les mises à jour devront être installées manuellement.</string>
   <string name="not_download_install_ota_notice">La mise à jour <xliff:g id="filename">%s</xliff:g> a été téléchargée avec succès. Après avoir touché « Redémarrer et installer », l’appareil redémarrera pour installer la mise à jour.\n\nNote : cette fonction exige un mode de restauration « Recovery » compatible, sinon les mises à jour devront être installées manuellement.\n\nCette mise à jour est incrémentielle. Toutes modifications apportées aux fichiers système pourraient entraîner l’échec de la mise à jour. Le cas échéant, veuillez plutôt installer une ROM complète.</string>
   <string name="md5_verification_failed">Incompatibilité de somme de contrôle MD5</string>
   <string name="not_apk_action_install_update">Installer</string>
@@ -159,9 +159,9 @@
   <string name="pref_verify_rom_request_summary">N’afficher que les mises à jour vérifiées par d’autres utilisateurs</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Appliquer la mise à jour</string>
-  <string name="apply_update_dialog_text">Vous êtes sur le point de mettre à niveau vers <xliff:g id="filename">%s</xliff:g>.\n\nSi vous appuyez sur Mise à jour, l’appareil redémarrera en mode de récupération pour installer la mise à jour.\n\nNote : cette fonction exige un mode de restauration « Recovery » compatible, sinon les mises à jour devront être installées manuellement.</string>
+  <string name="apply_update_dialog_text">Vous êtes sur le point de mettre à niveau vers <xliff:g id="filename">%s</xliff:g>.\n\nSi vous appuyez sur Mise à jour, l’appareil redémarrera en mode de récupération pour installer la mise à jour.\n\nNote : cette fonction exige un mode de restauration compatible, sinon les mises à jour devront être installées manuellement.</string>
   <string name="apply_update_ota_dialog_text">Vous êtes sur le point de mettre à niveau vers <xliff:g id="filename">%s</xliff:g>.\n\nSi vous appuyez sur Mise à jour, l’appareil redémarrera en mode de récupération pour installer la mise à jour.\n\nNote : cette fonction exige un mode de restauration « Recovery » compatible, sinon les mises à jour devront être installées manuellement.\n\nCette mise à jour est incrémentielle. Toutes modifications apportées aux fichiers système pourraient entraîner l’échec de la mise à jour. Le cas échéant, veuillez plutôt installer une ROM complète.</string>
-  <string name="apply_unable_to_reboot_toast">Impossible de redémarrer en mode restauration</string>
+  <string name="apply_unable_to_reboot_toast">Impossible de redémarrer en mode de récupération</string>
   <!-- Experimenter mode -->
   <string name="show_exp_on">Vous avez activé les paramètres expérimentaux !</string>
   <string name="show_exp_already">Inutile, vous avez déjà activé les paramètres expérimentaux.</string>

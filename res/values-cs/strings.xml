@@ -153,7 +153,7 @@
   <!-- Pref -->
   <string name="pref_ota_check">OTA aktualizace</string>
   <string name="pref_ota_check_summary">Stahovat OTA aktualizace, aby jste ušetřili data a čas</string>
-  <string name="pref_ota_check_request_summary">Stahovat OTA aktualizace, aby jste ušetřili data a čas</string>
+  <string name="pref_ota_check_request_summary">Získejte přírůstkové aktualizace abyste omezili čas stahování a přenesená data</string>
   <string name="pref_verify_rom">Ověřené aktualizace</string>
   <string name="pref_verify_rom_summary">Zobrazit jen aktualizace ověřené jinými uživateli</string>
   <string name="pref_verify_rom_request_summary">Zobrazit jen aktualizace ověřené jinými uživateli</string>

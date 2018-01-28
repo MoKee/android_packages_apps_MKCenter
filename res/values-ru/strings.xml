@@ -84,8 +84,8 @@
   <string name="unlock_features_ota_title">Пожертвуйте %d юаней для разблокировки OTA-обновлений и полной скорости загрузки.</string>
   <string name="unlock_features_verify_rom_title">Пожертвуйте %d юаней для доступа к проверенным обновлениям и удаления рекламы.</string>
   <string name="unlock_features_all_title">Пожертвуйте %d юаней для разблокировки OTA-обновлений, полной скорости загрузки, для доступа к проверенным обновлениям и удаления рекламы.</string>
-  <string name="unlock_features_request_summary">(доступно после пожертвования %d юаней)</string>
-  <string name="unlock_features_pending_summary">(пожертвовано %1$d юаней, доступно для жизни после пожертвования ещё %2$d юаней и более)</string>
+  <string name="unlock_features_request_summary">(доступно после пожертвования в %d юаней)</string>
+  <string name="unlock_features_pending_summary">(пожертвовано %1$d юаней, будет доступно навсегда после пожертвования ещё %2$d юаней и более)</string>
   <!-- Update -->
   <string name="unknown">Неизвестно</string>
   <string name="dialog_update">Обновление</string>
@@ -156,7 +156,7 @@
   <string name="pref_ota_check_request_summary">Получать ОТА-обновления для экономии трафика и времени загрузки</string>
   <string name="pref_verify_rom">Проверенные обновления</string>
   <string name="pref_verify_rom_summary">Показывать только проверенные другими пользователями обновления</string>
-  <string name="pref_verify_rom_request_summary">Показывать только проверенные другими пользователями обновления</string>
+  <string name="pref_verify_rom_request_summary">Показывать только обновления, проверенные другими пользователями</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Применить обновление</string>
   <string name="apply_update_dialog_text">Будет выполнено обновление до версии «<xliff:g id="filename">%s</xliff:g>».\n\nПри нажатии кнопки «Обновить» устройство перезагрузится в режим восстановления для установки этого обновления. \n\nПримечание: эта функция требует совместимого меню Recovery. В противном случае обновление будет необходимо установить вручную.</string>
