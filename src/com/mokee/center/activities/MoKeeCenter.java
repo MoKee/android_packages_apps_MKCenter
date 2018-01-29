@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014-2017 The MoKee Open Source Project
+ * Copyright (C) 2014-2018 The MoKee Open Source Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -26,7 +26,6 @@ import android.mokee.utils.MoKeeUtils;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.SystemProperties;
-import android.os.UserHandle;
 import android.support.annotation.StringRes;
 import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
@@ -58,6 +57,8 @@ import java.util.HashMap;
 public class MoKeeCenter extends AppCompatActivity {
 
     public static final String BR_ONNewIntent = "com.mokee.center.action.ON_NEW_INTENT";
+
+    private static final boolean WECHAT_ENABLED = false;
 
     private DrawerLayout mRoot;
     private LocalBroadcastManager lbm;
@@ -112,7 +113,7 @@ public class MoKeeCenter extends AppCompatActivity {
         String title = isDonate ? getString(R.string.donate_money_title)
                 : getString(R.string.unlock_features_title);
 
-        if (!MoKeeUtils.isApkInstalledAndEnabled("com.tencent.mm", this)) {
+        if (!MoKeeUtils.isApkInstalledAndEnabled("com.tencent.mm", this) || !WECHAT_ENABLED) {
             mVia.findViewById(R.id.wechat).setVisibility(View.GONE);
             if (mVia.getCheckedRadioButtonId() == R.id.wechat) {
                 mVia.check(R.id.alipay);
@@ -123,9 +124,9 @@ public class MoKeeCenter extends AppCompatActivity {
                 .setTitle(title)
                 .setView(donateView)
                 .setPositiveButton("下一步", (dialog, which) -> {
+                    float price = isDonate ? (float) (mSeekBar.getProgress() + Constants.DONATION_REQUEST_MIN)
+                            : mSeekBar.getProgress() - paid;
                     switch (mVia.getCheckedRadioButtonId()) {
-                        float price = isDonate ? (float) (mSeekBar.getProgress() + Constants.DONATION_REQUEST_MIN)
-                                : mSeekBar.getProgress() - paid;
                         case R.id.alipay:
                             requestForPayment("alipay", price, title);
                             break;
