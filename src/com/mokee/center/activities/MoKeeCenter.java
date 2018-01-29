@@ -112,9 +112,6 @@ public class MoKeeCenter extends AppCompatActivity {
         String title = isDonate ? getString(R.string.donate_money_title)
                 : getString(R.string.unlock_features_title);
 
-        float price = isDonate ? (float) (mSeekBar.getProgress() + Constants.DONATION_REQUEST_MIN)
-                : mSeekBar.getProgress() - paid;
-
         if (!MoKeeUtils.isApkInstalledAndEnabled("com.tencent.mm", this)) {
             mVia.findViewById(R.id.wechat).setVisibility(View.GONE);
             if (mVia.getCheckedRadioButtonId() == R.id.wechat) {
@@ -127,6 +124,8 @@ public class MoKeeCenter extends AppCompatActivity {
                 .setView(donateView)
                 .setPositiveButton("下一步", (dialog, which) -> {
                     switch (mVia.getCheckedRadioButtonId()) {
+                        float price = isDonate ? (float) (mSeekBar.getProgress() + Constants.DONATION_REQUEST_MIN)
+                                : mSeekBar.getProgress() - paid;
                         case R.id.alipay:
                             requestForPayment("alipay", price, title);
                             break;
