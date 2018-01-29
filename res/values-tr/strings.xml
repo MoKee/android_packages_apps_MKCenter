@@ -85,6 +85,8 @@
   <string name="unlock_features_ota_title">Kilit açma ve tam hızda indirmek için %d CNY bağışla.</string>
   <string name="unlock_features_verify_rom_title">Doğrulanmış güncellemeler ve reklamları kaldırmak için %d CNY bağışlayın.</string>
   <string name="unlock_features_all_title">Kilit açma, tam hızda indirme, doğrulanmış güncellemeler ve reklamları kaldırmak için %d CNY bağışla.</string>
+  <string name="unlock_features_request_summary">(%d CNY bağışta bulunulduğunda kullanılabilir)</string>
+  <string name="unlock_features_pending_summary">(bağış %1$d CNY %2$d CNY daha bağış yaptıktan sonra ömür boyu kullanılabilir)</string>
   <!-- Update -->
   <string name="unknown">Bilinmiyor</string>
   <string name="dialog_update">Güncelle</string>
