@@ -111,8 +111,6 @@ public class MoKeeCenter extends AppCompatActivity {
 
         String title = isDonate ? getString(R.string.donate_money_title)
                 : getString(R.string.unlock_features_title);
-        float price = isDonate ? (float) (mSeekBar.getProgress() + Constants.DONATION_REQUEST_MIN)
-                : mSeekBar.getProgress() - paid;
 
         final AlertDialog.Builder builder = new AlertDialog.Builder(this)
                 .setTitle(title).setView(donateView);
@@ -120,24 +118,30 @@ public class MoKeeCenter extends AppCompatActivity {
         builder.setPositiveButton(R.string.donate_dialog_via_paypal, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
+                float price = isDonate ? (float) (mSeekBar.getProgress() + Constants.DONATION_REQUEST_MIN)
+                        : mSeekBar.getProgress() - paid;
                 requestForPayment("paypal", price, title);
             }
         });
-
-        // builder.setNegativeButton(R.string.donate_dialog_via_wechat, new DialogInterface.OnClickListener() {
-        //     @Override
-        //     public void onClick(DialogInterface dialog, int which) {
-        //         if (MoKeeUtils.isApkInstalledAndEnabled("com.tencent.mm", MoKeeCenter.this)) {
-        //             requestForPayment("wechat", price, title);
-        //         } else {
-        //             Toast.makeText(MoKeeCenter.this, R.string.activity_not_found, Toast.LENGTH_SHORT).show();
-        //         }
-        //     }
-        // });
+//
+//         builder.setNegativeButton(R.string.donate_dialog_via_wechat, new DialogInterface.OnClickListener() {
+//             @Override
+//             public void onClick(DialogInterface dialog, int which) {
+//                 if (MoKeeUtils.isApkInstalledAndEnabled("com.tencent.mm", MoKeeCenter.this)) {
+//                     float price = isDonate ? (float) (mSeekBar.getProgress() + Constants.DONATION_REQUEST_MIN)
+//                             : mSeekBar.getProgress() - paid;
+//                     requestForPayment("wechat", price, title);
+//                 } else {
+//                     Toast.makeText(MoKeeCenter.this, R.string.activity_not_found, Toast.LENGTH_SHORT).show();
+//                 }
+//             }
+//         });
 
         builder.setNeutralButton(R.string.donate_dialog_via_alipay, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
+                float price = isDonate ? (float) (mSeekBar.getProgress() + Constants.DONATION_REQUEST_MIN)
+                        : mSeekBar.getProgress() - paid;
                 requestForPayment("alipay", price, title);
             }
         });
