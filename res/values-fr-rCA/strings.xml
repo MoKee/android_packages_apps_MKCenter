@@ -30,7 +30,7 @@
   <string name="mokee_issues_summary">Visiter le gestionnaire de bogues</string>
   <string name="mokee_changelog_title">Journal des changements de MoKee</string>
   <string name="mokee_changelog_summary">Voir le journal quotidien des changements</string>
-  <string name="mokee_github_title">Github de MoKee</string>
+  <string name="mokee_github_title">GitHub de MoKee</string>
   <string name="mokee_github_summary">Visiter le GitHub de MoKee</string>
   <string name="mokee_translate_title">Traduction de MoKee</string>
   <string name="mokee_translate_summary">Aider à traduire MoKee</string>
@@ -65,7 +65,7 @@
   <string name="menu_restore">Restaurer la license</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Faites-nous un don</string>
-  <string name="donate_dialog_message">Contrairement aux entreprises comme Cygn ou MIUI, MoKee OpenSource est un projet purement à but non lucratif né de passe-temps et de passion. Afin de maintenir ce projet, nous devons la plupart du temps investir notre propre argent ou dépendre des dons et de la publicité. Vos dons peuvent aider à réduire notre charge financière et soutenir le développement futur ! Cette option vous permet de supprimer les annonces dans le Centre MoKee, utilisez plutôt l\'option de « Don » si vous préférez des versements (les annonces seront supprimés une fois que la somme a atteint la valeur spécifiée). Veuillez sauvegarder le fichier mokee.license (à la racine de la sdcard, valable uniquement pour le périphérique actuel) une fois que vous avez donné.</string>
+  <string name="donate_dialog_message">Contrairement aux entreprises comme Cygn ou MIUI, MoKee OpenSource est un projet purement sans but lucratif né de passe-temps et de passion. Afin de maintenir ce projet, nous devons la plupart du temps investir notre propre argent ou dépendre des dons et de la publicité. Vos dons peuvent aider à réduire notre charge financière et soutenir le développement futur ! Cette option vous permet de supprimer les publicités dans le Centre MoKee, ou utilisez plutôt l’option « Faire un don » si vous préférez des versements (les publicités seront supprimées une fois que le total aura atteint la somme indiquée). Une fois le don effectué, le fichier mokee.license doit se trouver sur la racine de la carte SD (valable uniquement pour l’appareil actuel).</string>
   <string name="donate_dialog_via_paypal">PayPal (USD)</string>
   <string name="donate_dialog_via_alipay">AliPay (CNY)</string>
   <string name="donate_dialog_via_wechat">WeChat</string>
@@ -77,13 +77,13 @@
   <string name="donate_money_restored_failed">Aucun enregistrement n’a été trouvé pour cet appareil.</string>
   <string name="donate_money_restored_failed_solution">Solution</string>
   <string name="donate_money_restored_timeout">Durée de connexion dépassée, veuillez réessayer</string>
-  <string name="donate_money_info">Vous avez fait un don total de %1$d CNY, soit plus que %2$s de tous les donateurs !</string>
-  <string name="donate_money_info_with_rank">Vous avez donné un total de %1$d CNY, plus que %2$s des donateurs mondiaux, %3$de rang!</string>
-  <string name="donate_money_info_null">Vous n\'avez fait aucun don</string>
+  <string name="donate_money_info">Vous avez fait un don total de %1$d CNY, plus que %2$s de tous les donateurs à l’échelle mondiale !</string>
+  <string name="donate_money_info_with_rank">Vous avez fait un don total de %1$d CNY, plus que %2$s de tous les donateurs à l’échelle mondiale ! Vous êtes au %3$de rang !</string>
+  <string name="donate_money_info_null">Vous n’avez fait aucun don</string>
   <string name="unlock_features_title">Débloquer des fonctions</string>
-  <string name="unlock_features_ota_title">Donner%d CNY pour déverrouiller l\'OTA et la vitesse de téléchargement maximum.</string>
+  <string name="unlock_features_ota_title">Donner %d CNY pour déverrouiller la mise à jour incrémentielle et une vitesse de téléchargement maximale.</string>
   <string name="unlock_features_verify_rom_title">Donner %d CYN pour des mise à jour vérifiée et enlever la publicité.</string>
-  <string name="unlock_features_all_title">Donner %d CNY pour déverrouiller l\'OTA, une vitesse de téléchargement maximum, des mise à jour vérifiée et enlever les pubs.</string>
+  <string name="unlock_features_all_title">Donner %d CNY pour déverrouiller la mise à jour incrémentielle, une vitesse de téléchargement maximale, des mise à jour vérifiée et enlever la publicité.</string>
   <string name="unlock_features_request_summary">(proposé après un don de %d CNY)</string>
   <string name="unlock_features_pending_summary">(don effectué de %1$d CNY, proposé à vie après un don d’encore %2$d CNY)</string>
   <!-- Update -->
@@ -98,7 +98,7 @@
   <string name="new_update_summary">Nouveau</string>
   <string name="old_update_summary">Ancien</string>
   <string name="ota_diff_update_summary">Les mises à jour incrémentielles peuvent économiser %s</string>
-  <string name="full_diff_update_summary">%s permet d’économiser par rapport à la ROM complète</string>
+  <string name="full_diff_update_summary">Permet d’économiser %s par rapport à la ROM complète</string>
   <string name="update_check_title">Fréquence de vérification des mises à jour</string>
   <string name="check_manual">Manuellement</string>
   <string name="nightly_alert">Vous avez choisi d\'inclure à votre liste les versions de développement. Ces versions ne disposent pas de support technique et doivent être utilisées avec précaution.</string>
@@ -106,7 +106,7 @@
   <string name="unofficial_alert">Vous avez choisi d\'inclure les mises à jour non officielles dans cette liste. N\'oubliez pas que ceux-ci sont pris en charge par votre responsable de l\'appareil.</string>
   <string name="all_alert">Vous avez choisi d\'inclure toutes les mises à jour (release, nightly) dans cette liste. A noter que les nightly ne sont pas supportées et doivent être utilisées avec prudence.</string>
   <string name="alert_title">Attention</string>
-  <string name="update_type_title">Types de mise à jour</string>
+  <string name="update_type_title">Type de mise à jour</string>
   <!-- ChangeLog -->
   <string name="no_changelog_alert">Aucun journal des changements n’est proposé</string>
   <string name="changelog_dialog_title">Journal des changements</string>
@@ -138,8 +138,8 @@
   <string name="not_download_success">Mise à jour téléchargée avec succès</string>
   <string name="not_download_failure">Le téléchargement de la mise à jour a échoué</string>
   <string name="not_action_install_update">Redémarrer et installer</string>
-  <string name="not_download_install_notice">La mise à jour <xliff:g id="filename">%s</xliff:g> a été téléchargée avec succès. Après avoir touché « Redémarrer et installer », l’appareil redémarrera pour installer la mise à jour.\n\nNote : cette fonction exige un mode de récupération compatible, sinon les mises à jour devront être installées manuellement.</string>
-  <string name="not_download_install_ota_notice">La mise à jour <xliff:g id="filename">%s</xliff:g> a été téléchargée avec succès. Après avoir touché « Redémarrer et installer », l’appareil redémarrera pour installer la mise à jour.\n\nNote : cette fonction exige un mode de restauration « Recovery » compatible, sinon les mises à jour devront être installées manuellement.\n\nCette mise à jour est incrémentielle. Toutes modifications apportées aux fichiers système pourraient entraîner l’échec de la mise à jour. Le cas échéant, veuillez plutôt installer une ROM complète.</string>
+  <string name="not_download_install_notice">La mise à jour <xliff:g id="filename">%s</xliff:g> a été téléchargée avec succès. Après avoir touché « Redémarrer et installer », l’appareil redémarrera pour installer la mise à jour.\n\nNote : cette fonction exige un mode de récupération compatible, sinon les mises à jour devront être installées manuellement.</string>
+  <string name="not_download_install_ota_notice">La mise à jour <xliff:g id="filename">%s</xliff:g> a été téléchargée avec succès. Après avoir touché « Redémarrer et installer », l’appareil redémarrera pour installer la mise à jour.\n\nNote : cette fonction exige un mode de récupération compatible, sinon les mises à jour devront être installées manuellement.\n\nCette mise à jour est incrémentielle. Toutes modifications apportées aux fichiers système pourraient entraîner l’échec de la mise à jour. Le cas échéant, veuillez plutôt installer une ROM complète.</string>
   <string name="md5_verification_failed">Incompatibilité de somme de contrôle MD5</string>
   <string name="not_apk_action_install_update">Installer</string>
   <!-- deleting -->
@@ -159,22 +159,22 @@
   <string name="pref_verify_rom_request_summary">N’afficher que les mises à jour vérifiées par d’autres utilisateurs</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Appliquer la mise à jour</string>
-  <string name="apply_update_dialog_text">Vous êtes sur le point de mettre à niveau vers <xliff:g id="filename">%s</xliff:g>.\n\nSi vous appuyez sur Mise à jour, l’appareil redémarrera en mode de récupération pour installer la mise à jour.\n\nNote : cette fonction exige un mode de restauration compatible, sinon les mises à jour devront être installées manuellement.</string>
-  <string name="apply_update_ota_dialog_text">Vous êtes sur le point de mettre à niveau vers <xliff:g id="filename">%s</xliff:g>.\n\nSi vous appuyez sur Mise à jour, l’appareil redémarrera en mode de récupération pour installer la mise à jour.\n\nNote : cette fonction exige un mode de restauration « Recovery » compatible, sinon les mises à jour devront être installées manuellement.\n\nCette mise à jour est incrémentielle. Toutes modifications apportées aux fichiers système pourraient entraîner l’échec de la mise à jour. Le cas échéant, veuillez plutôt installer une ROM complète.</string>
+  <string name="apply_update_dialog_text">Vous êtes sur le point de mettre à niveau vers <xliff:g id="filename">%s</xliff:g>.\n\nAprès avoir touché « Redémarrer et installer », l’appareil redémarrera pour installer la mise à jour.\n\nNote : cette fonction exige un mode de récupération compatible, sinon les mises à jour devront être installées manuellement.</string>
+  <string name="apply_update_ota_dialog_text">Vous êtes sur le point de mettre à niveau vers <xliff:g id="filename">%s</xliff:g>.\n\nAprès avoir touché « Redémarrer et installer », l’appareil redémarrera pour installer la mise à jour.\n\nNote : cette fonction exige un mode de récupération compatible, sinon les mises à jour devront être installées manuellement.\n\nCette mise à jour est incrémentielle. Toutes modifications apportées aux fichiers système pourraient entraîner l’échec de la mise à jour. Le cas échéant, veuillez plutôt installer une ROM complète.</string>
   <string name="apply_unable_to_reboot_toast">Impossible de redémarrer en mode de récupération</string>
   <!-- Experimenter mode -->
   <string name="show_exp_on">Vous avez activé les paramètres expérimentaux !</string>
   <string name="show_exp_already">Inutile, vous avez déjà activé les paramètres expérimentaux.</string>
   <!-- Discount -->
   <string name="discount_dialog_title">Offre à durée limitée</string>
-  <string name="discount_dialog_message">Je vous remercie pour votre soutien continu envers MoKee Open Source. En guise de remerciements, vous avez droit à une offre à durée limitée. Avec %1$d CNY, vous pourrez profiter des mises à jour incrémentielles, vérifier les mises à jour et supprimez des annonces de MoKee Centre (économisez %2$d CNY). Si vous souhaitez payer par la suite, vous pouvez fermer cette boîte de dialogue et relancer MoKee Center à nouveau lorsque vous êtes prêt.</string>
+  <string name="discount_dialog_message">Nous vous remercions pour votre soutien continu de MoKee Open Source. En guise de remerciement, vous avez droit à une offre à durée limitée. Pour %1$d CNY, vous pouvez profiter de mises à jour incrémentielles, de mises à jour vérifiées et la suppression des publicités du Centre MoKee (économisez %2$d CNY). Si vous souhaitez payer ultérieurement, vous pouvez fermer cette boîte de dialogue et relancer le Centre MoKee quand vous serez prêt.</string>
   <string name="discount_dialog_expires">L’offre se termine dans %s</string>
   <string name="discount_dialog_cancel">Ne pas rappeler</string>
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">Mise à jour du système MoKee</string>
-  <string name="verify_system_compatible_message">Vérification de la compatibilité du système avant d’appliquer la màj\u2026</string>
-  <string name="verify_system_compatible_failed">Echec de la vérification de la compatibilité du système</string>
-  <string name="verify_system_compatible_patch">Les fichiers suivants ont soit été modifiés ou supprimés, s’il vous plaît les restaurer et essayez à nouveau.</string>
+  <string name="verify_system_compatible_message">Vérification de la compatibilité du système avant mise à jour\u2026</string>
+  <string name="verify_system_compatible_failed">Échec de vérification de la compatibilité du système</string>
+  <string name="verify_system_compatible_patch">Les fichiers suivants ont été modifiés ou supprimés. Veuillez les restaurer et ressayer.</string>
   <string name="verify_system_compatible_img">%1$s non compatible, veuillez mettre à niveau vers la version %2$s</string>
   <string name="verify_system_compatible_root_request">L’autorisation Racine est exigée par le greffon de vérification des mises à jour pour vérifier maintenant la compatibilité de la mise à jour. Si vous choisissez de l’ignorer, cette étape sera retardée et exécutée en mode de récupération.</string>
   <string name="verify_system_compatible_root_skip">Ignorer</string>
