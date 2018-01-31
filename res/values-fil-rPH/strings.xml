@@ -84,6 +84,8 @@
   <string name="unlock_features_ota_title">I-unlock_mga tampok_ota_pamagat.</string>
   <string name="unlock_features_verify_rom_title">I-unlock_tampok_patunayan_rom_pamagat</string>
   <string name="unlock_features_all_title">I-unlock_mga tampok_lahat_pamagat</string>
+  <string name="unlock_features_request_summary">(magagamit pagkatapos ng donasyon%d CNY)</string>
+  <string name="unlock_features_pending_summary">(nagbigay %1$d CNY, magagamit ng lubos kapag nagbigay ng ganitong donasyon %2$d CNY pa)</string>
   <!-- Update -->
   <string name="unknown">Hindi alam</string>
   <string name="dialog_update">I-update</string>

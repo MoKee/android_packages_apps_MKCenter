@@ -99,7 +99,7 @@
   <string name="new_update_summary">Nouveau</string>
   <string name="old_update_summary">Ancien</string>
   <string name="ota_diff_update_summary">Les mises à jour incrémentielles peuvent économiser %s</string>
-  <string name="full_diff_update_summary">%s permet d’économiser par rapport à la ROM complète</string>
+  <string name="full_diff_update_summary">Permet d’économiser %s par rapport à la ROM complète</string>
   <string name="update_check_title">Fréquence de vérification des mises à jour</string>
   <string name="check_manual">Manuellement</string>
   <string name="nightly_alert">Vous avez choisi d\'inclure à votre liste les versions de développement. Ces versions ne disposent pas de support technique et doivent être utilisées avec précaution.</string>
@@ -175,7 +175,7 @@
   <string name="verify_system_compatible_title">Mise à jour du système MoKee</string>
   <string name="verify_system_compatible_message">Vérification de la compatibilité du système avant d’appliquer la màj\u2026</string>
   <string name="verify_system_compatible_failed">Échec de vérification de la compatibilité du système</string>
-  <string name="verify_system_compatible_patch">Les fichiers suivants ont soit été modifiés ou supprimés, s’il vous plaît les restaurer et essayez à nouveau.</string>
+  <string name="verify_system_compatible_patch">Les fichiers suivants ont été modifiés ou supprimés. Veuillez les restaurer et ressayer.</string>
   <string name="verify_system_compatible_img">%1$s non compatible, veuillez mettre à niveau vers la version %2$s</string>
   <string name="verify_system_compatible_root_request">L’autorisation Racine est exigée par le greffon de vérification des mises à jour pour vérifier maintenant la compatibilité de la mise à jour. Si vous choisissez de l’ignorer, cette étape sera retardée et exécutée en mode de récupération.</string>
   <string name="verify_system_compatible_root_skip">Ignorer</string>
