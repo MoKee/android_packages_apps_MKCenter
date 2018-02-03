@@ -84,6 +84,8 @@
   <string name="unlock_features_ota_title">Dona %d a CNY per sbloccare ota e il download a massima velocità.</string>
   <string name="unlock_features_verify_rom_title">Dona %d a CNY per sbloccare ota, i download a massima velocità, la verifica per gli aggiornamenti e rimuovere la pubblicità.</string>
   <string name="unlock_features_all_title">Dona %d a CNY per sbloccare OTA, download a pienà velocità, verifica degli aggiornamenti e rimozione della pubblicità.</string>
+  <string name="unlock_features_request_summary">(disponibile dopo la donazione %d CNY)</string>
+  <string name="unlock_features_pending_summary">(Donato %1$d CNY, disponibile per tutta la vita dopo la donazione più di %2$d CNY)</string>
   <!-- Update -->
   <string name="unknown">Sconosciuto</string>
   <string name="dialog_update">Aggiorna</string>
