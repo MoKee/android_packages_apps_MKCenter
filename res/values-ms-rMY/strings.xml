@@ -84,6 +84,8 @@
   <string name="unlock_features_ota_title">Menderma %d CNY untuk membuka kunci ota dan kelajuan muat turun penuh.</string>
   <string name="unlock_features_verify_rom_title">Menderma %d CNY untuk kemaskini yang disahkan dan mengeluarkan iklan.</string>
   <string name="unlock_features_all_title">Menderma %d CNY untuk membuka kunci ota, kelajuan muat turun penuh, kemaskini disahkan dan mengeluarkan iklan.</string>
+  <string name="unlock_features_request_summary">(akan disediakan selepas menderma %d CNY)</string>
+  <string name="unlock_features_pending_summary">(didermakan %1$d CNY, akan disediakan untuk seumur hidup selapas menderma %2$d CNY banyak lagi)</string>
   <!-- Update -->
   <string name="unknown">Tidak diketahui</string>
   <string name="dialog_update">Kemas kini</string>
