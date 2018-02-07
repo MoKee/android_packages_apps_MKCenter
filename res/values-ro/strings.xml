@@ -22,6 +22,7 @@
   <string name="mokee_support_title">Asistenta</string>
   <string name="mokee_updater_title">Actualizări</string>
   <!-- WebSite -->
+  <string name="mokee_links">Link-uri</string>
   <string name="mokee_website_title">Site-ul MoKee</string>
   <string name="mokee_website_summary">Vizitati site-ul oficial</string>
   <string name="mokee_forum_title">Forum MoKee</string>
@@ -129,7 +130,7 @@
   <!-- Downloads -->
   <string name="confirm_download_cancelation_dialog_title">Anulare descărcare</string>
   <string name="confirm_download_cancelation_dialog_message">Anulați descărcarea curentă?</string>
-  <string name="download_remaining"><xliff:g id="durată" exemplu="3 minutes">%s </xliff:g> stânga</string>
+  <string name="download_remaining"><xliff:g id="durată" exemplu="3 minutes">%s </xliff:g> rămase</string>
   <string name="download_running">În desfăşurare</string>
   <string name="download_cancelled">Descarcare abandonată</string>
   <string name="download_already_running">O descărcare este deja în execuţie</string>

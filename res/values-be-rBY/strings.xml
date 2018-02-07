@@ -84,6 +84,8 @@
   <string name="unlock_features_ota_title">Ахвяруйце %d CNY для разблакоўкі ота і поўнай хуткасці загрузкі.</string>
   <string name="unlock_features_verify_rom_title">Ахвяраваць %d CNY для разблакоўкі OTA абнаўленняў, поўнай хуткасці спампоўкі, праверкі абнаўленняў і выдалення аб\'явы.</string>
   <string name="unlock_features_all_title">Ахвяруйце %d CNY для разблакоўкі ота, поўнай хуткасці загрузкі, праверкі абнаўлення і выдалення аб\'яваў.</string>
+  <string name="unlock_features_request_summary">(даступна пасля ахвяравання ў %d юаняў)</string>
+  <string name="unlock_features_pending_summary">(ахвяруйце %1$d юаняў, будзе даступна назаўжды пасля ахвяраванні яшчэ %2$d юаняў і больш)</string>
   <!-- Update -->
   <string name="unknown">Невядома</string>
   <string name="dialog_update">Абнаўленне</string>
