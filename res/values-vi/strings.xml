@@ -18,7 +18,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Fragment -->
-  <string name="mokee_center_title">Trung tâm MoKee</string>
+  <string name="mokee_center_title">Cập nhật</string>
   <string name="mokee_support_title">Hỗ trợ</string>
   <string name="mokee_updater_title">Cập Nhật</string>
   <!-- WebSite -->
