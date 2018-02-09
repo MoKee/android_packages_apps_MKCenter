@@ -18,7 +18,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Fragment -->
-  <string name="mokee_center_title">Trung tâm MoKee</string>
+  <string name="mokee_center_title">Cập nhật</string>
   <string name="mokee_support_title">Hỗ trợ</string>
   <string name="mokee_updater_title">Cập Nhật</string>
   <!-- WebSite -->
@@ -107,7 +107,7 @@
   <string name="unofficial_alert">Bạn đã chọn để bao gồm các bản Cập Nhật không chính thức trong danh sách này. Hãy nhớ rằng những bản này được hỗ trợ bởi nhà bảo trì thiết bị của bạn.</string>
   <string name="all_alert">Bạn đã chọn để bao gồm tất cả Cập Nhật (phát hành, đêm) trong danh sách này. Hãy lưu ý rằng thông tin cập nhật hàng đêm là không được hỗ trợ và nên được dùng thận trọng.</string>
   <string name="alert_title">Thận trọng</string>
-  <string name="update_type_title">Kiểu Cập Nhật</string>
+  <string name="update_type_title">Kiểu cập nhật</string>
   <!-- ChangeLog -->
   <string name="no_changelog_alert">Nhật ký thay đổi không có sẵn</string>
   <string name="changelog_dialog_title">Nhật ký thay đổi</string>
