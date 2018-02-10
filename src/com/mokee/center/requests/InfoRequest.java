@@ -30,7 +30,7 @@ import com.mokee.os.Build;
 
 import com.mokee.center.MKCenterApplication;
 
-import mokee.providers.MKSettings;
+import android.providers.Settings;
 
 public class InfoRequest extends StringRequest {
 
@@ -61,7 +61,7 @@ public class InfoRequest extends StringRequest {
     @Override
     protected Map<String, String> getParams() throws AuthFailureError {
         Map<String, String> params = new HashMap<String, String>();
-        String unique_ids = MKSettings.Secure.getString(MKCenterApplication.getContext().getContentResolver(), MKSettings.Secure.UNIQUE_REGISTRATION_IDS);
+        String unique_ids = Settings.Secure.getString(MKCenterApplication.getContext().getContentResolver(), Settings.Secure.UNIQUE_REGISTRATION_IDS);
         params.put("user_ids", unique_ids);
         return params;
     }

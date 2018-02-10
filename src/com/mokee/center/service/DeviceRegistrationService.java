@@ -22,7 +22,7 @@ import android.content.Intent;
 import com.mokee.os.Build;
 import com.mokee.utils.CommonUtils;
 
-import mokee.providers.MKSettings;
+import android.providers.Settings;
 
 public class DeviceRegistrationService extends IntentService {
 
@@ -33,9 +33,9 @@ public class DeviceRegistrationService extends IntentService {
     @Override
     protected void onHandleIntent(Intent intent) {
         if (!CommonUtils.hasTelephony(getApplicationContext())) {
-            MKSettings.Secure.putString(getContentResolver(), MKSettings.Secure.UNIQUE_REGISTRATION_IDS, Build.getUniqueID(getApplicationContext()));
+            Settings.Secure.putString(getContentResolver(), Settings.Secure.UNIQUE_REGISTRATION_IDS, Build.getUniqueID(getApplicationContext()));
         } else {
-            MKSettings.Secure.putString(getContentResolver(), MKSettings.Secure.UNIQUE_REGISTRATION_IDS, Build.getUniqueIDS(getApplicationContext()));
+            Settings.Secure.putString(getContentResolver(), Settings.Secure.UNIQUE_REGISTRATION_IDS, Build.getUniqueIDS(getApplicationContext()));
         }
         stopSelf();
     }
