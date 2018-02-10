@@ -375,7 +375,7 @@ public class Utils {
         if (new File(Constants.LICENSE_FILE).exists()) {
             try {
                 LicenseInfo licenseInfo = License.readLicense(Constants.LICENSE_FILE, Constants.PUB_KEY);
-                String unique_ids = Build.getUniqueIDS(mContext.getContentResolver());
+                String unique_ids = Build.getUniqueIDS(mContext);
                 if (Arrays.asList(unique_ids.split(",")).contains(licenseInfo.getUniqueID())
                         && licenseInfo.getPackageName().equals(mContext.getPackageName())) {
                     return licenseInfo.getPrice();
