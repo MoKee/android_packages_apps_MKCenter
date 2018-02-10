@@ -69,8 +69,7 @@
         <service android:name=".service.DownloadCompleteIntentService" />
 
         <service
-            android:name=".service.DeviceRegistrationService"
-            android:process="com.android.phone" />
+            android:name=".service.DeviceRegistrationService" />
 
         <receiver android:name=".receiver.UpdateCheckReceiver">
             <intent-filter>
