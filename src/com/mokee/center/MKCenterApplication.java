@@ -31,7 +31,6 @@ import com.android.volley.toolbox.Volley;
 import com.mokee.center.activities.MoKeeCenter;
 import com.mokee.center.receiver.DownloadReceiver;
 import com.mokee.center.receiver.UpdateCheckReceiver;
-import com.mokee.center.service.DeviceRegistrationService;
 
 public class MKCenterApplication extends Application implements
         Application.ActivityLifecycleCallbacks {
@@ -53,11 +52,6 @@ public class MKCenterApplication extends Application implements
         registerActivityLifecycleCallbacks(this);
         mRequestQueue = Volley.newRequestQueue(this);
         context = getApplicationContext();
-
-        // Reset device registration ids
-        final Intent intent = new Intent();
-        intent.setClass(context, DeviceRegistrationService.class);
-        startService(intent);
 
         final LocalBroadcastManager lbm = LocalBroadcastManager.getInstance(this);
 

@@ -17,19 +17,15 @@
 
 package com.mokee.center.requests;
 
-import android.provider.Settings;
-import android.text.TextUtils;
+import com.android.volley.AuthFailureError;
+import com.android.volley.Response;
+import com.android.volley.toolbox.StringRequest;
+import com.mokee.center.MKCenterApplication;
+import com.mokee.os.Build;
 
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
-
-import com.android.volley.AuthFailureError;
-import com.android.volley.Response;
-import com.android.volley.toolbox.StringRequest;
-import com.mokee.os.Build;
-
-import com.mokee.center.MKCenterApplication;
 
 public class InfoRequest extends StringRequest {
 
@@ -60,7 +56,7 @@ public class InfoRequest extends StringRequest {
     @Override
     protected Map<String, String> getParams() throws AuthFailureError {
         Map<String, String> params = new HashMap<String, String>();
-        String unique_ids = Settings.Secure.getString(MKCenterApplication.getContext().getContentResolver(), Settings.Secure.UNIQUE_REGISTRATION_IDS);
+        String unique_ids = Build.getUniqueIDS(MKCenterApplication.getContext());
         params.put("user_ids", unique_ids);
         return params;
     }
