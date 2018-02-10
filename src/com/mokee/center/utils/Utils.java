@@ -29,6 +29,7 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Environment;
 import android.os.RecoverySystem;
+import android.provider.Settings;
 import android.support.v7.preference.PreferenceFragmentCompat;
 import android.text.format.DateUtils;
 import android.widget.Toast;
@@ -54,8 +55,6 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Locale;
 import java.util.Random;
-
-import mokee.providers.MKSettings;
 
 public class Utils {
 
@@ -347,7 +346,7 @@ public class Utils {
         if (new File(Constants.LICENSE_FILE).exists()) {
             try {
                 LicenseInfo licenseInfo = License.readLicense(Constants.LICENSE_FILE, Constants.PUB_KEY);
-                String unique_ids = MKSettings.Secure.getString(mContext.getContentResolver(), MKSettings.Secure.UNIQUE_REGISTRATION_IDS);
+                String unique_ids = Settings.Secure.getString(mContext.getContentResolver(), Settings.Secure.UNIQUE_REGISTRATION_IDS);
                 if (Arrays.asList(unique_ids.split(",")).contains(licenseInfo.getUniqueID())
                         && licenseInfo.getPackageName().equals(mContext.getPackageName())) {
                     return licenseInfo.getPrice();
