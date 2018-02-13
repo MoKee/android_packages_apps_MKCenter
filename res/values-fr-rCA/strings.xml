@@ -145,7 +145,7 @@
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Supprimer le fichier</string>
   <string name="confirm_delete_updates_dialog_message">Supprimer le fichier de mise à jour sélectionné?</string>
-  <string name="confirm_delete_updates_all_dialog_message">Supprimer tous les fichiers de mise à jour?</string>
+  <string name="confirm_delete_updates_all_dialog_message">Supprimer tous les fichiers de mise à jour téléchargés ?</string>
   <string name="delete_single_update_success_message">Mise à jour <xliff:g id="filename">%s</xliff:g> supprimée</string>
   <string name="delete_updates_failure_message">Une erreur est survenue lors de la suppression des fichiers de mise à jour</string>
   <string name="delete_updates_nofolder_message">Dossier de mise à jour introuvable</string>

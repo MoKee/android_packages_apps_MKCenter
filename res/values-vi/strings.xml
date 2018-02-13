@@ -34,7 +34,7 @@
   <string name="mokee_github_summary">Truy cập vào MoKee Github</string>
   <string name="mokee_translate_title">Dịch MoKee</string>
   <string name="mokee_translate_summary">Giúp chúng tôi dịch MoKee</string>
-  <string name="mokee_wiki_title">MoKee Wiki</string>
+  <string name="mokee_wiki_title">Wikipedia MoKee</string>
   <string name="mokee_wiki_summary">Xem MoKee Wiki</string>
   <string name="mokee_news_title">Tin tức MoKee</string>
   <string name="mokee_news_summary">Nhận tin tức phát triển từ MoKee</string>
@@ -104,7 +104,7 @@
   <string name="nightly_alert">Bạn đã chọn để bao gồm các bản cập nhật đêm trong danh sách này. Các bản này không được hỗ trợ và nên được dùng thận trọng.</string>
   <string name="experimenter_alert">Bạn đã chọn để bao gồm các bản Cập Nhật thử nghiệm trong danh sách này. Đây là những bản không được hỗ trợ và chỉ có nghĩa là để thử nghiệm, nó nên được dùng thận trọng.</string>
   <string name="unofficial_alert">Bạn đã chọn để bao gồm các bản Cập Nhật không chính thức trong danh sách này. Hãy nhớ rằng những bản này được hỗ trợ bởi nhà bảo trì thiết bị của bạn.</string>
-  <string name="all_alert">Bạn đã chọn để bao gồm tất cả Cập Nhật (phát hành, đêm) trong danh sách này. Hãy lưu ý rằng thông tin cập nhật hàng đêm là không được hỗ trợ và nên được dùng thận trọng.</string>
+  <string name="all_alert">Bạn đã chọn để bao gồm tất cả Cập nhật (phát hành, hàng ngày) trong danh sách này. Hãy lưu ý rằng thông tin cập nhật hàng đêm là không được hỗ trợ và nên được dùng thận trọng.</string>
   <string name="alert_title">Thận trọng</string>
   <string name="update_type_title">Kiểu Cập Nhật</string>
   <!-- ChangeLog -->
