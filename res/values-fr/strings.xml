@@ -57,7 +57,7 @@
   <!-- State -->
   <string name="downloaded_update_summary">Téléchargé</string>
   <string name="installed_update_summary">Installé</string>
-  <string name="available_updates_title">Mises à jour disponibles</string>
+  <string name="available_updates_title">Mises à jour proposées</string>
   <!-- Menu -->
   <string name="menu_donate">Faire un don</string>
   <string name="menu_refresh">Actualiser</string>
@@ -121,8 +121,8 @@
   <string name="check_monthly">Une fois par mois</string>
   <!-- checking -->
   <string name="checking_for_updates">Vérification des mises à jour</string>
-  <string name="no_updates_found">Aucune nouvelle mise à jour disponible</string>
-  <string name="not_new_updates_found_ticker">De nouvelles mises à jour sont disponibles</string>
+  <string name="no_updates_found">Aucune nouvelle mise à jour n’est proposée</string>
+  <string name="not_new_updates_found_ticker">De nouvelles mises à jour sont proposées</string>
   <string name="not_new_updates_found_title">Nouvelles mises à jour</string>
   <string name="update_check_failed">La vérification de mise à jour a échoué. Veuillez vérifier votre connexion internet et réessayez plus tard.</string>
   <string name="not_action_download">Télécharger</string>
@@ -146,7 +146,7 @@
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Supprimer le fichier</string>
   <string name="confirm_delete_updates_dialog_message">Supprimer le fichier de mise à jour sélectionné?</string>
-  <string name="confirm_delete_updates_all_dialog_message">Supprimer tous les fichiers de mise à jour?</string>
+  <string name="confirm_delete_updates_all_dialog_message">Supprimer tous les fichiers de mise à jour téléchargés ?</string>
   <string name="delete_single_update_success_message">Mise à jour <xliff:g id="filename">%s</xliff:g> supprimée</string>
   <string name="delete_updates_failure_message">Une erreur est survenue lors de la suppression des fichiers de mise à jour</string>
   <string name="delete_updates_nofolder_message">Dossier de mise à jour introuvable</string>
