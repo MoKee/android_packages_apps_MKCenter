@@ -73,6 +73,7 @@
   <string name="donate_money_again">Дарете отново</string>
   <string name="donate_money_restored_success">Успешно възстановено!</string>
   <string name="donate_money_restored_failed">Няма запис в устройството.</string>
+  <string name="donate_money_restored_failed_solution">Решение</string>
   <string name="donate_money_restored_timeout">Няма връзка. Опитайте отново</string>
   <string name="donate_money_info">Дарени общо CNY %1$d, повече от %2$s на донорите в световен мащаб!</string>
   <string name="donate_money_info_with_rank">Ти дари общо CNY %1$d повече от %2$s на донорите в световен мащаб, ранг No.%3$d!</string>
