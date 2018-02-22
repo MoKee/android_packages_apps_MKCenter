@@ -54,7 +54,7 @@
   <string name="mokee_version_type_unofficial">Non officiel</string>
   <string name="mokee_version_type_all">Tout</string>
   <!-- State -->
-  <string name="downloaded_update_summary">Télécharger</string>
+  <string name="downloaded_update_summary">Téléchargée</string>
   <string name="installed_update_summary">Installer</string>
   <string name="available_updates_title">Mises à jour proposées</string>
   <!-- Menu -->
