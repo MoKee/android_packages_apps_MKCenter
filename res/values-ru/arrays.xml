@@ -20,16 +20,19 @@
   <plurals name="not_new_updates_found_body">
     <item quantity="one"><xliff:g id="count">%d</xliff:g> обновление доступно для загрузки</item>
     <item quantity="few"><xliff:g id="count">%d</xliff:g> обновления доступно для скачивания</item>
+    <item quantity="many"><xliff:g id="count">%d</xliff:g> обновлений доступно для скачивания</item>
     <item quantity="other"><xliff:g id="count">%d</xliff:g> обновлений доступно для скачивания</item>
   </plurals>
   <plurals name="not_additional_count">
     <item quantity="one">+ <xliff:g id="count">%d </xliff:g> больше</item>
     <item quantity="few">+ <xliff:g id="count">%d </xliff:g> больше</item>
+    <item quantity="many">+ ещё <xliff:g id="count">%d</xliff:g></item>
     <item quantity="other">+ <xliff:g id="count">%d </xliff:g> больше</item>
   </plurals>
   <plurals name="show_exp_countdown">
     <item quantity="one">Вы в <xliff:g id="step_count">%1$d</xliff:g> шаге от включения экспериментальных настроек.</item>
     <item quantity="few">Осталось <xliff:g id="step_count">%1$d</xliff:g> шагов для включения настроек для разработчиков.</item>
+    <item quantity="many">Осталось <xliff:g id="step_count">%1$d</xliff:g> шагов для включения настроек для разработчиков.</item>
     <item quantity="other">Осталось <xliff:g id="step_count">%1$d</xliff:g> шагов для включения настроек для разработчиков.</item>
   </plurals>
 </resources>
