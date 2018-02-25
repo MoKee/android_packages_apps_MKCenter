@@ -18,15 +18,12 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <plurals name="not_new_updates_found_body">
-    <item quantity="one"><xliff:g id="count">%d</xliff:g> абнаўленне даступнае для спампоўкі</item>
-    <item quantity="few"><xliff:g id="count">%d</xliff:g> абнаўленняў даступных для спампоўкі</item>
-    <item quantity="many"><xliff:g id="count">%d</xliff:g> абнаўленняў даступных для спампоўкі</item>
-    <item quantity="other"><xliff:g id="count">%d</xliff:g> абнаўленняў даступных для спампоўкі</item>
+    <item quantity="other"><xliff:g id="count">%d</xliff:g>ဒေါင်းလုပ်အတွက် အဆင့်မြှင့်နိုင်ပါပြီ</item>
   </plurals>
   <plurals name="not_additional_count">
-    <item quantity="one">+ яшчэ <xliff:g id="count">%d</xliff:g></item>
-    <item quantity="few">+ яшчэ <xliff:g id="count">%d</xliff:g></item>
-    <item quantity="many">+ яшчэ <xliff:g id="count">%d</xliff:g></item>
-    <item quantity="other">+ яшчэ <xliff:g id="count">%d</xliff:g></item>
+    <item quantity="other">+ <xliff:g id="count">%d</xliff:g> နောက်ထပ်</item>
+  </plurals>
+  <plurals name="show_exp_countdown">
+    <item quantity="other">အဆင့်မြင့် အပြင်အဆင်များသုံးရန် အဆင့်<xliff:g id="step_count">%1$d</xliff:g> ဆင့်လိုသေးသည်။</item>
   </plurals>
 </resources>
