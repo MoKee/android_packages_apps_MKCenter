@@ -18,16 +18,69 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Fragment -->
+  <string name="mokee_center_title">మోకీ సెంటర్</string>
+  <string name="mokee_support_title">మద్దతు</string>
+  <string name="mokee_updater_title">అప్డేటర్కు</string>
   <!-- WebSite -->
+  <string name="mokee_website_title">మోకీ వెబ్సైట్</string>
+  <string name="mokee_website_summary">అధికారిక వెబ్సైట్ను సందర్శించండి</string>
+  <string name="mokee_forum_title">మోకీ ఫోరం</string>
+  <string name="mokee_forum_summary">మోకీ ఫోరం సందర్శించండి</string>
+  <string name="mokee_issues_title">మోకీ బగ్ ట్రాకర్</string>
+  <string name="mokee_issues_summary">బగ్ ట్రాకర్ సందర్శించండి</string>
+  <string name="mokee_changelog_title">మొక్కి చేంజ్లాగ్</string>
+  <string name="mokee_changelog_summary">రోజువారీ చేంజ్లాగ్ వీక్షించండి</string>
+  <string name="mokee_github_title">మోకీ గితుబ్</string>
+  <string name="mokee_github_summary">మోకీ గీతుబ్ ను సందర్శించండి</string>
+  <string name="mokee_translate_title">మోకీ అనువదించండి</string>
+  <string name="mokee_translate_summary">మోకిని అనువదించడానికి సహాయం చెయ్యండి</string>
+  <string name="mokee_wiki_title">మోకీ వికీ</string>
+  <string name="mokee_wiki_summary">మొకి వికీని వీక్షించండి</string>
+  <string name="mokee_news_title">మోకీ న్యూస్</string>
+  <string name="mokee_news_summary">మోకీ నుండి వార్తలు స్వీకరించండి</string>
   <!-- Base Info -->
+  <string name="mokee_version_info_title">సంస్కరణ సమాచారం</string>
+  <string name="mokee_version_title">మోకీ వెర్షన్</string>
+  <string name="mokee_unique_id_title">ప్రత్యేక ID</string>
+  <string name="mokee_donate_info_title">సమాచారాన్ని అందించండి</string>
+  <string name="mokee_last_check_title">చివరి తనిఖీ</string>
+  <string name="mokee_last_check_never">ఎప్పటికీ వద్దు</string>
   <!-- Version -->
+  <string name="mokee_info_default">తెలియని</string>
+  <string name="mokee_version_type_release">విడుదల</string>
+  <string name="mokee_version_type_history">చరిత్ర</string>
+  <string name="mokee_version_type_experimental">ప్రయోగాత్మక</string>
+  <string name="mokee_version_type_nightly">నైట్లీ</string>
+  <string name="mokee_version_type_unofficial">అనధికారిక</string>
+  <string name="mokee_version_type_all">అన్ని</string>
   <!-- State -->
+  <string name="downloaded_update_summary">డౌన్ లోడ్ చేయబడిన</string>
+  <string name="installed_update_summary">ఇన్స్టాల్</string>
+  <string name="available_updates_title">అందుబాటులో ఉన్న నవీకరణలు</string>
   <!-- Menu -->
+  <string name="menu_donate">దానం</string>
+  <string name="menu_refresh">రిఫ్రెష్</string>
+  <string name="menu_delete_all">డౌన్లోడ్ను తొలగించు</string>
+  <string name="menu_unlock_features">అన్లాక్ లక్షణాలు</string>
+  <string name="menu_restore">లైసెన్స్ పునరుద్ధరించండి</string>
   <!-- Donate -->
+  <string name="donate_dialog_title">మాకు దానం</string>
+  <string name="donate_dialog_message">Cygn లేదా MIUI వంటి కంపెనీల వలె కాకుండా, మోకీ అనేది ఓపెన్ సోర్స్ అభిరుచి మరియు అభిరుచిలో జన్మించిన పూర్తిగా లాభరహిత ప్రాజెక్ట్. ఈ ప్రాజెక్ట్ను నిర్వహించడానికి, మా స్వంత డబ్బును మరింత ఖర్చు చేయండి లేదా విరాళాలు మరియు ప్రకటనలపై ఆధారపడండి. మీ విరాళాలు మన ఆర్ధిక భారం తగ్గి, భవిష్యత్తులో పెరుగుతాయి! ఈ వికల్పం మోకీ సెంటర్లో ప్రకటనలను తీసివేయడానికి లేదా ప్రకటనలను ఇన్స్టాల్ చేయడానికి \"విరాళం\" ఎంపికను ఉపయోగించడానికి అనుమతిస్తుంది (మొత్తం మొత్తం జోడించిన తర్వాత ప్రకటనలు తొలగించబడతాయి). (sdcard యొక్క రూట్ డైరెక్టరీ, ప్రస్తుత పరికరం కోసం మాత్రమే చెల్లుతుంది) మీరు దానం చేసిన తర్వాత.</string>
+  <string name="donate_dialog_via_paypal">పేపాల్</string>
+  <string name="donate_dialog_via_alipay">అలిపాయ్</string>
+  <string name="donate_dialog_via_wechat">వెచ్చటి</string>
+  <string name="donate_dialog_via_restore">పునరుద్ధరించు</string>
+  <string name="donate_money_toast_success">మీ విరాళం కోసం ధన్యవాదాలు!</string>
+  <string name="donate_money_title">ఓపెన్ సోర్స్ మోకికి విరాళంగా</string>
+  <string name="donate_money_again">దయచేసి మళ్ళీ దానం చేయండి</string>
+  <string name="donate_money_restored_success">విజయవంతంగా పునరుద్ధరించబడింది!</string>
+  <string name="unlock_features_title">అన్లాక్ లక్షణాలు</string>
   <!-- Update -->
   <!-- ChangeLog -->
   <!-- checking -->
   <!-- Downloads -->
+  <string name="download_remaining"><xliff:g id="duration" example="3 minutes">%s</xliff:g>వదిలి</string>
+  <string name="download_running">పురోగతిలో ఉంది</string>
   <!-- deleting -->
   <!-- Pref -->
   <!-- Apply install and update strings -->
