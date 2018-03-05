@@ -84,6 +84,7 @@
   <string name="unlock_features_ota_title">Donasi %d CNY untuk membuka ota dan unduhan kecepatan penuh.</string>
   <string name="unlock_features_verify_rom_title">Donasi %d CNY untuk membuka ota, unduhan kecepatan penuh, pembaruan diverifikasi dan menghapus iklan.</string>
   <string name="unlock_features_all_title">%d CNY menyumbang untuk membuka ota, download kecepatan penuh, pembaruan di verifikasi dan menghapus iklan.</string>
+  <string name="unlock_features_request_summary">(available after donating %d CNY)</string>
   <!-- Update -->
   <string name="unknown">Tidak diketahui</string>
   <string name="dialog_update">Perbarui</string>
