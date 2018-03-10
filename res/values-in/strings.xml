@@ -22,6 +22,7 @@
   <string name="mokee_support_title">Dukungan</string>
   <string name="mokee_updater_title">Pembaruan</string>
   <!-- WebSite -->
+  <string name="mokee_links">Tautan</string>
   <string name="mokee_website_title">Situs MoKee</string>
   <string name="mokee_website_summary">Kunjungi situs resmi</string>
   <string name="mokee_forum_title">Forum MoKee</string>
@@ -84,6 +85,8 @@
   <string name="unlock_features_ota_title">Donasi %d CNY untuk membuka ota dan unduhan kecepatan penuh.</string>
   <string name="unlock_features_verify_rom_title">Donasi %d CNY untuk membuka ota, unduhan kecepatan penuh, pembaruan diverifikasi dan menghapus iklan.</string>
   <string name="unlock_features_all_title">%d CNY menyumbang untuk membuka ota, download kecepatan penuh, pembaruan di verifikasi dan menghapus iklan.</string>
+  <string name="unlock_features_request_summary">(tersedia setelah donasi %d CNY)</string>
+  <string name="unlock_features_pending_summary">(donasikan %1$d CNY, tersedia untuk seumur hidup setelah donasi %2$d CNY lebih)</string>
   <!-- Update -->
   <string name="unknown">Tidak diketahui</string>
   <string name="dialog_update">Perbarui</string>

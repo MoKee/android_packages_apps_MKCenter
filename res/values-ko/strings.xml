@@ -84,6 +84,8 @@
   <string name="unlock_features_ota_title">%d CNY을 기부하면 ota와 빠른 다운로드 속도를 얻을 수 있습니다.</string>
   <string name="unlock_features_verify_rom_title">%d CNY을 기부하면 광고 제거와 검증된 업데이트를 받을 수 있습니다.</string>
   <string name="unlock_features_all_title">%d CNY을 기부하면 ota와 빠른 다운로드 속도, 검증된 업데이트와 광고 제거 혜택을 받을 수 있습니다.</string>
+  <string name="unlock_features_request_summary">(%d CNY 후원 후 사용가능)</string>
+  <string name="unlock_features_pending_summary">(%1$d CNY 후원됨, %2$d CNY 더 후원하면 평생 사용가능)</string>
   <!-- Update -->
   <string name="unknown">미지</string>
   <string name="dialog_update">업데이트</string>

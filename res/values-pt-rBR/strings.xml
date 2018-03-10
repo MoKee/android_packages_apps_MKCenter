@@ -22,6 +22,7 @@
   <string name="mokee_support_title">Suporte</string>
   <string name="mokee_updater_title">Atualizador</string>
   <!-- WebSite -->
+  <string name="mokee_links">Links</string>
   <string name="mokee_website_title">O site MoKee</string>
   <string name="mokee_website_summary">Visite o site oficial</string>
   <string name="mokee_forum_title">MoKee Fórum</string>
@@ -84,6 +85,8 @@
   <string name="unlock_features_ota_title">Doar %d CNY para desbloquear OTA e download em velocidade máxima.</string>
   <string name="unlock_features_verify_rom_title">Doar %d CNY para desbloquear OTA, download em velocidade máxima, atualizações verificadas e remover anúncios.</string>
   <string name="unlock_features_all_title">Doar %d CNY para desbloquear OTA, download em velocidade máxima, atualizações verificadas e remover anúncios.</string>
+  <string name="unlock_features_request_summary">(disponível após a doação %d CNY)</string>
+  <string name="unlock_features_pending_summary">(doou %1$d CNY, disponível para toda a vida depois de doar %2$d CNY mais)</string>
   <!-- Update -->
   <string name="unknown">Desconhecido</string>
   <string name="dialog_update">Atualizar</string>
