@@ -61,6 +61,8 @@
   <string name="menu_donate">تبرع</string>
   <string name="menu_refresh">تحديث</string>
   <string name="menu_delete_all">حذف التنزيل</string>
+  <string name="menu_unlock_features">فتح كافة الميزات</string>
+  <string name="menu_restore">استعادة الترخيص</string>
   <!-- Donate -->
   <string name="donate_dialog_title">تبرع لنا</string>
   <string name="donate_dialog_message">خلافا لشركات مثل ساجون أو MIUI، موكي مفتوحة المصدر مشروع غير ربحية بحتة ولد من هواية وعاطفة. 
@@ -69,15 +71,24 @@
 الرجاء النسخ الاحتياطي تصريح موكي (mokee.license) (في الدليل روت في ملفات الجهاز، وهي صالحة فقط للجهاز الحالي) اذا كنت قد تبرعت.</string>
   <string name="donate_dialog_via_paypal">تبرع باستخدام باي بال</string>
   <string name="donate_dialog_via_alipay">تبرع باستخدام مشترايات علي</string>
+  <string name="donate_dialog_via_wechat">Wechat</string>
   <string name="donate_dialog_via_restore">استعادة</string>
   <string name="donate_money_toast_success">شكراً لتبرعك!</string>
+  <string name="donate_money_title">تبرع لمشروع موكي مفتوح المصدر</string>
   <string name="donate_money_again">التبرع مره أخرى</string>
   <string name="donate_money_restored_success">تمت الاستعادة بنجاح!</string>
   <string name="donate_money_restored_failed">لم يتم العثور على سجل الجهاز.</string>
+  <string name="donate_money_restored_failed_solution">الحل</string>
   <string name="donate_money_restored_timeout">فشل الاتصال، الرجاء المحاولة مجدداً</string>
   <string name="donate_money_info">تبرعت بمجموع %1$d يوان صيني، اكثر من %2$s من المتبرعين عالمياَ!</string>
   <string name="donate_money_info_with_rank">تبرعت بمجموع %1$d يوان صيني، اكثر من %2$s من المتبرعين عالمياَ، تحتل المرتبة %3$d!</string>
   <string name="donate_money_info_null">لم تقم بالتبرع</string>
+  <string name="unlock_features_title">فتح كافة الميزات</string>
+  <string name="unlock_features_ota_title">تبرع%d CNYلفتح سرعة تنزيل كاملة.</string>
+  <string name="unlock_features_verify_rom_title">تبرع%d CNY للتحديثات التي تم التحقق منها وإزالة الإعلانات.</string>
+  <string name="unlock_features_all_title">تبرع%d CNY لفتح Ota، تحميل كامل السرعة والتحقق من التحديثات وإزالة الإعلانات.</string>
+  <string name="unlock_features_request_summary">(متوفر بعد التبرع%d CNY)</string>
+  <string name="unlock_features_pending_summary">(donated %1$d CNY, available for lifetime after donating %2$d CNY more)</string>
   <!-- Update -->
   <string name="unknown">غير معروف</string>
   <string name="dialog_update">تحديث</string>
@@ -89,6 +100,8 @@
   <string name="no_available_ota_intro">التحقق الأخير لم تجد أية تحديثات متوفرة. للبحث عن تحديثات جديدة يدوياً، استخدم زر تحديث. إذا كنت تشغل إصدار خارج نطاق تاريخ التحديث المعتمد، يجب عليك إلغاء تحديد الخيار \"التحديثات التزايدية\".</string>
   <string name="new_update_summary">جديد</string>
   <string name="old_update_summary">قديم</string>
+  <string name="ota_diff_update_summary">يمكن أن توفر التحديثات الإضافية%s</string>
+  <string name="full_diff_update_summary">يحفظ %s عند مقارنتها بروم متكامل</string>
   <string name="update_check_title">أوقات التحقق من التحديث</string>
   <string name="check_manual">يدوي</string>
   <string name="nightly_alert">لقد اخترت تضمين التحديثات الليلية في هذه القائمة. هذه التحديثات غير مدعومة وينبغي أن تستخدم بحذر.</string>
@@ -123,6 +136,7 @@
   <string name="download_running">جار المعالجة</string>
   <string name="download_cancelled">تم إلغاء التنزيل</string>
   <string name="download_already_running">بالفعل جار التنزيل</string>
+  <string name="download_limited_mode">يتم التنزيل بسرعة محدودة، يرجى التبرع للتمتع بأقصى سرعة.</string>
   <string name="unable_to_download_file">غير قادر على تنزيل ملف التحديث</string>
   <string name="not_download_success">تم تنزيل التحديث بنجاح</string>
   <string name="not_download_failure">فشل تنزيل التحديث</string>
@@ -143,6 +157,9 @@
   <string name="pref_ota_check">تحديثات عن طريق الهواء OTA</string>
   <string name="pref_ota_check_summary">الحصول على التحديثات التزايدية لحفظ وقت التحميل وعرض حجم البيانات</string>
   <string name="pref_ota_check_request_summary">الحصول على التحديثات التزايدية لحفظ وقت التحميل وعرض حجم البيانات</string>
+  <string name="pref_verify_rom">تحديثات تم التحقق منها</string>
+  <string name="pref_verify_rom_summary">عرض التحديثات التي يتم التحقق منها بواسطة المستخدمين الآخرين فقط</string>
+  <string name="pref_verify_rom_request_summary">عرض التحديثات التي يتم التحقق منها بواسطة المستخدمين الآخرين فقط</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">تطبيق التحديث</string>
   <string name="apply_update_dialog_text">أنت على وشك الترقية إلى <xliff:g id="filename">%s</xliff:g>.\n\nإذا ضغطت على \"تحديث\"، سيتم إعادة تشغيل الجهاز في وضع الريكوفري لتثبيت التحديث.\n
@@ -153,8 +170,17 @@
   <string name="show_exp_on">لقد قمت بتفعيل الإعدادات الاختبارية!</string>
   <string name="show_exp_already">لا داعي، لقد قمت بالفعل بتفعيل الإعدادات الاختبارية.</string>
   <!-- Discount -->
+  <string name="discount_dialog_title">عرض لفترة محدودة</string>
+  <string name="discount_dialog_message">أشكركم على دعمكم المستمر نحو \"; موكي مفتوحة المصدر\";. كرمز للتقدير، يحق لك الحصول على العرض فترة محدودة. مع %1$d CNY، يمكنك الاستمتاع بالتحديثات التزايدية، التحقق من التحديثات وإزالة الإعلانات من مركز موكي (حفظ %2$d CNY). إذا كنت تريد أن تدفع في وقت لاحق، يمكنك إغلاق مربع الحوار هذا وإعادة إطلاق مركز موكي مرة أخرى عندما تكون جاهزاً.</string>
+  <string name="discount_dialog_expires">وينتهي العرض في %s</string>
+  <string name="discount_dialog_cancel">عدم التذكير</string>
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">تحديث نظام موكي</string>
+  <string name="verify_system_compatible_message">التحقق من توافق النظام قبل patching</string>
+  <string name="verify_system_compatible_failed">فشل في التحقق من توافق النظام</string>
+  <string name="verify_system_compatible_patch">الملفات التالية أما تم تعديلها أو إزالتها، يرجى استعادتها والمحاولة مرة أخرى.</string>
+  <string name="verify_system_compatible_img">%1$sغير متوافقة، الرجاء الترقية إلى الإصدار %2$s</string>
+  <string name="verify_system_compatible_root_request">مطلوب أذونات الجذر بواسطة البرنامج المساعد للتحقق من التحديث. إذا اخترت تخطي، سيتم تأجيل هذه الخطوة وأداؤها في وضع الاسترداد.</string>
   <string name="verify_system_compatible_root_skip">تخطي</string>
   <!-- Common -->
   <string name="activity_not_found">لم يتم تثبيت التطبيق.</string>

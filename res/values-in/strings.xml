@@ -83,8 +83,9 @@
   <string name="unlock_features_title">Buka fitur</string>
   <string name="unlock_features_ota_title">Donasi %d CNY untuk membuka ota dan unduhan kecepatan penuh.</string>
   <string name="unlock_features_verify_rom_title">Donasi %d CNY untuk membuka ota, unduhan kecepatan penuh, pembaruan diverifikasi dan menghapus iklan.</string>
-  <string name="unlock_features_all_title">%d CNY menyumbang untuk membuka ota, download kecepatan penuh, pembaruan di verifikasi dan menghapus iklan.</string>
-  <string name="unlock_features_request_summary">(available after donating %d CNY)</string>
+  <string name="unlock_features_all_title">Donasi %d CNY untuk membuka ota, unduhan kecepatan penuh, pembaruan diverifikasi dan menghapus iklan.</string>
+  <string name="unlock_features_request_summary">(tersedia setelah donasi %d CNY)</string>
+  <string name="unlock_features_pending_summary">(donasikan %1$d CNY, tersedia untuk seumur hidup setelah donasi %2$d CNY lebih)</string>
   <!-- Update -->
   <string name="unknown">Tidak diketahui</string>
   <string name="dialog_update">Perbarui</string>
@@ -178,5 +179,5 @@
   <string name="verify_system_compatible_root_request">Izin root diperlukan oleh Update Verification Plugin untuk memverifikasi kompatibilitas pembaruan saat ini. Jika anda memilih untuk melompati langkah ini akan tertunda dan dilakukan dalam mode recovery.</string>
   <string name="verify_system_compatible_root_skip">Lewati</string>
   <!-- Common -->
-  <string name="activity_not_found">Aplikasi tidak dipasang.</string>
+  <string name="activity_not_found">Aplikasi tidak terpasang.</string>
 </resources>
