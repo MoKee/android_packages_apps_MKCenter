@@ -43,7 +43,7 @@
   <string name="mokee_version_info_title">Thông tin Phiên bản</string>
   <string name="mokee_version_title">Phiên bản MoKee</string>
   <string name="mokee_unique_id_title">ID duy nhất</string>
-  <string name="mokee_donate_info_title">Đóng góp thông tin</string>
+  <string name="mokee_donate_info_title">Thông tin ủng hộ</string>
   <string name="mokee_last_check_title">Kiểm tra lần cuối</string>
   <string name="mokee_last_check_never">Không bao giờ</string>
   <!-- Version -->
@@ -80,7 +80,7 @@
   <string name="donate_money_restored_timeout">Kết nối hết thời gian, xin vui lòng thử lại</string>
   <string name="donate_money_info">Bạn tặng tổng cộng của CNY %1$d, nhiều hơn %2$s của các nhà tài trợ toàn cầu!</string>
   <string name="donate_money_info_with_rank">Bạn tặng tổng cộng của CNY %1$d, nhiều hơn %2$s của các nhà tài trợ toàn cầu, xếp hạng Thứ %3$d!</string>
-  <string name="donate_money_info_null">Bạn đã không tặng</string>
+  <string name="donate_money_info_null">Bạn không ủng hộ</string>
   <string name="unlock_features_title">Mở khóa tất cả tính năng</string>
   <string name="unlock_features_ota_title">Tặng %d CNY cho mở khóa Cập Nhật ota và tốc độ tối đa download.</string>
   <string name="unlock_features_verify_rom_title">Tặng %d CNY xác minh bản Cập Nhật và loại bỏ các quảng cáo.</string>
