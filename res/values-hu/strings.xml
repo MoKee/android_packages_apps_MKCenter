@@ -22,6 +22,7 @@
   <string name="mokee_support_title">Támogatás</string>
   <string name="mokee_updater_title">Frissítések</string>
   <!-- WebSite -->
+  <string name="mokee_links">Linkek</string>
   <string name="mokee_website_title">MoKee Honlap</string>
   <string name="mokee_website_summary">Látogass el a hivatalos weboldalunkra</string>
   <string name="mokee_forum_title">MoKee-Fórum</string>
@@ -61,20 +62,31 @@
   <string name="menu_donate">Adomány</string>
   <string name="menu_refresh">Frissités</string>
   <string name="menu_delete_all">Letöltés törlése</string>
+  <string name="menu_unlock_features">Feloldási lehetőségek</string>
+  <string name="menu_restore">Licenc-visszaállítás</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Támogass minket</string>
   <string name="donate_dialog_message">Más olyan cégekhez, mint a Cygn vagy a MIUI a MoKee OpenSource egy teljesen nonprofit elveken működő project, mely hobbiból született. A projekt fenntartásához szükséges anyagiakat legtöbbször saját magunk biztosítjuk, vagy adományokra ls hirdetésekre támaszkodunk. Adományoddal segíthetsz a további fejlesztésben! Ez az opció lehetővé teszi a reklámok eltávolítását a MoKee Centerben, de választhatod az \"Adomány\" opciót is, ha részletekben szeretnél segíteni (amint a részletek összege eléri szükséges szintet, a reklámok eltávolításra kerülnek). Készíts biztonsági másolatot a mokee.license fájlról az adományozás után (megtalálható az SD kártya gyökérkönyvtárában, csak egy eszközre használható).</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
+  <string name="donate_dialog_via_wechat">WeChat</string>
   <string name="donate_dialog_via_restore">Visszaállítás</string>
   <string name="donate_money_toast_success">Köszönjük a támogatását!</string>
+  <string name="donate_money_title">Támogassa a MoKee OpenSource-ot</string>
   <string name="donate_money_again">Ismételt támogatás</string>
   <string name="donate_money_restored_success">Sikeresen visszaállítva!</string>
   <string name="donate_money_restored_failed">Nem található eszköz rögzítő.</string>
+  <string name="donate_money_restored_failed_solution">Megoldás</string>
   <string name="donate_money_restored_timeout">Kapcsolat-időtúllépés, kérem próbálja újra</string>
   <string name="donate_money_info">Te a lehető legnagyobb összeget adományoztad CNY-ból %1$d, ez több mint %2$s az adományozóink világszerte!</string>
   <string name="donate_money_info_with_rank">Te a lehető legnagyobb összeget adományoztad CNY-ból %1$d, ez több mint %2$s az adományozóink világszerte, rang No.%3$d!</string>
   <string name="donate_money_info_null">Még nem adományoztál</string>
+  <string name="unlock_features_title">Feloldási lehetőségek</string>
+  <string name="unlock_features_ota_title">Adományozzon %d kínai jüant, hogy OTA frissítést kaphasson és gyors letöltési sebességet.</string>
+  <string name="unlock_features_verify_rom_title">Adományozzon %d kínai jüant az ellenőrzött frissítésekért és a reklámok eltávolításáért.</string>
+  <string name="unlock_features_all_title">Adományozzon %d kínai jüant hogy ellenőrzött OTA frissítéseket kapjon, gyors letöltéshez jusson, és eltűnjenek a reklámok a rendszeréből.</string>
+  <string name="unlock_features_request_summary">(%d kínai jüan adományozása után érhető el)</string>
+  <string name="unlock_features_pending_summary">(%1$d kínai jüant adományozott, ha még adományoz %2$d összeget állandóan elérhető lesz)</string>
   <!-- Update -->
   <string name="unknown">Ismeretlen</string>
   <string name="dialog_update">Frissítés</string>
@@ -86,6 +98,8 @@
   <string name="no_available_ota_intro">Az utolsó ellenőrzés nem talált elérhető frissítést. A manuális ellenőrizéshez használja a Frissítés gombot. Ha egy olyan változatott futtat, amelynél már nem támogatott a Növekményes frissítés, akkor a \"Növekményes frissítések\" opciónál szedje ki a bejelölést.</string>
   <string name="new_update_summary">Új</string>
   <string name="old_update_summary">Régi</string>
+  <string name="ota_diff_update_summary">Csak a frissülő növekményeket tartalmazó fájllal ennyit takaríthat meg %s</string>
+  <string name="full_diff_update_summary">Összehasonlítva a teljes ROM-mal a megtakarítás ennyi %s</string>
   <string name="update_check_title">Frissítési gyakoriság ellenőrzése</string>
   <string name="check_manual">Használati utasítás</string>
   <string name="nightly_alert">Választásának megfelelően a Nightly frissítések is meg fognak jelenni a listán. Ezek nem támogatottak, ezért csak saját felelősségére használja őket.</string>
@@ -120,6 +134,7 @@
   <string name="download_running">Folyamatban</string>
   <string name="download_cancelled">Letöltés megszakítva</string>
   <string name="download_already_running">A letöltés jelenleg is fut</string>
+  <string name="download_limited_mode">Letöltés csak korlátozott sebességgel, támogasson minket, hogy teljes sebességgel tölthessen le.</string>
   <string name="unable_to_download_file">Nem sikerült letölteni a frissítő fájlt</string>
   <string name="not_download_success">Frissítés sikeresen letöltve</string>
   <string name="not_download_failure">Frissítés letöltése sikertelen</string>
@@ -140,6 +155,9 @@
   <string name="pref_ota_check">Növekményes frissítések</string>
   <string name="pref_ota_check_summary">Növekményes frissítések használata a letöltési idő és sávszélesség kímélése érdekében</string>
   <string name="pref_ota_check_request_summary">Növekményes frissítések használata a letöltési idő és sávszélesség kímélése érdekében</string>
+  <string name="pref_verify_rom">Ellenőrzött frissitések</string>
+  <string name="pref_verify_rom_summary">Csak azokat a frissítéseket jeleníti meg, amiket más felhasználók ellenőriztek</string>
+  <string name="pref_verify_rom_request_summary">Csak azokat a frissítéseket jeleníti meg, amiket más felhasználók ellenőriztek</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">Frissítés alkalmazása</string>
   <string name="apply_update_dialog_text">A  <xliff:g id="filename">%s</xliff:g> frissítés telepítését választottad. Ha a Frissítésre nyomsz, a készülék újraindul recovery módba, hogy telepítse a frissítést. \n\nMegjegyzés: Az autómatikus frissítéshez kompatibilis recovery kell, különben manuális telepítésre lesz szükség.</string>
@@ -149,8 +167,17 @@
   <string name="show_exp_on">Engedélyezted a kísérleti funkciókat!</string>
   <string name="show_exp_already">Már engedélyezted a kísérleti funkciókat.</string>
   <!-- Discount -->
+  <string name="discount_dialog_title">Korlátozott idejű ajánlat</string>
+  <string name="discount_dialog_message">Köszönjük, hogy folyamatosan támogatja a MoKee Open Source programot. Elismerésünk jeleként Ön korlátozott időre szóló ajánlatot kap. %1$d CNY összeggel élvezheti az ellenőrzött, csak a fejlesztéseket tartalmazó frissítéseket és a hirdetések eltávolítását a MoKee rendszerből (%2$d CNY megtakarítás). Ha később szeretne fizetni, zárja be ezt a párbeszédablakot, és majd amikor fizetni szeretne, akkor nyissa meg újra a MoKee Centert.</string>
+  <string name="discount_dialog_expires">Az ajánlat lejár ekkor: %s</string>
+  <string name="discount_dialog_cancel">Ne emlékeztessen</string>
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">MoKee rendszerfrissítés</string>
+  <string name="verify_system_compatible_message">Végezzen előbb rendszerkompatibilitás ellenőrzést\u2026</string>
+  <string name="verify_system_compatible_failed">Rendszerkompatibilitás ellenőrzése meghiúsult</string>
+  <string name="verify_system_compatible_patch">A következő fájlok lettek módosítva vagy eltávolítva, kérjük, állítsa helyre őket, majd próbálja újra.</string>
+  <string name="verify_system_compatible_img">%1$s nem kompatibilis, kérjük, frissítsen %2$s verzióra</string>
+  <string name="verify_system_compatible_root_request">A frissítések kompatibilitásának ellenőrzéséhez most a frissítésellenőrző plugin root jogosultsága szükséges. Ha most kihagyja ezt a lépést, csak késleltetni fogja, mert recovery módban végrehajtásra kerül.</string>
   <string name="verify_system_compatible_root_skip">Kihagyás</string>
   <!-- Common -->
   <string name="activity_not_found">Az alkalmazás nincs telepítve.</string>

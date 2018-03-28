@@ -29,4 +29,10 @@
     <item quantity="many">+ яшчэ <xliff:g id="count">%d</xliff:g></item>
     <item quantity="other">+ яшчэ <xliff:g id="count">%d</xliff:g></item>
   </plurals>
+  <plurals name="show_exp_countdown">
+    <item quantity="one">Зараз вы ў <xliff:g id="step_count">%1$d</xliff:g> кроку ад уключэння эксперыментальных налад.</item>
+    <item quantity="few">Зараз вы ў <xliff:g id="step_count">%1$d</xliff:g> кроках ад уключэння эксперыментальных налад.</item>
+    <item quantity="many">Зараз вы ў <xliff:g id="step_count">%1$d</xliff:g> кроках ад уключэння эксперыментальных налад.</item>
+    <item quantity="other">Зараз вы ў <xliff:g id="step_count">%1$d</xliff:g> кроках ад уключэння эксперыментальных налад.</item>
+  </plurals>
 </resources>

@@ -67,6 +67,7 @@
   <string name="donate_dialog_message">За разлика от основите марки и операционни системи, MoKee, както и Cyanogen се основават на отворения код и свободен достъп до ресурсите на системата. Това, както и напълно доброволния труд на програмистите, предполага разход на време и сили, за които не се заплаща. Ето защо в Хелп центъра ние сме вградили реклами на различни наши спонсори, които са направили някакво дарение. Тези реклами не са зловредни, имат за цел да удовлетворят нашите спонсори и да продължи работата по проекта.</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
+  <string name="donate_dialog_via_wechat">WeChat</string>
   <string name="donate_dialog_via_restore">Възстанови</string>
   <string name="donate_money_toast_success">Благодарим Ви за вашето дарение!</string>
   <string name="donate_money_title">Дарение за MoKee OpenSource</string>
