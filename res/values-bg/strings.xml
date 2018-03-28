@@ -67,6 +67,7 @@
   <string name="donate_dialog_message">За разлика от основите марки и операционни системи, MoKee, както и Cyanogen се основават на отворения код и свободен достъп до ресурсите на системата. Това, както и напълно доброволния труд на програмистите, предполага разход на време и сили, за които не се заплаща. Ето защо в Хелп центъра ние сме вградили реклами на различни наши спонсори, които са направили някакво дарение. Тези реклами не са зловредни, имат за цел да удовлетворят нашите спонсори и да продължи работата по проекта.</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
+  <string name="donate_dialog_via_wechat">WeChat</string>
   <string name="donate_dialog_via_restore">Възстанови</string>
   <string name="donate_money_toast_success">Благодарим Ви за вашето дарение!</string>
   <string name="donate_money_title">Дарение за MoKee OpenSource</string>
@@ -102,14 +103,14 @@
   <string name="changelog_dialog_title">Нови неща</string>
   <string name="loading_changelog">Зарежда\u2026</string>
   <string name="check_on_boot">При всеки рестарт</string>
-  <string name="check_twice_daily">Два пъти дневно</string>
+  <string name="check_twice_daily">Два пъти на ден</string>
   <string name="check_daily">Веднъж на ден</string>
-  <string name="check_twice_weekly">2 пъти седмично</string>
+  <string name="check_twice_weekly">2 пъти в седмицата</string>
   <string name="check_weekly">1 път седмично</string>
   <string name="check_bi_weekly">1 път на две седмици</string>
   <string name="check_monthly">1 път месечно</string>
   <!-- checking -->
-  <string name="checking_for_updates">Проверка актуализации</string>
+  <string name="checking_for_updates">Проверка за обновяване</string>
   <string name="no_updates_found">Няма актуализации</string>
   <string name="not_new_updates_found_ticker">Има нови актуализации</string>
   <string name="not_new_updates_found_title">Нови актуализации</string>
@@ -131,7 +132,7 @@
   <string name="not_download_install_notice">Актуализацията <xliff:g id="filename">%s</xliff:g> беше успешно изтеглена. Когато чукнете \'рестарт и инсталиране\', устройството ще се рестартира за да инсталира актуализацията.\n\n Забележка: това изисква подражано от MoKee рековъри, или е необходим ръчен ъпдейт.</string>
   <string name="not_download_install_ota_notice">Актуализацията <xliff:g id="filename">%s</xliff:g> беше успешно изтеглена. Когато чукнете \'рестарт и инсталиране\', устройството ще се рестартира и ще инсталира актуализацията.\n\nЗабележка: това изисква поддържано от MoKee рековъри, иначе трябва да инсталирате ръчно.\n\n Внимание, това е неделима актуализация, всички промени по системни файлове ще попречат на обновяването. Ако това се случи, моля, преинсталирайте целия ром наново.</string>
   <string name="md5_verification_failed">MD5 несъответствие</string>
-  <string name="not_apk_action_install_update">Обнови</string>
+  <string name="not_apk_action_install_update">Инсталиране</string>
   <!-- deleting -->
   <string name="confirm_delete_dialog_title">Изтриване на файл</string>
   <string name="confirm_delete_updates_dialog_message">Изтриване на избраните?</string>

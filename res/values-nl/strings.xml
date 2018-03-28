@@ -84,6 +84,8 @@
   <string name="unlock_features_ota_title">Doneer %d CNY om ota te ontgrendelen en aan de hoogste snelheid te downloaden.</string>
   <string name="unlock_features_verify_rom_title">Doneer %d CNY voor geverifieerde updates en verwijderen van de advertenties.</string>
   <string name="unlock_features_all_title">%d CNY doneren voor ontgrendelen OTA, volle snelheid downloaden, updates gecontroleerd en verwijder advertenties.</string>
+  <string name="unlock_features_request_summary">(Beschikbaar na %d CNY gedoneerd te hebben)</string>
+  <string name="unlock_features_pending_summary">(%1$d CNY gedoneerd, beschikbaar voor altijd na %2$d CNY)</string>
   <!-- Update -->
   <string name="unknown">Onbekend</string>
   <string name="dialog_update">Bijwerken</string>
@@ -127,7 +129,7 @@
   <!-- Downloads -->
   <string name="confirm_download_cancelation_dialog_title">Download annuleren</string>
   <string name="confirm_download_cancelation_dialog_message">Annuleer de huidige download?</string>
-  <string name="download_remaining">nog <xliff:g id="duration" example="3 minutes">%s</xliff:g></string>
+  <string name="download_remaining">nog <xliff:g id="duration" example="3 minuten">%s</xliff:g></string>
   <string name="download_running">In behandeling</string>
   <string name="download_cancelled">Download geannuleeerd</string>
   <string name="download_already_running">Er is al een andere download bezig</string>
