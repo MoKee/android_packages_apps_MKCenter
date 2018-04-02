@@ -104,7 +104,7 @@
   <string name="nightly_alert">Vous avez choisi d’inclure à cette liste les versions générées chaque soir (nightly). Une assistance technique n’est pas offerte pour ces versions et elles doivent être utilisées avec prudence.</string>
   <string name="experimenter_alert">Vous avez choisi d\'inclure les mises à jour expérimentales dans cette liste. Ceux-ci sont non pris en charge et destinés aux essais seulement, il doit être utilisé avec prudence.</string>
   <string name="unofficial_alert">Vous avez choisi d\'inclure des mises à jour non officielles dans cette liste. Gardez à l\'esprit que ceux-ci sont pris en charge par le mainteneur de votre appareil.</string>
-  <string name="all_alert">Vous avez choisi d\'inclure toutes les mises à jour (release, nightly) dans cette liste. A noter que les nightly ne sont pas supportées et doivent être utilisées avec prudence.</string>
+  <string name="all_alert">Vous avez choisi d\'inclure à cette liste toutes les mises à jour (release, nightly). Une assistance technique n’est pas offerte pour ces versions et elles doivent être utilisées avec prudence.</string>
   <string name="alert_title">Attention</string>
   <string name="update_type_title">Type de mise à jour</string>
   <!-- ChangeLog -->

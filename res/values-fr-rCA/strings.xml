@@ -101,10 +101,10 @@
   <string name="full_diff_update_summary">Permet d’économiser %s par rapport à la ROM complète</string>
   <string name="update_check_title">Fréquence de vérification des mises à jour</string>
   <string name="check_manual">Manuellement</string>
-  <string name="nightly_alert">Vous avez choisi d\'inclure à votre liste les versions de développement. Ces versions ne disposent pas de support technique et doivent être utilisées avec précaution.</string>
+  <string name="nightly_alert">Vous avez choisi d’inclure à cette liste les versions générées chaque soir (nightly). Une assistance technique n’est pas offerte pour ces versions et elles doivent être utilisées avec prudence.</string>
   <string name="experimenter_alert">Vous avez choisi d\'inclure les mises à jour expérimentales dans cette liste. Ceux-ci sont non pris en charge et destinés aux essais seulement, il doit être utilisé avec prudence.</string>
   <string name="unofficial_alert">Vous avez choisi d\'inclure les mises à jour non officielles dans cette liste. N\'oubliez pas que ceux-ci sont pris en charge par votre responsable de l\'appareil.</string>
-  <string name="all_alert">Vous avez choisi d\'inclure toutes les mises à jour (release, nightly) dans cette liste. A noter que les nightly ne sont pas supportées et doivent être utilisées avec prudence.</string>
+  <string name="all_alert">Vous avez choisi d\'inclure à cette liste toutes les mises à jour (release, nightly). Une assistance technique n’est pas offerte pour ces versions et elles doivent être utilisées avec prudence.</string>
   <string name="alert_title">Attention</string>
   <string name="update_type_title">Type de mise à jour</string>
   <!-- ChangeLog -->
