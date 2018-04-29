@@ -72,7 +72,7 @@
   <string name="donate_dialog_via_restore">Восстановление</string>
   <string name="donate_money_toast_success">Благодарим Вас за пожертвование!</string>
   <string name="donate_money_title">Пожертвовать MoKee Open Source</string>
-  <string name="donate_money_again">Пожертвовать ещё раз</string>
+  <string name="donate_money_again">Пожертвовать снова</string>
   <string name="donate_money_restored_success">Восстановление прошло успешно!</string>
   <string name="donate_money_restored_failed">Не найдено записей об устройстве.</string>
   <string name="donate_money_restored_failed_solution">Решение</string>
