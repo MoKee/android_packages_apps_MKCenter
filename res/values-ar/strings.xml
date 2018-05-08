@@ -48,7 +48,7 @@
   <!-- Version -->
   <string name="mokee_info_default">غير معروف</string>
   <string name="mokee_version_type_release">النهائية</string>
-  <string name="mokee_version_type_history">سجل التاريخ</string>
+  <string name="mokee_version_type_history">السجل</string>
   <string name="mokee_version_type_experimental">اختبارية</string>
   <string name="mokee_version_type_nightly">النسخة الليلية</string>
   <string name="mokee_version_type_unofficial">نسخة غير رسمية</string>
