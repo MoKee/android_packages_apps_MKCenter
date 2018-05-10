@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014-2017 The MoKee Open Source Project
+ * Copyright (C) 2014-2018 The MoKee Open Source Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -30,7 +30,6 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.os.Environment;
 import android.os.RecoverySystem;
-import android.provider.Settings;
 import android.support.v7.preference.PreferenceFragmentCompat;
 import android.text.format.DateUtils;
 import android.widget.Toast;
@@ -55,7 +54,6 @@ import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Locale;
-import java.util.Random;
 
 public class Utils {
 
@@ -420,29 +418,6 @@ public class Utils {
 
     public static boolean checkMinLicensed(Context mContext) {
         return getPaidTotal(mContext) >= Constants.DONATION_REQUEST;
-    }
-
-    private static int getRandomDays() {
-        int max = 90;
-        int min = 60;
-        Random random = new Random();
-        return random.nextInt(max) % (max - min + 1) + min;
-    }
-
-    public static boolean Discounting(SharedPreferences mPrefs) {
-        long flashTime = mPrefs.getLong(Constants.KEY_FLASH_TIME, 0);
-        Float amount = mPrefs.getFloat(Constants.KEY_DONATE_AMOUNT, 0);
-        if (flashTime != 0 && amount < Constants.DONATION_REQUEST) {
-            if (flashTime * 1000 + DateUtils.DAY_IN_MILLIS * getRandomDays() < System.currentTimeMillis()) {
-                long discountTime = mPrefs.getLong(Constants.KEY_DISCOUNT_TIME, 0);
-                if (discountTime == 0 || discountTime + DateUtils.DAY_IN_MILLIS * 30 < System.currentTimeMillis()) {
-                    return true;
-                } else {
-                    return false;
-                }
-            }
-        }
-        return false;
     }
 
 }

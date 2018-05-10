@@ -21,7 +21,6 @@ import android.app.Activity;
 import android.app.ActivityThread;
 import android.app.Application;
 import android.content.Context;
-import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
 import android.support.v4.content.LocalBroadcastManager;
