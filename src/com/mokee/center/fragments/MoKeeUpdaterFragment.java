@@ -17,7 +17,6 @@
 
 package com.mokee.center.fragments;
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
@@ -28,7 +27,6 @@ import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
-import android.icu.text.SimpleDateFormat;
 import android.mokee.utils.MoKeeUtils;
 import android.os.Bundle;
 import android.os.Handler;
@@ -44,16 +42,11 @@ import android.support.v7.preference.PreferenceFragmentCompat;
 import android.support.v7.preference.PreferenceScreen;
 import android.text.TextUtils;
 import android.text.format.DateFormat;
-import android.text.format.DateUtils;
 import android.util.Log;
-import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
-import android.view.View;
-import android.widget.LinearLayout;
 import android.widget.ProgressBar;
-import android.widget.TextView;
 
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
@@ -128,9 +121,6 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
     private File mUpdateFolder;
     private ProgressDialog mProgressDialog;
     private Handler mUpdateHandler = new Handler();
-
-    private long leftTime;
-    private Runnable timerRunnable;
 
     private InterstitialAd mEnterInterstitialAd;
     private InterstitialAd mStartDownloadInterstitialAd;
@@ -429,113 +419,12 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
 
         setHasOptionsMenu(true);
 
-        discountDialog(mPrefs);
-    }
-
-    public void discountDialog(final SharedPreferences mPrefs) {
         final Float paid = mPrefs.getFloat(Constants.KEY_DONATE_AMOUNT, 0);
 
         // 同步云端支付信息
         if (paid.intValue() > Utils.getPaidTotal(moKeeCenter).intValue()) {
             Utils.restorePaymentRequest(moKeeCenter);
         }
-
-        if (Utils.Discounting(mPrefs)) {
-            final Float unPaid = Constants.DONATION_TOTAL - Constants.DONATION_DISCOUNT - paid;
-            final SimpleDateFormat df = new SimpleDateFormat("mm:ss");
-
-            final LayoutInflater inflater = LayoutInflater.from(moKeeCenter);
-
-            @SuppressLint("InflateParams")
-            final LinearLayout donateView = (LinearLayout) inflater.inflate(R.layout.donate, null);
-
-            final TextView mLeftTimeView = (TextView) donateView.findViewById(R.id.request);
-
-            donateView.findViewById(R.id.price).setVisibility(View.GONE);
-
-            final ProgressBar mProgressBar = (ProgressBar) donateView.findViewById(R.id.progress);
-            mProgressBar.setMax(100);
-            mProgressBar.setVisibility(View.VISIBLE);
-
-            leftTime = mPrefs.getLong(Constants.KEY_LEFT_TIME, Constants.DISCOUNT_THINK_TIME);
-            mProgressBar.setProgress(Float.valueOf((float) leftTime / Constants.DISCOUNT_THINK_TIME * 100).intValue());
-            mLeftTimeView.setText(String.format(getString(R.string.discount_dialog_expires), df.format(leftTime)));
-
-            final AlertDialog.Builder builder = new AlertDialog.Builder(moKeeCenter)
-                    .setTitle(R.string.discount_dialog_title)
-                    .setMessage(getString(R.string.discount_dialog_message, unPaid.intValue(), Constants.DONATION_DISCOUNT))
-                    .setView(donateView);
-
-            builder.setPositiveButton(R.string.donate_dialog_via_paypal, new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialog, int which) {
-                    requestForDiscountPayment("paypal", unPaid,
-                            getString(R.string.discount_dialog_title));
-                    mUpdateHandler.removeCallbacks(timerRunnable);
-                    mPrefs.edit().putLong(Constants.KEY_LEFT_TIME, leftTime).apply();
-                }
-            });
-
-            builder.setNegativeButton(R.string.donate_dialog_via_alipay, new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialog, int which) {
-                    requestForDiscountPayment("alipay", unPaid,
-                            getString(R.string.discount_dialog_title));
-                    mUpdateHandler.removeCallbacks(timerRunnable);
-                    mPrefs.edit().putLong(Constants.KEY_LEFT_TIME, leftTime).apply();
-                }
-            });
-
-            builder.setNeutralButton(R.string.discount_dialog_cancel, new DialogInterface.OnClickListener() {
-                @Override
-                public void onClick(DialogInterface dialog, int which) {
-                    mUpdateHandler.removeCallbacks(timerRunnable);
-                    mPrefs.edit()
-                            .putLong(Constants.KEY_DISCOUNT_TIME, System.currentTimeMillis())
-                            .putLong(Constants.KEY_LEFT_TIME, Constants.DISCOUNT_THINK_TIME)
-                            .apply();
-                }
-            });
-
-            builder.setOnCancelListener(new DialogInterface.OnCancelListener() {
-                @Override
-                public void onCancel(DialogInterface dialog) {
-                    mUpdateHandler.removeCallbacks(timerRunnable);
-                    mPrefs.edit().putLong(Constants.KEY_LEFT_TIME, leftTime).apply();
-                }
-            });
-
-            final AlertDialog discountDialog = builder.create();
-            discountDialog.show();
-
-            timerRunnable = new Runnable() {
-                @Override
-                public void run() {
-                    leftTime = leftTime - DateUtils.SECOND_IN_MILLIS;
-                    mProgressBar.setProgress(Float.valueOf((float) leftTime / Constants.DISCOUNT_THINK_TIME * 100).intValue());
-                    mLeftTimeView.setText(String.format(getString(R.string.discount_dialog_expires), df.format(leftTime)));
-                    if (leftTime <= 0) {
-                        discountDialog.dismiss();
-                        mPrefs.edit().putLong(Constants.KEY_DISCOUNT_TIME, System.currentTimeMillis())
-                                .putLong(Constants.KEY_LEFT_TIME, Constants.DISCOUNT_THINK_TIME).apply();
-                    } else {
-                        mPrefs.edit().putLong(Constants.KEY_LEFT_TIME, leftTime).apply();
-                        mUpdateHandler.postDelayed(this, DateUtils.SECOND_IN_MILLIS);
-                    }
-                }
-            };
-
-            mUpdateHandler.postDelayed(timerRunnable, DateUtils.SECOND_IN_MILLIS);
-        }
-    }
-
-    private void requestForDiscountPayment(String measure, float price, String title) {
-        if (measure.equals("paypal")) {
-            price = price / 6f;
-        }
-
-        Utils.sendPaymentRequest(moKeeCenter, measure, title, title,
-                String.valueOf(price), Constants.PAYMENT_TYPE_DISCOUNT);
     }
 
     private void setDonatePreference() {

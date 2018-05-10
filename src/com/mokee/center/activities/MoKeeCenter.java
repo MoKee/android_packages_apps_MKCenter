@@ -220,9 +220,6 @@ public class MoKeeCenter extends AppCompatActivity {
                         .show();
 
                 RequestUtils.getRanking(this);
-                getSharedPreferences(Constants.DOWNLOADER_PREF, 0).edit()
-                        .putLong(Constants.KEY_DISCOUNT_TIME, System.currentTimeMillis())
-                        .putLong(Constants.KEY_LEFT_TIME, 0).apply();
                 break;
             case 200:
                 makeSnackbar(R.string.donate_money_restored_success).show();
