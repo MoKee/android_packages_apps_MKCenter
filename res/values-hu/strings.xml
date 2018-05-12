@@ -165,11 +165,6 @@
   <!-- Experimenter mode -->
   <string name="show_exp_on">Engedélyezted a kísérleti funkciókat!</string>
   <string name="show_exp_already">Már engedélyezted a kísérleti funkciókat.</string>
-  <!-- Discount -->
-  <string name="discount_dialog_title">Korlátozott idejű ajánlat</string>
-  <string name="discount_dialog_message">Köszönjük, hogy folyamatosan támogatja a MoKee Open Source programot. Elismerésünk jeleként Ön korlátozott időre szóló ajánlatot kap. %1$d CNY összeggel élvezheti az ellenőrzött, csak a fejlesztéseket tartalmazó frissítéseket és a hirdetések eltávolítását a MoKee rendszerből (%2$d CNY megtakarítás). Ha később szeretne fizetni, zárja be ezt a párbeszédablakot, és majd amikor fizetni szeretne, akkor nyissa meg újra a MoKee Centert.</string>
-  <string name="discount_dialog_expires">Az ajánlat lejár ekkor: %s</string>
-  <string name="discount_dialog_cancel">Ne emlékeztessen</string>
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">MoKee rendszerfrissítés</string>
   <string name="verify_system_compatible_message">Végezzen előbb rendszerkompatibilitás ellenőrzést\u2026</string>

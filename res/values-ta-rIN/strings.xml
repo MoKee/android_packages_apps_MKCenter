@@ -151,7 +151,6 @@
   <!-- Experimenter mode -->
   <string name="show_exp_on">நீங்கள் சோதனை அமைப்புகளை இயக்கியுள்ளீர்கள்!</string>
   <string name="show_exp_already">தேவை இல்லை, நீங்கள் ஏற்கனவே சோதனை அமைப்புகளை இயக்கியுள்ளீர்கள்.</string>
-  <!-- Discount -->
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">MoKee கணினி மேம்படுத்தல்</string>
   <string name="verify_system_compatible_root_skip">தவிர்</string>

@@ -163,11 +163,6 @@
   <!-- Experimenter mode -->
   <string name="show_exp_on">Omogočili ste eksperimentalne nastavitve!</string>
   <string name="show_exp_already">Ni potrebno, ste že omogočili eksperimentalne nastavitve.</string>
-  <!-- Discount -->
-  <string name="discount_dialog_title">Časovno omejena ponudba</string>
-  <string name="discount_dialog_message">Zahvaljujemo se vam za stalno podporo MoKee Open Source. Kot znak priznanja, ste upravičeni do časovno omejene ponudbe. Z %1$d CNY lahko uživate v delnih posodobitvah, preverjenih posodobitvah in odstranitvah oglasov iz MoKee Centra (prihranite %2$d CNY). Če bi želeli plačati pozneje, lahko zaprete to pogovorno okno in ponovno zaženite MoKee Center, ko ste pripravljeni.</string>
-  <string name="discount_dialog_expires">Ponudba poteče čez %s</string>
-  <string name="discount_dialog_cancel">Ne opominjaj me več</string>
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">MoKee nadgradnja sistema</string>
   <string name="verify_system_compatible_message">Preverjanje združljivosti sistema pred nadgradnjo\u2026</string>

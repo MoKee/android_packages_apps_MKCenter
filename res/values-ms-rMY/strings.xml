@@ -165,11 +165,6 @@
   <!-- Experimenter mode -->
   <string name="show_exp_on">Anda telah mendayakan seting percubaan!</string>
   <string name="show_exp_already">Tidak perlu, anda telahpun mengaktifkan seting eksperimen.</string>
-  <!-- Discount -->
-  <string name="discount_dialog_title">Tawaran masa terhad</string>
-  <string name="discount_dialog_message">Terima kasih sebab sokongan anda yang berterusan terhadap MoKee Open Source. Sebagai tanda penghargaan, anda telah berlayak untuk tawaran masa terhad. Dengan %1$d CNY, anda dapat menikmati kemaskini tambahan, kemaskini yang telah disahkan dan mengeluarkan iklan dari MoKee Centre (menjimat %2$d CNY). Jika anda ingin menbayar kemudian, anda boleh menutup dialog dan melancarkan MoKee Center lagi apabila anda sudah bersedia.</string>
-  <string name="discount_dialog_expires">Tawaran tamat dalam %s</string>
-  <string name="discount_dialog_cancel">Jangan mengingatkan</string>
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">Kemaskini sistem Mokee</string>
   <string name="verify_system_compatible_message">Mengesahkan keserasian sistem sebelum penampalan\u2026</string>

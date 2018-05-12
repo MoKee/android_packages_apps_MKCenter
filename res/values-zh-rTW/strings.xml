@@ -165,11 +165,6 @@
   <!-- Experimenter mode -->
   <string name="show_exp_on">您已啟用實驗性設定 ！</string>
   <string name="show_exp_already">不用了，您已經啟用了實驗設定。</string>
-  <!-- Discount -->
-  <string name="discount_dialog_title">限時優惠</string>
-  <string name="discount_dialog_message">感謝您向 MoKee 開放原始碼的長期支援，現在您可享有限時優惠，%1$d CNY 取得增量更新、放心刷™並移除介面廣告！(立省 %2$d CNY) 若您想要稍後支付，可點選關閉此對話方塊並在準備就緒後重新開啟應用程式。</string>
-  <string name="discount_dialog_expires">%s 優惠截止</string>
-  <string name="discount_dialog_cancel">不要提醒</string>
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">MoKee 系統更新</string>
   <string name="verify_system_compatible_message">正在驗證增量更新的相容性</string>

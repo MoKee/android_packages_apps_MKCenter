@@ -165,11 +165,6 @@
   <!-- Experimenter mode -->
   <string name="show_exp_on">Pinagana mo ang mga pang-eksperimentong setting!</string>
   <string name="show_exp_already">Hindi na kailangan, na pinagana mo ang mga pang-eksperimentong setting.</string>
-  <!-- Discount -->
-  <string name="discount_dialog_title">Limitadong oras na alok</string>
-  <string name="discount_dialog_message">Salamat sa iyong patuloy na suporta sa MoKee Open Source. Bilang tanda ng pasasalamat, ikaw ay may karapatan sa isang limitadong oras na alok. Sa %1$d CNY, matatamasa mo ang mga incremental update, mga napatunayang update at alisin ang mga patalastas mula sa MoKee Centre (makakasave ng %2$d CNY). Kung gugustuhin mo na magbayad kalaunan, maaari mong isara ang diyalogong ito at muling ilunsad ang MoKee Center kapag ikaw ay handa na.</string>
-  <string name="discount_dialog_expires">Ang alok ay mag-e-expire sa %s</string>
-  <string name="discount_dialog_cancel">Huwag ipaalala</string>
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">Pag-update ng MoKee system</string>
   <string name="verify_system_compatible_message">Pag-verify ng pagkakabagay ng sistema bago i-patch ang \u2026</string>

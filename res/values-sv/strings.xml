@@ -150,9 +150,6 @@
   <!-- Experimenter mode -->
   <string name="show_exp_on">Du har aktiverat experimentella inställningar!</string>
   <string name="show_exp_already">Inget behov, du redan har aktiverat experimentella inställningarna.</string>
-  <!-- Discount -->
-  <string name="discount_dialog_title">Begränsat erbjudande</string>
-  <string name="discount_dialog_cancel">Påminn inte</string>
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">MoKee systemuppdatering</string>
   <string name="verify_system_compatible_root_skip">Hoppa över</string>

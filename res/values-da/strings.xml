@@ -148,7 +148,6 @@
   <!-- Experimenter mode -->
   <string name="show_exp_on">Du har aktiveret eksperimentelle indstillinger!</string>
   <string name="show_exp_already">Unødvendigt, eksperimentalindstillingerne er allerede aktive.</string>
-  <!-- Discount -->
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">MoKee systemopdatering</string>
   <string name="verify_system_compatible_root_skip">Spring over</string>

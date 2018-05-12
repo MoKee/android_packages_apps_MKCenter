@@ -46,8 +46,8 @@
   <string name="mokee_last_check_title">Son kontrol</string>
   <string name="mokee_last_check_never">Asla</string>
   <!-- Version -->
-  <string name="mokee_info_default">Bilinmeyen</string>
-  <string name="mokee_version_type_release">Yayın</string>
+  <string name="mokee_info_default">Bilinmiyor</string>
+  <string name="mokee_version_type_release">Kararlı</string>
   <string name="mokee_version_type_history">Geçmiş</string>
   <string name="mokee_version_type_experimental">Deneysel</string>
   <string name="mokee_version_type_nightly">Gecelik</string>
@@ -72,14 +72,14 @@
   <string name="donate_dialog_via_restore">Geri yükle</string>
   <string name="donate_money_toast_success">Bağış için teşekkür ederiz!</string>
   <string name="donate_money_title">MoKee Açık Kaynak\'a bağışta bulunun</string>
-  <string name="donate_money_again">Tekrar bağışla</string>
-  <string name="donate_money_restored_success">Geri yükleme Başarılı</string>
+  <string name="donate_money_again">Tekrar bağış yap</string>
+  <string name="donate_money_restored_success">Geri yükleme başarılı!</string>
   <string name="donate_money_restored_failed">Aygıt bulunamadı</string>
   <string name="donate_money_restored_failed_solution">Çözüm</string>
-  <string name="donate_money_restored_timeout">Bağlantı zaman aşımına ugradı lütfen tekrar deneyiniz</string>
+  <string name="donate_money_restored_timeout">Bağlantı zaman aşımına uğradı lütfen tekrar deneyiniz</string>
   <string name="donate_money_info">Toplamda bağışta bulundun CNY %1$d, daha fazla bağış %2$s toplam hibe!</string>
   <string name="donate_money_info_with_rank">Toplamda CNY %1$d bağışta bulundun, diğer bağışçılaradan %2$s daha fazla bağışta bulundun, sıra no %3$d!</string>
-  <string name="donate_money_info_null">Bağiş Yapılmadı</string>
+  <string name="donate_money_info_null">Bağiş yapılmadı</string>
   <string name="unlock_features_title">Özelliklerin kilidini aç</string>
   <string name="unlock_features_ota_title">Kilit açma ve tam hızda indirmek için %d CNY bağışla.</string>
   <string name="unlock_features_verify_rom_title">Doğrulanmış güncellemeler ve reklamları kaldırmak için %d CNY bağışlayın.</string>
@@ -91,13 +91,13 @@
   <string name="dialog_update">Güncelle</string>
   <string name="dialog_install">Yükle</string>
   <string name="dialog_ok">Tamam</string>
-  <string name="dialog_cancel">iptal</string>
+  <string name="dialog_cancel">İptal</string>
   <string name="dialog_close">Kapat</string>
-  <string name="no_available_updates_intro">Son kontrolde güncelleme bulunamadı. Yeni güncellemeleri elle kontrol etmek için Yenile düğmesini kullanın.</string>
+  <string name="no_available_updates_intro">Son kontrolde güncelleme bulunamadı. Yeni güncellemeleri elle kontrol etmek için Yenile tuşunu kullanın.</string>
   <string name="no_available_ota_intro">Son kontorlde herhangi  bir güncelleştirme bulunamadı. Yeni güncelleştirmeleri el ile denetlemek için yenile düğmesini kullanın. Desteklenen tarih aralıkları dşında bir sürüm kullanıyorsanız \"Artımlı güncelleştirmeler\" seçeneğindeki işareti kaldırın.</string>
   <string name="new_update_summary">Yeni</string>
   <string name="old_update_summary">Eski</string>
-  <string name="ota_diff_update_summary">OTA güncelleştirmeleri %s kaydedebilirsiniz</string>
+  <string name="ota_diff_update_summary">Artan güncellemeler %s kaydedebilir</string>
   <string name="full_diff_update_summary">Tam ROM için karşılaştırıldığında %s kaydeder</string>
   <string name="update_check_title">Güncelleme sıklığını kontrol et</string>
   <string name="check_manual">Elle</string>
@@ -113,7 +113,7 @@
   <string name="loading_changelog">Yükleniyor\u2026</string>
   <string name="check_on_boot">Her yeniden açılışta seçili tut</string>
   <string name="check_twice_daily">Günde iki defa</string>
-  <string name="check_daily">Günde bile defa</string>
+  <string name="check_daily">Günde bir defa</string>
   <string name="check_twice_weekly">Haftada iki defa</string>
   <string name="check_weekly">Haftada bir defa</string>
   <string name="check_bi_weekly">İki haftada bir</string>
@@ -130,10 +130,10 @@
   <string name="confirm_download_cancelation_dialog_title">İndirmeyi iptal et</string>
   <string name="confirm_download_cancelation_dialog_message">Devam eden indirme iptal edilsin mi?</string>
   <string name="download_remaining"><xliff:g id="duration" example="3 minutes"> %s </xliff:g> kaldı</string>
-  <string name="download_running">Devam Ediyor</string>
+  <string name="download_running">Devam ediyor</string>
   <string name="download_cancelled">İndirme iptal edildi</string>
-  <string name="download_already_running">Halihazırda bir indirme mevcut</string>
-  <string name="download_limited_mode">Sınırlı hızla indiriliyor, lütfen hizli indirim zevki için bağış yapın.</string>
+  <string name="download_already_running">Bir indirme işlemi devam ediyor</string>
+  <string name="download_limited_mode">Sınırlı hızla indiriliyor, tam hızda indirmek için lütfen bağış yapın.</string>
   <string name="unable_to_download_file">Güncelleme dosyası indirilemiyor</string>
   <string name="not_download_success">Güncelleme başarıyla indirildi</string>
   <string name="not_download_failure">Güncelleme indirme başarısız oldu</string>
@@ -143,8 +143,8 @@
   <string name="md5_verification_failed">MD5 doğrulaması hatalı</string>
   <string name="not_apk_action_install_update">Yükle</string>
   <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Dosyayı Sil</string>
-  <string name="confirm_delete_updates_dialog_message">Seçili güncelleştirme dosyası silinsin mi?</string>
+  <string name="confirm_delete_dialog_title">Dosyayı sil</string>
+  <string name="confirm_delete_updates_dialog_message">Seçili güncelleme dosyası silinsin mi?</string>
   <string name="confirm_delete_updates_all_dialog_message">Tüm indirilen güncelleme dosyaları silinsin mi?</string>
   <string name="delete_single_update_success_message"><xliff:g id="filename">%s</xliff:g> güncellemesi silindi</string>
   <string name="delete_updates_failure_message">Güncelleme dosyasını silerken bir hata oluştu</string>
@@ -152,7 +152,7 @@
   <string name="delete_updates_success_message">İndirilen tüm güncellemeler silindi</string>
   <!-- Pref -->
   <string name="pref_ota_check">OTA güncellemeleri</string>
-  <string name="pref_ota_check_summary">Yükleme süresi ve veri tasarrufu için ek -ota güncelleştirmeleri alın</string>
+  <string name="pref_ota_check_summary">İndirme süresinden kazanmak ve veri tasarrufu için Ota güncellemeleri alın</string>
   <string name="pref_ota_check_request_summary">Yükleme süresi ve veri tasarrufu için ek -ota güncelleştirmeleri alın</string>
   <string name="pref_verify_rom">Doğrulanmış güncellemeler</string>
   <string name="pref_verify_rom_summary">Yalnızca diğer kullanıcılar tarafından doğrulanan güncellemeleri görüntüleyin</string>
@@ -165,13 +165,8 @@
   <!-- Experimenter mode -->
   <string name="show_exp_on">Deneysel ayarları etkinleştirildiniz!</string>
   <string name="show_exp_already">Gerek yok, zaten deneysel ayarları etkinleştirdiniz.</string>
-  <!-- Discount -->
-  <string name="discount_dialog_title">Sınırlı süreli teklif</string>
-  <string name="discount_dialog_message">MoKee Açık Kaynak\'a yönelik devam eden destek için teşekkür ederiz. Bir takdir belirtisi olarak, sınırlı bir süre için teklif verme hakkına sahipsiniz. %1$d CNY ile, artımlı güncellemelerden, doğrulanmış güncellemelerden yararlanabilirsiniz ve MoKee Merkezi\'nden reklamları kaldırabilirsiniz ( %2$d CNY tasarruf edin). Daha sonra ödeme yapmak isterseniz, bu diyaloğu kapatabilir ve hazır olduğunuzda tekrar MoKee Merkezi\'ni yeniden başlatabilirsiniz.</string>
-  <string name="discount_dialog_expires">Teklif, %s süresi doldu</string>
-  <string name="discount_dialog_cancel">Hiç hatırlatma</string>
   <!-- Verify system compatible -->
-  <string name="verify_system_compatible_title">MoKee sistem güncelleme</string>
+  <string name="verify_system_compatible_title">MoKee sistem güncellemeleri</string>
   <string name="verify_system_compatible_message">\u2026 Öncesi sistem uyumluluğu doğrulanıyor</string>
   <string name="verify_system_compatible_failed">Sistem uyumluluğunu doğrulama başarısız oldu</string>
   <string name="verify_system_compatible_patch">Aşağıdaki dosyalar değiştirilmiş yada kaldırılmış, lütfen onları geri yükleyin veya tekrar deneyin.</string>

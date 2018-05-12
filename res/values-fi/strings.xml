@@ -154,11 +154,6 @@
   <!-- Experimenter mode -->
   <string name="show_exp_on">Kehittäjäasetukset on nyt käytössä!</string>
   <string name="show_exp_already">Olet jo ottanut kehittäjäasetukset käyttöön.</string>
-  <!-- Discount -->
-  <string name="discount_dialog_title">Vain rajoitetun ajan</string>
-  <string name="discount_dialog_message">Thank you for your ongoing support towards MoKee Open Source. As a token of appreciation, you are entitled to a limited time offer. With %1$d CNY, you can enjoy incremental updates, verified updates and remove ads from MoKee Centre (save %2$d CNY). If you would like to pay later, you can close this dialog and relaunch MoKee Center again when you are ready.</string>
-  <string name="discount_dialog_expires">Tarjous päättyy %s</string>
-  <string name="discount_dialog_cancel">Älä muistuta</string>
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">Mokee järjestelmän päivitys</string>
   <string name="verify_system_compatible_root_skip">Ohita</string>

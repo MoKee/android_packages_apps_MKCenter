@@ -143,7 +143,6 @@
   <!-- Experimenter mode -->
   <string name="show_exp_on">Омогућили сте експериментална подешавања!</string>
   <string name="show_exp_already">Није потребно. Већ сте омогућили експериментална подешавања.</string>
-  <!-- Discount -->
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_root_skip">Прескочи</string>
   <!-- Common -->

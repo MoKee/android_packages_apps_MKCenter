@@ -138,7 +138,6 @@
   <!-- Experimenter mode -->
   <string name="show_exp_on">You have enabled experimental settings!</string>
   <string name="show_exp_already">No need, you have already enabled experimental settings.</string>
-  <!-- Discount -->
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">MoKee system update</string>
   <string name="verify_system_compatible_root_skip">Skip</string>

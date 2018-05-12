@@ -92,7 +92,6 @@
   <!-- Pref -->
   <!-- Apply install and update strings -->
   <!-- Experimenter mode -->
-  <!-- Discount -->
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">Atualização de sistema MoKee</string>
   <string name="verify_system_compatible_root_skip">Pular</string>

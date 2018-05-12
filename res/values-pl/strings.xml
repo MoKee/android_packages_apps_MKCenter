@@ -165,11 +165,6 @@
   <!-- Experimenter mode -->
   <string name="show_exp_on">Włączyłeś ustawienia eksperymentalne!</string>
   <string name="show_exp_already">Nie trzeba, już włączyłeś ustawienia eksperymentalne.</string>
-  <!-- Discount -->
-  <string name="discount_dialog_title">Oferta ograniczona czasowo</string>
-  <string name="discount_dialog_message">Dziękujemy za dotychczasowe wsparcie dla MoKee Open Source. Jako wyraz naszego uznania otrzymujesz ograniczoną czasowo ofertę. Za %1$d juanów możesz cieszyć się aktualizacjami przyrostowymi, aktualizacjami zweryfikowanymi i możliwością usunięcia reklam z Centrum MoKee (oszczędzasz %2$d juanów). Jeżeli wolisz zapłacić później, to zamknij to okno i odwiedź ponownie Centrum MoKee, gdy będziesz gotowy.</string>
-  <string name="discount_dialog_expires">Oferta wygasa za %s</string>
-  <string name="discount_dialog_cancel">Nie przypominaj</string>
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">Aktualizacja systemu MoKee</string>
   <string name="verify_system_compatible_message">Weryfikowanie zgodności systemu przed patchowaniem \u2026</string>
