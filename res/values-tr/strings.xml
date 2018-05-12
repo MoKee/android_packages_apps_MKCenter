@@ -166,11 +166,6 @@
   <!-- Experimenter mode -->
   <string name="show_exp_on">Deneysel ayarları etkinleştirildiniz!</string>
   <string name="show_exp_already">Gerek yok, zaten deneysel ayarları etkinleştirdiniz.</string>
-  <!-- Discount -->
-  <string name="discount_dialog_title">Sınırlı süreli teklif</string>
-  <string name="discount_dialog_message">MoKee Açık Kaynak\'a yönelik devam eden destek için teşekkür ederiz. Bir takdir belirtisi olarak, sınırlı bir süre için teklif verme hakkına sahipsiniz. %1$d CNY ile, artımlı güncellemelerden, doğrulanmış güncellemelerden yararlanabilirsiniz ve MoKee Merkezi\'nden reklamları kaldırabilirsiniz ( %2$d CNY tasarruf edin). Daha sonra ödeme yapmak isterseniz, bu diyaloğu kapatabilir ve hazır olduğunuzda tekrar MoKee Merkezi\'ni yeniden başlatabilirsiniz.</string>
-  <string name="discount_dialog_expires">Teklif, %s süresi doldu</string>
-  <string name="discount_dialog_cancel">Hiç hatırlatma</string>
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">MoKee sistem güncelleme</string>
   <string name="verify_system_compatible_message">\u2026 Öncesi sistem uyumluluğu doğrulanıyor</string>

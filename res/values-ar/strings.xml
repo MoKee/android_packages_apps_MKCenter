@@ -170,11 +170,6 @@
   <!-- Experimenter mode -->
   <string name="show_exp_on">لقد قمت بتفعيل الإعدادات الاختبارية!</string>
   <string name="show_exp_already">لا داعي، لقد قمت بالفعل بتفعيل الإعدادات الاختبارية.</string>
-  <!-- Discount -->
-  <string name="discount_dialog_title">عرض لفترة محدودة</string>
-  <string name="discount_dialog_message">أشكركم على دعمكم المستمر نحو \"; موكي مفتوحة المصدر\";. كرمز للتقدير، يحق لك الحصول على العرض فترة محدودة. مع %1$d CNY، يمكنك الاستمتاع بالتحديثات التزايدية، التحقق من التحديثات وإزالة الإعلانات من مركز موكي (حفظ %2$d CNY). إذا كنت تريد أن تدفع في وقت لاحق، يمكنك إغلاق مربع الحوار هذا وإعادة إطلاق مركز موكي مرة أخرى عندما تكون جاهزاً.</string>
-  <string name="discount_dialog_expires">وينتهي العرض في %s</string>
-  <string name="discount_dialog_cancel">عدم التذكير</string>
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">تحديث نظام موكي</string>
   <string name="verify_system_compatible_message">التحقق من توافق النظام قبل patching</string>

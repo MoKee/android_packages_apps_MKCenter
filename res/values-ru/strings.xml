@@ -166,11 +166,6 @@
   <!-- Experimenter mode -->
   <string name="show_exp_on">Вы включили экспериментальные параметры!</string>
   <string name="show_exp_already">Не нужно, настройки для разработчиков уже включены.</string>
-  <!-- Discount -->
-  <string name="discount_dialog_title">Ограниченное предложение!</string>
-  <string name="discount_dialog_message">Благодарим вас за поддержку проекта MoKee Open Source! Мы очень признательны вам, поэтому предлагаем ограниченное предложение. За %1$d юаней вы можете устанавливать обновления по воздуху (ОТА); обновления, подтвержденные сообществом, а также убрать рекламу в Панели MoKee (со скидкой %2$d юаней). Если вы хотите разблокировать эти функции позже, вы можете закрыть Панель MoKee и открыть снова, когда будете готовы разблокировать их.</string>
-  <string name="discount_dialog_expires">Предложение закончится через %s</string>
-  <string name="discount_dialog_cancel">Не напоминать</string>
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">Обновление системы MoKee</string>
   <string name="verify_system_compatible_message">Проверка совместимости системы перед обновлением...</string>

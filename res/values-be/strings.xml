@@ -166,11 +166,6 @@
   <!-- Experimenter mode -->
   <string name="show_exp_on">Вы ўключылі эксперыментальныя параметры!</string>
   <string name="show_exp_already">Няма неабходнасці, эксперыментальныя параметры ўжо ўключаны.</string>
-  <!-- Discount -->
-  <string name="discount_dialog_title">Часовая прапанова</string>
-  <string name="discount_dialog_message">Дзякуем вам за доўгую падтрымку праекта MoKee Open Source. Мы вельмі ўдзячныя вам, таму запускаем часовае прапанову. За %1$d юань вы можаце ўсталяваць дадатковыя абнаўлення, абнаўлення, пацверджаныя супольнасцю, а таксама прыбраць рэкламу з прыкладання (са зніжкай %2$d юань). Зачыніце акно і перазапусціце прыкладанне, калі хочаце заплаціць пазней.</string>
-  <string name="discount_dialog_expires">Прапанова скончыцца праз %s</string>
-  <string name="discount_dialog_cancel">Не нагадваць</string>
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">Абнаўленне сістэмы MoKee</string>
   <string name="verify_system_compatible_message">Праверка сумяшчальнасці сістэмы перад абнаўленнем\u2026</string>

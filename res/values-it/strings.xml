@@ -166,11 +166,6 @@
   <!-- Experimenter mode -->
   <string name="show_exp_on">Funzioni sperimentali attivate!</string>
   <string name="show_exp_already">Non c\'è bisogno, le funzioni sperimentali sono già attivate</string>
-  <!-- Discount -->
-  <string name="discount_dialog_title">Offerta a tempo limitato</string>
-  <string name="discount_dialog_message">Grazie per il vostro continuo sostegno verso MoKee Open Source. Come segno di apprezzamento, hai diritto a un\'offerta limitata nel tempo. Con %1$d CNY, si possono godere di aggiornamenti incrementali, verifica degli aggiornamenti e rimozione degli annunci da MoKee Centre (Risparmia %2$d CNY). Se si desidera pagare più tardi, puoi chiudere questa finestra di dialogo e rilanciare MoKee Centre nuovamente quando si è pronti.</string>
-  <string name="discount_dialog_expires">L\'offerta scade tra %s</string>
-  <string name="discount_dialog_cancel">Non ricordarmelo</string>
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">Aggiornamento di sistema MoKee</string>
   <string name="verify_system_compatible_message">Verifica la compatibilità del sistema prima di patching\u2026</string>

@@ -166,11 +166,6 @@
   <!-- Experimenter mode -->
   <string name="show_exp_on">Ați activat setările experimentale!</string>
   <string name="show_exp_already">Nu este necesar, deja ați activat setările experimentale.</string>
-  <!-- Discount -->
-  <string name="discount_dialog_title">Ofertă limitată</string>
-  <string name="discount_dialog_message">Vă mulţumim pentru sprijinul dumneavoastră pentru MoKee Open Source. În semn de apreciere, puteți beneficia de o ofertă pentru un timp limitat. Cu %1$d CNY, vă puteţi bucura de actualizări incrementale, actualizări verificate şi eliminare anunţuri de la centrul de MoKee (salvați %2$d CNY). Dacă doriţi să plătiți mai târziu, puteţi închide această fereastră de dialog şi relansa centrul MoKee din nou atunci când sunteţi pregătit.</string>
-  <string name="discount_dialog_expires">Oferta expiră în %s</string>
-  <string name="discount_dialog_cancel">Nu aminti</string>
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">Update sistem Mokee</string>
   <string name="verify_system_compatible_message">Verifică compatibilitatea cu sistemul înainte de patching\u2026</string>

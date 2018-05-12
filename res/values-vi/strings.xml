@@ -166,11 +166,6 @@
   <!-- Experimenter mode -->
   <string name="show_exp_on">Bạn đã kích hoạt cài đặt thử nghiệm!</string>
   <string name="show_exp_already">Không cần thiết, bạn đã có cho phép cài đặt thử nghiệm.</string>
-  <!-- Discount -->
-  <string name="discount_dialog_title">Khuyến mãi có giới hạn</string>
-  <string name="discount_dialog_message">Cảm ơn bạn đã hỗ trợ liên tục của bạn đối với mã nguồn mở MoKee. Như là một mã thông báo của sự đánh giá cao, bạn có quyền cung cấp thời gian giới hạn. Với %1$d CNY, bạn có thể thưởng thức gia tăng Cập Nhật, xác minh thông tin Cập Nhật và loại bỏ quảng cáo từ Trung tâm MoKee (tiết kiệm %2$d CNY). Nếu bạn muốn thanh toán sau, bạn có thể đóng hộp thoại này và relaunch MoKee Trung tâm một lần nữa khi bạn đã sẵn sàng.</string>
-  <string name="discount_dialog_expires">Khuyến mãi hết hạn trong %s</string>
-  <string name="discount_dialog_cancel">Không nhắc lại</string>
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">Hệ thống cập nhật MoKee</string>
   <string name="verify_system_compatible_message">Xác nhận hệ thống khả năng tương thích trước khi patching\u2026</string>

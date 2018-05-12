@@ -149,7 +149,6 @@
   <!-- Experimenter mode -->
   <string name="show_exp_on">הגדרות ניסיוניות מופעלות!</string>
   <string name="show_exp_already">אין צורך, כבר הפעלת הגדרות ניסיוניות.</string>
-  <!-- Discount -->
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">עדכון מערכת MoKee</string>
   <string name="verify_system_compatible_root_skip">דלג</string>

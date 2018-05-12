@@ -35,7 +35,6 @@
   <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g>\n\n\n\n</string>
   <string name="apply_update_ota_dialog_text"><xliff:g id="filename">%s</xliff:g></string>
   <!-- Experimenter mode -->
-  <!-- Discount -->
   <!-- Verify system compatible -->
   <!-- Common -->
   <string name="activity_not_found">ไม่ได้ติดตั้งแอป</string>
