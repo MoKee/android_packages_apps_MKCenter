@@ -84,6 +84,8 @@
   <string name="unlock_features_ota_title">Prispevajte %d CNY in odklenite ota ter prenos s polno hitrostjo.</string>
   <string name="unlock_features_verify_rom_title">Prispevajte %d CNY za odklep ota, prenos s polno hitrostjo, preverjene posodobitve in odstranitev reklam.</string>
   <string name="unlock_features_all_title">Prispevajte %d CNY za odklep ota, prenos s polno hitrostjo, preverjene posodobitve in odstranitev reklam.</string>
+  <string name="unlock_features_request_summary">(na voljo po prispevku %d CNY)</string>
+  <string name="unlock_features_pending_summary">(prispevano %1$d CNY, če želite neomejeno uporabo, prispevajte še %2$d CNY)</string>
   <!-- Update -->
   <string name="unknown">Neznano</string>
   <string name="dialog_update">Posodobi</string>
