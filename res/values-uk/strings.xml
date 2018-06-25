@@ -68,12 +68,14 @@
   <string name="donate_dialog_message">На відміну від таких компаній, як Cygn або MIUI, MoKee OpenSource є некомерційним проектом, що з\'явивися на світ завдяки праці ентузіастів. Для того, щоб зберегти цей проект, ми вкладаємо свої власні кошти, а також кошти від пожертвувань і реклами. Ваші пожертвування можуть допомогти зменшити фінансове навантаження і підтримають розвиток проекту! Ця опція дозволить видалити рекламу в Панелі MoKee, або використовуйте сусідню опцію «Пожертвувати», якщо ви віддаєте перевагу розстрочці (реклама буде видалена після досягнення вказаного значення). Створіть резервну копію файлу mokee.license (знаходиться в кореневому каталозі sdcard, дійсна тільки для поточного пристрою), після здійснення пожертвування.</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
+  <string name="donate_dialog_via_wechat">WeChat</string>
   <string name="donate_dialog_via_restore">Відновити</string>
   <string name="donate_money_toast_success">Дякуємо вам за ваш внесок!</string>
   <string name="donate_money_title">Пожертвувати MoKee Open Source</string>
   <string name="donate_money_again">Пожертвувати знову</string>
   <string name="donate_money_restored_success">Відновлено успішно!</string>
   <string name="donate_money_restored_failed">Не знайдено запису про пристрій.</string>
+  <string name="donate_money_restored_failed_solution">Рішення</string>
   <string name="donate_money_restored_timeout">Таймаут з\'єднання, будь ласка, повторіть спробу</string>
   <string name="donate_money_info">Ви пожертвували всього CNY %1$d, це більше, ніж %2$s людей!</string>
   <string name="donate_money_info_with_rank">Ви пожертвували всього CNY %1$d, це більше, ніж %2$s людей всього, Ваш рейтинг %3$d!</string>
@@ -81,6 +83,9 @@
   <string name="unlock_features_title">Розблокувати більше можливостей</string>
   <string name="unlock_features_ota_title">Пожертвувати %d CNY для розблокування інкремнтальних оновлень по повітрю і завантаження на повній швидкості.</string>
   <string name="unlock_features_verify_rom_title">Пожертвувати %d CNY для розблокування інкремнтальних оновлень по повітрю, завантаження на повній швидкості, верифікованих оновлень та видалення реклами.</string>
+  <string name="unlock_features_all_title">Пожертвувати %d CNY для розблокування оновлень по повітрю, завантаження на повній швидкості, верифікованих оновлень та видалення реклами.</string>
+  <string name="unlock_features_request_summary">(доступні після пожертвування %d CNY)</string>
+  <string name="unlock_features_pending_summary">(пожертвувані %1$d CNY, доступні для життя післи жертви в %2$d CNY, або більше)</string>
   <!-- Update -->
   <string name="unknown">Невідомо</string>
   <string name="dialog_update">Оновити</string>
