@@ -26,7 +26,7 @@
     <item quantity="other">+ <xliff:g id="count">%d</xliff:g> mehr</item>
   </plurals>
   <plurals name="show_exp_countdown">
-    <item quantity="one">Sie sind noch <xliff:g id="step_count">%1$d</xliff:g> Schritt zum Aktivieren der Entwickleroptionen entfernt.</item>
+    <item quantity="one">Sie sind noch <xliff:g id="step_count">%1$d</xliff:g> Schritte zum Aktivieren der Entwickleroptionen entfernt.</item>
     <item quantity="other">Sie sind noch <xliff:g id="step_count">%1$d</xliff:g> Schritte zum Aktivieren der Entwickleroptionen entfernt.</item>
   </plurals>
 </resources>
