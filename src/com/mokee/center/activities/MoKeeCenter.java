@@ -140,9 +140,13 @@ public class MoKeeCenter extends AppCompatActivity {
         builder.setNeutralButton(R.string.donate_dialog_via_alipay, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
-                float price = isDonate ? (float) (mSeekBar.getProgress() + Constants.DONATION_REQUEST_MIN)
-                        : mSeekBar.getProgress() - paid;
-                requestForPayment("alipay", price, title);
+                if (!MoKeeUtils.isApkInstalledAndEnabled("com.eg.android.AlipayGphone", this)) {
+                    makeSnackbar(R.string.activity_not_found).show();
+                } else {
+                    float price = isDonate ? (float) (mSeekBar.getProgress() + Constants.DONATION_REQUEST_MIN)
+                            : mSeekBar.getProgress() - paid;
+                    requestForPayment("alipay", price, title);
+                }
             }
         });
 //        if (isDonate && MoKeeUtils.isSupportLanguage(false)) {
