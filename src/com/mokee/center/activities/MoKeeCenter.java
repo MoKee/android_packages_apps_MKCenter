@@ -128,7 +128,11 @@ public class MoKeeCenter extends AppCompatActivity {
                             : mSeekBar.getProgress() - paid;
                     switch (mVia.getCheckedRadioButtonId()) {
                         case R.id.alipay:
-                            requestForPayment("alipay", price, title);
+                            if (!MoKeeUtils.isApkInstalledAndEnabled("com.eg.android.AlipayGphone", this)) {
+                                makeSnackbar(R.string.activity_not_found).show();
+                            } else {
+                                requestForPayment("alipay", price, title);
+                            }
                             break;
                         case R.id.wechat:
                             requestForPayment("wechat", price, title);
