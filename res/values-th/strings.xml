@@ -18,13 +18,31 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Fragment -->
+  <string name="mokee_support_title">สนับสนุน</string>
+  <string name="mokee_updater_title">อัพ​เด​ท</string>
   <!-- WebSite -->
+  <string name="mokee_translate_summary">ช่วย Mokee แปลภาษา</string>
   <!-- Base Info -->
   <!-- Version -->
+  <string name="mokee_info_default">ไม่รู้จัก</string>
+  <string name="mokee_version_type_release">เวอร์ชันเสถียร</string>
+  <string name="mokee_version_type_history">ประวัติ</string>
+  <string name="mokee_version_type_experimental">กำลังทดลอง</string>
+  <string name="mokee_version_type_unofficial">อย่างไม่เป็นทางการ</string>
+  <string name="mokee_version_type_all">ทั้งหมด</string>
   <!-- State -->
+  <string name="downloaded_update_summary">ดาวน์โหลดแล้ว</string>
+  <string name="installed_update_summary">ติดตั้งแล้ว</string>
   <!-- Menu -->
+  <string name="menu_donate">บริจาค</string>
+  <string name="menu_refresh">รีเฟรช</string>
   <!-- Donate -->
+  <string name="donate_dialog_via_paypal">PayPal</string>
   <!-- Update -->
+  <string name="unknown">ไม่รู้จัก</string>
+  <string name="dialog_ok">ตกลง</string>
+  <string name="dialog_cancel">ยกเลิก</string>
+  <string name="dialog_close">ปิด</string>
   <!-- ChangeLog -->
   <!-- checking -->
   <!-- Downloads -->
@@ -36,6 +54,8 @@
   <string name="apply_update_ota_dialog_text"><xliff:g id="filename">%s</xliff:g></string>
   <!-- Experimenter mode -->
   <!-- Verify system compatible -->
+  <string name="verify_system_compatible_title">ปรับปรุงระบบ MoKee</string>
+  <string name="verify_system_compatible_root_skip">ข้าม</string>
   <!-- Common -->
   <string name="activity_not_found">ไม่ได้ติดตั้งแอป</string>
 </resources>

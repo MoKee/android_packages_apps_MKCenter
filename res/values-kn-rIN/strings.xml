@@ -83,9 +83,14 @@
   <string name="old_update_summary">ಪುರಾತನ</string>
   <string name="update_check_title">ಆಗಾಗ ನವೀಕರಣ ಪರಿಶೀಲಿಸಿ</string>
   <string name="check_manual">ಹಸ್ತಚಾಲಿತ</string>
+  <string name="experimenter_alert">ಪ್ರಾಯೋಗಿಕ ನವೀಕರಣಗಳನ್ನು ಈ ಪಟ್ಟಿಯಲ್ಲಿ ಸೇರಿಸಲು ನೀವು ಆಯ್ಕೆ ಮಾಡಿರುವಿರಿ. ಇವು ಬೆಂಬಲರಹಿತ ಮತ್ತು ಕೇವಲ ಪರೀಕ್ಷಾರ್ತ ಮಾತ್ರ, ಇದನ್ನು ಎಚ್ಚರಿಕೆಯಿಂದ ಬಳಸಬೇಕು.</string>
+  <string name="unofficial_alert">ಅನಧಿಕೃತ ನವೀಕರಣಗಳನ್ನು ಈ ಪಟ್ಟಿಯಲ್ಲಿ ಸೇರಿಸಲು ನೀವು ಆಯ್ಕೆ ಮಾಡಿರುವಿರಿ. ನಿಮ್ಮ ಸಾಧನ ನಿರ್ವಾಹಕರಿಂದ ಇವು ಬೆಂಬಲರಹಿತ ಎಂದು ನೆನಪಿನಲ್ಲಿಡಿ.</string>
+  <string name="all_alert">ಎಲ್ಲ ನವೀಕರಣಗಳನ್ನು (ಬಿಡುಗಡೆ, ಪ್ರತಿರಾತ್ರಿ) ಈ ಪಟ್ಟಿಯಲ್ಲಿ ಸೇರಿಸಲು ನೀವು ಆಯ್ಕೆ ಮಾಡಿರುವಿರಿ. ರಾತ್ರಿ ನವೀಕರಣಗಳು ಬೆಂಬಲರಹಿತ ಮತ್ತು ಎಚ್ಚರಿಕೆಯಿಂದ ಬಳಸುವಂತಿರುತ್ತವೆಯೆಂದು ಗಮನಿಸಿ.</string>
   <string name="alert_title">ಎಚ್ಚರಿಕೆ</string>
   <string name="update_type_title">ನವೀಕರಣ ಮಾದರಿ</string>
   <!-- ChangeLog -->
+  <string name="no_changelog_alert">ಬದಲಾವಣೆ ಲಾಗ್ ಲಭ್ಯವಿಲ್ಲ</string>
+  <string name="changelog_dialog_title">ಬದಲಾವಣೆ ಲಾಗ್</string>
   <string name="loading_changelog">ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ\u2026</string>
   <string name="check_on_boot">ಪ್ರತಿ ಮರುಪ್ರಾರಂಭಕ್ಕೆ</string>
   <string name="check_twice_daily">ಪ್ರತಿದಿನ ಎರಡು ಸಲ</string>
@@ -109,14 +114,30 @@
   <string name="download_running">ಪ್ರಗತಿಯಲ್ಲಿದೆ</string>
   <string name="download_cancelled">ಡೌನ್‍ಲೋಡ್ ರದ್ದುಗೊಳಿಸಲಾಗಿದೆ</string>
   <string name="download_already_running">ಒಂದು ಡೌನ್‍ಲೋಡ್ ಈಗಾಗಲೇ ಚಾಲನೆಯಲ್ಲಿದೆ</string>
+  <string name="download_limited_mode">ನಿಯಮಿತ ವೇಗದಲ್ಲಿ ಡೌನ್‍ಲೋಡ್ ಆಗುತ್ತಿದೆ, ದಯವಿಟ್ಟು ಸಂಪೂರ್ಣ ವೇಗವನ್ನು ಅನುಭವಿಸಲು ಕಾಣಿಕೆ ನೀಡಿ.</string>
   <string name="unable_to_download_file">ನವೀಕರಣೆ ಕಡತವನ್ನು ಡೌನ್‍ಲೋಡ್ ಮಾಡಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ</string>
   <string name="not_download_success">ನವೀಕರಣ ಯಶಸ್ವಿಯಾಗಿ ಡೌನ್‍ಲೋಡ್ ಆಗಿದೆ</string>
   <string name="not_download_failure">ನವೀಕರಣೆ ಡೌನ್‍ಲೋಡ್ ವಿಫಲಗೊಂಡಿದೆ</string>
   <string name="not_action_install_update">ಮರುಪ್ರಾರಂಭಿಸಿ ಮತ್ತು ಅಳವಡಿಸಿ</string>
   <string name="not_download_install_notice">ನವೀಕರಣ <xliff:g id="ದಾಖಲೆ ಹೆಸರು">%s</xliff:g> ಯಶಸ್ವಿಯಾಗಿ ಡೌನ್‍ಲೋಡ್ ಆಗಿದೆ. \'ಮರುಪ್ರಾರಂಭಿಸಿ ಮತ್ತು ಅಳವಡಿಸಿ\' ಸ್ಪರ್ಶಿಸಿದಾಗ, ಸಾಧನವು ನವೀಕರಣಗಳನ್ನು ಅಳವಡಿಸಲು ಸ್ವತ: ಮರುಪ್ರಾರಂಭಗೊಳ್ಳುತ್ತದೆ.\n\nಗಮನಿಸಿ: ಈ ವೈಶಿಷ್ಟ್ಯಕ್ಕೆ ಹೊಂದಿಕೊಳ್ಳುವ ಪುನ:ಸಂಪಾದನೆಯ ಅಥವಾ ದೈಹಿಕವಾಗಿ ನವೀಕರಣಗಳನ್ನು ಅಳವಡಿಸುವ ಅಗತ್ಯವಿದೆ.</string>
+  <string name="not_download_install_ota_notice">ನವೀಕರಣವು <xliff:g id="ಕಡತದ ಹೆಸರು">%s</xliff:g> ಯಶಸ್ವಿಯಾಗಿ ಡೌನ್ಲೋಡ್ ಗೊಂಡಿದೆ. \'ಮರುಪ್ರಾರಂಭಿಸಿ ಮತ್ತು ಅಳವಡಿಸಿ\', ಸ್ಪರ್ಶಿಸುವಾಗ, ಸಾಧನವು ನವೀಕರಣವನ್ನು ಅಳವಡಿಸುವಾಗ ಮರುಪ್ರಾರಂಭಗೊಳ್ಳುತ್ತದೆ.\n\nಸೂಚನೆ: ಈ ವೈಶಿಷ್ಟ್ಯಕ್ಕೆ ಹೊಂದಾಣಿಕೆಯಾಗುವ ಪುನಃಸಂಪಾದನೆಯ ಅಥವಾ ದೈಹಿಕವಾಗಿ ನವೀಕರಣೆಗಳ ಅಳವಡಿಕೆಯ ಅಗತ್ಯವಿದೆ.\n\n ಿಇದು ಹೆಚ್ಚಿನ ನವೀಕರಣವಾಗಿದೆ, ಅದಕ್ಕೆ ವ್ಯವಸ್ಥೆಯ ಯಾವುದೇ ಕಡತಗಳಲ್ಲಿ ಮಾಡಿದ ಬದಲಾವಣೆಗಳು ನವೀಕರಣವನ್ನು ವಿಫಲಗೊಳಿಸಬಹುದು. ಒಂದು ವೇಳೆ ಇದು ಆದಲ್ಲಿ, ಬದಲಾಗಿ ದಯವಿಟ್ಟು ಸಂಪೂರ್ಣ ROM ಅನ್ನು ಫ್ಲ್ಯಾಶ್ ಮಾಡಿ.</string>
+  <string name="md5_verification_failed">MD5 ಚೆಕ್ಸಮ್ ಹೊಂದಾಣಿಕೆಯಾಗುತ್ತಿಲ್ಲ</string>
   <string name="not_apk_action_install_update">ಅಳವಡಿಸಿ</string>
   <!-- deleting -->
+  <string name="confirm_delete_dialog_title">ಕಡತ ಅಳಿಸಿ</string>
+  <string name="confirm_delete_updates_dialog_message">ಆಯ್ಕೆಮಾಡಿದ ನವೀಕರಿಸಿದ ಕಡತ ಅಳಿಸುವುದೇ?</string>
+  <string name="confirm_delete_updates_all_dialog_message">ಡೌನ್‍ಲೋಡ್ ಮಾಡಿದ ಎಲ್ಲಾ ನವೀಕರಿಸಿದ ಕಡತಗಳನ್ನು ಅಳಿಸುವುದೇ?</string>
+  <string name="delete_single_update_success_message">ನವೀಕರಣೆ <xliff:g id="filename">%s</xliff:g> ಅಳಿಸಲಾಗಿದೆ</string>
+  <string name="delete_updates_failure_message">ನವೀಕರಿಸಿದ ಕಡತವನ್ನು ಅಳಿಸುವಲ್ಲಿ ಒಂದು ದೋಷವಿದೆ</string>
+  <string name="delete_updates_nofolder_message">ನವೀಕರಣೆ ಫೋಲ್ಡರ್ ಕಂಡುಬಂದಿಲ್ಲ</string>
+  <string name="delete_updates_success_message">ಎಲ್ಲಾ ಡೌನ್‍ಲೋಡ್ ಮಾಡಿದ ನವೀಕರಣೆಗಳನ್ನು ಅಳಿಸಲಾಗಿದೆ</string>
   <!-- Pref -->
+  <string name="pref_ota_check">ಹೆಚ್ಚಿನ ನವೀಕರಣೆಗಳು</string>
+  <string name="pref_ota_check_summary">ಡೌನ್ಲೋಡ್ ಮಾಡಿದ ಸಮಯ ಮತ್ತು ಅಳತೆಪಟ್ಟಿಯನ್ನು ಉಳಿಸಲು ಹೆಚ್ಚಿನ ನವೀಕರಣೆಗಳನ್ನು ಪಡೆಯಿರಿ</string>
+  <string name="pref_ota_check_request_summary">ಡೌನ್ಲೋಡ್ ಮಾಡಿದ ಸಮಯ ಮತ್ತು ಅಳತೆಪಟ್ಟಿಯನ್ನು ಉಳಿಸಲು ಹೆಚ್ಚಿನ ನವೀಕರಣೆಗಳನ್ನು ಪಡೆಯಿರಿ</string>
+  <string name="pref_verify_rom">ಪರಿಶೀಲಿಸಿದ ನವೀಕರಣೆಗಳು</string>
+  <string name="pref_verify_rom_summary">ಕೇವಲ ಬಳಕೆದಾರರಿಂದ ಪರಿಶೀಲಿಸಿದ ನವೀಕರಣೆಗಳನ್ನು ತೋರಿಸಿ</string>
+  <string name="pref_verify_rom_request_summary">ಕೇವಲ ಬಳಕೆದಾರರಿಂದ ಪರಿಶೀಲಿಸಿದ ನವೀಕರಣೆಗಳನ್ನು ತೋರಿಸಿ</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">ನವೀಕರಣ ಅನ್ವಯಿಸಿ</string>
   <string name="apply_unable_to_reboot_toast">ಮರುಸಂಗ್ರಹಣೆಗೆ ಮರುಪ್ರಾರಂಭ ಮಾಡಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ</string>

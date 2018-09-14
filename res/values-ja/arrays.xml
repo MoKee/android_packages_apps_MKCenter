@@ -24,6 +24,6 @@
     <item quantity="other">+<xliff:g id="count">%d</xliff:g> さらに</item>
   </plurals>
   <plurals name="show_exp_countdown">
-    <item quantity="other">あと<xliff:g id="step_count">%1$d</xliff:g>ステップで開発者向けオプションが有効になります。</item>
+    <item quantity="other">あと<xliff:g id="step_count">%1$d</xliff:g>ステップで開発者向けオプションが有効になります</item>
   </plurals>
 </resources>
