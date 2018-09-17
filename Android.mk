@@ -19,49 +19,48 @@ LOCAL_PATH:= $(call my-dir)
 
 include $(CLEAR_VARS)
 
-LOCAL_PACKAGE_NAME := MKCenter
 LOCAL_SRC_FILES := $(call all-java-files-under, src)
 
+LOCAL_RESOURCE_DIR := \
+    $(LOCAL_PATH)/res \
+    $(call intermediates-dir-for,JAVA_LIBRARIES,play-services-ads,,COMMON)/aar/res \
+    $(call intermediates-dir-for,JAVA_LIBRARIES,play-services-ads-lite,,COMMON)/aar/res \
+    $(call intermediates-dir-for,JAVA_LIBRARIES,play-services-basement,,COMMON)/aar/res
+
 LOCAL_JAVA_LIBRARIES := org.apache.http.legacy telephony-common
-LOCAL_STATIC_JAVA_LIBRARIES := \
+
+LOCAL_STATIC_ANDROID_LIBRARIES := \
     android-support-v4 \
     android-support-v7-appcompat \
     android-support-v7-preference \
     android-support-v7-recyclerview \
     android-support-v14-preference \
     android-support-customtabs \
-    android-support-design \
-    org.mokee.platform.internal \
-    volley
+    android-support-design
 
 LOCAL_STATIC_JAVA_AAR_LIBRARIES := \
     play-services-ads \
     play-services-ads-lite \
     play-services-basement
 
-LOCAL_RESOURCE_DIR := \
-    $(LOCAL_PATH)/res \
-    frameworks/support/v7/appcompat/res \
-    frameworks/support/v7/preference/res \
-    frameworks/support/v7/recyclerview/res \
-    frameworks/support/v14/preference/res \
-    frameworks/support/design/res
+LOCAL_STATIC_JAVA_LIBRARIES := \
+    org.mokee.platform.internal \
+    volley
 
-LOCAL_AAPT_FLAGS := --auto-add-overlay \
-    --extra-packages android.support.v7.appcompat \
-    --extra-packages android.support.v7.preference \
-    --extra-packages android.support.v7.recyclerview \
-    --extra-packages android.support.v14.preference \
-    --extra-packages android.support.v17.preference \
-    --extra-packages android.support.design \
+LOCAL_AAPT_FLAGS := \
+    --auto-add-overlay \
     --extra-packages com.google.android.gms
 
-LOCAL_PROGUARD_FLAG_FILES := proguard.flags
+LOCAL_USE_AAPT2 := true
+
+LOCAL_PACKAGE_NAME := MKCenter
+LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_PRIVILEGED_MODULE := true
-LOCAL_CERTIFICATE := platform
+LOCAL_PRIVATE_PLATFORM_APIS := true
 
 LOCAL_PROGUARD_ENABLED := obfuscation
+LOCAL_PROGUARD_FLAG_FILES := proguard.flags
 
 ifneq ($(INCREMENTAL_BUILDS),)
     LOCAL_PROGUARD_ENABLED := disabled
@@ -71,13 +70,3 @@ ifneq ($(INCREMENTAL_BUILDS),)
 endif
 
 include $(BUILD_PACKAGE)
-
-include $(CLEAR_VARS)
-
-PLAY_VERSION := 10.2.1
-LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := \
-    play-services-ads:../../../external/google/play-services-ads/$(PLAY_VERSION)/play-services-ads-$(PLAY_VERSION).aar \
-    play-services-ads-lite:../../../external/google/play-services-ads-lite/$(PLAY_VERSION)/play-services-ads-lite-$(PLAY_VERSION).aar \
-    play-services-basement:../../../external/google/play-services-basement/$(PLAY_VERSION)/play-services-basement-$(PLAY_VERSION).aar
-
-include $(BUILD_MULTI_PREBUILT)
