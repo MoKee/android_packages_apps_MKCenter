@@ -68,3 +68,5 @@
 -keep class com.mokee.center.misc.ItemInfo {
   *;
 }
+
+-dontwarn com.google.android.gms.**
