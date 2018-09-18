@@ -44,6 +44,12 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
 
 LOCAL_USE_AAPT2 := true
 
+PLAY_VERSION := 10.2.1
+LOCAL_FULL_LIBS_MANIFEST_FILES := \
+    $(LOCAL_PATH)/../../../external/google-play-services/play-services-ads/$(PLAY_VERSION)/AndroidManifest.xml \
+    $(LOCAL_PATH)/../../../external/google-play-services/play-services-ads-lite/$(PLAY_VERSION)/AndroidManifest.xml \
+    $(LOCAL_PATH)/../../../external/google-play-services/play-services-basement/$(PLAY_VERSION)/AndroidManifest.xml
+
 LOCAL_PACKAGE_NAME := MKCenter
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
