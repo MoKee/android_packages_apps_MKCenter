@@ -35,8 +35,11 @@ LOCAL_STATIC_ANDROID_LIBRARIES := \
     android-support-customtabs \
     android-support-design \
     play-services-ads \
+    play-services-ads-base \
+    play-services-ads-identifier \
     play-services-ads-lite \
-    play-services-basement
+    play-services-basement \
+    play-services-gass
 
 LOCAL_STATIC_JAVA_LIBRARIES := \
     org.mokee.platform.internal \
@@ -44,9 +47,8 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
 
 LOCAL_USE_AAPT2 := true
 
-PLAY_VERSION := 10.2.1
+PLAY_VERSION := 15.0.1
 LOCAL_FULL_LIBS_MANIFEST_FILES := \
-    $(LOCAL_PATH)/../../../external/google-play-services/play-services-ads/$(PLAY_VERSION)/AndroidManifest.xml \
     $(LOCAL_PATH)/../../../external/google-play-services/play-services-ads-lite/$(PLAY_VERSION)/AndroidManifest.xml \
     $(LOCAL_PATH)/../../../external/google-play-services/play-services-basement/$(PLAY_VERSION)/AndroidManifest.xml
 
