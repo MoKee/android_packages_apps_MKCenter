@@ -36,8 +36,11 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
 
 LOCAL_STATIC_JAVA_AAR_LIBRARIES := \
     play-services-ads \
+    play-services-ads-base \
+    play-services-ads-identifier \
     play-services-ads-lite \
-    play-services-basement
+    play-services-basement \
+    play-services-gass
 
 LOCAL_RESOURCE_DIR := \
     $(LOCAL_PATH)/res \
@@ -74,10 +77,13 @@ include $(BUILD_PACKAGE)
 
 include $(CLEAR_VARS)
 
-PLAY_VERSION := 10.2.1
+PLAY_VERSION := 15.0.1
 LOCAL_PREBUILT_STATIC_JAVA_LIBRARIES := \
     play-services-ads:../../../external/google/play-services-ads/$(PLAY_VERSION)/play-services-ads-$(PLAY_VERSION).aar \
+    play-services-ads-base:../../../external/google/play-services-ads-base/$(PLAY_VERSION)/play-services-ads-base-$(PLAY_VERSION).aar \
+    play-services-ads-identifier:../../../external/google/play-services-ads-identifier/$(PLAY_VERSION)/play-services-ads-identifier-$(PLAY_VERSION).aar \
     play-services-ads-lite:../../../external/google/play-services-ads-lite/$(PLAY_VERSION)/play-services-ads-lite-$(PLAY_VERSION).aar \
-    play-services-basement:../../../external/google/play-services-basement/$(PLAY_VERSION)/play-services-basement-$(PLAY_VERSION).aar
+    play-services-basement:../../../external/google/play-services-basement/$(PLAY_VERSION)/play-services-basement-$(PLAY_VERSION).aar \
+    play-services-gass:../../../external/google/play-services-gass/$(PLAY_VERSION)/play-services-gass-$(PLAY_VERSION).aar
 
 include $(BUILD_MULTI_PREBUILT)
