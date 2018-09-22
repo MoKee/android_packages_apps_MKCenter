@@ -81,7 +81,8 @@ import java.util.List;
 public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
         Preference.OnPreferenceChangeListener,
         ItemPreference.OnReadyListener,
-        ItemPreference.OnActionListener {
+        ItemPreference.OnActionListener,
+        AdmobPreference.OnReadyListener {
 
     public static final String EXPERIMENTAL_SHOW = "experimental_show";
 
@@ -279,9 +280,6 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
         if (!Utils.checkLicensed(moKeeCenter)) {
             MobileAds.initialize(getContext(), getString(R.string.app_id));
             adRequest = new AdRequest.Builder().build();
-            if (mAdmobView != null) {
-                mAdmobView.setAdRequest(adRequest);
-            }
 
             mEnterInterstitialAd = new InterstitialAd(getContext());
             mEnterInterstitialAd.setAdUnitId(getString(R.string.interstitial_ad_unit_id));
@@ -306,6 +304,20 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
                 }
             });
             mStartDownloadInterstitialAd.loadAd(adRequest);
+        }
+    }
+
+    @Override
+    public void onReady(AdmobPreference pref) {
+        if (mAdmobView != null) {
+            mAdmobView.setAdListener(new AdListener() {
+                @Override
+                public void onAdFailedToLoad(int errorCode) {
+                    super.onAdFailedToLoad(errorCode);
+                    removeAdmobPreference();
+                }
+            });
+            mAdmobView.loadAd(adRequest);
         }
     }
 
@@ -335,6 +347,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
 
         mRootView = (PreferenceScreen) findPreference(Constants.ROOT_PREF);
         mAdmobView = (AdmobPreference) findPreference(Constants.ADMOB_PREF);
+        mAdmobView.setOnReadyListener(this);
 
         mUpdatesList = (PreferenceCategory) findPreference(UPDATES_CATEGORY);
         mUpdateCheck = (ListPreference) findPreference(Constants.UPDATE_INTERVAL_PREF);

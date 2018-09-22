@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015-2017 The MoKee Open Source Project
+ * Copyright (C) 2015-2018 The MoKee Open Source Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -30,8 +30,9 @@ import com.mokee.center.R;
 
 public class AdmobPreference extends Preference {
 
+    private OnReadyListener mOnReadyListener;
+
     private AdView mAdView;
-    private AdRequest mAdRequest;
 
     @SuppressWarnings("unused")
     public AdmobPreference(Context context) {
@@ -58,14 +59,26 @@ public class AdmobPreference extends Preference {
 
     @Override
     public void onBindViewHolder(PreferenceViewHolder holder) {
-        if (mAdView == null && mAdRequest != null) {
-            mAdView = (AdView) holder.itemView;
-            mAdView.loadAd(mAdRequest);
+        super.onBindViewHolder(holder);
+        mAdView = (AdView) holder.itemView;
+        if (mOnReadyListener != null) {
+            mOnReadyListener.onReady(this);
         }
     }
 
-    public void setAdRequest(AdRequest adRequest) {
-        mAdRequest = adRequest;
+    public void setOnReadyListener(OnReadyListener listener) {
+        mOnReadyListener = listener;
+        if (mAdView != null && listener != null) {
+            listener.onReady(this);
+        }
+    }
+
+    public void setAdListener(AdListener adListener) {
+        mAdView.setAdListener(adListener);
+    }
+
+    public void loadAd(AdRequest adRequest) {
+        mAdView.loadAd(adRequest);
     }
 
     public void onAdPause() {
@@ -84,6 +97,10 @@ public class AdmobPreference extends Preference {
         if (mAdView != null) {
             mAdView.destroy();
         }
+    }
+
+    public interface OnReadyListener {
+        void onReady(AdmobPreference pref);
     }
 
 }
