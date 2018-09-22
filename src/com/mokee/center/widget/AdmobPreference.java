@@ -60,15 +60,6 @@ public class AdmobPreference extends Preference {
     public void onBindViewHolder(PreferenceViewHolder holder) {
         if (mAdView == null && mAdRequest != null) {
             mAdView = (AdView) holder.itemView;
-            mAdView.setAdListener(new AdListener() {
-                @Override
-                public void onAdFailedToLoad(int errorCode) {
-                    super.onAdFailedToLoad(errorCode);
-                    if (errorCode == AdRequest.ERROR_CODE_NO_FILL) {
-                        mAdView.loadAd(mAdRequest);
-                    }
-                }
-            });
             mAdView.loadAd(mAdRequest);
         }
     }
