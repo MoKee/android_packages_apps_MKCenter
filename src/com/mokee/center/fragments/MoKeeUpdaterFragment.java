@@ -287,14 +287,6 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
             mEnterInterstitialAd.setAdUnitId(getString(R.string.interstitial_ad_unit_id));
             mEnterInterstitialAd.setAdListener(new AdListener() {
                 @Override
-                public void onAdFailedToLoad(int errorCode) {
-                    super.onAdFailedToLoad(errorCode);
-                    if (errorCode == AdRequest.ERROR_CODE_NO_FILL) {
-                        mEnterInterstitialAd.loadAd(adRequest);
-                    }
-                }
-
-                @Override
                 public void onAdLoaded() {
                     super.onAdLoaded();
                     mEnterInterstitialAd.show();
@@ -310,14 +302,6 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
                     mStartDownloadInterstitialAd.loadAd(adRequest);
                     if (!Utils.checkMinLicensed(moKeeCenter)) {
                         moKeeCenter.makeSnackbar(R.string.download_limited_mode, Snackbar.LENGTH_LONG).show();
-                    }
-                }
-
-                @Override
-                public void onAdFailedToLoad(int errorCode) {
-                    super.onAdFailedToLoad(errorCode);
-                    if (errorCode == AdRequest.ERROR_CODE_NO_FILL) {
-                        mStartDownloadInterstitialAd.loadAd(adRequest);
                     }
                 }
             });
