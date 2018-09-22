@@ -22,5 +22,5 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:minHeight="50dp"
-    ads:adSize="SMART_BANNER"
+    ads:adSize="BANNER"
     ads:adUnitId="@string/banner_ad_unit_id" />
