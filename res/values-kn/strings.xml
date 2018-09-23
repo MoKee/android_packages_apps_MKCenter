@@ -61,17 +61,25 @@
   <string name="menu_donate">ಕಾಣಿಕೆ</string>
   <string name="menu_refresh">ಹೊಸತಾಗಿಸಿ</string>
   <string name="menu_delete_all">ಡೌನ್‍ಲೋಡ್‍ಗಳನ್ನು ಅಳಿಸಿ</string>
+  <string name="menu_unlock_features">ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಅನ್ಲಾಕ್ ಮಾಡಿ</string>
+  <string name="menu_restore">ಪರವಾನಗಿ ಮರುಸಂಗ್ರಹಿಸಿ</string>
   <!-- Donate -->
   <string name="donate_dialog_title">ನಮಗೆ ಕಾಣಿಕೆ ನೀಡಿ</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
+  <string name="donate_dialog_via_wechat">WeChat</string>
   <string name="donate_dialog_via_restore">ಮರುಸಂಗ್ರಹಿಸಿ</string>
   <string name="donate_money_toast_success">ನಿಮ್ಮ ಕಾಣಿಕೆಗೆ ಧನ್ಯವಾದಗಳು!</string>
+  <string name="donate_money_title">MoKee Open Source ಗೆ ಕಾಣಿಕೆ ನೀಡಿ</string>
   <string name="donate_money_again">ಮತ್ತೆ ಕಾಣಿಕೆ ನೀಡಿ</string>
   <string name="donate_money_restored_success">ಯಶಸ್ವಿಯಾಗಿ ಮರುಸಂಗ್ರಹಿಸಲಾಗಿದೆ!</string>
   <string name="donate_money_restored_failed">ಸಾಧನದ ಯಾವುದೇ ದಾಖಲೆಗಳು ಕಂಡುಬಂದಿಲ್ಲ.</string>
+  <string name="donate_money_restored_failed_solution">ಪರಿಹಾರ</string>
   <string name="donate_money_restored_timeout">ಸಂಪರ್ಕದ ಸಮಯವು ಮೀರಿದೆ, ದಯವಿಟ್ಟು ಮತ್ತೊಮ್ಮೆ ಪ್ರಯತ್ನಿಸಿ</string>
+  <string name="donate_money_info">ನೀವು ಒಟ್ಟು CNY ನ %1$d, ವಿಶ್ವದಾದ್ಯಂತ %2$s ಗಿಂತ ಹೆಚ್ಚು ಕಾಣಿಕೆಯನ್ನು ನೀಡಿದ್ದೀರಿ!</string>
+  <string name="donate_money_info_with_rank">ನೀವು ಒಟ್ಟು CNY ನ %1$d, ವಿಶ್ವದಾದ್ಯಂತ %2$s ದಾನಿಗಳಿಗಿಂತ ಹೆಚ್ಚು ಕಾಣಿಕೆ ನೀಡಿದ್ದೀರಿ, ಶ್ರೇಣಿ ಸಂಖ್ಯೆ %3$d!</string>
   <string name="donate_money_info_null">ನೀವು ಕಾಣಿಕೆ ನೀಡಿಲ್ಲ</string>
+  <string name="unlock_features_title">ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಅನ್ಲಾಕ್ ಮಾಡಿ</string>
   <!-- Update -->
   <string name="unknown">ಅಪರಿಚಿತ</string>
   <string name="dialog_update">ನವೀಕರಿಸಿ</string>
