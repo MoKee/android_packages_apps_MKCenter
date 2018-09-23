@@ -22,6 +22,7 @@
   <string name="mokee_support_title">サポート</string>
   <string name="mokee_updater_title">アップデーター</string>
   <!-- WebSite -->
+  <string name="mokee_links">リンク</string>
   <string name="mokee_website_title">MoKee ウェブサイト</string>
   <string name="mokee_website_summary">公式ウェブサイトを開く</string>
   <string name="mokee_forum_title">MoKee フォーラム</string>
@@ -70,18 +71,22 @@
   <string name="donate_dialog_via_alipay">アリペイ（支付宝）</string>
   <string name="donate_dialog_via_wechat">WeChat</string>
   <string name="donate_dialog_via_restore">復元する</string>
-  <string name="donate_money_toast_success">寄付していただきありがとうございます!</string>
+  <string name="donate_money_toast_success">寄付していただきありがとうございます！</string>
   <string name="donate_money_title">MoKee Open Sourceに寄付する</string>
   <string name="donate_money_again">もう一度寄付する</string>
-  <string name="donate_money_restored_success">成功に復元しました!</string>
+  <string name="donate_money_restored_success">成功に復元しました！</string>
   <string name="donate_money_restored_failed">デバイスの記録が見つかりませんでした</string>
+  <string name="donate_money_restored_failed_solution">解決策</string>
   <string name="donate_money_restored_timeout">接続がタイムアウトしたのでもう一度をやり直してください</string>
-  <string name="donate_money_info">あなたは CNY %1$dを寄付してくれて、グローバルに %2$s 以上のドナーより多いです！</string>
+  <string name="donate_money_info">あなたは CNY %1$dを寄付してくださり、世界で %2$s 人より多くの寄付をしました！</string>
   <string name="donate_money_info_with_rank">あなたは CNY %1$dを寄付してくれて、グローバルに %2$s 以上のドナーより多いですが、順番No.%3$dです！</string>
   <string name="donate_money_info_null">また寄付していません</string>
   <string name="unlock_features_title">機能のロック解除</string>
   <string name="unlock_features_ota_title">%d CNYを寄付してOTAをロック解除しフルスピードでダウンロードします</string>
-  <string name="unlock_features_verify_rom_title">ロックを解除するための%d CNY、フルスピードのダウンロード、更新の確認、広告の削除を寄付してください。</string>
+  <string name="unlock_features_verify_rom_title">更新の確認、広告の削除には %d CNYの寄付して下さい。</string>
+  <string name="unlock_features_all_title">OTAのロック解除、フルスピードでのダウンロード、更新の確認、広告の削除には %d CNYを寄付してください。 </string>
+  <string name="unlock_features_request_summary">（%d CNYの寄付後に有効です）</string>
+  <string name="unlock_features_pending_summary">（今まで %1$d CNYの寄付をし、あと %2$d CNYの寄付で永久に有効です。）</string>
   <!-- Update -->
   <string name="unknown">不明</string>
   <string name="dialog_update">更新</string>
@@ -90,17 +95,17 @@
   <string name="dialog_cancel">キャンセル</string>
   <string name="dialog_close">閉じる</string>
   <string name="no_available_updates_intro">利用可能なアップデートを見つけられませんでした。新しいアップデートを手動で確認するには更新ボタンを使用してください。</string>
-  <string name="no_available_ota_intro">最後の確認ではアップデートはありませんでした。手動でアップデートを確認するには、更新ボタンを押してください。インクリメンタルアップデートがサポートされないバージョンを実行している場合、「インクリメンタルアップデート」の設定を解除してください。</string>
+  <string name="no_available_ota_intro">最後の確認ではアップデートはありませんでした。手動でアップデートを確認するには、更新ボタンを押して下さい。インクリメンタルアップデートがサポートされないバージョンを実行している場合、「インクリメンタルアップデート」の設定を解除して下さい。</string>
   <string name="new_update_summary">新しい</string>
   <string name="old_update_summary">古い</string>
   <string name="ota_diff_update_summary">増分アップデートにより %s の節約が可能</string>
   <string name="full_diff_update_summary">フルROMと比較して %s を節約</string>
   <string name="update_check_title">アップデートの確認頻度</string>
   <string name="check_manual">マニュアル</string>
-  <string name="nightly_alert">このリストにNightlyアップデートを含めるようにしました。これらはサポートの対象外ですので、注意して使用してください。</string>
+  <string name="nightly_alert">このリストにNightlyアップデートを含めるようにしました。これらはサポートの対象外ですので、注意して使用して下さい。</string>
   <string name="experimenter_alert">このリストに実験的な更新を含めることを選択しました。 これらはサポートされておらず、テスト専用であるため使用する際には注意が必要です。</string>
-  <string name="unofficial_alert">このリストに非公式のアップデートを含めることを選択しました。これらはデバイスメンテナによってサポートされていることに注意してください。</string>
-  <string name="all_alert">このリストにすべてのアップデート(リリース及びナイトリービルド) を含めることを選択しました。ナイトリービルドはサポートが行われないため使用する際には注意が必要です。</string>
+  <string name="unofficial_alert">このリストに非公式のアップデートを含めることを選択しました。これらはデバイスメンテナによってサポートされていることに注意して下さい。</string>
+  <string name="all_alert">このリストに全てのアップデート(リリース及びナイトリービルド) を含めることを選択しました。ナイトリービルドはサポートが行われないため使用する際には注意が必要です。</string>
   <string name="alert_title">注意</string>
   <string name="update_type_title">アップデートタイプ</string>
   <!-- ChangeLog -->
@@ -119,7 +124,7 @@
   <string name="no_updates_found">新しいアップデートはありません</string>
   <string name="not_new_updates_found_ticker">新しいアップデートが利用可能です</string>
   <string name="not_new_updates_found_title">新しいアップデート</string>
-  <string name="update_check_failed">アップデートの確認に失敗しました。インターネット接続を確認し、しばらくしてからもう一度お試しください。</string>
+  <string name="update_check_failed">アップデートの確認に失敗しました。インターネット接続を確認し、しばらくしてからもう一度お試し下さい。</string>
   <string name="not_action_download">ダウンロード</string>
   <string name="data_connection_required">データ接続が必要です</string>
   <!-- Downloads -->
@@ -135,7 +140,7 @@
   <string name="not_download_failure">アップデートをダウンロードできませんでした</string>
   <string name="not_action_install_update">再起動してインストール</string>
   <string name="not_download_install_notice">アップデート <xliff:g id="filename">%s</xliff:g> は正常にダウンロードされました。\"再起動とインストール\"をタッチするとデバイスは再起動されアップデートのインストールを実行します。\n\n注意: この機能は互換性のあるリカバリか手動でのインストールを必要とします。</string>
-  <string name="not_download_install_ota_notice">アップデート <xliff:g id="filename">%s</xliff:g> は正常にダウンロードされました。\"再起動とインストール\"をタッチするとデバイスは再起動されアップデートのインストールを実行します。\n\n注意: この機能は互換性のあるリカバリか手動でのインストールを必要とします。\n\n差分アップデートはユーザーによるシステムファイルに加えられた変更が原因でアップデートのインストールに失敗する可能性があります。この場合は差分アップデートではなくROM全体のフラッシュを試してみてください。</string>
+  <string name="not_download_install_ota_notice">アップデート <xliff:g id="filename">%s</xliff:g> は正常にダウンロードされました。\"再起動とインストール\"をタッチするとデバイスは再起動されアップデートのインストールを実行します。\n\n注意: この機能は互換性のあるリカバリか手動でのインストールを必要とします。\n\n差分アップデートはユーザーによるシステムファイルに加えられた変更が原因でアップデートのインストールに失敗する可能性があります。この場合は差分アップデートではなくROM全体のフラッシュを試してみて下さい。</string>
   <string name="md5_verification_failed">MD5チェックサムが一致しません</string>
   <string name="not_apk_action_install_update">インストール</string>
   <!-- deleting -->
@@ -156,7 +161,7 @@
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">アップデートを適用</string>
   <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g> にアップグレードしようとしています。\n\n更新を押すと端末は再起動後、自動でリカバリーモードに移行しアップデートをインストールします。\n\n注意: この機能は互換性のあるリカバリか手動でのインストールを必要とします。</string>
-  <string name="apply_update_ota_dialog_text"><xliff:g id="filename">%s</xliff:g> にアップグレードしようとしています。\n\n更新を押すと端末は再起動後、自動でリカバリーモードに移行しアップデートをインストールします。\n\n差分アップデートはユーザーによるシステムファイルに加えられた変更が原因でアップデートのインストールに失敗する可能性があります。この場合は差分アップデートではなくROM全体のフラッシュを試してみてください。</string>
+  <string name="apply_update_ota_dialog_text"><xliff:g id="filename">%s</xliff:g> にアップグレードしようとしています。\n\n更新を押すと端末は再起動後、自動でリカバリーモードに移行しアップデートをインストールします。\n\n差分アップデートはユーザーによるシステムファイルに加えられた変更が原因でアップデートのインストールに失敗する可能性があります。この場合は差分アップデートではなくROM全体のフラッシュを試してみて下さい。</string>
   <string name="apply_unable_to_reboot_toast">リカバリーモードへ再起動できません</string>
   <!-- Experimenter mode -->
   <string name="show_exp_on">実験的な設定項目が有効になっています！</string>
@@ -165,8 +170,8 @@
   <string name="verify_system_compatible_title">MoKee システム更新</string>
   <string name="verify_system_compatible_message">パッチ適用前のシステム互換性の確認\u2026</string>
   <string name="verify_system_compatible_failed">システムの互換性の確認に失敗しました</string>
-  <string name="verify_system_compatible_patch">以下のファイルが変更または削除されました。復元して再試行してください。</string>
-  <string name="verify_system_compatible_img">互換性がない %1$s 、バージョン %2$s にアップグレードしてください</string>
+  <string name="verify_system_compatible_patch">以下のファイルが変更または削除されました。復元して再試行して下さい。</string>
+  <string name="verify_system_compatible_img">%1$s に互換性がありません。バージョン %2$s にアップグレードして下さい。</string>
   <string name="verify_system_compatible_root_request">アップデートの互換性を確認するために、アップデート検証プラグインでRoot 権限が必要です。 スキップすることを選択した場合、このステップは遅延され、recovery モードで実行されます。</string>
   <string name="verify_system_compatible_root_skip">スキップ</string>
   <!-- Common -->
