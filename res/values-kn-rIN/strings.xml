@@ -152,6 +152,7 @@
   <!-- Experimenter mode -->
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">MoKee ವ್ಯವಸ್ಥೆ ನವೀಕರಣ</string>
+  <string name="verify_system_compatible_root_skip">ಬಿಟ್ಟುಬಿಡಿ</string>
   <!-- Common -->
   <string name="activity_not_found">ಅಪ್ಲಿಕೇಶನ್‌ ಅನ್ನು ಸ್ಥಾಪಿಸಲಾಗಿಲ್ಲ</string>
 </resources>
