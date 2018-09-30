@@ -80,6 +80,11 @@
   <string name="donate_money_info_with_rank">ನೀವು ಒಟ್ಟು CNY ನ %1$d, ವಿಶ್ವದಾದ್ಯಂತ %2$s ದಾನಿಗಳಿಗಿಂತ ಹೆಚ್ಚು ಕಾಣಿಕೆ ನೀಡಿದ್ದೀರಿ, ಶ್ರೇಣಿ ಸಂಖ್ಯೆ %3$d!</string>
   <string name="donate_money_info_null">ನೀವು ಕಾಣಿಕೆ ನೀಡಿಲ್ಲ</string>
   <string name="unlock_features_title">ವೈಶಿಷ್ಟ್ಯಗಳನ್ನು ಅನ್ಲಾಕ್ ಮಾಡಿ</string>
+  <string name="unlock_features_ota_title">Ota ಗೋಸ್ಕರ ಮತ್ತು ಪೂರ್ಣ ವೇಗದಲ್ಲಿ ಡೌನ್ಲೋಡ ಮಾಡಿಕೊಳ್ಳಲು %d CNY ಕಾಣಿಕೆ ನೀಡಿ.</string>
+  <string name="unlock_features_verify_rom_title">ಪರಿಶೀಲಿಸಿದ ನವೀಕರಣಗಳಿಗೆ ಮತ್ತು ಜಾಹೀರಾತುಗಳನ್ನು ತೆಗೆಯಲು %d CNY ಕಾಣಿಕೆ ನೀಡಿ.</string>
+  <string name="unlock_features_all_title">Ota ಗೋಸ್ಕರ, ಪೂರ್ಣ ವೇಗದಲ್ಲಿ ಡೌನ್ಲೋಡ ಮಾಡಿಕೊಳ್ಳಲು, ಪರಿಶೀಲಿಸಿದ ನವೀಕರಣಗಳಿಗೆ ಮತ್ತು ಜಾಹೀರಾತುಗಳನ್ನು ತೆಗೆಯಲು %d CNY ಕಾಣಿಕೆ ನೀಡಿ.</string>
+  <string name="unlock_features_request_summary">(%d CNY ಕಾಣಿಕೆ ನೀಡಿದ ನಂತರ ಲಭ್ಯವಿರುವುದು)</string>
+  <string name="unlock_features_pending_summary">(%1$d CNY ಕಾಣಿಕೆ ನೀಡಿದ್ದೀರಿ. %2$d CNY ಅಥವಾ ಹೆಚ್ಚು ಕಾಣಿಕೆ ನೀಡಿದ ನಂತರ ಜೀವಮಾನಕ್ಕಾಗಿ ಲಭ್ಯವಿರುತ್ತದೆ)</string>
   <!-- Update -->
   <string name="unknown">ಅಪರಿಚಿತ</string>
   <string name="dialog_update">ನವೀಕರಿಸಿ</string>
@@ -87,10 +92,15 @@
   <string name="dialog_ok">ಸರಿ</string>
   <string name="dialog_cancel">ರದ್ದು</string>
   <string name="dialog_close">ಮುಚ್ಚಿ</string>
+  <string name="no_available_updates_intro">ಕೊನೆಯ ಪರೀಕ್ಷೆಯು ಯಾವುದೇ ಲಭ್ಯವಿರುವ ನವೀಕರಣಗಳನ್ನು ಕಂಡು ಹಿಡಿದಿಲ್ಲ. ದೈಹಿಕವಾಗಿ ನೀವು ಹೊಸ ನವೀಕರಣಗಳನ್ನು ಪರೀಕ್ಷಿಸಲು ಮರುಹೊಸದಾಗಿಸಿ ಗುಂಡಿ ಬಳಸಿ.</string>
+  <string name="no_available_ota_intro">ಕೊನೆಯ ಪರೀಕ್ಷೆಯು ಯಾವುದೇ ಲಭ್ಯವಿರುವ ನವೀಕರಣಗಳನ್ನು ಕಂಡು ಹಿಡಿದಿಲ್ಲ. ದೈಹಿಕವಾಗಿ ನೀವು ಹೊಸ ನವೀಕರಣಗಳನ್ನು ಪರೀಕ್ಷಿಸಲು ಮರುಹೊಸದಾಗಿಸಿ ಗುಂಡಿ ಬಳಸಿ. ಒಂದು ವೇಳೆ ನೀವು ಬೆಂಬಲರಹಿತ ಉನ್ನತ ನವೀಕರಣದ ದಿನಾಂಕದ ಶ್ರೇಣಿಯಲ್ಲಿ ನಿಮ್ಮ ಆವೃತ್ತಿಯನ್ನು ಚಲಾಯಿಸುತ್ತಿದ್ದಲ್ಲಿ, ನೀವು \"ಉನ್ನತ ನವೀಕರಣಗಳು\" ಆಯ್ಕೆಯನ್ನು ತೆಗೆಯಬೇಕು.</string>
   <string name="new_update_summary">ನೂತನ</string>
   <string name="old_update_summary">ಪುರಾತನ</string>
+  <string name="ota_diff_update_summary">ಉನ್ನತ ನವೀಕರಣಗಳು %s ಉಳಿಸಬಹುದು</string>
+  <string name="full_diff_update_summary">ಪೂರ್ಣ ROM ಗೆ ಹೋಲಿಕೆ ಮಾಡಿದಾಗ %s ಉಳಿಯುತ್ತದೆ</string>
   <string name="update_check_title">ಆಗಾಗ ನವೀಕರಣ ಪರಿಶೀಲಿಸಿ</string>
   <string name="check_manual">ಹಸ್ತಚಾಲಿತ</string>
+  <string name="nightly_alert">ನೀವು ಈ ಪಟ್ಟಿಯಲ್ಲಿ ರಾತ್ರಿ ನವೀಕರಣಗಳನ್ನು ಸೇರಿಸಲು ಆಯ್ಕೆ ಮಾಡಿದ್ದೀರಿ. ಇವು ಬೆಂಬಲರಹಿತವಾಗಿವೆ ಮತ್ತು ಎಚ್ಚರಿಕೆಯಿಂದ ಬಳಸಬಹುದಾಗಿರುತ್ತವೆ.</string>
   <string name="experimenter_alert">ಪ್ರಾಯೋಗಿಕ ನವೀಕರಣಗಳನ್ನು ಈ ಪಟ್ಟಿಯಲ್ಲಿ ಸೇರಿಸಲು ನೀವು ಆಯ್ಕೆ ಮಾಡಿರುವಿರಿ. ಇವು ಬೆಂಬಲರಹಿತ ಮತ್ತು ಕೇವಲ ಪರೀಕ್ಷಾರ್ತ ಮಾತ್ರ, ಇದನ್ನು ಎಚ್ಚರಿಕೆಯಿಂದ ಬಳಸಬೇಕು.</string>
   <string name="unofficial_alert">ಅನಧಿಕೃತ ನವೀಕರಣಗಳನ್ನು ಈ ಪಟ್ಟಿಯಲ್ಲಿ ಸೇರಿಸಲು ನೀವು ಆಯ್ಕೆ ಮಾಡಿರುವಿರಿ. ನಿಮ್ಮ ಸಾಧನ ನಿರ್ವಾಹಕರಿಂದ ಇವು ಬೆಂಬಲರಹಿತ ಎಂದು ನೆನಪಿನಲ್ಲಿಡಿ.</string>
   <string name="all_alert">ಎಲ್ಲ ನವೀಕರಣಗಳನ್ನು (ಬಿಡುಗಡೆ, ಪ್ರತಿರಾತ್ರಿ) ಈ ಪಟ್ಟಿಯಲ್ಲಿ ಸೇರಿಸಲು ನೀವು ಆಯ್ಕೆ ಮಾಡಿರುವಿರಿ. ರಾತ್ರಿ ನವೀಕರಣಗಳು ಬೆಂಬಲರಹಿತ ಮತ್ತು ಎಚ್ಚರಿಕೆಯಿಂದ ಬಳಸುವಂತಿರುತ್ತವೆಯೆಂದು ಗಮನಿಸಿ.</string>
