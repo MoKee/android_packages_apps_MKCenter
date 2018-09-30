@@ -66,6 +66,7 @@
   <!-- Donate -->
   <string name="donate_dialog_title">捐赠我们</string>
   <string name="donate_dialog_message">和 Cyanogen，MIUI 等已接受投资的商业化公司不同，魔趣作为非营利性的民间开源项目，需要通过接受捐赠或是显示界面广告等手段筹集经费，才能负担得起每个月的服务器租用及托管、网络带宽、接口授权等高昂支出。因此，您的支持至关重要！请为魔趣出些力，帮助我们做得更好！捐赠完成后，我们会为您激活捐赠用户独享的强大功能！同时，您的捐赠记录会永久保存在云端服务器上，当您清除数据或从其它ROM刷回魔趣时，捐赠记录将会自动恢复。</string>
+  <string name="donate_dialog_faq">疑问解答</string>
   <string name="donate_dialog_via_paypal">贝宝</string>
   <string name="donate_dialog_via_alipay">支付宝</string>
   <string name="donate_dialog_via_wechat">微信</string>

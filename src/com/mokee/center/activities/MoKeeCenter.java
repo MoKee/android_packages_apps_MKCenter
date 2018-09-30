@@ -123,21 +123,17 @@ public class MoKeeCenter extends AppCompatActivity {
                 requestForPayment("paypal", price, title);
             }
         });
-//
-//         builder.setNegativeButton(R.string.donate_dialog_via_wechat, new DialogInterface.OnClickListener() {
-//             @Override
-//             public void onClick(DialogInterface dialog, int which) {
-//                 if (MoKeeUtils.isApkInstalledAndEnabled("com.tencent.mm", MoKeeCenter.this)) {
-//                     float price = isDonate ? (float) (mSeekBar.getProgress() + Constants.DONATION_REQUEST_MIN)
-//                             : mSeekBar.getProgress() - paid;
-//                     requestForPayment("wechat", price, title);
-//                 } else {
-//                     Toast.makeText(MoKeeCenter.this, R.string.activity_not_found, Toast.LENGTH_SHORT).show();
-//                 }
-//             }
-//         });
 
-        builder.setNeutralButton(R.string.donate_dialog_via_alipay, new DialogInterface.OnClickListener() {
+        builder.setNeutralButton(R.string.donate_dialog_faq, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                Uri uri = Uri.parse("https://bbs.mokeedev.com/t/topic/9049/1");
+                Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(intent);
+            }
+        });
+
+        builder.setNegativeButton(R.string.donate_dialog_via_alipay, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialog, int which) {
                 float price = isDonate ? (float) (mSeekBar.getProgress() + Constants.DONATION_REQUEST_MIN)
