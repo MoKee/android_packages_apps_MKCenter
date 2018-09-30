@@ -123,7 +123,7 @@ public class MoKeeCenter extends AppCompatActivity {
         new AlertDialog.Builder(this)
                 .setTitle(title)
                 .setView(donateView)
-                .setPositiveButton("下一步", (dialog, which) -> {
+                .setPositiveButton(R.string.donate_dialog_next, (dialog, which) -> {
                     float price = isDonate ? (float) (mSeekBar.getProgress() + Constants.DONATION_REQUEST_MIN)
                             : mSeekBar.getProgress() - paid;
                     switch (mVia.getCheckedRadioButtonId()) {
@@ -137,6 +137,11 @@ public class MoKeeCenter extends AppCompatActivity {
                             requestForPayment("paypal", price, title);
                             break;
                     }
+                })
+                .setNegativeButton(R.string.donate_dialog_faq, (dialog, which) -> {
+                    Uri uri = Uri.parse("https://bbs.mokeedev.com/t/topic/9049/1");
+                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                    startActivity(intent);
                 })
                 .show();
     }
