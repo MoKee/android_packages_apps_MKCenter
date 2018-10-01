@@ -37,6 +37,7 @@
   <string name="menu_donate">บริจาค</string>
   <string name="menu_refresh">รีเฟรช</string>
   <!-- Donate -->
+  <string name="donate_dialog_next">ถัดไป</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <!-- Update -->
   <string name="unknown">ไม่รู้จัก</string>

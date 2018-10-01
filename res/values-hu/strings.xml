@@ -67,6 +67,7 @@
   <!-- Donate -->
   <string name="donate_dialog_title">Támogass minket</string>
   <string name="donate_dialog_message">Más olyan cégekhez, mint a Cygn vagy a MIUI a MoKee OpenSource egy teljesen nonprofit elveken működő project, mely hobbiból született. A projekt fenntartásához szükséges anyagiakat legtöbbször saját magunk biztosítjuk, vagy adományokra ls hirdetésekre támaszkodunk. Adományoddal segíthetsz a további fejlesztésben! Ez az opció lehetővé teszi a reklámok eltávolítását a MoKee Centerben, de választhatod az \"Adomány\" opciót is, ha részletekben szeretnél segíteni (amint a részletek összege eléri szükséges szintet, a reklámok eltávolításra kerülnek). Készíts biztonsági másolatot a mokee.license fájlról az adományozás után (megtalálható az SD kártya gyökérkönyvtárában, csak egy eszközre használható).</string>
+  <string name="donate_dialog_next">Következő</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_wechat">WeChat</string>

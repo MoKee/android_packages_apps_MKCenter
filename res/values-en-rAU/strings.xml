@@ -61,6 +61,7 @@
   <!-- Donate -->
   <string name="donate_dialog_title">Donate to us</string>
   <string name="donate_dialog_message">Unlike companies like Cygn or MIUI, MoKee OpenSource is a purely non-profit project born of hobby and passion. In order to maintain this project, we have to fork out our own money most of the time or rely on donations and advertisements. Your donations can help reduce our financial load and sustain future development! This option allows you to remove the ads in MoKee Center, or use the \"Donate\" option instead if you prefer installments (ads will be removed once the total has reached the specified value). Please backup the mokee.license file (in the root directory of sdcard, only valid for current device) once you have donated.</string>
+  <string name="donate_dialog_next">Next</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_money_toast_success">Thank you for your donation!</string>

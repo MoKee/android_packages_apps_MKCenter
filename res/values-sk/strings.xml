@@ -67,6 +67,8 @@
   <!-- Donate -->
   <string name="donate_dialog_title">Podporte nás</string>
   <string name="donate_dialog_message">Na rozdiel od projektov ako CyanogenMod alebo MIUI, MoKee OpenSource je čisto neziskový projekt, ktorý vznikol zo záľuby a z vášne. Aby sme mohli projekt aj naďalej udržiavať, musíme vkladať do projektu zvyčajne vlastné finančné zdroje alebo spoliehať na Vaše príspevky a výnosy z reklamy. Vaše príspevky pomôžu zredukovať naše finančné zaťaženie a udržať budúci rozvoj! Táto možnosť Vám umožňuje odstrániť reklamy z MoKee centra, ale ak preferujete nižšie splátky, zvoľte možnosť \"Podporte nás\" (reklamy budú odstránené až splátky dosiahnú špecifickú sumu). Potom, ako nás podporíte, zazálohujte si prosím súbor mokee.license (v koreni zložky sdcard), ktorý je platný len pre súčasné zariadenie.</string>
+  <string name="donate_dialog_faq">Q&amp;A</string>
+  <string name="donate_dialog_next">Ďalší</string>
   <string name="donate_dialog_via_paypal">Paypal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_wechat">WeChat</string>

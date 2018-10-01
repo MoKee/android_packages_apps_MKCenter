@@ -51,6 +51,7 @@
   <string name="menu_delete_all">Endirməni sil</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Bizə ianə ver</string>
+  <string name="donate_dialog_next">Sonrakı</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_restore">Bərpa et</string>

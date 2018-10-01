@@ -66,6 +66,7 @@
   <!-- Donate -->
   <string name="donate_dialog_title">Donera till oss</string>
   <string name="donate_dialog_message">Till skillnad från företag som Cygn eller MIUI är MoKee OpenSource ett rent ideellt projekt född av hobby och passion. För att upprätthålla detta projekt, måste vi punga ut våra egna pengar för det mesta eller beroende av donationer och annonser. Din donationer kan hjälpa minska våra finansiella belastning och upprätthålla framtida utveckling! Detta alternativ kan du ta bort annonserna i MoKee Center och i stället använder alternativet \"Donera\" om du föredrar omgångar (annonser kommer att tas bort när totalen har nått det angivna värdet). Vänligen säkerhetskopiera mokee.license fil (i rotkatalogen på sdcard, gäller endast för aktuell enhet) när du har donerat.</string>
+  <string name="donate_dialog_next">Nästa</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_wechat">WeChat</string>

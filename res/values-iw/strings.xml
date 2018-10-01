@@ -64,6 +64,7 @@
   <!-- Donate -->
   <string name="donate_dialog_title">תרום לנו</string>
   <string name="donate_dialog_message">שלא כמו חברות כגון CyanogenMod או MIUI, הרום MoKee הוא פרויקט בקוד פתוח וללא מטרות רווח ונולד מתוך תחביב. בשביל לתחזק את הפרויקט, אנחנו צריכים להשיג כסף מתרומות או מפרסומות. התרומה שלך יכולה לעזור לנו בתשלומים ותמוך בפיתוח עתידי! תרומה זו תסיר את הפרסומות ממרכז MoKee, או שתעדיף להשתמש באופצית ה\"תרומה\" במקום אם אתה מעדיך תשלומים (הפרסומות יוסרו שתגיע לערך המינימלי שצויין). לאחר שאתה תורם הקפד לגבות את קובץ הרשיון (mokee.license שנמצא בכרטיס זיכרון בתקיה הראשית, תקף למכשיר זה בלבד).</string>
+  <string name="donate_dialog_next">הבא</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_restore">שחזר</string>

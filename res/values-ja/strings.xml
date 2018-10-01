@@ -67,6 +67,7 @@
   <!-- Donate -->
   <string name="donate_dialog_title">寄付する</string>
   <string name="donate_dialog_message">Mokee OpenSourceは利益を追求する会社ではなく、ホピ―と情熱で作られたプロジェクトです。我々自分の資金投入以外に寄付金と広告に基づいて引き続き生きています。皆様の寄付金は我々の負担を減らすことに対して助けてくれます。寄付してくれたら（ある金額以上で）、今のディバイスに広告がなくなります。</string>
+  <string name="donate_dialog_next">次へ</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">アリペイ（支付宝）</string>
   <string name="donate_dialog_via_wechat">WeChat</string>

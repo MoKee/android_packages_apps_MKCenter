@@ -67,6 +67,7 @@
   <!-- Donate -->
   <string name="donate_dialog_title">捐贈給我們</string>
   <string name="donate_dialog_message">和 Cyanogen，MIUI 等已接受投資的商業化公司不同，MoKee作為非營利性的民間開源專案，需要通過接受捐贈或是顯示介面廣告等手段籌集經費，才能負擔得起每個月的伺服器租用及託管、網路頻寬、介面授權等高昂支出。因此，您的支援至關重要！請為MoKee 出些力，幫助我們做得更好！捐贈完成後，我們會為您啟用捐贈使用者獨享的強大功能！同時，您的捐贈記錄會永久儲存在雲端伺服器上，當您清除資料或從其它ROM刷回MoKee時，捐贈記錄將會自動恢復。</string>
+  <string name="donate_dialog_next">下一個</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">支付寶</string>
   <string name="donate_dialog_via_wechat">微信 (WeChat)</string>

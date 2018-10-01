@@ -66,6 +66,7 @@
   <!-- Donate -->
   <string name="donate_dialog_title">Magbigay ng donasyon sa amin</string>
   <string name="donate_dialog_message">Hindi tulad ng mga kumpanya tulad ng Cygn o MIUI, ang MoKee OpenSource ay isang ganap na di-kumikitang proyektong nabuo ng libangan at pasyon. Upang mapanatili ang proyektong ito, kailangan naming itabi ang aming sariling pera sa lahat ng oras o umaasa sa mga donasyon at mga patalastas. Ang iyong mga donasyon ay maaaring makatulong na mabawasan ang aming pinansiyal at suportahan ang pag-unlad sa hinaharap! Itong opsyon ay pinapayagan kang alisin ang mga ad sa MoKee Center, o gamitin ang \"Mag-donate\" na opsyon sa halip kung gusto mo ng mga installment (aalisin ang mga ad kapag nakarating na ang kabuuang tinukoy na halaga). (sa direktoryo ng root ng sdcard, balido lamang sa kasalukuyang aparato) sa sandaling ikaw ay nagbigay.</string>
+  <string name="donate_dialog_next">Susunod</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_wechat">WeChat</string>

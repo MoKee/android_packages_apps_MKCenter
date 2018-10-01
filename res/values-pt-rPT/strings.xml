@@ -66,6 +66,7 @@
   <!-- Donate -->
   <string name="donate_dialog_title">Doar</string>
   <string name="donate_dialog_message">Ao contrário de empresas como a Cygn ou MIUI, MoKee OpenSource é um projeto puramente sem fins lucrativos, nascido de hobbies e paixão. Para manter este projeto, nós temos que desembolsar do nosso dinheiro na maioria das vezes ou depender de doações e propagandas. As tuas doações podem ajudar a reduzir a nossa carga financeira e sustentar o desenvolvimento futuro! Esta opção permite-te remover os anúncios no centro MoKee, ou use a opção \"Doação\" em vez disso, se preferir prestações (anúncios serão removidos quando o total atingir o valor especificado). (no diretório raiz do sdcard, válido apenas para o dispositivo atual) uma vez que você tenha doado.</string>
+  <string name="donate_dialog_next">Próximo</string>
   <string name="donate_dialog_via_paypal">Paypal</string>
   <string name="donate_dialog_via_alipay">Alipay</string>
   <string name="donate_dialog_via_wechat">WeChat</string>

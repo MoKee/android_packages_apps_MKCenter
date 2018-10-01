@@ -67,6 +67,7 @@
   <!-- Donate -->
   <string name="donate_dialog_title">Hacer una donación</string>
   <string name="donate_dialog_message">A diferencia de compañías como CyanogenMod o MIUI, Mokee Open Source es un proyecto puramente sin ánimo de lucro que nace del hobby y la pasión. A fin de mantener este proyecto, tenemos que desembolsar nuestro propio dinero la mayor parte del tiempo o depender de las donaciones y anuncios. ¡Sus donaciones pueden ayudar a reducir nuestra carga financiera y sostener el desarrollo futuro! Esta opción le permite eliminar los anuncios en el Mokee Center utilizando la opción \"Donar\" y pagar por nuestro trabajo (los anuncios serán eliminados una vez que el total se ha alcanzado en el valor especificado). Por favor, haga una copia de seguridad del archivo mokee.license (en el directorio raíz de la tarjeta sd, el cual sólo es válido para el dispositivo actual) una vez que ha donado.</string>
+  <string name="donate_dialog_next">Siguiente</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_wechat">WeChat</string>

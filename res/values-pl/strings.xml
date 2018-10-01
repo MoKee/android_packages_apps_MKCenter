@@ -67,6 +67,7 @@
   <!-- Donate -->
   <string name="donate_dialog_title">Wspomóż nas</string>
   <string name="donate_dialog_message">W odróżnieniu od firm takich jak Cyanogen lub MIUI, MoKee OpenSource jest projektem czysto non-profit zrodzonym z hobby i pasji. W celu utrzymania tego projektu wydajemy nasze własne pieniądze lub polegamy na darowiźnie i reklamie. Darowizny mogą pomóc zmniejszyć nasze obciążenie finansowe i utrzymać przyszły rozwój! Opcja ta pozwala na usunięcie reklam w centrum MoKee, można też użyć opcji \"Wspomóż nas\", jeśli wolisz raty (reklamy zostaną usunięte, gdy suma osiągnie określoną wartość). Proszę wykonać kopię zapasową pliku mokee. license (w katalogu głównym, ważne tylko dla bieżącego urządzenia), jeśli dokonałeś wpłaty.</string>
+  <string name="donate_dialog_next">Następny</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_wechat">Wechat</string>

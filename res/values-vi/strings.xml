@@ -67,6 +67,7 @@
   <!-- Donate -->
   <string name="donate_dialog_title">Ủng hộ chúng tôi</string>
   <string name="donate_dialog_message">Không giống như các công ty như Cygn hoặc MIUI, MoKee mã nguồn mở là một dự án phi lợi nhuận hoàn toàn dựa trên sở thích và niềm đam mê. Để duy trì dự án này, chúng tôi phải chi ra tiền của riêng của chúng tôi mọi lúc hoặc dựa vào sự đóng góp và quảng cáo. Đóng góp của bạn có thể giúp làm giảm tải trọng tài chính của chúng tôi và duy trì phát triển trong tương lai! Tùy chọn này cho phép bạn để loại bỏ các quảng cáo trong Trung tâm MoKee, hoặc dùng tùy chọn \"Quyên góp\" thay vào đó, nếu bạn thích nhiều lần (quảng cáo sẽ được gỡ bỏ sau khi tổng số đã đạt giá trị chỉ định). Xin vui lòng sao lưu mokee.license tập tin (trong thư mục gốc của sdcard, chỉ có giá trị cho thiết bị hiện thời) một khi bạn đã quyên góp.</string>
+  <string name="donate_dialog_next">Tiếp theo</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">AliPay</string>
   <string name="donate_dialog_via_wechat">Wechat</string>

@@ -40,6 +40,7 @@
   <string name="menu_refresh">تازه کردن</string>
   <string name="menu_delete_all">حذف دانلود</string>
   <!-- Donate -->
+  <string name="donate_dialog_next">بعدی</string>
   <string name="donate_dialog_via_paypal">پی پال</string>
   <string name="donate_dialog_via_restore">بازیابی</string>
   <!-- Update -->
