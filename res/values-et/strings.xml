@@ -34,6 +34,7 @@
   <!-- Apply install and update strings -->
   <!-- Experimenter mode -->
   <!-- Verify system compatible -->
+  <string name="verify_system_compatible_title">MoKee süsteemi värskendus</string>
   <!-- Common -->
   <string name="activity_not_found">Rakendus pole installitud.</string>
 </resources>

@@ -66,7 +66,8 @@
   <string name="menu_restore">Lisans Geri Yükleme</string>
   <!-- Donate -->
   <string name="donate_dialog_title">Bize bağışta bulunun</string>
-  <string name="donate_dialog_message">Cygn veya MIUI gibi şirketlerin aksine, MoKee OpenSource hobiden ve tutkudan doğan tamamen kar amacı gütmeyen bir projedir. Bu projeyi sürdürebilmek için, çoğu zaman kendi paramızı ödemek veya bağış ve reklamlara güvenmek zorundayız. Bağışlarınız mali yükümüzü düşürüp gelecekteki gelişimi sürdürebilir! Bu seçenek, MoKee Merkezi\'ndeki reklamları kaldırmanıza veya taksitleri tercih ederseniz bunun yerine \"Bağış\" seçeneğini kullanmanıza izin verir (Toplam, belirtilen değerin üzerine ulaştığında reklamlar kaldırılır). Bağış yapıldığında (Sdcard\'ın kök dizininde, yalnızca geçerli cihaz için geçerlidir). geçerlidir.</string>
+  <string name="donate_dialog_message">Cygn veya MIUI gibi şirketlerin aksine, MoKee OpenSource hobiden ve tutkudan doğan tamamen kar amacı gütmeyen bir projedir. Bu projeyi sürdürebilmek için, çoğu zaman kendi paramızı ödemek veya bağış ve reklamlara güvenmek zorundayız. Bağışlarınız mali yükümüzü düşürüp gelecekteki gelişimi sürdürebilir! Bu seçenek, MoKee Merkezi\'ndeki reklamları kaldırmanıza veya taksitleri tercih ederseniz bunun yerine \"Bağış\" seçeneğini kullanmanıza izin verir (Toplam, belirtilen değerin üzerine ulaştığında reklamlar kaldırılır). Bağış yapıldığında (Sdcard\'ın root dizininde, yalnızca geçerli cihaz için geçerlidir).</string>
+  <string name="donate_dialog_faq">Soru ve Cevap</string>
   <string name="donate_dialog_next">Sonraki</string>
   <string name="donate_dialog_via_paypal">PayPal(USD)</string>
   <string name="donate_dialog_via_alipay">AliPay(CNY)</string>
