@@ -158,10 +158,16 @@
   <string name="pref_verify_rom_request_summary">ಕೇವಲ ಬಳಕೆದಾರರಿಂದ ಪರಿಶೀಲಿಸಿದ ನವೀಕರಣೆಗಳನ್ನು ತೋರಿಸಿ</string>
   <!-- Apply install and update strings -->
   <string name="apply_update_dialog_title">ನವೀಕರಣ ಅನ್ವಯಿಸಿ</string>
+  <string name="apply_update_dialog_text">ನೀವು ಈಗ <xliff:g id="ಕಡತದ ಹೆಸರು">%s</xliff:g> ನವೀಕರಣ ಮಾಡಲು ಹೋಗುತ್ತಿದ್ದೀರಿ.\n\nನೀವು ನವೀಕರಿಸು ಒತ್ತಿದರೆ, ಸಾಧನವು ನವೀಕರಣೆಯನ್ನು ಸ್ಥಾಪಿಸಲು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಮರುಸಂಗ್ರಹಣೆ ಮಾದರಿಯಲ್ಲಿ ಮರುಪ್ರಾರಂಭವಾಗುತ್ತದೆ.\n\nಸೂಚನೆ: ಈ ವೈಶಿಷ್ಟ್ಯಕ್ಕೆ ಹೊಂದಿಕೊಳ್ಳುವ ಮರುಸಂಗ್ರಹಣೆಯ ಅಗತ್ಯವಿದೆ ಇಲ್ಲವಾದರೆ ನವೀಕರಣೆಯನ್ನು ನೀವೇ ಸ್ವತಃ ದೈಹಿಕವಾಗಿ ಸ್ಥಾಪಿಸಬೇಕಾಗುತ್ತದೆ.</string>
+  <string name="apply_update_ota_dialog_text">ನೀವು ಈಗ <xliff:g id="ಕಡತದ ಹೆಸರು">%s</xliff:g> ನವೀಕರಣ ಮಾಡಲು ಹೋಗುತ್ತಿದ್ದೀರಿ.\n\nನೀವು ನವೀಕರಿಸು ಒತ್ತಿದರೆ, ಸಾಧನವು ನವೀಕರಣೆಯನ್ನು ಸ್ಥಾಪಿಸಲು ಸ್ವಯಂಚಾಲಿತವಾಗಿ ಮರುಸಂಗ್ರಹಣೆ ಮಾದರಿಯಲ್ಲಿ ಮರುಪ್ರಾರಂಭವಾಗುತ್ತದೆ.\n\nಸೂಚನೆ: ಈ ವೈಶಿಷ್ಟ್ಯಕ್ಕೆ ಹೊಂದಿಕೊಳ್ಳುವ ಮರುಸಂಗ್ರಹಣೆಯ ಅಗತ್ಯವಿದೆ ಇಲ್ಲವಾದರೆ ನವೀಕರಣೆಯನ್ನು ನೀವೇ ಸ್ವತಃ ದೈಹಿಕವಾಗಿ ಸ್ಥಾಪಿಸಬೇಕಾಗುತ್ತದೆ.\n\nಇದು ಉನ್ನತ ನವೀಕರಣವಾಗಿದೆ, ಆದ್ದರಿಂದ ವ್ಯವಸ್ಥೆಯ ಕಡತಗಳಿಗೆ ಮಾಡಿದ ಯಾವುದೇ ಬದಲಾವಣೆಗಳು ನವೀಕರಣ ವಿಫಲಗೊಳ್ಳುವಂತೆ ಮಾಡಬಹುದು. ಒಂದು ವೇಳೆ ಈ ರೀತಿ ಆದಲ್ಲಿ, ಬದಲಾಗಿ ದಯವಿಟ್ಟು ಪೂರ್ಣ ROM ಅನ್ನು ಫ್ಲ್ಯಾಶ್ ಮಾಡಿ.</string>
   <string name="apply_unable_to_reboot_toast">ಮರುಸಂಗ್ರಹಣೆಗೆ ಮರುಪ್ರಾರಂಭ ಮಾಡಲು ಸಾಧ್ಯವಾಗುತ್ತಿಲ್ಲ</string>
   <!-- Experimenter mode -->
+  <string name="show_exp_on">ನೀವು ಪ್ರಾಯೋಗಿಕ ಸಂಯೋಜನೆಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿದ್ದೀರಿ!</string>
+  <string name="show_exp_already">ನೀವು ಈಗಾಗಲೇ ಪ್ರಾಯೋಗಿಕ ಸಂಯೋಜನೆಗಳನ್ನು ಸಕ್ರಿಯಗೊಳಿಸಿದ್ದೀರಿ, ಇದರ ಅಗತ್ಯವಿಲ್ಲ.</string>
   <!-- Verify system compatible -->
   <string name="verify_system_compatible_title">MoKee ವ್ಯವಸ್ಥೆ ನವೀಕರಣ</string>
+  <string name="verify_system_compatible_message">ಪ್ಯಾಚ್ ಮಾಡುವ ಮೊದಲು ಸಿಸ್ಟಮ್ ಹೊಂದಾಣಿಕೆಯನ್ನು ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ\u2026</string>
+  <string name="verify_system_compatible_failed">ಸಿಸ್ಟಮ್ ಹೊಂದಾಣಿಕೆಯ ಪರಿಶೀಲನೆ ವಿಫಲಗೊಂಡಿದೆ</string>
   <string name="verify_system_compatible_root_skip">ಬಿಟ್ಟುಬಿಡಿ</string>
   <!-- Common -->
   <string name="activity_not_found">ಅಪ್ಲಿಕೇಶನ್‌ ಅನ್ನು ಸ್ಥಾಪಿಸಲಾಗಿಲ್ಲ</string>
