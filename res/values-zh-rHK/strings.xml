@@ -67,6 +67,7 @@
   <!-- Donate -->
   <string name="donate_dialog_title">捐贈我們</string>
   <string name="donate_dialog_message">和 Cyanogen、MIUI 等已接受投資的商業化公司不同。Mokee 因愛好而生，是純粹的非營利性開源項目。我們需要自籌資金或者透過捐贈、廣告等手段才能讓這個項目長期存活。你的捐贈將減輕我們每月承擔的經濟壓力，使我們能繼續為大家提供更優秀的 ROM！你的捐贈記錄會儲存在記憶咭根目錄的 mokee.license 檔案，你可以備份它以便意外丟失、格式化存儲區後恢復（僅限當前裝置使用）。</string>
+  <string name="donate_dialog_faq">Q&amp;A</string>
   <string name="donate_dialog_next">下一首</string>
   <string name="donate_dialog_via_paypal">PayPal</string>
   <string name="donate_dialog_via_alipay">支付寶</string>
