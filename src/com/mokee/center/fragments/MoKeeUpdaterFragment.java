@@ -1017,10 +1017,8 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
             return true;
         } else if (preference == mUpdateType) {
             final int value = Integer.valueOf((String) newValue);
-            if (value == Constants.UPDATE_TYPE_NIGHTLY
-                    || value == Constants.UPDATE_TYPE_EXPERIMENTAL
-                    || value == Constants.UPDATE_TYPE_UNOFFICIAL
-                    || value == Constants.UPDATE_TYPE_ALL) {
+            if (value == Integer.valueOf(mUpdateType.getValue())) return false;
+            if (value != Constants.UPDATE_TYPE_RELEASE) {
                 int messageId = 0;
                 switch (value) {
                     case 1:
