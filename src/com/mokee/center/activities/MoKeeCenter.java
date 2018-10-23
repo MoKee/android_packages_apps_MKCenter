@@ -58,8 +58,6 @@ public class MoKeeCenter extends AppCompatActivity {
 
     public static final String BR_ONNewIntent = "com.mokee.center.action.ON_NEW_INTENT";
 
-    private static final boolean WECHAT_ENABLED = false;
-
     private DrawerLayout mRoot;
     private LocalBroadcastManager lbm;
 
@@ -113,13 +111,6 @@ public class MoKeeCenter extends AppCompatActivity {
         String title = isDonate ? getString(R.string.donate_money_title)
                 : getString(R.string.unlock_features_title);
 
-        if (!MoKeeUtils.isApkInstalledAndEnabled("com.tencent.mm", this) || !WECHAT_ENABLED) {
-            mVia.findViewById(R.id.wechat).setVisibility(View.GONE);
-            if (mVia.getCheckedRadioButtonId() == R.id.wechat) {
-                mVia.check(R.id.alipay);
-            }
-        }
-
         new AlertDialog.Builder(this)
                 .setTitle(title)
                 .setView(donateView)
@@ -131,7 +122,11 @@ public class MoKeeCenter extends AppCompatActivity {
                             requestForPayment("alipay", price, title);
                             break;
                         case R.id.wechat:
-                            requestForPayment("wechat", price, title);
+                            if (!MoKeeUtils.isApkInstalledAndEnabled("com.tencent.mm", this)) {
+                                makeSnackbar(R.string.activity_not_found).show();
+                            } else {
+                                requestForPayment("wechat", price, title);
+                            }
                             break;
                         case R.id.paypal:
                             requestForPayment("paypal", price, title);
