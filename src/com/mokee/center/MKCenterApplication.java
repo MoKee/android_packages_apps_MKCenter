@@ -25,9 +25,10 @@ import android.content.IntentFilter;
 import android.os.Bundle;
 import android.support.v4.content.LocalBroadcastManager;
 
-import com.android.volley.RequestQueue;
-import com.android.volley.toolbox.Volley;
+import com.lzy.okgo.OkGo;
+import com.lzy.okgo.model.HttpHeaders;
 import com.mokee.center.activities.MoKeeCenter;
+import com.mokee.center.misc.Constants;
 import com.mokee.center.receiver.DownloadReceiver;
 import com.mokee.center.receiver.UpdateCheckReceiver;
 
@@ -36,7 +37,6 @@ public class MKCenterApplication extends Application implements
 
     private static Context context;
     private boolean mMainActivityActive;
-    private RequestQueue mRequestQueue;
 
     public static Context getContext() {
         return context;
@@ -49,8 +49,11 @@ public class MKCenterApplication extends Application implements
         if (!ActivityThread.currentProcessName().equals(getPackageName())) return;
         mMainActivityActive = false;
         registerActivityLifecycleCallbacks(this);
-        mRequestQueue = Volley.newRequestQueue(this);
         context = getApplicationContext();
+
+        HttpHeaders httpHeaders = new HttpHeaders();
+        httpHeaders.put("User-Agent", Constants.USER_AGENT);
+        OkGo.getInstance().init(this).addCommonHeaders(httpHeaders);
 
         final LocalBroadcastManager lbm = LocalBroadcastManager.getInstance(this);
 
@@ -100,10 +103,6 @@ public class MKCenterApplication extends Application implements
 
     public boolean isMainActivityActive() {
         return mMainActivityActive;
-    }
-
-    public RequestQueue getQueue() {
-        return mRequestQueue;
     }
 
 }

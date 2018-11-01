@@ -78,6 +78,10 @@ import java.util.Date;
 import java.util.LinkedList;
 import java.util.List;
 
+import static com.mokee.center.misc.Constants.KEY_DONATION_AMOUNT;
+import static com.mokee.center.misc.Constants.KEY_DONATION_PERCENT;
+import static com.mokee.center.misc.Constants.KEY_DONATION_RANK;
+
 public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
         Preference.OnPreferenceChangeListener,
         ItemPreference.OnReadyListener,
@@ -100,7 +104,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
 
     private static String updateTypeString, MoKeeVersionType, MoKeeVersionTypeString;
 
-    private static SharedPreferences mPrefs;
+    private static SharedPreferences mPrefs, mDonationPrefs;
     private static SwitchPreference mUpdateOTA;
     private static SwitchPreference mVerifyROM;
 
@@ -344,6 +348,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
 
         // Load the stored preference data
         mPrefs = moKeeCenter.getSharedPreferences(Constants.DOWNLOADER_PREF, 0);
+        mDonationPrefs = moKeeCenter.getSharedPreferences(Constants.DONATION_PREF, Context.MODE_PRIVATE);
 
         mRootView = (PreferenceScreen) findPreference(Constants.ROOT_PREF);
         mAdmobView = (AdmobPreference) findPreference(Constants.ADMOB_PREF);
@@ -423,7 +428,7 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
 
         setHasOptionsMenu(true);
 
-        final Float paid = mPrefs.getFloat(Constants.KEY_DONATE_AMOUNT, 0);
+        final Float paid = mDonationPrefs.getFloat(KEY_DONATION_AMOUNT, 0);
 
         // 同步云端支付信息
         if (paid.intValue() > Utils.getPaidTotal(moKeeCenter).intValue()) {
@@ -433,12 +438,12 @@ public class MoKeeUpdaterFragment extends PreferenceFragmentCompat implements
 
     private void setDonatePreference() {
         Float paid = Utils.getPaidTotal(moKeeCenter);
-        Float amount = mPrefs.getFloat(Constants.KEY_DONATE_AMOUNT, 0f);
+        Float amount = mDonationPrefs.getFloat(KEY_DONATION_AMOUNT, 0f);
         if (amount < paid) {
             amount = paid;
         }
-        int rank = mPrefs.getInt(Constants.KEY_DONATE_RANK, 0);
-        int percent = mPrefs.getInt(Constants.KEY_DONATE_PERCENT, 0);
+        int rank = mDonationPrefs.getInt(KEY_DONATION_RANK, 0);
+        int percent = mDonationPrefs.getInt(KEY_DONATION_PERCENT, 0);
         if (paid == 0f) {
             Utils.setSummaryFromString(this, KEY_MOKEE_DONATE_INFO,
                     getString(R.string.donate_money_info_null));

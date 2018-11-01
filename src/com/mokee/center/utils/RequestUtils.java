@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014-2016 The MoKee Open Source Project
+ * Copyright (C) 2014-2018 The MoKee Open Source Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -19,60 +19,110 @@ package com.mokee.center.utils;
 
 import android.content.Context;
 import android.content.SharedPreferences;
-import android.mokee.utils.MoKeeUtils;
 
-import com.android.volley.Request;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.VolleyLog;
-import com.mokee.center.MKCenterApplication;
+import com.lzy.okgo.OkGo;
+import com.lzy.okgo.adapter.Call;
+import com.lzy.okgo.callback.StringCallback;
+import com.lzy.okgo.convert.StringConvert;
+import com.lzy.okgo.model.HttpParams;
+import com.lzy.okgo.model.Response;
 import com.mokee.center.R;
+import com.mokee.center.fragments.MoKeeUpdaterFragment;
 import com.mokee.center.misc.Constants;
-import com.mokee.center.requests.InfoRequest;
+import com.mokee.os.Build;
+import com.mokee.security.RSAUtils;
 
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.net.URI;
+import java.io.IOException;
+
+import static com.mokee.center.misc.Constants.KEY_DONATION_AMOUNT;
+import static com.mokee.center.misc.Constants.KEY_DONATION_CHECK_COMPLETED;
+import static com.mokee.center.misc.Constants.KEY_DONATION_FLASH_TIME;
+import static com.mokee.center.misc.Constants.KEY_DONATION_PERCENT;
+import static com.mokee.center.misc.Constants.KEY_DONATION_RANK;
 
 public class RequestUtils {
 
-    public static void getRanking(Context mContext) {
-        if (MoKeeUtils.isOnline(mContext)) {
-            SharedPreferences mPrefs = mContext.getSharedPreferences(Constants.DOWNLOADER_PREF, 0);
-            InfoRequest infoRequest = new InfoRequest(Request.Method.POST,
-                    URI.create(mContext.getString(R.string.conf_get_ranking_server_url_def)).toASCIIString(), Utils.getUserAgentString(mContext), new Response.Listener<String>() {
-                @Override
-                public void onResponse(String response) {
-                    try {
-                        JSONObject jsonObject = new JSONObject(response);
-                        if (jsonObject.has("amount")) {
-                            int percent = Integer.valueOf(jsonObject.get("percent").toString());
-                            int rank = Integer.valueOf(jsonObject.get("rank").toString());
-                            float amount = Float.valueOf(jsonObject.get("amount").toString());
-                            long flashTime = Long.valueOf(jsonObject.get("flash_time").toString());
-                            mPrefs.edit().putInt(Constants.KEY_DONATE_PERCENT, percent)
-                                    .putInt(Constants.KEY_DONATE_RANK, rank)
-                                    .putFloat(Constants.KEY_DONATE_AMOUNT, amount)
-                                    .putLong(Constants.KEY_FLASH_TIME, flashTime).apply();
+    public static void fetchDonationRanking(Context context) {
+        OkGo.<String>post(context.getString(R.string.conf_get_ranking_server_url_def))
+                .tag(Constants.DONATION_RANKING_TAG)
+                .params("user_ids", Build.getUniqueIDS(context))
+                .execute(new StringCallback() {
+                    @Override
+                    public void onSuccess(Response<String> response) {
+                        SharedPreferences mPrefs = Utils.getDonationPrefs(context);
+                        try {
+                            JSONObject jsonObject = new JSONObject(response.body());
+                            if (jsonObject.has(KEY_DONATION_AMOUNT)) {
+                                mPrefs.edit().putInt(KEY_DONATION_PERCENT, Integer.valueOf(jsonObject.get(KEY_DONATION_PERCENT).toString()))
+                                        .putInt(KEY_DONATION_RANK, Integer.valueOf(jsonObject.get(KEY_DONATION_RANK).toString()))
+                                        .putFloat(KEY_DONATION_AMOUNT, Float.valueOf(jsonObject.get(KEY_DONATION_AMOUNT).toString()))
+                                        .putLong(KEY_DONATION_FLASH_TIME, Long.valueOf(jsonObject.get(KEY_DONATION_FLASH_TIME).toString())).apply();
+                            }
+                        } catch (JSONException e) {
+                            e.printStackTrace();
                         }
-                    } catch (JSONException e) {
-                        e.printStackTrace();
+                        if (!mPrefs.getBoolean(KEY_DONATION_CHECK_COMPLETED, false)) {
+                            mPrefs.edit().putBoolean(KEY_DONATION_CHECK_COMPLETED, true).apply();
+                        }
                     }
-                    if (mPrefs.getBoolean(Constants.DONATION_FIRST_CHECK, true)) {
-                        mPrefs.edit().putBoolean(Constants.DONATION_FIRST_CHECK, false).apply();
-                    }
-                }
-            }, new Response.ErrorListener() {
-                @Override
-                public void onErrorResponse(VolleyError error) {
-                    VolleyLog.e("Error: ", error.getMessage());
-                    VolleyLog.e("Error type: " + error.toString());
-                }
-            });
-            infoRequest.setTag("Rank");
-            ((MKCenterApplication) mContext.getApplicationContext()).getQueue().add(infoRequest);
+                });
+    }
+
+    public static Call<String> fetchChangeLog(String url) {
+        return OkGo.<String>get(url).tag(Constants.CHANGELOG_TAG).converter(new StringConvert()).adapt();
+    }
+
+    public static void fetchAvailableUpdates(Context context, String url, StringCallback callback) {
+        HttpParams params = new HttpParams();
+        // Get the type of update we should check for
+        SharedPreferences mPrefs = Utils.getMainPrefs(context);
+        String releaseVersionType = Utils.getReleaseVersionType();
+        int suggestUpdateType = Utils.getUpdateType(releaseVersionType);
+        int configUpdateType = mPrefs.getInt(Constants.UPDATE_TYPE_PREF, suggestUpdateType);
+
+        if (configUpdateType == 2 && suggestUpdateType != 2) { // 若当前不是测试版，则取消显示测试版选项并重置当前更新类型设置。
+            mPrefs.edit().putBoolean(MoKeeUpdaterFragment.EXPERIMENTAL_SHOW, false).putInt(Constants.UPDATE_TYPE_PREF, suggestUpdateType).apply();
+            configUpdateType = suggestUpdateType;
+        } else if (configUpdateType == 3 && suggestUpdateType != 3) { // 若当前不是适配版，则重置当前更新类型设置。
+            mPrefs.edit().putInt(Constants.UPDATE_TYPE_PREF, suggestUpdateType).apply();
+            configUpdateType = suggestUpdateType;
         }
+        // disable ota option if never donation
+        boolean isOTACheck = mPrefs.getBoolean(Constants.OTA_CHECK_PREF, false);
+        if (isOTACheck) {
+            if (!Utils.checkMinLicensed(context)) {
+                mPrefs.edit().putBoolean(Constants.OTA_CHECK_PREF, false).apply();
+            }
+        } else {
+            params.put("device_officail", String.valueOf(configUpdateType));
+            params.put("rom_all", "0");
+        }
+        // disable verify option when never donation
+        boolean isVerifyRom = mPrefs.getBoolean(Constants.VERIFY_ROM_PREF, false);
+        if (isVerifyRom) {
+            if (Utils.getPaidTotal(context) < Constants.DONATION_TOTAL) {
+                mPrefs.edit().putBoolean(Constants.VERIFY_ROM_PREF, false).apply();
+            } else {
+                params.put("is_verified", 1);
+            }
+        }
+
+        try {
+            params.put("device_name", RSAUtils.rsaEncryptByPublicKey(Build.PRODUCT));
+            params.put("device_version", RSAUtils.rsaEncryptByPublicKey(Build.VERSION));
+        } catch (Exception e) {
+        }
+        params.put("build_user", android.os.Build.USER);
+        params.put("is_encrypted", "1");
+
+        if (Utils.checkMinLicensed(context)) {
+            String unique_id = Build.getUniqueID(context);
+            params.put("user_id", unique_id);
+        }
+        OkGo.<String>post(url).tag(Constants.AVAILABLE_UPDATES_TAG).params(params).execute(callback);
     }
 
 }

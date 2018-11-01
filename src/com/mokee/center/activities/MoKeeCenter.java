@@ -20,7 +20,6 @@ package com.mokee.center.activities;
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.app.AlertDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
 import android.mokee.utils.MoKeeUtils;
 import android.net.Uri;
@@ -37,7 +36,6 @@ import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.view.ViewGroup;
 import android.widget.RadioGroup;
 import android.widget.SeekBar;
@@ -108,8 +106,7 @@ public class MoKeeCenter extends AppCompatActivity {
             }
         });
 
-        String title = isDonate ? getString(R.string.donate_money_title)
-                : getString(R.string.unlock_features_title);
+        String title = isDonate ? getString(R.string.donate_money_title) : getString(R.string.unlock_features_title);
 
         new AlertDialog.Builder(this)
                 .setTitle(title)
@@ -184,28 +181,20 @@ public class MoKeeCenter extends AppCompatActivity {
         switch (resultCode) {
             case Activity.RESULT_OK:
                 makeSnackbar(R.string.donate_money_toast_success)
-                        .setAction(R.string.donate_money_again, new View.OnClickListener() {
-                            @Override
-                            public void onClick(View v) {
-                                donateOrUnlockFeatureDialog(true);
-                            }
-                        })
-                        .show();
-
-                RequestUtils.getRanking(this);
+                        .setAction(R.string.donate_money_again, (view) -> {
+                            donateOrUnlockFeatureDialog(true);
+                        }).show();
+                RequestUtils.fetchDonationRanking(this);
                 break;
             case 200:
                 makeSnackbar(R.string.donate_money_restored_success).show();
-                RequestUtils.getRanking(this);
+                RequestUtils.fetchDonationRanking(this);
                 break;
             case 500:
-                makeSnackbar(R.string.donate_money_restored_failed).setAction(R.string.donate_money_restored_failed_solution, new View.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        Uri uri = Uri.parse("https://bbs.mokeedev.com/t/topic/577");
-                        Intent intent = new Intent(Intent.ACTION_VIEW, uri);
-                        startActivity(intent);
-                    }
+                makeSnackbar(R.string.donate_money_restored_failed).setAction(R.string.donate_money_restored_failed_solution, (view) -> {
+                    Uri uri = Uri.parse("https://bbs.mokeedev.com/t/topic/577");
+                    Intent intent = new Intent(Intent.ACTION_VIEW, uri);
+                    startActivity(intent);
                 }).show();
                 break;
             case 408:
@@ -227,7 +216,7 @@ public class MoKeeCenter extends AppCompatActivity {
                                         .setView(resultView)
                                         .setCancelable(false)
                                         .setPositiveButton(android.R.string.ok, null);
-                                TextView textView = (TextView) resultView.findViewById(R.id.message);
+                                TextView textView = resultView.findViewById(R.id.message);
                                 textView.setText(hashMap.get("result"));
                                 builder.show();
                             } else {
@@ -247,19 +236,16 @@ public class MoKeeCenter extends AppCompatActivity {
                                     .setView(resultView)
                                     .setCancelable(false)
                                     .setPositiveButton(android.R.string.ok, null)
-                                    .setNegativeButton(R.string.verify_system_compatible_root_skip, new DialogInterface.OnClickListener() {
-                                        @Override
-                                        public void onClick(DialogInterface dialog, int which) {
-                                            // Reboot into recovery and trigger the update
-                                            try {
-                                                dialog.dismiss();
-                                                Utils.triggerUpdateByPath(MoKeeCenter.this, updatePackagePath);
-                                            } catch (IOException e) {
-                                                e.printStackTrace();
-                                            }
+                                    .setNegativeButton(R.string.verify_system_compatible_root_skip, ((dialog, which) -> {
+                                        // Reboot into recovery and trigger the update
+                                        dialog.dismiss();
+                                        try {
+                                            Utils.triggerUpdateByPath(MoKeeCenter.this, updatePackagePath);
+                                        } catch (IOException e) {
+                                            e.printStackTrace();
                                         }
-                                    });
-                            TextView textView = (TextView) resultView.findViewById(R.id.message);
+                                    }));
+                            TextView textView = resultView.findViewById(R.id.message);
                             textView.setText(R.string.verify_system_compatible_root_request);
                             builder.show();
                         }

@@ -26,8 +26,6 @@ import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager;
 import android.os.Environment;
 import android.os.RecoverySystem;
 import android.support.v7.preference.PreferenceFragmentCompat;
@@ -243,21 +241,7 @@ public class Utils {
     public static void triggerUpdateByPath(Context context, String updatePackagePath)
             throws IOException {
         // Reboot into recovery and trigger the update
-        try {
-            RecoverySystem.installPackageLegacy(context, new File(updatePackagePath), false);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
-
-    public static String getUserAgentString(Context context) {
-        try {
-            PackageManager pm = context.getPackageManager();
-            PackageInfo pi = pm.getPackageInfo(context.getPackageName(), 0);
-            return pi.packageName + "/" + pi.versionName;
-        } catch (PackageManager.NameNotFoundException nnfe) {
-            return null;
-        }
+        RecoverySystem.installPackageLegacy(context, new File(updatePackagePath), false);
     }
 
     /**
@@ -352,7 +336,7 @@ public class Utils {
                 }
             }
         } else {
-            DownLoadInfo dli = null;
+            DownLoadInfo dli;
             if (dir.getName().endsWith(".partial")) {
                 dli = DownLoadDao.getInstance().getDownLoadInfoByName(dir.getName());
             } else {
@@ -387,37 +371,40 @@ public class Utils {
         return 0f;
     }
 
-    public static void restorePaymentRequest(Activity mContext) {
+    public static void restorePaymentRequest(Activity context) {
         Intent intent = new Intent(Constants.ACTION_RESTORE_REQUEST);
-        mContext.startActivityForResult(intent, 0);
+        context.startActivityForResult(intent, 0);
     }
 
-    public static void pointPaymentRequest(Activity mContext) {
-        Intent intent = new Intent(Constants.ACTION_POINT_REQUEST);
-        mContext.startActivityForResult(intent, 0);
-    }
-
-    public static void sendPaymentRequest(Activity mContext, String channel, String name, String description, String price, String type) {
+    public static void sendPaymentRequest(Activity context, String channel, String name, String description, String price, String type) {
         try {
             Intent intent = new Intent(Constants.ACTION_PAYMENT_REQUEST);
-            intent.putExtra("packagename", mContext.getPackageName());
+            intent.putExtra("packagename", context.getPackageName());
             intent.putExtra("channel", channel);
             intent.putExtra("type", type);
             intent.putExtra("name", name);
             intent.putExtra("description", description);
             intent.putExtra("price", price);
-            mContext.startActivityForResult(intent, 0);
+            context.startActivityForResult(intent, 0);
         } catch (ActivityNotFoundException e) {
-            Toast.makeText(mContext, R.string.activity_not_found, Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, R.string.activity_not_found, Toast.LENGTH_SHORT).show();
         }
     }
 
-    public static boolean checkLicensed(Context mContext) {
-        return getPaidTotal(mContext) >= Constants.DONATION_TOTAL;
+    public static boolean checkLicensed(Context context) {
+        return getPaidTotal(context) >= Constants.DONATION_TOTAL;
     }
 
-    public static boolean checkMinLicensed(Context mContext) {
-        return getPaidTotal(mContext) >= Constants.DONATION_REQUEST;
+    public static boolean checkMinLicensed(Context context) {
+        return getPaidTotal(context) >= Constants.DONATION_REQUEST;
+    }
+
+    public static SharedPreferences getMainPrefs(Context context) {
+        return context.getSharedPreferences(Constants.DOWNLOADER_PREF, Context.MODE_PRIVATE);
+    }
+
+    public static SharedPreferences getDonationPrefs(Context context) {
+        return context.getSharedPreferences(Constants.DONATION_PREF, Context.MODE_PRIVATE);
     }
 
 }

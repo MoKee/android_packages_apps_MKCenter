@@ -31,8 +31,11 @@ LOCAL_STATIC_JAVA_LIBRARIES := \
     android-support-v14-preference \
     android-support-customtabs \
     android-support-design \
-    org.mokee.platform.internal \
-    volley
+    mokee-okgo \
+    mokee-okhttp \
+    mokee-okio \
+    mokee-okserver \
+    org.mokee.platform.internal
 
 LOCAL_STATIC_JAVA_AAR_LIBRARIES := \
     play-services-ads \

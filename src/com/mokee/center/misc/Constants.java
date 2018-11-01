@@ -27,7 +27,6 @@ public class Constants {
     // Actions
     public static final String ACTION_PAYMENT_REQUEST = "com.mokee.pay.action.PAYMENT_REQUEST";
     public static final String ACTION_RESTORE_REQUEST = "com.mokee.pay.action.RESTORE_REQUEST";
-    public static final String ACTION_POINT_REQUEST = "com.mokee.pay.action.POINT_REQUEST";
     public static final String ACTION_VERIFY_REQUEST = "com.mokee.center.action.VERIFY_REQUEST";
 
     public static final String CHECK_LOG_FILE = "/cache/recovery/check_log";
@@ -68,19 +67,21 @@ public class Constants {
     // About License
     public static final String LICENSE_FILE = Environment.getExternalStorageDirectory().getAbsolutePath() + "/mokee.license";
 
-    // Donation amount
-    public static final String DONATION_FIRST_CHECK = "donation_first_check";
+    // Donation
+    public static final String PAYMENT_TYPE_DONATION = "donation";
     public static final int DONATION_TOTAL = 68;
     public static final int DONATION_REQUEST = 30;
     public static final int DONATION_REQUEST_MIN = Utils.getPaidTotal(MKCenterApplication.getContext()) > 0 ? 10 : DONATION_REQUEST;
     public static final int DONATION_MAX = 1000;
-    public static final String PAYMENT_TYPE_DONATION = "donation";
 
-    public static final String KEY_FLASH_TIME = "flash_time";
-    public static final String KEY_DONATE_PERCENT = "donate_percent";
-    public static final String KEY_DONATE_RANK = "donate_rank";
-    public static final String KEY_DONATE_AMOUNT = "donate_amount";
+    public static final String DONATION_PREF = "DonationPrefs";
+    public static final String KEY_DONATION_FLASH_TIME = "flash_time";
+    public static final String KEY_DONATION_PERCENT = "percent";
+    public static final String KEY_DONATION_RANK = "rank";
+    public static final String KEY_DONATION_AMOUNT = "amount";
+    public static final String KEY_DONATION_CHECK_COMPLETED = "check_completed";
 
+    // Root
     public static final String ROOT_ACCESS_PROPERTY = "persist.sys.root_access";
 
     // Public key
@@ -89,4 +90,16 @@ public class Constants {
                     "dXik/DO+Kw6+q7nIZjTh4qpPL3Gyoa7A3MI01gTRKaM+MU2+zkiZND8qoB8EGlF6" +
                     "BfDfi9BLyFyx+nOTgz3KDEYutLJhopS18DfrdZTohNXsM7+MEsk5y+GHFjYHePXN" +
                     "oE4fjtfCg3xbtwU29wIDAQAB";
+
+    public static final String USER_AGENT = "com.mokee.center/1.0";
+
+    // Tags
+    public static final String DONATION_RANKING_TAG = "FetchDonationRanking";
+    public static final String CHANGELOG_TAG = "FetchChangeLog";
+    public static final String AVAILABLE_UPDATES_TAG = "FetchAvailableUpdates";
+
+    // Update type
+    public enum UpdateType {
+        RELEASE, NIGHTLY, UNOFFICIAL, EXPERIMENTAL, HISTORY
+    }
 }

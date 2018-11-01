@@ -20,6 +20,7 @@ package com.mokee.center.service;
 import android.app.IntentService;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
+import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.mokee.utils.MoKeeUtils;
@@ -29,12 +30,9 @@ import android.support.v4.content.LocalBroadcastManager;
 import android.text.TextUtils;
 import android.util.Log;
 
-import com.android.volley.DefaultRetryPolicy;
-import com.android.volley.Request;
-import com.android.volley.Response;
-import com.android.volley.Response.Listener;
-import com.android.volley.VolleyError;
-import com.android.volley.VolleyLog;
+import com.lzy.okgo.OkGo;
+import com.lzy.okgo.callback.StringCallback;
+import com.lzy.okgo.model.Response;
 import com.mokee.center.MKCenterApplication;
 import com.mokee.center.R;
 import com.mokee.center.activities.MoKeeCenter;
@@ -42,21 +40,19 @@ import com.mokee.center.misc.Constants;
 import com.mokee.center.misc.ItemInfo;
 import com.mokee.center.misc.State;
 import com.mokee.center.receiver.DownloadReceiver;
-import com.mokee.center.requests.UpdatesRequest;
+import com.mokee.center.utils.RequestUtils;
 import com.mokee.center.utils.Utils;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.net.URI;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.Date;
 import java.util.LinkedList;
 
-public class UpdateCheckService extends IntentService
-        implements Response.ErrorListener, Listener<String> {
+public class UpdateCheckService extends IntentService {
 
     // request actions
     public static final String ACTION_CHECK = "com.mokee.center.action.CHECK";
@@ -79,10 +75,6 @@ public class UpdateCheckService extends IntentService
     // max. number of updates listed in the extras notification
     private static final int EXTRAS_NOTIF_UPDATE_COUNT = 4;
 
-    // DefaultRetryPolicy values for Volley
-    private static final int UPDATE_REQUEST_TIMEOUT = 5000; // 5 seconds
-    private static final int UPDATE_REQUEST_MAX_RETRIES = 3;
-
     private LocalBroadcastManager lbm;
 
     public UpdateCheckService() {
@@ -98,7 +90,7 @@ public class UpdateCheckService extends IntentService
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
         if (TextUtils.equals(intent.getAction(), ACTION_CANCEL_CHECK)) {
-            ((MKCenterApplication) getApplicationContext()).getQueue().cancelAll(TAG);
+            OkGo.getInstance().cancelTag(Constants.AVAILABLE_UPDATES_TAG);
             return START_NOT_STICKY;
         }
 
@@ -233,21 +225,34 @@ public class UpdateCheckService extends IntentService
      */
     private void getAvailableUpdates() {
         // Get the actual ROM Update Server URL
-        URI updateServerUri;
+        String updateServerUri;
         boolean isOTA = getSharedPreferences(Constants.DOWNLOADER_PREF, 0).getBoolean(Constants.OTA_CHECK_PREF, false) && Utils.checkMinLicensed(this);
         if (!isOTA) {
-            updateServerUri = URI.create(getString(R.string.conf_update_server_url_def));
+            updateServerUri = getString(R.string.conf_update_server_url_def);
         } else {
-            updateServerUri = URI.create(getString(R.string.conf_update_ota_server_url_def));
+            updateServerUri = getString(R.string.conf_update_ota_server_url_def);
         }
-        UpdatesRequest updateRequest = new UpdatesRequest(Request.Method.POST,
-                updateServerUri.toASCIIString(), Utils.getUserAgentString(this), this, this);
-        // Improve request error tolerance
-        updateRequest.setRetryPolicy(new DefaultRetryPolicy(UPDATE_REQUEST_TIMEOUT,
-                UPDATE_REQUEST_MAX_RETRIES, DefaultRetryPolicy.DEFAULT_BACKOFF_MULT));
-        // Set the tag for the request, reuse logging tag
-        updateRequest.setTag(TAG);
-        ((MKCenterApplication) getApplicationContext()).getQueue().add(updateRequest);
+
+        RequestUtils.fetchAvailableUpdates(getApplicationContext(), updateServerUri, new StringCallback() {
+            @Override
+            public void onSuccess(Response<String> response) {
+                final int updateType = getSharedPreferences(Constants.DOWNLOADER_PREF, Context.MODE_PRIVATE).getInt(Constants.UPDATE_TYPE_PREF, 0);
+                final Intent intent = new Intent(ACTION_CHECK_FINISHED);
+                final LinkedList<ItemInfo> updates = parseUpdatesJSONObject(response.body(), updateType);
+                intent.putExtra(EXTRA_UPDATE_COUNT, updates.size());
+                intent.putExtra(EXTRA_REAL_UPDATE_COUNT, updates.size());
+                intent.putExtra(EXTRA_NEW_UPDATE_COUNT, updates.size());
+                recordAvailableUpdates(updates, intent);
+                State.saveMKState(getApplicationContext(), updates, State.UPDATE_FILENAME);
+            }
+
+            @Override
+            public void onError(Response<String> response) {
+                super.onError(response);
+                final Intent intent = new Intent(ACTION_CHECK_FINISHED);
+                lbm.sendBroadcast(intent);
+            }
+        });
     }
 
     /**
@@ -313,26 +318,4 @@ public class UpdateCheckService extends IntentService
                 .setDescription(description).build();
         return mii;
     }
-
-    @Override
-    public void onErrorResponse(VolleyError volleyError) {
-        VolleyLog.e("Error: ", volleyError.getMessage());
-        VolleyLog.e("Error type: " + volleyError.toString());
-        final Intent intent = new Intent(ACTION_CHECK_FINISHED);
-        lbm.sendBroadcast(intent);
-    }
-
-    @Override
-    public void onResponse(String response) {
-        final int updateType = getSharedPreferences(Constants.DOWNLOADER_PREF, 0)
-                .getInt(Constants.UPDATE_TYPE_PREF, 0);
-        final Intent intent = new Intent(ACTION_CHECK_FINISHED);
-        final LinkedList<ItemInfo> updates = parseUpdatesJSONObject(response, updateType);
-        intent.putExtra(EXTRA_UPDATE_COUNT, updates.size());
-        intent.putExtra(EXTRA_REAL_UPDATE_COUNT, updates.size());
-        intent.putExtra(EXTRA_NEW_UPDATE_COUNT, updates.size());
-        recordAvailableUpdates(updates, intent);
-        State.saveMKState(this, updates, State.UPDATE_FILENAME);
-    }
-
 }

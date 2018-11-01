@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 The MoKee OpenSource Project
+ * Copyright (C) 2014-2018 The MoKee OpenSource Project
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -24,37 +24,30 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.concurrent.ExecutionException;
 
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.net.Uri;
 import android.os.AsyncTask;
+import android.support.v4.content.ContextCompat;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.webkit.WebView;
 import android.widget.Toast;
 
-import com.android.volley.Request;
-import com.android.volley.Response;
-import com.android.volley.VolleyError;
-import com.android.volley.VolleyLog;
-import com.android.volley.toolbox.RequestFuture;
-
-import com.mokee.center.MKCenterApplication;
+import com.lzy.okgo.OkGo;
+import com.lzy.okgo.adapter.Call;
+import com.lzy.okgo.model.Response;
 import com.mokee.center.R;
-import com.mokee.center.requests.ChangeLogRequest;
-import com.mokee.center.utils.Utils;
+import com.mokee.center.utils.RequestUtils;
 import com.mokee.center.widget.NotifyingWebView;
 
-public class FetchChangeLogTask extends AsyncTask<ItemInfo, Void, Void>
+public class FetchChangeLogTask extends AsyncTask<ItemInfo, Void, ItemInfo>
         implements DialogInterface.OnDismissListener {
     private static final String TAG = "FetchChangeLogTask";
 
     private Context mContext;
-    private ItemInfo mInfo;
     private NotifyingWebView mChangeLogView;
     private AlertDialog mAlertDialog;
 
@@ -63,16 +56,12 @@ public class FetchChangeLogTask extends AsyncTask<ItemInfo, Void, Void>
     }
 
     @Override
-    protected Void doInBackground(ItemInfo... infos) {
-        mInfo = infos[0];
-
-        if (mInfo != null) {
-            File changeLog = mInfo.getChangeLogFile(mContext);
-            if (!changeLog.exists()) {
-                fetchChangeLog(mInfo);
-            }
+    protected ItemInfo doInBackground(ItemInfo... infos) {
+        File changeLog = infos[0].getChangeLogFile(mContext);
+        if (!changeLog.exists()) {
+            fetchChangeLog(infos[0]);
         }
-        return null;
+        return infos[0];
     }
 
     @Override
@@ -81,22 +70,16 @@ public class FetchChangeLogTask extends AsyncTask<ItemInfo, Void, Void>
         final LayoutInflater inflater = LayoutInflater.from(mContext);
         final View view = inflater.inflate(R.layout.change_log_dialog, null);
         final View progressContainer = view.findViewById(R.id.progress);
-        mChangeLogView =
-                (NotifyingWebView) view.findViewById(R.id.changelog);
+        mChangeLogView = view.findViewById(R.id.changelog);
 
-        mChangeLogView.setOnInitialContentReadyListener(
-                new NotifyingWebView.OnInitialContentReadyListener() {
-                    @Override
-                    public void onInitialContentReady(WebView webView) {
-                        progressContainer.setVisibility(View.GONE);
-                        mChangeLogView.setVisibility(View.VISIBLE);
-                    }
-                });
+        mChangeLogView.setOnInitialContentReadyListener( (webView -> {
+            progressContainer.setVisibility(View.GONE);
+            mChangeLogView.setVisibility(View.VISIBLE);
+        }));
 
         mChangeLogView.getSettings().setTextZoom(80);
         mChangeLogView.getSettings().setDefaultTextEncodingName("UTF-8");
-        mChangeLogView.setBackgroundColor(
-                mContext.getResources().getColor(android.R.color.white));
+        mChangeLogView.setBackgroundColor(ContextCompat.getColor(mContext, android.R.color.white));
 
         // Prepare the dialog box
         mAlertDialog = new AlertDialog.Builder(mContext)
@@ -109,46 +92,32 @@ public class FetchChangeLogTask extends AsyncTask<ItemInfo, Void, Void>
     }
 
     @Override
-    protected void onPostExecute(Void aVoid) {
-        super.onPostExecute(aVoid);
-        File changeLog = mInfo.getChangeLogFile(mContext);
-
-        if (changeLog.length() == 0) {
-            // Change log is empty
-            Toast.makeText(mContext, R.string.no_changelog_alert, Toast.LENGTH_SHORT).show();
-        } else {
+    protected void onPostExecute(ItemInfo info) {
+        super.onPostExecute(info);
+        File changeLog = info.getChangeLogFile(mContext);
+        if (changeLog.length() != 0) {
             // Load the url
             mChangeLogView.loadUrl(Uri.fromFile(changeLog).toString());
         }
     }
-    
-    private void fetchChangeLog(final ItemInfo info) {
+
+    private void fetchChangeLog(ItemInfo info) {
         Log.d(TAG, "Getting change log for " + info + ", url " + info.getChangelogUrl());
 
-        final Response.ErrorListener errorListener = new Response.ErrorListener() {
-            @Override
-            public void onErrorResponse(VolleyError error) {
-                VolleyLog.e("Error: ", error.getMessage());
+        // We need to make a blocking request here
+        Call<String > call = RequestUtils.fetchChangeLog(info.getChangelogUrl());
+        try {
+            Response<String> response = call.execute();
+            parseChangeLogFromResponse(info, response.body());
+        } catch (Exception exception) {
+            if (exception instanceof IOException) {
+                // Change log is missing
                 if (mAlertDialog != null && mAlertDialog.isShowing()) {
                     mAlertDialog.dismiss();
-                    Toast.makeText(mContext, R.string.no_changelog_alert, Toast.LENGTH_SHORT).show();
                 }
+                Toast.makeText(mContext, R.string.no_changelog_alert, Toast.LENGTH_SHORT).show();
             }
-        };
-        // We need to make a blocking request here
-        RequestFuture<String> future = RequestFuture.newFuture();
-        ChangeLogRequest request = new ChangeLogRequest(Request.Method.GET, info.getChangelogUrl(),
-                Utils.getUserAgentString(mContext), future, errorListener);
-        request.setTag(TAG);
-
-        ((MKCenterApplication) mContext.getApplicationContext()).getQueue().add(request);
-        try {
-            String response = future.get();
-            parseChangeLogFromResponse(info, response);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (ExecutionException e) {
-            e.printStackTrace();
+            info.getChangeLogFile(mContext).delete();
         }
     }
 
@@ -200,7 +169,6 @@ public class FetchChangeLogTask extends AsyncTask<ItemInfo, Void, Void>
                 }
             }
         }
-
         if (!finished) {
             info.getChangeLogFile(mContext).delete();
         }
@@ -209,7 +177,7 @@ public class FetchChangeLogTask extends AsyncTask<ItemInfo, Void, Void>
     @Override
     public void onDismiss(DialogInterface dialogInterface) {
         // Cancel all pending requests
-        ((MKCenterApplication) mContext.getApplicationContext()).getQueue().cancelAll(TAG);
+        OkGo.getInstance().cancelTag(Constants.CHANGELOG_TAG);
         // Clean up
         mChangeLogView.destroy();
         mChangeLogView = null;
