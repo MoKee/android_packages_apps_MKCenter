@@ -17,165 +17,165 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Fragment -->
-  <string name="mokee_center_title">MoKee 中心</string>
-  <string name="mokee_support_title">支援</string>
-  <string name="mokee_updater_title">更新程式</string>
-  <!-- WebSite -->
-  <string name="mokee_links">連結</string>
-  <string name="mokee_website_title">MoKee 網站</string>
-  <string name="mokee_website_summary">造訪官方網站</string>
-  <string name="mokee_forum_title">MoKee 論壇</string>
-  <string name="mokee_forum_summary">造訪 MoKee 論壇</string>
-  <string name="mokee_issues_title">MoKee Bug 追蹤器</string>
-  <string name="mokee_issues_summary">造訪 Bug 追蹤器</string>
-  <string name="mokee_changelog_title">MoKee 更新日誌</string>
-  <string name="mokee_changelog_summary">查看更新日誌</string>
-  <string name="mokee_github_title">MoKee 的 Github</string>
-  <string name="mokee_github_summary">造訪 MoKee Github</string>
-  <string name="mokee_translate_title">MoKee 翻譯</string>
-  <string name="mokee_translate_summary">協助翻譯 MoKee</string>
-  <string name="mokee_wiki_title">MoKee 的 Wiki</string>
-  <string name="mokee_wiki_summary">造訪 MoKee Wiki</string>
-  <string name="mokee_news_title">MoKee 新聞</string>
-  <string name="mokee_news_summary">從MoKee 接收開發人員新聞</string>
-  <!-- Base Info -->
-  <string name="mokee_version_info_title">版本資訊</string>
-  <string name="mokee_version_title">MoKee 版本</string>
-  <string name="mokee_unique_id_title">唯一識別碼</string>
-  <string name="mokee_donate_info_title">捐贈資訊</string>
-  <string name="mokee_last_check_title">最後檢查時間：</string>
-  <string name="mokee_last_check_never">永不</string>
-  <!-- Version -->
-  <string name="mokee_info_default">未知</string>
-  <string name="mokee_version_type_release">釋放版</string>
-  <string name="mokee_version_type_history">歷史版</string>
-  <string name="mokee_version_type_experimental">實驗版</string>
-  <string name="mokee_version_type_nightly">每夜版</string>
-  <string name="mokee_version_type_unofficial">非官方版本</string>
-  <string name="mokee_version_type_all">所有的</string>
-  <!-- State -->
-  <string name="downloaded_update_summary">已下載</string>
-  <string name="installed_update_summary">已安裝</string>
-  <string name="available_updates_title">可用的更新</string>
-  <!-- Menu -->
-  <string name="menu_donate">捐贈</string>
-  <string name="menu_refresh">重新整理</string>
-  <string name="menu_delete_all">刪除下載</string>
-  <string name="menu_unlock_features">功能解鎖</string>
-  <string name="menu_restore">還原憑證</string>
-  <!-- Donate -->
-  <string name="donate_dialog_title">捐贈給我們</string>
-  <string name="donate_dialog_message">和 Cyanogen，MIUI 等已接受投資的商業化公司不同，MoKee 作為非營利性的民間開源專案，需要通過接受捐贈或是顯示介面廣告等手段籌集經費，才能負擔得起每個月的伺服器租用及託管、網路頻寬、介面授權等高昂支出。因此，您的支援至關重要！請為 MoKee 出些力，幫助我們做得更好！捐贈完成後，我們會為您啟用捐贈使用者獨享的強大功能！同時，您的捐贈記錄會永久儲存在雲端伺服器上，當您清除資料或從其它 ROM 刷回 MoKee 時，捐贈記錄將會自動恢復。</string>
-  <string name="donate_dialog_faq">Q&amp;A</string>
-  <string name="donate_dialog_next">下一個</string>
-  <string name="donate_dialog_via_paypal">PayPal</string>
-  <string name="donate_dialog_via_alipay">支付寶</string>
-  <string name="donate_dialog_via_wechat">微信 (WeChat)</string>
-  <string name="donate_dialog_via_restore">復原</string>
-  <string name="donate_money_toast_success">謝謝您的捐贈 ！</string>
-  <string name="donate_money_title">贊助 MoKee OpenSource</string>
-  <string name="donate_money_again">繼續捐贈</string>
-  <string name="donate_money_restored_success">恢復成功！</string>
-  <string name="donate_money_restored_failed">沒有找到裝置記錄。</string>
-  <string name="donate_money_restored_failed_solution">解決方案</string>
-  <string name="donate_money_restored_timeout">連線逾時，請稍後再試</string>
-  <string name="donate_money_info">您共捐贈了 ￥ 元人民幣 %1$d，超過全球 %2$s 的捐助者！</string>
-  <string name="donate_money_info_with_rank">您共捐贈了 ￥ 元 %1$d，超過全球 %2$s 的捐助者，排名%3$d！</string>
-  <string name="donate_money_info_null">捐贈是國際上通行的一種支持免費軟體的方式，完成一次光榮的捐贈，使我們能夠做的更好！</string>
-  <string name="unlock_features_title">功能解鎖</string>
-  <string name="unlock_features_ota_title">捐贈 %d 元人民幣解鎖 OTA 更新以及全速下載。</string>
-  <string name="unlock_features_verify_rom_title">捐贈 %d 元人民幣，開啟驗證更新和去廣告</string>
-  <string name="unlock_features_all_title">捐贈 %d 元人民幣解鎖 OTA 更新、全速下載、驗證更新以及去廣告</string>
-  <string name="unlock_features_request_summary">（累計捐贈人民幣 %d 元後永久可用）</string>
-  <string name="unlock_features_pending_summary">（已捐贈人民幣 %1$d 元，再捐贈人民幣 %2$d 元後永久可用）</string>
-  <!-- Update -->
-  <string name="unknown">未知</string>
-  <string name="dialog_update">更新</string>
-  <string name="dialog_install">安裝</string>
-  <string name="dialog_ok">確定</string>
-  <string name="dialog_cancel">取消</string>
-  <string name="dialog_close">關閉</string>
-  <string name="no_available_updates_intro">上次檢查並未發現任何可用的更新。輕觸重新整理按鈕即可手動檢查新的更新。</string>
-  <string name="no_available_ota_intro">最後檢查並沒有發現任何可用的更新。若要手動檢查新的更新，請使用重新整理按鈕。如果你正在運行一個不支援增量更新日期範圍之內的版本，則應取消選擇「增量更新」的選項。</string>
-  <string name="new_update_summary">新</string>
-  <string name="old_update_summary">舊</string>
-  <string name="ota_diff_update_summary">開啟增量更新可節省 %s 流量</string>
-  <string name="full_diff_update_summary">與完整 ROM 相比可為您節省 %s 流量</string>
-  <string name="update_check_title">檢查更新的頻率</string>
-  <string name="check_manual">手動</string>
-  <string name="nightly_alert">您在清單中已選取包括每夜版更新。這些更新不受支援並應該謹慎使用。</string>
-  <string name="experimenter_alert">您在清單中已選取包括試驗版更新。這些更新不受支援並應該謹慎使用。</string>
-  <string name="unofficial_alert">您在清單中已選取包括非官方更新。這些更新不受支援並應該謹慎使用，如有問題，請不要向我們回報。</string>
-  <string name="all_alert">您已選擇包括在此清單中的所有更新 (釋放版，試驗版)。但是請注意，每夜版更新不受支援，並且應慎使用。</string>
-  <string name="alert_title">注意</string>
-  <string name="update_type_title">更新類型</string>
-  <!-- ChangeLog -->
-  <string name="no_changelog_alert">沒有可用的更新日誌</string>
-  <string name="changelog_dialog_title">更新日誌</string>
-  <string name="loading_changelog">載入中\u2026</string>
-  <string name="check_on_boot">每次重新開機</string>
-  <string name="check_twice_daily">每天兩次</string>
-  <string name="check_daily">每天一次</string>
-  <string name="check_twice_weekly">每週兩次</string>
-  <string name="check_weekly">每週一次</string>
-  <string name="check_bi_weekly">每兩星期一次</string>
-  <string name="check_monthly">每月一次</string>
-  <!-- checking -->
-  <string name="checking_for_updates">檢查更新</string>
-  <string name="no_updates_found">沒有找到新的更新</string>
-  <string name="not_new_updates_found_ticker">有新的更新</string>
-  <string name="not_new_updates_found_title">新的更新</string>
-  <string name="update_check_failed">更新檢查失敗。請檢查您的網際網路連線並稍後重試。</string>
-  <string name="not_action_download">下載</string>
-  <string name="data_connection_required">請開啟您的網際網路連線。</string>
-  <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">取消下載</string>
-  <string name="confirm_download_cancelation_dialog_message">取消目前下載？</string>
-  <string name="download_remaining">剩下<xliff:g id="duration" example="3 minutes">%s</xliff:g></string>
-  <string name="download_running">處理中</string>
-  <string name="download_cancelled">下載已取消</string>
-  <string name="download_already_running">下載已經正在執行</string>
-  <string name="download_limited_mode">下載速度有限，請捐贈享受全速。</string>
-  <string name="unable_to_download_file">無法下載更新檔案</string>
-  <string name="not_download_success">更新已成功下載</string>
-  <string name="not_download_failure">下載更新失敗</string>
-  <string name="not_action_install_update">重新啟動並安裝</string>
-  <string name="not_download_install_notice">更新檔 <xliff:g id="filename">%s</xliff:g> 已成功下載。點選「重新開機和安裝」以重新啟動裝置來安裝更新。\n\n注意︰此功能需要相容的 Recovery 程式，否則您需要手動安裝此更新。</string>
-  <string name="not_download_install_ota_notice">更新檔 <xliff:g id="filename">%s </xliff:g> 下載成功。點選「重新開機和安裝」以重新啟動裝置來安裝更新。\n\n注意︰ 此功能需要相容的 Recovery 程式，否則您需要手動安裝該更新。\n\n此更新是增量更新，因此對系統檔所做的任何更改可能會導致更新失敗。如果發生這種情況，請刷入完整 ROM。</string>
-  <string name="md5_verification_failed">MD5 校驗不符合</string>
-  <string name="not_apk_action_install_update">安裝</string>
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">刪除檔案</string>
-  <string name="confirm_delete_updates_dialog_message">您確定要刪除此更新檔？</string>
-  <string name="confirm_delete_updates_all_dialog_message">您確定要刪除所有已下載的更新檔？</string>
-  <string name="delete_single_update_success_message">更新 <xliff:g id="filename">%s</xliff:g> 已刪除</string>
-  <string name="delete_updates_failure_message">刪除更新檔案時出現錯誤</string>
-  <string name="delete_updates_nofolder_message">未找到更新檔所在的資料夾</string>
-  <string name="delete_updates_success_message">所有已下載的更新檔已刪除</string>
-  <!-- Pref -->
-  <string name="pref_ota_check">增量更新</string>
-  <string name="pref_ota_check_summary">取得增量更新以節省時間和流量</string>
-  <string name="pref_ota_check_request_summary">取得增量更新以節省時間和流量</string>
-  <string name="pref_verify_rom">已驗證的更新</string>
-  <string name="pref_verify_rom_summary">僅檢查經過其它使用者刷入驗證的新版本</string>
-  <string name="pref_verify_rom_request_summary">僅檢查經過其它使用者刷入驗證的新版本</string>
-  <!-- Apply install and update strings -->
-  <string name="apply_update_dialog_title">套用更新</string>
-  <string name="apply_update_dialog_text">您將要更新到 <xliff:g id="filename">%s</xliff:g>。\n\n如果您選擇更新，您的裝置將會重新啟動到 Recovery 模式並安裝更新。\n\n注意：此功能需要一個相容的 Recovery 程式。如果您沒有的話，您將需要手動安裝更新。</string>
-  <string name="apply_update_ota_dialog_text">您將要升級到 <xliff:g id="filename">%s </xliff:g>。\n\n 如果你選擇升級，裝置將會重新啟動並在 Recovery 模式下安裝 更升級檔。\n\n注意︰ 此功能需要相容的 Recovery 程式，否則您需要手動安裝。\n\n這是增量更新，因此對系統檔所做的任何更改可能會導致更新失敗。如果發生這種情況，請刷入完整 ROM。</string>
-  <string name="apply_unable_to_reboot_toast">無法重啟到復原模式</string>
-  <!-- Experimenter mode -->
-  <string name="show_exp_on">您已啟用實驗性設定 ！</string>
-  <string name="show_exp_already">不用了，您已經啟用了實驗設定。</string>
-  <!-- Verify system compatible -->
-  <string name="verify_system_compatible_title">MoKee 系統更新</string>
-  <string name="verify_system_compatible_message">正在驗證增量更新的相容性</string>
-  <string name="verify_system_compatible_failed">系統相容性驗證失敗</string>
-  <string name="verify_system_compatible_patch">下列檔案不存在或已被篡改，請還原原檔案後再使用增量更新。</string>
-  <string name="verify_system_compatible_img">%1$s 不相容，請升級到版本 %2$s</string>
-  <string name="verify_system_compatible_root_request">更新驗證元件需要 Root 權限以即時驗證更新的相容性。如果你選擇跳過，這一步將推遲並在 Recovery 模式下執行。</string>
-  <string name="verify_system_compatible_root_skip">略過</string>
-  <!-- Common -->
-  <string name="activity_not_found">應用程式未安裝。</string>
+    <!-- Fragment -->
+    <string name="mokee_center_title">MoKee 中心</string>
+    <string name="mokee_support_title">支援</string>
+    <string name="mokee_updater_title">更新程式</string>
+    <!-- WebSite -->
+    <string name="mokee_links">連結</string>
+    <string name="mokee_website_title">MoKee 網站</string>
+    <string name="mokee_website_summary">造訪官方網站</string>
+    <string name="mokee_forum_title">MoKee 論壇</string>
+    <string name="mokee_forum_summary">造訪 MoKee 論壇</string>
+    <string name="mokee_issues_title">MoKee Bug 追蹤器</string>
+    <string name="mokee_issues_summary">造訪 Bug 追蹤器</string>
+    <string name="mokee_changelog_title">MoKee 更新日誌</string>
+    <string name="mokee_changelog_summary">查看更新日誌</string>
+    <string name="mokee_github_title">MoKee 的 Github</string>
+    <string name="mokee_github_summary">造訪 MoKee Github</string>
+    <string name="mokee_translate_title">MoKee 翻譯</string>
+    <string name="mokee_translate_summary">協助翻譯 MoKee</string>
+    <string name="mokee_wiki_title">MoKee 的 Wiki</string>
+    <string name="mokee_wiki_summary">造訪 MoKee Wiki</string>
+    <string name="mokee_news_title">MoKee 新聞</string>
+    <string name="mokee_news_summary">從MoKee 接收開發人員新聞</string>
+    <!-- Base Info -->
+    <string name="mokee_version_info_title">版本資訊</string>
+    <string name="mokee_version_title">MoKee 版本</string>
+    <string name="mokee_unique_id_title">唯一識別碼</string>
+    <string name="mokee_donate_info_title">捐贈資訊</string>
+    <string name="mokee_last_check_title">最後檢查時間：</string>
+    <string name="mokee_last_check_never">永不</string>
+    <!-- Version -->
+    <string name="mokee_info_default">未知</string>
+    <string name="mokee_version_type_release">釋放版</string>
+    <string name="mokee_version_type_history">歷史版</string>
+    <string name="mokee_version_type_experimental">實驗版</string>
+    <string name="mokee_version_type_nightly">每夜版</string>
+    <string name="mokee_version_type_unofficial">非官方版本</string>
+    <string name="mokee_version_type_all">所有的</string>
+    <!-- State -->
+    <string name="downloaded_update_summary">已下載</string>
+    <string name="installed_update_summary">已安裝</string>
+    <string name="available_updates_title">可用的更新</string>
+    <!-- Menu -->
+    <string name="menu_donate">捐贈</string>
+    <string name="menu_refresh">重新整理</string>
+    <string name="menu_delete_all">刪除下載</string>
+    <string name="menu_unlock_features">功能解鎖</string>
+    <string name="menu_restore">還原憑證</string>
+    <!-- Donate -->
+    <string name="donate_dialog_title">捐贈給我們</string>
+    <string name="donate_dialog_message">和 Cyanogen，MIUI 等已接受投資的商業化公司不同，MoKee 作為非營利性的民間開源專案，需要通過接受捐贈或是顯示介面廣告等手段籌集經費，才能負擔得起每個月的伺服器租用及託管、網路頻寬、介面授權等高昂支出。因此，您的支援至關重要！請為 MoKee 出些力，幫助我們做得更好！捐贈完成後，我們會為您啟用捐贈使用者獨享的強大功能！同時，您的捐贈記錄會永久儲存在雲端伺服器上，當您清除資料或從其它 ROM 刷回 MoKee 時，捐贈記錄將會自動恢復。</string>
+    <string name="donate_dialog_faq">Q&amp;A</string>
+    <string name="donate_dialog_next">下一個</string>
+    <string name="donate_dialog_via_paypal">PayPal</string>
+    <string name="donate_dialog_via_alipay">支付寶</string>
+    <string name="donate_dialog_via_wechat">微信 (WeChat)</string>
+    <string name="donate_dialog_via_restore">復原</string>
+    <string name="donate_money_toast_success">謝謝您的捐贈 ！</string>
+    <string name="donate_money_title">贊助 MoKee OpenSource</string>
+    <string name="donate_money_again">繼續捐贈</string>
+    <string name="donate_money_restored_success">恢復成功！</string>
+    <string name="donate_money_restored_failed">沒有找到裝置記錄。</string>
+    <string name="donate_money_restored_failed_solution">解決方案</string>
+    <string name="donate_money_restored_timeout">連線逾時，請稍後再試</string>
+    <string name="donate_money_info">您共捐贈了 ￥ 元人民幣 %1$d，超過全球 %2$s 的捐助者！</string>
+    <string name="donate_money_info_with_rank">您共捐贈了 ￥ 元 %1$d，超過全球 %2$s 的捐助者，排名%3$d！</string>
+    <string name="donate_money_info_null">捐贈是國際上通行的一種支持免費軟體的方式，完成一次光榮的捐贈，使我們能夠做的更好！</string>
+    <string name="unlock_features_title">功能解鎖</string>
+    <string name="unlock_features_ota_title">捐贈 %d 元人民幣解鎖 OTA 更新以及全速下載。</string>
+    <string name="unlock_features_verify_rom_title">捐贈 %d 元人民幣，開啟驗證更新和去廣告</string>
+    <string name="unlock_features_all_title">捐贈 %d 元人民幣解鎖 OTA 更新、全速下載、驗證更新以及去廣告</string>
+    <string name="unlock_features_request_summary">（累計捐贈人民幣 %d 元後永久可用）</string>
+    <string name="unlock_features_pending_summary">（已捐贈人民幣 %1$d 元，再捐贈人民幣 %2$d 元後永久可用）</string>
+    <!-- Update -->
+    <string name="unknown">未知</string>
+    <string name="dialog_update">更新</string>
+    <string name="dialog_install">安裝</string>
+    <string name="dialog_ok">確定</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_close">關閉</string>
+    <string name="no_available_updates_intro">上次檢查並未發現任何可用的更新。輕觸重新整理按鈕即可手動檢查新的更新。</string>
+    <string name="no_available_ota_intro">最後檢查並沒有發現任何可用的更新。若要手動檢查新的更新，請使用重新整理按鈕。如果你正在運行一個不支援增量更新日期範圍之內的版本，則應取消選擇「增量更新」的選項。</string>
+    <string name="new_update_summary">新</string>
+    <string name="old_update_summary">舊</string>
+    <string name="ota_diff_update_summary">開啟增量更新可節省 %s 流量</string>
+    <string name="full_diff_update_summary">與完整 ROM 相比可為您節省 %s 流量</string>
+    <string name="update_check_title">檢查更新的頻率</string>
+    <string name="check_manual">手動</string>
+    <string name="nightly_alert">您在清單中已選取包括每夜版更新。這些更新不受支援並應該謹慎使用。</string>
+    <string name="experimenter_alert">您在清單中已選取包括試驗版更新。這些更新不受支援並應該謹慎使用。</string>
+    <string name="unofficial_alert">您在清單中已選取包括非官方更新。這些更新不受支援並應該謹慎使用，如有問題，請不要向我們回報。</string>
+    <string name="all_alert">您已選擇包括在此清單中的所有更新 (釋放版，試驗版)。但是請注意，每夜版更新不受支援，並且應慎使用。</string>
+    <string name="alert_title">注意</string>
+    <string name="update_type_title">更新類型</string>
+    <!-- ChangeLog -->
+    <string name="no_changelog_alert">沒有可用的更新日誌</string>
+    <string name="changelog_dialog_title">更新日誌</string>
+    <string name="loading_changelog">載入中\u2026</string>
+    <string name="check_on_boot">每次重新開機</string>
+    <string name="check_twice_daily">每天兩次</string>
+    <string name="check_daily">每天一次</string>
+    <string name="check_twice_weekly">每週兩次</string>
+    <string name="check_weekly">每週一次</string>
+    <string name="check_bi_weekly">每兩星期一次</string>
+    <string name="check_monthly">每月一次</string>
+    <!-- checking -->
+    <string name="checking_for_updates">檢查更新</string>
+    <string name="no_updates_found">沒有找到新的更新</string>
+    <string name="not_new_updates_found_ticker">有新的更新</string>
+    <string name="not_new_updates_found_title">新的更新</string>
+    <string name="update_check_failed">更新檢查失敗。請檢查您的網際網路連線並稍後重試。</string>
+    <string name="not_action_download">下載</string>
+    <string name="data_connection_required">請開啟您的網際網路連線。</string>
+    <!-- Downloads -->
+    <string name="confirm_download_cancelation_dialog_title">取消下載</string>
+    <string name="confirm_download_cancelation_dialog_message">取消目前下載？</string>
+    <string name="download_remaining">剩下<xliff:g id="duration" example="3 minutes">%s</xliff:g></string>
+    <string name="download_running">處理中</string>
+    <string name="download_cancelled">下載已取消</string>
+    <string name="download_already_running">下載已經正在執行</string>
+    <string name="download_limited_mode">下載速度有限，請捐贈享受全速。</string>
+    <string name="unable_to_download_file">無法下載更新檔案</string>
+    <string name="not_download_success">更新已成功下載</string>
+    <string name="not_download_failure">下載更新失敗</string>
+    <string name="not_action_install_update">重新啟動並安裝</string>
+    <string name="not_download_install_notice">更新檔 <xliff:g id="filename">%s</xliff:g> 已成功下載。點選「重新開機和安裝」以重新啟動裝置來安裝更新。\n\n注意︰此功能需要相容的 Recovery 程式，否則您需要手動安裝此更新。</string>
+    <string name="not_download_install_ota_notice">更新檔 <xliff:g id="filename">%s </xliff:g> 下載成功。點選「重新開機和安裝」以重新啟動裝置來安裝更新。\n\n注意︰ 此功能需要相容的 Recovery 程式，否則您需要手動安裝該更新。\n\n此更新是增量更新，因此對系統檔所做的任何更改可能會導致更新失敗。如果發生這種情況，請刷入完整 ROM。</string>
+    <string name="md5_verification_failed">MD5 校驗不符合</string>
+    <string name="not_apk_action_install_update">安裝</string>
+    <!-- deleting -->
+    <string name="confirm_delete_dialog_title">刪除檔案</string>
+    <string name="confirm_delete_updates_dialog_message">您確定要刪除此更新檔？</string>
+    <string name="confirm_delete_updates_all_dialog_message">您確定要刪除所有已下載的更新檔？</string>
+    <string name="delete_single_update_success_message">更新 <xliff:g id="filename">%s</xliff:g> 已刪除</string>
+    <string name="delete_updates_failure_message">刪除更新檔案時出現錯誤</string>
+    <string name="delete_updates_nofolder_message">未找到更新檔所在的資料夾</string>
+    <string name="delete_updates_success_message">所有已下載的更新檔已刪除</string>
+    <!-- Pref -->
+    <string name="pref_ota_check">增量更新</string>
+    <string name="pref_ota_check_summary">取得增量更新以節省時間和流量</string>
+    <string name="pref_ota_check_request_summary">取得增量更新以節省時間和流量</string>
+    <string name="pref_verify_rom">已驗證的更新</string>
+    <string name="pref_verify_rom_summary">僅檢查經過其它使用者刷入驗證的新版本</string>
+    <string name="pref_verify_rom_request_summary">僅檢查經過其它使用者刷入驗證的新版本</string>
+    <!-- Apply install and update strings -->
+    <string name="apply_update_dialog_title">套用更新</string>
+    <string name="apply_update_dialog_text">您將要更新到 <xliff:g id="filename">%s</xliff:g>。\n\n如果您選擇更新，您的裝置將會重新啟動到 Recovery 模式並安裝更新。\n\n注意：此功能需要一個相容的 Recovery 程式。如果您沒有的話，您將需要手動安裝更新。</string>
+    <string name="apply_update_ota_dialog_text">您將要升級到 <xliff:g id="filename">%s </xliff:g>。\n\n 如果你選擇升級，裝置將會重新啟動並在 Recovery 模式下安裝 更升級檔。\n\n注意︰ 此功能需要相容的 Recovery 程式，否則您需要手動安裝。\n\n這是增量更新，因此對系統檔所做的任何更改可能會導致更新失敗。如果發生這種情況，請刷入完整 ROM。</string>
+    <string name="apply_unable_to_reboot_toast">無法重啟到復原模式</string>
+    <!-- Experimenter mode -->
+    <string name="show_exp_on">您已啟用實驗性設定 ！</string>
+    <string name="show_exp_already">不用了，您已經啟用了實驗設定。</string>
+    <!-- Verify system compatible -->
+    <string name="verify_system_compatible_title">MoKee 系統更新</string>
+    <string name="verify_system_compatible_message">正在驗證增量更新的相容性</string>
+    <string name="verify_system_compatible_failed">系統相容性驗證失敗</string>
+    <string name="verify_system_compatible_patch">下列檔案不存在或已被篡改，請還原原檔案後再使用增量更新。</string>
+    <string name="verify_system_compatible_img">%1$s 不相容，請升級到版本 %2$s</string>
+    <string name="verify_system_compatible_root_request">更新驗證元件需要 Root 權限以即時驗證更新的相容性。如果你選擇跳過，這一步將推遲並在 Recovery 模式下執行。</string>
+    <string name="verify_system_compatible_root_skip">略過</string>
+    <!-- Common -->
+    <string name="activity_not_found">應用程式未安裝。</string>
 </resources>

@@ -17,144 +17,144 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Fragment -->
-  <string name="mokee_center_title">MoKee மையம்</string>
-  <string name="mokee_support_title">ஆதரவு</string>
-  <string name="mokee_updater_title">மேம்படுத்தி</string>
-  <!-- WebSite -->
-  <string name="mokee_website_title">MoKee வலைத்தளம்</string>
-  <string name="mokee_website_summary">அதிகாரப்பூர்வ இணையதளம் செல்க</string>
-  <string name="mokee_forum_title">MoKee மன்றம்</string>
-  <string name="mokee_forum_summary">MoKee மன்றம் செல்</string>
-  <string name="mokee_issues_title">MoKee பிழை திரட்டப்படுகிறது</string>
-  <string name="mokee_issues_summary">MoKee பிழை டிரேக்கர் செல்</string>
-  <string name="mokee_changelog_title">MoKee மாற்றம் பதிவு</string>
-  <string name="mokee_changelog_summary">தினசரி மாற்றம் பதிவு காண்</string>
-  <string name="mokee_github_title">MoKee Github</string>
-  <string name="mokee_github_summary">MoKee Github பார்க்க</string>
-  <string name="mokee_translate_title">Mokee மொழிபெயர்ப்பாளர்</string>
-  <string name="mokee_translate_summary">Mokee மொழிபெயர்ப்பாளர் உதவி</string>
-  <string name="mokee_wiki_title">MoKee Wiki</string>
-  <string name="mokee_wiki_summary">MoKee Wiki பார்க்க</string>
-  <string name="mokee_news_title">MoKee செய்தி</string>
-  <string name="mokee_news_summary">MoKee இருந்து வளர்ச்சி செய்திகளை பெற</string>
-  <!-- Base Info -->
-  <string name="mokee_version_info_title">பதிப்பு தகவல்</string>
-  <string name="mokee_version_title">MoKee பதிப்பு</string>
-  <string name="mokee_unique_id_title">பிரத்யேக ID</string>
-  <string name="mokee_donate_info_title">தகவல் நன்கொடையளி</string>
-  <string name="mokee_last_check_title">கடந்த சோதனை</string>
-  <string name="mokee_last_check_never">ஒருபோதுமில்லை</string>
-  <!-- Version -->
-  <string name="mokee_info_default">அறியாத</string>
-  <string name="mokee_version_type_release">வெளியீடு</string>
-  <string name="mokee_version_type_history">வரலாறு</string>
-  <string name="mokee_version_type_experimental">சோதனை</string>
-  <string name="mokee_version_type_nightly">இரவில் நிகழ்கிற</string>
-  <string name="mokee_version_type_unofficial">அதிகாரப்பூர்வமற்ற</string>
-  <string name="mokee_version_type_all">அனைத்தும்</string>
-  <!-- State -->
-  <string name="downloaded_update_summary">பதிவிறக்கம்</string>
-  <string name="installed_update_summary">நிறுவப்பட்டது</string>
-  <string name="available_updates_title">பெறக்கூடிய புதுப்பித்தல்</string>
-  <!-- Menu -->
-  <string name="menu_donate">நன்கொடை</string>
-  <string name="menu_refresh">புதுப்பி</string>
-  <string name="menu_delete_all">பதிவிறக்கம் அழி</string>
-  <!-- Donate -->
-  <string name="donate_dialog_title">எங்களுக்கு நன்கொடை</string>
-  <string name="donate_dialog_message">Cygn, MIUI போன்ற நிறுவனங்கள் போலல்லாமல், MoKee ஓப்பன்சோர்ஸ், பொழுதுபோக்கு மற்றும் பேரார்வம் பிறந்த ஒரு முற்றிலும் அல்லாத இலாபம் திட்டம் ஆகும். இந்த திட்டம் பராமரிக்கும் பொருட்டு, நாங்கள் பெரும்பாலான நேரம் எங்கள் சொந்த பணத்தை வெளியே வலுவாக்க வேண்டும் அல்லது நன்கொடைகள் மற்றும் விளம்பரங்களை நம்பியுள்ளன. உங்கள் நன்கொடை எங்கள் நிதி சுமை குறைக்க மற்றும் எதிர்கால மேம்பாட்டு நிலைத்திருக்க உதவும்! இந்த விருப்பத் தேர்வின் மூலம் MoKee மையம் விளம்பரங்களை நீக்க அனுமதிக்கிறது, அல்லது \"தானம்\" விருப்பத்தை விரும்பினால் 
+    <!-- Fragment -->
+    <string name="mokee_center_title">MoKee மையம்</string>
+    <string name="mokee_support_title">ஆதரவு</string>
+    <string name="mokee_updater_title">மேம்படுத்தி</string>
+    <!-- WebSite -->
+    <string name="mokee_website_title">MoKee வலைத்தளம்</string>
+    <string name="mokee_website_summary">அதிகாரப்பூர்வ இணையதளம் செல்க</string>
+    <string name="mokee_forum_title">MoKee மன்றம்</string>
+    <string name="mokee_forum_summary">MoKee மன்றம் செல்</string>
+    <string name="mokee_issues_title">MoKee பிழை திரட்டப்படுகிறது</string>
+    <string name="mokee_issues_summary">MoKee பிழை டிரேக்கர் செல்</string>
+    <string name="mokee_changelog_title">MoKee மாற்றம் பதிவு</string>
+    <string name="mokee_changelog_summary">தினசரி மாற்றம் பதிவு காண்</string>
+    <string name="mokee_github_title">MoKee Github</string>
+    <string name="mokee_github_summary">MoKee Github பார்க்க</string>
+    <string name="mokee_translate_title">Mokee மொழிபெயர்ப்பாளர்</string>
+    <string name="mokee_translate_summary">Mokee மொழிபெயர்ப்பாளர் உதவி</string>
+    <string name="mokee_wiki_title">MoKee Wiki</string>
+    <string name="mokee_wiki_summary">MoKee Wiki பார்க்க</string>
+    <string name="mokee_news_title">MoKee செய்தி</string>
+    <string name="mokee_news_summary">MoKee இருந்து வளர்ச்சி செய்திகளை பெற</string>
+    <!-- Base Info -->
+    <string name="mokee_version_info_title">பதிப்பு தகவல்</string>
+    <string name="mokee_version_title">MoKee பதிப்பு</string>
+    <string name="mokee_unique_id_title">பிரத்யேக ID</string>
+    <string name="mokee_donate_info_title">தகவல் நன்கொடையளி</string>
+    <string name="mokee_last_check_title">கடந்த சோதனை</string>
+    <string name="mokee_last_check_never">ஒருபோதுமில்லை</string>
+    <!-- Version -->
+    <string name="mokee_info_default">அறியாத</string>
+    <string name="mokee_version_type_release">வெளியீடு</string>
+    <string name="mokee_version_type_history">வரலாறு</string>
+    <string name="mokee_version_type_experimental">சோதனை</string>
+    <string name="mokee_version_type_nightly">இரவில் நிகழ்கிற</string>
+    <string name="mokee_version_type_unofficial">அதிகாரப்பூர்வமற்ற</string>
+    <string name="mokee_version_type_all">அனைத்தும்</string>
+    <!-- State -->
+    <string name="downloaded_update_summary">பதிவிறக்கம்</string>
+    <string name="installed_update_summary">நிறுவப்பட்டது</string>
+    <string name="available_updates_title">பெறக்கூடிய புதுப்பித்தல்</string>
+    <!-- Menu -->
+    <string name="menu_donate">நன்கொடை</string>
+    <string name="menu_refresh">புதுப்பி</string>
+    <string name="menu_delete_all">பதிவிறக்கம் அழி</string>
+    <!-- Donate -->
+    <string name="donate_dialog_title">எங்களுக்கு நன்கொடை</string>
+    <string name="donate_dialog_message">Cygn, MIUI போன்ற நிறுவனங்கள் போலல்லாமல், MoKee ஓப்பன்சோர்ஸ், பொழுதுபோக்கு மற்றும் பேரார்வம் பிறந்த ஒரு முற்றிலும் அல்லாத இலாபம் திட்டம் ஆகும். இந்த திட்டம் பராமரிக்கும் பொருட்டு, நாங்கள் பெரும்பாலான நேரம் எங்கள் சொந்த பணத்தை வெளியே வலுவாக்க வேண்டும் அல்லது நன்கொடைகள் மற்றும் விளம்பரங்களை நம்பியுள்ளன. உங்கள் நன்கொடை எங்கள் நிதி சுமை குறைக்க மற்றும் எதிர்கால மேம்பாட்டு நிலைத்திருக்க உதவும்! இந்த விருப்பத் தேர்வின் மூலம் MoKee மையம் விளம்பரங்களை நீக்க அனுமதிக்கிறது, அல்லது \"தானம்\" விருப்பத்தை விரும்பினால் 
 (மொத்த குறிப்பிட்ட மதிப்பை அடைந்ததும் விளம்பரங்கள் அகற்றப்பட்டு விடும்). mokee.license கோப்பினை காப்பு பிரதி எடுக்கலாம் (தற்போதைய சாதனத்தில் மட்டுமே செல்லுபடியாகும்).</string>
-  <string name="donate_dialog_next">&quot;அடுத்து&quot;</string>
-  <string name="donate_dialog_via_paypal">PayPal</string>
-  <string name="donate_dialog_via_alipay">AliPay</string>
-  <string name="donate_dialog_via_restore">மீட்டெடுத்தல்</string>
-  <string name="donate_money_toast_success">உங்கள் நன்கொடை நன்றி!</string>
-  <string name="donate_money_again">மீண்டும் நன்கொடை</string>
-  <string name="donate_money_restored_success">வெற்றிகரமாக மீட்டெடுக்கப்பட்டது!</string>
-  <string name="donate_money_restored_failed">சாதனம் சாதனை எதுவும் காணப்படவில்லை.</string>
-  <string name="donate_money_restored_timeout">இணைப்பு தோல்வியுற்றது, மீண்டும் முயற்சித்திடுக</string>
-  <string name="donate_money_info">நீங்கள் மொத்தம் CNY %1$d, உலகளவில் %2$s விட நன்கொடையாக கொடுக்கப்பட்டுள்ளது!</string>
-  <string name="donate_money_info_with_rank">நீங்கள் மொத்தம் CNY %1$d, உலகளவில் %2$s விட நன்கொடையாக கொடுக்கப்பட்டுள்ளது, அந்தஸ்து %3$d!</string>
-  <string name="donate_money_info_null">நீங்கள் நன்கொடையாக இல்லை</string>
-  <!-- Update -->
-  <string name="unknown">அறியாத</string>
-  <string name="dialog_update">புதுப்புத்தல்கள்</string>
-  <string name="dialog_install">நிறுவு</string>
-  <string name="dialog_ok">சரி</string>
-  <string name="dialog_cancel">ரத்துசெய்</string>
-  <string name="dialog_close">மூடு</string>
-  <string name="no_available_updates_intro">கடந்த சோதனை எந்த கிடைக்க மேம்படுத்தல்கள் கண்டுபிடிக்க முடியவில்லை. கைமுறையாக புதிய புதுப்பிப்புகளைப் பார்க்க, புதுப்பி பொத்தானை பயன்படுத்த வேண்டும்.</string>
-  <string name="no_available_ota_intro">கடந்த சோதனை எந்த கிடைக்க மேம்படுத்தல்கள் கண்டுபிடிக்க முடியவில்லை. கைமுறையாக புதிய புதுப்பிப்புகளைப் பார்க்க, புதுப்பி பொத்தானை பயன்படுத்த வேண்டும். உங்கள் பதிப்பு புதுப்பித்தலைத் தேதி வரம்பை விட அதிகமாக இருந்தால் நீங்கள் \"கூடுதல் மேம்படுத்தல்களை\" விருப்பத்தை தேர்ந்தெடுக்க கூடாது.</string>
-  <string name="new_update_summary">புதிய</string>
-  <string name="old_update_summary">பழைய</string>
-  <string name="update_check_title">சோதனை மேம்படுத்தல் freq</string>
-  <string name="check_manual">கைமுறையில்</string>
-  <string name="nightly_alert">நீங்கள் இந்த பட்டியலில் இரவு புதுப்பிப்புகளைச் சேர்க்கவும் தேர்தெடுத்துள்ளளிர்கள். இத்தகைய ஆதரவு இல்லை, எச்சரிக்கையுடன் பயன்படுத்தப்பட வேண்டும்.</string>
-  <string name="experimenter_alert">நீங்கள் இந்த பட்டியலில் சோதனைக்குரிய புதுப்பிப்புகளைச் சேர்க்கவும் தேர்தெடுத்துள்ளளிர்கள். இத்தகைய ஆதரவு இல்லை, அது சோதனைக்கு, எச்சரிக்கையுடன் பயன்படுத்தப்பட வேண்டும்.</string>
-  <string name="unofficial_alert">நீங்கள் இந்த பட்டியலில் அதிகாரப்பூர்வமற்ற புதுப்பிப்புகளைச் சேர்க்கவும் தேர்தெடுத்துள்ளளிர்கள். இது உங்கள் சாதனத்தை பராமரிப்பாளர் மூலம் துணைபுரிகிறது என்று தயவு செய்து நினைவில் கொள்க.</string>
-  <string name="all_alert">நீங்கள் இந்த பட்டியலில் அனைத்து மேம்படுத்தல்கள் (இரவு, வெளியீடு) தேர்தெடுத்துள்ளளிர்கள். இரவு வெளியீடு ஆதரவு இல்லை, எச்சரிக்கையுடன் பயன்படுத்தப்பட வேண்டும்.</string>
-  <string name="alert_title">எச்சரிக்கை</string>
-  <string name="update_type_title">புதுப்பிக்க வகை</string>
-  <!-- ChangeLog -->
-  <string name="no_changelog_alert">மாற்றம் பதிவு கிடைக்கவில்லை</string>
-  <string name="changelog_dialog_title">மாற்றம் பதிவு</string>
-  <string name="loading_changelog">ஏற்றுகிறது\u2026</string>
-  <string name="check_on_boot">ஒவ்வொரு மறுதொடக்கத்திற்கும்</string>
-  <string name="check_twice_daily">ஒவ்வொரு நாளும், இருமுறை</string>
-  <string name="check_daily">ஒரு முறை, ஒவ்வொரு நாளும்</string>
-  <string name="check_twice_weekly">வாரம் இருமுறை</string>
-  <string name="check_weekly">வாரம் ஒருமுறை</string>
-  <string name="check_bi_weekly">ஒவ்வொரு இரண்டு வாரங்களுக்கு ஒருமுறை</string>
-  <string name="check_monthly">ஒவ்வொரு மாதமும் ஒருமுறை</string>
-  <!-- checking -->
-  <string name="checking_for_updates">மேம்படுத்தல்களை சோதிக்க</string>
-  <string name="no_updates_found">புதிய மேம்படுத்தல்கள் இல்லை</string>
-  <string name="not_new_updates_found_ticker">புதிய மேம்படுத்தல்கள் கண்டறியப்பட்டுள்ளது</string>
-  <string name="not_new_updates_found_title">புதிய மேம்பாடு</string>
-  <string name="update_check_failed">மேம்படுத்தல் சோதனை தோல்வியுற்றது. உங்கள் இணைய இணைப்பைச் சரிபார்த்து, பிறகு மீண்டும் முயலவும்.</string>
-  <string name="not_action_download">பதிவிறக்கம்</string>
-  <string name="data_connection_required">தரவு இணைப்பு தேவை.</string>
-  <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">பதிவிறக்கம் ரத்துசெய்</string>
-  <string name="confirm_download_cancelation_dialog_message">தற்போதைய பதிவிறக்கத்தை ரத்துசெய்?</string>
-  <string name="download_remaining"><xliff:g id="duration" example="3 minutes">%s</xliff:g>இருக்கின்றன</string>
-  <string name="download_running">செயலில் உள்ளது</string>
-  <string name="download_cancelled">பதிவிறக்கம் ரத்து செய்யப்பட்டது</string>
-  <string name="download_already_running">பதிவிறக்கம் இயங்கிக்கொண்டிருக்கிறது</string>
-  <string name="unable_to_download_file">மேம்படுத்தல் கோப்பு பதிவிறக்க முடியவில்லை</string>
-  <string name="not_download_success">பதிவிறக்கம் வெற்றிகரமாக செய்யப்பட்டது</string>
-  <string name="not_download_failure">பதிவிறக்கம் தோல்வியடைந்தது</string>
-  <string name="not_action_install_update">மறுதொடக்கம் மற்றும் நிறுவ</string>
-  <string name="not_download_install_notice">மேம்படுத்தல் <xliff:g id="filename">%s</xliff:g>  வெற்றிகரமாக பதிவிறக்கம் நிறைவு செய்துள்ளது. \'மறுதொடக்கம் மற்றும் நிறுவ\' தொடும்போது, சாதனம் மறுதொடக்கம் ஆகும் &amp; மேம்படுத்தல் நிறுவும்.\n\nகுறிப்பு: இதற்காக
+    <string name="donate_dialog_next">&quot;அடுத்து&quot;</string>
+    <string name="donate_dialog_via_paypal">PayPal</string>
+    <string name="donate_dialog_via_alipay">AliPay</string>
+    <string name="donate_dialog_via_restore">மீட்டெடுத்தல்</string>
+    <string name="donate_money_toast_success">உங்கள் நன்கொடை நன்றி!</string>
+    <string name="donate_money_again">மீண்டும் நன்கொடை</string>
+    <string name="donate_money_restored_success">வெற்றிகரமாக மீட்டெடுக்கப்பட்டது!</string>
+    <string name="donate_money_restored_failed">சாதனம் சாதனை எதுவும் காணப்படவில்லை.</string>
+    <string name="donate_money_restored_timeout">இணைப்பு தோல்வியுற்றது, மீண்டும் முயற்சித்திடுக</string>
+    <string name="donate_money_info">நீங்கள் மொத்தம் CNY %1$d, உலகளவில் %2$s விட நன்கொடையாக கொடுக்கப்பட்டுள்ளது!</string>
+    <string name="donate_money_info_with_rank">நீங்கள் மொத்தம் CNY %1$d, உலகளவில் %2$s விட நன்கொடையாக கொடுக்கப்பட்டுள்ளது, அந்தஸ்து %3$d!</string>
+    <string name="donate_money_info_null">நீங்கள் நன்கொடையாக இல்லை</string>
+    <!-- Update -->
+    <string name="unknown">அறியாத</string>
+    <string name="dialog_update">புதுப்புத்தல்கள்</string>
+    <string name="dialog_install">நிறுவு</string>
+    <string name="dialog_ok">சரி</string>
+    <string name="dialog_cancel">ரத்துசெய்</string>
+    <string name="dialog_close">மூடு</string>
+    <string name="no_available_updates_intro">கடந்த சோதனை எந்த கிடைக்க மேம்படுத்தல்கள் கண்டுபிடிக்க முடியவில்லை. கைமுறையாக புதிய புதுப்பிப்புகளைப் பார்க்க, புதுப்பி பொத்தானை பயன்படுத்த வேண்டும்.</string>
+    <string name="no_available_ota_intro">கடந்த சோதனை எந்த கிடைக்க மேம்படுத்தல்கள் கண்டுபிடிக்க முடியவில்லை. கைமுறையாக புதிய புதுப்பிப்புகளைப் பார்க்க, புதுப்பி பொத்தானை பயன்படுத்த வேண்டும். உங்கள் பதிப்பு புதுப்பித்தலைத் தேதி வரம்பை விட அதிகமாக இருந்தால் நீங்கள் \"கூடுதல் மேம்படுத்தல்களை\" விருப்பத்தை தேர்ந்தெடுக்க கூடாது.</string>
+    <string name="new_update_summary">புதிய</string>
+    <string name="old_update_summary">பழைய</string>
+    <string name="update_check_title">சோதனை மேம்படுத்தல் freq</string>
+    <string name="check_manual">கைமுறையில்</string>
+    <string name="nightly_alert">நீங்கள் இந்த பட்டியலில் இரவு புதுப்பிப்புகளைச் சேர்க்கவும் தேர்தெடுத்துள்ளளிர்கள். இத்தகைய ஆதரவு இல்லை, எச்சரிக்கையுடன் பயன்படுத்தப்பட வேண்டும்.</string>
+    <string name="experimenter_alert">நீங்கள் இந்த பட்டியலில் சோதனைக்குரிய புதுப்பிப்புகளைச் சேர்க்கவும் தேர்தெடுத்துள்ளளிர்கள். இத்தகைய ஆதரவு இல்லை, அது சோதனைக்கு, எச்சரிக்கையுடன் பயன்படுத்தப்பட வேண்டும்.</string>
+    <string name="unofficial_alert">நீங்கள் இந்த பட்டியலில் அதிகாரப்பூர்வமற்ற புதுப்பிப்புகளைச் சேர்க்கவும் தேர்தெடுத்துள்ளளிர்கள். இது உங்கள் சாதனத்தை பராமரிப்பாளர் மூலம் துணைபுரிகிறது என்று தயவு செய்து நினைவில் கொள்க.</string>
+    <string name="all_alert">நீங்கள் இந்த பட்டியலில் அனைத்து மேம்படுத்தல்கள் (இரவு, வெளியீடு) தேர்தெடுத்துள்ளளிர்கள். இரவு வெளியீடு ஆதரவு இல்லை, எச்சரிக்கையுடன் பயன்படுத்தப்பட வேண்டும்.</string>
+    <string name="alert_title">எச்சரிக்கை</string>
+    <string name="update_type_title">புதுப்பிக்க வகை</string>
+    <!-- ChangeLog -->
+    <string name="no_changelog_alert">மாற்றம் பதிவு கிடைக்கவில்லை</string>
+    <string name="changelog_dialog_title">மாற்றம் பதிவு</string>
+    <string name="loading_changelog">ஏற்றுகிறது\u2026</string>
+    <string name="check_on_boot">ஒவ்வொரு மறுதொடக்கத்திற்கும்</string>
+    <string name="check_twice_daily">ஒவ்வொரு நாளும், இருமுறை</string>
+    <string name="check_daily">ஒரு முறை, ஒவ்வொரு நாளும்</string>
+    <string name="check_twice_weekly">வாரம் இருமுறை</string>
+    <string name="check_weekly">வாரம் ஒருமுறை</string>
+    <string name="check_bi_weekly">ஒவ்வொரு இரண்டு வாரங்களுக்கு ஒருமுறை</string>
+    <string name="check_monthly">ஒவ்வொரு மாதமும் ஒருமுறை</string>
+    <!-- checking -->
+    <string name="checking_for_updates">மேம்படுத்தல்களை சோதிக்க</string>
+    <string name="no_updates_found">புதிய மேம்படுத்தல்கள் இல்லை</string>
+    <string name="not_new_updates_found_ticker">புதிய மேம்படுத்தல்கள் கண்டறியப்பட்டுள்ளது</string>
+    <string name="not_new_updates_found_title">புதிய மேம்பாடு</string>
+    <string name="update_check_failed">மேம்படுத்தல் சோதனை தோல்வியுற்றது. உங்கள் இணைய இணைப்பைச் சரிபார்த்து, பிறகு மீண்டும் முயலவும்.</string>
+    <string name="not_action_download">பதிவிறக்கம்</string>
+    <string name="data_connection_required">தரவு இணைப்பு தேவை.</string>
+    <!-- Downloads -->
+    <string name="confirm_download_cancelation_dialog_title">பதிவிறக்கம் ரத்துசெய்</string>
+    <string name="confirm_download_cancelation_dialog_message">தற்போதைய பதிவிறக்கத்தை ரத்துசெய்?</string>
+    <string name="download_remaining"><xliff:g id="duration" example="3 minutes">%s</xliff:g>இருக்கின்றன</string>
+    <string name="download_running">செயலில் உள்ளது</string>
+    <string name="download_cancelled">பதிவிறக்கம் ரத்து செய்யப்பட்டது</string>
+    <string name="download_already_running">பதிவிறக்கம் இயங்கிக்கொண்டிருக்கிறது</string>
+    <string name="unable_to_download_file">மேம்படுத்தல் கோப்பு பதிவிறக்க முடியவில்லை</string>
+    <string name="not_download_success">பதிவிறக்கம் வெற்றிகரமாக செய்யப்பட்டது</string>
+    <string name="not_download_failure">பதிவிறக்கம் தோல்வியடைந்தது</string>
+    <string name="not_action_install_update">மறுதொடக்கம் மற்றும் நிறுவ</string>
+    <string name="not_download_install_notice">மேம்படுத்தல் <xliff:g id="filename">%s</xliff:g>  வெற்றிகரமாக பதிவிறக்கம் நிறைவு செய்துள்ளது. \'மறுதொடக்கம் மற்றும் நிறுவ\' தொடும்போது, சாதனம் மறுதொடக்கம் ஆகும் &amp; மேம்படுத்தல் நிறுவும்.\n\nகுறிப்பு: இதற்காக
 இணக்கமான Recovery வேண்டும். அல்லது மேம்படுத்தல்கள் கைமுறையாக நிறுவ வேண்டும்.</string>
-  <string name="not_download_install_ota_notice">மேம்படுத்தல் <xliff:g id="filename">%s</xliff:g>  வெற்றிகரமாக பதிவிறக்கம் நிறைவு செய்துள்ளது. \'மறுதொடக்கம் மற்றும் நிறுவ\' தொடும்போது, சாதனம் மறுதொடக்கம் ஆகும் &amp; மேம்படுத்தல் நிறுவும்.\n\nகுறிப்பு: இதற்காக
+    <string name="not_download_install_ota_notice">மேம்படுத்தல் <xliff:g id="filename">%s</xliff:g>  வெற்றிகரமாக பதிவிறக்கம் நிறைவு செய்துள்ளது. \'மறுதொடக்கம் மற்றும் நிறுவ\' தொடும்போது, சாதனம் மறுதொடக்கம் ஆகும் &amp; மேம்படுத்தல் நிறுவும்.\n\nகுறிப்பு: இதற்காக
 இணக்கமான Recovery வேண்டும். அல்லது மேம்படுத்தல்கள் கைமுறையாக நிறுவ வேண்டும்.\n\nஇது, ஒரு கூடுதல் மேம்படுத்தல், எனவே மேம்படுத்தல் தோல்வி ஏற்படுத்தக்கூடும். அது நடந்தால், ஒரு முழு ரோம் ப்ளாஷ் செயல்படுத்தலாம்.</string>
-  <string name="md5_verification_failed">MD5 Checksum பொருத்தமின்மை</string>
-  <string name="not_apk_action_install_update">நிறுவு</string>
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">கோப்புகளை அழி</string>
-  <string name="confirm_delete_updates_dialog_message">தேர்ந்தெடுத்ததை நீக்கவா?</string>
-  <string name="confirm_delete_updates_all_dialog_message">அனைத்து புதுப்பித்தல் கோப்புகளை நீக்கவா?</string>
-  <string name="delete_single_update_success_message">மேம்படுத்தல் <xliff:g id="filename">%s</xliff:g> நீக்கப்பட்டது</string>
-  <string name="delete_updates_failure_message">மேம்படுத்தல் கோப்பு நீக்குவதில் பிழை இருந்தது</string>
-  <string name="delete_updates_nofolder_message">புதுப்பிக்கப்பட்டது கோப்புறை இல்லை</string>
-  <string name="delete_updates_success_message">அனைத்து பதிவிறக்கம் மேம்படுத்தல்கள் நீக்கப்பட்டது</string>
-  <!-- Pref -->
-  <string name="pref_ota_check">கூடுதல் மேம்படுத்தல்</string>
-  <string name="pref_ota_check_summary">பதிவிறக்க நேரத்தை மற்றும் அலைவரிசையை காப்பாற்ற கிடைக்கும் கூடுதல் மேம்படுத்தல்களை பயன்படுத்தவும்</string>
-  <string name="pref_ota_check_request_summary">பதிவிறக்க நேரத்தை மற்றும் அலைவரிசையை காப்பாற்ற கிடைக்கும் கூடுதல் மேம்படுத்தல்களை பயன்படுத்தவும்</string>
-  <!-- Apply install and update strings -->
-  <string name="apply_update_dialog_title">மேம்படுத்தல் விண்ணப்பிக்க</string>
-  <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g> மேம்படுத்தல் செய்ய போகிறீர்கள்.\n\n மேம்படுத்தல் தொடும்போது சாதனம் recovery மறுதொடக்கம் ஆகும்.\n\nகுறிப்பு: இதற்காக இணக்கமான Recovery வேண்டும். அல்லது மேம்படுத்தல்கள் கைமுறையாக நிறுவ வேண்டும்.</string>
-  <string name="apply_update_ota_dialog_text"><xliff:g id="filename">%s</xliff:g> மேம்படுத்தல் செய்ய போகிறீர்கள்.\n\n மேம்படுத்தல் தொடும்போது சாதனம் recovery மறுதொடக்கம் ஆகும்.\n\nகுறிப்பு: இதற்காக இணக்கமான Recovery வேண்டும். அல்லது மேம்படுத்தல்கள் கைமுறையாக நிறுவ வேண்டும்.\n\nஇது, ஒரு கூடுதல் மேம்படுத்தல், எனவே மேம்படுத்தல் தோல்வி ஏற்படுத்தக்கூடும். அது நடந்தால், ஒரு முழு ரோம் ப்ளாஷ் செயல்படுத்தலாம்.</string>
-  <string name="apply_unable_to_reboot_toast">Recovery துவக்க முடியவில்லை</string>
-  <!-- Experimenter mode -->
-  <string name="show_exp_on">நீங்கள் சோதனை அமைப்புகளை இயக்கியுள்ளீர்கள்!</string>
-  <string name="show_exp_already">தேவை இல்லை, நீங்கள் ஏற்கனவே சோதனை அமைப்புகளை இயக்கியுள்ளீர்கள்.</string>
-  <!-- Verify system compatible -->
-  <string name="verify_system_compatible_title">MoKee கணினி மேம்படுத்தல்</string>
-  <string name="verify_system_compatible_root_skip">தவிர்</string>
-  <!-- Common -->
-  <string name="activity_not_found">செயலி நிறுவப்படவில்லை.</string>
+    <string name="md5_verification_failed">MD5 Checksum பொருத்தமின்மை</string>
+    <string name="not_apk_action_install_update">நிறுவு</string>
+    <!-- deleting -->
+    <string name="confirm_delete_dialog_title">கோப்புகளை அழி</string>
+    <string name="confirm_delete_updates_dialog_message">தேர்ந்தெடுத்ததை நீக்கவா?</string>
+    <string name="confirm_delete_updates_all_dialog_message">அனைத்து புதுப்பித்தல் கோப்புகளை நீக்கவா?</string>
+    <string name="delete_single_update_success_message">மேம்படுத்தல் <xliff:g id="filename">%s</xliff:g> நீக்கப்பட்டது</string>
+    <string name="delete_updates_failure_message">மேம்படுத்தல் கோப்பு நீக்குவதில் பிழை இருந்தது</string>
+    <string name="delete_updates_nofolder_message">புதுப்பிக்கப்பட்டது கோப்புறை இல்லை</string>
+    <string name="delete_updates_success_message">அனைத்து பதிவிறக்கம் மேம்படுத்தல்கள் நீக்கப்பட்டது</string>
+    <!-- Pref -->
+    <string name="pref_ota_check">கூடுதல் மேம்படுத்தல்</string>
+    <string name="pref_ota_check_summary">பதிவிறக்க நேரத்தை மற்றும் அலைவரிசையை காப்பாற்ற கிடைக்கும் கூடுதல் மேம்படுத்தல்களை பயன்படுத்தவும்</string>
+    <string name="pref_ota_check_request_summary">பதிவிறக்க நேரத்தை மற்றும் அலைவரிசையை காப்பாற்ற கிடைக்கும் கூடுதல் மேம்படுத்தல்களை பயன்படுத்தவும்</string>
+    <!-- Apply install and update strings -->
+    <string name="apply_update_dialog_title">மேம்படுத்தல் விண்ணப்பிக்க</string>
+    <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g> மேம்படுத்தல் செய்ய போகிறீர்கள்.\n\n மேம்படுத்தல் தொடும்போது சாதனம் recovery மறுதொடக்கம் ஆகும்.\n\nகுறிப்பு: இதற்காக இணக்கமான Recovery வேண்டும். அல்லது மேம்படுத்தல்கள் கைமுறையாக நிறுவ வேண்டும்.</string>
+    <string name="apply_update_ota_dialog_text"><xliff:g id="filename">%s</xliff:g> மேம்படுத்தல் செய்ய போகிறீர்கள்.\n\n மேம்படுத்தல் தொடும்போது சாதனம் recovery மறுதொடக்கம் ஆகும்.\n\nகுறிப்பு: இதற்காக இணக்கமான Recovery வேண்டும். அல்லது மேம்படுத்தல்கள் கைமுறையாக நிறுவ வேண்டும்.\n\nஇது, ஒரு கூடுதல் மேம்படுத்தல், எனவே மேம்படுத்தல் தோல்வி ஏற்படுத்தக்கூடும். அது நடந்தால், ஒரு முழு ரோம் ப்ளாஷ் செயல்படுத்தலாம்.</string>
+    <string name="apply_unable_to_reboot_toast">Recovery துவக்க முடியவில்லை</string>
+    <!-- Experimenter mode -->
+    <string name="show_exp_on">நீங்கள் சோதனை அமைப்புகளை இயக்கியுள்ளீர்கள்!</string>
+    <string name="show_exp_already">தேவை இல்லை, நீங்கள் ஏற்கனவே சோதனை அமைப்புகளை இயக்கியுள்ளீர்கள்.</string>
+    <!-- Verify system compatible -->
+    <string name="verify_system_compatible_title">MoKee கணினி மேம்படுத்தல்</string>
+    <string name="verify_system_compatible_root_skip">தவிர்</string>
+    <!-- Common -->
+    <string name="activity_not_found">செயலி நிறுவப்படவில்லை.</string>
 </resources>

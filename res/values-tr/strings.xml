@@ -17,165 +17,165 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Fragment -->
-  <string name="mokee_center_title">MoKee Merkezi</string>
-  <string name="mokee_support_title">Destek</string>
-  <string name="mokee_updater_title">Güncellemeler</string>
-  <!-- WebSite -->
-  <string name="mokee_links">Bağlantılar</string>
-  <string name="mokee_website_title">MoKee Web sitesi</string>
-  <string name="mokee_website_summary">Resmi web sitesini ziyaret et</string>
-  <string name="mokee_forum_title">MoKee Forumu</string>
-  <string name="mokee_forum_summary">MoKee forum\'unu ziyaret et</string>
-  <string name="mokee_issues_title">MoKee Hata Takipçisi</string>
-  <string name="mokee_issues_summary">Hata takipçisini ziyaret et</string>
-  <string name="mokee_changelog_title">MoKee Değişim Günlüğü</string>
-  <string name="mokee_changelog_summary">Değişiklik günlüğünü görüntüle</string>
-  <string name="mokee_github_title">MoKee Github</string>
-  <string name="mokee_github_summary">MoKee Github\'ını Ziyaret Et</string>
-  <string name="mokee_translate_title">MoKee Çeviri</string>
-  <string name="mokee_translate_summary">MoKee\'yi çevirmeye yardım et</string>
-  <string name="mokee_wiki_title">MoKee Wiki</string>
-  <string name="mokee_wiki_summary">MoKee wiki sayfasını görüntüle</string>
-  <string name="mokee_news_title">MoKee Haberlerİ</string>
-  <string name="mokee_news_summary">MoKee geliştirme haberlerini al</string>
-  <!-- Base Info -->
-  <string name="mokee_version_info_title">Sürüm bilgisi</string>
-  <string name="mokee_version_title">MoKee sürümü</string>
-  <string name="mokee_unique_id_title">Benzersiz kimlik</string>
-  <string name="mokee_donate_info_title">Bağış bilgisi</string>
-  <string name="mokee_last_check_title">Son kontrol</string>
-  <string name="mokee_last_check_never">Asla</string>
-  <!-- Version -->
-  <string name="mokee_info_default">Bilinmiyor</string>
-  <string name="mokee_version_type_release">Yayın</string>
-  <string name="mokee_version_type_history">Geçmiş</string>
-  <string name="mokee_version_type_experimental">Deneysel</string>
-  <string name="mokee_version_type_nightly">Gecelik</string>
-  <string name="mokee_version_type_unofficial">Unofficial</string>
-  <string name="mokee_version_type_all">Hepsi</string>
-  <!-- State -->
-  <string name="downloaded_update_summary">İndirilmiş</string>
-  <string name="installed_update_summary">Yüklü</string>
-  <string name="available_updates_title">Mevcut güncellemeler</string>
-  <!-- Menu -->
-  <string name="menu_donate">Bağış yap</string>
-  <string name="menu_refresh">Yenile</string>
-  <string name="menu_delete_all">İndirmeyi sil</string>
-  <string name="menu_unlock_features">Özelliklerin kilidini aç</string>
-  <string name="menu_restore">Lisans Geri Yükleme</string>
-  <!-- Donate -->
-  <string name="donate_dialog_title">Bize bağışta bulunun</string>
-  <string name="donate_dialog_message">Cygn veya MIUI gibi şirketlerin aksine, MoKee OpenSource hobiden ve tutkudan doğan tamamen kar amacı gütmeyen bir projedir. Bu projeyi sürdürebilmek için, çoğu zaman kendi paramızı ödemek veya bağış ve reklamlara güvenmek zorundayız. Bağışlarınız mali yükümüzü düşürüp gelecekteki gelişimi sürdürebilir! Bu seçenek, MoKee Merkezi\'ndeki reklamları kaldırmanıza veya taksitleri tercih ederseniz bunun yerine \"Bağış\" seçeneğini kullanmanıza izin verir (Toplam, belirtilen değerin üzerine ulaştığında reklamlar kaldırılır). Bağış yapıldığında (Sdcard\'ın root dizininde, yalnızca geçerli cihaz için geçerlidir).</string>
-  <string name="donate_dialog_faq">Soru ve Cevap</string>
-  <string name="donate_dialog_next">Sonraki</string>
-  <string name="donate_dialog_via_paypal">PayPal(USD)</string>
-  <string name="donate_dialog_via_alipay">AliPay(CNY)</string>
-  <string name="donate_dialog_via_wechat">WeChat</string>
-  <string name="donate_dialog_via_restore">Geri yükle</string>
-  <string name="donate_money_toast_success">Bağış için teşekkür ederiz!</string>
-  <string name="donate_money_title">MoKee Açık Kaynak\'a bağışta bulunun</string>
-  <string name="donate_money_again">Tekrar bağışla</string>
-  <string name="donate_money_restored_success">Geri yükleme başarılı!</string>
-  <string name="donate_money_restored_failed">Cihaz kaydı bulunamadı.</string>
-  <string name="donate_money_restored_failed_solution">Çözüm</string>
-  <string name="donate_money_restored_timeout">Bağlantı zaman aşımına ugradı lütfen tekrar deneyiniz</string>
-  <string name="donate_money_info">Toplamda bağışta bulundun CNY %1$d, daha fazla bağış %2$s toplam hibe!</string>
-  <string name="donate_money_info_with_rank">Toplamda CNY %1$d bağışta bulundun, diğer bağışçılaradan %2$s daha fazla bağışta bulundun, sıra no %3$d!</string>
-  <string name="donate_money_info_null">Bağış yapılmadı</string>
-  <string name="unlock_features_title">Özelliklerin kilidini aç</string>
-  <string name="unlock_features_ota_title">Kilit açma ve tam hızda indirmek için %d CNY bağışla.</string>
-  <string name="unlock_features_verify_rom_title">Doğrulanmış güncellemeler ve reklamları kaldırmak için %d CNY bağışlayın.</string>
-  <string name="unlock_features_all_title">Kilit açma, tam hızda indirme, doğrulanmış güncellemeler ve reklamları kaldırmak için %d CNY bağışla.</string>
-  <string name="unlock_features_request_summary">(%d CNY bağışta bulunulduğunda kullanılabilir)</string>
-  <string name="unlock_features_pending_summary">(bağış %1$d CNY %2$d CNY daha bağış yaptıktan sonra ömür boyu kullanılabilir)</string>
-  <!-- Update -->
-  <string name="unknown">Bilinmiyor</string>
-  <string name="dialog_update">Güncelle</string>
-  <string name="dialog_install">Yükle</string>
-  <string name="dialog_ok">Tamam</string>
-  <string name="dialog_cancel">iptal</string>
-  <string name="dialog_close">Kapat</string>
-  <string name="no_available_updates_intro">Son kontrolde güncelleme bulunamadı. Yeni güncellemeleri elle kontrol etmek için Yenile tuşunu kullanın.</string>
-  <string name="no_available_ota_intro">Son kontorlde herhangi bir güncelleme bulunamadı. Yeni güncellemeleri el ile denetlemek için yenile tuşunu kullanın. Desteklenen tarih aralıkları dşında bir sürüm kullanıyorsanız \"Artımlı güncellemeler\" seçeneğindeki işareti kaldırın.</string>
-  <string name="new_update_summary">Yeni</string>
-  <string name="old_update_summary">Eski</string>
-  <string name="ota_diff_update_summary">Artan güncellemeler %s kaydedebilir</string>
-  <string name="full_diff_update_summary">Tam ROM için karşılaştırıldığında %s kaydeder</string>
-  <string name="update_check_title">Güncelleme sıklığını kontrol et</string>
-  <string name="check_manual">Elle</string>
-  <string name="nightly_alert">Listede gecelik güncellemeleri dahil etmeyi seçtiniz. Gecelik güncellemeler desteklenmemektedir ve dikkatle kullanılmalıdır.</string>
-  <string name="experimenter_alert">Deneysel güncellemeleri bu listeye eklemek için seçtiniz. Bu desteklenmiyor ve yalnızca sınama amacıyla anlamına geliyordu, dikkatli bir şekilde kullanılmalıdır.</string>
-  <string name="unofficial_alert">Resmi olmayan güncellemeler bu listeye eklemeyi seçtiniz. Unutmayın bunlar cihazınızın sağlayıcısı tarafından desteklenir.</string>
-  <string name="all_alert">Bu listedeki tüm güncellemeler (kararlı sürüm, deneysel) eklemeyi seçtiniz. Günlük güncellemeler desteklenmez ve dikkatli kullanılması gerekir.</string>
-  <string name="alert_title">Dikkat</string>
-  <string name="update_type_title">Güncelleme türü</string>
-  <!-- ChangeLog -->
-  <string name="no_changelog_alert">Değişiklik kaydı yok</string>
-  <string name="changelog_dialog_title">Değişiklik kaydı</string>
-  <string name="loading_changelog">Yükleniyor\u2026</string>
-  <string name="check_on_boot">Her yeniden başlatmada</string>
-  <string name="check_twice_daily">Günde iki defa</string>
-  <string name="check_daily">Günde bir defa</string>
-  <string name="check_twice_weekly">Haftada iki defa</string>
-  <string name="check_weekly">Haftada bir defa</string>
-  <string name="check_bi_weekly">İki haftada bir</string>
-  <string name="check_monthly">Ayda bir</string>
-  <!-- checking -->
-  <string name="checking_for_updates">Güncellemeler kontrol ediliyor</string>
-  <string name="no_updates_found">Yeni güncelleme yok</string>
-  <string name="not_new_updates_found_ticker">Yeni güncellemeler mevcut</string>
-  <string name="not_new_updates_found_title">Yeni güncellemeler</string>
-  <string name="update_check_failed">Güncelleme kontrolü başarısız oldu. Lütfen internet bağlantınızı kontrol edin ve daha sonra tekrar deneyin.</string>
-  <string name="not_action_download">İndir</string>
-  <string name="data_connection_required">Veri bağlantısı gerekli.</string>
-  <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">İndirmeyi iptal et</string>
-  <string name="confirm_download_cancelation_dialog_message">Devam eden indirme iptal edilsin mi?</string>
-  <string name="download_remaining"><xliff:g id="duration" example="3 minutes"> %s </xliff:g> kaldı</string>
-  <string name="download_running">Devam ediyor</string>
-  <string name="download_cancelled">İndirme iptal edildi</string>
-  <string name="download_already_running">Bir indirme işlemi devam ediyor</string>
-  <string name="download_limited_mode">Sınırlı hızla indiriliyor, lütfen hizli indirim zevki için bağış yapın.</string>
-  <string name="unable_to_download_file">Güncelleme dosyası indirilemiyor</string>
-  <string name="not_download_success">Güncelleme başarıyla indirildi</string>
-  <string name="not_download_failure">Güncellemeyi indirme başarısız oldu</string>
-  <string name="not_action_install_update">Yeniden başlat ve yükle</string>
-  <string name="not_download_install_notice"><xliff:g id="filename">%s</xliff:g> isimli güncelleme başarıyla indirildi.\"Yeniden başlat ve yükle\" \' ye dokunduğunuz zaman telefonunuz kendini yeniden başlatacak ve güncellemeyi yüklecek.\n\nNote: Bu özellik uyumlu bir Recovery ye gereksinim duymaktadır veya güncelleştirmelerin elle yüklenmesi gerekmektedir.</string>
-  <string name="not_download_install_ota_notice">Güncelleme <xliff:g id="filename">%s </xliff:g> başarılı bir şekilde karşıdan yüklenmiştir. \'Yeniden başlat ve yükle\'ye dokunulduğunda, cihaz güncellemeyi yüklemek için kendini yeniden başlatacaktır.\n\nNot: yüklemek için yeniden başlar ve bu özellik uyumlu bir kurtarma modu gerektirir veya güncellemelerin manuel olarak kurulması gerekecektir.\n\nBu, artımlı bir güncellemedir; bu nedenle, sistem dosyalarında yapılan değişiklikler güncellemenin başarısız olmasına neden olabilir.Bu durumda, lütfen bunun yerine tam bir ROM\'u flash edin.</string>
-  <string name="md5_verification_failed">MD5 doğrulaması hatalı</string>
-  <string name="not_apk_action_install_update">Yükle</string>
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Dosyayı sil</string>
-  <string name="confirm_delete_updates_dialog_message">Seçili güncelleme dosyası silinsin mi?</string>
-  <string name="confirm_delete_updates_all_dialog_message">Tüm indirilen güncelleme dosyaları silinsin mi?</string>
-  <string name="delete_single_update_success_message"><xliff:g id="filename">%s</xliff:g> güncellemesi silindi</string>
-  <string name="delete_updates_failure_message">Güncelleme dosyası silerken bir hata oluştu</string>
-  <string name="delete_updates_nofolder_message">Güncelleme klasörü bulunamadı</string>
-  <string name="delete_updates_success_message">İndirilen tüm güncellemeler silindi</string>
-  <!-- Pref -->
-  <string name="pref_ota_check">Artan güncellemeler</string>
-  <string name="pref_ota_check_summary">İndirme süresini ve bant genişliğini kaydetmek için artan güncellemeler alın</string>
-  <string name="pref_ota_check_request_summary">İndirme süresini ve bant genişliğini kaydetmek için artan güncellemeler alın</string>
-  <string name="pref_verify_rom">Doğrulanmış güncellemeler</string>
-  <string name="pref_verify_rom_summary">Yalnızca diğer kullanıcılar tarafından doğrulanan güncellemeleri görüntüleyin</string>
-  <string name="pref_verify_rom_request_summary">Yalnızca diğer kullanıcılar tarafından doğrulanan güncellemeleri görüntüleyin</string>
-  <!-- Apply install and update strings -->
-  <string name="apply_update_dialog_title">Güncellemeyi uygula</string>
-  <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g> güncellemesi yapılacak.\n\nGüncelleye bastığınızda, güncellemeyi kurmak için cihaz kurtarma modunda yeniden başlatılacak.\n\nNot: Bu özellik, uyumlu bir Kurtarma bölümü gerektirir, aksi takdirde güncellemelerin elle kurulması gerekir.</string>
-  <string name="apply_update_ota_dialog_text"><xliff:g id="filename">%s </xliff:g> için yükseltme vardır. \n\nIf, güncelleştirmeyi indiriniz cihaz yeniden kendisini günceller.\n\nNote yüklemek için kurtarma modunda: Bu özellik için uyumlu bir kurtarma modu olmalıdır veya güncelleştirmelerin el ile yüklenmesi gerekir.\n\nBu ota güncelleştirmesi başarısız olabilir. Bu durumda, lütfen bunun yerine tam bir ROM yükleyiniz.</string>
-  <string name="apply_unable_to_reboot_toast">Kurtarma modu için sistem yeniden başlatılamadı</string>
-  <!-- Experimenter mode -->
-  <string name="show_exp_on">Deneysel ayarları etkinleştirildiniz!</string>
-  <string name="show_exp_already">Deneysel ayarlar zaten etkin!</string>
-  <!-- Verify system compatible -->
-  <string name="verify_system_compatible_title">MoKee sistem güncellemeleri</string>
-  <string name="verify_system_compatible_message">Düzeltme işleminden önce sistem uyumluluğu doğrulanıyor\u2026</string>
-  <string name="verify_system_compatible_failed">Sistem uyumluluğunu doğrulama başarısız oldu</string>
-  <string name="verify_system_compatible_patch">Aşağıdaki dosyalar değiştirilmiş yada kaldırılmış, lütfen onları geri yükleyin veya tekrar deneyin.</string>
-  <string name="verify_system_compatible_img">Uyumsuz sürüm %1$s lütfen sürümü yükseltin %2$s</string>
-  <string name="verify_system_compatible_root_request">Root güncelleme izini doğrulama eklentisi güncelleme uyumluluğunu doğrulamak için gereklidir. Bu işlemi atlamayı seçerseniz, bu adım gecikmeli veya kurtarma modunda yapılacaktır.</string>
-  <string name="verify_system_compatible_root_skip">Atla</string>
-  <!-- Common -->
-  <string name="activity_not_found">Uygulama yüklü değil.</string>
+    <!-- Fragment -->
+    <string name="mokee_center_title">MoKee Merkezi</string>
+    <string name="mokee_support_title">Destek</string>
+    <string name="mokee_updater_title">Güncellemeler</string>
+    <!-- WebSite -->
+    <string name="mokee_links">Bağlantılar</string>
+    <string name="mokee_website_title">MoKee Web sitesi</string>
+    <string name="mokee_website_summary">Resmi web sitesini ziyaret et</string>
+    <string name="mokee_forum_title">MoKee Forumu</string>
+    <string name="mokee_forum_summary">MoKee forum\'unu ziyaret et</string>
+    <string name="mokee_issues_title">MoKee Hata Takipçisi</string>
+    <string name="mokee_issues_summary">Hata takipçisini ziyaret et</string>
+    <string name="mokee_changelog_title">MoKee Değişim Günlüğü</string>
+    <string name="mokee_changelog_summary">Değişiklik günlüğünü görüntüle</string>
+    <string name="mokee_github_title">MoKee Github</string>
+    <string name="mokee_github_summary">MoKee Github\'ını Ziyaret Et</string>
+    <string name="mokee_translate_title">MoKee Çeviri</string>
+    <string name="mokee_translate_summary">MoKee\'yi çevirmeye yardım et</string>
+    <string name="mokee_wiki_title">MoKee Wiki</string>
+    <string name="mokee_wiki_summary">MoKee wiki sayfasını görüntüle</string>
+    <string name="mokee_news_title">MoKee Haberlerİ</string>
+    <string name="mokee_news_summary">MoKee geliştirme haberlerini al</string>
+    <!-- Base Info -->
+    <string name="mokee_version_info_title">Sürüm bilgisi</string>
+    <string name="mokee_version_title">MoKee sürümü</string>
+    <string name="mokee_unique_id_title">Benzersiz kimlik</string>
+    <string name="mokee_donate_info_title">Bağış bilgisi</string>
+    <string name="mokee_last_check_title">Son kontrol</string>
+    <string name="mokee_last_check_never">Asla</string>
+    <!-- Version -->
+    <string name="mokee_info_default">Bilinmiyor</string>
+    <string name="mokee_version_type_release">Yayın</string>
+    <string name="mokee_version_type_history">Geçmiş</string>
+    <string name="mokee_version_type_experimental">Deneysel</string>
+    <string name="mokee_version_type_nightly">Gecelik</string>
+    <string name="mokee_version_type_unofficial">Unofficial</string>
+    <string name="mokee_version_type_all">Hepsi</string>
+    <!-- State -->
+    <string name="downloaded_update_summary">İndirilmiş</string>
+    <string name="installed_update_summary">Yüklü</string>
+    <string name="available_updates_title">Mevcut güncellemeler</string>
+    <!-- Menu -->
+    <string name="menu_donate">Bağış yap</string>
+    <string name="menu_refresh">Yenile</string>
+    <string name="menu_delete_all">İndirmeyi sil</string>
+    <string name="menu_unlock_features">Özelliklerin kilidini aç</string>
+    <string name="menu_restore">Lisans Geri Yükleme</string>
+    <!-- Donate -->
+    <string name="donate_dialog_title">Bize bağışta bulunun</string>
+    <string name="donate_dialog_message">Cygn veya MIUI gibi şirketlerin aksine, MoKee OpenSource hobiden ve tutkudan doğan tamamen kar amacı gütmeyen bir projedir. Bu projeyi sürdürebilmek için, çoğu zaman kendi paramızı ödemek veya bağış ve reklamlara güvenmek zorundayız. Bağışlarınız mali yükümüzü düşürüp gelecekteki gelişimi sürdürebilir! Bu seçenek, MoKee Merkezi\'ndeki reklamları kaldırmanıza veya taksitleri tercih ederseniz bunun yerine \"Bağış\" seçeneğini kullanmanıza izin verir (Toplam, belirtilen değerin üzerine ulaştığında reklamlar kaldırılır). Bağış yapıldığında (Sdcard\'ın root dizininde, yalnızca geçerli cihaz için geçerlidir).</string>
+    <string name="donate_dialog_faq">Soru ve Cevap</string>
+    <string name="donate_dialog_next">Sonraki</string>
+    <string name="donate_dialog_via_paypal">PayPal(USD)</string>
+    <string name="donate_dialog_via_alipay">AliPay(CNY)</string>
+    <string name="donate_dialog_via_wechat">WeChat</string>
+    <string name="donate_dialog_via_restore">Geri yükle</string>
+    <string name="donate_money_toast_success">Bağış için teşekkür ederiz!</string>
+    <string name="donate_money_title">MoKee Açık Kaynak\'a bağışta bulunun</string>
+    <string name="donate_money_again">Tekrar bağışla</string>
+    <string name="donate_money_restored_success">Geri yükleme başarılı!</string>
+    <string name="donate_money_restored_failed">Cihaz kaydı bulunamadı.</string>
+    <string name="donate_money_restored_failed_solution">Çözüm</string>
+    <string name="donate_money_restored_timeout">Bağlantı zaman aşımına ugradı lütfen tekrar deneyiniz</string>
+    <string name="donate_money_info">Toplamda bağışta bulundun CNY %1$d, daha fazla bağış %2$s toplam hibe!</string>
+    <string name="donate_money_info_with_rank">Toplamda CNY %1$d bağışta bulundun, diğer bağışçılaradan %2$s daha fazla bağışta bulundun, sıra no %3$d!</string>
+    <string name="donate_money_info_null">Bağış yapılmadı</string>
+    <string name="unlock_features_title">Özelliklerin kilidini aç</string>
+    <string name="unlock_features_ota_title">Kilit açma ve tam hızda indirmek için %d CNY bağışla.</string>
+    <string name="unlock_features_verify_rom_title">Doğrulanmış güncellemeler ve reklamları kaldırmak için %d CNY bağışlayın.</string>
+    <string name="unlock_features_all_title">Kilit açma, tam hızda indirme, doğrulanmış güncellemeler ve reklamları kaldırmak için %d CNY bağışla.</string>
+    <string name="unlock_features_request_summary">(%d CNY bağışta bulunulduğunda kullanılabilir)</string>
+    <string name="unlock_features_pending_summary">(bağış %1$d CNY %2$d CNY daha bağış yaptıktan sonra ömür boyu kullanılabilir)</string>
+    <!-- Update -->
+    <string name="unknown">Bilinmiyor</string>
+    <string name="dialog_update">Güncelle</string>
+    <string name="dialog_install">Yükle</string>
+    <string name="dialog_ok">Tamam</string>
+    <string name="dialog_cancel">iptal</string>
+    <string name="dialog_close">Kapat</string>
+    <string name="no_available_updates_intro">Son kontrolde güncelleme bulunamadı. Yeni güncellemeleri elle kontrol etmek için Yenile tuşunu kullanın.</string>
+    <string name="no_available_ota_intro">Son kontorlde herhangi bir güncelleme bulunamadı. Yeni güncellemeleri el ile denetlemek için yenile tuşunu kullanın. Desteklenen tarih aralıkları dşında bir sürüm kullanıyorsanız \"Artımlı güncellemeler\" seçeneğindeki işareti kaldırın.</string>
+    <string name="new_update_summary">Yeni</string>
+    <string name="old_update_summary">Eski</string>
+    <string name="ota_diff_update_summary">Artan güncellemeler %s kaydedebilir</string>
+    <string name="full_diff_update_summary">Tam ROM için karşılaştırıldığında %s kaydeder</string>
+    <string name="update_check_title">Güncelleme sıklığını kontrol et</string>
+    <string name="check_manual">Elle</string>
+    <string name="nightly_alert">Listede gecelik güncellemeleri dahil etmeyi seçtiniz. Gecelik güncellemeler desteklenmemektedir ve dikkatle kullanılmalıdır.</string>
+    <string name="experimenter_alert">Deneysel güncellemeleri bu listeye eklemek için seçtiniz. Bu desteklenmiyor ve yalnızca sınama amacıyla anlamına geliyordu, dikkatli bir şekilde kullanılmalıdır.</string>
+    <string name="unofficial_alert">Resmi olmayan güncellemeler bu listeye eklemeyi seçtiniz. Unutmayın bunlar cihazınızın sağlayıcısı tarafından desteklenir.</string>
+    <string name="all_alert">Bu listedeki tüm güncellemeler (kararlı sürüm, deneysel) eklemeyi seçtiniz. Günlük güncellemeler desteklenmez ve dikkatli kullanılması gerekir.</string>
+    <string name="alert_title">Dikkat</string>
+    <string name="update_type_title">Güncelleme türü</string>
+    <!-- ChangeLog -->
+    <string name="no_changelog_alert">Değişiklik kaydı yok</string>
+    <string name="changelog_dialog_title">Değişiklik kaydı</string>
+    <string name="loading_changelog">Yükleniyor\u2026</string>
+    <string name="check_on_boot">Her yeniden başlatmada</string>
+    <string name="check_twice_daily">Günde iki defa</string>
+    <string name="check_daily">Günde bir defa</string>
+    <string name="check_twice_weekly">Haftada iki defa</string>
+    <string name="check_weekly">Haftada bir defa</string>
+    <string name="check_bi_weekly">İki haftada bir</string>
+    <string name="check_monthly">Ayda bir</string>
+    <!-- checking -->
+    <string name="checking_for_updates">Güncellemeler kontrol ediliyor</string>
+    <string name="no_updates_found">Yeni güncelleme yok</string>
+    <string name="not_new_updates_found_ticker">Yeni güncellemeler mevcut</string>
+    <string name="not_new_updates_found_title">Yeni güncellemeler</string>
+    <string name="update_check_failed">Güncelleme kontrolü başarısız oldu. Lütfen internet bağlantınızı kontrol edin ve daha sonra tekrar deneyin.</string>
+    <string name="not_action_download">İndir</string>
+    <string name="data_connection_required">Veri bağlantısı gerekli.</string>
+    <!-- Downloads -->
+    <string name="confirm_download_cancelation_dialog_title">İndirmeyi iptal et</string>
+    <string name="confirm_download_cancelation_dialog_message">Devam eden indirme iptal edilsin mi?</string>
+    <string name="download_remaining"><xliff:g id="duration" example="3 minutes"> %s </xliff:g> kaldı</string>
+    <string name="download_running">Devam ediyor</string>
+    <string name="download_cancelled">İndirme iptal edildi</string>
+    <string name="download_already_running">Bir indirme işlemi devam ediyor</string>
+    <string name="download_limited_mode">Sınırlı hızla indiriliyor, lütfen hizli indirim zevki için bağış yapın.</string>
+    <string name="unable_to_download_file">Güncelleme dosyası indirilemiyor</string>
+    <string name="not_download_success">Güncelleme başarıyla indirildi</string>
+    <string name="not_download_failure">Güncellemeyi indirme başarısız oldu</string>
+    <string name="not_action_install_update">Yeniden başlat ve yükle</string>
+    <string name="not_download_install_notice"><xliff:g id="filename">%s</xliff:g> isimli güncelleme başarıyla indirildi.\"Yeniden başlat ve yükle\" \' ye dokunduğunuz zaman telefonunuz kendini yeniden başlatacak ve güncellemeyi yüklecek.\n\nNote: Bu özellik uyumlu bir Recovery ye gereksinim duymaktadır veya güncelleştirmelerin elle yüklenmesi gerekmektedir.</string>
+    <string name="not_download_install_ota_notice">Güncelleme <xliff:g id="filename">%s </xliff:g> başarılı bir şekilde karşıdan yüklenmiştir. \'Yeniden başlat ve yükle\'ye dokunulduğunda, cihaz güncellemeyi yüklemek için kendini yeniden başlatacaktır.\n\nNot: yüklemek için yeniden başlar ve bu özellik uyumlu bir kurtarma modu gerektirir veya güncellemelerin manuel olarak kurulması gerekecektir.\n\nBu, artımlı bir güncellemedir; bu nedenle, sistem dosyalarında yapılan değişiklikler güncellemenin başarısız olmasına neden olabilir.Bu durumda, lütfen bunun yerine tam bir ROM\'u flash edin.</string>
+    <string name="md5_verification_failed">MD5 doğrulaması hatalı</string>
+    <string name="not_apk_action_install_update">Yükle</string>
+    <!-- deleting -->
+    <string name="confirm_delete_dialog_title">Dosyayı sil</string>
+    <string name="confirm_delete_updates_dialog_message">Seçili güncelleme dosyası silinsin mi?</string>
+    <string name="confirm_delete_updates_all_dialog_message">Tüm indirilen güncelleme dosyaları silinsin mi?</string>
+    <string name="delete_single_update_success_message"><xliff:g id="filename">%s</xliff:g> güncellemesi silindi</string>
+    <string name="delete_updates_failure_message">Güncelleme dosyası silerken bir hata oluştu</string>
+    <string name="delete_updates_nofolder_message">Güncelleme klasörü bulunamadı</string>
+    <string name="delete_updates_success_message">İndirilen tüm güncellemeler silindi</string>
+    <!-- Pref -->
+    <string name="pref_ota_check">Artan güncellemeler</string>
+    <string name="pref_ota_check_summary">İndirme süresini ve bant genişliğini kaydetmek için artan güncellemeler alın</string>
+    <string name="pref_ota_check_request_summary">İndirme süresini ve bant genişliğini kaydetmek için artan güncellemeler alın</string>
+    <string name="pref_verify_rom">Doğrulanmış güncellemeler</string>
+    <string name="pref_verify_rom_summary">Yalnızca diğer kullanıcılar tarafından doğrulanan güncellemeleri görüntüleyin</string>
+    <string name="pref_verify_rom_request_summary">Yalnızca diğer kullanıcılar tarafından doğrulanan güncellemeleri görüntüleyin</string>
+    <!-- Apply install and update strings -->
+    <string name="apply_update_dialog_title">Güncellemeyi uygula</string>
+    <string name="apply_update_dialog_text"><xliff:g id="filename">%s</xliff:g> güncellemesi yapılacak.\n\nGüncelleye bastığınızda, güncellemeyi kurmak için cihaz kurtarma modunda yeniden başlatılacak.\n\nNot: Bu özellik, uyumlu bir Kurtarma bölümü gerektirir, aksi takdirde güncellemelerin elle kurulması gerekir.</string>
+    <string name="apply_update_ota_dialog_text"><xliff:g id="filename">%s </xliff:g> için yükseltme vardır. \n\nIf, güncelleştirmeyi indiriniz cihaz yeniden kendisini günceller.\n\nNote yüklemek için kurtarma modunda: Bu özellik için uyumlu bir kurtarma modu olmalıdır veya güncelleştirmelerin el ile yüklenmesi gerekir.\n\nBu ota güncelleştirmesi başarısız olabilir. Bu durumda, lütfen bunun yerine tam bir ROM yükleyiniz.</string>
+    <string name="apply_unable_to_reboot_toast">Kurtarma modu için sistem yeniden başlatılamadı</string>
+    <!-- Experimenter mode -->
+    <string name="show_exp_on">Deneysel ayarları etkinleştirildiniz!</string>
+    <string name="show_exp_already">Deneysel ayarlar zaten etkin!</string>
+    <!-- Verify system compatible -->
+    <string name="verify_system_compatible_title">MoKee sistem güncellemeleri</string>
+    <string name="verify_system_compatible_message">Düzeltme işleminden önce sistem uyumluluğu doğrulanıyor\u2026</string>
+    <string name="verify_system_compatible_failed">Sistem uyumluluğunu doğrulama başarısız oldu</string>
+    <string name="verify_system_compatible_patch">Aşağıdaki dosyalar değiştirilmiş yada kaldırılmış, lütfen onları geri yükleyin veya tekrar deneyin.</string>
+    <string name="verify_system_compatible_img">Uyumsuz sürüm %1$s lütfen sürümü yükseltin %2$s</string>
+    <string name="verify_system_compatible_root_request">Root güncelleme izini doğrulama eklentisi güncelleme uyumluluğunu doğrulamak için gereklidir. Bu işlemi atlamayı seçerseniz, bu adım gecikmeli veya kurtarma modunda yapılacaktır.</string>
+    <string name="verify_system_compatible_root_skip">Atla</string>
+    <!-- Common -->
+    <string name="activity_not_found">Uygulama yüklü değil.</string>
 </resources>

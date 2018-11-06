@@ -17,147 +17,147 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Fragment -->
-  <string name="mokee_center_title">MoKee-keskus</string>
-  <string name="mokee_support_title">Tuki</string>
-  <string name="mokee_updater_title">Päivitä</string>
-  <!-- WebSite -->
-  <string name="mokee_website_title">MoKee kotisivut</string>
-  <string name="mokee_website_summary">Vieraile virallisella sivustolla</string>
-  <string name="mokee_forum_title">MoKee foorumi</string>
-  <string name="mokee_forum_summary">Vieraile MoKee-foorumilla</string>
-  <string name="mokee_issues_title">MoKee bugikanta</string>
-  <string name="mokee_issues_summary">Vieraile bugikannassa</string>
-  <string name="mokee_changelog_title">MoKee muutoslogi</string>
-  <string name="mokee_changelog_summary">Näytä päivittäinen muutosloki</string>
-  <string name="mokee_github_title">MoKee Github</string>
-  <string name="mokee_github_summary">Vieraile MoKee-Githubissa</string>
-  <string name="mokee_translate_title">MoKee kääntäjät</string>
-  <string name="mokee_translate_summary">Auta kääntämään</string>
-  <string name="mokee_wiki_title">MoKee Wiki</string>
-  <string name="mokee_wiki_summary">Katso MoKee Wiki</string>
-  <string name="mokee_news_title">MoKee Uutiset</string>
-  <string name="mokee_news_summary">Vastaanota kehitysuutisia MoKee:sta</string>
-  <!-- Base Info -->
-  <string name="mokee_version_info_title">Versiotiedot</string>
-  <string name="mokee_version_title">MoKee-versio</string>
-  <string name="mokee_unique_id_title">Yksilöllinen ID</string>
-  <string name="mokee_donate_info_title">Lahjoitus tiedot</string>
-  <string name="mokee_last_check_title">Viimeisin tarkistus</string>
-  <string name="mokee_last_check_never">Ei koskaan</string>
-  <!-- Version -->
-  <string name="mokee_info_default">Tuntematon</string>
-  <string name="mokee_version_type_release">Release</string>
-  <string name="mokee_version_type_history">History</string>
-  <string name="mokee_version_type_experimental">Experimental</string>
-  <string name="mokee_version_type_nightly">Nightly</string>
-  <string name="mokee_version_type_unofficial">Unofficial</string>
-  <string name="mokee_version_type_all">Kaikki</string>
-  <!-- State -->
-  <string name="downloaded_update_summary">Ladatut</string>
-  <string name="installed_update_summary">Asennettu</string>
-  <string name="available_updates_title">Saatavilla olevat päivitykset</string>
-  <!-- Menu -->
-  <string name="menu_donate">Lahjoita</string>
-  <string name="menu_refresh">Päivitä</string>
-  <string name="menu_delete_all">Poista lataukset</string>
-  <string name="menu_restore">Palauta lisenssi</string>
-  <!-- Donate -->
-  <string name="donate_dialog_title">Lahjoita meille</string>
-  <string name="donate_dialog_message">Unlike companies like Cygn or MIUI, MoKee OpenSource is a purely non-profit project born of hobby and passion. In order to maintain this project, we have to fork out our own money most of the time or rely on donations and advertisements. Your donations can help reduce our financial load and sustain future development! This option allows you to remove the ads in MoKee Center, or use the \"Donate\" option instead if you prefer installments (ads will be removed once the total has reached the specified value). (in the root directory of sdcard, only valid for current device) once you have donated.</string>
-  <string name="donate_dialog_next">Seuraava</string>
-  <string name="donate_dialog_via_paypal">PayPal</string>
-  <string name="donate_dialog_via_alipay">Alipay</string>
-  <string name="donate_dialog_via_restore">Palauta</string>
-  <string name="donate_money_toast_success">Kiitos lahjoituksestasi!</string>
-  <string name="donate_money_title">Lahjoita MoKee OpenSourcelle</string>
-  <string name="donate_money_again">Lahjoita uudestaan</string>
-  <string name="donate_money_restored_success">Lahjoitus palautetttiin onnistuneesti.</string>
-  <string name="donate_money_restored_failed">Yhtään laitetta ei löytynyt.</string>
-  <string name="donate_money_restored_timeout">Yhteysvirhe, yritä uudelleen</string>
-  <string name="donate_money_info">Lahjoitit yhteensä CNY %1$d enemmän kuin %2$s lahjoittajat maailmanlaajuisesti!</string>
-  <string name="donate_money_info_with_rank">Lahjoitit yhteensä CNY %1$d enemmän kuin %2$s lahjoittajat maailmanlaajuisesti, sijoitus No.%3$d!</string>
-  <string name="donate_money_info_null">Et ole lahjoittanut</string>
-  <!-- Update -->
-  <string name="unknown">Tuntematon</string>
-  <string name="dialog_update">Päivitä</string>
-  <string name="dialog_install">Asenna</string>
-  <string name="dialog_ok">OK</string>
-  <string name="dialog_cancel">Peruuta</string>
-  <string name="dialog_close">Sulje</string>
-  <string name="no_available_updates_intro">Viimeisin tarkistus ei löytänyt yhtään päivitystä. Tarkistaaksesi päivitykset, paina Päivitä.</string>
-  <string name="no_available_ota_intro">Viimeisin tarkistus ei löytänyt yhtään päivitystä. Tarkistaaksesi päivitykset, paina Päivitä. Jos käytät versiota joka ei tue vähittäispäivityksiä niin ota vähittäispäivitykset pois käytöstä.</string>
-  <string name="new_update_summary">Uusi</string>
-  <string name="old_update_summary">Vanha</string>
-  <string name="update_check_title">Päivityksen aikaväli</string>
-  <string name="check_manual">Manuaali</string>
-  <string name="nightly_alert">Olet valinnut nightly-päivitykset listaan. Nämä eivät ole tuettuja, ja niitä tulisi käyttää varoen.</string>
-  <string name="experimenter_alert">Olet valinnut kokeelliset-päivitykset listaan. Nämä eivät ole tuettuja, ja niitä tulisi käyttää varoen.</string>
-  <string name="unofficial_alert">Olet valinnut epäviralliset-päivitykset listaan. Nämä eivät ole tuettuja, ja niitä tulisi käyttää varoen.</string>
-  <string name="all_alert">Olet valinnut kaikki päivitykset (release, nightly) sisällytetään tähän luetteloon. Huom! Nightly-päivityksiä käytettävä omalla vastuulla.</string>
-  <string name="alert_title">Varoitus</string>
-  <string name="update_type_title">Päivitystyyppi</string>
-  <!-- ChangeLog -->
-  <string name="no_changelog_alert">Ei muutoslokia saatavilla</string>
-  <string name="changelog_dialog_title">Muutoslogi</string>
-  <string name="loading_changelog">Ladataan\u2026</string>
-  <string name="check_on_boot">Uudelleenkäynnistyksen yhteydessä</string>
-  <string name="check_twice_daily">Kahdesti päivässä</string>
-  <string name="check_daily">Kerran päivässä</string>
-  <string name="check_twice_weekly">Kahdesti viikossa</string>
-  <string name="check_weekly">Kerran viikossa</string>
-  <string name="check_bi_weekly">Kerran kahdessa viikossa</string>
-  <string name="check_monthly">Kerran kuukaudessa</string>
-  <!-- checking -->
-  <string name="checking_for_updates">Tarkistetaan päivityksiä</string>
-  <string name="no_updates_found">Päivityksiä ei löytynyt</string>
-  <string name="not_new_updates_found_ticker">Uusia päivityksiä saatavilla</string>
-  <string name="not_new_updates_found_title">Uudet päivitykset</string>
-  <string name="update_check_failed">Päivitysten tarkistaminen epäonnistui. Tarkista internet-yhteytesi ja yritä uudelleen.</string>
-  <string name="not_action_download">Lataa</string>
-  <string name="data_connection_required">Datayhteys tarvitaan.</string>
-  <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">Peruuta lataus</string>
-  <string name="confirm_download_cancelation_dialog_message">Peruuta nykyinen lataus?</string>
-  <string name="download_remaining"><xliff:g id="kesto" esimerkki="3 minuuttia">%s</xliff:g> jäljellä</string>
-  <string name="download_running">Toiminto käynnissä</string>
-  <string name="download_cancelled">Lataus peruttu</string>
-  <string name="download_already_running">Lataus on jo käynnissä</string>
-  <string name="download_limited_mode">Ladataan rajatulla nopeudella, lahjoita nauttiaksesi täydestä nopeudesta.</string>
-  <string name="unable_to_download_file">Virhe tiedoston lataamisessa</string>
-  <string name="not_download_success">Päivitys ladattu onnistuneesti</string>
-  <string name="not_download_failure">Päivityksen lataaminen epäonnistui</string>
-  <string name="not_action_install_update">Käynnistä uudelleen ja asenna</string>
-  <string name="not_download_install_notice">Päivityksen <xliff:g id="filename">%s</xliff:g> lataaminen onnistui. Kun painat \'Käynnistä uudelleen ja asenna\', laite käynnistyy uudelleen ja asenta päivityksen.\n\nHuomautus: Tämä ominaisuus tarvitsee yhteensopivan Recoveryn tai päivitykset eivät asennu automaattisesti.</string>
-  <string name="not_download_install_ota_notice">The update <xliff:g id="filename">%s</xliff:g> was successfully downloaded. When touching \'Reboot and install\', the device will restart itself to install the update.\n\nNote: This feature requires a compatible Recovery or updates will need to be installed manually.\n\nThis is an incremental update, therefore any changes made to system files might cause the update to fail. If this happens, please flash a full ROM instead.</string>
-  <string name="md5_verification_failed">MD5-tarkistuskoodit eivät täsmää</string>
-  <string name="not_apk_action_install_update">Asenna</string>
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Poista tiedosto</string>
-  <string name="confirm_delete_updates_dialog_message">Poista valittu päivitystiedosto?</string>
-  <string name="confirm_delete_updates_all_dialog_message">Poista kaikki ladatut päivitystiedostot?</string>
-  <string name="delete_single_update_success_message">Päivitys <xliff:g id="filename">%s</xliff:g> poistettu</string>
-  <string name="delete_updates_failure_message">Virhe poistettaessa päivitystiedostoa</string>
-  <string name="delete_updates_nofolder_message">Päivityskansiota ei löydy</string>
-  <string name="delete_updates_success_message">Kaikki päivitykset poistettu</string>
-  <!-- Pref -->
-  <string name="pref_ota_check">Inkrementaaliset päivitykset</string>
-  <string name="pref_ota_check_summary">Säästä latausaikaa ja kaistaa</string>
-  <string name="pref_ota_check_request_summary">Säästä latausaikaa ja kaistaa</string>
-  <string name="pref_verify_rom">Todennetut päivitykset</string>
-  <string name="pref_verify_rom_summary">Näytä vain päivitykset, jotka muut käyttäjät ovat todentaneet</string>
-  <string name="pref_verify_rom_request_summary">Näytä vain päivitykset, jotka muut käyttäjät ovat todentaneet</string>
-  <!-- Apply install and update strings -->
-  <string name="apply_update_dialog_title">Asenna päivitys</string>
-  <string name="apply_update_dialog_text">Olet päivittämässä versioon <xliff:g id="filename">%s</xliff:g>.\n\nJos painat Päivitä, laite käynnistyy uudelleen Recovery-tilaan asentaakseen päivityksen.\n\nHuomautus: Tämä ominaisuus vaatii yhteensopivan Recoveryn tai päivitykset eivät asennu automaattisesti.</string>
-  <string name="apply_update_ota_dialog_text">The update <xliff:g id="filename">%s</xliff:g> was successfully downloaded. When touching \'Reboot and install\', the device will restart itself to install the update.\n\nNote: This feature requires a compatible Recovery or updates will need to be installed manually.\n\nThis is an incremental update, therefore any changes made to system files might cause the update to fail. If this happens, please flash a full ROM instead.</string>
-  <string name="apply_unable_to_reboot_toast">Recovery-tilan käynnistäminen epäonnistui</string>
-  <!-- Experimenter mode -->
-  <string name="show_exp_on">Kehittäjäasetukset on nyt käytössä!</string>
-  <string name="show_exp_already">Olet jo ottanut kehittäjäasetukset käyttöön.</string>
-  <!-- Verify system compatible -->
-  <string name="verify_system_compatible_title">Mokee järjestelmän päivitys</string>
-  <string name="verify_system_compatible_root_skip">Ohita</string>
-  <!-- Common -->
-  <string name="activity_not_found">Sovellusta ei ole asennettu.</string>
+    <!-- Fragment -->
+    <string name="mokee_center_title">MoKee-keskus</string>
+    <string name="mokee_support_title">Tuki</string>
+    <string name="mokee_updater_title">Päivitä</string>
+    <!-- WebSite -->
+    <string name="mokee_website_title">MoKee kotisivut</string>
+    <string name="mokee_website_summary">Vieraile virallisella sivustolla</string>
+    <string name="mokee_forum_title">MoKee foorumi</string>
+    <string name="mokee_forum_summary">Vieraile MoKee-foorumilla</string>
+    <string name="mokee_issues_title">MoKee bugikanta</string>
+    <string name="mokee_issues_summary">Vieraile bugikannassa</string>
+    <string name="mokee_changelog_title">MoKee muutoslogi</string>
+    <string name="mokee_changelog_summary">Näytä päivittäinen muutosloki</string>
+    <string name="mokee_github_title">MoKee Github</string>
+    <string name="mokee_github_summary">Vieraile MoKee-Githubissa</string>
+    <string name="mokee_translate_title">MoKee kääntäjät</string>
+    <string name="mokee_translate_summary">Auta kääntämään</string>
+    <string name="mokee_wiki_title">MoKee Wiki</string>
+    <string name="mokee_wiki_summary">Katso MoKee Wiki</string>
+    <string name="mokee_news_title">MoKee Uutiset</string>
+    <string name="mokee_news_summary">Vastaanota kehitysuutisia MoKee:sta</string>
+    <!-- Base Info -->
+    <string name="mokee_version_info_title">Versiotiedot</string>
+    <string name="mokee_version_title">MoKee-versio</string>
+    <string name="mokee_unique_id_title">Yksilöllinen ID</string>
+    <string name="mokee_donate_info_title">Lahjoitus tiedot</string>
+    <string name="mokee_last_check_title">Viimeisin tarkistus</string>
+    <string name="mokee_last_check_never">Ei koskaan</string>
+    <!-- Version -->
+    <string name="mokee_info_default">Tuntematon</string>
+    <string name="mokee_version_type_release">Release</string>
+    <string name="mokee_version_type_history">History</string>
+    <string name="mokee_version_type_experimental">Experimental</string>
+    <string name="mokee_version_type_nightly">Nightly</string>
+    <string name="mokee_version_type_unofficial">Unofficial</string>
+    <string name="mokee_version_type_all">Kaikki</string>
+    <!-- State -->
+    <string name="downloaded_update_summary">Ladatut</string>
+    <string name="installed_update_summary">Asennettu</string>
+    <string name="available_updates_title">Saatavilla olevat päivitykset</string>
+    <!-- Menu -->
+    <string name="menu_donate">Lahjoita</string>
+    <string name="menu_refresh">Päivitä</string>
+    <string name="menu_delete_all">Poista lataukset</string>
+    <string name="menu_restore">Palauta lisenssi</string>
+    <!-- Donate -->
+    <string name="donate_dialog_title">Lahjoita meille</string>
+    <string name="donate_dialog_message">Unlike companies like Cygn or MIUI, MoKee OpenSource is a purely non-profit project born of hobby and passion. In order to maintain this project, we have to fork out our own money most of the time or rely on donations and advertisements. Your donations can help reduce our financial load and sustain future development! This option allows you to remove the ads in MoKee Center, or use the \"Donate\" option instead if you prefer installments (ads will be removed once the total has reached the specified value). (in the root directory of sdcard, only valid for current device) once you have donated.</string>
+    <string name="donate_dialog_next">Seuraava</string>
+    <string name="donate_dialog_via_paypal">PayPal</string>
+    <string name="donate_dialog_via_alipay">Alipay</string>
+    <string name="donate_dialog_via_restore">Palauta</string>
+    <string name="donate_money_toast_success">Kiitos lahjoituksestasi!</string>
+    <string name="donate_money_title">Lahjoita MoKee OpenSourcelle</string>
+    <string name="donate_money_again">Lahjoita uudestaan</string>
+    <string name="donate_money_restored_success">Lahjoitus palautetttiin onnistuneesti.</string>
+    <string name="donate_money_restored_failed">Yhtään laitetta ei löytynyt.</string>
+    <string name="donate_money_restored_timeout">Yhteysvirhe, yritä uudelleen</string>
+    <string name="donate_money_info">Lahjoitit yhteensä CNY %1$d enemmän kuin %2$s lahjoittajat maailmanlaajuisesti!</string>
+    <string name="donate_money_info_with_rank">Lahjoitit yhteensä CNY %1$d enemmän kuin %2$s lahjoittajat maailmanlaajuisesti, sijoitus No.%3$d!</string>
+    <string name="donate_money_info_null">Et ole lahjoittanut</string>
+    <!-- Update -->
+    <string name="unknown">Tuntematon</string>
+    <string name="dialog_update">Päivitä</string>
+    <string name="dialog_install">Asenna</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Peruuta</string>
+    <string name="dialog_close">Sulje</string>
+    <string name="no_available_updates_intro">Viimeisin tarkistus ei löytänyt yhtään päivitystä. Tarkistaaksesi päivitykset, paina Päivitä.</string>
+    <string name="no_available_ota_intro">Viimeisin tarkistus ei löytänyt yhtään päivitystä. Tarkistaaksesi päivitykset, paina Päivitä. Jos käytät versiota joka ei tue vähittäispäivityksiä niin ota vähittäispäivitykset pois käytöstä.</string>
+    <string name="new_update_summary">Uusi</string>
+    <string name="old_update_summary">Vanha</string>
+    <string name="update_check_title">Päivityksen aikaväli</string>
+    <string name="check_manual">Manuaali</string>
+    <string name="nightly_alert">Olet valinnut nightly-päivitykset listaan. Nämä eivät ole tuettuja, ja niitä tulisi käyttää varoen.</string>
+    <string name="experimenter_alert">Olet valinnut kokeelliset-päivitykset listaan. Nämä eivät ole tuettuja, ja niitä tulisi käyttää varoen.</string>
+    <string name="unofficial_alert">Olet valinnut epäviralliset-päivitykset listaan. Nämä eivät ole tuettuja, ja niitä tulisi käyttää varoen.</string>
+    <string name="all_alert">Olet valinnut kaikki päivitykset (release, nightly) sisällytetään tähän luetteloon. Huom! Nightly-päivityksiä käytettävä omalla vastuulla.</string>
+    <string name="alert_title">Varoitus</string>
+    <string name="update_type_title">Päivitystyyppi</string>
+    <!-- ChangeLog -->
+    <string name="no_changelog_alert">Ei muutoslokia saatavilla</string>
+    <string name="changelog_dialog_title">Muutoslogi</string>
+    <string name="loading_changelog">Ladataan\u2026</string>
+    <string name="check_on_boot">Uudelleenkäynnistyksen yhteydessä</string>
+    <string name="check_twice_daily">Kahdesti päivässä</string>
+    <string name="check_daily">Kerran päivässä</string>
+    <string name="check_twice_weekly">Kahdesti viikossa</string>
+    <string name="check_weekly">Kerran viikossa</string>
+    <string name="check_bi_weekly">Kerran kahdessa viikossa</string>
+    <string name="check_monthly">Kerran kuukaudessa</string>
+    <!-- checking -->
+    <string name="checking_for_updates">Tarkistetaan päivityksiä</string>
+    <string name="no_updates_found">Päivityksiä ei löytynyt</string>
+    <string name="not_new_updates_found_ticker">Uusia päivityksiä saatavilla</string>
+    <string name="not_new_updates_found_title">Uudet päivitykset</string>
+    <string name="update_check_failed">Päivitysten tarkistaminen epäonnistui. Tarkista internet-yhteytesi ja yritä uudelleen.</string>
+    <string name="not_action_download">Lataa</string>
+    <string name="data_connection_required">Datayhteys tarvitaan.</string>
+    <!-- Downloads -->
+    <string name="confirm_download_cancelation_dialog_title">Peruuta lataus</string>
+    <string name="confirm_download_cancelation_dialog_message">Peruuta nykyinen lataus?</string>
+    <string name="download_remaining"><xliff:g id="kesto" esimerkki="3 minuuttia">%s</xliff:g> jäljellä</string>
+    <string name="download_running">Toiminto käynnissä</string>
+    <string name="download_cancelled">Lataus peruttu</string>
+    <string name="download_already_running">Lataus on jo käynnissä</string>
+    <string name="download_limited_mode">Ladataan rajatulla nopeudella, lahjoita nauttiaksesi täydestä nopeudesta.</string>
+    <string name="unable_to_download_file">Virhe tiedoston lataamisessa</string>
+    <string name="not_download_success">Päivitys ladattu onnistuneesti</string>
+    <string name="not_download_failure">Päivityksen lataaminen epäonnistui</string>
+    <string name="not_action_install_update">Käynnistä uudelleen ja asenna</string>
+    <string name="not_download_install_notice">Päivityksen <xliff:g id="filename">%s</xliff:g> lataaminen onnistui. Kun painat \'Käynnistä uudelleen ja asenna\', laite käynnistyy uudelleen ja asenta päivityksen.\n\nHuomautus: Tämä ominaisuus tarvitsee yhteensopivan Recoveryn tai päivitykset eivät asennu automaattisesti.</string>
+    <string name="not_download_install_ota_notice">The update <xliff:g id="filename">%s</xliff:g> was successfully downloaded. When touching \'Reboot and install\', the device will restart itself to install the update.\n\nNote: This feature requires a compatible Recovery or updates will need to be installed manually.\n\nThis is an incremental update, therefore any changes made to system files might cause the update to fail. If this happens, please flash a full ROM instead.</string>
+    <string name="md5_verification_failed">MD5-tarkistuskoodit eivät täsmää</string>
+    <string name="not_apk_action_install_update">Asenna</string>
+    <!-- deleting -->
+    <string name="confirm_delete_dialog_title">Poista tiedosto</string>
+    <string name="confirm_delete_updates_dialog_message">Poista valittu päivitystiedosto?</string>
+    <string name="confirm_delete_updates_all_dialog_message">Poista kaikki ladatut päivitystiedostot?</string>
+    <string name="delete_single_update_success_message">Päivitys <xliff:g id="filename">%s</xliff:g> poistettu</string>
+    <string name="delete_updates_failure_message">Virhe poistettaessa päivitystiedostoa</string>
+    <string name="delete_updates_nofolder_message">Päivityskansiota ei löydy</string>
+    <string name="delete_updates_success_message">Kaikki päivitykset poistettu</string>
+    <!-- Pref -->
+    <string name="pref_ota_check">Inkrementaaliset päivitykset</string>
+    <string name="pref_ota_check_summary">Säästä latausaikaa ja kaistaa</string>
+    <string name="pref_ota_check_request_summary">Säästä latausaikaa ja kaistaa</string>
+    <string name="pref_verify_rom">Todennetut päivitykset</string>
+    <string name="pref_verify_rom_summary">Näytä vain päivitykset, jotka muut käyttäjät ovat todentaneet</string>
+    <string name="pref_verify_rom_request_summary">Näytä vain päivitykset, jotka muut käyttäjät ovat todentaneet</string>
+    <!-- Apply install and update strings -->
+    <string name="apply_update_dialog_title">Asenna päivitys</string>
+    <string name="apply_update_dialog_text">Olet päivittämässä versioon <xliff:g id="filename">%s</xliff:g>.\n\nJos painat Päivitä, laite käynnistyy uudelleen Recovery-tilaan asentaakseen päivityksen.\n\nHuomautus: Tämä ominaisuus vaatii yhteensopivan Recoveryn tai päivitykset eivät asennu automaattisesti.</string>
+    <string name="apply_update_ota_dialog_text">The update <xliff:g id="filename">%s</xliff:g> was successfully downloaded. When touching \'Reboot and install\', the device will restart itself to install the update.\n\nNote: This feature requires a compatible Recovery or updates will need to be installed manually.\n\nThis is an incremental update, therefore any changes made to system files might cause the update to fail. If this happens, please flash a full ROM instead.</string>
+    <string name="apply_unable_to_reboot_toast">Recovery-tilan käynnistäminen epäonnistui</string>
+    <!-- Experimenter mode -->
+    <string name="show_exp_on">Kehittäjäasetukset on nyt käytössä!</string>
+    <string name="show_exp_already">Olet jo ottanut kehittäjäasetukset käyttöön.</string>
+    <!-- Verify system compatible -->
+    <string name="verify_system_compatible_title">Mokee järjestelmän päivitys</string>
+    <string name="verify_system_compatible_root_skip">Ohita</string>
+    <!-- Common -->
+    <string name="activity_not_found">Sovellusta ei ole asennettu.</string>
 </resources>

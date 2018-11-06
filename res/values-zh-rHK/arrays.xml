@@ -17,13 +17,13 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="not_new_updates_found_body">
-    <item quantity="other"><xliff:g id="count">%d </xliff:g> 個更新可供下載</item>
-  </plurals>
-  <plurals name="not_additional_count">
-    <item quantity="other">+ 其他 <xliff:g id="count">%d</xliff:g> 個</item>
-  </plurals>
-  <plurals name="show_exp_countdown">
-    <item quantity="other">僅需 <xliff:g id="Step_COUNT">%1$d</xliff:g> 步操作即可進入開發者模式</item>
-  </plurals>
+    <plurals name="not_new_updates_found_body">
+        <item quantity="other"><xliff:g id="count">%d </xliff:g> 個更新可供下載</item>
+    </plurals>
+    <plurals name="not_additional_count">
+        <item quantity="other">+ 其他 <xliff:g id="count">%d</xliff:g> 個</item>
+    </plurals>
+    <plurals name="show_exp_countdown">
+        <item quantity="other">僅需 <xliff:g id="Step_COUNT">%1$d</xliff:g> 步操作即可進入開發者模式</item>
+    </plurals>
 </resources>

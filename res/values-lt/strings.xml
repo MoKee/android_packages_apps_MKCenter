@@ -17,77 +17,77 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Fragment -->
-  <string name="mokee_center_title">MoKee centras</string>
-  <string name="mokee_support_title">Parama</string>
-  <string name="mokee_updater_title">Naujiniai</string>
-  <!-- WebSite -->
-  <string name="mokee_website_title">MoKee svetainė</string>
-  <string name="mokee_website_summary">Aplankykite oficialę svetainę</string>
-  <string name="mokee_forum_title">MoKee Forumas</string>
-  <string name="mokee_forum_summary">Apsilankyti MoKee forume</string>
-  <string name="mokee_issues_title">Klaidų registras</string>
-  <string name="mokee_issues_summary">Aplankyti klaidų registrą</string>
-  <string name="mokee_changelog_title">Pakeitimai</string>
-  <string name="mokee_github_title">MoKee Github</string>
-  <string name="mokee_github_summary">Aplankyti MoKee Github</string>
-  <string name="mokee_translate_title">MoKee vertimas</string>
-  <string name="mokee_translate_summary">Padėti išversti MoKee</string>
-  <string name="mokee_wiki_title">MoKee Wiki</string>
-  <string name="mokee_wiki_summary">MoKee Wiki apžvalga</string>
-  <string name="mokee_news_title">MoKee Naujienos</string>
-  <string name="mokee_news_summary">Gauti naujienas iš MoKee kurėjų</string>
-  <!-- Base Info -->
-  <string name="mokee_version_info_title">Versijos informacija</string>
-  <string name="mokee_version_title">MoKee versija</string>
-  <string name="mokee_last_check_title">Praita patikra</string>
-  <string name="mokee_last_check_never">Niekada</string>
-  <!-- Version -->
-  <string name="mokee_info_default">Nežinoma</string>
-  <string name="mokee_version_type_release">Leidimas</string>
-  <string name="mokee_version_type_history">MoKee versijos istorija</string>
-  <string name="mokee_version_type_experimental">MoKee eksperimentinė versija</string>
-  <string name="mokee_version_type_nightly">MoKee naktinė versija</string>
-  <string name="mokee_version_type_unofficial">MoKee neoficiali versija</string>
-  <string name="mokee_version_type_all">MoKee visos versijos</string>
-  <!-- State -->
-  <string name="downloaded_update_summary">Atsiųsti</string>
-  <string name="installed_update_summary">Įdiegti</string>
-  <!-- Menu -->
-  <string name="menu_donate">Paaukoti</string>
-  <!-- Donate -->
-  <string name="donate_dialog_next">Kitas</string>
-  <string name="donate_dialog_via_paypal">PayPal</string>
-  <string name="donate_dialog_via_alipay">AliPay</string>
-  <string name="donate_money_toast_success">Dėkojame jums už paramą!</string>
-  <!-- Update -->
-  <string name="unknown">Nežinoma</string>
-  <string name="dialog_update">Atnaujinti</string>
-  <string name="dialog_install">Įrašyti</string>
-  <string name="dialog_cancel">Atšaukti</string>
-  <string name="dialog_close">Uždaryti</string>
-  <string name="new_update_summary">Naujas</string>
-  <string name="old_update_summary">Senas</string>
-  <string name="check_manual">Pagalbos vadovas</string>
-  <!-- ChangeLog -->
-  <string name="check_twice_daily">Du kartus per diena</string>
-  <string name="check_daily">Kartą per dieną</string>
-  <string name="check_twice_weekly">Du kartus per savaitę</string>
-  <string name="check_weekly">Kartą per savaitę</string>
-  <string name="check_monthly">Vieną kartą per mėnesį</string>
-  <!-- checking -->
-  <string name="not_action_download">Atsisiųsti</string>
-  <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">Atšaukti atsiuntimą</string>
-  <string name="download_cancelled">Atsiuntimas atšauktas</string>
-  <string name="not_apk_action_install_update">Įrašyti</string>
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Ištrinti failą</string>
-  <!-- Pref -->
-  <!-- Apply install and update strings -->
-  <!-- Experimenter mode -->
-  <!-- Verify system compatible -->
-  <string name="verify_system_compatible_root_skip">Praleisti</string>
-  <!-- Common -->
-  <string name="activity_not_found">Programa neįdiegta.</string>
+    <!-- Fragment -->
+    <string name="mokee_center_title">MoKee centras</string>
+    <string name="mokee_support_title">Parama</string>
+    <string name="mokee_updater_title">Naujiniai</string>
+    <!-- WebSite -->
+    <string name="mokee_website_title">MoKee svetainė</string>
+    <string name="mokee_website_summary">Aplankykite oficialę svetainę</string>
+    <string name="mokee_forum_title">MoKee Forumas</string>
+    <string name="mokee_forum_summary">Apsilankyti MoKee forume</string>
+    <string name="mokee_issues_title">Klaidų registras</string>
+    <string name="mokee_issues_summary">Aplankyti klaidų registrą</string>
+    <string name="mokee_changelog_title">Pakeitimai</string>
+    <string name="mokee_github_title">MoKee Github</string>
+    <string name="mokee_github_summary">Aplankyti MoKee Github</string>
+    <string name="mokee_translate_title">MoKee vertimas</string>
+    <string name="mokee_translate_summary">Padėti išversti MoKee</string>
+    <string name="mokee_wiki_title">MoKee Wiki</string>
+    <string name="mokee_wiki_summary">MoKee Wiki apžvalga</string>
+    <string name="mokee_news_title">MoKee Naujienos</string>
+    <string name="mokee_news_summary">Gauti naujienas iš MoKee kurėjų</string>
+    <!-- Base Info -->
+    <string name="mokee_version_info_title">Versijos informacija</string>
+    <string name="mokee_version_title">MoKee versija</string>
+    <string name="mokee_last_check_title">Praita patikra</string>
+    <string name="mokee_last_check_never">Niekada</string>
+    <!-- Version -->
+    <string name="mokee_info_default">Nežinoma</string>
+    <string name="mokee_version_type_release">Leidimas</string>
+    <string name="mokee_version_type_history">MoKee versijos istorija</string>
+    <string name="mokee_version_type_experimental">MoKee eksperimentinė versija</string>
+    <string name="mokee_version_type_nightly">MoKee naktinė versija</string>
+    <string name="mokee_version_type_unofficial">MoKee neoficiali versija</string>
+    <string name="mokee_version_type_all">MoKee visos versijos</string>
+    <!-- State -->
+    <string name="downloaded_update_summary">Atsiųsti</string>
+    <string name="installed_update_summary">Įdiegti</string>
+    <!-- Menu -->
+    <string name="menu_donate">Paaukoti</string>
+    <!-- Donate -->
+    <string name="donate_dialog_next">Kitas</string>
+    <string name="donate_dialog_via_paypal">PayPal</string>
+    <string name="donate_dialog_via_alipay">AliPay</string>
+    <string name="donate_money_toast_success">Dėkojame jums už paramą!</string>
+    <!-- Update -->
+    <string name="unknown">Nežinoma</string>
+    <string name="dialog_update">Atnaujinti</string>
+    <string name="dialog_install">Įrašyti</string>
+    <string name="dialog_cancel">Atšaukti</string>
+    <string name="dialog_close">Uždaryti</string>
+    <string name="new_update_summary">Naujas</string>
+    <string name="old_update_summary">Senas</string>
+    <string name="check_manual">Pagalbos vadovas</string>
+    <!-- ChangeLog -->
+    <string name="check_twice_daily">Du kartus per diena</string>
+    <string name="check_daily">Kartą per dieną</string>
+    <string name="check_twice_weekly">Du kartus per savaitę</string>
+    <string name="check_weekly">Kartą per savaitę</string>
+    <string name="check_monthly">Vieną kartą per mėnesį</string>
+    <!-- checking -->
+    <string name="not_action_download">Atsisiųsti</string>
+    <!-- Downloads -->
+    <string name="confirm_download_cancelation_dialog_title">Atšaukti atsiuntimą</string>
+    <string name="download_cancelled">Atsiuntimas atšauktas</string>
+    <string name="not_apk_action_install_update">Įrašyti</string>
+    <!-- deleting -->
+    <string name="confirm_delete_dialog_title">Ištrinti failą</string>
+    <!-- Pref -->
+    <!-- Apply install and update strings -->
+    <!-- Experimenter mode -->
+    <!-- Verify system compatible -->
+    <string name="verify_system_compatible_root_skip">Praleisti</string>
+    <!-- Common -->
+    <string name="activity_not_found">Programa neįdiegta.</string>
 </resources>

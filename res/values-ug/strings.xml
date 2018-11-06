@@ -17,48 +17,48 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Fragment -->
-  <string name="mokee_center_title">MoKeeمەركىزى</string>
-  <string name="mokee_support_title">قوللاش</string>
-  <string name="mokee_updater_title">يېڭىلاش</string>
-  <!-- WebSite -->
-  <string name="mokee_website_title">MoKee باش بىتى</string>
-  <string name="mokee_website_summary">ئورگان بىتىنى زىيارەت قىلىش</string>
-  <string name="mokee_forum_title">MoKee مۇنبىرى</string>
-  <string name="mokee_forum_summary">MoKee مۇنبىرىنى زىيارەت قىلىش</string>
-  <string name="mokee_issues_title">MoKee Bug ئىزدىگۈچىسى</string>
-  <string name="mokee_issues_summary">BUGئىزدىگۈچىسىنى كۆرۈش</string>
-  <string name="mokee_changelog_title">MoKee يېڭىلاش خاتىرىسى</string>
-  <string name="mokee_changelog_summary">يېڭىلاش خاتىرىسىنى كۆرۈش</string>
-  <string name="mokee_github_summary">MoKee مۇنبىرىنى زىيارەت قىلىش</string>
-  <!-- Base Info -->
-  <string name="mokee_unique_id_title">بىردىنبىر كىملىك</string>
-  <string name="mokee_last_check_never">ھەرگىز</string>
-  <!-- Version -->
-  <string name="mokee_info_default">نامەلۇم</string>
-  <string name="mokee_version_type_history">تارىخ</string>
-  <string name="mokee_version_type_experimental">سىناق</string>
-  <string name="mokee_version_type_all">ھەممىنى تاللاش</string>
-  <!-- State -->
-  <string name="downloaded_update_summary">چۈشۈرۈش</string>
-  <string name="installed_update_summary">قاچىلاش</string>
-  <string name="available_updates_title">ئىشلىتىلىشچان يېڭىلاشلار</string>
-  <!-- Menu -->
-  <string name="menu_donate">ئىئانە</string>
-  <string name="menu_refresh">يېڭىلاڭ</string>
-  <string name="menu_delete_all">چۈشۈرگەنلەرنى ئۆچۈر</string>
-  <!-- Donate -->
-  <string name="donate_dialog_next">كېيىنكى</string>
-  <!-- Update -->
-  <string name="unknown">نامەلۇم</string>
-  <!-- ChangeLog -->
-  <!-- checking -->
-  <!-- Downloads -->
-  <!-- deleting -->
-  <!-- Pref -->
-  <!-- Apply install and update strings -->
-  <!-- Experimenter mode -->
-  <!-- Verify system compatible -->
-  <string name="verify_system_compatible_title">MoKee سىستېما يېڭلاش</string>
-  <!-- Common -->
+    <!-- Fragment -->
+    <string name="mokee_center_title">MoKeeمەركىزى</string>
+    <string name="mokee_support_title">قوللاش</string>
+    <string name="mokee_updater_title">يېڭىلاش</string>
+    <!-- WebSite -->
+    <string name="mokee_website_title">MoKee باش بىتى</string>
+    <string name="mokee_website_summary">ئورگان بىتىنى زىيارەت قىلىش</string>
+    <string name="mokee_forum_title">MoKee مۇنبىرى</string>
+    <string name="mokee_forum_summary">MoKee مۇنبىرىنى زىيارەت قىلىش</string>
+    <string name="mokee_issues_title">MoKee Bug ئىزدىگۈچىسى</string>
+    <string name="mokee_issues_summary">BUGئىزدىگۈچىسىنى كۆرۈش</string>
+    <string name="mokee_changelog_title">MoKee يېڭىلاش خاتىرىسى</string>
+    <string name="mokee_changelog_summary">يېڭىلاش خاتىرىسىنى كۆرۈش</string>
+    <string name="mokee_github_summary">MoKee مۇنبىرىنى زىيارەت قىلىش</string>
+    <!-- Base Info -->
+    <string name="mokee_unique_id_title">بىردىنبىر كىملىك</string>
+    <string name="mokee_last_check_never">ھەرگىز</string>
+    <!-- Version -->
+    <string name="mokee_info_default">نامەلۇم</string>
+    <string name="mokee_version_type_history">تارىخ</string>
+    <string name="mokee_version_type_experimental">سىناق</string>
+    <string name="mokee_version_type_all">ھەممىنى تاللاش</string>
+    <!-- State -->
+    <string name="downloaded_update_summary">چۈشۈرۈش</string>
+    <string name="installed_update_summary">قاچىلاش</string>
+    <string name="available_updates_title">ئىشلىتىلىشچان يېڭىلاشلار</string>
+    <!-- Menu -->
+    <string name="menu_donate">ئىئانە</string>
+    <string name="menu_refresh">يېڭىلاڭ</string>
+    <string name="menu_delete_all">چۈشۈرگەنلەرنى ئۆچۈر</string>
+    <!-- Donate -->
+    <string name="donate_dialog_next">كېيىنكى</string>
+    <!-- Update -->
+    <string name="unknown">نامەلۇم</string>
+    <!-- ChangeLog -->
+    <!-- checking -->
+    <!-- Downloads -->
+    <!-- deleting -->
+    <!-- Pref -->
+    <!-- Apply install and update strings -->
+    <!-- Experimenter mode -->
+    <!-- Verify system compatible -->
+    <string name="verify_system_compatible_title">MoKee سىستېما يېڭلاش</string>
+    <!-- Common -->
 </resources>

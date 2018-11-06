@@ -17,164 +17,164 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Fragment -->
-  <string name="mokee_center_title">MoKee Centru</string>
-  <string name="mokee_support_title">Asistenta</string>
-  <string name="mokee_updater_title">Actualizări</string>
-  <!-- WebSite -->
-  <string name="mokee_links">Link-uri</string>
-  <string name="mokee_website_title">Site-ul MoKee</string>
-  <string name="mokee_website_summary">Vizitati site-ul oficial</string>
-  <string name="mokee_forum_title">Forum MoKee</string>
-  <string name="mokee_forum_summary">Vizitati forumul MoKee</string>
-  <string name="mokee_issues_title">Erori MoKee</string>
-  <string name="mokee_issues_summary">Vizitează site-ul cu erori</string>
-  <string name="mokee_changelog_title">Schimbări MoKee</string>
-  <string name="mokee_changelog_summary">Vezi jurnalul zilnic de schimbări</string>
-  <string name="mokee_github_title">MoKee Github</string>
-  <string name="mokee_github_summary">Vizitează MoKee Github</string>
-  <string name="mokee_translate_title">Traducere MoKee</string>
-  <string name="mokee_translate_summary">Ajuta la traducerea MoKee</string>
-  <string name="mokee_wiki_title">MoKee Wiki</string>
-  <string name="mokee_wiki_summary">Vizitează MoKee Wiki</string>
-  <string name="mokee_news_title">Știri MoKee</string>
-  <string name="mokee_news_summary">Primește știri despre dezvoltarea MoKee</string>
-  <!-- Base Info -->
-  <string name="mokee_version_info_title">Informatii versiune</string>
-  <string name="mokee_version_title">Versiunea MoKee</string>
-  <string name="mokee_unique_id_title">ID Unic</string>
-  <string name="mokee_donate_info_title">Info donații</string>
-  <string name="mokee_last_check_title">Ultima verificare</string>
-  <string name="mokee_last_check_never">Niciodata</string>
-  <!-- Version -->
-  <string name="mokee_info_default">Necunoscut</string>
-  <string name="mokee_version_type_release">Lansare</string>
-  <string name="mokee_version_type_history">Istorie</string>
-  <string name="mokee_version_type_experimental">Experimental</string>
-  <string name="mokee_version_type_nightly">Nightly</string>
-  <string name="mokee_version_type_unofficial">Neoficial</string>
-  <string name="mokee_version_type_all">Toate</string>
-  <!-- State -->
-  <string name="downloaded_update_summary">Descarcat</string>
-  <string name="installed_update_summary">Instalat</string>
-  <string name="available_updates_title">Actualizari disponibile</string>
-  <!-- Menu -->
-  <string name="menu_donate">Doneaza</string>
-  <string name="menu_refresh">Reimprospatare</string>
-  <string name="menu_delete_all">Șterge descărcări</string>
-  <string name="menu_unlock_features">Deblocați caracteristici</string>
-  <string name="menu_restore">Restabili licenţă</string>
-  <!-- Donate -->
-  <string name="donate_dialog_title">Donați</string>
-  <string name="donate_dialog_message">Spre deosebire de Cygn sau MIUI, MoKee OpenSource este un proiect pur non-profit născut din pasiune și hobby. Pentru a menține acest proiect, utilizează resurse financiare proprii sau din cele obținute din donații și publicitate. Donația dvs. poate ajuta dezvoltatorii ce participă la acest proiect să mențină dezvoltarea lui! Această opțiune elimină publicitatea din MoKee Center, sau puteți opta pentru ”Donează” dacă doriți instalări automate incrementale (în acest caz, publicitatea va dispărea doar la atingerea sumei stabilite prin donații). Vă rugăm să faceți o copie de rezervă a fișierului mokee.license (se găsește în rădăcina spațiului de stocare a telefonului) imediat ce a-ți făcut o donație.</string>
-  <string name="donate_dialog_next">Următoarea</string>
-  <string name="donate_dialog_via_paypal">PayPal</string>
-  <string name="donate_dialog_via_alipay">AliPay</string>
-  <string name="donate_dialog_via_wechat">WeChat</string>
-  <string name="donate_dialog_via_restore">Restuarează</string>
-  <string name="donate_money_toast_success">Va multumim pentru donatie!</string>
-  <string name="donate_money_title">Donați pentru MoKee OpenSource</string>
-  <string name="donate_money_again">Donați din nou</string>
-  <string name="donate_money_restored_success">Restaurarea s-a terminat cu succes!</string>
-  <string name="donate_money_restored_failed">Pe dispozitiv nu sau găsit înregistrări.</string>
-  <string name="donate_money_restored_failed_solution">Soluţie</string>
-  <string name="donate_money_restored_timeout">Conexiunea a expirat, vă rugăm să încercaţi din nou</string>
-  <string name="donate_money_info">Ai donat un total de %1$d CNY, mai mult decât %2$s de donatori la nivel global!</string>
-  <string name="donate_money_info_with_rank">Ai donat un total de CNY %1$d, mai mult de %2$s de donatori la nivel global, rang No.%3$d!</string>
-  <string name="donate_money_info_null">Nu ai donat</string>
-  <string name="unlock_features_title">Deblocați caracteristici</string>
-  <string name="unlock_features_ota_title">Donează %d CNY pentru deblocare OTA si viteză maximă de download.</string>
-  <string name="unlock_features_verify_rom_title">Donează %d CNY pentru verificare actualizări şi eliminare anunţuri.</string>
-  <string name="unlock_features_all_title">Donează %d CNY pentru deblocare OTA, viteza maximă de download, verificare actualizări şi eliminare anunţuri.</string>
-  <string name="unlock_features_request_summary">(disponibil după donarea %d CNY)</string>
-  <string name="unlock_features_pending_summary">(donat %1$d CNY, disponibil pentru toată durata de viaţă după donarea cu %2$d CNY mai mult)</string>
-  <!-- Update -->
-  <string name="unknown">Necunoscut</string>
-  <string name="dialog_update">Actualizează</string>
-  <string name="dialog_install">Instalaţi</string>
-  <string name="dialog_ok">OK</string>
-  <string name="dialog_cancel">Anulează</string>
-  <string name="dialog_close">Închideţi</string>
-  <string name="no_available_updates_intro">Ultima verificare nu a găsit actualizări disponibile. Pentru a verifica manual existenţa actualizărilor noi, utilizaţi butonul Reîmprospătare.</string>
-  <string name="no_available_ota_intro">Ultima verificare nu a găsit actualizări disponibile. Pentru a verifica manual existenţa actualizărilor noi, utilizaţi butonul Reîmprospătare. Dacă utilizați o versiune ce nu suportă versiuni incrementale de actualizări, este necesar să dezactivați această opțiune.</string>
-  <string name="new_update_summary">Nouă</string>
-  <string name="old_update_summary">Vechi</string>
-  <string name="ota_diff_update_summary">Actualizările incrementale pot salva %s</string>
-  <string name="full_diff_update_summary">Salvează %s în comparaţie cu întregul ROM</string>
-  <string name="update_check_title">Frecvența de verificare a actualizărilor</string>
-  <string name="check_manual">Manuală</string>
-  <string name="nightly_alert">Aţi selectat pentru a include actualizările nightly în această listă. Acestea trebuie să fie folosite cu precauție, nu sunt acceptate.</string>
-  <string name="experimenter_alert">Aţi selectat pentru a include actualizările nightly în această listă. Acestea nu sunt acceptate și sunt făcute doar pentru teste, ar trebui folosite cu precauție.</string>
-  <string name="unofficial_alert">Aţi selectat pentru a include actualizările neoficiale în această listă. Trebuie să aveți in vedere că acest tip de actualizări nu au suport tehnic de la dezvoltator.</string>
-  <string name="all_alert">Aţi selectat pentru a include toate tipurile de actualizări(finale, nightly) în această listă. Cele nightly trebuie să fie folosite cu precauție, nu sunt acceptate.</string>
-  <string name="alert_title">Prudenţă</string>
-  <string name="update_type_title">Tipul de actualizare</string>
-  <!-- ChangeLog -->
-  <string name="no_changelog_alert">Nici un changelog disponibil</string>
-  <string name="changelog_dialog_title">Istoria schimbărilor</string>
-  <string name="loading_changelog">Încărcare\u2026</string>
-  <string name="check_on_boot">La fiecare repornire</string>
-  <string name="check_twice_daily">De două ori în fiecare zi</string>
-  <string name="check_daily">O dată în fiecare zi</string>
-  <string name="check_twice_weekly">De două ori în fiecare săptămână</string>
-  <string name="check_weekly">O dată pe săptămână</string>
-  <string name="check_bi_weekly">O dată la fiecare două săptămâni</string>
-  <string name="check_monthly">O dată pe lună</string>
-  <!-- checking -->
-  <string name="checking_for_updates">Actualizări în curs</string>
-  <string name="no_updates_found">Nu s-au găsit actualizări noi</string>
-  <string name="not_new_updates_found_ticker">Sunt disponibile noi actualizări</string>
-  <string name="not_new_updates_found_title">Noi actualizări</string>
-  <string name="update_check_failed">Verificarea actualizării a eșuat. Vă rugăm să verificați conexiunea la internet și să încercați din nou mai târziu.</string>
-  <string name="not_action_download">Descarcă</string>
-  <string name="data_connection_required">Este necesară o conexiune de date.</string>
-  <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">Anulare descărcare</string>
-  <string name="confirm_download_cancelation_dialog_message">Anulați descărcarea curentă?</string>
-  <string name="download_remaining"><xliff:g id="durată" exemplu="3 minutes">%s </xliff:g> rămase</string>
-  <string name="download_running">În desfăşurare</string>
-  <string name="download_cancelled">Descarcare abandonată</string>
-  <string name="download_already_running">O descărcare este deja în execuţie</string>
-  <string name="download_limited_mode">Descărcarea la viteza limitată, vă rugăm să donați pentru a vă bucura de viteza maximă.</string>
-  <string name="unable_to_download_file">Imposibil de descărcat fișierul de actualizare</string>
-  <string name="not_download_success">Actualizare descărcată cu succes</string>
-  <string name="not_download_failure">Descărcarea actualizării a eșuat</string>
-  <string name="not_action_install_update">Reporniți și instalați</string>
-  <string name="not_download_install_notice">Actualizarea <xliff:g id="filename">%s </xliff:g> a fost descărcată cu succes. Atunci când ating \"Restart şi instalare\", dispozitivul va reporni automat pentru a instala actualizarea.\n\nNote: această caracteristică necesită o recuperare compatibilă sau actualizarea trebuie să fie instalată manual.</string>
-  <string name="not_download_install_ota_notice">Actualizare <xliff:g id="filename">%s </xliff:g> a fost descărcat cu succes. Atunci când ating \"Reboot şi instala\", dispozitivul va reporni în sine pentru a instala update.\n\nNote: această caracteristică necesită o recuperare compatibil sau actualizări va trebui să fie instalat manually.\n\nThis este o actualizare elementare, prin urmare, orice modificări aduse fisierelor de sistem ar putea provoca actualizare să nu reuşească. Dacă se întâmplă acest lucru, vă rugăm să flash un ROM completă în schimb.</string>
-  <string name="md5_verification_failed">Nepotrivire de suma de control MD5</string>
-  <string name="not_apk_action_install_update">Instalaţi</string>
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Ştergeţi fişierul</string>
-  <string name="confirm_delete_updates_dialog_message">Șterge fișierul de actualizare selectat?</string>
-  <string name="confirm_delete_updates_all_dialog_message">Intenţionaţi să ştergeţi toate fişierele de actualizare descărcate. Continuaţi?</string>
-  <string name="delete_single_update_success_message">Actualizare <xliff:g id="filename">%s</xliff:g> ştearsă</string>
-  <string name="delete_updates_failure_message">Eroare la ştergerea fişierului de actualizare</string>
-  <string name="delete_updates_nofolder_message">Folder-ul de actualizare nu a fost găsit</string>
-  <string name="delete_updates_success_message">Toate actualizările descărcate au fost şterse</string>
-  <!-- Pref -->
-  <string name="pref_ota_check">Actualizări incrementale</string>
-  <string name="pref_ota_check_summary">Primește actualizări incrementale pentru a reduce timpul de descărcat și banda de internet</string>
-  <string name="pref_ota_check_request_summary">Primește actualizări incrementale pentru a reduce timpul de descărcat și banda de internet</string>
-  <string name="pref_verify_rom">Actualizări verificate</string>
-  <string name="pref_verify_rom_summary">Afişează doar actualizări care sunt verificate de către alţi utilizatori</string>
-  <string name="pref_verify_rom_request_summary">Afişează doar actualizări care sunt verificate de către alţi utilizatori</string>
-  <!-- Apply install and update strings -->
-  <string name="apply_update_dialog_title">Aplicaţi actualizarea</string>
-  <string name="apply_update_dialog_text">Intenţionaţi să faceţi upgrade la <xliff:g id="filename">%s</xliff:g>.\n\nDacă apăsaţi actualizare, dispozitivul va reporni în modul de recuperare pentru a instala actualizarea.\n\nNotă: această caracteristică necesită o versiune de recuperare compatibilă sau actualizările trebuie să fie instalate manual.</string>
-  <string name="apply_update_ota_dialog_text">Intenţionaţi să faceţi upgrade la <xliff:g id="filename">%s</xliff:g>.\n\nDacă apăsaţi actualizare, dispozitivul va reporni în modul de recuperare pentru a instala actualizarea.\n\nNotă: această caracteristică necesită o versiune de recuperare compatibilă sau actualizările trebuie să fie instalate manual.\n\nAceastă versiune este incrementală, de aceea orice modificare adusă sistemului poate conduce la o actualizare eșuată. Dacă acest lucru se întâmplă, este necesar să instalați din nou o versiune întreagă a softului.</string>
-  <string name="apply_unable_to_reboot_toast">Imposibil de a reporni în modulul de recuperare</string>
-  <!-- Experimenter mode -->
-  <string name="show_exp_on">Ați activat setările experimentale!</string>
-  <string name="show_exp_already">Nu este necesar, deja ați activat setările experimentale.</string>
-  <!-- Verify system compatible -->
-  <string name="verify_system_compatible_title">Update sistem Mokee</string>
-  <string name="verify_system_compatible_message">Verifică compatibilitatea cu sistemul înainte de patching\u2026</string>
-  <string name="verify_system_compatible_failed">Verificarea compatibilităţii sistemului nu a reușit</string>
-  <string name="verify_system_compatible_patch">Următoarele fişiere au fost fie modificate fie eliminate, vă rugăm restabiliţi-le și încercați din nou.</string>
-  <string name="verify_system_compatible_img">Incompatibil %1$s, vă rugăm să faceţi upgrade la versiunea %2$s</string>
-  <string name="verify_system_compatible_root_request">Permisiune root solicitată de plug-in-ul de actualizare pentru a verifica compatibilitatea actualizării. Dacă alegeţi să săriţi, acest pas va fi întârziat şi efectuat în modul de recuperare.</string>
-  <string name="verify_system_compatible_root_skip">Omite</string>
-  <!-- Common -->
-  <string name="activity_not_found">Aplicația nu este instalată.</string>
+    <!-- Fragment -->
+    <string name="mokee_center_title">MoKee Centru</string>
+    <string name="mokee_support_title">Asistenta</string>
+    <string name="mokee_updater_title">Actualizări</string>
+    <!-- WebSite -->
+    <string name="mokee_links">Link-uri</string>
+    <string name="mokee_website_title">Site-ul MoKee</string>
+    <string name="mokee_website_summary">Vizitati site-ul oficial</string>
+    <string name="mokee_forum_title">Forum MoKee</string>
+    <string name="mokee_forum_summary">Vizitati forumul MoKee</string>
+    <string name="mokee_issues_title">Erori MoKee</string>
+    <string name="mokee_issues_summary">Vizitează site-ul cu erori</string>
+    <string name="mokee_changelog_title">Schimbări MoKee</string>
+    <string name="mokee_changelog_summary">Vezi jurnalul zilnic de schimbări</string>
+    <string name="mokee_github_title">MoKee Github</string>
+    <string name="mokee_github_summary">Vizitează MoKee Github</string>
+    <string name="mokee_translate_title">Traducere MoKee</string>
+    <string name="mokee_translate_summary">Ajuta la traducerea MoKee</string>
+    <string name="mokee_wiki_title">MoKee Wiki</string>
+    <string name="mokee_wiki_summary">Vizitează MoKee Wiki</string>
+    <string name="mokee_news_title">Știri MoKee</string>
+    <string name="mokee_news_summary">Primește știri despre dezvoltarea MoKee</string>
+    <!-- Base Info -->
+    <string name="mokee_version_info_title">Informatii versiune</string>
+    <string name="mokee_version_title">Versiunea MoKee</string>
+    <string name="mokee_unique_id_title">ID Unic</string>
+    <string name="mokee_donate_info_title">Info donații</string>
+    <string name="mokee_last_check_title">Ultima verificare</string>
+    <string name="mokee_last_check_never">Niciodata</string>
+    <!-- Version -->
+    <string name="mokee_info_default">Necunoscut</string>
+    <string name="mokee_version_type_release">Lansare</string>
+    <string name="mokee_version_type_history">Istorie</string>
+    <string name="mokee_version_type_experimental">Experimental</string>
+    <string name="mokee_version_type_nightly">Nightly</string>
+    <string name="mokee_version_type_unofficial">Neoficial</string>
+    <string name="mokee_version_type_all">Toate</string>
+    <!-- State -->
+    <string name="downloaded_update_summary">Descarcat</string>
+    <string name="installed_update_summary">Instalat</string>
+    <string name="available_updates_title">Actualizari disponibile</string>
+    <!-- Menu -->
+    <string name="menu_donate">Doneaza</string>
+    <string name="menu_refresh">Reimprospatare</string>
+    <string name="menu_delete_all">Șterge descărcări</string>
+    <string name="menu_unlock_features">Deblocați caracteristici</string>
+    <string name="menu_restore">Restabili licenţă</string>
+    <!-- Donate -->
+    <string name="donate_dialog_title">Donați</string>
+    <string name="donate_dialog_message">Spre deosebire de Cygn sau MIUI, MoKee OpenSource este un proiect pur non-profit născut din pasiune și hobby. Pentru a menține acest proiect, utilizează resurse financiare proprii sau din cele obținute din donații și publicitate. Donația dvs. poate ajuta dezvoltatorii ce participă la acest proiect să mențină dezvoltarea lui! Această opțiune elimină publicitatea din MoKee Center, sau puteți opta pentru ”Donează” dacă doriți instalări automate incrementale (în acest caz, publicitatea va dispărea doar la atingerea sumei stabilite prin donații). Vă rugăm să faceți o copie de rezervă a fișierului mokee.license (se găsește în rădăcina spațiului de stocare a telefonului) imediat ce a-ți făcut o donație.</string>
+    <string name="donate_dialog_next">Următoarea</string>
+    <string name="donate_dialog_via_paypal">PayPal</string>
+    <string name="donate_dialog_via_alipay">AliPay</string>
+    <string name="donate_dialog_via_wechat">WeChat</string>
+    <string name="donate_dialog_via_restore">Restuarează</string>
+    <string name="donate_money_toast_success">Va multumim pentru donatie!</string>
+    <string name="donate_money_title">Donați pentru MoKee OpenSource</string>
+    <string name="donate_money_again">Donați din nou</string>
+    <string name="donate_money_restored_success">Restaurarea s-a terminat cu succes!</string>
+    <string name="donate_money_restored_failed">Pe dispozitiv nu sau găsit înregistrări.</string>
+    <string name="donate_money_restored_failed_solution">Soluţie</string>
+    <string name="donate_money_restored_timeout">Conexiunea a expirat, vă rugăm să încercaţi din nou</string>
+    <string name="donate_money_info">Ai donat un total de %1$d CNY, mai mult decât %2$s de donatori la nivel global!</string>
+    <string name="donate_money_info_with_rank">Ai donat un total de CNY %1$d, mai mult de %2$s de donatori la nivel global, rang No.%3$d!</string>
+    <string name="donate_money_info_null">Nu ai donat</string>
+    <string name="unlock_features_title">Deblocați caracteristici</string>
+    <string name="unlock_features_ota_title">Donează %d CNY pentru deblocare OTA si viteză maximă de download.</string>
+    <string name="unlock_features_verify_rom_title">Donează %d CNY pentru verificare actualizări şi eliminare anunţuri.</string>
+    <string name="unlock_features_all_title">Donează %d CNY pentru deblocare OTA, viteza maximă de download, verificare actualizări şi eliminare anunţuri.</string>
+    <string name="unlock_features_request_summary">(disponibil după donarea %d CNY)</string>
+    <string name="unlock_features_pending_summary">(donat %1$d CNY, disponibil pentru toată durata de viaţă după donarea cu %2$d CNY mai mult)</string>
+    <!-- Update -->
+    <string name="unknown">Necunoscut</string>
+    <string name="dialog_update">Actualizează</string>
+    <string name="dialog_install">Instalaţi</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Anulează</string>
+    <string name="dialog_close">Închideţi</string>
+    <string name="no_available_updates_intro">Ultima verificare nu a găsit actualizări disponibile. Pentru a verifica manual existenţa actualizărilor noi, utilizaţi butonul Reîmprospătare.</string>
+    <string name="no_available_ota_intro">Ultima verificare nu a găsit actualizări disponibile. Pentru a verifica manual existenţa actualizărilor noi, utilizaţi butonul Reîmprospătare. Dacă utilizați o versiune ce nu suportă versiuni incrementale de actualizări, este necesar să dezactivați această opțiune.</string>
+    <string name="new_update_summary">Nouă</string>
+    <string name="old_update_summary">Vechi</string>
+    <string name="ota_diff_update_summary">Actualizările incrementale pot salva %s</string>
+    <string name="full_diff_update_summary">Salvează %s în comparaţie cu întregul ROM</string>
+    <string name="update_check_title">Frecvența de verificare a actualizărilor</string>
+    <string name="check_manual">Manuală</string>
+    <string name="nightly_alert">Aţi selectat pentru a include actualizările nightly în această listă. Acestea trebuie să fie folosite cu precauție, nu sunt acceptate.</string>
+    <string name="experimenter_alert">Aţi selectat pentru a include actualizările nightly în această listă. Acestea nu sunt acceptate și sunt făcute doar pentru teste, ar trebui folosite cu precauție.</string>
+    <string name="unofficial_alert">Aţi selectat pentru a include actualizările neoficiale în această listă. Trebuie să aveți in vedere că acest tip de actualizări nu au suport tehnic de la dezvoltator.</string>
+    <string name="all_alert">Aţi selectat pentru a include toate tipurile de actualizări(finale, nightly) în această listă. Cele nightly trebuie să fie folosite cu precauție, nu sunt acceptate.</string>
+    <string name="alert_title">Prudenţă</string>
+    <string name="update_type_title">Tipul de actualizare</string>
+    <!-- ChangeLog -->
+    <string name="no_changelog_alert">Nici un changelog disponibil</string>
+    <string name="changelog_dialog_title">Istoria schimbărilor</string>
+    <string name="loading_changelog">Încărcare\u2026</string>
+    <string name="check_on_boot">La fiecare repornire</string>
+    <string name="check_twice_daily">De două ori în fiecare zi</string>
+    <string name="check_daily">O dată în fiecare zi</string>
+    <string name="check_twice_weekly">De două ori în fiecare săptămână</string>
+    <string name="check_weekly">O dată pe săptămână</string>
+    <string name="check_bi_weekly">O dată la fiecare două săptămâni</string>
+    <string name="check_monthly">O dată pe lună</string>
+    <!-- checking -->
+    <string name="checking_for_updates">Actualizări în curs</string>
+    <string name="no_updates_found">Nu s-au găsit actualizări noi</string>
+    <string name="not_new_updates_found_ticker">Sunt disponibile noi actualizări</string>
+    <string name="not_new_updates_found_title">Noi actualizări</string>
+    <string name="update_check_failed">Verificarea actualizării a eșuat. Vă rugăm să verificați conexiunea la internet și să încercați din nou mai târziu.</string>
+    <string name="not_action_download">Descarcă</string>
+    <string name="data_connection_required">Este necesară o conexiune de date.</string>
+    <!-- Downloads -->
+    <string name="confirm_download_cancelation_dialog_title">Anulare descărcare</string>
+    <string name="confirm_download_cancelation_dialog_message">Anulați descărcarea curentă?</string>
+    <string name="download_remaining"><xliff:g id="durată" exemplu="3 minutes">%s </xliff:g> rămase</string>
+    <string name="download_running">În desfăşurare</string>
+    <string name="download_cancelled">Descarcare abandonată</string>
+    <string name="download_already_running">O descărcare este deja în execuţie</string>
+    <string name="download_limited_mode">Descărcarea la viteza limitată, vă rugăm să donați pentru a vă bucura de viteza maximă.</string>
+    <string name="unable_to_download_file">Imposibil de descărcat fișierul de actualizare</string>
+    <string name="not_download_success">Actualizare descărcată cu succes</string>
+    <string name="not_download_failure">Descărcarea actualizării a eșuat</string>
+    <string name="not_action_install_update">Reporniți și instalați</string>
+    <string name="not_download_install_notice">Actualizarea <xliff:g id="filename">%s </xliff:g> a fost descărcată cu succes. Atunci când ating \"Restart şi instalare\", dispozitivul va reporni automat pentru a instala actualizarea.\n\nNote: această caracteristică necesită o recuperare compatibilă sau actualizarea trebuie să fie instalată manual.</string>
+    <string name="not_download_install_ota_notice">Actualizare <xliff:g id="filename">%s </xliff:g> a fost descărcat cu succes. Atunci când ating \"Reboot şi instala\", dispozitivul va reporni în sine pentru a instala update.\n\nNote: această caracteristică necesită o recuperare compatibil sau actualizări va trebui să fie instalat manually.\n\nThis este o actualizare elementare, prin urmare, orice modificări aduse fisierelor de sistem ar putea provoca actualizare să nu reuşească. Dacă se întâmplă acest lucru, vă rugăm să flash un ROM completă în schimb.</string>
+    <string name="md5_verification_failed">Nepotrivire de suma de control MD5</string>
+    <string name="not_apk_action_install_update">Instalaţi</string>
+    <!-- deleting -->
+    <string name="confirm_delete_dialog_title">Ştergeţi fişierul</string>
+    <string name="confirm_delete_updates_dialog_message">Șterge fișierul de actualizare selectat?</string>
+    <string name="confirm_delete_updates_all_dialog_message">Intenţionaţi să ştergeţi toate fişierele de actualizare descărcate. Continuaţi?</string>
+    <string name="delete_single_update_success_message">Actualizare <xliff:g id="filename">%s</xliff:g> ştearsă</string>
+    <string name="delete_updates_failure_message">Eroare la ştergerea fişierului de actualizare</string>
+    <string name="delete_updates_nofolder_message">Folder-ul de actualizare nu a fost găsit</string>
+    <string name="delete_updates_success_message">Toate actualizările descărcate au fost şterse</string>
+    <!-- Pref -->
+    <string name="pref_ota_check">Actualizări incrementale</string>
+    <string name="pref_ota_check_summary">Primește actualizări incrementale pentru a reduce timpul de descărcat și banda de internet</string>
+    <string name="pref_ota_check_request_summary">Primește actualizări incrementale pentru a reduce timpul de descărcat și banda de internet</string>
+    <string name="pref_verify_rom">Actualizări verificate</string>
+    <string name="pref_verify_rom_summary">Afişează doar actualizări care sunt verificate de către alţi utilizatori</string>
+    <string name="pref_verify_rom_request_summary">Afişează doar actualizări care sunt verificate de către alţi utilizatori</string>
+    <!-- Apply install and update strings -->
+    <string name="apply_update_dialog_title">Aplicaţi actualizarea</string>
+    <string name="apply_update_dialog_text">Intenţionaţi să faceţi upgrade la <xliff:g id="filename">%s</xliff:g>.\n\nDacă apăsaţi actualizare, dispozitivul va reporni în modul de recuperare pentru a instala actualizarea.\n\nNotă: această caracteristică necesită o versiune de recuperare compatibilă sau actualizările trebuie să fie instalate manual.</string>
+    <string name="apply_update_ota_dialog_text">Intenţionaţi să faceţi upgrade la <xliff:g id="filename">%s</xliff:g>.\n\nDacă apăsaţi actualizare, dispozitivul va reporni în modul de recuperare pentru a instala actualizarea.\n\nNotă: această caracteristică necesită o versiune de recuperare compatibilă sau actualizările trebuie să fie instalate manual.\n\nAceastă versiune este incrementală, de aceea orice modificare adusă sistemului poate conduce la o actualizare eșuată. Dacă acest lucru se întâmplă, este necesar să instalați din nou o versiune întreagă a softului.</string>
+    <string name="apply_unable_to_reboot_toast">Imposibil de a reporni în modulul de recuperare</string>
+    <!-- Experimenter mode -->
+    <string name="show_exp_on">Ați activat setările experimentale!</string>
+    <string name="show_exp_already">Nu este necesar, deja ați activat setările experimentale.</string>
+    <!-- Verify system compatible -->
+    <string name="verify_system_compatible_title">Update sistem Mokee</string>
+    <string name="verify_system_compatible_message">Verifică compatibilitatea cu sistemul înainte de patching\u2026</string>
+    <string name="verify_system_compatible_failed">Verificarea compatibilităţii sistemului nu a reușit</string>
+    <string name="verify_system_compatible_patch">Următoarele fişiere au fost fie modificate fie eliminate, vă rugăm restabiliţi-le și încercați din nou.</string>
+    <string name="verify_system_compatible_img">Incompatibil %1$s, vă rugăm să faceţi upgrade la versiunea %2$s</string>
+    <string name="verify_system_compatible_root_request">Permisiune root solicitată de plug-in-ul de actualizare pentru a verifica compatibilitatea actualizării. Dacă alegeţi să săriţi, acest pas va fi întârziat şi efectuat în modul de recuperare.</string>
+    <string name="verify_system_compatible_root_skip">Omite</string>
+    <!-- Common -->
+    <string name="activity_not_found">Aplicația nu este instalată.</string>
 </resources>

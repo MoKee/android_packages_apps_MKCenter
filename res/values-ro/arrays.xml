@@ -17,19 +17,19 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="not_new_updates_found_body">
-    <item quantity="one"><xliff:g id="count">%d</xliff:g> actualizare disponibilă pentru descărcare</item>
-    <item quantity="few"><xliff:g id="count">%d</xliff:g> actualizări disponibile pentru descărcare</item>
-    <item quantity="other"><xliff:g id="count">%d</xliff:g> actualizări disponibile pentru descărcare</item>
-  </plurals>
-  <plurals name="not_additional_count">
-    <item quantity="one">+ <xliff:g id="count">%d</xliff:g> mai mult</item>
-    <item quantity="few">+ <xliff:g id="count">%d</xliff:g> mai multe</item>
-    <item quantity="other">+ <xliff:g id="count">%d</xliff:g> mai multe</item>
-  </plurals>
-  <plurals name="show_exp_countdown">
-    <item quantity="one">Ești la <xliff:g id="step_count">%1$d</xliff:g> pas distanță de a activa opțiunile de dezvoltator.</item>
-    <item quantity="few">Ești la <xliff:g id="step_count">%1$d</xliff:g> pași distanță de a activa opțiunile de dezvoltator.</item>
-    <item quantity="other">Ești la <xliff:g id="step_count">%1$d</xliff:g> pași distanță de a activa opțiunile de dezvoltator.</item>
-  </plurals>
+    <plurals name="not_new_updates_found_body">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> actualizare disponibilă pentru descărcare</item>
+        <item quantity="few"><xliff:g id="count">%d</xliff:g> actualizări disponibile pentru descărcare</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> actualizări disponibile pentru descărcare</item>
+    </plurals>
+    <plurals name="not_additional_count">
+        <item quantity="one">+ <xliff:g id="count">%d</xliff:g> mai mult</item>
+        <item quantity="few">+ <xliff:g id="count">%d</xliff:g> mai multe</item>
+        <item quantity="other">+ <xliff:g id="count">%d</xliff:g> mai multe</item>
+    </plurals>
+    <plurals name="show_exp_countdown">
+        <item quantity="one">Ești la <xliff:g id="step_count">%1$d</xliff:g> pas distanță de a activa opțiunile de dezvoltator.</item>
+        <item quantity="few">Ești la <xliff:g id="step_count">%1$d</xliff:g> pași distanță de a activa opțiunile de dezvoltator.</item>
+        <item quantity="other">Ești la <xliff:g id="step_count">%1$d</xliff:g> pași distanță de a activa opțiunile de dezvoltator.</item>
+    </plurals>
 </resources>

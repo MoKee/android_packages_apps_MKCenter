@@ -17,147 +17,147 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Fragment -->
-  <string name="mokee_center_title">Κέντρο MoKee</string>
-  <string name="mokee_support_title">Υποστήριξη</string>
-  <string name="mokee_updater_title">Αναβάθμιση</string>
-  <!-- WebSite -->
-  <string name="mokee_website_title">Ιστοσελίδα MoKee</string>
-  <string name="mokee_website_summary">Επισκεφθείτε την επίσημη ιστοσελίδα</string>
-  <string name="mokee_forum_title">MoKee φόρουμ</string>
-  <string name="mokee_forum_summary">Επισκεφτείτε το φόρουμ MoKee</string>
-  <string name="mokee_issues_title">Κέντρο σφαλμάτων MoKee</string>
-  <string name="mokee_issues_summary">Επισκεφθείτε το bug tracker</string>
-  <string name="mokee_changelog_title">Αρχείο καταγραφής αλλαγών MoKee</string>
-  <string name="mokee_changelog_summary">Προβολή καθημερινών αλλαγών</string>
-  <string name="mokee_github_title">MoKee Github</string>
-  <string name="mokee_github_summary">Επισκεφθείτε το MoKee Github</string>
-  <string name="mokee_translate_title">Μετάφραση MoKee</string>
-  <string name="mokee_translate_summary">Βοηθήστε να μεταφραστεί το MoKee</string>
-  <string name="mokee_wiki_title">MoKee Wiki</string>
-  <string name="mokee_wiki_summary">Δείτε το MoKee Wiki</string>
-  <string name="mokee_news_title">Ειδήσεις MoKee</string>
-  <string name="mokee_news_summary">Λάβετε νέα από το Mokee</string>
-  <!-- Base Info -->
-  <string name="mokee_version_info_title">Πληροφορίες έκδοσης</string>
-  <string name="mokee_version_title">Έκδοση MoKee</string>
-  <string name="mokee_unique_id_title">Μοναδικό ID</string>
-  <string name="mokee_donate_info_title">Πληροφορίες δωρεάς</string>
-  <string name="mokee_last_check_title">Τελευταίος έλεγχος</string>
-  <string name="mokee_last_check_never">Ποτέ</string>
-  <!-- Version -->
-  <string name="mokee_info_default">Άγνωστο</string>
-  <string name="mokee_version_type_release">Έκδοση</string>
-  <string name="mokee_version_type_history">Ιστορικό</string>
-  <string name="mokee_version_type_experimental">Πειραματική έκδοση</string>
-  <string name="mokee_version_type_nightly">Nightly</string>
-  <string name="mokee_version_type_unofficial">Ανεπίσημη</string>
-  <string name="mokee_version_type_all">Όλα</string>
-  <!-- State -->
-  <string name="downloaded_update_summary">Λήφθηκε</string>
-  <string name="installed_update_summary">Εγκατεστημένο</string>
-  <string name="available_updates_title">Διαθέσιμες ενημερώσεις</string>
-  <!-- Menu -->
-  <string name="menu_donate">Δωρεά</string>
-  <string name="menu_refresh">Ανανέωση</string>
-  <string name="menu_delete_all">Διαγραφή κατεβασμένου αρχείου</string>
-  <string name="menu_restore">Επαναφορά άδειας</string>
-  <!-- Donate -->
-  <string name="donate_dialog_title">Κάντε μας μια δωρεά</string>
-  <string name="donate_dialog_message">Σε αντίθεση με εταιρείες όπως η Cygn ή η MIUI, το project \"MoKee OpenSource\" είναι καθαρά μη κερδοσκοπικού χαρακτήρα. Δημιουργήθηκε ως χόμπυ και από μεράκι. Για να μπορέσουμε να συντηρήσουμε αυτό το project, τις περισσότερες φορές πρέπει να βάλουμε λεφτά απ\' την τσέπη μας, ή να βασιζόμαστε σε δωρεές και σε διαφημίσεις. Οι δωρεές σας ελαφραίνουν τον οικονομικό μας φόρτο και καθιστούν βιώσιμη τη μελλοντική ανάπτυξη του project! Με την επιλογή δωρεάς, μπορείτε να απαλλαγείτε απ\' τις διαφημίσεις στο κέντρο MoKee, ή επιλέξτε \"Donate\", εάν προτιμάτε να δωρίσετε κάποιο μικρότερο ποσό (όταν το συνολικό ποσό που έχετε δωρίσει φτάσει την προκαθορισμένη αξία, θα σταματήσουν να προβάλλονται διαφημίσεις). Παρακαλούμε, εάν επιλέξετε να κάνετε κάποια δωρεά, κάντε ένα backup στο αρχείο mokee. license (στον root directory της κάρτας sd - έγκυρο μόνο για την παρούσα συσκευή).</string>
-  <string name="donate_dialog_next">Επόμενο</string>
-  <string name="donate_dialog_via_paypal">PayPal</string>
-  <string name="donate_dialog_via_alipay">AliPay</string>
-  <string name="donate_dialog_via_restore">Επαναφορά</string>
-  <string name="donate_money_toast_success">Σας ευχαριστούμε για τη δωρεά σας!</string>
-  <string name="donate_money_title">Κάντε δωρεά στο MoKee OpenSource</string>
-  <string name="donate_money_again">Δωρίστε ξανά</string>
-  <string name="donate_money_restored_success">Αποκαταστάθηκε με επιτυχία!</string>
-  <string name="donate_money_restored_failed">Δεν βρέθηκαν εγγραφές συσκευής.</string>
-  <string name="donate_money_restored_timeout">Η σύνδεση έληξε, παρακαλώ προσπαθήστε ξανά</string>
-  <string name="donate_money_info">Δωρίσατε ένα ποσό CNY %1$d, περισσότερα από %2$s δωρεές παγκοσμίως!</string>
-  <string name="donate_money_info_with_rank">Δωρίσατε ένα ποσό CNY %1$d, περισσότερα από %2$s δωρεές παγκοσμίως, κατάταξη Νο.%3$d!</string>
-  <string name="donate_money_info_null">Δεν έχετε κάνει δωρεά</string>
-  <!-- Update -->
-  <string name="unknown">Άγνωστο</string>
-  <string name="dialog_update">Ενημέρωση</string>
-  <string name="dialog_install">Εγκατάσταση</string>
-  <string name="dialog_ok">ΟΚ</string>
-  <string name="dialog_cancel">Ακύρωση</string>
-  <string name="dialog_close">Κλείσιμο</string>
-  <string name="no_available_updates_intro">Ο τελευταίος έλεγχος δεν βρήκε διαθέσιμες ενημερώσεις. Για να ελέγξετε για νέες ενημερώσεις, πατήστε το κουμπί Ανανέωση.</string>
-  <string name="no_available_ota_intro">Ο τελευταίος έλεγχος δεν βρήκε διαθέσιμες ενημερώσεις. Για να ελέγξετε για νέες ενημερώσεις, χρησιμοποιήστε το κουμπί Ανανέωση. Εάν εκτελείτε μια έκδοση που είναι δεν υποστηρίζεται, πρέπει να απενεργοποιήσετε την επιλογή \"ενημερώσεις ΟΤΑ\".</string>
-  <string name="new_update_summary">Νέο</string>
-  <string name="old_update_summary">Παλιό</string>
-  <string name="update_check_title">Συχνότητα ελέγχου ενημερώσεων</string>
-  <string name="check_manual">Χειροκίνητα</string>
-  <string name="nightly_alert">Επιλέξατε να εμφανίζετε ενημερώσεις nightly σε αυτή τη λίστα. Αυτές οι ενημερώσεις δεν υποστηρίζονται επίσημα και θα πρέπει να χρησιμοποιούνται με προσοχή.</string>
-  <string name="experimenter_alert">Επιλέξατε να εμφανίζετε πειραματικές ενημερώσεις σε αυτή τη λίστα. Αυτές οι ενημερώσεις δεν υποστηρίζονται επίσημα καθώς χρησιμοποιούνται για δοκιμαστικούς σκοπούς και θα πρέπει να χρησιμοποιούνται με προσοχή.</string>
-  <string name="unofficial_alert">Επιλέξατε να εμφανίζετε ανεπίσημες ενημερώσεις σε αυτή τη λίστα. Αυτές οι ενημερώσεις υποστηρίζονται από τον συντηρητή της συσκευής σας.</string>
-  <string name="all_alert">Έχετε επιλέξει να συμπεριλάβετε όλους τους τύπους των ενημερώσεων (σταθερές, πειραματικές) σε αυτή τη λίστα. Σημειώνεται ότι οι πειραματικές ενημερώσεις δεν υποστηρίζονται και πρέπει να χρησιμοποιούνται με προσοχή.</string>
-  <string name="alert_title">Προσοχή</string>
-  <string name="update_type_title">Τύπος ενημερώσεων</string>
-  <!-- ChangeLog -->
-  <string name="no_changelog_alert">Δεν υπάρχει διαθέσιμο αρχείο αλλαγών</string>
-  <string name="changelog_dialog_title">Αρχείο καταγραφής αλλαγών</string>
-  <string name="loading_changelog">Φόρτωση\u2026</string>
-  <string name="check_on_boot">Σε κάθε επανεκκίνηση</string>
-  <string name="check_twice_daily">Δύο φορές τη μέρα</string>
-  <string name="check_daily">Μία φορά ημερησίως</string>
-  <string name="check_twice_weekly">Δύο φορές την εβδομάδα</string>
-  <string name="check_weekly">Μία φορά την εβδομάδα</string>
-  <string name="check_bi_weekly">Μια φορά το δεκαπενθήμερο</string>
-  <string name="check_monthly">Μία φορά το μήνα</string>
-  <!-- checking -->
-  <string name="checking_for_updates">Έλεγχος για ενημερώσεις</string>
-  <string name="no_updates_found">Δεν βρέθηκαν ενημερώσεις</string>
-  <string name="not_new_updates_found_ticker">Υπάρχουν διαθέσιμες ενημερώσεις</string>
-  <string name="not_new_updates_found_title">Νέες ενημερώσεις</string>
-  <string name="update_check_failed">Ο έλεγχος για ενημερώσεις απέτυχε. Παρακαλώ ελέγξτε την σύνδεσή σας στο διαδίκτυο και προσπαθήστε αργότερα.</string>
-  <string name="not_action_download">Λήψη αρχείου</string>
-  <string name="data_connection_required">Απαιτείται σύνδεση δεδομένων.</string>
-  <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">Ακύρωση λήψης</string>
-  <string name="confirm_download_cancelation_dialog_message">Ακύρωση της τρέχουσας λήψης;</string>
-  <string name="download_remaining"><xliff:g id="duration" example="3 minutes">%s </xliff:g> απομένουν</string>
-  <string name="download_running">Σε εξέλιξη</string>
-  <string name="download_cancelled">Η λήψη ακυρώθηκε</string>
-  <string name="download_already_running">Μια λήψη εκτελείται ήδη</string>
-  <string name="download_limited_mode">Περιορισμένη ταχύτητα λήψης. Για πλήρη ταχύτητα, κάντε μία δωρεά.</string>
-  <string name="unable_to_download_file">Δεν είναι δυνατή η λήψη της ενημέρωσης</string>
-  <string name="not_download_success">Η λήψη της ενημέρωσης ολοκληρώθηκε με επιτυχία</string>
-  <string name="not_download_failure">Η λήψη της ενημέρωσης ήταν ανεπιτυχής</string>
-  <string name="not_action_install_update">Επανεκκίνηση και εγκατάσταση</string>
-  <string name="not_download_install_notice">Η ενημέρωση <xliff:g id="filename">%s</xliff:g> έχει κατέβει επιτυχώς. Πατώντας \"Επανεκίνηση και Εγκατάσταση\", η συσκευή θα επανεκινηθεί και θα εγκαταστήσει την ενημέρωση.\n\nΣημείωση: Αυτή η δυνατότητα χρειάζεται μία συμβατή λειτουργία επαναφοράς αλλιώς οι ενημερώσεις θα πρέπει να εγκατασταθούν χειροκίνητα.</string>
-  <string name="not_download_install_ota_notice">Η ενημέρωση <xliff:g id="filename">%s</xliff:g> έχει κατέβει επιτυχώς.\n\nΠατώντας \"Επανεκίνηση και Εγκατάσταση\", η συσκευή θα επανεκινηθεί και θα εγκαταστήσει την ενημέρωση.\n\nΣημείωση: Αυτή η δυνατότητα χρειάζεται μία συμβατή λειτουργία επαναφοράς αλλιώς οι ενημερώσεις θα πρέπει να εγκατασταθούν χειροκίνητα.\n\nΑυτή η ενημέρωση αλλάζει τα αρχεία του συστήματος οπότε υπάρχει μία πιθανότητα αποτυχίας. Σε περίπτωση που συμβεί κάτι τέτοιο παρακαλώ ξανα-εγκαταστήστε όλο το πακέτο της ROM.</string>
-  <string name="md5_verification_failed">Ασυμφωνία MD5 checksum</string>
-  <string name="not_apk_action_install_update">Εγκατάσταση</string>
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Διαγραφή αρχείου</string>
-  <string name="confirm_delete_updates_dialog_message">Διαγραφή του επιλεγμένου αρχείου ενημέρωσης;</string>
-  <string name="confirm_delete_updates_all_dialog_message">Διαγραφή όλων των κατεβασμένων αρχείων ενημερώσεων;</string>
-  <string name="delete_single_update_success_message">Η ενημέρωση <xliff:g id="filename">%s</xliff:g> διαγράφηκε</string>
-  <string name="delete_updates_failure_message">Υπήρξε ένα σφάλμα κατά τη διαγραφή του αρχείου ενημέρωσης</string>
-  <string name="delete_updates_nofolder_message">Ο φάκελος ενημερώσεων δεν βρέθηκε</string>
-  <string name="delete_updates_success_message">Όλες οι κατεβασμένες ενημερώσεις διαγράφηκαν</string>
-  <!-- Pref -->
-  <string name="pref_ota_check">Ενημερώσεις ΟΤΑ</string>
-  <string name="pref_ota_check_summary">Αποκτήστε ενημερώσεις ΟΤΑ για να εξοικονομήσετε χρόνο λήψης και δεδομένα</string>
-  <string name="pref_ota_check_request_summary">Αποκτήστε ενημερώσεις ΟΤΑ για να εξοικονομήσετε χρόνο λήψης και δεδομένα</string>
-  <string name="pref_verify_rom">Επαληθευμένες ενημερώσεις</string>
-  <string name="pref_verify_rom_summary">Εμφάνιση μόνο των ενημερώσεων που είναι επαληθευμένες από άλλους χρήστες</string>
-  <string name="pref_verify_rom_request_summary">Εμφάνιση μόνο των ενημερώσεων που είναι επαληθευμένες από άλλους χρήστες</string>
-  <!-- Apply install and update strings -->
-  <string name="apply_update_dialog_title">Εφαρμογή ενημέρωσης</string>
-  <string name="apply_update_dialog_text">Πρόκειται να αναβαθμίσετε σε <xliff:g id="filename">%s</xliff:g>.\n\nΑν πατήσετε το πλήκτρο Ενημέρωση, η συσκευή θα κάνει επανεκκίνηση σε recovery mode για να εγκαταστήσετε την ενημέρωση.\n\nΣημείωση: Αυτή η λειτουργία απαιτεί συμβατό recovery αλλιώς η ενημέρωση θα πρέπει να εγκατασταθεί χειροκίνητα.</string>
-  <string name="apply_update_ota_dialog_text">Θα γίνει ενημέρωση στο <xliff:g id="filename">%s</xliff:g>.\n\nΕάν πατήσετε Ενημέρωση η συσκευή θα κάνει επινεκίνηση στη λειτουργία επαναφοράς για να την εγκαταστήσει.\n\nΣημείωση: Αυτή η δυνατότητα χρειάζεται μία συμβατή λειτουργία επαναφοράς αλλιώς οι ενημερώσεις θα πρέπει να εγκατασταθούν χειροκίνητα.\n\nΑυτή η ενημέρωση αλλάζει τα αρχεία του συστήματος οπότε υπάρχει μία πιθανότητα αποτυχίας. Σε περίπτωση που συμβεί κάτι τέτοιο παρακαλώ ξανα-εγκαταστήστε όλο το πακέτο της ROM.</string>
-  <string name="apply_unable_to_reboot_toast">Δεν είναι δυνατή η επανεκκίνηση σε recovery mode</string>
-  <!-- Experimenter mode -->
-  <string name="show_exp_on">Έχετε ενεργοποιήσει τις πειραματικές ρυθμίσεις!</string>
-  <string name="show_exp_already">Δεν χρειάζεται, έχετε ήδη ενεργοποιήσει τις πειραματικές ρυθμίσεις.</string>
-  <!-- Verify system compatible -->
-  <string name="verify_system_compatible_title">Ενημέρωση συστήματος MoKee</string>
-  <string name="verify_system_compatible_root_skip">Παράλειψη</string>
-  <!-- Common -->
-  <string name="activity_not_found">Η εφαρμογή δεν έχει εγκατασταθεί.</string>
+    <!-- Fragment -->
+    <string name="mokee_center_title">Κέντρο MoKee</string>
+    <string name="mokee_support_title">Υποστήριξη</string>
+    <string name="mokee_updater_title">Αναβάθμιση</string>
+    <!-- WebSite -->
+    <string name="mokee_website_title">Ιστοσελίδα MoKee</string>
+    <string name="mokee_website_summary">Επισκεφθείτε την επίσημη ιστοσελίδα</string>
+    <string name="mokee_forum_title">MoKee φόρουμ</string>
+    <string name="mokee_forum_summary">Επισκεφτείτε το φόρουμ MoKee</string>
+    <string name="mokee_issues_title">Κέντρο σφαλμάτων MoKee</string>
+    <string name="mokee_issues_summary">Επισκεφθείτε το bug tracker</string>
+    <string name="mokee_changelog_title">Αρχείο καταγραφής αλλαγών MoKee</string>
+    <string name="mokee_changelog_summary">Προβολή καθημερινών αλλαγών</string>
+    <string name="mokee_github_title">MoKee Github</string>
+    <string name="mokee_github_summary">Επισκεφθείτε το MoKee Github</string>
+    <string name="mokee_translate_title">Μετάφραση MoKee</string>
+    <string name="mokee_translate_summary">Βοηθήστε να μεταφραστεί το MoKee</string>
+    <string name="mokee_wiki_title">MoKee Wiki</string>
+    <string name="mokee_wiki_summary">Δείτε το MoKee Wiki</string>
+    <string name="mokee_news_title">Ειδήσεις MoKee</string>
+    <string name="mokee_news_summary">Λάβετε νέα από το Mokee</string>
+    <!-- Base Info -->
+    <string name="mokee_version_info_title">Πληροφορίες έκδοσης</string>
+    <string name="mokee_version_title">Έκδοση MoKee</string>
+    <string name="mokee_unique_id_title">Μοναδικό ID</string>
+    <string name="mokee_donate_info_title">Πληροφορίες δωρεάς</string>
+    <string name="mokee_last_check_title">Τελευταίος έλεγχος</string>
+    <string name="mokee_last_check_never">Ποτέ</string>
+    <!-- Version -->
+    <string name="mokee_info_default">Άγνωστο</string>
+    <string name="mokee_version_type_release">Έκδοση</string>
+    <string name="mokee_version_type_history">Ιστορικό</string>
+    <string name="mokee_version_type_experimental">Πειραματική έκδοση</string>
+    <string name="mokee_version_type_nightly">Nightly</string>
+    <string name="mokee_version_type_unofficial">Ανεπίσημη</string>
+    <string name="mokee_version_type_all">Όλα</string>
+    <!-- State -->
+    <string name="downloaded_update_summary">Λήφθηκε</string>
+    <string name="installed_update_summary">Εγκατεστημένο</string>
+    <string name="available_updates_title">Διαθέσιμες ενημερώσεις</string>
+    <!-- Menu -->
+    <string name="menu_donate">Δωρεά</string>
+    <string name="menu_refresh">Ανανέωση</string>
+    <string name="menu_delete_all">Διαγραφή κατεβασμένου αρχείου</string>
+    <string name="menu_restore">Επαναφορά άδειας</string>
+    <!-- Donate -->
+    <string name="donate_dialog_title">Κάντε μας μια δωρεά</string>
+    <string name="donate_dialog_message">Σε αντίθεση με εταιρείες όπως η Cygn ή η MIUI, το project \"MoKee OpenSource\" είναι καθαρά μη κερδοσκοπικού χαρακτήρα. Δημιουργήθηκε ως χόμπυ και από μεράκι. Για να μπορέσουμε να συντηρήσουμε αυτό το project, τις περισσότερες φορές πρέπει να βάλουμε λεφτά απ\' την τσέπη μας, ή να βασιζόμαστε σε δωρεές και σε διαφημίσεις. Οι δωρεές σας ελαφραίνουν τον οικονομικό μας φόρτο και καθιστούν βιώσιμη τη μελλοντική ανάπτυξη του project! Με την επιλογή δωρεάς, μπορείτε να απαλλαγείτε απ\' τις διαφημίσεις στο κέντρο MoKee, ή επιλέξτε \"Donate\", εάν προτιμάτε να δωρίσετε κάποιο μικρότερο ποσό (όταν το συνολικό ποσό που έχετε δωρίσει φτάσει την προκαθορισμένη αξία, θα σταματήσουν να προβάλλονται διαφημίσεις). Παρακαλούμε, εάν επιλέξετε να κάνετε κάποια δωρεά, κάντε ένα backup στο αρχείο mokee. license (στον root directory της κάρτας sd - έγκυρο μόνο για την παρούσα συσκευή).</string>
+    <string name="donate_dialog_next">Επόμενο</string>
+    <string name="donate_dialog_via_paypal">PayPal</string>
+    <string name="donate_dialog_via_alipay">AliPay</string>
+    <string name="donate_dialog_via_restore">Επαναφορά</string>
+    <string name="donate_money_toast_success">Σας ευχαριστούμε για τη δωρεά σας!</string>
+    <string name="donate_money_title">Κάντε δωρεά στο MoKee OpenSource</string>
+    <string name="donate_money_again">Δωρίστε ξανά</string>
+    <string name="donate_money_restored_success">Αποκαταστάθηκε με επιτυχία!</string>
+    <string name="donate_money_restored_failed">Δεν βρέθηκαν εγγραφές συσκευής.</string>
+    <string name="donate_money_restored_timeout">Η σύνδεση έληξε, παρακαλώ προσπαθήστε ξανά</string>
+    <string name="donate_money_info">Δωρίσατε ένα ποσό CNY %1$d, περισσότερα από %2$s δωρεές παγκοσμίως!</string>
+    <string name="donate_money_info_with_rank">Δωρίσατε ένα ποσό CNY %1$d, περισσότερα από %2$s δωρεές παγκοσμίως, κατάταξη Νο.%3$d!</string>
+    <string name="donate_money_info_null">Δεν έχετε κάνει δωρεά</string>
+    <!-- Update -->
+    <string name="unknown">Άγνωστο</string>
+    <string name="dialog_update">Ενημέρωση</string>
+    <string name="dialog_install">Εγκατάσταση</string>
+    <string name="dialog_ok">ΟΚ</string>
+    <string name="dialog_cancel">Ακύρωση</string>
+    <string name="dialog_close">Κλείσιμο</string>
+    <string name="no_available_updates_intro">Ο τελευταίος έλεγχος δεν βρήκε διαθέσιμες ενημερώσεις. Για να ελέγξετε για νέες ενημερώσεις, πατήστε το κουμπί Ανανέωση.</string>
+    <string name="no_available_ota_intro">Ο τελευταίος έλεγχος δεν βρήκε διαθέσιμες ενημερώσεις. Για να ελέγξετε για νέες ενημερώσεις, χρησιμοποιήστε το κουμπί Ανανέωση. Εάν εκτελείτε μια έκδοση που είναι δεν υποστηρίζεται, πρέπει να απενεργοποιήσετε την επιλογή \"ενημερώσεις ΟΤΑ\".</string>
+    <string name="new_update_summary">Νέο</string>
+    <string name="old_update_summary">Παλιό</string>
+    <string name="update_check_title">Συχνότητα ελέγχου ενημερώσεων</string>
+    <string name="check_manual">Χειροκίνητα</string>
+    <string name="nightly_alert">Επιλέξατε να εμφανίζετε ενημερώσεις nightly σε αυτή τη λίστα. Αυτές οι ενημερώσεις δεν υποστηρίζονται επίσημα και θα πρέπει να χρησιμοποιούνται με προσοχή.</string>
+    <string name="experimenter_alert">Επιλέξατε να εμφανίζετε πειραματικές ενημερώσεις σε αυτή τη λίστα. Αυτές οι ενημερώσεις δεν υποστηρίζονται επίσημα καθώς χρησιμοποιούνται για δοκιμαστικούς σκοπούς και θα πρέπει να χρησιμοποιούνται με προσοχή.</string>
+    <string name="unofficial_alert">Επιλέξατε να εμφανίζετε ανεπίσημες ενημερώσεις σε αυτή τη λίστα. Αυτές οι ενημερώσεις υποστηρίζονται από τον συντηρητή της συσκευής σας.</string>
+    <string name="all_alert">Έχετε επιλέξει να συμπεριλάβετε όλους τους τύπους των ενημερώσεων (σταθερές, πειραματικές) σε αυτή τη λίστα. Σημειώνεται ότι οι πειραματικές ενημερώσεις δεν υποστηρίζονται και πρέπει να χρησιμοποιούνται με προσοχή.</string>
+    <string name="alert_title">Προσοχή</string>
+    <string name="update_type_title">Τύπος ενημερώσεων</string>
+    <!-- ChangeLog -->
+    <string name="no_changelog_alert">Δεν υπάρχει διαθέσιμο αρχείο αλλαγών</string>
+    <string name="changelog_dialog_title">Αρχείο καταγραφής αλλαγών</string>
+    <string name="loading_changelog">Φόρτωση\u2026</string>
+    <string name="check_on_boot">Σε κάθε επανεκκίνηση</string>
+    <string name="check_twice_daily">Δύο φορές τη μέρα</string>
+    <string name="check_daily">Μία φορά ημερησίως</string>
+    <string name="check_twice_weekly">Δύο φορές την εβδομάδα</string>
+    <string name="check_weekly">Μία φορά την εβδομάδα</string>
+    <string name="check_bi_weekly">Μια φορά το δεκαπενθήμερο</string>
+    <string name="check_monthly">Μία φορά το μήνα</string>
+    <!-- checking -->
+    <string name="checking_for_updates">Έλεγχος για ενημερώσεις</string>
+    <string name="no_updates_found">Δεν βρέθηκαν ενημερώσεις</string>
+    <string name="not_new_updates_found_ticker">Υπάρχουν διαθέσιμες ενημερώσεις</string>
+    <string name="not_new_updates_found_title">Νέες ενημερώσεις</string>
+    <string name="update_check_failed">Ο έλεγχος για ενημερώσεις απέτυχε. Παρακαλώ ελέγξτε την σύνδεσή σας στο διαδίκτυο και προσπαθήστε αργότερα.</string>
+    <string name="not_action_download">Λήψη αρχείου</string>
+    <string name="data_connection_required">Απαιτείται σύνδεση δεδομένων.</string>
+    <!-- Downloads -->
+    <string name="confirm_download_cancelation_dialog_title">Ακύρωση λήψης</string>
+    <string name="confirm_download_cancelation_dialog_message">Ακύρωση της τρέχουσας λήψης;</string>
+    <string name="download_remaining"><xliff:g id="duration" example="3 minutes">%s </xliff:g> απομένουν</string>
+    <string name="download_running">Σε εξέλιξη</string>
+    <string name="download_cancelled">Η λήψη ακυρώθηκε</string>
+    <string name="download_already_running">Μια λήψη εκτελείται ήδη</string>
+    <string name="download_limited_mode">Περιορισμένη ταχύτητα λήψης. Για πλήρη ταχύτητα, κάντε μία δωρεά.</string>
+    <string name="unable_to_download_file">Δεν είναι δυνατή η λήψη της ενημέρωσης</string>
+    <string name="not_download_success">Η λήψη της ενημέρωσης ολοκληρώθηκε με επιτυχία</string>
+    <string name="not_download_failure">Η λήψη της ενημέρωσης ήταν ανεπιτυχής</string>
+    <string name="not_action_install_update">Επανεκκίνηση και εγκατάσταση</string>
+    <string name="not_download_install_notice">Η ενημέρωση <xliff:g id="filename">%s</xliff:g> έχει κατέβει επιτυχώς. Πατώντας \"Επανεκίνηση και Εγκατάσταση\", η συσκευή θα επανεκινηθεί και θα εγκαταστήσει την ενημέρωση.\n\nΣημείωση: Αυτή η δυνατότητα χρειάζεται μία συμβατή λειτουργία επαναφοράς αλλιώς οι ενημερώσεις θα πρέπει να εγκατασταθούν χειροκίνητα.</string>
+    <string name="not_download_install_ota_notice">Η ενημέρωση <xliff:g id="filename">%s</xliff:g> έχει κατέβει επιτυχώς.\n\nΠατώντας \"Επανεκίνηση και Εγκατάσταση\", η συσκευή θα επανεκινηθεί και θα εγκαταστήσει την ενημέρωση.\n\nΣημείωση: Αυτή η δυνατότητα χρειάζεται μία συμβατή λειτουργία επαναφοράς αλλιώς οι ενημερώσεις θα πρέπει να εγκατασταθούν χειροκίνητα.\n\nΑυτή η ενημέρωση αλλάζει τα αρχεία του συστήματος οπότε υπάρχει μία πιθανότητα αποτυχίας. Σε περίπτωση που συμβεί κάτι τέτοιο παρακαλώ ξανα-εγκαταστήστε όλο το πακέτο της ROM.</string>
+    <string name="md5_verification_failed">Ασυμφωνία MD5 checksum</string>
+    <string name="not_apk_action_install_update">Εγκατάσταση</string>
+    <!-- deleting -->
+    <string name="confirm_delete_dialog_title">Διαγραφή αρχείου</string>
+    <string name="confirm_delete_updates_dialog_message">Διαγραφή του επιλεγμένου αρχείου ενημέρωσης;</string>
+    <string name="confirm_delete_updates_all_dialog_message">Διαγραφή όλων των κατεβασμένων αρχείων ενημερώσεων;</string>
+    <string name="delete_single_update_success_message">Η ενημέρωση <xliff:g id="filename">%s</xliff:g> διαγράφηκε</string>
+    <string name="delete_updates_failure_message">Υπήρξε ένα σφάλμα κατά τη διαγραφή του αρχείου ενημέρωσης</string>
+    <string name="delete_updates_nofolder_message">Ο φάκελος ενημερώσεων δεν βρέθηκε</string>
+    <string name="delete_updates_success_message">Όλες οι κατεβασμένες ενημερώσεις διαγράφηκαν</string>
+    <!-- Pref -->
+    <string name="pref_ota_check">Ενημερώσεις ΟΤΑ</string>
+    <string name="pref_ota_check_summary">Αποκτήστε ενημερώσεις ΟΤΑ για να εξοικονομήσετε χρόνο λήψης και δεδομένα</string>
+    <string name="pref_ota_check_request_summary">Αποκτήστε ενημερώσεις ΟΤΑ για να εξοικονομήσετε χρόνο λήψης και δεδομένα</string>
+    <string name="pref_verify_rom">Επαληθευμένες ενημερώσεις</string>
+    <string name="pref_verify_rom_summary">Εμφάνιση μόνο των ενημερώσεων που είναι επαληθευμένες από άλλους χρήστες</string>
+    <string name="pref_verify_rom_request_summary">Εμφάνιση μόνο των ενημερώσεων που είναι επαληθευμένες από άλλους χρήστες</string>
+    <!-- Apply install and update strings -->
+    <string name="apply_update_dialog_title">Εφαρμογή ενημέρωσης</string>
+    <string name="apply_update_dialog_text">Πρόκειται να αναβαθμίσετε σε <xliff:g id="filename">%s</xliff:g>.\n\nΑν πατήσετε το πλήκτρο Ενημέρωση, η συσκευή θα κάνει επανεκκίνηση σε recovery mode για να εγκαταστήσετε την ενημέρωση.\n\nΣημείωση: Αυτή η λειτουργία απαιτεί συμβατό recovery αλλιώς η ενημέρωση θα πρέπει να εγκατασταθεί χειροκίνητα.</string>
+    <string name="apply_update_ota_dialog_text">Θα γίνει ενημέρωση στο <xliff:g id="filename">%s</xliff:g>.\n\nΕάν πατήσετε Ενημέρωση η συσκευή θα κάνει επινεκίνηση στη λειτουργία επαναφοράς για να την εγκαταστήσει.\n\nΣημείωση: Αυτή η δυνατότητα χρειάζεται μία συμβατή λειτουργία επαναφοράς αλλιώς οι ενημερώσεις θα πρέπει να εγκατασταθούν χειροκίνητα.\n\nΑυτή η ενημέρωση αλλάζει τα αρχεία του συστήματος οπότε υπάρχει μία πιθανότητα αποτυχίας. Σε περίπτωση που συμβεί κάτι τέτοιο παρακαλώ ξανα-εγκαταστήστε όλο το πακέτο της ROM.</string>
+    <string name="apply_unable_to_reboot_toast">Δεν είναι δυνατή η επανεκκίνηση σε recovery mode</string>
+    <!-- Experimenter mode -->
+    <string name="show_exp_on">Έχετε ενεργοποιήσει τις πειραματικές ρυθμίσεις!</string>
+    <string name="show_exp_already">Δεν χρειάζεται, έχετε ήδη ενεργοποιήσει τις πειραματικές ρυθμίσεις.</string>
+    <!-- Verify system compatible -->
+    <string name="verify_system_compatible_title">Ενημέρωση συστήματος MoKee</string>
+    <string name="verify_system_compatible_root_skip">Παράλειψη</string>
+    <!-- Common -->
+    <string name="activity_not_found">Η εφαρμογή δεν έχει εγκατασταθεί.</string>
 </resources>

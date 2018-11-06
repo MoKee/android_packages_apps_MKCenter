@@ -17,16 +17,16 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="not_new_updates_found_body">
-    <item quantity="one"><xliff:g id="count">%d</xliff:g> نوێکردنەوە بەردەستە بۆ داگرتن</item>
-    <item quantity="other"><xliff:g id="count">%d</xliff:g> نوێکردنەوە بەردەستە بۆ داگرتن</item>
-  </plurals>
-  <plurals name="not_additional_count">
-    <item quantity="one">+ <xliff:g id="count">%d</xliff:g> زیاتر</item>
-    <item quantity="other">+ <xliff:g id="count">%d</xliff:g> زیاتر</item>
-  </plurals>
-  <plurals name="show_exp_countdown">
-    <item quantity="one">تۆ ئێستا <xliff:g id="step_count">%1$d</xliff:g> هەنگاوێکت ماوە بۆ چالاککردنی ڕێکخستنەکانی گەشەپێدەر.</item>
-    <item quantity="other">تۆ ئێستا <xliff:g id="step_count">%1$d</xliff:g> هەنگاوێکت ماوە بۆ چالاککردنی ڕێکخستنەکانی گەشەپێدەر.</item>
-  </plurals>
+    <plurals name="not_new_updates_found_body">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> نوێکردنەوە بەردەستە بۆ داگرتن</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> نوێکردنەوە بەردەستە بۆ داگرتن</item>
+    </plurals>
+    <plurals name="not_additional_count">
+        <item quantity="one">+ <xliff:g id="count">%d</xliff:g> زیاتر</item>
+        <item quantity="other">+ <xliff:g id="count">%d</xliff:g> زیاتر</item>
+    </plurals>
+    <plurals name="show_exp_countdown">
+        <item quantity="one">تۆ ئێستا <xliff:g id="step_count">%1$d</xliff:g> هەنگاوێکت ماوە بۆ چالاککردنی ڕێکخستنەکانی گەشەپێدەر.</item>
+        <item quantity="other">تۆ ئێستا <xliff:g id="step_count">%1$d</xliff:g> هەنگاوێکت ماوە بۆ چالاککردنی ڕێکخستنەکانی گەشەپێدەر.</item>
+    </plurals>
 </resources>

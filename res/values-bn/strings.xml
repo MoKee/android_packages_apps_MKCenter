@@ -17,88 +17,88 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Fragment -->
-  <string name="mokee_center_title">MoKee Center</string>
-  <string name="mokee_support_title">Support</string>
-  <string name="mokee_updater_title">Updater</string>
-  <!-- WebSite -->
-  <string name="mokee_website_title">MoKee Website</string>
-  <string name="mokee_website_summary">Visit the official website</string>
-  <string name="mokee_forum_title">MoKee Forum</string>
-  <string name="mokee_forum_summary">MoKee ফোরাম পরিদর্শন করুন</string>
-  <string name="mokee_issues_title">MoKee বাগ ট্র্যাকার</string>
-  <string name="mokee_issues_summary">Visit the bug tracker</string>
-  <string name="mokee_changelog_title">MoKee Changelog</string>
-  <string name="mokee_changelog_summary">View daily changelog</string>
-  <string name="mokee_github_title">MoKee Github</string>
-  <string name="mokee_github_summary">MoKee Github পরিদর্শন করুন</string>
-  <string name="mokee_translate_title">MoKee Translate</string>
-  <string name="mokee_translate_summary">Help translate MoKee</string>
-  <string name="mokee_wiki_title">MoKee Wiki</string>
-  <string name="mokee_wiki_summary">View the MoKee Wiki</string>
-  <string name="mokee_news_title">MoKee News</string>
-  <string name="mokee_news_summary">Receive development news from MoKee</string>
-  <!-- Base Info -->
-  <string name="mokee_version_info_title">Version Info</string>
-  <string name="mokee_version_title">MoKee Version</string>
-  <string name="mokee_unique_id_title">Unique ID</string>
-  <string name="mokee_donate_info_title">Donate Info</string>
-  <string name="mokee_last_check_title">Last Check</string>
-  <string name="mokee_last_check_never">Never</string>
-  <!-- Version -->
-  <string name="mokee_info_default">Unknown</string>
-  <string name="mokee_version_type_release">রিলিজ</string>
-  <string name="mokee_version_type_history">ইতিহাস</string>
-  <string name="mokee_version_type_experimental">পরীক্ষামূলক</string>
-  <string name="mokee_version_type_nightly">Nightly</string>
-  <string name="mokee_version_type_unofficial">আন-অফিসিয়াল</string>
-  <string name="mokee_version_type_all">সবগুলো</string>
-  <!-- State -->
-  <string name="downloaded_update_summary">ডাউনলোড</string>
-  <string name="installed_update_summary">ইনস্টল হয়েছে</string>
-  <string name="available_updates_title">আপডেট এসেছে</string>
-  <!-- Menu -->
-  <string name="menu_donate">দান করুন</string>
-  <string name="menu_refresh">রিফ্রেশ</string>
-  <string name="menu_delete_all">ডাউনলোড মুছে ফেলুন</string>
-  <!-- Donate -->
-  <string name="donate_dialog_title">আমাদের দান করুন।</string>
-  <string name="donate_dialog_next">Next</string>
-  <!-- Update -->
-  <string name="unknown">Unknown</string>
-  <string name="old_update_summary">পুরাতন</string>
-  <string name="update_check_title">আপডেট পুনরাবৃত্তি চেক করুন।</string>
-  <string name="check_manual">নির্দেশিকা</string>
-  <string name="nightly_alert">আপনি নাইটলি আপডেট গুলো আপডেট তালিকাতে অন্তর্ভুক্ত করেছেন। এগুলোর সাপোর্ট নেই এবং সাবধানতার সাথে ব্যবহার করতে হবে।</string>
-  <string name="experimenter_alert">আপনি পরীক্ষামূলক আপডেট গুলো আপডেট তালিকাতে অন্তর্ভুক্ত করেছেন। এগুলোর সাপোর্ট নেই এবং শুধুমাত্র টেস্টিং এর জন্য, এগুলো সাবধানতার সাথে ব্যবহার করতে হবে।</string>
-  <string name="unofficial_alert">আপনি আন-অফিসিয়াল আপডেট গুলো আপডেট তালিকাতে অন্তর্ভুক্ত করেছেন। মনে রাখবেন যে এগুলো ডিভাইস মেইন্টেইনার সাপোর্ট করছেন।</string>
-  <string name="all_alert">আপনি সব আপডেট গুলো (রিলিজ, নাইটলি) আপডেট তালিকাতে অন্তর্ভুক্ত করেছেন। লক্ষ্য করুন নাইটলি আপডেট গুলোর সাপোর্ট নেই এবং সাবধানতার সাথে ব্যবহার করতে হবে।</string>
-  <string name="alert_title">সতর্কবার্তা</string>
-  <string name="update_type_title">আপডেটের ধরণ</string>
-  <!-- ChangeLog -->
-  <string name="no_changelog_alert">কোনো changelog নেই</string>
-  <string name="changelog_dialog_title">Changelog</string>
-  <string name="loading_changelog">লোড হচ্ছে\u2026</string>
-  <string name="check_on_boot">প্রতিটি রিবুটে</string>
-  <string name="check_twice_daily">প্রতিদিন দুবার</string>
-  <string name="check_daily">প্রতিদিন একবার</string>
-  <string name="check_twice_weekly">প্রতি সপ্তাহে দুবার</string>
-  <string name="check_weekly">প্রতি সপ্তাহে একবার</string>
-  <string name="check_bi_weekly">প্রতি পক্ষে একবার</string>
-  <string name="check_monthly">প্রতি মাসে একবার</string>
-  <!-- checking -->
-  <string name="checking_for_updates">আপডেট আছে কিনা দেখা হচ্ছে</string>
-  <!-- Downloads -->
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">ফাইল মুছে ফেলুন</string>
-  <string name="confirm_delete_updates_dialog_message">নির্বাচিত আপডেট ফাইলটি মুছে ফেলবেন?</string>
-  <string name="confirm_delete_updates_all_dialog_message">সব ডাউনলোড করা আপডেট ফাইল ডিলিট করবেন?</string>
-  <!-- Pref -->
-  <!-- Apply install and update strings -->
-  <!-- Experimenter mode -->
-  <!-- Verify system compatible -->
-  <string name="verify_system_compatible_title">MoKee system update</string>
-  <string name="verify_system_compatible_root_skip">Skip</string>
-  <!-- Common -->
-  <string name="activity_not_found">অ্যাপ্লিকেশান ইনস্টল করা নেই৷</string>
+    <!-- Fragment -->
+    <string name="mokee_center_title">MoKee Center</string>
+    <string name="mokee_support_title">Support</string>
+    <string name="mokee_updater_title">Updater</string>
+    <!-- WebSite -->
+    <string name="mokee_website_title">MoKee Website</string>
+    <string name="mokee_website_summary">Visit the official website</string>
+    <string name="mokee_forum_title">MoKee Forum</string>
+    <string name="mokee_forum_summary">MoKee ফোরাম পরিদর্শন করুন</string>
+    <string name="mokee_issues_title">MoKee বাগ ট্র্যাকার</string>
+    <string name="mokee_issues_summary">Visit the bug tracker</string>
+    <string name="mokee_changelog_title">MoKee Changelog</string>
+    <string name="mokee_changelog_summary">View daily changelog</string>
+    <string name="mokee_github_title">MoKee Github</string>
+    <string name="mokee_github_summary">MoKee Github পরিদর্শন করুন</string>
+    <string name="mokee_translate_title">MoKee Translate</string>
+    <string name="mokee_translate_summary">Help translate MoKee</string>
+    <string name="mokee_wiki_title">MoKee Wiki</string>
+    <string name="mokee_wiki_summary">View the MoKee Wiki</string>
+    <string name="mokee_news_title">MoKee News</string>
+    <string name="mokee_news_summary">Receive development news from MoKee</string>
+    <!-- Base Info -->
+    <string name="mokee_version_info_title">Version Info</string>
+    <string name="mokee_version_title">MoKee Version</string>
+    <string name="mokee_unique_id_title">Unique ID</string>
+    <string name="mokee_donate_info_title">Donate Info</string>
+    <string name="mokee_last_check_title">Last Check</string>
+    <string name="mokee_last_check_never">Never</string>
+    <!-- Version -->
+    <string name="mokee_info_default">Unknown</string>
+    <string name="mokee_version_type_release">রিলিজ</string>
+    <string name="mokee_version_type_history">ইতিহাস</string>
+    <string name="mokee_version_type_experimental">পরীক্ষামূলক</string>
+    <string name="mokee_version_type_nightly">Nightly</string>
+    <string name="mokee_version_type_unofficial">আন-অফিসিয়াল</string>
+    <string name="mokee_version_type_all">সবগুলো</string>
+    <!-- State -->
+    <string name="downloaded_update_summary">ডাউনলোড</string>
+    <string name="installed_update_summary">ইনস্টল হয়েছে</string>
+    <string name="available_updates_title">আপডেট এসেছে</string>
+    <!-- Menu -->
+    <string name="menu_donate">দান করুন</string>
+    <string name="menu_refresh">রিফ্রেশ</string>
+    <string name="menu_delete_all">ডাউনলোড মুছে ফেলুন</string>
+    <!-- Donate -->
+    <string name="donate_dialog_title">আমাদের দান করুন।</string>
+    <string name="donate_dialog_next">Next</string>
+    <!-- Update -->
+    <string name="unknown">Unknown</string>
+    <string name="old_update_summary">পুরাতন</string>
+    <string name="update_check_title">আপডেট পুনরাবৃত্তি চেক করুন।</string>
+    <string name="check_manual">নির্দেশিকা</string>
+    <string name="nightly_alert">আপনি নাইটলি আপডেট গুলো আপডেট তালিকাতে অন্তর্ভুক্ত করেছেন। এগুলোর সাপোর্ট নেই এবং সাবধানতার সাথে ব্যবহার করতে হবে।</string>
+    <string name="experimenter_alert">আপনি পরীক্ষামূলক আপডেট গুলো আপডেট তালিকাতে অন্তর্ভুক্ত করেছেন। এগুলোর সাপোর্ট নেই এবং শুধুমাত্র টেস্টিং এর জন্য, এগুলো সাবধানতার সাথে ব্যবহার করতে হবে।</string>
+    <string name="unofficial_alert">আপনি আন-অফিসিয়াল আপডেট গুলো আপডেট তালিকাতে অন্তর্ভুক্ত করেছেন। মনে রাখবেন যে এগুলো ডিভাইস মেইন্টেইনার সাপোর্ট করছেন।</string>
+    <string name="all_alert">আপনি সব আপডেট গুলো (রিলিজ, নাইটলি) আপডেট তালিকাতে অন্তর্ভুক্ত করেছেন। লক্ষ্য করুন নাইটলি আপডেট গুলোর সাপোর্ট নেই এবং সাবধানতার সাথে ব্যবহার করতে হবে।</string>
+    <string name="alert_title">সতর্কবার্তা</string>
+    <string name="update_type_title">আপডেটের ধরণ</string>
+    <!-- ChangeLog -->
+    <string name="no_changelog_alert">কোনো changelog নেই</string>
+    <string name="changelog_dialog_title">Changelog</string>
+    <string name="loading_changelog">লোড হচ্ছে\u2026</string>
+    <string name="check_on_boot">প্রতিটি রিবুটে</string>
+    <string name="check_twice_daily">প্রতিদিন দুবার</string>
+    <string name="check_daily">প্রতিদিন একবার</string>
+    <string name="check_twice_weekly">প্রতি সপ্তাহে দুবার</string>
+    <string name="check_weekly">প্রতি সপ্তাহে একবার</string>
+    <string name="check_bi_weekly">প্রতি পক্ষে একবার</string>
+    <string name="check_monthly">প্রতি মাসে একবার</string>
+    <!-- checking -->
+    <string name="checking_for_updates">আপডেট আছে কিনা দেখা হচ্ছে</string>
+    <!-- Downloads -->
+    <!-- deleting -->
+    <string name="confirm_delete_dialog_title">ফাইল মুছে ফেলুন</string>
+    <string name="confirm_delete_updates_dialog_message">নির্বাচিত আপডেট ফাইলটি মুছে ফেলবেন?</string>
+    <string name="confirm_delete_updates_all_dialog_message">সব ডাউনলোড করা আপডেট ফাইল ডিলিট করবেন?</string>
+    <!-- Pref -->
+    <!-- Apply install and update strings -->
+    <!-- Experimenter mode -->
+    <!-- Verify system compatible -->
+    <string name="verify_system_compatible_title">MoKee system update</string>
+    <string name="verify_system_compatible_root_skip">Skip</string>
+    <!-- Common -->
+    <string name="activity_not_found">অ্যাপ্লিকেশান ইনস্টল করা নেই৷</string>
 </resources>

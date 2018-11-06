@@ -17,165 +17,165 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Fragment -->
-  <string name="mokee_center_title">Панэль MoKee</string>
-  <string name="mokee_support_title">Падтрымка</string>
-  <string name="mokee_updater_title">Абнаўлення</string>
-  <!-- WebSite -->
-  <string name="mokee_links">Спасылкі</string>
-  <string name="mokee_website_title">Сайт MoKee</string>
-  <string name="mokee_website_summary">Наведаць афіцыйны вэб-сайт</string>
-  <string name="mokee_forum_title">Форум MoKee</string>
-  <string name="mokee_forum_summary">Наведаць форум MoKee</string>
-  <string name="mokee_issues_title">Трэкер памылак MoKee</string>
-  <string name="mokee_issues_summary">Наведаць трэкер памылак</string>
-  <string name="mokee_changelog_title">Спіс змен MoKee</string>
-  <string name="mokee_changelog_summary">Паглядзець спіс змен MoKee</string>
-  <string name="mokee_github_title">Github рэпазіторый MoKee</string>
-  <string name="mokee_github_summary">Наведаць MoKee Github</string>
-  <string name="mokee_translate_title">Перавод MoKee</string>
-  <string name="mokee_translate_summary">Дапамажыце перавесці MoKee</string>
-  <string name="mokee_wiki_title">MoKee Wiki</string>
-  <string name="mokee_wiki_summary">Паглядзець MoKee Wiki</string>
-  <string name="mokee_news_title">Навiны MoKee</string>
-  <string name="mokee_news_summary">Атрымліваць навіны развіцця MoKee</string>
-  <!-- Base Info -->
-  <string name="mokee_version_info_title">Iнфармацыя аб версіі</string>
-  <string name="mokee_version_title">Версiя MoKee</string>
-  <string name="mokee_unique_id_title">Унікальны ідэнтыфікатар</string>
-  <string name="mokee_donate_info_title">Інфармацыя аб ахвяраванні</string>
-  <string name="mokee_last_check_title">Апошняя праверка</string>
-  <string name="mokee_last_check_never">Ніколі</string>
-  <!-- Version -->
-  <string name="mokee_info_default">Невядома</string>
-  <string name="mokee_version_type_release">Рэліз</string>
-  <string name="mokee_version_type_history">Гісторыя</string>
-  <string name="mokee_version_type_experimental">Эксперыментальная</string>
-  <string name="mokee_version_type_nightly">Начная</string>
-  <string name="mokee_version_type_unofficial">Неафiцыйная</string>
-  <string name="mokee_version_type_all">Усе</string>
-  <!-- State -->
-  <string name="downloaded_update_summary">Запампавана</string>
-  <string name="installed_update_summary">Устаноўлена</string>
-  <string name="available_updates_title">Даступныя абнаўленнi</string>
-  <!-- Menu -->
-  <string name="menu_donate">Ахвяраваць</string>
-  <string name="menu_refresh">Абнавiць</string>
-  <string name="menu_delete_all">Выдаліць спампаванае</string>
-  <string name="menu_unlock_features">Функцыі разблакоўкі</string>
-  <string name="menu_restore">Аднаўленне ліцэнзіі</string>
-  <!-- Donate -->
-  <string name="donate_dialog_title">Ахвяраваць нам</string>
-  <string name="donate_dialog_message">У адрозненне ад такіх кампаній як Cygn або MIUI, MoKee OpenSource з\'яўляецца чыста некамерцыйным праектам, якi з\'явіўся на свет намаганнямі энтузіястаў. Для таго, каб падтрымліваць гэты праект, мы ўкладваем свае ўласныя сродкі, а таксама сродкі ад ахвяраванняў і рэкламы. Вашы ахвяраванні дапамогуць знізіць нашу фінансавую нагрузку і забяспечыць будучае развіццё! Гэтая опцыя дазваляе выдаліць рэкламу ў Панэлi MoKee, або выкарыстоўвайце опцыю \"Ахвяраваць\" замест гэтага, калі вы аддаеце перавагу растэрміноўцы (рэклама будзе выдалена, як толькі агульная сума дасягнула зададзенага значэння). Калі ласка стварыце рэзервовую копію файла mokee.license (у каранёвым каталогу SDCard, сапраўдна толькі для гэтай прылады), як толькі вы ахвяравалі.</string>
-  <string name="donate_dialog_faq">Q&amp;A</string>
-  <string name="donate_dialog_next">Наступны трэк</string>
-  <string name="donate_dialog_via_paypal">PayPal(USD)</string>
-  <string name="donate_dialog_via_alipay">AliPay(CNY)</string>
-  <string name="donate_dialog_via_wechat">WeChat</string>
-  <string name="donate_dialog_via_restore">Аднавіць з рэзервовай копіі</string>
-  <string name="donate_money_toast_success">Дзякуй Вам за ахвяраванне!</string>
-  <string name="donate_money_title">Ахвяраваць MoKee OpenSource</string>
-  <string name="donate_money_again">Ахвяраваць зноў</string>
-  <string name="donate_money_restored_success">Аднаўленне паспяхова завершана!</string>
-  <string name="donate_money_restored_failed">Інфармацыі аб ахвяраваннях не знойдзена.</string>
-  <string name="donate_money_restored_failed_solution">Рашэнне</string>
-  <string name="donate_money_restored_timeout">Спалучэнне дадзеных перарвана, калі ласка паспрабуйце зноў</string>
-  <string name="donate_money_info">Ваша ахвяраванне складае CYN: %1$d. Яно больш, чым %2$s з усіх ахвяравальнікаў!</string>
-  <string name="donate_money_info_with_rank">Ваша ахвяраванне складае CYN: %1$d. Яно больш, чым %2$s з усіх ахвяравальнікаў! Ваш рэйтынг %3$d!</string>
-  <string name="donate_money_info_null">Вы не рабілі ахвяраванняў</string>
-  <string name="unlock_features_title">Функцыі разблакоўкі</string>
-  <string name="unlock_features_ota_title">Ахвяруйце %d CNY для разблакоўкі ота і поўнай хуткасці загрузкі.</string>
-  <string name="unlock_features_verify_rom_title">Ахвяраваць %d CNY для разблакоўкі OTA абнаўленняў, поўнай хуткасці спампоўкі, праверкі абнаўленняў і выдалення аб\'явы.</string>
-  <string name="unlock_features_all_title">Ахвяруйце %d CNY для разблакоўкі ота, поўнай хуткасці загрузкі, праверкі абнаўлення і выдалення аб\'яваў.</string>
-  <string name="unlock_features_request_summary">(даступна пасля ахвяравання ў %d юаняў)</string>
-  <string name="unlock_features_pending_summary">(ахвяруйце %1$d юаняў, будзе даступна назаўжды пасля ахвяраванні яшчэ %2$d юаняў і больш)</string>
-  <!-- Update -->
-  <string name="unknown">Невядома</string>
-  <string name="dialog_update">Абнаўленне</string>
-  <string name="dialog_install">Устанавіць</string>
-  <string name="dialog_ok">ОК</string>
-  <string name="dialog_cancel">Адмена</string>
-  <string name="dialog_close">Закрыць</string>
-  <string name="no_available_updates_intro">Апошняя праверка не знайшла даступных абнаўленняў. Каб уручную праверыць наяўнасць новых абнаўленняў, націсніце кнопку «Абнавіць».</string>
-  <string name="no_available_ota_intro">Апошняя праверка не знайшла даступных абнаўленняў. Каб уручную праверыць наяўнасць новых абнаўленняў, націсніце кнопку «Абнавіць». Калі вы выкарыстоўваеце версію, якая знаходзiцца за межамi дыяпазону дат, падтрымованых OTA абнаўленнямi, выключыце опцыю \"OTA абнаўленнI\".</string>
-  <string name="new_update_summary">Новае</string>
-  <string name="old_update_summary">Старае</string>
-  <string name="ota_diff_update_summary">Дадатковыя абнаўлення можна захаваць %s</string>
-  <string name="full_diff_update_summary">Зэканоміць %s у параўнанні з поўным пакетам абнаўлення</string>
-  <string name="update_check_title">Частата праверкI абнаўленняў</string>
-  <string name="check_manual">Уручную</string>
-  <string name="nightly_alert">Вы ўключылi ў гэты спіс начныя абнаўленнi. Яны не падтрымліваюцца і павінны выкарыстоўвацца з асцярогай.</string>
-  <string name="experimenter_alert">Вы ўключылi ў гэты спіс эксперыментальныя абнаўленнi. Яны не падтрымліваюцца і прызначаны толькі для тэставання, таму павінны выкарыстоўвацца з асцярогай.</string>
-  <string name="unofficial_alert">Вы ўключылi ў гэты спіс неафіцыйныя абнаўленнi. Майце на ўвазе, што яны падтрымліваюцца толькi аутарам неафіцыйнага абнаўлення для Вашага прыстасавання.</string>
-  <string name="all_alert">Вы ўключылi ў гэты спіс ўсе абнаўленнi (рэлізы, начныя). Майце на ўвазе, што начныя абнаўленнi не падтрымліваюцца і павінны выкарыстоўвацца з асцярогай.</string>
-  <string name="alert_title">Увага</string>
-  <string name="update_type_title">Тып абнаўлення</string>
-  <!-- ChangeLog -->
-  <string name="no_changelog_alert">Спiс змен недаступны</string>
-  <string name="changelog_dialog_title">Спic змен</string>
-  <string name="loading_changelog">Загрузка\u2026</string>
-  <string name="check_on_boot">Пры кожнай перазагрузцы</string>
-  <string name="check_twice_daily">Двойчы ў дзень</string>
-  <string name="check_daily">Раз у дзень</string>
-  <string name="check_twice_weekly">Двойчы на тыдзень</string>
-  <string name="check_weekly">Раз на тыдзень</string>
-  <string name="check_bi_weekly">Раз у два тыдні</string>
-  <string name="check_monthly">Раз у месяц</string>
-  <!-- checking -->
-  <string name="checking_for_updates">Праверка на наяўнасць абнаўленняў</string>
-  <string name="no_updates_found">Новыя абнаўленнi не знойдзены</string>
-  <string name="not_new_updates_found_ticker">Даступны новыя абнаўленнi</string>
-  <string name="not_new_updates_found_title">Новыя абнаўленнi</string>
-  <string name="update_check_failed">Праверка абнаўленняў не ўдалася. Калі ласка, праверце ваша інтэрнэт-злучэнне і паспрабуйце ізноў пазней.</string>
-  <string name="not_action_download">Спампаваць</string>
-  <string name="data_connection_required">Неабходна злучэнне з Інтэрнэтам.</string>
-  <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">Адмянiць спампоўку</string>
-  <string name="confirm_download_cancelation_dialog_message">Адмянiць гэтую спампоўку?</string>
-  <string name="download_remaining">Засталося <xliff:g id="duration" example="3 minutes">%s</xliff:g></string>
-  <string name="download_running">Выконваецца</string>
-  <string name="download_cancelled">Спампоўка адменена</string>
-  <string name="download_already_running">Спампоўка ўжо адбываецца</string>
-  <string name="download_limited_mode">Ваша хуткасць загрузкі абмежаваная. Вы можаце зрабіць ахвяраванне, каб перайсці на неабмежаваную хуткасць.</string>
-  <string name="unable_to_download_file">Не атрымалася спампаваць файл абнаўлення</string>
-  <string name="not_download_success">Абнаўленне паспяхова спампавана</string>
-  <string name="not_download_failure">Абнаўленне не было спампавана</string>
-  <string name="not_action_install_update">Перазагрузiць і ўстанавiць</string>
-  <string name="not_download_install_notice">Абнаўленне <xliff:g id="filename">%s</xliff:g> паспяхова спампавана. Націсніце \'Перазагрузiць і ўстанавiць\', каб устанавiць абнаўленне.\n\nЗаўвага: Гэта функцыя патрабуе сумяшчальнага Recovery, або абнаўлення павінны быць устаноўлены ўручную.</string>
-  <string name="not_download_install_ota_notice">Абнаўленне <xliff:g id="filename">%s</xliff:g> паспяхова спампавана. Націсніце \'Перазагрузiць і ўстанавiць\', каб устанавiць абнаўленне.\n\nГэта функцыя патрабуе сумяшчальнага Recovery, або абнаўлення павінны быць устаноўлены ўручную.\n\nЗаўвага: Гэта інкрыментнае абнаўленне, таму любыя змены, унесеныя ў сістэмныя файлы, могуць выклікаць памылку абнаўлення. Калі гэта адбудзецца ўсталюйце поўную версію MoKee.</string>
-  <string name="md5_verification_failed">Неадпаведнасць кантрольнай сумы MD5</string>
-  <string name="not_apk_action_install_update">Устанавіць</string>
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Выдаліць файл</string>
-  <string name="confirm_delete_updates_dialog_message">Выдаліць абраны файл абнаўлення?</string>
-  <string name="confirm_delete_updates_all_dialog_message">Выдаліць усе спампаваныя файлы абнаўленняў?</string>
-  <string name="delete_single_update_success_message">Файл абнаўлення «<xliff:g id="filename">%s</xliff:g>» выдалены</string>
-  <string name="delete_updates_failure_message">Адбылася памылка выдалення файла абнаўлення</string>
-  <string name="delete_updates_nofolder_message">Каталог з абнаўленнямi не знойдзены</string>
-  <string name="delete_updates_success_message">Усе спампаваныя абнаўленнi выдалены</string>
-  <!-- Pref -->
-  <string name="pref_ota_check">OTA абнаўленнi</string>
-  <string name="pref_ota_check_summary">Атрымаць OTA абнаўленнi, каб зэканоміць час спампавання і прапускную здольнасць</string>
-  <string name="pref_ota_check_request_summary">Атрымаць OTA абнаўленнi, каб зэканоміць час спампавання і прапускную здольнасць</string>
-  <string name="pref_verify_rom">Правераныя абнаўленні</string>
-  <string name="pref_verify_rom_summary">Паказваць толькі правераныя іншымі карыстальнікамі абнаўлення</string>
-  <string name="pref_verify_rom_request_summary">Паказваць толькі правераныя іншымі карыстальнікамі абнаўлення</string>
-  <!-- Apply install and update strings -->
-  <string name="apply_update_dialog_title">Прымяніць абнаўленне</string>
-  <string name="apply_update_dialog_text">Будзе выканана абнаўленне да версіі <xliff:g id="filename">%s</xliff:g>.\n\n Пры націску кнопкі «Абнавіць» прылада перазагрузіцца ў рэжым аднаўлення для ўстаноўкі гэтага абнаўлення.\n\n Заўвага: гэтая функцыя патрабуе сумяшчальнага Recovery. У адваротным выпадку абнаўленне будзе неабходна ўсталяваць уручную.</string>
-  <string name="apply_update_ota_dialog_text">Будзе выканана абнаўленне да версіі <xliff:g id="filename">%s</xliff:g>.\n\n Пры націску кнопкі «Абнавіць» прылада перазагрузіцца ў рэжым аднаўлення для ўстаноўкі гэтага абнаўлення.\n\n Заўвага: гэтая функцыя патрабуе сумяшчальнага Recovery. У адваротным выпадку абнаўленне будзе неабходна ўсталяваць уручную. \n\nГэта інкрыментны абнаўленне, таму змены ў сістэмных файлах могуць прывесці да збою ўстаноўкі абнаўлення. У гэтым выпадку, усталюйце поўную версію Mokee.</string>
-  <string name="apply_unable_to_reboot_toast">Немагчыма перазагрузіцца у рэжым Recovery</string>
-  <!-- Experimenter mode -->
-  <string name="show_exp_on">Вы ўключылі эксперыментальныя параметры!</string>
-  <string name="show_exp_already">Няма неабходнасці, эксперыментальныя параметры ўжо ўключаны.</string>
-  <!-- Verify system compatible -->
-  <string name="verify_system_compatible_title">Абнаўленне сістэмы MoKee</string>
-  <string name="verify_system_compatible_message">Праверка сумяшчальнасці сістэмы перад абнаўленнем\u2026</string>
-  <string name="verify_system_compatible_failed">Не атрымалася праверыць сумяшчальнасць сістэмы</string>
-  <string name="verify_system_compatible_patch">Наступныя файлы былі зменены або выдалены, калі ласка, аднавіце іх і паспрабуйце яшчэ раз.</string>
-  <string name="verify_system_compatible_img">Несумяшчальны %1$s, калі ласка абнавіце да версіі %2$s</string>
-  <string name="verify_system_compatible_root_request">Патрабуецца каранёвай доступ, каб абнавіць Плагін Праверкі Сумяшчальнасці абнаўленняў. Калі вы вырашыце прапусціць гэты крок, гэта дзеянне будзе выканана ў рэжыме Recovery.</string>
-  <string name="verify_system_compatible_root_skip">Прапусціць</string>
-  <!-- Common -->
-  <string name="activity_not_found">Праграма не ўсталявана.</string>
+    <!-- Fragment -->
+    <string name="mokee_center_title">Панэль MoKee</string>
+    <string name="mokee_support_title">Падтрымка</string>
+    <string name="mokee_updater_title">Абнаўлення</string>
+    <!-- WebSite -->
+    <string name="mokee_links">Спасылкі</string>
+    <string name="mokee_website_title">Сайт MoKee</string>
+    <string name="mokee_website_summary">Наведаць афіцыйны вэб-сайт</string>
+    <string name="mokee_forum_title">Форум MoKee</string>
+    <string name="mokee_forum_summary">Наведаць форум MoKee</string>
+    <string name="mokee_issues_title">Трэкер памылак MoKee</string>
+    <string name="mokee_issues_summary">Наведаць трэкер памылак</string>
+    <string name="mokee_changelog_title">Спіс змен MoKee</string>
+    <string name="mokee_changelog_summary">Паглядзець спіс змен MoKee</string>
+    <string name="mokee_github_title">Github рэпазіторый MoKee</string>
+    <string name="mokee_github_summary">Наведаць MoKee Github</string>
+    <string name="mokee_translate_title">Перавод MoKee</string>
+    <string name="mokee_translate_summary">Дапамажыце перавесці MoKee</string>
+    <string name="mokee_wiki_title">MoKee Wiki</string>
+    <string name="mokee_wiki_summary">Паглядзець MoKee Wiki</string>
+    <string name="mokee_news_title">Навiны MoKee</string>
+    <string name="mokee_news_summary">Атрымліваць навіны развіцця MoKee</string>
+    <!-- Base Info -->
+    <string name="mokee_version_info_title">Iнфармацыя аб версіі</string>
+    <string name="mokee_version_title">Версiя MoKee</string>
+    <string name="mokee_unique_id_title">Унікальны ідэнтыфікатар</string>
+    <string name="mokee_donate_info_title">Інфармацыя аб ахвяраванні</string>
+    <string name="mokee_last_check_title">Апошняя праверка</string>
+    <string name="mokee_last_check_never">Ніколі</string>
+    <!-- Version -->
+    <string name="mokee_info_default">Невядома</string>
+    <string name="mokee_version_type_release">Рэліз</string>
+    <string name="mokee_version_type_history">Гісторыя</string>
+    <string name="mokee_version_type_experimental">Эксперыментальная</string>
+    <string name="mokee_version_type_nightly">Начная</string>
+    <string name="mokee_version_type_unofficial">Неафiцыйная</string>
+    <string name="mokee_version_type_all">Усе</string>
+    <!-- State -->
+    <string name="downloaded_update_summary">Запампавана</string>
+    <string name="installed_update_summary">Устаноўлена</string>
+    <string name="available_updates_title">Даступныя абнаўленнi</string>
+    <!-- Menu -->
+    <string name="menu_donate">Ахвяраваць</string>
+    <string name="menu_refresh">Абнавiць</string>
+    <string name="menu_delete_all">Выдаліць спампаванае</string>
+    <string name="menu_unlock_features">Функцыі разблакоўкі</string>
+    <string name="menu_restore">Аднаўленне ліцэнзіі</string>
+    <!-- Donate -->
+    <string name="donate_dialog_title">Ахвяраваць нам</string>
+    <string name="donate_dialog_message">У адрозненне ад такіх кампаній як Cygn або MIUI, MoKee OpenSource з\'яўляецца чыста некамерцыйным праектам, якi з\'явіўся на свет намаганнямі энтузіястаў. Для таго, каб падтрымліваць гэты праект, мы ўкладваем свае ўласныя сродкі, а таксама сродкі ад ахвяраванняў і рэкламы. Вашы ахвяраванні дапамогуць знізіць нашу фінансавую нагрузку і забяспечыць будучае развіццё! Гэтая опцыя дазваляе выдаліць рэкламу ў Панэлi MoKee, або выкарыстоўвайце опцыю \"Ахвяраваць\" замест гэтага, калі вы аддаеце перавагу растэрміноўцы (рэклама будзе выдалена, як толькі агульная сума дасягнула зададзенага значэння). Калі ласка стварыце рэзервовую копію файла mokee.license (у каранёвым каталогу SDCard, сапраўдна толькі для гэтай прылады), як толькі вы ахвяравалі.</string>
+    <string name="donate_dialog_faq">Q&amp;A</string>
+    <string name="donate_dialog_next">Наступны трэк</string>
+    <string name="donate_dialog_via_paypal">PayPal(USD)</string>
+    <string name="donate_dialog_via_alipay">AliPay(CNY)</string>
+    <string name="donate_dialog_via_wechat">WeChat</string>
+    <string name="donate_dialog_via_restore">Аднавіць з рэзервовай копіі</string>
+    <string name="donate_money_toast_success">Дзякуй Вам за ахвяраванне!</string>
+    <string name="donate_money_title">Ахвяраваць MoKee OpenSource</string>
+    <string name="donate_money_again">Ахвяраваць зноў</string>
+    <string name="donate_money_restored_success">Аднаўленне паспяхова завершана!</string>
+    <string name="donate_money_restored_failed">Інфармацыі аб ахвяраваннях не знойдзена.</string>
+    <string name="donate_money_restored_failed_solution">Рашэнне</string>
+    <string name="donate_money_restored_timeout">Спалучэнне дадзеных перарвана, калі ласка паспрабуйце зноў</string>
+    <string name="donate_money_info">Ваша ахвяраванне складае CYN: %1$d. Яно больш, чым %2$s з усіх ахвяравальнікаў!</string>
+    <string name="donate_money_info_with_rank">Ваша ахвяраванне складае CYN: %1$d. Яно больш, чым %2$s з усіх ахвяравальнікаў! Ваш рэйтынг %3$d!</string>
+    <string name="donate_money_info_null">Вы не рабілі ахвяраванняў</string>
+    <string name="unlock_features_title">Функцыі разблакоўкі</string>
+    <string name="unlock_features_ota_title">Ахвяруйце %d CNY для разблакоўкі ота і поўнай хуткасці загрузкі.</string>
+    <string name="unlock_features_verify_rom_title">Ахвяраваць %d CNY для разблакоўкі OTA абнаўленняў, поўнай хуткасці спампоўкі, праверкі абнаўленняў і выдалення аб\'явы.</string>
+    <string name="unlock_features_all_title">Ахвяруйце %d CNY для разблакоўкі ота, поўнай хуткасці загрузкі, праверкі абнаўлення і выдалення аб\'яваў.</string>
+    <string name="unlock_features_request_summary">(даступна пасля ахвяравання ў %d юаняў)</string>
+    <string name="unlock_features_pending_summary">(ахвяруйце %1$d юаняў, будзе даступна назаўжды пасля ахвяраванні яшчэ %2$d юаняў і больш)</string>
+    <!-- Update -->
+    <string name="unknown">Невядома</string>
+    <string name="dialog_update">Абнаўленне</string>
+    <string name="dialog_install">Устанавіць</string>
+    <string name="dialog_ok">ОК</string>
+    <string name="dialog_cancel">Адмена</string>
+    <string name="dialog_close">Закрыць</string>
+    <string name="no_available_updates_intro">Апошняя праверка не знайшла даступных абнаўленняў. Каб уручную праверыць наяўнасць новых абнаўленняў, націсніце кнопку «Абнавіць».</string>
+    <string name="no_available_ota_intro">Апошняя праверка не знайшла даступных абнаўленняў. Каб уручную праверыць наяўнасць новых абнаўленняў, націсніце кнопку «Абнавіць». Калі вы выкарыстоўваеце версію, якая знаходзiцца за межамi дыяпазону дат, падтрымованых OTA абнаўленнямi, выключыце опцыю \"OTA абнаўленнI\".</string>
+    <string name="new_update_summary">Новае</string>
+    <string name="old_update_summary">Старае</string>
+    <string name="ota_diff_update_summary">Дадатковыя абнаўлення можна захаваць %s</string>
+    <string name="full_diff_update_summary">Зэканоміць %s у параўнанні з поўным пакетам абнаўлення</string>
+    <string name="update_check_title">Частата праверкI абнаўленняў</string>
+    <string name="check_manual">Уручную</string>
+    <string name="nightly_alert">Вы ўключылi ў гэты спіс начныя абнаўленнi. Яны не падтрымліваюцца і павінны выкарыстоўвацца з асцярогай.</string>
+    <string name="experimenter_alert">Вы ўключылi ў гэты спіс эксперыментальныя абнаўленнi. Яны не падтрымліваюцца і прызначаны толькі для тэставання, таму павінны выкарыстоўвацца з асцярогай.</string>
+    <string name="unofficial_alert">Вы ўключылi ў гэты спіс неафіцыйныя абнаўленнi. Майце на ўвазе, што яны падтрымліваюцца толькi аутарам неафіцыйнага абнаўлення для Вашага прыстасавання.</string>
+    <string name="all_alert">Вы ўключылi ў гэты спіс ўсе абнаўленнi (рэлізы, начныя). Майце на ўвазе, што начныя абнаўленнi не падтрымліваюцца і павінны выкарыстоўвацца з асцярогай.</string>
+    <string name="alert_title">Увага</string>
+    <string name="update_type_title">Тып абнаўлення</string>
+    <!-- ChangeLog -->
+    <string name="no_changelog_alert">Спiс змен недаступны</string>
+    <string name="changelog_dialog_title">Спic змен</string>
+    <string name="loading_changelog">Загрузка\u2026</string>
+    <string name="check_on_boot">Пры кожнай перазагрузцы</string>
+    <string name="check_twice_daily">Двойчы ў дзень</string>
+    <string name="check_daily">Раз у дзень</string>
+    <string name="check_twice_weekly">Двойчы на тыдзень</string>
+    <string name="check_weekly">Раз на тыдзень</string>
+    <string name="check_bi_weekly">Раз у два тыдні</string>
+    <string name="check_monthly">Раз у месяц</string>
+    <!-- checking -->
+    <string name="checking_for_updates">Праверка на наяўнасць абнаўленняў</string>
+    <string name="no_updates_found">Новыя абнаўленнi не знойдзены</string>
+    <string name="not_new_updates_found_ticker">Даступны новыя абнаўленнi</string>
+    <string name="not_new_updates_found_title">Новыя абнаўленнi</string>
+    <string name="update_check_failed">Праверка абнаўленняў не ўдалася. Калі ласка, праверце ваша інтэрнэт-злучэнне і паспрабуйце ізноў пазней.</string>
+    <string name="not_action_download">Спампаваць</string>
+    <string name="data_connection_required">Неабходна злучэнне з Інтэрнэтам.</string>
+    <!-- Downloads -->
+    <string name="confirm_download_cancelation_dialog_title">Адмянiць спампоўку</string>
+    <string name="confirm_download_cancelation_dialog_message">Адмянiць гэтую спампоўку?</string>
+    <string name="download_remaining">Засталося <xliff:g id="duration" example="3 minutes">%s</xliff:g></string>
+    <string name="download_running">Выконваецца</string>
+    <string name="download_cancelled">Спампоўка адменена</string>
+    <string name="download_already_running">Спампоўка ўжо адбываецца</string>
+    <string name="download_limited_mode">Ваша хуткасць загрузкі абмежаваная. Вы можаце зрабіць ахвяраванне, каб перайсці на неабмежаваную хуткасць.</string>
+    <string name="unable_to_download_file">Не атрымалася спампаваць файл абнаўлення</string>
+    <string name="not_download_success">Абнаўленне паспяхова спампавана</string>
+    <string name="not_download_failure">Абнаўленне не было спампавана</string>
+    <string name="not_action_install_update">Перазагрузiць і ўстанавiць</string>
+    <string name="not_download_install_notice">Абнаўленне <xliff:g id="filename">%s</xliff:g> паспяхова спампавана. Націсніце \'Перазагрузiць і ўстанавiць\', каб устанавiць абнаўленне.\n\nЗаўвага: Гэта функцыя патрабуе сумяшчальнага Recovery, або абнаўлення павінны быць устаноўлены ўручную.</string>
+    <string name="not_download_install_ota_notice">Абнаўленне <xliff:g id="filename">%s</xliff:g> паспяхова спампавана. Націсніце \'Перазагрузiць і ўстанавiць\', каб устанавiць абнаўленне.\n\nГэта функцыя патрабуе сумяшчальнага Recovery, або абнаўлення павінны быць устаноўлены ўручную.\n\nЗаўвага: Гэта інкрыментнае абнаўленне, таму любыя змены, унесеныя ў сістэмныя файлы, могуць выклікаць памылку абнаўлення. Калі гэта адбудзецца ўсталюйце поўную версію MoKee.</string>
+    <string name="md5_verification_failed">Неадпаведнасць кантрольнай сумы MD5</string>
+    <string name="not_apk_action_install_update">Устанавіць</string>
+    <!-- deleting -->
+    <string name="confirm_delete_dialog_title">Выдаліць файл</string>
+    <string name="confirm_delete_updates_dialog_message">Выдаліць абраны файл абнаўлення?</string>
+    <string name="confirm_delete_updates_all_dialog_message">Выдаліць усе спампаваныя файлы абнаўленняў?</string>
+    <string name="delete_single_update_success_message">Файл абнаўлення «<xliff:g id="filename">%s</xliff:g>» выдалены</string>
+    <string name="delete_updates_failure_message">Адбылася памылка выдалення файла абнаўлення</string>
+    <string name="delete_updates_nofolder_message">Каталог з абнаўленнямi не знойдзены</string>
+    <string name="delete_updates_success_message">Усе спампаваныя абнаўленнi выдалены</string>
+    <!-- Pref -->
+    <string name="pref_ota_check">OTA абнаўленнi</string>
+    <string name="pref_ota_check_summary">Атрымаць OTA абнаўленнi, каб зэканоміць час спампавання і прапускную здольнасць</string>
+    <string name="pref_ota_check_request_summary">Атрымаць OTA абнаўленнi, каб зэканоміць час спампавання і прапускную здольнасць</string>
+    <string name="pref_verify_rom">Правераныя абнаўленні</string>
+    <string name="pref_verify_rom_summary">Паказваць толькі правераныя іншымі карыстальнікамі абнаўлення</string>
+    <string name="pref_verify_rom_request_summary">Паказваць толькі правераныя іншымі карыстальнікамі абнаўлення</string>
+    <!-- Apply install and update strings -->
+    <string name="apply_update_dialog_title">Прымяніць абнаўленне</string>
+    <string name="apply_update_dialog_text">Будзе выканана абнаўленне да версіі <xliff:g id="filename">%s</xliff:g>.\n\n Пры націску кнопкі «Абнавіць» прылада перазагрузіцца ў рэжым аднаўлення для ўстаноўкі гэтага абнаўлення.\n\n Заўвага: гэтая функцыя патрабуе сумяшчальнага Recovery. У адваротным выпадку абнаўленне будзе неабходна ўсталяваць уручную.</string>
+    <string name="apply_update_ota_dialog_text">Будзе выканана абнаўленне да версіі <xliff:g id="filename">%s</xliff:g>.\n\n Пры націску кнопкі «Абнавіць» прылада перазагрузіцца ў рэжым аднаўлення для ўстаноўкі гэтага абнаўлення.\n\n Заўвага: гэтая функцыя патрабуе сумяшчальнага Recovery. У адваротным выпадку абнаўленне будзе неабходна ўсталяваць уручную. \n\nГэта інкрыментны абнаўленне, таму змены ў сістэмных файлах могуць прывесці да збою ўстаноўкі абнаўлення. У гэтым выпадку, усталюйце поўную версію Mokee.</string>
+    <string name="apply_unable_to_reboot_toast">Немагчыма перазагрузіцца у рэжым Recovery</string>
+    <!-- Experimenter mode -->
+    <string name="show_exp_on">Вы ўключылі эксперыментальныя параметры!</string>
+    <string name="show_exp_already">Няма неабходнасці, эксперыментальныя параметры ўжо ўключаны.</string>
+    <!-- Verify system compatible -->
+    <string name="verify_system_compatible_title">Абнаўленне сістэмы MoKee</string>
+    <string name="verify_system_compatible_message">Праверка сумяшчальнасці сістэмы перад абнаўленнем\u2026</string>
+    <string name="verify_system_compatible_failed">Не атрымалася праверыць сумяшчальнасць сістэмы</string>
+    <string name="verify_system_compatible_patch">Наступныя файлы былі зменены або выдалены, калі ласка, аднавіце іх і паспрабуйце яшчэ раз.</string>
+    <string name="verify_system_compatible_img">Несумяшчальны %1$s, калі ласка абнавіце да версіі %2$s</string>
+    <string name="verify_system_compatible_root_request">Патрабуецца каранёвай доступ, каб абнавіць Плагін Праверкі Сумяшчальнасці абнаўленняў. Калі вы вырашыце прапусціць гэты крок, гэта дзеянне будзе выканана ў рэжыме Recovery.</string>
+    <string name="verify_system_compatible_root_skip">Прапусціць</string>
+    <!-- Common -->
+    <string name="activity_not_found">Праграма не ўсталявана.</string>
 </resources>

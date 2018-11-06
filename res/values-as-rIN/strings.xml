@@ -17,22 +17,22 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Fragment -->
-  <!-- WebSite -->
-  <!-- Base Info -->
-  <!-- Version -->
-  <!-- State -->
-  <!-- Menu -->
-  <!-- Donate -->
-  <string name="donate_dialog_next">&quot;পৰৱৰ্তী&quot;</string>
-  <!-- Update -->
-  <!-- ChangeLog -->
-  <!-- checking -->
-  <!-- Downloads -->
-  <!-- deleting -->
-  <!-- Pref -->
-  <!-- Apply install and update strings -->
-  <!-- Experimenter mode -->
-  <!-- Verify system compatible -->
-  <!-- Common -->
+    <!-- Fragment -->
+    <!-- WebSite -->
+    <!-- Base Info -->
+    <!-- Version -->
+    <!-- State -->
+    <!-- Menu -->
+    <!-- Donate -->
+    <string name="donate_dialog_next">&quot;পৰৱৰ্তী&quot;</string>
+    <!-- Update -->
+    <!-- ChangeLog -->
+    <!-- checking -->
+    <!-- Downloads -->
+    <!-- deleting -->
+    <!-- Pref -->
+    <!-- Apply install and update strings -->
+    <!-- Experimenter mode -->
+    <!-- Verify system compatible -->
+    <!-- Common -->
 </resources>

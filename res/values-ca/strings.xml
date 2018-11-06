@@ -17,132 +17,132 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Fragment -->
-  <string name="mokee_center_title">Centre Mokee</string>
-  <string name="mokee_support_title">Ajuda</string>
-  <string name="mokee_updater_title">Actualitzador</string>
-  <!-- WebSite -->
-  <string name="mokee_website_title">Mokee lloc web</string>
-  <string name="mokee_website_summary">Visita la web oficial</string>
-  <string name="mokee_forum_title">Fòrum Mokee</string>
-  <string name="mokee_forum_summary">Visita el Fòrum Mokee</string>
-  <string name="mokee_issues_title">Enviament de Bugs a Mokee</string>
-  <string name="mokee_issues_summary">Visita re-portaments de bugs </string>
-  <string name="mokee_changelog_title">Canvis (Changelog) de Mokee</string>
-  <string name="mokee_github_title">MoKee Github</string>
-  <string name="mokee_github_summary">Visita la MoKee Github</string>
-  <string name="mokee_translate_title">Traduir MoKee</string>
-  <string name="mokee_translate_summary">Visita la MoKee traducció </string>
-  <string name="mokee_wiki_title">MoKee Wiki</string>
-  <string name="mokee_wiki_summary">Mostra la MoKee Wiki</string>
-  <string name="mokee_news_title">Notícies de Mokee</string>
-  <string name="mokee_news_summary">Recebre notícies sobre el desenvolupament de MoKee</string>
-  <!-- Base Info -->
-  <string name="mokee_version_info_title">Informació de la versió</string>
-  <string name="mokee_version_title">Versió MoKee</string>
-  <string name="mokee_last_check_title">Última comprovació</string>
-  <string name="mokee_last_check_never">Mai</string>
-  <!-- Version -->
-  <string name="mokee_info_default">Desconeguda</string>
-  <string name="mokee_version_type_release">Release</string>
-  <string name="mokee_version_type_history">Històrial</string>
-  <string name="mokee_version_type_experimental">Experimental</string>
-  <string name="mokee_version_type_nightly">Nightly</string>
-  <string name="mokee_version_type_unofficial">No oficial</string>
-  <string name="mokee_version_type_all">Tots</string>
-  <!-- State -->
-  <string name="downloaded_update_summary">Baixades</string>
-  <string name="installed_update_summary">instal·lat</string>
-  <string name="available_updates_title">Actualitzacions disponibles</string>
-  <!-- Menu -->
-  <string name="menu_donate">Dóna</string>
-  <string name="menu_refresh">Recarregar</string>
-  <string name="menu_delete_all">Suprimir descàrrega</string>
-  <!-- Donate -->
-  <string name="donate_dialog_title">Donar-nos</string>
-  <string name="donate_dialog_message">A diferència de les empreses com Cygn o MIUI, MoKee OpenSource és un projecte purament sense ànim de lucre que neix de l\'afició i passió. Per mantenir aquest projecte, hem de tenidor propis diners la majoria del temps o es basen en les donacions i anuncis. Les seves donacions pot ajudar a reduir la nostra càrrega financera i sustentar el futur desenvolupament! Aquesta opció li permet treure els anuncis MoKee centre, o utilitzar l\'opció de \"Donar\" en canvi si preferiu quotes (anuncis es trauran una vegada total ha assolit el valor especificat). Si us plau, el mokee.license de reserva d\'arxiu (en el directori arrel de sdcard, només vàlid per a l\'actual dispositiu) una vegada que heu donat.</string>
-  <string name="donate_dialog_next">Següent</string>
-  <string name="donate_dialog_via_paypal">PayPal(USD)</string>
-  <string name="donate_dialog_via_alipay">AliPay(CNY)</string>
-  <string name="donate_money_toast_success">Gràcies per la vostra donació!</string>
-  <string name="donate_money_again">Donar de nou</string>
-  <!-- Update -->
-  <string name="unknown">Desconeguda</string>
-  <string name="dialog_update">Actualitza</string>
-  <string name="dialog_install">Instal·la</string>
-  <string name="dialog_ok">\"D\'acord\"</string>
-  <string name="dialog_cancel">Canceŀla</string>
-  <string name="dialog_close">tanca</string>
-  <string name="no_available_updates_intro">La darrera vegada que s\'ha buscat no s\'ha trobat cap actualització disponible. Per buscar manualment noves actualitzacions, utilitza el botó Refresca.</string>
-  <string name="no_available_ota_intro">No s\'han trobat noves actualitzacions, per comprovar manualment si hi ha noves actualitzacions premi la icona d\'actualitzar.
+    <!-- Fragment -->
+    <string name="mokee_center_title">Centre Mokee</string>
+    <string name="mokee_support_title">Ajuda</string>
+    <string name="mokee_updater_title">Actualitzador</string>
+    <!-- WebSite -->
+    <string name="mokee_website_title">Mokee lloc web</string>
+    <string name="mokee_website_summary">Visita la web oficial</string>
+    <string name="mokee_forum_title">Fòrum Mokee</string>
+    <string name="mokee_forum_summary">Visita el Fòrum Mokee</string>
+    <string name="mokee_issues_title">Enviament de Bugs a Mokee</string>
+    <string name="mokee_issues_summary">Visita re-portaments de bugs</string>
+    <string name="mokee_changelog_title">Canvis (Changelog) de Mokee</string>
+    <string name="mokee_github_title">MoKee Github</string>
+    <string name="mokee_github_summary">Visita la MoKee Github</string>
+    <string name="mokee_translate_title">Traduir MoKee</string>
+    <string name="mokee_translate_summary">Visita la MoKee traducció</string>
+    <string name="mokee_wiki_title">MoKee Wiki</string>
+    <string name="mokee_wiki_summary">Mostra la MoKee Wiki</string>
+    <string name="mokee_news_title">Notícies de Mokee</string>
+    <string name="mokee_news_summary">Recebre notícies sobre el desenvolupament de MoKee</string>
+    <!-- Base Info -->
+    <string name="mokee_version_info_title">Informació de la versió</string>
+    <string name="mokee_version_title">Versió MoKee</string>
+    <string name="mokee_last_check_title">Última comprovació</string>
+    <string name="mokee_last_check_never">Mai</string>
+    <!-- Version -->
+    <string name="mokee_info_default">Desconeguda</string>
+    <string name="mokee_version_type_release">Release</string>
+    <string name="mokee_version_type_history">Històrial</string>
+    <string name="mokee_version_type_experimental">Experimental</string>
+    <string name="mokee_version_type_nightly">Nightly</string>
+    <string name="mokee_version_type_unofficial">No oficial</string>
+    <string name="mokee_version_type_all">Tots</string>
+    <!-- State -->
+    <string name="downloaded_update_summary">Baixades</string>
+    <string name="installed_update_summary">instal·lat</string>
+    <string name="available_updates_title">Actualitzacions disponibles</string>
+    <!-- Menu -->
+    <string name="menu_donate">Dóna</string>
+    <string name="menu_refresh">Recarregar</string>
+    <string name="menu_delete_all">Suprimir descàrrega</string>
+    <!-- Donate -->
+    <string name="donate_dialog_title">Donar-nos</string>
+    <string name="donate_dialog_message">A diferència de les empreses com Cygn o MIUI, MoKee OpenSource és un projecte purament sense ànim de lucre que neix de l\'afició i passió. Per mantenir aquest projecte, hem de tenidor propis diners la majoria del temps o es basen en les donacions i anuncis. Les seves donacions pot ajudar a reduir la nostra càrrega financera i sustentar el futur desenvolupament! Aquesta opció li permet treure els anuncis MoKee centre, o utilitzar l\'opció de \"Donar\" en canvi si preferiu quotes (anuncis es trauran una vegada total ha assolit el valor especificat). Si us plau, el mokee.license de reserva d\'arxiu (en el directori arrel de sdcard, només vàlid per a l\'actual dispositiu) una vegada que heu donat.</string>
+    <string name="donate_dialog_next">Següent</string>
+    <string name="donate_dialog_via_paypal">PayPal(USD)</string>
+    <string name="donate_dialog_via_alipay">AliPay(CNY)</string>
+    <string name="donate_money_toast_success">Gràcies per la vostra donació!</string>
+    <string name="donate_money_again">Donar de nou</string>
+    <!-- Update -->
+    <string name="unknown">Desconeguda</string>
+    <string name="dialog_update">Actualitza</string>
+    <string name="dialog_install">Instal·la</string>
+    <string name="dialog_ok">\"D\'acord\"</string>
+    <string name="dialog_cancel">Canceŀla</string>
+    <string name="dialog_close">tanca</string>
+    <string name="no_available_updates_intro">La darrera vegada que s\'ha buscat no s\'ha trobat cap actualització disponible. Per buscar manualment noves actualitzacions, utilitza el botó Refresca.</string>
+    <string name="no_available_ota_intro">No s\'han trobat noves actualitzacions, per comprovar manualment si hi ha noves actualitzacions premi la icona d\'actualitzar.
 Si executa una versió que no suporta l\'actualització incremental,
 desactivi aquesta opció.</string>
-  <string name="new_update_summary">Nova</string>
-  <string name="old_update_summary">Antic </string>
-  <string name="update_check_title">Freqüència d\'Actualització</string>
-  <string name="check_manual">Manual</string>
-  <string name="nightly_alert">Has seleccionat incloure les actualitzacions nigthy en aquesta llista. Aquestes no tenen suport i han de ser utilitzades amb precaució.</string>
-  <string name="experimenter_alert">Heu seleccionat per incloure actualitzacions experimentals en aquesta llista. Aquests si dóna suport per provar només, ha de ser utilitzat amb precaució.</string>
-  <string name="unofficial_alert">Heu seleccionat per incloure actualitzacions no oficials en aquesta llista. Tingueu en compte que aquestes estan mantinguts pel seu desenvolupador.</string>
-  <string name="all_alert">Ha seleccionat per incloure totes les actualitzacions (d\'alliberament, experimental) en aquesta llista. Prengui en compte que les actualitzacions experimentales no són compatibles i s\'han d\'usar amb precaució.</string>
-  <string name="alert_title">Precaució</string>
-  <string name="update_type_title">Tipus d\'actualització</string>
-  <!-- ChangeLog -->
-  <string name="no_changelog_alert">No hi ha un registre de canvis disponible</string>
-  <string name="changelog_dialog_title">Registre de canvis</string>
-  <string name="loading_changelog">Carregant\u2026</string>
-  <string name="check_on_boot">En cada reinici</string>
-  <string name="check_twice_daily">Dues vegades cada dia</string>
-  <string name="check_daily">Un cop cada dia</string>
-  <string name="check_twice_weekly">Dues vegades cada setmana</string>
-  <string name="check_weekly">Una vegada cada setmana</string>
-  <string name="check_bi_weekly">Un cop cada quinze dies</string>
-  <string name="check_monthly">Un cop cada mes</string>
-  <!-- checking -->
-  <string name="checking_for_updates">Buscant actualitzacions</string>
-  <string name="no_updates_found">No s\'han trobat noves actualitzacions</string>
-  <string name="not_new_updates_found_ticker">Noves actualitzacions disponibles</string>
-  <string name="not_new_updates_found_title">Noves actualitzacions</string>
-  <string name="update_check_failed">Ha fallat la comprovació d\'actualitzacions. Si us plau, verifiqueu la connexió d\'internet i comproveu una altra vegada.</string>
-  <string name="not_action_download">Descarregar</string>
-  <string name="data_connection_required">Es necessària una connexió de dades.</string>
-  <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">Cancel·lar la descàrrega</string>
-  <string name="confirm_download_cancelation_dialog_message">Cancel·lar la descàrrega actual?</string>
-  <string name="download_remaining"><xliff:g id="duration" example="3 minutes"> %s </xliff:g> esquerra</string>
-  <string name="download_running">En curs</string>
-  <string name="download_cancelled">Descàrrega cancel·lada</string>
-  <string name="download_already_running">Ja s\'està descarregant</string>
-  <string name="unable_to_download_file">Impossible descarregar l\'arxiu d\'actualització</string>
-  <string name="not_download_success">Actualització descarregada satisfactòriament</string>
-  <string name="not_download_failure">Descàrrega de l\'actualització fallida</string>
-  <string name="not_action_install_update">Reiniciar i instal·lar</string>
-  <string name="not_download_install_notice">L\' actualització <xliff:g id="filename">%s </xliff:g> es descarregava reeixidament. Quan tocant \"Tornar a arrencar i instal·lar\", el mecanisme es reprendrà propi per instal·lar el update.\n\nNote: aquesta característica requereix una recuperació compatible o actualitzacions haurà d\'instal·lar manualment.</string>
-  <string name="not_download_install_ota_notice">L\' actualització <xliff:g id="filename">%s </xliff:g> es descarregava reeixidament. Quan tocant \"Tornar a arrencar i instal·lar\", el mecanisme es reprendrà propi per instal·lar el update.\n\nNote: aquesta característica requereix una recuperació compatible o actualitzacions haurà d\'instal·lar manually.\n\nThis és una actualització incremental, per tant els canvis realitzats en arxius de sistema podria provocar l\'actualització falli. Si això passa, si us plau flaix una ROM de ple en el seu lloc.</string>
-  <string name="md5_verification_failed">Incompatibilitat suma de MD5</string>
-  <string name="not_apk_action_install_update">Instal·la</string>
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Esborrar el fitxer</string>
-  <string name="confirm_delete_updates_dialog_message">Vols esborrar l\'arxiu d\'actualització seleccionat?</string>
-  <string name="confirm_delete_updates_all_dialog_message">Vols esborrar tots els arxius d\'actualitzacions descarregats?</string>
-  <string name="delete_single_update_success_message">Actualització <xliff:g id="filename">%s</xliff:g> esborrada</string>
-  <string name="delete_updates_failure_message">Hi ha hagut un error esborrant l\'arxiu d\'actualització</string>
-  <string name="delete_updates_nofolder_message">No s\'ha trobat la carpeta de l\'actualització</string>
-  <string name="delete_updates_success_message">Totes les actualitzacions descarregades s\'han esborrat</string>
-  <!-- Pref -->
-  <string name="pref_ota_check">OTA actualitzacions</string>
-  <string name="pref_ota_check_summary">Obtenir actualitzacions incrementals per estalviar temps de descàrrega i ample de banda</string>
-  <string name="pref_ota_check_request_summary">Obtenir actualitzacions incrementals per estalviar temps de descàrrega i ample de banda</string>
-  <!-- Apply install and update strings -->
-  <string name="apply_update_dialog_title">Aplica actualització</string>
-  <string name="apply_update_dialog_text">Estàs a punt d\'actualitzar a <xliff:g id="filename">%s</xliff:g>.\n\nSi apretes Actualitza, el dispositiu es reiniciarà ell mateix cap al mode de recuperació per tal d\'instal·lar l\'actualització.\n\nNota: Aquesta característica necessita un sistema de recuperació (Recovery) compatible o l\'actualització haurà de ser instal·lada manualment.</string>
-  <string name="apply_update_ota_dialog_text">Esteu a punt de millorar a <xliff:g id="filename">%s </xliff:g>. \n\nIf prem actualització, el dispositiu en si es reprendrà en el mode de recuperació per instal·lar el update.\n\nNote: aquesta característica requereix una recuperació compatible o actualitzacions haurà d\'instal·lar manually.\n\nThis és una actualització incremental, per tant els canvis realitzats en arxius de sistema podria provocar l\'actualització falli. Si això passa, si us plau flaix una ROM de ple en el seu lloc.</string>
-  <string name="apply_unable_to_reboot_toast">Impossible reiniciar en mode recovery</string>
-  <!-- Experimenter mode -->
-  <string name="show_exp_on">Ha permès  paràmetres experimentals.</string>
-  <string name="show_exp_already">No hi ha necessitat, ja heu activat paràmetres experimentals.</string>
-  <!-- Verify system compatible -->
-  <string name="verify_system_compatible_root_skip">Omet</string>
-  <!-- Common -->
-  <string name="activity_not_found">L\'aplicació no s\'ha instal·lat.</string>
+    <string name="new_update_summary">Nova</string>
+    <string name="old_update_summary">Antic</string>
+    <string name="update_check_title">Freqüència d\'Actualització</string>
+    <string name="check_manual">Manual</string>
+    <string name="nightly_alert">Has seleccionat incloure les actualitzacions nigthy en aquesta llista. Aquestes no tenen suport i han de ser utilitzades amb precaució.</string>
+    <string name="experimenter_alert">Heu seleccionat per incloure actualitzacions experimentals en aquesta llista. Aquests si dóna suport per provar només, ha de ser utilitzat amb precaució.</string>
+    <string name="unofficial_alert">Heu seleccionat per incloure actualitzacions no oficials en aquesta llista. Tingueu en compte que aquestes estan mantinguts pel seu desenvolupador.</string>
+    <string name="all_alert">Ha seleccionat per incloure totes les actualitzacions (d\'alliberament, experimental) en aquesta llista. Prengui en compte que les actualitzacions experimentales no són compatibles i s\'han d\'usar amb precaució.</string>
+    <string name="alert_title">Precaució</string>
+    <string name="update_type_title">Tipus d\'actualització</string>
+    <!-- ChangeLog -->
+    <string name="no_changelog_alert">No hi ha un registre de canvis disponible</string>
+    <string name="changelog_dialog_title">Registre de canvis</string>
+    <string name="loading_changelog">Carregant\u2026</string>
+    <string name="check_on_boot">En cada reinici</string>
+    <string name="check_twice_daily">Dues vegades cada dia</string>
+    <string name="check_daily">Un cop cada dia</string>
+    <string name="check_twice_weekly">Dues vegades cada setmana</string>
+    <string name="check_weekly">Una vegada cada setmana</string>
+    <string name="check_bi_weekly">Un cop cada quinze dies</string>
+    <string name="check_monthly">Un cop cada mes</string>
+    <!-- checking -->
+    <string name="checking_for_updates">Buscant actualitzacions</string>
+    <string name="no_updates_found">No s\'han trobat noves actualitzacions</string>
+    <string name="not_new_updates_found_ticker">Noves actualitzacions disponibles</string>
+    <string name="not_new_updates_found_title">Noves actualitzacions</string>
+    <string name="update_check_failed">Ha fallat la comprovació d\'actualitzacions. Si us plau, verifiqueu la connexió d\'internet i comproveu una altra vegada.</string>
+    <string name="not_action_download">Descarregar</string>
+    <string name="data_connection_required">Es necessària una connexió de dades.</string>
+    <!-- Downloads -->
+    <string name="confirm_download_cancelation_dialog_title">Cancel·lar la descàrrega</string>
+    <string name="confirm_download_cancelation_dialog_message">Cancel·lar la descàrrega actual?</string>
+    <string name="download_remaining"><xliff:g id="duration" example="3 minutes"> %s </xliff:g> esquerra</string>
+    <string name="download_running">En curs</string>
+    <string name="download_cancelled">Descàrrega cancel·lada</string>
+    <string name="download_already_running">Ja s\'està descarregant</string>
+    <string name="unable_to_download_file">Impossible descarregar l\'arxiu d\'actualització</string>
+    <string name="not_download_success">Actualització descarregada satisfactòriament</string>
+    <string name="not_download_failure">Descàrrega de l\'actualització fallida</string>
+    <string name="not_action_install_update">Reiniciar i instal·lar</string>
+    <string name="not_download_install_notice">L\' actualització <xliff:g id="filename">%s </xliff:g> es descarregava reeixidament. Quan tocant \"Tornar a arrencar i instal·lar\", el mecanisme es reprendrà propi per instal·lar el update.\n\nNote: aquesta característica requereix una recuperació compatible o actualitzacions haurà d\'instal·lar manualment.</string>
+    <string name="not_download_install_ota_notice">L\' actualització <xliff:g id="filename">%s </xliff:g> es descarregava reeixidament. Quan tocant \"Tornar a arrencar i instal·lar\", el mecanisme es reprendrà propi per instal·lar el update.\n\nNote: aquesta característica requereix una recuperació compatible o actualitzacions haurà d\'instal·lar manually.\n\nThis és una actualització incremental, per tant els canvis realitzats en arxius de sistema podria provocar l\'actualització falli. Si això passa, si us plau flaix una ROM de ple en el seu lloc.</string>
+    <string name="md5_verification_failed">Incompatibilitat suma de MD5</string>
+    <string name="not_apk_action_install_update">Instal·la</string>
+    <!-- deleting -->
+    <string name="confirm_delete_dialog_title">Esborrar el fitxer</string>
+    <string name="confirm_delete_updates_dialog_message">Vols esborrar l\'arxiu d\'actualització seleccionat?</string>
+    <string name="confirm_delete_updates_all_dialog_message">Vols esborrar tots els arxius d\'actualitzacions descarregats?</string>
+    <string name="delete_single_update_success_message">Actualització <xliff:g id="filename">%s</xliff:g> esborrada</string>
+    <string name="delete_updates_failure_message">Hi ha hagut un error esborrant l\'arxiu d\'actualització</string>
+    <string name="delete_updates_nofolder_message">No s\'ha trobat la carpeta de l\'actualització</string>
+    <string name="delete_updates_success_message">Totes les actualitzacions descarregades s\'han esborrat</string>
+    <!-- Pref -->
+    <string name="pref_ota_check">OTA actualitzacions</string>
+    <string name="pref_ota_check_summary">Obtenir actualitzacions incrementals per estalviar temps de descàrrega i ample de banda</string>
+    <string name="pref_ota_check_request_summary">Obtenir actualitzacions incrementals per estalviar temps de descàrrega i ample de banda</string>
+    <!-- Apply install and update strings -->
+    <string name="apply_update_dialog_title">Aplica actualització</string>
+    <string name="apply_update_dialog_text">Estàs a punt d\'actualitzar a <xliff:g id="filename">%s</xliff:g>.\n\nSi apretes Actualitza, el dispositiu es reiniciarà ell mateix cap al mode de recuperació per tal d\'instal·lar l\'actualització.\n\nNota: Aquesta característica necessita un sistema de recuperació (Recovery) compatible o l\'actualització haurà de ser instal·lada manualment.</string>
+    <string name="apply_update_ota_dialog_text">Esteu a punt de millorar a <xliff:g id="filename">%s </xliff:g>. \n\nIf prem actualització, el dispositiu en si es reprendrà en el mode de recuperació per instal·lar el update.\n\nNote: aquesta característica requereix una recuperació compatible o actualitzacions haurà d\'instal·lar manually.\n\nThis és una actualització incremental, per tant els canvis realitzats en arxius de sistema podria provocar l\'actualització falli. Si això passa, si us plau flaix una ROM de ple en el seu lloc.</string>
+    <string name="apply_unable_to_reboot_toast">Impossible reiniciar en mode recovery</string>
+    <!-- Experimenter mode -->
+    <string name="show_exp_on">Ha permès  paràmetres experimentals.</string>
+    <string name="show_exp_already">No hi ha necessitat, ja heu activat paràmetres experimentals.</string>
+    <!-- Verify system compatible -->
+    <string name="verify_system_compatible_root_skip">Omet</string>
+    <!-- Common -->
+    <string name="activity_not_found">L\'aplicació no s\'ha instal·lat.</string>
 </resources>

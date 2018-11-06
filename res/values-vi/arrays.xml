@@ -17,13 +17,13 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="not_new_updates_found_body">
-    <item quantity="other"><xliff:g id="count">%d </xliff:g> Cập Nhật có sẵn để tải về</item>
-  </plurals>
-  <plurals name="not_additional_count">
-    <item quantity="other">+ <xliff:g id="count">%d </xliff:g> Mở Rộng</item>
-  </plurals>
-  <plurals name="show_exp_countdown">
-    <item quantity="other">Bạn đang <xliff:g id="step_count">%1$d </xliff:g> thoát các cài đặt thử nghiệm.</item>
-  </plurals>
+    <plurals name="not_new_updates_found_body">
+        <item quantity="other"><xliff:g id="count">%d </xliff:g> Cập Nhật có sẵn để tải về</item>
+    </plurals>
+    <plurals name="not_additional_count">
+        <item quantity="other">+ <xliff:g id="count">%d </xliff:g> Mở Rộng</item>
+    </plurals>
+    <plurals name="show_exp_countdown">
+        <item quantity="other">Bạn đang <xliff:g id="step_count">%1$d </xliff:g> thoát các cài đặt thử nghiệm.</item>
+    </plurals>
 </resources>

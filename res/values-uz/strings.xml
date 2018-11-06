@@ -17,62 +17,62 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Fragment -->
-  <string name="mokee_center_title">MoKee Markazi</string>
-  <string name="mokee_support_title">Qo\'llab-quvvatlas</string>
-  <string name="mokee_updater_title">Yangilanishlar</string>
-  <!-- WebSite -->
-  <string name="mokee_website_title">MoKee Veb-Sayti</string>
-  <string name="mokee_website_summary">Rasmiy veb-sayt</string>
-  <string name="mokee_forum_title">MoKee Forum</string>
-  <string name="mokee_forum_summary">Tashrif MoKee Forumga</string>
-  <string name="mokee_issues_title">Markazi xato tomosha qilish MoKee</string>
-  <string name="mokee_issues_summary">Xato kuzatishdan ziyorat qilish</string>
-  <string name="mokee_changelog_title">O\'zgarishlar ro\'yxati MoKee</string>
-  <string name="mokee_changelog_summary">Ko\'rish o\'zgarishlar ro\'yxati</string>
-  <string name="mokee_github_title">MoKee Github</string>
-  <string name="mokee_github_summary">Tashrif qilmoq MoKee Github</string>
-  <string name="mokee_translate_title">MoKee Tarjima</string>
-  <string name="mokee_translate_summary">MoKee tarjima yordam berish uchun</string>
-  <string name="mokee_wiki_title">MoKee Wiki</string>
-  <string name="mokee_wiki_summary">Ko\'rish MoKee Wiki</string>
-  <string name="mokee_news_title">MoKee Yangiliklar</string>
-  <string name="mokee_news_summary">MoKee rivojlantirish haqida yangiliklar olish uchun</string>
-  <!-- Base Info -->
-  <string name="mokee_version_info_title">Versiya Haqida Ma\'lumot</string>
-  <string name="mokee_version_title">MoKee Versiya</string>
-  <string name="mokee_unique_id_title">Qurilma ID</string>
-  <string name="mokee_donate_info_title">Hadya haqida ma\'lumot</string>
-  <string name="mokee_last_check_title">Oxirgi Tekshirish</string>
-  <string name="mokee_last_check_never">Hech qachon</string>
-  <!-- Version -->
-  <string name="mokee_info_default">Ko`rsatilmagan</string>
-  <string name="mokee_version_type_release">Release</string>
-  <string name="mokee_version_type_history">Tarixi</string>
-  <string name="mokee_version_type_experimental">Tajriba</string>
-  <string name="mokee_version_type_nightly">Tungi</string>
-  <string name="mokee_version_type_unofficial">Norasmiy</string>
-  <string name="mokee_version_type_all">Barchasi</string>
-  <!-- State -->
-  <string name="downloaded_update_summary">Yuklangan</string>
-  <string name="installed_update_summary">O\'rnatilgan</string>
-  <string name="available_updates_title">Mavjud yangilanishlar</string>
-  <!-- Menu -->
-  <string name="menu_donate">Ehson</string>
-  <string name="menu_refresh">Yangilash</string>
-  <string name="menu_delete_all">Download olib tashlash</string>
-  <!-- Donate -->
-  <string name="donate_dialog_title">Xayriya qiling</string>
-  <!-- Update -->
-  <string name="unknown">Ko`rsatilmagan</string>
-  <!-- ChangeLog -->
-  <!-- checking -->
-  <!-- Downloads -->
-  <!-- deleting -->
-  <!-- Pref -->
-  <!-- Apply install and update strings -->
-  <!-- Experimenter mode -->
-  <!-- Verify system compatible -->
-  <!-- Common -->
-  <string name="activity_not_found">Ilova o‘rnatilmadi.</string>
+    <!-- Fragment -->
+    <string name="mokee_center_title">MoKee Markazi</string>
+    <string name="mokee_support_title">Qo\'llab-quvvatlas</string>
+    <string name="mokee_updater_title">Yangilanishlar</string>
+    <!-- WebSite -->
+    <string name="mokee_website_title">MoKee Veb-Sayti</string>
+    <string name="mokee_website_summary">Rasmiy veb-sayt</string>
+    <string name="mokee_forum_title">MoKee Forum</string>
+    <string name="mokee_forum_summary">Tashrif MoKee Forumga</string>
+    <string name="mokee_issues_title">Markazi xato tomosha qilish MoKee</string>
+    <string name="mokee_issues_summary">Xato kuzatishdan ziyorat qilish</string>
+    <string name="mokee_changelog_title">O\'zgarishlar ro\'yxati MoKee</string>
+    <string name="mokee_changelog_summary">Ko\'rish o\'zgarishlar ro\'yxati</string>
+    <string name="mokee_github_title">MoKee Github</string>
+    <string name="mokee_github_summary">Tashrif qilmoq MoKee Github</string>
+    <string name="mokee_translate_title">MoKee Tarjima</string>
+    <string name="mokee_translate_summary">MoKee tarjima yordam berish uchun</string>
+    <string name="mokee_wiki_title">MoKee Wiki</string>
+    <string name="mokee_wiki_summary">Ko\'rish MoKee Wiki</string>
+    <string name="mokee_news_title">MoKee Yangiliklar</string>
+    <string name="mokee_news_summary">MoKee rivojlantirish haqida yangiliklar olish uchun</string>
+    <!-- Base Info -->
+    <string name="mokee_version_info_title">Versiya Haqida Ma\'lumot</string>
+    <string name="mokee_version_title">MoKee Versiya</string>
+    <string name="mokee_unique_id_title">Qurilma ID</string>
+    <string name="mokee_donate_info_title">Hadya haqida ma\'lumot</string>
+    <string name="mokee_last_check_title">Oxirgi Tekshirish</string>
+    <string name="mokee_last_check_never">Hech qachon</string>
+    <!-- Version -->
+    <string name="mokee_info_default">Ko`rsatilmagan</string>
+    <string name="mokee_version_type_release">Release</string>
+    <string name="mokee_version_type_history">Tarixi</string>
+    <string name="mokee_version_type_experimental">Tajriba</string>
+    <string name="mokee_version_type_nightly">Tungi</string>
+    <string name="mokee_version_type_unofficial">Norasmiy</string>
+    <string name="mokee_version_type_all">Barchasi</string>
+    <!-- State -->
+    <string name="downloaded_update_summary">Yuklangan</string>
+    <string name="installed_update_summary">O\'rnatilgan</string>
+    <string name="available_updates_title">Mavjud yangilanishlar</string>
+    <!-- Menu -->
+    <string name="menu_donate">Ehson</string>
+    <string name="menu_refresh">Yangilash</string>
+    <string name="menu_delete_all">Download olib tashlash</string>
+    <!-- Donate -->
+    <string name="donate_dialog_title">Xayriya qiling</string>
+    <!-- Update -->
+    <string name="unknown">Ko`rsatilmagan</string>
+    <!-- ChangeLog -->
+    <!-- checking -->
+    <!-- Downloads -->
+    <!-- deleting -->
+    <!-- Pref -->
+    <!-- Apply install and update strings -->
+    <!-- Experimenter mode -->
+    <!-- Verify system compatible -->
+    <!-- Common -->
+    <string name="activity_not_found">Ilova o‘rnatilmadi.</string>
 </resources>

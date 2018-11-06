@@ -17,163 +17,163 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Fragment -->
-  <string name="mokee_center_title">Pusat MoKee</string>
-  <string name="mokee_support_title">Sokongan</string>
-  <string name="mokee_updater_title">Kemas kini</string>
-  <!-- WebSite -->
-  <string name="mokee_website_title">Laman web MoKee</string>
-  <string name="mokee_website_summary">Layari laman web rasmi</string>
-  <string name="mokee_forum_title">Forum Mokee</string>
-  <string name="mokee_forum_summary">Lawati Forum Mokee</string>
-  <string name="mokee_issues_title">Pengesan Bug Mokee</string>
-  <string name="mokee_issues_summary">Lawat pengesan bug</string>
-  <string name="mokee_changelog_title">Mokee Logubah</string>
-  <string name="mokee_changelog_summary">Papar logubah harian</string>
-  <string name="mokee_github_title">MoKee Github</string>
-  <string name="mokee_github_summary">Lawat Github Mokee</string>
-  <string name="mokee_translate_title">Terjemahan Mokee</string>
-  <string name="mokee_translate_summary">Bantu terjemah Mokee</string>
-  <string name="mokee_wiki_title">MoKee Wiki</string>
-  <string name="mokee_wiki_summary">Papar Wiki Mokee</string>
-  <string name="mokee_news_title">Berita MoKee</string>
-  <string name="mokee_news_summary">Terima berita pembangunan dari Mokee</string>
-  <!-- Base Info -->
-  <string name="mokee_version_info_title">Maklumat versi</string>
-  <string name="mokee_version_title">Versi MoKee</string>
-  <string name="mokee_unique_id_title">Unik ID</string>
-  <string name="mokee_donate_info_title">Info Donasi</string>
-  <string name="mokee_last_check_title">Semakan Terakhir</string>
-  <string name="mokee_last_check_never">Tidak pernah</string>
-  <!-- Version -->
-  <string name="mokee_info_default">Tidak diketahui</string>
-  <string name="mokee_version_type_release">Keluaran</string>
-  <string name="mokee_version_type_history">Sejarah</string>
-  <string name="mokee_version_type_experimental">Eksperimen</string>
-  <string name="mokee_version_type_nightly">Percubaan</string>
-  <string name="mokee_version_type_unofficial">Tidak rasmi</string>
-  <string name="mokee_version_type_all">Semua</string>
-  <!-- State -->
-  <string name="downloaded_update_summary">Dimuat turun</string>
-  <string name="installed_update_summary">Telah dipasang</string>
-  <string name="available_updates_title">Kemaskini tersedia</string>
-  <!-- Menu -->
-  <string name="menu_donate">Donasi</string>
-  <string name="menu_refresh">Kemaskini</string>
-  <string name="menu_delete_all">Hapuskan muat turun</string>
-  <string name="menu_unlock_features">Buka kunci ciri-ciri</string>
-  <string name="menu_restore">Memulihkan lesen</string>
-  <!-- Donate -->
-  <string name="donate_dialog_title">Donasi kepada kami</string>
-  <string name="donate_dialog_message">Tidak sama seperti syarikat-syarikat seperti Cygn atau MIUI, MoKee OpenSource ialah sebuah projek yang tidak beruntungan semata-mata dan dilahirkan oleh hobi serta keghairahan. Untuk mengekalkan projek ini, kami terpaksa untuk menggunakan wang kami setiap kali atau bergantung kepada dermaan dan pengiklanan. Dermaan anda boleh tolong mengurangkan beban kewangan dan meneruskan pembangunan masa depan! Pilihan ini membenarkan anda mengeluarkan iklan dalam MoKee Center, atau menggunakan pilihan \"Donate\" jika anda lebih suka ansuran (iklan akan dikeluarkan sehingga jumlah telah mencapai nilai tertentu). (dalam direktori akar kad sd, sah sahaja untuk peranti semasa) sebaik sahaja anda telah membuat dermaan.</string>
-  <string name="donate_dialog_next">Selepas</string>
-  <string name="donate_dialog_via_paypal">PayPal</string>
-  <string name="donate_dialog_via_alipay">AliPay</string>
-  <string name="donate_dialog_via_wechat">WeChat</string>
-  <string name="donate_dialog_via_restore">Pulihkan</string>
-  <string name="donate_money_toast_success">Terima kasih atas sumbangan anda!</string>
-  <string name="donate_money_title">Menderma kepada MoKee Open Source</string>
-  <string name="donate_money_again">Donasi lagi</string>
-  <string name="donate_money_restored_success">Dipulihkan berjaya!</string>
-  <string name="donate_money_restored_failed">Tiada rekod peranti dijumpai.</string>
-  <string name="donate_money_restored_failed_solution">Penyelesaian</string>
-  <string name="donate_money_restored_timeout">Sambungan tamat, sila cuba lagi</string>
-  <string name="donate_money_info">Anda telah menderma sejumlah %1$d CNY, lebih daripada %2$s penderma seluruh dunia!</string>
-  <string name="donate_money_info_with_rank">Anda telah menderma sejumlah %1$d CNY, lebih daripada %2$s penderma di seluruh dunia, No taraf %3$d!</string>
-  <string name="donate_money_info_null">Anda tidak donasi</string>
-  <string name="unlock_features_title">Buka kunci ciri-ciri</string>
-  <string name="unlock_features_ota_title">Menderma %d CNY untuk membuka kunci ota dan kelajuan muat turun penuh.</string>
-  <string name="unlock_features_verify_rom_title">Menderma %d CNY untuk kemaskini yang disahkan dan mengeluarkan iklan.</string>
-  <string name="unlock_features_all_title">Menderma %d CNY untuk membuka kunci ota, kelajuan muat turun penuh, kemaskini disahkan dan mengeluarkan iklan.</string>
-  <string name="unlock_features_request_summary">(akan disediakan selepas menderma %d CNY)</string>
-  <string name="unlock_features_pending_summary">(didermakan %1$d CNY, akan disediakan untuk seumur hidup selapas menderma %2$d CNY banyak lagi)</string>
-  <!-- Update -->
-  <string name="unknown">Tidak diketahui</string>
-  <string name="dialog_update">Kemas kini</string>
-  <string name="dialog_install">Pasang</string>
-  <string name="dialog_ok">OK</string>
-  <string name="dialog_cancel">Batal</string>
-  <string name="dialog_close">Tutup</string>
-  <string name="no_available_updates_intro">Semakan terakhir tidak menjumpai sebarang kemaskini. Untuk semak secara manual, gunakan butang kemaskini semula.</string>
-  <string name="no_available_ota_intro">Semakan terakhir tidak menjumpai sebarang kemaskini. Untuk semak secara manual, gunakan butang kemaskini semula. Jika anda menggunakan versi yang tiada sokongan peningkatan kemaskini, anda perlu nyahaktifkan opsyen peningkatan kemaskini.</string>
-  <string name="new_update_summary">Baru</string>
-  <string name="old_update_summary">Lama</string>
-  <string name="ota_diff_update_summary">Kemaskini tambahan boleh menjimat %s</string>
-  <string name="full_diff_update_summary">Menjimatkan %s apabila berbanding dengan ROM penuh</string>
-  <string name="update_check_title">Kekerapan kemas kini</string>
-  <string name="check_manual">Manual</string>
-  <string name="nightly_alert">Anda telah memilih untuk memasukkan kemaskini semalaman didalam senarai ini. Ini tidak disokong dan patut digunakan dengan berhati-hati.</string>
-  <string name="experimenter_alert">Anda telah memilih untuk memasukkan eksperimen kemaskini didalam senarai ini. Ini tidak disokong bermaksud untuk percubaan sahaja, patut digunakan dengan berhati-hati.</string>
-  <string name="unofficial_alert">Anda telah memilih untuk termasuk kemaskini secara tidak rasmi didalam senarai ini. Perlu diingat bahawa ia disokong oleh penyenggara peranti anda.</string>
-  <string name="all_alert">Anda telah memilih untuk memasukkan semua pengemaskinian (lepasan, semalam) didalam senarai ini. Ambil perhatian bahawa kemaskini semalaman adalah tidak disokong dan harus digunakan dengan berhati-hati.</string>
-  <string name="alert_title">Amaran</string>
-  <string name="update_type_title">Jenis kemaskini</string>
-  <!-- ChangeLog -->
-  <string name="no_changelog_alert">Tiada log perubahan</string>
-  <string name="changelog_dialog_title">Log perubahan</string>
-  <string name="loading_changelog">Memuatkan\u2026</string>
-  <string name="check_on_boot">Setiap hidupmula</string>
-  <string name="check_twice_daily">Dua kali sehari</string>
-  <string name="check_daily">Sekali sehari</string>
-  <string name="check_twice_weekly">Dua kali seminggu</string>
-  <string name="check_weekly">Sekali seminggu</string>
-  <string name="check_bi_weekly">Sekali setiap 2 minggu</string>
-  <string name="check_monthly">Sekali sebulan</string>
-  <!-- checking -->
-  <string name="checking_for_updates">Menyemak untuk kemaskini</string>
-  <string name="no_updates_found">Tiada kemaskini dijumpai</string>
-  <string name="not_new_updates_found_ticker">Kemaskini baru tersedia</string>
-  <string name="not_new_updates_found_title">Kemaskini baru</string>
-  <string name="update_check_failed">Semakan kemaskini gagal. Sila semak sambungan internet anda dan cuba lagi kemudian.</string>
-  <string name="not_action_download">Muat turun</string>
-  <string name="data_connection_required">Sambungan data diperlukan.</string>
-  <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">Batal muat turun</string>
-  <string name="confirm_download_cancelation_dialog_message">Batalkan muat turun semasa?</string>
-  <string name="download_remaining"><xliff:g id="duration" example="3 minutes">%s</xliff:g> kiri</string>
-  <string name="download_running">Sedang berjalan</string>
-  <string name="download_cancelled">Muat turun dibatalkan</string>
-  <string name="download_already_running">Muat turun sedang berjalan</string>
-  <string name="download_limited_mode">Sedang muat turun dengan kelajuan yang terhad, sila derma untuk menikmati kelajuan yang sepenuhnya.</string>
-  <string name="unable_to_download_file">Tidak dapat muat turun fail kemaskini</string>
-  <string name="not_download_success">Kemaskini berjaya dimuat turun</string>
-  <string name="not_download_failure">Muat turun kemaskini tidak berjaya</string>
-  <string name="not_action_install_update">Hidupkan semula dan pasang</string>
-  <string name="not_download_install_notice">Kemaskini <xliff:g id="filename">%s</xliff:g> telah berjaya dimuat turun. Apabila menyentuh \'But semula dan pasang\', peranti akan dimulakan semula untuk memasang kemaskini.\n\nNota: Ciri ini memerlukan satu pemulihan atau kemaskini yang serasi akan diperlukan untuk dipasangkan secara manual.</string>
-  <string name="not_download_install_ota_notice">Kemaskini <xliff:g id="filename">%s</xliff:g> telah berjaya dimuat turun. Apabila menyentuh \'But semula dan pasang\', peranti akan dimulankan semula untuk pasang kemaskini.\n\nNota: Ciri ini memerlukan pemulihan atau kemaskini yang serasi akan diperlukan untuk dipasangkan secara manual.\n\nIni adalah kemaskini tambahan, oleh itu setiap perubahan dibuat kepada fail-fail sistem mungkin menyebabkan kemaskini gagal. Jika ini berlaku, sila imbaskan ROM penuh.</string>
-  <string name="md5_verification_failed">MD5 tidak sepadan</string>
-  <string name="not_apk_action_install_update">Pasang</string>
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Padam fail</string>
-  <string name="confirm_delete_updates_dialog_message">Padam fail kemaskini pilihan?</string>
-  <string name="confirm_delete_updates_all_dialog_message">Padam semua fail kemaskini yang dimuat turun?</string>
-  <string name="delete_single_update_success_message">Kemaskini <xliff:g id="filename">%s</xliff:g> dipadam</string>
-  <string name="delete_updates_failure_message">Berlaku ralat memadam fail kemaskini</string>
-  <string name="delete_updates_nofolder_message">Direktori kemaskini tidak dijumpai</string>
-  <string name="delete_updates_success_message">Semua kemaskini yang dimuat turun dipadam</string>
-  <!-- Pref -->
-  <string name="pref_ota_check">Kemaskini tambahan</string>
-  <string name="pref_ota_check_summary">Dapatkan kemaskini tambahan untuk menjimatkan masa muat turun dan lebar jalur</string>
-  <string name="pref_ota_check_request_summary">Dapatkan kemaskini tambahan untuk menjimatkan masa muat turun dan lebar jalur</string>
-  <string name="pref_verify_rom">Kemaskini disahkan</string>
-  <string name="pref_verify_rom_summary">Hanya memaparkan kemaskini yang disahkan oleh pengguna-pengguna lain</string>
-  <string name="pref_verify_rom_request_summary">Hanya memaparkan kemaskini yang disahkan oleh pengguna-pengguna lain</string>
-  <!-- Apply install and update strings -->
-  <string name="apply_update_dialog_title">Terima kemaskini</string>
-  <string name="apply_update_dialog_text">Anda akan naik taraf kepada <xliff:g id="filename">%s</xliff:g>.\n\nJika anda tekan Kemaskini, peranti akan dimulakan semula dalam mod pemulihan untuk memasang kemaskini.\n\nNota: Ciri ini memerlukan Pemulihan atau kemaskini yang serasi akan diperlukan untuk dipasangkan secara manual.</string>
-  <string name="apply_update_ota_dialog_text">Anda akan naik taraf kepada <xliff:g id="filename">%s</xliff:g>.\n\nJika anda tekan Kemaskini, peranti akan dimulakan semula dalam mod pemulihan untuk memasang kemaskini.\n\nNota: Ciri ini memerlukan Pemulihan atau kemaskini yang serasi akan diperlukan untuk dipasangkan secara manual.\n\nIni adalah kemaskini tambahan, oleh itu setiap perubahan dibuat kepada fail-fail sistem mungkin menyebabkan kemaskini gagal. Jika ini berlaku, sila imbaskan ROM penuh.</string>
-  <string name="apply_unable_to_reboot_toast">Tidak dapat but semula kepada pemulihan</string>
-  <!-- Experimenter mode -->
-  <string name="show_exp_on">Anda telah mendayakan seting percubaan!</string>
-  <string name="show_exp_already">Tidak perlu, anda telahpun mengaktifkan seting eksperimen.</string>
-  <!-- Verify system compatible -->
-  <string name="verify_system_compatible_title">Kemaskini sistem Mokee</string>
-  <string name="verify_system_compatible_message">Mengesahkan keserasian sistem sebelum penampalan\u2026</string>
-  <string name="verify_system_compatible_failed">Mengesahkan keserasian sistem gagal</string>
-  <string name="verify_system_compatible_patch">Fail-fail berikut telah diubahsuai atao dikeluarkan, sila memulihkan dan mencuba lagi.</string>
-  <string name="verify_system_compatible_img">%1$s tidak serasi, sila menaik taraf kepada versi %2$s</string>
-  <string name="verify_system_compatible_root_request">Keizinan Root adalah diperlukan oleh Plugin Pengesahan Kemaskini untuk mengesahkan keserasian kemaskini sekarang. Jika anda memilih untuk langkau, langkah ini akan ditangguhkan dan dilaksanakan dalam mod pemulihan.</string>
-  <string name="verify_system_compatible_root_skip">Langkau</string>
-  <!-- Common -->
-  <string name="activity_not_found">Apl tidak dipasang.</string>
+    <!-- Fragment -->
+    <string name="mokee_center_title">Pusat MoKee</string>
+    <string name="mokee_support_title">Sokongan</string>
+    <string name="mokee_updater_title">Kemas kini</string>
+    <!-- WebSite -->
+    <string name="mokee_website_title">Laman web MoKee</string>
+    <string name="mokee_website_summary">Layari laman web rasmi</string>
+    <string name="mokee_forum_title">Forum Mokee</string>
+    <string name="mokee_forum_summary">Lawati Forum Mokee</string>
+    <string name="mokee_issues_title">Pengesan Bug Mokee</string>
+    <string name="mokee_issues_summary">Lawat pengesan bug</string>
+    <string name="mokee_changelog_title">Mokee Logubah</string>
+    <string name="mokee_changelog_summary">Papar logubah harian</string>
+    <string name="mokee_github_title">MoKee Github</string>
+    <string name="mokee_github_summary">Lawat Github Mokee</string>
+    <string name="mokee_translate_title">Terjemahan Mokee</string>
+    <string name="mokee_translate_summary">Bantu terjemah Mokee</string>
+    <string name="mokee_wiki_title">MoKee Wiki</string>
+    <string name="mokee_wiki_summary">Papar Wiki Mokee</string>
+    <string name="mokee_news_title">Berita MoKee</string>
+    <string name="mokee_news_summary">Terima berita pembangunan dari Mokee</string>
+    <!-- Base Info -->
+    <string name="mokee_version_info_title">Maklumat versi</string>
+    <string name="mokee_version_title">Versi MoKee</string>
+    <string name="mokee_unique_id_title">Unik ID</string>
+    <string name="mokee_donate_info_title">Info Donasi</string>
+    <string name="mokee_last_check_title">Semakan Terakhir</string>
+    <string name="mokee_last_check_never">Tidak pernah</string>
+    <!-- Version -->
+    <string name="mokee_info_default">Tidak diketahui</string>
+    <string name="mokee_version_type_release">Keluaran</string>
+    <string name="mokee_version_type_history">Sejarah</string>
+    <string name="mokee_version_type_experimental">Eksperimen</string>
+    <string name="mokee_version_type_nightly">Percubaan</string>
+    <string name="mokee_version_type_unofficial">Tidak rasmi</string>
+    <string name="mokee_version_type_all">Semua</string>
+    <!-- State -->
+    <string name="downloaded_update_summary">Dimuat turun</string>
+    <string name="installed_update_summary">Telah dipasang</string>
+    <string name="available_updates_title">Kemaskini tersedia</string>
+    <!-- Menu -->
+    <string name="menu_donate">Donasi</string>
+    <string name="menu_refresh">Kemaskini</string>
+    <string name="menu_delete_all">Hapuskan muat turun</string>
+    <string name="menu_unlock_features">Buka kunci ciri-ciri</string>
+    <string name="menu_restore">Memulihkan lesen</string>
+    <!-- Donate -->
+    <string name="donate_dialog_title">Donasi kepada kami</string>
+    <string name="donate_dialog_message">Tidak sama seperti syarikat-syarikat seperti Cygn atau MIUI, MoKee OpenSource ialah sebuah projek yang tidak beruntungan semata-mata dan dilahirkan oleh hobi serta keghairahan. Untuk mengekalkan projek ini, kami terpaksa untuk menggunakan wang kami setiap kali atau bergantung kepada dermaan dan pengiklanan. Dermaan anda boleh tolong mengurangkan beban kewangan dan meneruskan pembangunan masa depan! Pilihan ini membenarkan anda mengeluarkan iklan dalam MoKee Center, atau menggunakan pilihan \"Donate\" jika anda lebih suka ansuran (iklan akan dikeluarkan sehingga jumlah telah mencapai nilai tertentu). (dalam direktori akar kad sd, sah sahaja untuk peranti semasa) sebaik sahaja anda telah membuat dermaan.</string>
+    <string name="donate_dialog_next">Selepas</string>
+    <string name="donate_dialog_via_paypal">PayPal</string>
+    <string name="donate_dialog_via_alipay">AliPay</string>
+    <string name="donate_dialog_via_wechat">WeChat</string>
+    <string name="donate_dialog_via_restore">Pulihkan</string>
+    <string name="donate_money_toast_success">Terima kasih atas sumbangan anda!</string>
+    <string name="donate_money_title">Menderma kepada MoKee Open Source</string>
+    <string name="donate_money_again">Donasi lagi</string>
+    <string name="donate_money_restored_success">Dipulihkan berjaya!</string>
+    <string name="donate_money_restored_failed">Tiada rekod peranti dijumpai.</string>
+    <string name="donate_money_restored_failed_solution">Penyelesaian</string>
+    <string name="donate_money_restored_timeout">Sambungan tamat, sila cuba lagi</string>
+    <string name="donate_money_info">Anda telah menderma sejumlah %1$d CNY, lebih daripada %2$s penderma seluruh dunia!</string>
+    <string name="donate_money_info_with_rank">Anda telah menderma sejumlah %1$d CNY, lebih daripada %2$s penderma di seluruh dunia, No taraf %3$d!</string>
+    <string name="donate_money_info_null">Anda tidak donasi</string>
+    <string name="unlock_features_title">Buka kunci ciri-ciri</string>
+    <string name="unlock_features_ota_title">Menderma %d CNY untuk membuka kunci ota dan kelajuan muat turun penuh.</string>
+    <string name="unlock_features_verify_rom_title">Menderma %d CNY untuk kemaskini yang disahkan dan mengeluarkan iklan.</string>
+    <string name="unlock_features_all_title">Menderma %d CNY untuk membuka kunci ota, kelajuan muat turun penuh, kemaskini disahkan dan mengeluarkan iklan.</string>
+    <string name="unlock_features_request_summary">(akan disediakan selepas menderma %d CNY)</string>
+    <string name="unlock_features_pending_summary">(didermakan %1$d CNY, akan disediakan untuk seumur hidup selapas menderma %2$d CNY banyak lagi)</string>
+    <!-- Update -->
+    <string name="unknown">Tidak diketahui</string>
+    <string name="dialog_update">Kemas kini</string>
+    <string name="dialog_install">Pasang</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Batal</string>
+    <string name="dialog_close">Tutup</string>
+    <string name="no_available_updates_intro">Semakan terakhir tidak menjumpai sebarang kemaskini. Untuk semak secara manual, gunakan butang kemaskini semula.</string>
+    <string name="no_available_ota_intro">Semakan terakhir tidak menjumpai sebarang kemaskini. Untuk semak secara manual, gunakan butang kemaskini semula. Jika anda menggunakan versi yang tiada sokongan peningkatan kemaskini, anda perlu nyahaktifkan opsyen peningkatan kemaskini.</string>
+    <string name="new_update_summary">Baru</string>
+    <string name="old_update_summary">Lama</string>
+    <string name="ota_diff_update_summary">Kemaskini tambahan boleh menjimat %s</string>
+    <string name="full_diff_update_summary">Menjimatkan %s apabila berbanding dengan ROM penuh</string>
+    <string name="update_check_title">Kekerapan kemas kini</string>
+    <string name="check_manual">Manual</string>
+    <string name="nightly_alert">Anda telah memilih untuk memasukkan kemaskini semalaman didalam senarai ini. Ini tidak disokong dan patut digunakan dengan berhati-hati.</string>
+    <string name="experimenter_alert">Anda telah memilih untuk memasukkan eksperimen kemaskini didalam senarai ini. Ini tidak disokong bermaksud untuk percubaan sahaja, patut digunakan dengan berhati-hati.</string>
+    <string name="unofficial_alert">Anda telah memilih untuk termasuk kemaskini secara tidak rasmi didalam senarai ini. Perlu diingat bahawa ia disokong oleh penyenggara peranti anda.</string>
+    <string name="all_alert">Anda telah memilih untuk memasukkan semua pengemaskinian (lepasan, semalam) didalam senarai ini. Ambil perhatian bahawa kemaskini semalaman adalah tidak disokong dan harus digunakan dengan berhati-hati.</string>
+    <string name="alert_title">Amaran</string>
+    <string name="update_type_title">Jenis kemaskini</string>
+    <!-- ChangeLog -->
+    <string name="no_changelog_alert">Tiada log perubahan</string>
+    <string name="changelog_dialog_title">Log perubahan</string>
+    <string name="loading_changelog">Memuatkan\u2026</string>
+    <string name="check_on_boot">Setiap hidupmula</string>
+    <string name="check_twice_daily">Dua kali sehari</string>
+    <string name="check_daily">Sekali sehari</string>
+    <string name="check_twice_weekly">Dua kali seminggu</string>
+    <string name="check_weekly">Sekali seminggu</string>
+    <string name="check_bi_weekly">Sekali setiap 2 minggu</string>
+    <string name="check_monthly">Sekali sebulan</string>
+    <!-- checking -->
+    <string name="checking_for_updates">Menyemak untuk kemaskini</string>
+    <string name="no_updates_found">Tiada kemaskini dijumpai</string>
+    <string name="not_new_updates_found_ticker">Kemaskini baru tersedia</string>
+    <string name="not_new_updates_found_title">Kemaskini baru</string>
+    <string name="update_check_failed">Semakan kemaskini gagal. Sila semak sambungan internet anda dan cuba lagi kemudian.</string>
+    <string name="not_action_download">Muat turun</string>
+    <string name="data_connection_required">Sambungan data diperlukan.</string>
+    <!-- Downloads -->
+    <string name="confirm_download_cancelation_dialog_title">Batal muat turun</string>
+    <string name="confirm_download_cancelation_dialog_message">Batalkan muat turun semasa?</string>
+    <string name="download_remaining"><xliff:g id="duration" example="3 minutes">%s</xliff:g> kiri</string>
+    <string name="download_running">Sedang berjalan</string>
+    <string name="download_cancelled">Muat turun dibatalkan</string>
+    <string name="download_already_running">Muat turun sedang berjalan</string>
+    <string name="download_limited_mode">Sedang muat turun dengan kelajuan yang terhad, sila derma untuk menikmati kelajuan yang sepenuhnya.</string>
+    <string name="unable_to_download_file">Tidak dapat muat turun fail kemaskini</string>
+    <string name="not_download_success">Kemaskini berjaya dimuat turun</string>
+    <string name="not_download_failure">Muat turun kemaskini tidak berjaya</string>
+    <string name="not_action_install_update">Hidupkan semula dan pasang</string>
+    <string name="not_download_install_notice">Kemaskini <xliff:g id="filename">%s</xliff:g> telah berjaya dimuat turun. Apabila menyentuh \'But semula dan pasang\', peranti akan dimulakan semula untuk memasang kemaskini.\n\nNota: Ciri ini memerlukan satu pemulihan atau kemaskini yang serasi akan diperlukan untuk dipasangkan secara manual.</string>
+    <string name="not_download_install_ota_notice">Kemaskini <xliff:g id="filename">%s</xliff:g> telah berjaya dimuat turun. Apabila menyentuh \'But semula dan pasang\', peranti akan dimulankan semula untuk pasang kemaskini.\n\nNota: Ciri ini memerlukan pemulihan atau kemaskini yang serasi akan diperlukan untuk dipasangkan secara manual.\n\nIni adalah kemaskini tambahan, oleh itu setiap perubahan dibuat kepada fail-fail sistem mungkin menyebabkan kemaskini gagal. Jika ini berlaku, sila imbaskan ROM penuh.</string>
+    <string name="md5_verification_failed">MD5 tidak sepadan</string>
+    <string name="not_apk_action_install_update">Pasang</string>
+    <!-- deleting -->
+    <string name="confirm_delete_dialog_title">Padam fail</string>
+    <string name="confirm_delete_updates_dialog_message">Padam fail kemaskini pilihan?</string>
+    <string name="confirm_delete_updates_all_dialog_message">Padam semua fail kemaskini yang dimuat turun?</string>
+    <string name="delete_single_update_success_message">Kemaskini <xliff:g id="filename">%s</xliff:g> dipadam</string>
+    <string name="delete_updates_failure_message">Berlaku ralat memadam fail kemaskini</string>
+    <string name="delete_updates_nofolder_message">Direktori kemaskini tidak dijumpai</string>
+    <string name="delete_updates_success_message">Semua kemaskini yang dimuat turun dipadam</string>
+    <!-- Pref -->
+    <string name="pref_ota_check">Kemaskini tambahan</string>
+    <string name="pref_ota_check_summary">Dapatkan kemaskini tambahan untuk menjimatkan masa muat turun dan lebar jalur</string>
+    <string name="pref_ota_check_request_summary">Dapatkan kemaskini tambahan untuk menjimatkan masa muat turun dan lebar jalur</string>
+    <string name="pref_verify_rom">Kemaskini disahkan</string>
+    <string name="pref_verify_rom_summary">Hanya memaparkan kemaskini yang disahkan oleh pengguna-pengguna lain</string>
+    <string name="pref_verify_rom_request_summary">Hanya memaparkan kemaskini yang disahkan oleh pengguna-pengguna lain</string>
+    <!-- Apply install and update strings -->
+    <string name="apply_update_dialog_title">Terima kemaskini</string>
+    <string name="apply_update_dialog_text">Anda akan naik taraf kepada <xliff:g id="filename">%s</xliff:g>.\n\nJika anda tekan Kemaskini, peranti akan dimulakan semula dalam mod pemulihan untuk memasang kemaskini.\n\nNota: Ciri ini memerlukan Pemulihan atau kemaskini yang serasi akan diperlukan untuk dipasangkan secara manual.</string>
+    <string name="apply_update_ota_dialog_text">Anda akan naik taraf kepada <xliff:g id="filename">%s</xliff:g>.\n\nJika anda tekan Kemaskini, peranti akan dimulakan semula dalam mod pemulihan untuk memasang kemaskini.\n\nNota: Ciri ini memerlukan Pemulihan atau kemaskini yang serasi akan diperlukan untuk dipasangkan secara manual.\n\nIni adalah kemaskini tambahan, oleh itu setiap perubahan dibuat kepada fail-fail sistem mungkin menyebabkan kemaskini gagal. Jika ini berlaku, sila imbaskan ROM penuh.</string>
+    <string name="apply_unable_to_reboot_toast">Tidak dapat but semula kepada pemulihan</string>
+    <!-- Experimenter mode -->
+    <string name="show_exp_on">Anda telah mendayakan seting percubaan!</string>
+    <string name="show_exp_already">Tidak perlu, anda telahpun mengaktifkan seting eksperimen.</string>
+    <!-- Verify system compatible -->
+    <string name="verify_system_compatible_title">Kemaskini sistem Mokee</string>
+    <string name="verify_system_compatible_message">Mengesahkan keserasian sistem sebelum penampalan\u2026</string>
+    <string name="verify_system_compatible_failed">Mengesahkan keserasian sistem gagal</string>
+    <string name="verify_system_compatible_patch">Fail-fail berikut telah diubahsuai atao dikeluarkan, sila memulihkan dan mencuba lagi.</string>
+    <string name="verify_system_compatible_img">%1$s tidak serasi, sila menaik taraf kepada versi %2$s</string>
+    <string name="verify_system_compatible_root_request">Keizinan Root adalah diperlukan oleh Plugin Pengesahan Kemaskini untuk mengesahkan keserasian kemaskini sekarang. Jika anda memilih untuk langkau, langkah ini akan ditangguhkan dan dilaksanakan dalam mod pemulihan.</string>
+    <string name="verify_system_compatible_root_skip">Langkau</string>
+    <!-- Common -->
+    <string name="activity_not_found">Apl tidak dipasang.</string>
 </resources>

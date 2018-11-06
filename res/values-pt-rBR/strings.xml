@@ -17,164 +17,164 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Fragment -->
-  <string name="mokee_center_title">Central MoKee</string>
-  <string name="mokee_support_title">Suporte</string>
-  <string name="mokee_updater_title">Atualizador</string>
-  <!-- WebSite -->
-  <string name="mokee_links">Links</string>
-  <string name="mokee_website_title">O site MoKee</string>
-  <string name="mokee_website_summary">Visite o site oficial</string>
-  <string name="mokee_forum_title">MoKee Fórum</string>
-  <string name="mokee_forum_summary">Visite o fórum MoKee</string>
-  <string name="mokee_issues_title">MoKee Rastreador de Bug</string>
-  <string name="mokee_issues_summary">Visite o bug tracker</string>
-  <string name="mokee_changelog_title">Registro de alterações Mokee</string>
-  <string name="mokee_changelog_summary">Ver Lista de mudanças Diaria</string>
-  <string name="mokee_github_title">MoKee Github</string>
-  <string name="mokee_github_summary">Visite o MoKee Github</string>
-  <string name="mokee_translate_title">Definição da palavra MoKee</string>
-  <string name="mokee_translate_summary">Ajude a traduzir MoKee</string>
-  <string name="mokee_wiki_title">MoKee Wiki</string>
-  <string name="mokee_wiki_summary">Ver a MoKee Wiki</string>
-  <string name="mokee_news_title">Notícias Mokee</string>
-  <string name="mokee_news_summary">Receber notícias de desenvolvimento da Mokee</string>
-  <!-- Base Info -->
-  <string name="mokee_version_info_title">Informações da versão</string>
-  <string name="mokee_version_title">Versão MoKee</string>
-  <string name="mokee_unique_id_title">ID Unico</string>
-  <string name="mokee_donate_info_title">Informações sobre Doações</string>
-  <string name="mokee_last_check_title">Última verificação</string>
-  <string name="mokee_last_check_never">Nunca</string>
-  <!-- Version -->
-  <string name="mokee_info_default">Desconhecido</string>
-  <string name="mokee_version_type_release">Lançamento</string>
-  <string name="mokee_version_type_history">Histórico</string>
-  <string name="mokee_version_type_experimental">Experimental</string>
-  <string name="mokee_version_type_nightly">Noturna</string>
-  <string name="mokee_version_type_unofficial">Não oficial</string>
-  <string name="mokee_version_type_all">Todas</string>
-  <!-- State -->
-  <string name="downloaded_update_summary">Baixado</string>
-  <string name="installed_update_summary">Instalado</string>
-  <string name="available_updates_title">Atualizações disponíveis</string>
-  <!-- Menu -->
-  <string name="menu_donate">Doar</string>
-  <string name="menu_refresh">Recarregar</string>
-  <string name="menu_delete_all">Excluir download</string>
-  <string name="menu_unlock_features">Desbloquear recursos</string>
-  <string name="menu_restore">Restaurar a licença</string>
-  <!-- Donate -->
-  <string name="donate_dialog_title">Doe para nós</string>
-  <string name="donate_dialog_message">Diferentemente de projetos como Cygn ou MIUI, o MoKee OpenSource é um projeto puramente sem fins lucrativos nascido do hobby e da paixão. Para mantermos este projeto, tivemos que pôr nosso próprio dinheiro na maior parte do tempo ou depender de doações e anúncios. Suas doações podem ajudar a reduzir nossa carga financeira e sustentar o desenvolvimento futuro! Essa opção permite à você remover os anúncios da MoKee Center, ou use a opção \"Doar\" se preferir parcelar (anúncios serão removidos uma vez que se atinja o valor especificado). Por favor, faça uma cópia de segurança do arquivo mokee.license (na raiz da pasta sdcard, válido apenas ao dispositivo atual) uma vez feita a doação.</string>
-  <string name="donate_dialog_next">Próximo</string>
-  <string name="donate_dialog_via_paypal">Paypal</string>
-  <string name="donate_dialog_via_alipay">AliPay</string>
-  <string name="donate_dialog_via_wechat">WeChat</string>
-  <string name="donate_dialog_via_restore">Restaurar</string>
-  <string name="donate_money_toast_success">Obrigado por sua doação!</string>
-  <string name="donate_money_title">Doar para MoKee Open Source</string>
-  <string name="donate_money_again">Doar novamente</string>
-  <string name="donate_money_restored_success">Restauração Concluída!</string>
-  <string name="donate_money_restored_failed">Sem registros de dispositivo.</string>
-  <string name="donate_money_restored_failed_solution">Solução</string>
-  <string name="donate_money_restored_timeout">Conexão Expirou, por favor tente novamente</string>
-  <string name="donate_money_info">Você doou um total de %1$d CNY, mais do que %2$s de doadores globalmente!</string>
-  <string name="donate_money_info_with_rank">Você doou um total de %1$d CNY, mais do que %2$s de doadores globalmente, rank No.%3$d!</string>
-  <string name="donate_money_info_null">Você ainda não doou</string>
-  <string name="unlock_features_title">Desbloquear recursos</string>
-  <string name="unlock_features_ota_title">Doar %d CNY para desbloquear OTA e download em velocidade máxima.</string>
-  <string name="unlock_features_verify_rom_title">Doar %d CNY para desbloquear OTA, download em velocidade máxima, atualizações verificadas e remover anúncios.</string>
-  <string name="unlock_features_all_title">Doar %d CNY para desbloquear OTA, download em velocidade máxima, atualizações verificadas e remover anúncios.</string>
-  <string name="unlock_features_request_summary">(disponível após a doação %d CNY)</string>
-  <string name="unlock_features_pending_summary">(doou %1$d CNY, disponível para toda a vida depois de doar %2$d CNY mais)</string>
-  <!-- Update -->
-  <string name="unknown">Desconhecido</string>
-  <string name="dialog_update">Atualizar</string>
-  <string name="dialog_install">Instalar</string>
-  <string name="dialog_ok">OK</string>
-  <string name="dialog_cancel">Cancelar</string>
-  <string name="dialog_close">Fechar</string>
-  <string name="no_available_updates_intro">A última verificação não encontrou nenhuma atualização. Para verificar manualmente por novas atualizações, use o botão Recarregar.</string>
-  <string name="no_available_ota_intro">A última verificação não encontrou nenhuma atualização disponível. Para verificar novas atualizações manualmente, use o botão Recarregar. Se você estiver executando uma versão que está fora do intervalo de data de atualização incremental com suporte, você deve desmarcar a opção \"Atualizações incrementais\".</string>
-  <string name="new_update_summary">Novo</string>
-  <string name="old_update_summary">Antigo</string>
-  <string name="ota_diff_update_summary">Atualizações incrementais podem salvar %s</string>
-  <string name="full_diff_update_summary">Salva %s em relação a ROM completa</string>
-  <string name="update_check_title">Verificar frequência de atualização</string>
-  <string name="check_manual">Manual</string>
-  <string name="nightly_alert">Você selecionou para incluir atualizações nightly nesta lista. Elas não oferecem suporte e devem ser usadas com cautela.</string>
-  <string name="experimenter_alert">Você selecionou para incluir atualizações experimentais nesta lista. Estas não oferecem suporte, são destinadas apenas para testes e devem ser usadas com cautela.</string>
-  <string name="unofficial_alert">Você selecionou para incluir atualizações não oficiais nesta lista. Tenha em mente que estas são suportadas apenas pelo mantenedor do dispositivo.</string>
-  <string name="all_alert">Você selecionou incluir todas as atualizações (release, nightly) nesta lista. Considere o aviso de que as atualizações nightly não oferecem suporte e devem ser usadas com cautela.</string>
-  <string name="alert_title">Cuidado</string>
-  <string name="update_type_title">Tipo de atualização</string>
-  <!-- ChangeLog -->
-  <string name="no_changelog_alert">Não há registros de alterações</string>
-  <string name="changelog_dialog_title">Registro de alterações</string>
-  <string name="loading_changelog">Carregando\u2026</string>
-  <string name="check_on_boot">Em cada reinicialização</string>
-  <string name="check_twice_daily">Duas vezes por dia</string>
-  <string name="check_daily">Uma vez por dia</string>
-  <string name="check_twice_weekly">Duas vezes por semana</string>
-  <string name="check_weekly">Uma vez por semana</string>
-  <string name="check_bi_weekly">Uma vez a cada duas semanas</string>
-  <string name="check_monthly">Uma vez por mês</string>
-  <!-- checking -->
-  <string name="checking_for_updates">Verificando por atualizações</string>
-  <string name="no_updates_found">Nenhuma atualização foi encontrada</string>
-  <string name="not_new_updates_found_ticker">Novas atualizações estão disponíveis</string>
-  <string name="not_new_updates_found_title">Novas atualizações</string>
-  <string name="update_check_failed">A verificação de atualização falhou. Por favor, verifique sua conexão de internet e tente novamente mais tarde.</string>
-  <string name="not_action_download">Baixar</string>
-  <string name="data_connection_required">Uma conexão de dados é necessária.</string>
-  <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">Cancelar download</string>
-  <string name="confirm_download_cancelation_dialog_message">Cancelar o download atual?</string>
-  <string name="download_remaining"><xliff:g id="duration" example="3 minutes">%s</xliff:g> restantes</string>
-  <string name="download_running">Em andamento</string>
-  <string name="download_cancelled">Download cancelado</string>
-  <string name="download_already_running">Um download já está em andamento</string>
-  <string name="download_limited_mode">Baixar a velocidade limitada, por favor doe para desfrutar de toda a velocidade.</string>
-  <string name="unable_to_download_file">Não foi possível baixar o arquivo de atualização</string>
-  <string name="not_download_success">Atualização baixada com sucesso</string>
-  <string name="not_download_failure">Download da atualização foi malsucedido</string>
-  <string name="not_action_install_update">Reiniciar e instalar</string>
-  <string name="not_download_install_notice">A atualização <xliff:g id="filename">%s</xliff:g> foi baixada com sucesso. Quando tocar sobre \'Reiniciar e instalar\', o dispositivo irá reiniciar sozinho e instalar a atualização.\n\nAviso: Esse recurso requer uma recovery compatível ou a atualização deverá ser instalada manuamente.</string>
-  <string name="not_download_install_ota_notice">A atualização <xliff:g id="filename">%s</xliff:g> foi baixada com sucesso. Quando tocar sobre \'Reiniciar e instalar\', o dispositivo irá reiniciar sozinho e instalar a atualização.\n\nAviso: Esse recurso requer uma recovery compatível ou a atualização deverá ser instalada manuamente.\n\nEssa é uma atualização incremental, no entanto qualquer mudança feita nos arquivos de sistema pode ocasionar em uma falha na atualização. Se isso acontecer, instale uma versão completa da ROM.</string>
-  <string name="md5_verification_failed">Incompatibilidade de verificação MD5</string>
-  <string name="not_apk_action_install_update">Instalar</string>
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Excluir arquivo</string>
-  <string name="confirm_delete_updates_dialog_message">Excluir o arquivo de atualização selecionado?</string>
-  <string name="confirm_delete_updates_all_dialog_message">Excluir todos os arquivos de atualização baixados?</string>
-  <string name="delete_single_update_success_message">Atualização <xliff:g id="filename">%s</xliff:g> excluída</string>
-  <string name="delete_updates_failure_message">Houve um erro ao excluir o arquivo de atualização</string>
-  <string name="delete_updates_nofolder_message">Pasta de atualização não encontrada</string>
-  <string name="delete_updates_success_message">Todas as atualizações baixadas foram excluídas</string>
-  <!-- Pref -->
-  <string name="pref_ota_check">Atualizações incrementais</string>
-  <string name="pref_ota_check_summary">Obter atualizações incrementais para poupar tempo de download e largura de banda</string>
-  <string name="pref_ota_check_request_summary">Obter atualizações incrementais para poupar tempo de download e largura de banda</string>
-  <string name="pref_verify_rom">Verificação de atualizações</string>
-  <string name="pref_verify_rom_summary">Exibir somente as atualizações que são verificadas por outros usuários</string>
-  <string name="pref_verify_rom_request_summary">Exibir somente as atualizações que são verificadas por outros usuários</string>
-  <!-- Apply install and update strings -->
-  <string name="apply_update_dialog_title">Aplicar atualização</string>
-  <string name="apply_update_dialog_text">Você irá atualizar para o <xliff:g id="filename">%s</xliff:g>.\n\nSe você pressionar Atualizar, o dispositivo irá reiniciar em recovery mode para instalar a atualização.\n\nAviso: Esse recurso requer uma recovery compatível ou a atualização deverá ser instalada manualmente.</string>
-  <string name="apply_update_ota_dialog_text">Você irá atualizar para o <xliff:g id="filename">%s</xliff:g>.\n\nSe você pressionar Atualizar, o dispositivo irá reiniciar em recovery mode para instalar a atualização.\n\nAviso: Esse recurso requer uma recovery compatível ou a atualização deverá ser instalada manualmente.\n\nEssa é uma atualização incremental, no entanto qualquer mudança feita nos arquivos de sistema pode ocasionar em uma falha na atualização. Se isso acontecer, instale uma versão completa da ROM.</string>
-  <string name="apply_unable_to_reboot_toast">Não foi possível reiniciar em recovery mode</string>
-  <!-- Experimenter mode -->
-  <string name="show_exp_on">Você habilitou as configurações experimentais!</string>
-  <string name="show_exp_already">Não precisa, você já habilitou as configurações experimentais.</string>
-  <!-- Verify system compatible -->
-  <string name="verify_system_compatible_title">Atualização de sistema da Mokee</string>
-  <string name="verify_system_compatible_message">Verificar a compatibilidade do sistema antes de incrementar\u2026</string>
-  <string name="verify_system_compatible_failed">A verificação de compatibilidade do sistema falhou</string>
-  <string name="verify_system_compatible_patch">Os seguintes arquivos ou foram modificados ou foram removidos, por favor, restaure-os e tente novamente.</string>
-  <string name="verify_system_compatible_img">%1$s incompatível, por favor, atualize para a versão %2$s</string>
-  <string name="verify_system_compatible_root_request">A permissão de root é exigida pelo \"Plugin de Verificação de Atualização\" de modo a verificar a compatibilidade da atualização. Se você optar por ignorar, esta etapa será adiada e executada no modo recuperação.</string>
-  <string name="verify_system_compatible_root_skip">Pular</string>
-  <!-- Common -->
-  <string name="activity_not_found">O aplicativo não está instalado.</string>
+    <!-- Fragment -->
+    <string name="mokee_center_title">Central MoKee</string>
+    <string name="mokee_support_title">Suporte</string>
+    <string name="mokee_updater_title">Atualizador</string>
+    <!-- WebSite -->
+    <string name="mokee_links">Links</string>
+    <string name="mokee_website_title">O site MoKee</string>
+    <string name="mokee_website_summary">Visite o site oficial</string>
+    <string name="mokee_forum_title">MoKee Fórum</string>
+    <string name="mokee_forum_summary">Visite o fórum MoKee</string>
+    <string name="mokee_issues_title">MoKee Rastreador de Bug</string>
+    <string name="mokee_issues_summary">Visite o bug tracker</string>
+    <string name="mokee_changelog_title">Registro de alterações Mokee</string>
+    <string name="mokee_changelog_summary">Ver Lista de mudanças Diaria</string>
+    <string name="mokee_github_title">MoKee Github</string>
+    <string name="mokee_github_summary">Visite o MoKee Github</string>
+    <string name="mokee_translate_title">Definição da palavra MoKee</string>
+    <string name="mokee_translate_summary">Ajude a traduzir MoKee</string>
+    <string name="mokee_wiki_title">MoKee Wiki</string>
+    <string name="mokee_wiki_summary">Ver a MoKee Wiki</string>
+    <string name="mokee_news_title">Notícias Mokee</string>
+    <string name="mokee_news_summary">Receber notícias de desenvolvimento da Mokee</string>
+    <!-- Base Info -->
+    <string name="mokee_version_info_title">Informações da versão</string>
+    <string name="mokee_version_title">Versão MoKee</string>
+    <string name="mokee_unique_id_title">ID Unico</string>
+    <string name="mokee_donate_info_title">Informações sobre Doações</string>
+    <string name="mokee_last_check_title">Última verificação</string>
+    <string name="mokee_last_check_never">Nunca</string>
+    <!-- Version -->
+    <string name="mokee_info_default">Desconhecido</string>
+    <string name="mokee_version_type_release">Lançamento</string>
+    <string name="mokee_version_type_history">Histórico</string>
+    <string name="mokee_version_type_experimental">Experimental</string>
+    <string name="mokee_version_type_nightly">Noturna</string>
+    <string name="mokee_version_type_unofficial">Não oficial</string>
+    <string name="mokee_version_type_all">Todas</string>
+    <!-- State -->
+    <string name="downloaded_update_summary">Baixado</string>
+    <string name="installed_update_summary">Instalado</string>
+    <string name="available_updates_title">Atualizações disponíveis</string>
+    <!-- Menu -->
+    <string name="menu_donate">Doar</string>
+    <string name="menu_refresh">Recarregar</string>
+    <string name="menu_delete_all">Excluir download</string>
+    <string name="menu_unlock_features">Desbloquear recursos</string>
+    <string name="menu_restore">Restaurar a licença</string>
+    <!-- Donate -->
+    <string name="donate_dialog_title">Doe para nós</string>
+    <string name="donate_dialog_message">Diferentemente de projetos como Cygn ou MIUI, o MoKee OpenSource é um projeto puramente sem fins lucrativos nascido do hobby e da paixão. Para mantermos este projeto, tivemos que pôr nosso próprio dinheiro na maior parte do tempo ou depender de doações e anúncios. Suas doações podem ajudar a reduzir nossa carga financeira e sustentar o desenvolvimento futuro! Essa opção permite à você remover os anúncios da MoKee Center, ou use a opção \"Doar\" se preferir parcelar (anúncios serão removidos uma vez que se atinja o valor especificado). Por favor, faça uma cópia de segurança do arquivo mokee.license (na raiz da pasta sdcard, válido apenas ao dispositivo atual) uma vez feita a doação.</string>
+    <string name="donate_dialog_next">Próximo</string>
+    <string name="donate_dialog_via_paypal">Paypal</string>
+    <string name="donate_dialog_via_alipay">AliPay</string>
+    <string name="donate_dialog_via_wechat">WeChat</string>
+    <string name="donate_dialog_via_restore">Restaurar</string>
+    <string name="donate_money_toast_success">Obrigado por sua doação!</string>
+    <string name="donate_money_title">Doar para MoKee Open Source</string>
+    <string name="donate_money_again">Doar novamente</string>
+    <string name="donate_money_restored_success">Restauração Concluída!</string>
+    <string name="donate_money_restored_failed">Sem registros de dispositivo.</string>
+    <string name="donate_money_restored_failed_solution">Solução</string>
+    <string name="donate_money_restored_timeout">Conexão Expirou, por favor tente novamente</string>
+    <string name="donate_money_info">Você doou um total de %1$d CNY, mais do que %2$s de doadores globalmente!</string>
+    <string name="donate_money_info_with_rank">Você doou um total de %1$d CNY, mais do que %2$s de doadores globalmente, rank No.%3$d!</string>
+    <string name="donate_money_info_null">Você ainda não doou</string>
+    <string name="unlock_features_title">Desbloquear recursos</string>
+    <string name="unlock_features_ota_title">Doar %d CNY para desbloquear OTA e download em velocidade máxima.</string>
+    <string name="unlock_features_verify_rom_title">Doar %d CNY para desbloquear OTA, download em velocidade máxima, atualizações verificadas e remover anúncios.</string>
+    <string name="unlock_features_all_title">Doar %d CNY para desbloquear OTA, download em velocidade máxima, atualizações verificadas e remover anúncios.</string>
+    <string name="unlock_features_request_summary">(disponível após a doação %d CNY)</string>
+    <string name="unlock_features_pending_summary">(doou %1$d CNY, disponível para toda a vida depois de doar %2$d CNY mais)</string>
+    <!-- Update -->
+    <string name="unknown">Desconhecido</string>
+    <string name="dialog_update">Atualizar</string>
+    <string name="dialog_install">Instalar</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="dialog_close">Fechar</string>
+    <string name="no_available_updates_intro">A última verificação não encontrou nenhuma atualização. Para verificar manualmente por novas atualizações, use o botão Recarregar.</string>
+    <string name="no_available_ota_intro">A última verificação não encontrou nenhuma atualização disponível. Para verificar novas atualizações manualmente, use o botão Recarregar. Se você estiver executando uma versão que está fora do intervalo de data de atualização incremental com suporte, você deve desmarcar a opção \"Atualizações incrementais\".</string>
+    <string name="new_update_summary">Novo</string>
+    <string name="old_update_summary">Antigo</string>
+    <string name="ota_diff_update_summary">Atualizações incrementais podem salvar %s</string>
+    <string name="full_diff_update_summary">Salva %s em relação a ROM completa</string>
+    <string name="update_check_title">Verificar frequência de atualização</string>
+    <string name="check_manual">Manual</string>
+    <string name="nightly_alert">Você selecionou para incluir atualizações nightly nesta lista. Elas não oferecem suporte e devem ser usadas com cautela.</string>
+    <string name="experimenter_alert">Você selecionou para incluir atualizações experimentais nesta lista. Estas não oferecem suporte, são destinadas apenas para testes e devem ser usadas com cautela.</string>
+    <string name="unofficial_alert">Você selecionou para incluir atualizações não oficiais nesta lista. Tenha em mente que estas são suportadas apenas pelo mantenedor do dispositivo.</string>
+    <string name="all_alert">Você selecionou incluir todas as atualizações (release, nightly) nesta lista. Considere o aviso de que as atualizações nightly não oferecem suporte e devem ser usadas com cautela.</string>
+    <string name="alert_title">Cuidado</string>
+    <string name="update_type_title">Tipo de atualização</string>
+    <!-- ChangeLog -->
+    <string name="no_changelog_alert">Não há registros de alterações</string>
+    <string name="changelog_dialog_title">Registro de alterações</string>
+    <string name="loading_changelog">Carregando\u2026</string>
+    <string name="check_on_boot">Em cada reinicialização</string>
+    <string name="check_twice_daily">Duas vezes por dia</string>
+    <string name="check_daily">Uma vez por dia</string>
+    <string name="check_twice_weekly">Duas vezes por semana</string>
+    <string name="check_weekly">Uma vez por semana</string>
+    <string name="check_bi_weekly">Uma vez a cada duas semanas</string>
+    <string name="check_monthly">Uma vez por mês</string>
+    <!-- checking -->
+    <string name="checking_for_updates">Verificando por atualizações</string>
+    <string name="no_updates_found">Nenhuma atualização foi encontrada</string>
+    <string name="not_new_updates_found_ticker">Novas atualizações estão disponíveis</string>
+    <string name="not_new_updates_found_title">Novas atualizações</string>
+    <string name="update_check_failed">A verificação de atualização falhou. Por favor, verifique sua conexão de internet e tente novamente mais tarde.</string>
+    <string name="not_action_download">Baixar</string>
+    <string name="data_connection_required">Uma conexão de dados é necessária.</string>
+    <!-- Downloads -->
+    <string name="confirm_download_cancelation_dialog_title">Cancelar download</string>
+    <string name="confirm_download_cancelation_dialog_message">Cancelar o download atual?</string>
+    <string name="download_remaining"><xliff:g id="duration" example="3 minutes">%s</xliff:g> restantes</string>
+    <string name="download_running">Em andamento</string>
+    <string name="download_cancelled">Download cancelado</string>
+    <string name="download_already_running">Um download já está em andamento</string>
+    <string name="download_limited_mode">Baixar a velocidade limitada, por favor doe para desfrutar de toda a velocidade.</string>
+    <string name="unable_to_download_file">Não foi possível baixar o arquivo de atualização</string>
+    <string name="not_download_success">Atualização baixada com sucesso</string>
+    <string name="not_download_failure">Download da atualização foi malsucedido</string>
+    <string name="not_action_install_update">Reiniciar e instalar</string>
+    <string name="not_download_install_notice">A atualização <xliff:g id="filename">%s</xliff:g> foi baixada com sucesso. Quando tocar sobre \'Reiniciar e instalar\', o dispositivo irá reiniciar sozinho e instalar a atualização.\n\nAviso: Esse recurso requer uma recovery compatível ou a atualização deverá ser instalada manuamente.</string>
+    <string name="not_download_install_ota_notice">A atualização <xliff:g id="filename">%s</xliff:g> foi baixada com sucesso. Quando tocar sobre \'Reiniciar e instalar\', o dispositivo irá reiniciar sozinho e instalar a atualização.\n\nAviso: Esse recurso requer uma recovery compatível ou a atualização deverá ser instalada manuamente.\n\nEssa é uma atualização incremental, no entanto qualquer mudança feita nos arquivos de sistema pode ocasionar em uma falha na atualização. Se isso acontecer, instale uma versão completa da ROM.</string>
+    <string name="md5_verification_failed">Incompatibilidade de verificação MD5</string>
+    <string name="not_apk_action_install_update">Instalar</string>
+    <!-- deleting -->
+    <string name="confirm_delete_dialog_title">Excluir arquivo</string>
+    <string name="confirm_delete_updates_dialog_message">Excluir o arquivo de atualização selecionado?</string>
+    <string name="confirm_delete_updates_all_dialog_message">Excluir todos os arquivos de atualização baixados?</string>
+    <string name="delete_single_update_success_message">Atualização <xliff:g id="filename">%s</xliff:g> excluída</string>
+    <string name="delete_updates_failure_message">Houve um erro ao excluir o arquivo de atualização</string>
+    <string name="delete_updates_nofolder_message">Pasta de atualização não encontrada</string>
+    <string name="delete_updates_success_message">Todas as atualizações baixadas foram excluídas</string>
+    <!-- Pref -->
+    <string name="pref_ota_check">Atualizações incrementais</string>
+    <string name="pref_ota_check_summary">Obter atualizações incrementais para poupar tempo de download e largura de banda</string>
+    <string name="pref_ota_check_request_summary">Obter atualizações incrementais para poupar tempo de download e largura de banda</string>
+    <string name="pref_verify_rom">Verificação de atualizações</string>
+    <string name="pref_verify_rom_summary">Exibir somente as atualizações que são verificadas por outros usuários</string>
+    <string name="pref_verify_rom_request_summary">Exibir somente as atualizações que são verificadas por outros usuários</string>
+    <!-- Apply install and update strings -->
+    <string name="apply_update_dialog_title">Aplicar atualização</string>
+    <string name="apply_update_dialog_text">Você irá atualizar para o <xliff:g id="filename">%s</xliff:g>.\n\nSe você pressionar Atualizar, o dispositivo irá reiniciar em recovery mode para instalar a atualização.\n\nAviso: Esse recurso requer uma recovery compatível ou a atualização deverá ser instalada manualmente.</string>
+    <string name="apply_update_ota_dialog_text">Você irá atualizar para o <xliff:g id="filename">%s</xliff:g>.\n\nSe você pressionar Atualizar, o dispositivo irá reiniciar em recovery mode para instalar a atualização.\n\nAviso: Esse recurso requer uma recovery compatível ou a atualização deverá ser instalada manualmente.\n\nEssa é uma atualização incremental, no entanto qualquer mudança feita nos arquivos de sistema pode ocasionar em uma falha na atualização. Se isso acontecer, instale uma versão completa da ROM.</string>
+    <string name="apply_unable_to_reboot_toast">Não foi possível reiniciar em recovery mode</string>
+    <!-- Experimenter mode -->
+    <string name="show_exp_on">Você habilitou as configurações experimentais!</string>
+    <string name="show_exp_already">Não precisa, você já habilitou as configurações experimentais.</string>
+    <!-- Verify system compatible -->
+    <string name="verify_system_compatible_title">Atualização de sistema da Mokee</string>
+    <string name="verify_system_compatible_message">Verificar a compatibilidade do sistema antes de incrementar\u2026</string>
+    <string name="verify_system_compatible_failed">A verificação de compatibilidade do sistema falhou</string>
+    <string name="verify_system_compatible_patch">Os seguintes arquivos ou foram modificados ou foram removidos, por favor, restaure-os e tente novamente.</string>
+    <string name="verify_system_compatible_img">%1$s incompatível, por favor, atualize para a versão %2$s</string>
+    <string name="verify_system_compatible_root_request">A permissão de root é exigida pelo \"Plugin de Verificação de Atualização\" de modo a verificar a compatibilidade da atualização. Se você optar por ignorar, esta etapa será adiada e executada no modo recuperação.</string>
+    <string name="verify_system_compatible_root_skip">Pular</string>
+    <!-- Common -->
+    <string name="activity_not_found">O aplicativo não está instalado.</string>
 </resources>

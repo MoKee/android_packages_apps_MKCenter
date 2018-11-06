@@ -17,16 +17,16 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="not_new_updates_found_body">
-    <item quantity="one"><xliff:g id="count">%d</xliff:g> mise à jour est proposée en téléchargement</item>
-    <item quantity="other"><xliff:g id="count">%d</xliff:g> mise à jour sont proposées en téléchargement</item>
-  </plurals>
-  <plurals name="not_additional_count">
-    <item quantity="one"><xliff:g id="count">%d</xliff:g> autre</item>
-    <item quantity="other"><xliff:g id="count">%d</xliff:g> voir plus</item>
-  </plurals>
-  <plurals name="show_exp_countdown">
-    <item quantity="one">Vous êtes maintenant à <xliff:g id="step_count">%1$d </xliff:g> étape d\'autoriser les paramètres expérimentaux.</item>
-    <item quantity="other">Vous êtes maintenant à <xliff:g id="step_count">%1$d </xliff:g> étapes d\'activer les paramètres expérimentaux.</item>
-  </plurals>
+    <plurals name="not_new_updates_found_body">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> mise à jour est proposée en téléchargement</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> mise à jour sont proposées en téléchargement</item>
+    </plurals>
+    <plurals name="not_additional_count">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> autre</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> voir plus</item>
+    </plurals>
+    <plurals name="show_exp_countdown">
+        <item quantity="one">Vous êtes maintenant à <xliff:g id="step_count">%1$d </xliff:g> étape d\'autoriser les paramètres expérimentaux.</item>
+        <item quantity="other">Vous êtes maintenant à <xliff:g id="step_count">%1$d </xliff:g> étapes d\'activer les paramètres expérimentaux.</item>
+    </plurals>
 </resources>

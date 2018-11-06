@@ -17,149 +17,149 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Fragment -->
-  <string name="mokee_center_title">MoKee Център</string>
-  <string name="mokee_support_title">Поддръжка</string>
-  <string name="mokee_updater_title">Актуализации</string>
-  <!-- WebSite -->
-  <string name="mokee_website_title">MoKee уеб страница</string>
-  <string name="mokee_website_summary">Посетете официалния сайт</string>
-  <string name="mokee_forum_title">MoKee форум</string>
-  <string name="mokee_forum_summary">Посетете MoKee форум</string>
-  <string name="mokee_issues_title">MoKee бъг тракер</string>
-  <string name="mokee_issues_summary">Към бъг тракера</string>
-  <string name="mokee_changelog_title">Списък с промени</string>
-  <string name="mokee_changelog_summary">Преглед на промените за деня</string>
-  <string name="mokee_github_title">MoKee Github</string>
-  <string name="mokee_github_summary">Посетете MoKee Github</string>
-  <string name="mokee_translate_title">MoKee преводачи</string>
-  <string name="mokee_translate_summary">Помогнете за превода на MoKee</string>
-  <string name="mokee_wiki_title">MoKee Wiki</string>
-  <string name="mokee_wiki_summary">Посетете MoKee Wiki</string>
-  <string name="mokee_news_title">MoKee новини</string>
-  <string name="mokee_news_summary">Получавайте новини за развитието на MoKee</string>
-  <!-- Base Info -->
-  <string name="mokee_version_info_title">Информация за версията</string>
-  <string name="mokee_version_title">Версия на MoKee</string>
-  <string name="mokee_unique_id_title">Уникален ID</string>
-  <string name="mokee_donate_info_title">Инф. за дарение</string>
-  <string name="mokee_last_check_title">Последна проверка</string>
-  <string name="mokee_last_check_never">Никога</string>
-  <!-- Version -->
-  <string name="mokee_info_default">Неизвестно</string>
-  <string name="mokee_version_type_release">Издание</string>
-  <string name="mokee_version_type_history">История</string>
-  <string name="mokee_version_type_experimental">Експериментално</string>
-  <string name="mokee_version_type_nightly">Nightly</string>
-  <string name="mokee_version_type_unofficial">Неофициално</string>
-  <string name="mokee_version_type_all">Всички</string>
-  <!-- State -->
-  <string name="downloaded_update_summary">Изтеглено</string>
-  <string name="installed_update_summary">Инсталирано</string>
-  <string name="available_updates_title">Достъпни актуализации</string>
-  <!-- Menu -->
-  <string name="menu_donate">Дарение</string>
-  <string name="menu_refresh">Опресняване</string>
-  <string name="menu_delete_all">Изтриване на изтегляния</string>
-  <string name="menu_restore">Възстанови лиценз</string>
-  <!-- Donate -->
-  <string name="donate_dialog_title">Дарения за нас</string>
-  <string name="donate_dialog_message">За разлика от основите марки и операционни системи, MoKee, както и Cyanogen се основават на отворения код и свободен достъп до ресурсите на системата. Това, както и напълно доброволния труд на програмистите, предполага разход на време и сили, за които не се заплаща. Ето защо в Хелп центъра ние сме вградили реклами на различни наши спонсори, които са направили някакво дарение. Тези реклами не са зловредни, имат за цел да удовлетворят нашите спонсори и да продължи работата по проекта.</string>
-  <string name="donate_dialog_next">Следваща</string>
-  <string name="donate_dialog_via_paypal">PayPal</string>
-  <string name="donate_dialog_via_alipay">AliPay</string>
-  <string name="donate_dialog_via_wechat">WeChat</string>
-  <string name="donate_dialog_via_restore">Възстанови</string>
-  <string name="donate_money_toast_success">Благодарим Ви за вашето дарение!</string>
-  <string name="donate_money_title">Дарение за MoKee OpenSource</string>
-  <string name="donate_money_again">Дарете отново</string>
-  <string name="donate_money_restored_success">Успешно възстановено!</string>
-  <string name="donate_money_restored_failed">Няма запис в устройството.</string>
-  <string name="donate_money_restored_failed_solution">Решение</string>
-  <string name="donate_money_restored_timeout">Няма връзка. Опитайте отново</string>
-  <string name="donate_money_info">Дарени общо CNY %1$d, повече от %2$s на донорите в световен мащаб!</string>
-  <string name="donate_money_info_with_rank">Ти дари общо CNY %1$d повече от %2$s на донорите в световен мащаб, ранг No.%3$d!</string>
-  <string name="donate_money_info_null">Нямате дарения</string>
-  <!-- Update -->
-  <string name="unknown">Неизвестно</string>
-  <string name="dialog_update">Ъпдейт</string>
-  <string name="dialog_install">Обнови</string>
-  <string name="dialog_ok">Окей</string>
-  <string name="dialog_cancel">Отказ</string>
-  <string name="dialog_close">Затваряне</string>
-  <string name="no_available_updates_intro">Последната проверка за актуализации не намери нищо. За ръчна проверка използвайте бутона за обновяване.</string>
-  <string name="no_available_ota_intro">Последната проверка за активизация не откри нищо. За ръчна проверка натиснете бутона Обнови. Ако сте с версия за рома, която вече не се поддържа, махнете отметката от избор на \"Incremental updates\".</string>
-  <string name="new_update_summary">Нов</string>
-  <string name="old_update_summary">Стар</string>
-  <string name="update_check_title">Честота на пров</string>
-  <string name="check_manual">Ръчно</string>
-  <string name="nightly_alert">Избрали сте проверката да включва и nightly версии. Те не се поддържат официално. Бъдете внимателни.</string>
-  <string name="experimenter_alert">Избрали сте проверката да включва и тестови версии. Те не се поддържат официално. Бъдете внимателни в тяхното използване.</string>
-  <string name="unofficial_alert">Избрали сте проверката да включва и неофициални версии. Имайте предвид, че тези версии се поддържат от вашето устройство.</string>
-  <string name="all_alert">Избрали сте проверката да включва всички версии в списъка (release, nightly). Имайте предвид, че nightly версиите не се поддържат.</string>
-  <string name="alert_title">Внимание</string>
-  <string name="update_type_title">Тип ъпдейт</string>
-  <!-- ChangeLog -->
-  <string name="no_changelog_alert">Няма списък с промени</string>
-  <string name="changelog_dialog_title">Нови неща</string>
-  <string name="loading_changelog">Зарежда\u2026</string>
-  <string name="check_on_boot">При всеки рестарт</string>
-  <string name="check_twice_daily">Два пъти дневно</string>
-  <string name="check_daily">Веднъж на ден</string>
-  <string name="check_twice_weekly">2 пъти седмично</string>
-  <string name="check_weekly">1 път седмично</string>
-  <string name="check_bi_weekly">1 път на две седмици</string>
-  <string name="check_monthly">1 път месечно</string>
-  <!-- checking -->
-  <string name="checking_for_updates">Проверка актуализации</string>
-  <string name="no_updates_found">Няма актуализации</string>
-  <string name="not_new_updates_found_ticker">Има нови актуализации</string>
-  <string name="not_new_updates_found_title">Нови актуализации</string>
-  <string name="update_check_failed">Неуспешно. Проверете вашата интернет връзка и опитайте отново.</string>
-  <string name="not_action_download">Сваляне</string>
-  <string name="data_connection_required">Интернет-връзка е необходима.</string>
-  <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">Отмени изтегляне</string>
-  <string name="confirm_download_cancelation_dialog_message">Отмяна текущо изтегляне?</string>
-  <string name="download_remaining"><xliff:g id="време" example="3 минути">%s</xliff:g> остават</string>
-  <string name="download_running">Изпълнява се</string>
-  <string name="download_cancelled">Изтегляне отменено</string>
-  <string name="download_already_running">Изтеглянето вече се извършва</string>
-  <string name="download_limited_mode">Изтегляне на ограничена скорост, моля направете дарение за да се насладите на пълна скорост.</string>
-  <string name="unable_to_download_file">Невъзможно е да се изтегли файла</string>
-  <string name="not_download_success">Актуализацията е изтеглена</string>
-  <string name="not_download_failure">Успешно изтегл. на актуализация</string>
-  <string name="not_action_install_update">Рестартиране и инсталиране</string>
-  <string name="not_download_install_notice">Актуализацията <xliff:g id="filename">%s</xliff:g> беше успешно изтеглена. Когато чукнете \'рестарт и инсталиране\', устройството ще се рестартира за да инсталира актуализацията.\n\n Забележка: това изисква подражано от MoKee рековъри, или е необходим ръчен ъпдейт.</string>
-  <string name="not_download_install_ota_notice">Актуализацията <xliff:g id="filename">%s</xliff:g> беше успешно изтеглена. Когато чукнете \'рестарт и инсталиране\', устройството ще се рестартира и ще инсталира актуализацията.\n\nЗабележка: това изисква поддържано от MoKee рековъри, иначе трябва да инсталирате ръчно.\n\n Внимание, това е неделима актуализация, всички промени по системни файлове ще попречат на обновяването. Ако това се случи, моля, преинсталирайте целия ром наново.</string>
-  <string name="md5_verification_failed">MD5 несъответствие</string>
-  <string name="not_apk_action_install_update">Обнови</string>
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Изтриване на файл</string>
-  <string name="confirm_delete_updates_dialog_message">Изтриване на избраните?</string>
-  <string name="confirm_delete_updates_all_dialog_message">Изтриване на всички ъпдейт файлове?</string>
-  <string name="delete_single_update_success_message">Актуализация <xliff:g id="filename">%s</xliff:g> изтрита</string>
-  <string name="delete_updates_failure_message">Грешка при изтриване на файл с актуализация</string>
-  <string name="delete_updates_nofolder_message">Няма открита папка</string>
-  <string name="delete_updates_success_message">Всички актуализации са изтрити</string>
-  <!-- Pref -->
-  <string name="pref_ota_check">Incremental ъпдейти</string>
-  <string name="pref_ota_check_summary">Вземете Incremental ъпдейти за да спестите време и трафик</string>
-  <string name="pref_ota_check_request_summary">Вземете Incremental ъпдейти за да спестите време и трафик</string>
-  <string name="pref_verify_rom">Проверени актуализации</string>
-  <string name="pref_verify_rom_summary">Покажи само актуализации, които са проверени от други потребители</string>
-  <string name="pref_verify_rom_request_summary">Покажи само актуализации, които са проверени от други потребители</string>
-  <!-- Apply install and update strings -->
-  <string name="apply_update_dialog_title">Прилагане на обновяване</string>
-  <string name="apply_update_dialog_text">Предстои да надстроите до <xliff:g id="filename">%s </xliff:g>. \n\nIf натиснете актуализация, устройството ще се рестартира в рековъри режим за да инсталира актуализацията.\n\nNote: тази функция изисква съвместимо рековъри за да работи.</string>
-  <string name="apply_update_ota_dialog_text">Предстои да надстроите до <xliff:g id="filename">%s </xliff:g>. \n\nIf натиснете актуализация, устройството ще се рестартира в рековъри режим и ще инсталира актуализацията.\n\nNote: тази функция изисква съвместимо рековъри, иначе трябва да се инсталира ръчно.\n\nТова е поетапно актуализиране, следователно всички промени, направени в системните файлове може да попречат на обновяването. Ако това се случи, флашнете пълен ROM вместо това.</string>
-  <string name="apply_unable_to_reboot_toast">Не може да стартира рековъри</string>
-  <!-- Experimenter mode -->
-  <string name="show_exp_on">Разрешени експериментални настройки!</string>
-  <string name="show_exp_already">Няма нужда, има активирани експериментални настройки.</string>
-  <!-- Verify system compatible -->
-  <string name="verify_system_compatible_title">MoKee системна актуализация</string>
-  <string name="verify_system_compatible_root_skip">Прескочи</string>
-  <!-- Common -->
-  <string name="activity_not_found">Приложението не е инсталирано.</string>
+    <!-- Fragment -->
+    <string name="mokee_center_title">MoKee Център</string>
+    <string name="mokee_support_title">Поддръжка</string>
+    <string name="mokee_updater_title">Актуализации</string>
+    <!-- WebSite -->
+    <string name="mokee_website_title">MoKee уеб страница</string>
+    <string name="mokee_website_summary">Посетете официалния сайт</string>
+    <string name="mokee_forum_title">MoKee форум</string>
+    <string name="mokee_forum_summary">Посетете MoKee форум</string>
+    <string name="mokee_issues_title">MoKee бъг тракер</string>
+    <string name="mokee_issues_summary">Към бъг тракера</string>
+    <string name="mokee_changelog_title">Списък с промени</string>
+    <string name="mokee_changelog_summary">Преглед на промените за деня</string>
+    <string name="mokee_github_title">MoKee Github</string>
+    <string name="mokee_github_summary">Посетете MoKee Github</string>
+    <string name="mokee_translate_title">MoKee преводачи</string>
+    <string name="mokee_translate_summary">Помогнете за превода на MoKee</string>
+    <string name="mokee_wiki_title">MoKee Wiki</string>
+    <string name="mokee_wiki_summary">Посетете MoKee Wiki</string>
+    <string name="mokee_news_title">MoKee новини</string>
+    <string name="mokee_news_summary">Получавайте новини за развитието на MoKee</string>
+    <!-- Base Info -->
+    <string name="mokee_version_info_title">Информация за версията</string>
+    <string name="mokee_version_title">Версия на MoKee</string>
+    <string name="mokee_unique_id_title">Уникален ID</string>
+    <string name="mokee_donate_info_title">Инф. за дарение</string>
+    <string name="mokee_last_check_title">Последна проверка</string>
+    <string name="mokee_last_check_never">Никога</string>
+    <!-- Version -->
+    <string name="mokee_info_default">Неизвестно</string>
+    <string name="mokee_version_type_release">Издание</string>
+    <string name="mokee_version_type_history">История</string>
+    <string name="mokee_version_type_experimental">Експериментално</string>
+    <string name="mokee_version_type_nightly">Nightly</string>
+    <string name="mokee_version_type_unofficial">Неофициално</string>
+    <string name="mokee_version_type_all">Всички</string>
+    <!-- State -->
+    <string name="downloaded_update_summary">Изтеглено</string>
+    <string name="installed_update_summary">Инсталирано</string>
+    <string name="available_updates_title">Достъпни актуализации</string>
+    <!-- Menu -->
+    <string name="menu_donate">Дарение</string>
+    <string name="menu_refresh">Опресняване</string>
+    <string name="menu_delete_all">Изтриване на изтегляния</string>
+    <string name="menu_restore">Възстанови лиценз</string>
+    <!-- Donate -->
+    <string name="donate_dialog_title">Дарения за нас</string>
+    <string name="donate_dialog_message">За разлика от основите марки и операционни системи, MoKee, както и Cyanogen се основават на отворения код и свободен достъп до ресурсите на системата. Това, както и напълно доброволния труд на програмистите, предполага разход на време и сили, за които не се заплаща. Ето защо в Хелп центъра ние сме вградили реклами на различни наши спонсори, които са направили някакво дарение. Тези реклами не са зловредни, имат за цел да удовлетворят нашите спонсори и да продължи работата по проекта.</string>
+    <string name="donate_dialog_next">Следваща</string>
+    <string name="donate_dialog_via_paypal">PayPal</string>
+    <string name="donate_dialog_via_alipay">AliPay</string>
+    <string name="donate_dialog_via_wechat">WeChat</string>
+    <string name="donate_dialog_via_restore">Възстанови</string>
+    <string name="donate_money_toast_success">Благодарим Ви за вашето дарение!</string>
+    <string name="donate_money_title">Дарение за MoKee OpenSource</string>
+    <string name="donate_money_again">Дарете отново</string>
+    <string name="donate_money_restored_success">Успешно възстановено!</string>
+    <string name="donate_money_restored_failed">Няма запис в устройството.</string>
+    <string name="donate_money_restored_failed_solution">Решение</string>
+    <string name="donate_money_restored_timeout">Няма връзка. Опитайте отново</string>
+    <string name="donate_money_info">Дарени общо CNY %1$d, повече от %2$s на донорите в световен мащаб!</string>
+    <string name="donate_money_info_with_rank">Ти дари общо CNY %1$d повече от %2$s на донорите в световен мащаб, ранг No.%3$d!</string>
+    <string name="donate_money_info_null">Нямате дарения</string>
+    <!-- Update -->
+    <string name="unknown">Неизвестно</string>
+    <string name="dialog_update">Ъпдейт</string>
+    <string name="dialog_install">Обнови</string>
+    <string name="dialog_ok">Окей</string>
+    <string name="dialog_cancel">Отказ</string>
+    <string name="dialog_close">Затваряне</string>
+    <string name="no_available_updates_intro">Последната проверка за актуализации не намери нищо. За ръчна проверка използвайте бутона за обновяване.</string>
+    <string name="no_available_ota_intro">Последната проверка за активизация не откри нищо. За ръчна проверка натиснете бутона Обнови. Ако сте с версия за рома, която вече не се поддържа, махнете отметката от избор на \"Incremental updates\".</string>
+    <string name="new_update_summary">Нов</string>
+    <string name="old_update_summary">Стар</string>
+    <string name="update_check_title">Честота на пров</string>
+    <string name="check_manual">Ръчно</string>
+    <string name="nightly_alert">Избрали сте проверката да включва и nightly версии. Те не се поддържат официално. Бъдете внимателни.</string>
+    <string name="experimenter_alert">Избрали сте проверката да включва и тестови версии. Те не се поддържат официално. Бъдете внимателни в тяхното използване.</string>
+    <string name="unofficial_alert">Избрали сте проверката да включва и неофициални версии. Имайте предвид, че тези версии се поддържат от вашето устройство.</string>
+    <string name="all_alert">Избрали сте проверката да включва всички версии в списъка (release, nightly). Имайте предвид, че nightly версиите не се поддържат.</string>
+    <string name="alert_title">Внимание</string>
+    <string name="update_type_title">Тип ъпдейт</string>
+    <!-- ChangeLog -->
+    <string name="no_changelog_alert">Няма списък с промени</string>
+    <string name="changelog_dialog_title">Нови неща</string>
+    <string name="loading_changelog">Зарежда\u2026</string>
+    <string name="check_on_boot">При всеки рестарт</string>
+    <string name="check_twice_daily">Два пъти дневно</string>
+    <string name="check_daily">Веднъж на ден</string>
+    <string name="check_twice_weekly">2 пъти седмично</string>
+    <string name="check_weekly">1 път седмично</string>
+    <string name="check_bi_weekly">1 път на две седмици</string>
+    <string name="check_monthly">1 път месечно</string>
+    <!-- checking -->
+    <string name="checking_for_updates">Проверка актуализации</string>
+    <string name="no_updates_found">Няма актуализации</string>
+    <string name="not_new_updates_found_ticker">Има нови актуализации</string>
+    <string name="not_new_updates_found_title">Нови актуализации</string>
+    <string name="update_check_failed">Неуспешно. Проверете вашата интернет връзка и опитайте отново.</string>
+    <string name="not_action_download">Сваляне</string>
+    <string name="data_connection_required">Интернет-връзка е необходима.</string>
+    <!-- Downloads -->
+    <string name="confirm_download_cancelation_dialog_title">Отмени изтегляне</string>
+    <string name="confirm_download_cancelation_dialog_message">Отмяна текущо изтегляне?</string>
+    <string name="download_remaining"><xliff:g id="време" example="3 минути">%s</xliff:g> остават</string>
+    <string name="download_running">Изпълнява се</string>
+    <string name="download_cancelled">Изтегляне отменено</string>
+    <string name="download_already_running">Изтеглянето вече се извършва</string>
+    <string name="download_limited_mode">Изтегляне на ограничена скорост, моля направете дарение за да се насладите на пълна скорост.</string>
+    <string name="unable_to_download_file">Невъзможно е да се изтегли файла</string>
+    <string name="not_download_success">Актуализацията е изтеглена</string>
+    <string name="not_download_failure">Успешно изтегл. на актуализация</string>
+    <string name="not_action_install_update">Рестартиране и инсталиране</string>
+    <string name="not_download_install_notice">Актуализацията <xliff:g id="filename">%s</xliff:g> беше успешно изтеглена. Когато чукнете \'рестарт и инсталиране\', устройството ще се рестартира за да инсталира актуализацията.\n\n Забележка: това изисква подражано от MoKee рековъри, или е необходим ръчен ъпдейт.</string>
+    <string name="not_download_install_ota_notice">Актуализацията <xliff:g id="filename">%s</xliff:g> беше успешно изтеглена. Когато чукнете \'рестарт и инсталиране\', устройството ще се рестартира и ще инсталира актуализацията.\n\nЗабележка: това изисква поддържано от MoKee рековъри, иначе трябва да инсталирате ръчно.\n\n Внимание, това е неделима актуализация, всички промени по системни файлове ще попречат на обновяването. Ако това се случи, моля, преинсталирайте целия ром наново.</string>
+    <string name="md5_verification_failed">MD5 несъответствие</string>
+    <string name="not_apk_action_install_update">Обнови</string>
+    <!-- deleting -->
+    <string name="confirm_delete_dialog_title">Изтриване на файл</string>
+    <string name="confirm_delete_updates_dialog_message">Изтриване на избраните?</string>
+    <string name="confirm_delete_updates_all_dialog_message">Изтриване на всички ъпдейт файлове?</string>
+    <string name="delete_single_update_success_message">Актуализация <xliff:g id="filename">%s</xliff:g> изтрита</string>
+    <string name="delete_updates_failure_message">Грешка при изтриване на файл с актуализация</string>
+    <string name="delete_updates_nofolder_message">Няма открита папка</string>
+    <string name="delete_updates_success_message">Всички актуализации са изтрити</string>
+    <!-- Pref -->
+    <string name="pref_ota_check">Incremental ъпдейти</string>
+    <string name="pref_ota_check_summary">Вземете Incremental ъпдейти за да спестите време и трафик</string>
+    <string name="pref_ota_check_request_summary">Вземете Incremental ъпдейти за да спестите време и трафик</string>
+    <string name="pref_verify_rom">Проверени актуализации</string>
+    <string name="pref_verify_rom_summary">Покажи само актуализации, които са проверени от други потребители</string>
+    <string name="pref_verify_rom_request_summary">Покажи само актуализации, които са проверени от други потребители</string>
+    <!-- Apply install and update strings -->
+    <string name="apply_update_dialog_title">Прилагане на обновяване</string>
+    <string name="apply_update_dialog_text">Предстои да надстроите до <xliff:g id="filename">%s </xliff:g>. \n\nIf натиснете актуализация, устройството ще се рестартира в рековъри режим за да инсталира актуализацията.\n\nNote: тази функция изисква съвместимо рековъри за да работи.</string>
+    <string name="apply_update_ota_dialog_text">Предстои да надстроите до <xliff:g id="filename">%s </xliff:g>. \n\nIf натиснете актуализация, устройството ще се рестартира в рековъри режим и ще инсталира актуализацията.\n\nNote: тази функция изисква съвместимо рековъри, иначе трябва да се инсталира ръчно.\n\nТова е поетапно актуализиране, следователно всички промени, направени в системните файлове може да попречат на обновяването. Ако това се случи, флашнете пълен ROM вместо това.</string>
+    <string name="apply_unable_to_reboot_toast">Не може да стартира рековъри</string>
+    <!-- Experimenter mode -->
+    <string name="show_exp_on">Разрешени експериментални настройки!</string>
+    <string name="show_exp_already">Няма нужда, има активирани експериментални настройки.</string>
+    <!-- Verify system compatible -->
+    <string name="verify_system_compatible_title">MoKee системна актуализация</string>
+    <string name="verify_system_compatible_root_skip">Прескочи</string>
+    <!-- Common -->
+    <string name="activity_not_found">Приложението не е инсталирано.</string>
 </resources>

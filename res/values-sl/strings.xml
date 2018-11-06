@@ -17,164 +17,164 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Fragment -->
-  <string name="mokee_center_title">MoKee Center</string>
-  <string name="mokee_support_title">Pomoč</string>
-  <string name="mokee_updater_title">Posodobitev</string>
-  <!-- WebSite -->
-  <string name="mokee_links">Povezave</string>
-  <string name="mokee_website_title">MoKee spletna stran</string>
-  <string name="mokee_website_summary">Obiščite uradno spletno stran</string>
-  <string name="mokee_forum_title">MoKee Forum</string>
-  <string name="mokee_forum_summary">Obiščite MoKee Forum</string>
-  <string name="mokee_issues_title">MoKee sledenje napak</string>
-  <string name="mokee_issues_summary">Obišči skupnost</string>
-  <string name="mokee_changelog_title">MoKee dnevnik sprememb</string>
-  <string name="mokee_changelog_summary">Pregled dnevnih sprememb</string>
-  <string name="mokee_github_title">MoKee Github</string>
-  <string name="mokee_github_summary">Obišči MoKee Github</string>
-  <string name="mokee_translate_title">MoKee prevajanje</string>
-  <string name="mokee_translate_summary">Pomagajte prevesti MoKee</string>
-  <string name="mokee_wiki_title">MoKee Wiki</string>
-  <string name="mokee_wiki_summary">Poglej si MoKee Wiki</string>
-  <string name="mokee_news_title">MoKee novice</string>
-  <string name="mokee_news_summary">Prejmi razvojne novice iz MoKee</string>
-  <!-- Base Info -->
-  <string name="mokee_version_info_title">Informacije o različici</string>
-  <string name="mokee_version_title">MoKee različica</string>
-  <string name="mokee_unique_id_title">Edinstven ID</string>
-  <string name="mokee_donate_info_title">Info o prispevkih</string>
-  <string name="mokee_last_check_title">Zadnje preverjanje</string>
-  <string name="mokee_last_check_never">Nikoli</string>
-  <!-- Version -->
-  <string name="mokee_info_default">Neznano</string>
-  <string name="mokee_version_type_release">Release</string>
-  <string name="mokee_version_type_history">Zgodovina</string>
-  <string name="mokee_version_type_experimental">Preizkusno</string>
-  <string name="mokee_version_type_nightly">Nightly</string>
-  <string name="mokee_version_type_unofficial">Neuradna</string>
-  <string name="mokee_version_type_all">Vse</string>
-  <!-- State -->
-  <string name="downloaded_update_summary">Preneseno</string>
-  <string name="installed_update_summary">Nameščeno</string>
-  <string name="available_updates_title">Posodobitve na voljo</string>
-  <!-- Menu -->
-  <string name="menu_donate">Prispevaj</string>
-  <string name="menu_refresh">Osveži</string>
-  <string name="menu_delete_all">Izbriši prenos</string>
-  <string name="menu_unlock_features">Odklenete funkcije</string>
-  <string name="menu_restore">Obnovi licenco</string>
-  <!-- Donate -->
-  <string name="donate_dialog_title">Prispevajte za nas</string>
-  <string name="donate_dialog_message">Za razliko od podjetij, kot sta Cygn ali MIUI, je MoKee odprtokodni projekt, ki je povsem neprofitno rojen za hobi in strast. Da bi ohranili ta projekt, ga moramo največkrat plačevati z lasten denajem ali pa se zanašati na prispevke in oglase. Vaš prispevek lahko pomaga zmanjšati našo finančno obremenitev in vzdržuje nadaljni razvoj! Ta možnost vam omogoča, da odstranite oglase v MoKee centru, ali pa uporabite ukaz \"Prispevaj\", če vam je ljubše na obroke (oglasi bodo odstranjeni, ko je dosežena določena vrednost). Prosimo varnostno kopirajte datoteko mokee. license (v korenski imenik sdcard, velja le za trenutno napravo), ko ste prispevali.</string>
-  <string name="donate_dialog_next">Naprej</string>
-  <string name="donate_dialog_via_paypal">PayPal</string>
-  <string name="donate_dialog_via_alipay">AliPay</string>
-  <string name="donate_dialog_via_wechat">WeChat</string>
-  <string name="donate_dialog_via_restore">Obnovi</string>
-  <string name="donate_money_toast_success">Zahvaljujemo se vam za vaš prispevek!</string>
-  <string name="donate_money_title">Prispevam k MoKee OpenSource</string>
-  <string name="donate_money_again">Prispevaj ponovno</string>
-  <string name="donate_money_restored_success">Uspešno obnovljeno!</string>
-  <string name="donate_money_restored_failed">Ne najdem zapisa o napravi.</string>
-  <string name="donate_money_restored_failed_solution">Rešitev</string>
-  <string name="donate_money_restored_timeout">Povezava potekla, prosimo poskusite znova</string>
-  <string name="donate_money_info">Skupaj ste podarili %1$d CNY, več kot %2$s donatorjev v svetovnem merilu!</string>
-  <string name="donate_money_info_with_rank">Skupno ste prispevali CNY %1$d, več kot %2$s donatorjev v svetovnem merilu, uvrstitev št.%3$d!</string>
-  <string name="donate_money_info_null">Niste še prispevali</string>
-  <string name="unlock_features_title">Odklenete funkcije</string>
-  <string name="unlock_features_ota_title">Prispevajte %d CNY in odklenite ota ter prenos s polno hitrostjo.</string>
-  <string name="unlock_features_verify_rom_title">Prispevajte %d CNY za odklep ota, prenos s polno hitrostjo, preverjene posodobitve in odstranitev reklam.</string>
-  <string name="unlock_features_all_title">Prispevajte %d CNY za odklep ota, prenos s polno hitrostjo, preverjene posodobitve in odstranitev reklam.</string>
-  <string name="unlock_features_request_summary">(na voljo po prispevku %d CNY)</string>
-  <string name="unlock_features_pending_summary">(prispevano %1$d CNY, če želite neomejeno uporabo, prispevajte še %2$d CNY)</string>
-  <!-- Update -->
-  <string name="unknown">Neznano</string>
-  <string name="dialog_update">Posodobi</string>
-  <string name="dialog_install">Namesti</string>
-  <string name="dialog_ok">V redu</string>
-  <string name="dialog_cancel">Prekliči</string>
-  <string name="dialog_close">Zapri</string>
-  <string name="no_available_updates_intro">Ob zadnjem preverjanju ni bilo najdenih novih posodobitev. Da ročno preverite za posodobitve, uporabite gumb Osveži.</string>
-  <string name="no_available_ota_intro">Zadnji pregled ni našel posodobitev. Za ročno preverjanje novih posodobitev, uporabite gumb Osveži. Če imate nameščeno različico, ki je izven podprte delne posodobitve, izklopite možnost \"Delna posodobitev\".</string>
-  <string name="new_update_summary">Novo</string>
-  <string name="old_update_summary">Staro</string>
-  <string name="ota_diff_update_summary">Delne posodobitve bi lahko prihranile %s</string>
-  <string name="full_diff_update_summary">Prihrani %s v primerjavi z polnim ROM-om</string>
-  <string name="update_check_title">Preverjanja posodobitev</string>
-  <string name="check_manual">Ročno</string>
-  <string name="nightly_alert">Na seznamu ste izbrali ste tudi nighty posodobitve. Te so nepodprte in jih je treba uporabljati previdno.</string>
-  <string name="experimenter_alert">Na seznamu ste izbrali preizkusne posodobitve. Te so nepodprte in namenjen le testiranju, uporabite jih previdno.</string>
-  <string name="unofficial_alert">Na seznamu ste izbrali neuradne posodobitve. Imejte v mislih, da so te podprte z strani vzdrževalcev naprave.</string>
-  <string name="all_alert">Na seznamu ste izbrali vse posodobitve (release, nightly). Imejte v mislih, da so nightly nepodprte, uporabite jih previdno.</string>
-  <string name="alert_title">Pozor</string>
-  <string name="update_type_title">Tip posodobitve</string>
-  <!-- ChangeLog -->
-  <string name="no_changelog_alert">Seznam zadnjih sprememb ni na voljo</string>
-  <string name="changelog_dialog_title">Zadnje spremembe</string>
-  <string name="loading_changelog">Nalaganje\u2026</string>
-  <string name="check_on_boot">Pri vsakem zagonu</string>
-  <string name="check_twice_daily">Dvakrat na dan</string>
-  <string name="check_daily">Enkrat na dan</string>
-  <string name="check_twice_weekly">Dvakrat na teden</string>
-  <string name="check_weekly">Enkrat na teden</string>
-  <string name="check_bi_weekly">Enkrat na štirinajst dni</string>
-  <string name="check_monthly">Enkrat na mesec</string>
-  <!-- checking -->
-  <string name="checking_for_updates">Preverjam za posodobitve</string>
-  <string name="no_updates_found">Ni novih posodobitev</string>
-  <string name="not_new_updates_found_ticker">Na voljo so nove posodobitve</string>
-  <string name="not_new_updates_found_title">Nove posodobitve</string>
-  <string name="update_check_failed">Preverjanje posodobitev spodletelo. Preverite povezavo z internetom in poskusite znova pozneje.</string>
-  <string name="not_action_download">Prenesi</string>
-  <string name="data_connection_required">Potrebna je podatkovna povezava.</string>
-  <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">Prekliči prenos</string>
-  <string name="confirm_download_cancelation_dialog_message">Prekličem trenutni prenos?</string>
-  <string name="download_remaining"><xliff:g id="duration" example="3 minutes">%s</xliff:g> do konca</string>
-  <string name="download_running">V teku</string>
-  <string name="download_cancelled">Prenos preklican</string>
-  <string name="download_already_running">Prenos se že izvaja</string>
-  <string name="download_limited_mode">Prenos z omejeno hitrostjo, prosim darujte in uživali boste polno hitrost.</string>
-  <string name="unable_to_download_file">Ni bilo mogoče prenesti posodobitvene datoteke</string>
-  <string name="not_download_success">Posodobitev uspešno prenesena</string>
-  <string name="not_download_failure">Prenos posodobitve ni uspel</string>
-  <string name="not_action_install_update">Ponovni zagon in namestitev</string>
-  <string name="not_download_install_notice">Posodobitev <xliff:g id="filename">%s</xliff:g> je bila uspešno prenesena. Pri dotiku \'Reboot and install\', se bo naprava samodejno ponovno zagnala in namestila posodobitve.\n\nOpomba: Ta funkcija zahtava združliv Recovery, drugače prosim namestite ročno.</string>
-  <string name="not_download_install_ota_notice">Posodobitev<xliff:g id="filename">%s </xliff:g> je bila uspešno prenesena. Ob dotiku \"Ponovni zagon in namestitev\", se bo naprava znova zagnala in namestila posodobitev.\n\nOpomba: Ta funkcija zahteva združljiv Recovery, drugače je potrebna ročna namestitev.\n\nTo je delno posodabljanje, zato lahko vsaka sprememba sistemskih datotek povzroči neuspešno posodobitev. Če se to zgodi, raje namestite polni ROM namesto delne posodobitve.</string>
-  <string name="md5_verification_failed">MD5 checksum neujemanje</string>
-  <string name="not_apk_action_install_update">Namesti</string>
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Izbriši datoteko</string>
-  <string name="confirm_delete_updates_dialog_message">Izbrišem izbrano posodobitveno mapo?</string>
-  <string name="confirm_delete_updates_all_dialog_message">Izbrišem vse prenesene posodobitvene datoteke?</string>
-  <string name="delete_single_update_success_message">Posodobitev <xliff:g id="filename">%s</xliff:g> izbrisana</string>
-  <string name="delete_updates_failure_message">Napaka pri brisanju posodobitvene mape</string>
-  <string name="delete_updates_nofolder_message">Posodobitvene mape ni mogoče najti</string>
-  <string name="delete_updates_success_message">Vse prenesene posodobitve izbrisane</string>
-  <!-- Pref -->
-  <string name="pref_ota_check">Delne posodobitve</string>
-  <string name="pref_ota_check_summary">Z delnimi posodobitvami priihranite čas in pasovno širino</string>
-  <string name="pref_ota_check_request_summary">Z delnimi posodobitvami priihranite čas in pasovno širino</string>
-  <string name="pref_verify_rom">Preverjene posodobitve</string>
-  <string name="pref_verify_rom_summary">Prikazane so le posodobitve, ki so jih potrdili drugi uporabniki</string>
-  <string name="pref_verify_rom_request_summary">Prikazane so le posodobitve, ki so jih potrdili drugi uporabniki</string>
-  <!-- Apply install and update strings -->
-  <string name="apply_update_dialog_title">Uveljavi posodbitev</string>
-  <string name="apply_update_dialog_text">Ste tik pred posodobitvijo na <xliff:g id="filename">%s</xliff:g>.\n\nPri dotiku na posodobi, se bo naprava samodejno ponovno zagnala in namestila posodobitve.\n\nOpomba: Ta funkcija zahtava združliv Recovery, drugače prosim namestite ročno.</string>
-  <string name="apply_update_ota_dialog_text">Ste tik pred posodobitvijo na <xliff:g id="filename">%s</xliff:g>.\n\nPri dotiku na posodobi, se bo naprava samodejno ponovno zagnala in namestila posodobitve.\n\nOpomba: Ta funkcija zahtava združliv Recovery, drugače prosim namestite ročno..\n\nTo je delno posodabljanje, zato lahko vsaka sprememba sistemskih datotek povzroči neuspešno posodobitev. Če se to zgodi, raje namestite polni ROM namesto delne posodobitve.</string>
-  <string name="apply_unable_to_reboot_toast">Ponovni zagon v recovery ni uspel</string>
-  <!-- Experimenter mode -->
-  <string name="show_exp_on">Omogočili ste eksperimentalne nastavitve!</string>
-  <string name="show_exp_already">Ni potrebno, ste že omogočili eksperimentalne nastavitve.</string>
-  <!-- Verify system compatible -->
-  <string name="verify_system_compatible_title">MoKee nadgradnja sistema</string>
-  <string name="verify_system_compatible_message">Preverjanje združljivosti sistema pred nadgradnjo\u2026</string>
-  <string name="verify_system_compatible_failed">Preverjanje združljivosti sistema ni uspelo</string>
-  <string name="verify_system_compatible_patch">Datoteke so bile spremenjene ali odstranjene, obnovite jih in poskusite znova.</string>
-  <string name="verify_system_compatible_img">Nezdružljiva %1$s, nadgradite na različico %2$s</string>
-  <string name="verify_system_compatible_root_request">Posodobitev potrditvenega vmesnika zahteva korensko dovoljenje, da preveri združljivost posodobitve. Če se odločite preskočiti, bo ta korak zamaknjen in izveden v načinu obnovitve.</string>
-  <string name="verify_system_compatible_root_skip">Preskoči</string>
-  <!-- Common -->
-  <string name="activity_not_found">Aplikacija ni nameščena.</string>
+    <!-- Fragment -->
+    <string name="mokee_center_title">MoKee Center</string>
+    <string name="mokee_support_title">Pomoč</string>
+    <string name="mokee_updater_title">Posodobitev</string>
+    <!-- WebSite -->
+    <string name="mokee_links">Povezave</string>
+    <string name="mokee_website_title">MoKee spletna stran</string>
+    <string name="mokee_website_summary">Obiščite uradno spletno stran</string>
+    <string name="mokee_forum_title">MoKee Forum</string>
+    <string name="mokee_forum_summary">Obiščite MoKee Forum</string>
+    <string name="mokee_issues_title">MoKee sledenje napak</string>
+    <string name="mokee_issues_summary">Obišči skupnost</string>
+    <string name="mokee_changelog_title">MoKee dnevnik sprememb</string>
+    <string name="mokee_changelog_summary">Pregled dnevnih sprememb</string>
+    <string name="mokee_github_title">MoKee Github</string>
+    <string name="mokee_github_summary">Obišči MoKee Github</string>
+    <string name="mokee_translate_title">MoKee prevajanje</string>
+    <string name="mokee_translate_summary">Pomagajte prevesti MoKee</string>
+    <string name="mokee_wiki_title">MoKee Wiki</string>
+    <string name="mokee_wiki_summary">Poglej si MoKee Wiki</string>
+    <string name="mokee_news_title">MoKee novice</string>
+    <string name="mokee_news_summary">Prejmi razvojne novice iz MoKee</string>
+    <!-- Base Info -->
+    <string name="mokee_version_info_title">Informacije o različici</string>
+    <string name="mokee_version_title">MoKee različica</string>
+    <string name="mokee_unique_id_title">Edinstven ID</string>
+    <string name="mokee_donate_info_title">Info o prispevkih</string>
+    <string name="mokee_last_check_title">Zadnje preverjanje</string>
+    <string name="mokee_last_check_never">Nikoli</string>
+    <!-- Version -->
+    <string name="mokee_info_default">Neznano</string>
+    <string name="mokee_version_type_release">Release</string>
+    <string name="mokee_version_type_history">Zgodovina</string>
+    <string name="mokee_version_type_experimental">Preizkusno</string>
+    <string name="mokee_version_type_nightly">Nightly</string>
+    <string name="mokee_version_type_unofficial">Neuradna</string>
+    <string name="mokee_version_type_all">Vse</string>
+    <!-- State -->
+    <string name="downloaded_update_summary">Preneseno</string>
+    <string name="installed_update_summary">Nameščeno</string>
+    <string name="available_updates_title">Posodobitve na voljo</string>
+    <!-- Menu -->
+    <string name="menu_donate">Prispevaj</string>
+    <string name="menu_refresh">Osveži</string>
+    <string name="menu_delete_all">Izbriši prenos</string>
+    <string name="menu_unlock_features">Odklenete funkcije</string>
+    <string name="menu_restore">Obnovi licenco</string>
+    <!-- Donate -->
+    <string name="donate_dialog_title">Prispevajte za nas</string>
+    <string name="donate_dialog_message">Za razliko od podjetij, kot sta Cygn ali MIUI, je MoKee odprtokodni projekt, ki je povsem neprofitno rojen za hobi in strast. Da bi ohranili ta projekt, ga moramo največkrat plačevati z lasten denajem ali pa se zanašati na prispevke in oglase. Vaš prispevek lahko pomaga zmanjšati našo finančno obremenitev in vzdržuje nadaljni razvoj! Ta možnost vam omogoča, da odstranite oglase v MoKee centru, ali pa uporabite ukaz \"Prispevaj\", če vam je ljubše na obroke (oglasi bodo odstranjeni, ko je dosežena določena vrednost). Prosimo varnostno kopirajte datoteko mokee. license (v korenski imenik sdcard, velja le za trenutno napravo), ko ste prispevali.</string>
+    <string name="donate_dialog_next">Naprej</string>
+    <string name="donate_dialog_via_paypal">PayPal</string>
+    <string name="donate_dialog_via_alipay">AliPay</string>
+    <string name="donate_dialog_via_wechat">WeChat</string>
+    <string name="donate_dialog_via_restore">Obnovi</string>
+    <string name="donate_money_toast_success">Zahvaljujemo se vam za vaš prispevek!</string>
+    <string name="donate_money_title">Prispevam k MoKee OpenSource</string>
+    <string name="donate_money_again">Prispevaj ponovno</string>
+    <string name="donate_money_restored_success">Uspešno obnovljeno!</string>
+    <string name="donate_money_restored_failed">Ne najdem zapisa o napravi.</string>
+    <string name="donate_money_restored_failed_solution">Rešitev</string>
+    <string name="donate_money_restored_timeout">Povezava potekla, prosimo poskusite znova</string>
+    <string name="donate_money_info">Skupaj ste podarili %1$d CNY, več kot %2$s donatorjev v svetovnem merilu!</string>
+    <string name="donate_money_info_with_rank">Skupno ste prispevali CNY %1$d, več kot %2$s donatorjev v svetovnem merilu, uvrstitev št.%3$d!</string>
+    <string name="donate_money_info_null">Niste še prispevali</string>
+    <string name="unlock_features_title">Odklenete funkcije</string>
+    <string name="unlock_features_ota_title">Prispevajte %d CNY in odklenite ota ter prenos s polno hitrostjo.</string>
+    <string name="unlock_features_verify_rom_title">Prispevajte %d CNY za odklep ota, prenos s polno hitrostjo, preverjene posodobitve in odstranitev reklam.</string>
+    <string name="unlock_features_all_title">Prispevajte %d CNY za odklep ota, prenos s polno hitrostjo, preverjene posodobitve in odstranitev reklam.</string>
+    <string name="unlock_features_request_summary">(na voljo po prispevku %d CNY)</string>
+    <string name="unlock_features_pending_summary">(prispevano %1$d CNY, če želite neomejeno uporabo, prispevajte še %2$d CNY)</string>
+    <!-- Update -->
+    <string name="unknown">Neznano</string>
+    <string name="dialog_update">Posodobi</string>
+    <string name="dialog_install">Namesti</string>
+    <string name="dialog_ok">V redu</string>
+    <string name="dialog_cancel">Prekliči</string>
+    <string name="dialog_close">Zapri</string>
+    <string name="no_available_updates_intro">Ob zadnjem preverjanju ni bilo najdenih novih posodobitev. Da ročno preverite za posodobitve, uporabite gumb Osveži.</string>
+    <string name="no_available_ota_intro">Zadnji pregled ni našel posodobitev. Za ročno preverjanje novih posodobitev, uporabite gumb Osveži. Če imate nameščeno različico, ki je izven podprte delne posodobitve, izklopite možnost \"Delna posodobitev\".</string>
+    <string name="new_update_summary">Novo</string>
+    <string name="old_update_summary">Staro</string>
+    <string name="ota_diff_update_summary">Delne posodobitve bi lahko prihranile %s</string>
+    <string name="full_diff_update_summary">Prihrani %s v primerjavi z polnim ROM-om</string>
+    <string name="update_check_title">Preverjanja posodobitev</string>
+    <string name="check_manual">Ročno</string>
+    <string name="nightly_alert">Na seznamu ste izbrali ste tudi nighty posodobitve. Te so nepodprte in jih je treba uporabljati previdno.</string>
+    <string name="experimenter_alert">Na seznamu ste izbrali preizkusne posodobitve. Te so nepodprte in namenjen le testiranju, uporabite jih previdno.</string>
+    <string name="unofficial_alert">Na seznamu ste izbrali neuradne posodobitve. Imejte v mislih, da so te podprte z strani vzdrževalcev naprave.</string>
+    <string name="all_alert">Na seznamu ste izbrali vse posodobitve (release, nightly). Imejte v mislih, da so nightly nepodprte, uporabite jih previdno.</string>
+    <string name="alert_title">Pozor</string>
+    <string name="update_type_title">Tip posodobitve</string>
+    <!-- ChangeLog -->
+    <string name="no_changelog_alert">Seznam zadnjih sprememb ni na voljo</string>
+    <string name="changelog_dialog_title">Zadnje spremembe</string>
+    <string name="loading_changelog">Nalaganje\u2026</string>
+    <string name="check_on_boot">Pri vsakem zagonu</string>
+    <string name="check_twice_daily">Dvakrat na dan</string>
+    <string name="check_daily">Enkrat na dan</string>
+    <string name="check_twice_weekly">Dvakrat na teden</string>
+    <string name="check_weekly">Enkrat na teden</string>
+    <string name="check_bi_weekly">Enkrat na štirinajst dni</string>
+    <string name="check_monthly">Enkrat na mesec</string>
+    <!-- checking -->
+    <string name="checking_for_updates">Preverjam za posodobitve</string>
+    <string name="no_updates_found">Ni novih posodobitev</string>
+    <string name="not_new_updates_found_ticker">Na voljo so nove posodobitve</string>
+    <string name="not_new_updates_found_title">Nove posodobitve</string>
+    <string name="update_check_failed">Preverjanje posodobitev spodletelo. Preverite povezavo z internetom in poskusite znova pozneje.</string>
+    <string name="not_action_download">Prenesi</string>
+    <string name="data_connection_required">Potrebna je podatkovna povezava.</string>
+    <!-- Downloads -->
+    <string name="confirm_download_cancelation_dialog_title">Prekliči prenos</string>
+    <string name="confirm_download_cancelation_dialog_message">Prekličem trenutni prenos?</string>
+    <string name="download_remaining"><xliff:g id="duration" example="3 minutes">%s</xliff:g> do konca</string>
+    <string name="download_running">V teku</string>
+    <string name="download_cancelled">Prenos preklican</string>
+    <string name="download_already_running">Prenos se že izvaja</string>
+    <string name="download_limited_mode">Prenos z omejeno hitrostjo, prosim darujte in uživali boste polno hitrost.</string>
+    <string name="unable_to_download_file">Ni bilo mogoče prenesti posodobitvene datoteke</string>
+    <string name="not_download_success">Posodobitev uspešno prenesena</string>
+    <string name="not_download_failure">Prenos posodobitve ni uspel</string>
+    <string name="not_action_install_update">Ponovni zagon in namestitev</string>
+    <string name="not_download_install_notice">Posodobitev <xliff:g id="filename">%s</xliff:g> je bila uspešno prenesena. Pri dotiku \'Reboot and install\', se bo naprava samodejno ponovno zagnala in namestila posodobitve.\n\nOpomba: Ta funkcija zahtava združliv Recovery, drugače prosim namestite ročno.</string>
+    <string name="not_download_install_ota_notice">Posodobitev<xliff:g id="filename">%s </xliff:g> je bila uspešno prenesena. Ob dotiku \"Ponovni zagon in namestitev\", se bo naprava znova zagnala in namestila posodobitev.\n\nOpomba: Ta funkcija zahteva združljiv Recovery, drugače je potrebna ročna namestitev.\n\nTo je delno posodabljanje, zato lahko vsaka sprememba sistemskih datotek povzroči neuspešno posodobitev. Če se to zgodi, raje namestite polni ROM namesto delne posodobitve.</string>
+    <string name="md5_verification_failed">MD5 checksum neujemanje</string>
+    <string name="not_apk_action_install_update">Namesti</string>
+    <!-- deleting -->
+    <string name="confirm_delete_dialog_title">Izbriši datoteko</string>
+    <string name="confirm_delete_updates_dialog_message">Izbrišem izbrano posodobitveno mapo?</string>
+    <string name="confirm_delete_updates_all_dialog_message">Izbrišem vse prenesene posodobitvene datoteke?</string>
+    <string name="delete_single_update_success_message">Posodobitev <xliff:g id="filename">%s</xliff:g> izbrisana</string>
+    <string name="delete_updates_failure_message">Napaka pri brisanju posodobitvene mape</string>
+    <string name="delete_updates_nofolder_message">Posodobitvene mape ni mogoče najti</string>
+    <string name="delete_updates_success_message">Vse prenesene posodobitve izbrisane</string>
+    <!-- Pref -->
+    <string name="pref_ota_check">Delne posodobitve</string>
+    <string name="pref_ota_check_summary">Z delnimi posodobitvami priihranite čas in pasovno širino</string>
+    <string name="pref_ota_check_request_summary">Z delnimi posodobitvami priihranite čas in pasovno širino</string>
+    <string name="pref_verify_rom">Preverjene posodobitve</string>
+    <string name="pref_verify_rom_summary">Prikazane so le posodobitve, ki so jih potrdili drugi uporabniki</string>
+    <string name="pref_verify_rom_request_summary">Prikazane so le posodobitve, ki so jih potrdili drugi uporabniki</string>
+    <!-- Apply install and update strings -->
+    <string name="apply_update_dialog_title">Uveljavi posodbitev</string>
+    <string name="apply_update_dialog_text">Ste tik pred posodobitvijo na <xliff:g id="filename">%s</xliff:g>.\n\nPri dotiku na posodobi, se bo naprava samodejno ponovno zagnala in namestila posodobitve.\n\nOpomba: Ta funkcija zahtava združliv Recovery, drugače prosim namestite ročno.</string>
+    <string name="apply_update_ota_dialog_text">Ste tik pred posodobitvijo na <xliff:g id="filename">%s</xliff:g>.\n\nPri dotiku na posodobi, se bo naprava samodejno ponovno zagnala in namestila posodobitve.\n\nOpomba: Ta funkcija zahtava združliv Recovery, drugače prosim namestite ročno..\n\nTo je delno posodabljanje, zato lahko vsaka sprememba sistemskih datotek povzroči neuspešno posodobitev. Če se to zgodi, raje namestite polni ROM namesto delne posodobitve.</string>
+    <string name="apply_unable_to_reboot_toast">Ponovni zagon v recovery ni uspel</string>
+    <!-- Experimenter mode -->
+    <string name="show_exp_on">Omogočili ste eksperimentalne nastavitve!</string>
+    <string name="show_exp_already">Ni potrebno, ste že omogočili eksperimentalne nastavitve.</string>
+    <!-- Verify system compatible -->
+    <string name="verify_system_compatible_title">MoKee nadgradnja sistema</string>
+    <string name="verify_system_compatible_message">Preverjanje združljivosti sistema pred nadgradnjo\u2026</string>
+    <string name="verify_system_compatible_failed">Preverjanje združljivosti sistema ni uspelo</string>
+    <string name="verify_system_compatible_patch">Datoteke so bile spremenjene ali odstranjene, obnovite jih in poskusite znova.</string>
+    <string name="verify_system_compatible_img">Nezdružljiva %1$s, nadgradite na različico %2$s</string>
+    <string name="verify_system_compatible_root_request">Posodobitev potrditvenega vmesnika zahteva korensko dovoljenje, da preveri združljivost posodobitve. Če se odločite preskočiti, bo ta korak zamaknjen in izveden v načinu obnovitve.</string>
+    <string name="verify_system_compatible_root_skip">Preskoči</string>
+    <!-- Common -->
+    <string name="activity_not_found">Aplikacija ni nameščena.</string>
 </resources>
