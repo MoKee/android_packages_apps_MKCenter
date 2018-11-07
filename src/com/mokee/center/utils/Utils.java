@@ -113,7 +113,7 @@ public class Utils {
 
     public static long getVersionLifeTime(String versionType) {
         if (versionType.equals("release")) {
-            return DateUtils.DAY_IN_MILLIS * 30;
+            return DateUtils.DAY_IN_MILLIS * 90;
         } else {
             return DateUtils.DAY_IN_MILLIS * 7;
         }
