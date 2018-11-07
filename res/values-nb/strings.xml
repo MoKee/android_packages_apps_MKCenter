@@ -17,133 +17,133 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Fragment -->
-  <string name="mokee_center_title">Mokee Senter</string>
-  <string name="mokee_support_title">Brukerstøtte</string>
-  <string name="mokee_updater_title">Oppdatering</string>
-  <!-- WebSite -->
-  <string name="mokee_website_title">MoKee hjemmeside</string>
-  <string name="mokee_website_summary">Besøk den offisielle hjemmesiden</string>
-  <string name="mokee_forum_title">MoKee forum</string>
-  <string name="mokee_forum_summary">Besøk MoKee forum</string>
-  <string name="mokee_issues_title">MoKee feilsøker</string>
-  <string name="mokee_issues_summary">Besøk feilsøker</string>
-  <string name="mokee_changelog_title">MoKee endringslogg</string>
-  <string name="mokee_changelog_summary">Vis nåværende endringslogg</string>
-  <string name="mokee_github_title">MoKee Github</string>
-  <string name="mokee_github_summary">Besøk MoKee Github</string>
-  <string name="mokee_translate_title">MoKee oversett</string>
-  <string name="mokee_translate_summary">Hjelp å oversette MoKee</string>
-  <string name="mokee_wiki_title">MoKee Wiki</string>
-  <string name="mokee_wiki_summary">Vise MoKee Wiki</string>
-  <string name="mokee_news_title">MoKee nyheter</string>
-  <string name="mokee_news_summary">Motta nyheter fra MoKee</string>
-  <!-- Base Info -->
-  <string name="mokee_version_info_title">Versjons informasjon</string>
-  <string name="mokee_version_title">MoKee versjon</string>
-  <string name="mokee_unique_id_title">Unik ID</string>
-  <string name="mokee_donate_info_title">Doneringsopplysninger</string>
-  <string name="mokee_last_check_title">Siste sjekk</string>
-  <string name="mokee_last_check_never">Aldri</string>
-  <!-- Version -->
-  <string name="mokee_info_default">Ukjent</string>
-  <string name="mokee_version_type_release">Utgivelse</string>
-  <string name="mokee_version_type_history">Logg</string>
-  <string name="mokee_version_type_experimental">Eksperimentell</string>
-  <string name="mokee_version_type_nightly">Nightly</string>
-  <string name="mokee_version_type_unofficial">Uoffisiell</string>
-  <string name="mokee_version_type_all">Alle</string>
-  <!-- State -->
-  <string name="downloaded_update_summary">Lastet ned</string>
-  <string name="installed_update_summary">Installert</string>
-  <string name="available_updates_title">Tilgjengelige oppdateringer</string>
-  <!-- Menu -->
-  <string name="menu_donate">Donere</string>
-  <string name="menu_refresh">Oppdater</string>
-  <string name="menu_delete_all">Fjern nedlastinger</string>
-  <!-- Donate -->
-  <string name="donate_dialog_title">Donere til oss</string>
-  <string name="donate_dialog_message">I motsetning til selskaper som Cygn eller MIUI er MoKee OpenSource et rent nonprofitprosjekt født av hobby og lidenskap. For å opprettholde dette prosjektet, må vi bruke våre egen penger mesteparten av tiden eller stole på donasjoner og reklame. Donasjoner kan hjelpe redusere våre finansielle belastning og opprettholde fremtidig utvikling! Dette alternativet lar deg fjerne annonser i MoKee Senter, eller bruk \"Donere\" i stedet hvis du foretrekker det (annonser vil bli fjernet når totalt har nådd angitt verdi). Ta backup på mokee.license fil (i rotkatalogen på sdcard, gjelder bare for gjeldende enhet) når du har donert.</string>
-  <string name="donate_dialog_via_paypal">PayPal</string>
-  <string name="donate_dialog_via_alipay">AliPay</string>
-  <string name="donate_dialog_via_restore">Gjenopprett</string>
-  <string name="donate_money_toast_success">Takk for din donasjon!</string>
-  <string name="donate_money_again">Gi din støtte igjen</string>
-  <string name="donate_money_restored_success">Gjenoppretting vellykket!</string>
-  <string name="donate_money_restored_failed">Ingen enhetsregistrering funnet.</string>
-  <string name="donate_money_restored_timeout">Tilkobling tidsavbrutt, vennligst prøv igjen</string>
-  <string name="donate_money_info_null">Du ikke har donert</string>
-  <!-- Update -->
-  <string name="unknown">Ukjent</string>
-  <string name="dialog_update">Oppdater</string>
-  <string name="dialog_install">Installer</string>
-  <string name="dialog_ok">OK</string>
-  <string name="dialog_cancel">Angre</string>
-  <string name="dialog_close">Lukk</string>
-  <string name="no_available_updates_intro">Siste oppdateringsjekk fant ingen tilgjengelige oppdateringer. Bruk oppdateringsknappen for manuelt å se etter nye oppdateringer.</string>
-  <string name="no_available_ota_intro">Den siste sjekken finner ikke tilgjengelige oppdateringer. For manuelt å se etter nye oppdateringer, bruk oppdateringsknappen. Hvis du kjører en eldre versjon som ikke støtter trinnvis oppdatering til nyeste versjon fjerner du alternativet \"Trinnvise oppdateringer\".</string>
-  <string name="new_update_summary">Ny</string>
-  <string name="old_update_summary">Gammel</string>
-  <string name="update_check_title">Sjekk oppdateringsfrekvens</string>
-  <string name="check_manual">Manuell</string>
-  <string name="nightly_alert">Du har valgt å inkludere eksperimentelle oppdateringer i din liste. Disse er uten støtte og burde brukes med forsiktighet.</string>
-  <string name="experimenter_alert">Du har valgt for å inkludere eksperimentelle oppdateringer i denne listen. Disse har ingen støtte, og er bare ment for testing. Dette bør brukes med forsiktighet.</string>
-  <string name="unofficial_alert">Du har valgt for å inkludere uoffisiell oppdateringer i denne listen. Vær oppmerksom på at disse støttes kun av den som vedlikeholder programvaren for din enhet.</string>
-  <string name="all_alert">Du har valgt å inkludere alle oppdateringer (ordinære og eksperimentelle) i denne listen. Vær oppmerksom på at eksperimentelle oppdateringer er uten støtte og brukes med forsiktighet.</string>
-  <string name="alert_title">Forsiktig</string>
-  <string name="update_type_title">Oppdateringstyper</string>
-  <!-- ChangeLog -->
-  <string name="no_changelog_alert">Endringslogg ikke tilgjengelig</string>
-  <string name="changelog_dialog_title">Endringslogg</string>
-  <string name="loading_changelog">Laster\u2026</string>
-  <string name="check_on_boot">Hver omstart</string>
-  <string name="check_twice_daily">To ganger hver dag</string>
-  <string name="check_daily">En gang hver dag</string>
-  <string name="check_twice_weekly">To ganger i uka</string>
-  <string name="check_weekly">En gang hver uke</string>
-  <string name="check_bi_weekly">En gang hver andre uke</string>
-  <string name="check_monthly">En gang hver måned</string>
-  <!-- checking -->
-  <string name="checking_for_updates">Ser etter oppdateringer</string>
-  <string name="no_updates_found">Ingen nye oppdateringer funnet</string>
-  <string name="not_new_updates_found_ticker">Nye oppdateringer er tilgjengelig</string>
-  <string name="not_new_updates_found_title">Nye oppdateringer</string>
-  <string name="update_check_failed">Oppdateringskontrollen feilet. Sjekk internettilkoblingen og prøv på nytt senere.</string>
-  <string name="not_action_download">Last ned</string>
-  <string name="data_connection_required">En datatilkobling er nødvendig.</string>
-  <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">Avbryt nedlasting</string>
-  <string name="confirm_download_cancelation_dialog_message">Avbryte den gjeldende nedlastingen?</string>
-  <string name="download_remaining"><xliff:g id="duration" example="3 minutes">%s</xliff:g> gjenværende</string>
-  <string name="download_running">Pågår</string>
-  <string name="download_cancelled">Nedlasting avbrutt</string>
-  <string name="download_already_running">En nedlasting pågår allerede</string>
-  <string name="unable_to_download_file">Kunne ikke laste ned oppdateringsfil</string>
-  <string name="not_download_success">Nedlasting av oppdatering var vellykket</string>
-  <string name="not_download_failure">Nedlasting av oppdatering var ikke vellykket</string>
-  <string name="not_action_install_update">Start på nytt og installer</string>
-  <string name="not_download_install_notice">Oppdatering <xliff:g id="filename">%s </xliff:g> ble lastet ned. Når berøre \'Starte på nytt og installere\', starter enheten på nytt og installerer oppdateringen.\n\nNote: denne funksjonen krever en kompatibel \"recovery\" ellers må oppdateringene installeres manuelt.</string>
-  <string name="md5_verification_failed">Feil i MD5-kontrollsum</string>
-  <string name="not_apk_action_install_update">Installer</string>
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Slett fil</string>
-  <string name="confirm_delete_updates_dialog_message">Slette valgte oppdateringsfil?</string>
-  <string name="delete_updates_failure_message">Det oppsto en feil ved sletting av oppdateringsfil</string>
-  <string name="delete_updates_nofolder_message">Oppdateringsmappe ikke funnet</string>
-  <string name="delete_updates_success_message">Alle nedlastede oppdateringerer er slettet</string>
-  <!-- Pref -->
-  <string name="pref_ota_check">Trinnvise oppdateringer</string>
-  <string name="pref_ota_check_summary">Få trinnvise oppdateringer for å spare nedlastingstid og båndbredde</string>
-  <string name="pref_ota_check_request_summary">Få trinnvise oppdateringer for å spare nedlastingstid og båndbredde</string>
-  <!-- Apply install and update strings -->
-  <string name="apply_update_dialog_title">Installer oppdatering</string>
-  <string name="apply_unable_to_reboot_toast">Kunne ikke starte opp i recovery-modus</string>
-  <!-- Experimenter mode -->
-  <string name="show_exp_on">Du har aktivert eksperimentelle innstillinger!</string>
-  <string name="show_exp_already">Ikke nødvendig, du allerede har aktivert eksperimentelle innstillinger.</string>
-  <!-- Verify system compatible -->
-  <string name="verify_system_compatible_title">MoKee systemoppdatering</string>
-  <string name="verify_system_compatible_root_skip">Hopp over</string>
-  <!-- Common -->
-  <string name="activity_not_found">Appen er ikke installert.</string>
+    <!-- Fragment -->
+    <string name="mokee_center_title">Mokee Senter</string>
+    <string name="mokee_support_title">Brukerstøtte</string>
+    <string name="mokee_updater_title">Oppdatering</string>
+    <!-- WebSite -->
+    <string name="mokee_website_title">MoKee hjemmeside</string>
+    <string name="mokee_website_summary">Besøk den offisielle hjemmesiden</string>
+    <string name="mokee_forum_title">MoKee forum</string>
+    <string name="mokee_forum_summary">Besøk MoKee forum</string>
+    <string name="mokee_issues_title">MoKee feilsøker</string>
+    <string name="mokee_issues_summary">Besøk feilsøker</string>
+    <string name="mokee_changelog_title">MoKee endringslogg</string>
+    <string name="mokee_changelog_summary">Vis nåværende endringslogg</string>
+    <string name="mokee_github_title">MoKee Github</string>
+    <string name="mokee_github_summary">Besøk MoKee Github</string>
+    <string name="mokee_translate_title">MoKee oversett</string>
+    <string name="mokee_translate_summary">Hjelp å oversette MoKee</string>
+    <string name="mokee_wiki_title">MoKee Wiki</string>
+    <string name="mokee_wiki_summary">Vise MoKee Wiki</string>
+    <string name="mokee_news_title">MoKee nyheter</string>
+    <string name="mokee_news_summary">Motta nyheter fra MoKee</string>
+    <!-- Base Info -->
+    <string name="mokee_version_info_title">Versjons informasjon</string>
+    <string name="mokee_version_title">MoKee versjon</string>
+    <string name="mokee_unique_id_title">Unik ID</string>
+    <string name="mokee_donate_info_title">Doneringsopplysninger</string>
+    <string name="mokee_last_check_title">Siste sjekk</string>
+    <string name="mokee_last_check_never">Aldri</string>
+    <!-- Version -->
+    <string name="mokee_info_default">Ukjent</string>
+    <string name="mokee_version_type_release">Utgivelse</string>
+    <string name="mokee_version_type_history">Logg</string>
+    <string name="mokee_version_type_experimental">Eksperimentell</string>
+    <string name="mokee_version_type_nightly">Nightly</string>
+    <string name="mokee_version_type_unofficial">Uoffisiell</string>
+    <string name="mokee_version_type_all">Alle</string>
+    <!-- State -->
+    <string name="downloaded_update_summary">Lastet ned</string>
+    <string name="installed_update_summary">Installert</string>
+    <string name="available_updates_title">Tilgjengelige oppdateringer</string>
+    <!-- Menu -->
+    <string name="menu_donate">Donere</string>
+    <string name="menu_refresh">Oppdater</string>
+    <string name="menu_delete_all">Fjern nedlastinger</string>
+    <!-- Donate -->
+    <string name="donate_dialog_title">Donere til oss</string>
+    <string name="donate_dialog_message">I motsetning til selskaper som Cygn eller MIUI er MoKee OpenSource et rent nonprofitprosjekt født av hobby og lidenskap. For å opprettholde dette prosjektet, må vi bruke våre egen penger mesteparten av tiden eller stole på donasjoner og reklame. Donasjoner kan hjelpe redusere våre finansielle belastning og opprettholde fremtidig utvikling! Dette alternativet lar deg fjerne annonser i MoKee Senter, eller bruk \"Donere\" i stedet hvis du foretrekker det (annonser vil bli fjernet når totalt har nådd angitt verdi). Ta backup på mokee.license fil (i rotkatalogen på sdcard, gjelder bare for gjeldende enhet) når du har donert.</string>
+    <string name="donate_dialog_via_paypal">PayPal</string>
+    <string name="donate_dialog_via_alipay">AliPay</string>
+    <string name="donate_dialog_via_restore">Gjenopprett</string>
+    <string name="donate_money_toast_success">Takk for din donasjon!</string>
+    <string name="donate_money_again">Gi din støtte igjen</string>
+    <string name="donate_money_restored_success">Gjenoppretting vellykket!</string>
+    <string name="donate_money_restored_failed">Ingen enhetsregistrering funnet.</string>
+    <string name="donate_money_restored_timeout">Tilkobling tidsavbrutt, vennligst prøv igjen</string>
+    <string name="donate_money_info_null">Du ikke har donert</string>
+    <!-- Update -->
+    <string name="unknown">Ukjent</string>
+    <string name="dialog_update">Oppdater</string>
+    <string name="dialog_install">Installer</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Angre</string>
+    <string name="dialog_close">Lukk</string>
+    <string name="no_available_updates_intro">Siste oppdateringsjekk fant ingen tilgjengelige oppdateringer. Bruk oppdateringsknappen for manuelt å se etter nye oppdateringer.</string>
+    <string name="no_available_ota_intro">Den siste sjekken finner ikke tilgjengelige oppdateringer. For manuelt å se etter nye oppdateringer, bruk oppdateringsknappen. Hvis du kjører en eldre versjon som ikke støtter trinnvis oppdatering til nyeste versjon fjerner du alternativet \"Trinnvise oppdateringer\".</string>
+    <string name="new_update_summary">Ny</string>
+    <string name="old_update_summary">Gammel</string>
+    <string name="update_check_title">Sjekk oppdateringsfrekvens</string>
+    <string name="check_manual">Manuell</string>
+    <string name="nightly_alert">Du har valgt å inkludere eksperimentelle oppdateringer i din liste. Disse er uten støtte og burde brukes med forsiktighet.</string>
+    <string name="experimenter_alert">Du har valgt for å inkludere eksperimentelle oppdateringer i denne listen. Disse har ingen støtte, og er bare ment for testing. Dette bør brukes med forsiktighet.</string>
+    <string name="unofficial_alert">Du har valgt for å inkludere uoffisiell oppdateringer i denne listen. Vær oppmerksom på at disse støttes kun av den som vedlikeholder programvaren for din enhet.</string>
+    <string name="all_alert">Du har valgt å inkludere alle oppdateringer (ordinære og eksperimentelle) i denne listen. Vær oppmerksom på at eksperimentelle oppdateringer er uten støtte og brukes med forsiktighet.</string>
+    <string name="alert_title">Forsiktig</string>
+    <string name="update_type_title">Oppdateringstyper</string>
+    <!-- ChangeLog -->
+    <string name="no_changelog_alert">Endringslogg ikke tilgjengelig</string>
+    <string name="changelog_dialog_title">Endringslogg</string>
+    <string name="loading_changelog">Laster\u2026</string>
+    <string name="check_on_boot">Hver omstart</string>
+    <string name="check_twice_daily">To ganger hver dag</string>
+    <string name="check_daily">En gang hver dag</string>
+    <string name="check_twice_weekly">To ganger i uka</string>
+    <string name="check_weekly">En gang hver uke</string>
+    <string name="check_bi_weekly">En gang hver andre uke</string>
+    <string name="check_monthly">En gang hver måned</string>
+    <!-- checking -->
+    <string name="checking_for_updates">Ser etter oppdateringer</string>
+    <string name="no_updates_found">Ingen nye oppdateringer funnet</string>
+    <string name="not_new_updates_found_ticker">Nye oppdateringer er tilgjengelig</string>
+    <string name="not_new_updates_found_title">Nye oppdateringer</string>
+    <string name="update_check_failed">Oppdateringskontrollen feilet. Sjekk internettilkoblingen og prøv på nytt senere.</string>
+    <string name="not_action_download">Last ned</string>
+    <string name="data_connection_required">En datatilkobling er nødvendig.</string>
+    <!-- Downloads -->
+    <string name="confirm_download_cancelation_dialog_title">Avbryt nedlasting</string>
+    <string name="confirm_download_cancelation_dialog_message">Avbryte den gjeldende nedlastingen?</string>
+    <string name="download_remaining"><xliff:g id="duration" example="3 minutes">%s</xliff:g> gjenværende</string>
+    <string name="download_running">Pågår</string>
+    <string name="download_cancelled">Nedlasting avbrutt</string>
+    <string name="download_already_running">En nedlasting pågår allerede</string>
+    <string name="unable_to_download_file">Kunne ikke laste ned oppdateringsfil</string>
+    <string name="not_download_success">Nedlasting av oppdatering var vellykket</string>
+    <string name="not_download_failure">Nedlasting av oppdatering var ikke vellykket</string>
+    <string name="not_action_install_update">Start på nytt og installer</string>
+    <string name="not_download_install_notice">Oppdatering <xliff:g id="filename">%s </xliff:g> ble lastet ned. Når berøre \'Starte på nytt og installere\', starter enheten på nytt og installerer oppdateringen.\n\nNote: denne funksjonen krever en kompatibel \"recovery\" ellers må oppdateringene installeres manuelt.</string>
+    <string name="md5_verification_failed">Feil i MD5-kontrollsum</string>
+    <string name="not_apk_action_install_update">Installer</string>
+    <!-- deleting -->
+    <string name="confirm_delete_dialog_title">Slett fil</string>
+    <string name="confirm_delete_updates_dialog_message">Slette valgte oppdateringsfil?</string>
+    <string name="delete_updates_failure_message">Det oppsto en feil ved sletting av oppdateringsfil</string>
+    <string name="delete_updates_nofolder_message">Oppdateringsmappe ikke funnet</string>
+    <string name="delete_updates_success_message">Alle nedlastede oppdateringerer er slettet</string>
+    <!-- Pref -->
+    <string name="pref_ota_check">Trinnvise oppdateringer</string>
+    <string name="pref_ota_check_summary">Få trinnvise oppdateringer for å spare nedlastingstid og båndbredde</string>
+    <string name="pref_ota_check_request_summary">Få trinnvise oppdateringer for å spare nedlastingstid og båndbredde</string>
+    <!-- Apply install and update strings -->
+    <string name="apply_update_dialog_title">Installer oppdatering</string>
+    <string name="apply_unable_to_reboot_toast">Kunne ikke starte opp i recovery-modus</string>
+    <!-- Experimenter mode -->
+    <string name="show_exp_on">Du har aktivert eksperimentelle innstillinger!</string>
+    <string name="show_exp_already">Ikke nødvendig, du allerede har aktivert eksperimentelle innstillinger.</string>
+    <!-- Verify system compatible -->
+    <string name="verify_system_compatible_title">MoKee systemoppdatering</string>
+    <string name="verify_system_compatible_root_skip">Hopp over</string>
+    <!-- Common -->
+    <string name="activity_not_found">Appen er ikke installert.</string>
 </resources>

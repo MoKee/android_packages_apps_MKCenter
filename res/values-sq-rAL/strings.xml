@@ -17,32 +17,32 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Fragment -->
-  <string name="mokee_center_title">Mokee مركز</string>
-  <string name="mokee_support_title">الدعم</string>
-  <string name="mokee_updater_title">ترقية برنامج</string>
-  <!-- WebSite -->
-  <string name="mokee_website_title">Mokee موقع ويب</string>
-  <string name="mokee_website_summary">الموقع الرسمي للمعرض</string>
-  <string name="mokee_forum_title">Mokee المنتدى</string>
-  <string name="mokee_forum_summary">تصفح Mokee المنتدى</string>
-  <string name="mokee_issues_title">Mokee الشوائب المقتفي</string>
-  <string name="mokee_issues_summary">تصفح أخطاء المقتفي</string>
-  <string name="mokee_changelog_title">Mokee تحديث السجل</string>
-  <!-- Base Info -->
-  <!-- Version -->
-  <!-- State -->
-  <!-- Menu -->
-  <!-- Donate -->
-  <!-- Update -->
-  <!-- ChangeLog -->
-  <!-- checking -->
-  <!-- Downloads -->
-  <!-- deleting -->
-  <!-- Pref -->
-  <!-- Apply install and update strings -->
-  <!-- Experimenter mode -->
-  <!-- Verify system compatible -->
-  <!-- Common -->
-  <string name="activity_not_found">Aplikacioni nuk është i instaluar.</string>
+    <!-- Fragment -->
+    <string name="mokee_center_title">Mokee مركز</string>
+    <string name="mokee_support_title">الدعم</string>
+    <string name="mokee_updater_title">ترقية برنامج</string>
+    <!-- WebSite -->
+    <string name="mokee_website_title">Mokee موقع ويب</string>
+    <string name="mokee_website_summary">الموقع الرسمي للمعرض</string>
+    <string name="mokee_forum_title">Mokee المنتدى</string>
+    <string name="mokee_forum_summary">تصفح Mokee المنتدى</string>
+    <string name="mokee_issues_title">Mokee الشوائب المقتفي</string>
+    <string name="mokee_issues_summary">تصفح أخطاء المقتفي</string>
+    <string name="mokee_changelog_title">Mokee تحديث السجل</string>
+    <!-- Base Info -->
+    <!-- Version -->
+    <!-- State -->
+    <!-- Menu -->
+    <!-- Donate -->
+    <!-- Update -->
+    <!-- ChangeLog -->
+    <!-- checking -->
+    <!-- Downloads -->
+    <!-- deleting -->
+    <!-- Pref -->
+    <!-- Apply install and update strings -->
+    <!-- Experimenter mode -->
+    <!-- Verify system compatible -->
+    <!-- Common -->
+    <string name="activity_not_found">Aplikacioni nuk është i instaluar.</string>
 </resources>

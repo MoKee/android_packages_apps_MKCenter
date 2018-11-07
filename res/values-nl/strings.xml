@@ -17,162 +17,162 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Fragment -->
-  <string name="mokee_center_title">MoKee Center</string>
-  <string name="mokee_support_title">Ondersteuning</string>
-  <string name="mokee_updater_title">Updater</string>
-  <!-- WebSite -->
-  <string name="mokee_website_title">MoKee Website</string>
-  <string name="mokee_website_summary">Bezoek de officiële website</string>
-  <string name="mokee_forum_title">MoKee Forum</string>
-  <string name="mokee_forum_summary">Bezoek het MoKee Forum</string>
-  <string name="mokee_issues_title">MoKee Fout opsporing </string>
-  <string name="mokee_issues_summary">Bezoek de fout opsporing</string>
-  <string name="mokee_changelog_title">MoKee Wijzigingen</string>
-  <string name="mokee_changelog_summary">Bekijk dagelijkse changelog</string>
-  <string name="mokee_github_title">MoKee Github</string>
-  <string name="mokee_github_summary">Bezoek de MoKee Github</string>
-  <string name="mokee_translate_title">MoKee Vertalingen</string>
-  <string name="mokee_translate_summary">Help MoKee Vertalen</string>
-  <string name="mokee_wiki_title">MoKee Wiki</string>
-  <string name="mokee_wiki_summary">Bekijk de MoKee Wiki</string>
-  <string name="mokee_news_title">MoKee nieuws</string>
-  <string name="mokee_news_summary">Ontvang ontwikkeling nieuws van MoKee</string>
-  <!-- Base Info -->
-  <string name="mokee_version_info_title">Versie Info</string>
-  <string name="mokee_version_title">MoKee versie</string>
-  <string name="mokee_unique_id_title">Unieke ID</string>
-  <string name="mokee_donate_info_title">Info voor donaties</string>
-  <string name="mokee_last_check_title">Laatst gecontroleerd</string>
-  <string name="mokee_last_check_never">Nooit</string>
-  <!-- Version -->
-  <string name="mokee_info_default">Onbekend</string>
-  <string name="mokee_version_type_release">Uitgave</string>
-  <string name="mokee_version_type_history">Geschiedenis</string>
-  <string name="mokee_version_type_experimental">Experimenteel</string>
-  <string name="mokee_version_type_nightly">Nachtelijks</string>
-  <string name="mokee_version_type_unofficial">Onofficieel</string>
-  <string name="mokee_version_type_all">Alle</string>
-  <!-- State -->
-  <string name="downloaded_update_summary">Gedownload</string>
-  <string name="installed_update_summary">Geïnstalleerd</string>
-  <string name="available_updates_title">Beschikbare updates</string>
-  <!-- Menu -->
-  <string name="menu_donate">Doneren</string>
-  <string name="menu_refresh">Vernieuw</string>
-  <string name="menu_delete_all">Download verwijderen</string>
-  <string name="menu_unlock_features">Onderdelen ontgrendelen</string>
-  <string name="menu_restore">Herstellen van licentie</string>
-  <!-- Donate -->
-  <string name="donate_dialog_title">Doneer aan ons</string>
-  <string name="donate_dialog_message">In tegenstelling tot bedrijven zoals Cygn of MIUI is MoKee OpenSource en een zuiver non-profit project geboren uit een hobby en passie. Om dit project te onderhouden, moeten wij meestal zelf ons eigen geld neerleggen of vertrouwen op donaties en reclame. Uw donaties kunnen helpen van het verminderen van onze financiële belastingen en duurzame toekomstige ontwikkelingen! Dit biedt u de mogelijkheid om advertenties te verwijderen in MoKee Center, of gebruik de \"donatie\" optie als u liever in termijnen betaald (advertenties worden verwijderd wanneer het totaal opgegeven bedrag bereikt is) maak alsjeblieft een kopie van het mokee.license bestand (in de rootdirectory van de sdcard, enkel geldig voor een geldig apparaat) zodra u heeft gedoneerd.</string>
-  <string name="donate_dialog_via_paypal">PayPal</string>
-  <string name="donate_dialog_via_alipay">AliPay</string>
-  <string name="donate_dialog_via_wechat">WeChat</string>
-  <string name="donate_dialog_via_restore">Terugzetten</string>
-  <string name="donate_money_toast_success">Dank u voor uw donatie!</string>
-  <string name="donate_money_title">Doneer aan MoKee OpenSource</string>
-  <string name="donate_money_again">Opnieuw doneren</string>
-  <string name="donate_money_restored_success">Terugzetten gelukt!</string>
-  <string name="donate_money_restored_failed">Telefoon niet gevonden.</string>
-  <string name="donate_money_restored_failed_solution">Oplossing</string>
-  <string name="donate_money_restored_timeout">Verbindings- time out, probeer het later opniew</string>
-  <string name="donate_money_info">U doneerde in totaal %1$d CNY, dat is %2$s CNY meer dan er wereldwijd gedoneerd wordt!</string>
-  <string name="donate_money_info_with_rank">U geschonk CNY %1$d, in totaal meer dan %2$s van donors wereldwijd, rang No.%3$d!</string>
-  <string name="donate_money_info_null">U hebt geen donatie gedaan</string>
-  <string name="unlock_features_title">Onderdelen ontgrendelen</string>
-  <string name="unlock_features_ota_title">Doneer %d CNY om ota te ontgrendelen en aan de hoogste snelheid te downloaden.</string>
-  <string name="unlock_features_verify_rom_title">Doneer %d CNY voor geverifieerde updates en verwijderen van de advertenties.</string>
-  <string name="unlock_features_all_title">%d CNY doneren voor ontgrendelen OTA, volle snelheid downloaden, updates gecontroleerd en verwijder advertenties.</string>
-  <string name="unlock_features_request_summary">(Beschikbaar na %d CNY gedoneerd te hebben)</string>
-  <string name="unlock_features_pending_summary">(%1$d CNY gedoneerd, beschikbaar voor altijd na %2$d CNY)</string>
-  <!-- Update -->
-  <string name="unknown">Onbekend</string>
-  <string name="dialog_update">Bijwerken</string>
-  <string name="dialog_install">Installeren</string>
-  <string name="dialog_ok">Oké</string>
-  <string name="dialog_cancel">Annuleren</string>
-  <string name="dialog_close">Sluiten</string>
-  <string name="no_available_updates_intro">De laatste keer zijn er geen updates gevonden. Om handmatig te controleren, tikt u op \'Vernieuwen\'.</string>
-  <string name="no_available_ota_intro">De laatste controle heeft geen beschikbare updates gevonden. Gebruik de knop vernieuwen, om handmatig op nieuwe updates te controleren. Als u een versie gebruikt die niet binnen het \'incrementele update\' datumbereik valt, moet u de \"Incrementele updates\" optie uitschakelen.</string>
-  <string name="new_update_summary">Nieuw</string>
-  <string name="old_update_summary">Oud</string>
-  <string name="ota_diff_update_summary">Incrementele updates kunnen %s opslaan</string>
-  <string name="full_diff_update_summary">Slaat %s op wanneer vergeleken met volledige ROM</string>
-  <string name="update_check_title">Regelmatig controleren naar updates</string>
-  <string name="check_manual">Manueel</string>
-  <string name="nightly_alert">U heeft ervoor gekozen ook nachtelijke-updates in de lijst weer te geven. Deze worden niet ondersteund en moeten voorzichtig worden gebruikt.</string>
-  <string name="experimenter_alert">U heeft ervoor gekozen ook experimentele-updates in de lijst weer te geven. Deze worden niet ondersteund, zijn enkel bedoeld voor testdoeleinden en moeten voorzichtig worden gebruikt.</string>
-  <string name="unofficial_alert">U heeft ervoor gekozen ook onofficiële-updates in de lijst weer te geven. Hou in het achterhoofd dat deze enkel ondersteund worden door de persoon die updates voorziet voor uw toestel.</string>
-  <string name="all_alert">U hebt geselecteerd om alle updates (release, nightly) in deze lijst weer te geven. Stel vast dat nightly updates niet ondersteund worden en met voorzichtigheid gebruikt moet worden.</string>
-  <string name="alert_title">Let op</string>
-  <string name="update_type_title">Type update</string>
-  <!-- ChangeLog -->
-  <string name="no_changelog_alert">Geen logboek beschikbaar</string>
-  <string name="changelog_dialog_title">Logboek</string>
-  <string name="loading_changelog">Aan het laden\u2026</string>
-  <string name="check_on_boot">Bij elke herstart</string>
-  <string name="check_twice_daily">Tweemaal per dag</string>
-  <string name="check_daily">Eenmaal per dag</string>
-  <string name="check_twice_weekly">Tweemaal per week</string>
-  <string name="check_weekly">Eenmaal per week</string>
-  <string name="check_bi_weekly">Eenmaal om de twee weken</string>
-  <string name="check_monthly">Eenmaal per maand</string>
-  <!-- checking -->
-  <string name="checking_for_updates">Zoeken naar updates</string>
-  <string name="no_updates_found">Geen nieuwe updates gevonden</string>
-  <string name="not_new_updates_found_ticker">Er zijn nieuwe updates beschikbaar</string>
-  <string name="not_new_updates_found_title">Nieuwe updates</string>
-  <string name="update_check_failed">Kan niet controleren op updates. Controleer uw internetverbinding en probeer het later opnieuw.</string>
-  <string name="not_action_download">Download</string>
-  <string name="data_connection_required">Gegevensverbinding vereist.</string>
-  <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">Download annuleren</string>
-  <string name="confirm_download_cancelation_dialog_message">Annuleer de huidige download?</string>
-  <string name="download_remaining">nog <xliff:g id="duration" example="3 minuten">%s</xliff:g></string>
-  <string name="download_running">In behandeling</string>
-  <string name="download_cancelled">Download geannuleeerd</string>
-  <string name="download_already_running">Er is al een andere download bezig</string>
-  <string name="download_limited_mode">Downloaden met beperkte snelheid, Doneer alstublieft om te genieten van volle snelheid.</string>
-  <string name="unable_to_download_file">Kan update bestand niet downloaden</string>
-  <string name="not_download_success">Update succesvol gedownload</string>
-  <string name="not_download_failure">Downloaden van de update is mislukt</string>
-  <string name="not_action_install_update">Herstarten en installeren</string>
-  <string name="not_download_install_notice">De update <xliff:g id="filename">%s </xliff:g> werd met succes gedownload. Bij het aanraken van \'Opnieuw opstarten en installeren\', wordt het apparaat uit zich zelf opnieuw opgestart om de installatie te voltooien van de update.\n\nLet op: deze functie vereist een ondersteunende Recovery of de updates zullen handmatig moeten worden geïnstalleerd.</string>
-  <string name="not_download_install_ota_notice">De update <xliff:g id="filename">%s </xliff:g> werd met succes gedownload. Bij het aanraken van \'Opnieuw opstarten en installeren\', wordt het apparaat uit zich zelf opnieuw opgestart om de update te installeren.\n\nLet op: deze functie vereist een ondersteunende Recovery anders zullen de updates handmatig moeten worden geïnstalleerd.\n\n Dit is een experimentele update, dus wijzigingen in de systeembestanden kunnen er voor zorgen dat de update mislukt. Als dit gebeurt, flash dan alstublieft een volledige ROM.</string>
-  <string name="md5_verification_failed">MD5 checksum komt niet overeen</string>
-  <string name="not_apk_action_install_update">Installeren</string>
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Bestand verwijderen</string>
-  <string name="confirm_delete_updates_dialog_message">Verwijder het geselecteerde update bestand?</string>
-  <string name="confirm_delete_updates_all_dialog_message">Alle gedownloade update bestanden verwijderen?</string>
-  <string name="delete_single_update_success_message">Update <xliff:g id="filename">%s</xliff:g> verwijderd</string>
-  <string name="delete_updates_failure_message">Kan update bestand niet verwijderen</string>
-  <string name="delete_updates_nofolder_message">Kon update map niet vinden</string>
-  <string name="delete_updates_success_message">Alle opgeslagen updates zijn verwijderd</string>
-  <!-- Pref -->
-  <string name="pref_ota_check">Incrementele updates</string>
-  <string name="pref_ota_check_summary">Haal incrementele updates binnen om de downloadtijd en bandbreedte te besparen</string>
-  <string name="pref_ota_check_request_summary">Haal incrementele updates binnen om de downloadtijd en bandbreedte te besparen</string>
-  <string name="pref_verify_rom">Geverifieerde updates</string>
-  <string name="pref_verify_rom_summary">Alleen updates die worden geverifieerd door andere gebruikers worden weergegeven</string>
-  <string name="pref_verify_rom_request_summary">Alleen updates die worden geverifieerd door andere gebruikers worden weergegeven</string>
-  <!-- Apply install and update strings -->
-  <string name="apply_update_dialog_title">Update toepassen</string>
-  <string name="apply_update_dialog_text">Uw systeem wordt bijgewerkt naar <xliff:g id="filename">%s</xliff:g>.\n\nWanneer u \'Bijwerken\' selecteert, zal het toestel herstarten om de update te installeren.\n\nLet op: Een ondersteunende recovery is vereist, anders moet de update handmatig worden geïnstalleerd.</string>
-  <string name="apply_update_ota_dialog_text">U staat op het punt om te upgraden naar <xliff:g id="filename">%s </xliff:g>. \n\nals u op Update drukt, wordt het apparaat uit zich zelf opnieuw opgestart in de herstelmodus om de update te installeren.\n\n Let op: deze functie vereist een ondersteunende Recovery anders zullen de updates handmatig moeten worden geïnstalleerd.\n\nDit is een experimentele update, dus wijzigingen in de systeembestanden kunnen er voor zorgen dat de update mislukt. Als dit gebeurt, flash dan alstublieft een volledige ROM.</string>
-  <string name="apply_unable_to_reboot_toast">Niet mogelijk om te herstarten naar recovery</string>
-  <!-- Experimenter mode -->
-  <string name="show_exp_on">U hebt de experimentele instellingen ingeschakeld!</string>
-  <string name="show_exp_already">Niet nodig, de experimentele instellingen zijn reeds ingeschakeld.</string>
-  <!-- Verify system compatible -->
-  <string name="verify_system_compatible_title">MoKee systeem update</string>
-  <string name="verify_system_compatible_message">Systeemcompatibiliteit verifiëren voor het patchen\u2026</string>
-  <string name="verify_system_compatible_failed">Mislukt om systeemcompatibiliteit te verifiëren</string>
-  <string name="verify_system_compatible_patch">Volgende bestanden zijn ofwel gewijzigd ofwel verwijderd, herstel ze en probeer opnieuw.</string>
-  <string name="verify_system_compatible_img">Incompatibele %1$s, upgrade alstublieft naar versie %2$s</string>
-  <string name="verify_system_compatible_root_request">Roottoegang is vereist voor Update Verification Plugin om updatecompatibiliteit nu te verifiëren. Als je dit overslaat, dan zal deze stap vertraagd worden en verricht worden in herstelmodus.</string>
-  <string name="verify_system_compatible_root_skip">Overslaan</string>
-  <!-- Common -->
-  <string name="activity_not_found">App is niet geïnstalleerd.</string>
+    <!-- Fragment -->
+    <string name="mokee_center_title">MoKee Center</string>
+    <string name="mokee_support_title">Ondersteuning</string>
+    <string name="mokee_updater_title">Updater</string>
+    <!-- WebSite -->
+    <string name="mokee_website_title">MoKee Website</string>
+    <string name="mokee_website_summary">Bezoek de officiële website</string>
+    <string name="mokee_forum_title">MoKee Forum</string>
+    <string name="mokee_forum_summary">Bezoek het MoKee Forum</string>
+    <string name="mokee_issues_title">MoKee Fout opsporing</string>
+    <string name="mokee_issues_summary">Bezoek de fout opsporing</string>
+    <string name="mokee_changelog_title">MoKee Wijzigingen</string>
+    <string name="mokee_changelog_summary">Bekijk dagelijkse changelog</string>
+    <string name="mokee_github_title">MoKee Github</string>
+    <string name="mokee_github_summary">Bezoek de MoKee Github</string>
+    <string name="mokee_translate_title">MoKee Vertalingen</string>
+    <string name="mokee_translate_summary">Help MoKee Vertalen</string>
+    <string name="mokee_wiki_title">MoKee Wiki</string>
+    <string name="mokee_wiki_summary">Bekijk de MoKee Wiki</string>
+    <string name="mokee_news_title">MoKee nieuws</string>
+    <string name="mokee_news_summary">Ontvang ontwikkeling nieuws van MoKee</string>
+    <!-- Base Info -->
+    <string name="mokee_version_info_title">Versie Info</string>
+    <string name="mokee_version_title">MoKee versie</string>
+    <string name="mokee_unique_id_title">Unieke ID</string>
+    <string name="mokee_donate_info_title">Info voor donaties</string>
+    <string name="mokee_last_check_title">Laatst gecontroleerd</string>
+    <string name="mokee_last_check_never">Nooit</string>
+    <!-- Version -->
+    <string name="mokee_info_default">Onbekend</string>
+    <string name="mokee_version_type_release">Uitgave</string>
+    <string name="mokee_version_type_history">Geschiedenis</string>
+    <string name="mokee_version_type_experimental">Experimenteel</string>
+    <string name="mokee_version_type_nightly">Nachtelijks</string>
+    <string name="mokee_version_type_unofficial">Onofficieel</string>
+    <string name="mokee_version_type_all">Alle</string>
+    <!-- State -->
+    <string name="downloaded_update_summary">Gedownload</string>
+    <string name="installed_update_summary">Geïnstalleerd</string>
+    <string name="available_updates_title">Beschikbare updates</string>
+    <!-- Menu -->
+    <string name="menu_donate">Doneren</string>
+    <string name="menu_refresh">Vernieuw</string>
+    <string name="menu_delete_all">Download verwijderen</string>
+    <string name="menu_unlock_features">Onderdelen ontgrendelen</string>
+    <string name="menu_restore">Herstellen van licentie</string>
+    <!-- Donate -->
+    <string name="donate_dialog_title">Doneer aan ons</string>
+    <string name="donate_dialog_message">In tegenstelling tot bedrijven zoals Cygn of MIUI is MoKee OpenSource en een zuiver non-profit project geboren uit een hobby en passie. Om dit project te onderhouden, moeten wij meestal zelf ons eigen geld neerleggen of vertrouwen op donaties en reclame. Uw donaties kunnen helpen van het verminderen van onze financiële belastingen en duurzame toekomstige ontwikkelingen! Dit biedt u de mogelijkheid om advertenties te verwijderen in MoKee Center, of gebruik de \"donatie\" optie als u liever in termijnen betaald (advertenties worden verwijderd wanneer het totaal opgegeven bedrag bereikt is) maak alsjeblieft een kopie van het mokee.license bestand (in de rootdirectory van de sdcard, enkel geldig voor een geldig apparaat) zodra u heeft gedoneerd.</string>
+    <string name="donate_dialog_via_paypal">PayPal</string>
+    <string name="donate_dialog_via_alipay">AliPay</string>
+    <string name="donate_dialog_via_wechat">WeChat</string>
+    <string name="donate_dialog_via_restore">Terugzetten</string>
+    <string name="donate_money_toast_success">Dank u voor uw donatie!</string>
+    <string name="donate_money_title">Doneer aan MoKee OpenSource</string>
+    <string name="donate_money_again">Opnieuw doneren</string>
+    <string name="donate_money_restored_success">Terugzetten gelukt!</string>
+    <string name="donate_money_restored_failed">Telefoon niet gevonden.</string>
+    <string name="donate_money_restored_failed_solution">Oplossing</string>
+    <string name="donate_money_restored_timeout">Verbindings- time out, probeer het later opniew</string>
+    <string name="donate_money_info">U doneerde in totaal %1$d CNY, dat is %2$s CNY meer dan er wereldwijd gedoneerd wordt!</string>
+    <string name="donate_money_info_with_rank">U geschonk CNY %1$d, in totaal meer dan %2$s van donors wereldwijd, rang No.%3$d!</string>
+    <string name="donate_money_info_null">U hebt geen donatie gedaan</string>
+    <string name="unlock_features_title">Onderdelen ontgrendelen</string>
+    <string name="unlock_features_ota_title">Doneer %d CNY om ota te ontgrendelen en aan de hoogste snelheid te downloaden.</string>
+    <string name="unlock_features_verify_rom_title">Doneer %d CNY voor geverifieerde updates en verwijderen van de advertenties.</string>
+    <string name="unlock_features_all_title">%d CNY doneren voor ontgrendelen OTA, volle snelheid downloaden, updates gecontroleerd en verwijder advertenties.</string>
+    <string name="unlock_features_request_summary">(Beschikbaar na %d CNY gedoneerd te hebben)</string>
+    <string name="unlock_features_pending_summary">(%1$d CNY gedoneerd, beschikbaar voor altijd na %2$d CNY)</string>
+    <!-- Update -->
+    <string name="unknown">Onbekend</string>
+    <string name="dialog_update">Bijwerken</string>
+    <string name="dialog_install">Installeren</string>
+    <string name="dialog_ok">Oké</string>
+    <string name="dialog_cancel">Annuleren</string>
+    <string name="dialog_close">Sluiten</string>
+    <string name="no_available_updates_intro">De laatste keer zijn er geen updates gevonden. Om handmatig te controleren, tikt u op \'Vernieuwen\'.</string>
+    <string name="no_available_ota_intro">De laatste controle heeft geen beschikbare updates gevonden. Gebruik de knop vernieuwen, om handmatig op nieuwe updates te controleren. Als u een versie gebruikt die niet binnen het \'incrementele update\' datumbereik valt, moet u de \"Incrementele updates\" optie uitschakelen.</string>
+    <string name="new_update_summary">Nieuw</string>
+    <string name="old_update_summary">Oud</string>
+    <string name="ota_diff_update_summary">Incrementele updates kunnen %s opslaan</string>
+    <string name="full_diff_update_summary">Slaat %s op wanneer vergeleken met volledige ROM</string>
+    <string name="update_check_title">Regelmatig controleren naar updates</string>
+    <string name="check_manual">Manueel</string>
+    <string name="nightly_alert">U heeft ervoor gekozen ook nachtelijke-updates in de lijst weer te geven. Deze worden niet ondersteund en moeten voorzichtig worden gebruikt.</string>
+    <string name="experimenter_alert">U heeft ervoor gekozen ook experimentele-updates in de lijst weer te geven. Deze worden niet ondersteund, zijn enkel bedoeld voor testdoeleinden en moeten voorzichtig worden gebruikt.</string>
+    <string name="unofficial_alert">U heeft ervoor gekozen ook onofficiële-updates in de lijst weer te geven. Hou in het achterhoofd dat deze enkel ondersteund worden door de persoon die updates voorziet voor uw toestel.</string>
+    <string name="all_alert">U hebt geselecteerd om alle updates (release, nightly) in deze lijst weer te geven. Stel vast dat nightly updates niet ondersteund worden en met voorzichtigheid gebruikt moet worden.</string>
+    <string name="alert_title">Let op</string>
+    <string name="update_type_title">Type update</string>
+    <!-- ChangeLog -->
+    <string name="no_changelog_alert">Geen logboek beschikbaar</string>
+    <string name="changelog_dialog_title">Logboek</string>
+    <string name="loading_changelog">Aan het laden\u2026</string>
+    <string name="check_on_boot">Bij elke herstart</string>
+    <string name="check_twice_daily">Tweemaal per dag</string>
+    <string name="check_daily">Eenmaal per dag</string>
+    <string name="check_twice_weekly">Tweemaal per week</string>
+    <string name="check_weekly">Eenmaal per week</string>
+    <string name="check_bi_weekly">Eenmaal om de twee weken</string>
+    <string name="check_monthly">Eenmaal per maand</string>
+    <!-- checking -->
+    <string name="checking_for_updates">Zoeken naar updates</string>
+    <string name="no_updates_found">Geen nieuwe updates gevonden</string>
+    <string name="not_new_updates_found_ticker">Er zijn nieuwe updates beschikbaar</string>
+    <string name="not_new_updates_found_title">Nieuwe updates</string>
+    <string name="update_check_failed">Kan niet controleren op updates. Controleer uw internetverbinding en probeer het later opnieuw.</string>
+    <string name="not_action_download">Download</string>
+    <string name="data_connection_required">Gegevensverbinding vereist.</string>
+    <!-- Downloads -->
+    <string name="confirm_download_cancelation_dialog_title">Download annuleren</string>
+    <string name="confirm_download_cancelation_dialog_message">Annuleer de huidige download?</string>
+    <string name="download_remaining">nog <xliff:g id="duration" example="3 minuten">%s</xliff:g></string>
+    <string name="download_running">In behandeling</string>
+    <string name="download_cancelled">Download geannuleeerd</string>
+    <string name="download_already_running">Er is al een andere download bezig</string>
+    <string name="download_limited_mode">Downloaden met beperkte snelheid, Doneer alstublieft om te genieten van volle snelheid.</string>
+    <string name="unable_to_download_file">Kan update bestand niet downloaden</string>
+    <string name="not_download_success">Update succesvol gedownload</string>
+    <string name="not_download_failure">Downloaden van de update is mislukt</string>
+    <string name="not_action_install_update">Herstarten en installeren</string>
+    <string name="not_download_install_notice">De update <xliff:g id="filename">%s </xliff:g> werd met succes gedownload. Bij het aanraken van \'Opnieuw opstarten en installeren\', wordt het apparaat uit zich zelf opnieuw opgestart om de installatie te voltooien van de update.\n\nLet op: deze functie vereist een ondersteunende Recovery of de updates zullen handmatig moeten worden geïnstalleerd.</string>
+    <string name="not_download_install_ota_notice">De update <xliff:g id="filename">%s </xliff:g> werd met succes gedownload. Bij het aanraken van \'Opnieuw opstarten en installeren\', wordt het apparaat uit zich zelf opnieuw opgestart om de update te installeren.\n\nLet op: deze functie vereist een ondersteunende Recovery anders zullen de updates handmatig moeten worden geïnstalleerd.\n\n Dit is een experimentele update, dus wijzigingen in de systeembestanden kunnen er voor zorgen dat de update mislukt. Als dit gebeurt, flash dan alstublieft een volledige ROM.</string>
+    <string name="md5_verification_failed">MD5 checksum komt niet overeen</string>
+    <string name="not_apk_action_install_update">Installeren</string>
+    <!-- deleting -->
+    <string name="confirm_delete_dialog_title">Bestand verwijderen</string>
+    <string name="confirm_delete_updates_dialog_message">Verwijder het geselecteerde update bestand?</string>
+    <string name="confirm_delete_updates_all_dialog_message">Alle gedownloade update bestanden verwijderen?</string>
+    <string name="delete_single_update_success_message">Update <xliff:g id="filename">%s</xliff:g> verwijderd</string>
+    <string name="delete_updates_failure_message">Kan update bestand niet verwijderen</string>
+    <string name="delete_updates_nofolder_message">Kon update map niet vinden</string>
+    <string name="delete_updates_success_message">Alle opgeslagen updates zijn verwijderd</string>
+    <!-- Pref -->
+    <string name="pref_ota_check">Incrementele updates</string>
+    <string name="pref_ota_check_summary">Haal incrementele updates binnen om de downloadtijd en bandbreedte te besparen</string>
+    <string name="pref_ota_check_request_summary">Haal incrementele updates binnen om de downloadtijd en bandbreedte te besparen</string>
+    <string name="pref_verify_rom">Geverifieerde updates</string>
+    <string name="pref_verify_rom_summary">Alleen updates die worden geverifieerd door andere gebruikers worden weergegeven</string>
+    <string name="pref_verify_rom_request_summary">Alleen updates die worden geverifieerd door andere gebruikers worden weergegeven</string>
+    <!-- Apply install and update strings -->
+    <string name="apply_update_dialog_title">Update toepassen</string>
+    <string name="apply_update_dialog_text">Uw systeem wordt bijgewerkt naar <xliff:g id="filename">%s</xliff:g>.\n\nWanneer u \'Bijwerken\' selecteert, zal het toestel herstarten om de update te installeren.\n\nLet op: Een ondersteunende recovery is vereist, anders moet de update handmatig worden geïnstalleerd.</string>
+    <string name="apply_update_ota_dialog_text">U staat op het punt om te upgraden naar <xliff:g id="filename">%s </xliff:g>. \n\nals u op Update drukt, wordt het apparaat uit zich zelf opnieuw opgestart in de herstelmodus om de update te installeren.\n\n Let op: deze functie vereist een ondersteunende Recovery anders zullen de updates handmatig moeten worden geïnstalleerd.\n\nDit is een experimentele update, dus wijzigingen in de systeembestanden kunnen er voor zorgen dat de update mislukt. Als dit gebeurt, flash dan alstublieft een volledige ROM.</string>
+    <string name="apply_unable_to_reboot_toast">Niet mogelijk om te herstarten naar recovery</string>
+    <!-- Experimenter mode -->
+    <string name="show_exp_on">U hebt de experimentele instellingen ingeschakeld!</string>
+    <string name="show_exp_already">Niet nodig, de experimentele instellingen zijn reeds ingeschakeld.</string>
+    <!-- Verify system compatible -->
+    <string name="verify_system_compatible_title">MoKee systeem update</string>
+    <string name="verify_system_compatible_message">Systeemcompatibiliteit verifiëren voor het patchen\u2026</string>
+    <string name="verify_system_compatible_failed">Mislukt om systeemcompatibiliteit te verifiëren</string>
+    <string name="verify_system_compatible_patch">Volgende bestanden zijn ofwel gewijzigd ofwel verwijderd, herstel ze en probeer opnieuw.</string>
+    <string name="verify_system_compatible_img">Incompatibele %1$s, upgrade alstublieft naar versie %2$s</string>
+    <string name="verify_system_compatible_root_request">Roottoegang is vereist voor Update Verification Plugin om updatecompatibiliteit nu te verifiëren. Als je dit overslaat, dan zal deze stap vertraagd worden en verricht worden in herstelmodus.</string>
+    <string name="verify_system_compatible_root_skip">Overslaan</string>
+    <!-- Common -->
+    <string name="activity_not_found">App is niet geïnstalleerd.</string>
 </resources>

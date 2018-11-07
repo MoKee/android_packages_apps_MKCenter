@@ -17,84 +17,84 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Fragment -->
-  <string name="mokee_center_title">MoKee - Centro</string>
-  <string name="mokee_support_title">Suporte</string>
-  <string name="mokee_updater_title">Actualizador</string>
-  <!-- WebSite -->
-  <string name="mokee_website_title">Website da Mokee</string>
-  <string name="mokee_website_summary">Visita o site oficial</string>
-  <string name="mokee_forum_title">MoKee - Fórum</string>
-  <string name="mokee_forum_summary">Visite o fórum de MoKee</string>
-  <string name="mokee_issues_title">MoKee - Rastreador de Erros</string>
-  <string name="mokee_issues_summary">Visita o bug tracker</string>
-  <string name="mokee_changelog_title">Lista de Alterações Mokee</string>
-  <string name="mokee_changelog_summary">Ver Lista de Alterações Diária</string>
-  <string name="mokee_github_title">MoKee - Github</string>
-  <string name="mokee_github_summary">Visite o Github de MoKee</string>
-  <string name="mokee_translate_title">Tradução Mokee</string>
-  <string name="mokee_translate_summary">Ajuda a traduzir a Mokee</string>
-  <string name="mokee_wiki_title">MoKee - Wiki</string>
-  <string name="mokee_wiki_summary">Ver a Wiki da Mokee</string>
-  <string name="mokee_news_title">Notícias Mokee</string>
-  <string name="mokee_news_summary">Receber notícias de desenvolvimento da Mokee</string>
-  <!-- Base Info -->
-  <string name="mokee_version_info_title">Informação da Versão</string>
-  <string name="mokee_version_title">Versão Mokee</string>
-  <string name="mokee_unique_id_title">ID Único</string>
-  <string name="mokee_donate_info_title">Informação de doação</string>
-  <string name="mokee_last_check_title">Última Verificação</string>
-  <string name="mokee_last_check_never">Nunca</string>
-  <!-- Version -->
-  <string name="mokee_info_default">Desconhecido</string>
-  <string name="mokee_version_type_release">Lançamento</string>
-  <string name="mokee_version_type_history">História</string>
-  <string name="mokee_version_type_experimental">Experimental</string>
-  <string name="mokee_version_type_nightly">Beta</string>
-  <string name="mokee_version_type_unofficial">Não Oficial</string>
-  <string name="mokee_version_type_all">Todas</string>
-  <!-- State -->
-  <string name="downloaded_update_summary">Descarregadas</string>
-  <string name="installed_update_summary">Instaladas</string>
-  <string name="available_updates_title">Actualizações Disponíveis</string>
-  <!-- Menu -->
-  <string name="menu_donate">Doar</string>
-  <string name="menu_refresh">Refrescar</string>
-  <string name="menu_delete_all">Apagar Descarga</string>
-  <string name="menu_unlock_features">Funcionalidade de desbloqueio</string>
-  <string name="menu_restore">Restaurar licença</string>
-  <!-- Donate -->
-  <string name="donate_dialog_title">Doar</string>
-  <string name="donate_dialog_message">Ao contrário de empresas como a Cygn ou MIUI, MoKee OpenSource é um projeto puramente sem fins lucrativos, nascido de hobbies e paixão. Para manter este projeto, nós temos que desembolsar do nosso dinheiro na maioria das vezes ou depender de doações e propagandas. As tuas doações podem ajudar a reduzir a nossa carga financeira e sustentar o desenvolvimento futuro! Esta opção permite-te remover os anúncios no centro MoKee, ou use a opção \"Doação\" em vez disso, se preferir prestações (anúncios serão removidos quando o total atingir o valor especificado). (no diretório raiz do sdcard, válido apenas para o dispositivo atual) uma vez que você tenha doado.</string>
-  <string name="donate_dialog_via_paypal">Paypal</string>
-  <string name="donate_dialog_via_alipay">Alipay</string>
-  <string name="donate_dialog_via_wechat">WeChat</string>
-  <string name="donate_dialog_via_restore">Restaurar</string>
-  <string name="donate_money_toast_success">Obrigado pelo seu donativo!</string>
-  <string name="donate_money_title">Doar para o Mokee Open Source</string>
-  <string name="donate_money_again">Doar de novo</string>
-  <string name="donate_money_restored_success">Restaurado com sucesso!</string>
-  <string name="donate_money_restored_failed">Não há registo de dispositivos.</string>
-  <string name="donate_money_restored_failed_solution">Solução</string>
-  <string name="donate_money_restored_timeout">Tempo de ligação expirou, tente novamente</string>
-  <string name="donate_money_info">Doou um total de CNY %1$d, mais %2$s do que todos os doadores globais!</string>
-  <string name="donate_money_info_with_rank">Doou um total de %1$d CNY, mais do que %2$s do dadores globalmente, rank No.%3$d!</string>
-  <string name="donate_money_info_null">Não fez nenhuma doação</string>
-  <string name="unlock_features_title">Funcionalidade de desbloqueio</string>
-  <string name="unlock_features_ota_title">Doe %d CNY para desloquer as atualizações over-the-air e downloads à velocidade total.</string>
-  <string name="unlock_features_verify_rom_title">Doe %d CNY para atualizações verificadas e para remover publicidade.</string>
-  <!-- Update -->
-  <string name="unknown">Desconhecido</string>
-  <!-- ChangeLog -->
-  <!-- checking -->
-  <!-- Downloads -->
-  <!-- deleting -->
-  <!-- Pref -->
-  <!-- Apply install and update strings -->
-  <!-- Experimenter mode -->
-  <!-- Verify system compatible -->
-  <string name="verify_system_compatible_title">Atualização de sistema MoKee</string>
-  <string name="verify_system_compatible_root_skip">Pular</string>
-  <!-- Common -->
-  <string name="activity_not_found">A aplicação não está instalada.</string>
+    <!-- Fragment -->
+    <string name="mokee_center_title">MoKee - Centro</string>
+    <string name="mokee_support_title">Suporte</string>
+    <string name="mokee_updater_title">Actualizador</string>
+    <!-- WebSite -->
+    <string name="mokee_website_title">Website da Mokee</string>
+    <string name="mokee_website_summary">Visita o site oficial</string>
+    <string name="mokee_forum_title">MoKee - Fórum</string>
+    <string name="mokee_forum_summary">Visite o fórum de MoKee</string>
+    <string name="mokee_issues_title">MoKee - Rastreador de Erros</string>
+    <string name="mokee_issues_summary">Visita o bug tracker</string>
+    <string name="mokee_changelog_title">Lista de Alterações Mokee</string>
+    <string name="mokee_changelog_summary">Ver Lista de Alterações Diária</string>
+    <string name="mokee_github_title">MoKee - Github</string>
+    <string name="mokee_github_summary">Visite o Github de MoKee</string>
+    <string name="mokee_translate_title">Tradução Mokee</string>
+    <string name="mokee_translate_summary">Ajuda a traduzir a Mokee</string>
+    <string name="mokee_wiki_title">MoKee - Wiki</string>
+    <string name="mokee_wiki_summary">Ver a Wiki da Mokee</string>
+    <string name="mokee_news_title">Notícias Mokee</string>
+    <string name="mokee_news_summary">Receber notícias de desenvolvimento da Mokee</string>
+    <!-- Base Info -->
+    <string name="mokee_version_info_title">Informação da Versão</string>
+    <string name="mokee_version_title">Versão Mokee</string>
+    <string name="mokee_unique_id_title">ID Único</string>
+    <string name="mokee_donate_info_title">Informação de doação</string>
+    <string name="mokee_last_check_title">Última Verificação</string>
+    <string name="mokee_last_check_never">Nunca</string>
+    <!-- Version -->
+    <string name="mokee_info_default">Desconhecido</string>
+    <string name="mokee_version_type_release">Lançamento</string>
+    <string name="mokee_version_type_history">História</string>
+    <string name="mokee_version_type_experimental">Experimental</string>
+    <string name="mokee_version_type_nightly">Beta</string>
+    <string name="mokee_version_type_unofficial">Não Oficial</string>
+    <string name="mokee_version_type_all">Todas</string>
+    <!-- State -->
+    <string name="downloaded_update_summary">Descarregadas</string>
+    <string name="installed_update_summary">Instaladas</string>
+    <string name="available_updates_title">Actualizações Disponíveis</string>
+    <!-- Menu -->
+    <string name="menu_donate">Doar</string>
+    <string name="menu_refresh">Refrescar</string>
+    <string name="menu_delete_all">Apagar Descarga</string>
+    <string name="menu_unlock_features">Funcionalidade de desbloqueio</string>
+    <string name="menu_restore">Restaurar licença</string>
+    <!-- Donate -->
+    <string name="donate_dialog_title">Doar</string>
+    <string name="donate_dialog_message">Ao contrário de empresas como a Cygn ou MIUI, MoKee OpenSource é um projeto puramente sem fins lucrativos, nascido de hobbies e paixão. Para manter este projeto, nós temos que desembolsar do nosso dinheiro na maioria das vezes ou depender de doações e propagandas. As tuas doações podem ajudar a reduzir a nossa carga financeira e sustentar o desenvolvimento futuro! Esta opção permite-te remover os anúncios no centro MoKee, ou use a opção \"Doação\" em vez disso, se preferir prestações (anúncios serão removidos quando o total atingir o valor especificado). (no diretório raiz do sdcard, válido apenas para o dispositivo atual) uma vez que você tenha doado.</string>
+    <string name="donate_dialog_via_paypal">Paypal</string>
+    <string name="donate_dialog_via_alipay">Alipay</string>
+    <string name="donate_dialog_via_wechat">WeChat</string>
+    <string name="donate_dialog_via_restore">Restaurar</string>
+    <string name="donate_money_toast_success">Obrigado pelo seu donativo!</string>
+    <string name="donate_money_title">Doar para o Mokee Open Source</string>
+    <string name="donate_money_again">Doar de novo</string>
+    <string name="donate_money_restored_success">Restaurado com sucesso!</string>
+    <string name="donate_money_restored_failed">Não há registo de dispositivos.</string>
+    <string name="donate_money_restored_failed_solution">Solução</string>
+    <string name="donate_money_restored_timeout">Tempo de ligação expirou, tente novamente</string>
+    <string name="donate_money_info">Doou um total de CNY %1$d, mais %2$s do que todos os doadores globais!</string>
+    <string name="donate_money_info_with_rank">Doou um total de %1$d CNY, mais do que %2$s do dadores globalmente, rank No.%3$d!</string>
+    <string name="donate_money_info_null">Não fez nenhuma doação</string>
+    <string name="unlock_features_title">Funcionalidade de desbloqueio</string>
+    <string name="unlock_features_ota_title">Doe %d CNY para desloquer as atualizações over-the-air e downloads à velocidade total.</string>
+    <string name="unlock_features_verify_rom_title">Doe %d CNY para atualizações verificadas e para remover publicidade.</string>
+    <!-- Update -->
+    <string name="unknown">Desconhecido</string>
+    <!-- ChangeLog -->
+    <!-- checking -->
+    <!-- Downloads -->
+    <!-- deleting -->
+    <!-- Pref -->
+    <!-- Apply install and update strings -->
+    <!-- Experimenter mode -->
+    <!-- Verify system compatible -->
+    <string name="verify_system_compatible_title">Atualização de sistema MoKee</string>
+    <string name="verify_system_compatible_root_skip">Pular</string>
+    <!-- Common -->
+    <string name="activity_not_found">A aplicação não está instalada.</string>
 </resources>

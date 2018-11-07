@@ -17,167 +17,167 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Fragment -->
-  <string name="mokee_center_title">مركز موكي</string>
-  <string name="mokee_support_title">الدعم الفني</string>
-  <string name="mokee_updater_title">التحديث</string>
-  <!-- WebSite -->
-  <string name="mokee_website_title">موقع موكي</string>
-  <string name="mokee_website_summary">زيارة الموقع الرسمي</string>
-  <string name="mokee_forum_title">منتدى موكي</string>
-  <string name="mokee_forum_summary">زيارة منتدى موكي</string>
-  <string name="mokee_issues_title">متعقب أخطاء موكي</string>
-  <string name="mokee_issues_summary">زيارة متعقب الأخطاء</string>
-  <string name="mokee_changelog_title">سجل تغييرات موكي</string>
-  <string name="mokee_changelog_summary">استعراض قائمة تغييرات موكي</string>
-  <string name="mokee_github_title">موكي Github</string>
-  <string name="mokee_github_summary">زيارة موكي Github</string>
-  <string name="mokee_translate_title">ترجمة موكي</string>
-  <string name="mokee_translate_summary">مساعدة ترجمة موكي</string>
-  <string name="mokee_wiki_title">موسوعة موكي</string>
-  <string name="mokee_wiki_summary">استعراض موسوعة موكي</string>
-  <string name="mokee_news_title">أخبار موكي</string>
-  <string name="mokee_news_summary">ملخص اخبار موكي</string>
-  <!-- Base Info -->
-  <string name="mokee_version_info_title">معلومات الإصدار</string>
-  <string name="mokee_version_title">إصدار موكي</string>
-  <string name="mokee_unique_id_title">معرف فريد</string>
-  <string name="mokee_donate_info_title">معلومات التبرع</string>
-  <string name="mokee_last_check_title">أخر تحقق</string>
-  <string name="mokee_last_check_never">أبداً</string>
-  <!-- Version -->
-  <string name="mokee_info_default">غير معروف</string>
-  <string name="mokee_version_type_release">النهائية</string>
-  <string name="mokee_version_type_history">السجل</string>
-  <string name="mokee_version_type_experimental">اختبارية</string>
-  <string name="mokee_version_type_nightly">النسخة الليلية</string>
-  <string name="mokee_version_type_unofficial">نسخة غير رسمية</string>
-  <string name="mokee_version_type_all">الكل</string>
-  <!-- State -->
-  <string name="downloaded_update_summary">الملفات المنزلة</string>
-  <string name="installed_update_summary">مثبتة</string>
-  <string name="available_updates_title">التحديثات المتوفرة</string>
-  <!-- Menu -->
-  <string name="menu_donate">تبرع</string>
-  <string name="menu_refresh">تحديث</string>
-  <string name="menu_delete_all">حذف التنزيل</string>
-  <string name="menu_unlock_features">فتح كافة الميزات</string>
-  <string name="menu_restore">استعادة الترخيص</string>
-  <!-- Donate -->
-  <string name="donate_dialog_title">تبرع لنا</string>
-  <string name="donate_dialog_message">خلافا لشركات مثل ساجون أو MIUI، موكي مفتوحة المصدر مشروع غير ربحية بحتة ولد من هواية وعاطفة. 
+    <!-- Fragment -->
+    <string name="mokee_center_title">مركز موكي</string>
+    <string name="mokee_support_title">الدعم الفني</string>
+    <string name="mokee_updater_title">التحديث</string>
+    <!-- WebSite -->
+    <string name="mokee_website_title">موقع موكي</string>
+    <string name="mokee_website_summary">زيارة الموقع الرسمي</string>
+    <string name="mokee_forum_title">منتدى موكي</string>
+    <string name="mokee_forum_summary">زيارة منتدى موكي</string>
+    <string name="mokee_issues_title">متعقب أخطاء موكي</string>
+    <string name="mokee_issues_summary">زيارة متعقب الأخطاء</string>
+    <string name="mokee_changelog_title">سجل تغييرات موكي</string>
+    <string name="mokee_changelog_summary">استعراض قائمة تغييرات موكي</string>
+    <string name="mokee_github_title">موكي Github</string>
+    <string name="mokee_github_summary">زيارة موكي Github</string>
+    <string name="mokee_translate_title">ترجمة موكي</string>
+    <string name="mokee_translate_summary">مساعدة ترجمة موكي</string>
+    <string name="mokee_wiki_title">موسوعة موكي</string>
+    <string name="mokee_wiki_summary">استعراض موسوعة موكي</string>
+    <string name="mokee_news_title">أخبار موكي</string>
+    <string name="mokee_news_summary">ملخص اخبار موكي</string>
+    <!-- Base Info -->
+    <string name="mokee_version_info_title">معلومات الإصدار</string>
+    <string name="mokee_version_title">إصدار موكي</string>
+    <string name="mokee_unique_id_title">معرف فريد</string>
+    <string name="mokee_donate_info_title">معلومات التبرع</string>
+    <string name="mokee_last_check_title">أخر تحقق</string>
+    <string name="mokee_last_check_never">أبداً</string>
+    <!-- Version -->
+    <string name="mokee_info_default">غير معروف</string>
+    <string name="mokee_version_type_release">النهائية</string>
+    <string name="mokee_version_type_history">السجل</string>
+    <string name="mokee_version_type_experimental">اختبارية</string>
+    <string name="mokee_version_type_nightly">النسخة الليلية</string>
+    <string name="mokee_version_type_unofficial">نسخة غير رسمية</string>
+    <string name="mokee_version_type_all">الكل</string>
+    <!-- State -->
+    <string name="downloaded_update_summary">الملفات المنزلة</string>
+    <string name="installed_update_summary">مثبتة</string>
+    <string name="available_updates_title">التحديثات المتوفرة</string>
+    <!-- Menu -->
+    <string name="menu_donate">تبرع</string>
+    <string name="menu_refresh">تحديث</string>
+    <string name="menu_delete_all">حذف التنزيل</string>
+    <string name="menu_unlock_features">فتح كافة الميزات</string>
+    <string name="menu_restore">استعادة الترخيص</string>
+    <!-- Donate -->
+    <string name="donate_dialog_title">تبرع لنا</string>
+    <string name="donate_dialog_message">خلافا لشركات مثل ساجون أو MIUI، موكي مفتوحة المصدر مشروع غير ربحية بحتة ولد من هواية وعاطفة. 
 من أجل الحفاظ على هذا المشروع علينا أن نصرف عليه من أموالنا الخاصة بنا ، أو الاعتماد على التبرعات والإعلانات.
  الهبات الخاصة بك يمكن أن تساعد في تقليل العبء المالي لدينا واستدامة التنمية في المستقبل! هذا الخيار يسمح لك بإزالة الإعلانات في مركز موكي، أو استخدام الخيار \"التبرع\" بدلاً من ذلك، إذا كنت تفضل أقساط (سيتم إزالة إعلانات تماما عندما يبلغ المجموع القيمة المحددة).
 الرجاء النسخ الاحتياطي تصريح موكي (mokee.license) (في الدليل روت في ملفات الجهاز، وهي صالحة فقط للجهاز الحالي) اذا كنت قد تبرعت.</string>
-  <string name="donate_dialog_faq">Q&amp;A</string>
-  <string name="donate_dialog_via_paypal">تبرع باستخدام باي بال</string>
-  <string name="donate_dialog_via_alipay">تبرع باستخدام مشترايات علي</string>
-  <string name="donate_dialog_via_wechat">Wechat</string>
-  <string name="donate_dialog_via_restore">استعادة</string>
-  <string name="donate_money_toast_success">شكراً لتبرعك!</string>
-  <string name="donate_money_title">تبرع لمشروع موكي مفتوح المصدر</string>
-  <string name="donate_money_again">التبرع مره أخرى</string>
-  <string name="donate_money_restored_success">تمت الاستعادة بنجاح!</string>
-  <string name="donate_money_restored_failed">لم يتم العثور على سجل الجهاز.</string>
-  <string name="donate_money_restored_failed_solution">الحل</string>
-  <string name="donate_money_restored_timeout">فشل الاتصال، الرجاء المحاولة مجدداً</string>
-  <string name="donate_money_info">تبرعت بمجموع %1$d يوان صيني، اكثر من %2$s من المتبرعين عالمياَ!</string>
-  <string name="donate_money_info_with_rank">تبرعت بمجموع %1$d يوان صيني، اكثر من %2$s من المتبرعين عالمياَ، تحتل المرتبة %3$d!</string>
-  <string name="donate_money_info_null">لم تقم بالتبرع</string>
-  <string name="unlock_features_title">فتح كافة الميزات</string>
-  <string name="unlock_features_ota_title">تبرع%d CNYلفتح سرعة تنزيل كاملة.</string>
-  <string name="unlock_features_verify_rom_title">تبرع%d CNY للتحديثات التي تم التحقق منها وإزالة الإعلانات.</string>
-  <string name="unlock_features_all_title">تبرع%d CNY لفتح Ota، تحميل كامل السرعة والتحقق من التحديثات وإزالة الإعلانات.</string>
-  <string name="unlock_features_request_summary">(متوفر بعد التبرع%d CNY)</string>
-  <string name="unlock_features_pending_summary">(donated %1$d CNY, available for lifetime after donating %2$d CNY more)</string>
-  <!-- Update -->
-  <string name="unknown">غير معروف</string>
-  <string name="dialog_update">تحديث</string>
-  <string name="dialog_install">تثبيت</string>
-  <string name="dialog_ok">تم</string>
-  <string name="dialog_cancel">إلغاء</string>
-  <string name="dialog_close">إغلاق</string>
-  <string name="no_available_updates_intro">التحقق الأخير لم يجد أي تحديثات متوفرة. للبحث عن التحديثات الجديدة يدوياً، استخدم زر التحديث.</string>
-  <string name="no_available_ota_intro">التحقق الأخير لم تجد أية تحديثات متوفرة. للبحث عن تحديثات جديدة يدوياً، استخدم زر تحديث. إذا كنت تشغل إصدار خارج نطاق تاريخ التحديث المعتمد، يجب عليك إلغاء تحديد الخيار \"التحديثات التزايدية\".</string>
-  <string name="new_update_summary">جديد</string>
-  <string name="old_update_summary">قديم</string>
-  <string name="ota_diff_update_summary">يمكن أن توفر التحديثات الإضافية%s</string>
-  <string name="full_diff_update_summary">يحفظ %s عند مقارنتها بروم متكامل</string>
-  <string name="update_check_title">أوقات التحقق من التحديث</string>
-  <string name="check_manual">يدوي</string>
-  <string name="nightly_alert">لقد اخترت تضمين التحديثات الليلية في هذه القائمة. هذه التحديثات غير مدعومة وينبغي أن تستخدم بحذر.</string>
-  <string name="experimenter_alert">لقد اخترت تضمين التحديثات الاختبارية في هذه القائمة. هذه التحديثات غير مدعومة وهي للاختبر فقط، ينبغي أن تستخدم بحذر.</string>
-  <string name="unofficial_alert">لقد اخترت تضمين التحديثات الغير رسمية في هذه القائمة. ضع في اعتبارك أن هذه التحديثات مدعومة من قبل مسؤل صيانة هاتفك.</string>
-  <string name="all_alert">لقد اخترت تضمين كل التحديثات (النهائية والاختبارية). علماً أن التحديثات الليلية غير مدعومة وينبغي أن تستخدم بحذر.</string>
-  <string name="alert_title">تحذير</string>
-  <string name="update_type_title">نوع التحديث</string>
-  <!-- ChangeLog -->
-  <string name="no_changelog_alert">سجل التغييرات غير متوفر</string>
-  <string name="changelog_dialog_title">سجل التغييرات</string>
-  <string name="loading_changelog">تحميل...</string>
-  <string name="check_on_boot">في كل إعادة تشغيل</string>
-  <string name="check_twice_daily">مرتين يومياً</string>
-  <string name="check_daily">مرة يومياً</string>
-  <string name="check_twice_weekly">مرتين أسبوعياً</string>
-  <string name="check_weekly">مرة أسبوعياً</string>
-  <string name="check_bi_weekly">مرة كل أسبوعين</string>
-  <string name="check_monthly">مرة شهرياً</string>
-  <!-- checking -->
-  <string name="checking_for_updates">التحقق من وجود تحديثات</string>
-  <string name="no_updates_found">لا توجد تحديثات جديدة</string>
-  <string name="not_new_updates_found_ticker">تحديثات جيدة متوفرة</string>
-  <string name="not_new_updates_found_title">تحديثات جديدة</string>
-  <string name="update_check_failed">فشل التحقق من التحديثات. الرجاء التحقق من اتصال الإنترنت الخاص بك ثم حاول مرة أخرى لاحقاً.</string>
-  <string name="not_action_download">تنزيل</string>
-  <string name="data_connection_required">مطلوب اتصال بيانات.</string>
-  <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">إلغاء التنزيل</string>
-  <string name="confirm_download_cancelation_dialog_message">إلغاء التنزيل الحالي؟</string>
-  <string name="download_remaining"><xliff:g id="duration" example="3 minutes"> %s </xliff:g> يسار</string>
-  <string name="download_running">جار المعالجة</string>
-  <string name="download_cancelled">تم إلغاء التنزيل</string>
-  <string name="download_already_running">بالفعل جار التنزيل</string>
-  <string name="download_limited_mode">يتم التنزيل بسرعة محدودة، يرجى التبرع للتمتع بأقصى سرعة.</string>
-  <string name="unable_to_download_file">غير قادر على تنزيل ملف التحديث</string>
-  <string name="not_download_success">تم تنزيل التحديث بنجاح</string>
-  <string name="not_download_failure">فشل تنزيل التحديث</string>
-  <string name="not_action_install_update">إعادة التشغيل والتثبيت</string>
-  <string name="not_download_install_notice">تم بنجاح تحميل التحديث <xliff:g id="filename">%s </xliff:g>. عند لمس \'إعادة التشغيل وتثبيت\'، سيعيد الجهاز نفسه لتثبيت في update.\n\nNote: تتطلب هذه الميزة ريكفري متوافقة أو سوف تحتاج التحديثات ان يتم تثبيتها يدوياً.</string>
-  <string name="not_download_install_ota_notice">تم بنجاح تحميل التحديث <xliff:g id="filename">%s </xliff:g>. عند لمس \'إعادة التشغيل وتثبيت\'، سيعيد الجهاز نفسه لتثبيت في update.\n\nNote: تتطلب هذه الميزة ريكفري متوافقة أو التحديثات سوف تحتاج إلى تثبيت manually.\n\nThis يتم تحديث تزايدي، ثم أية تغييرات يتم إجراؤها على نظام الملفات قد يتسبب الى فشل التحديث. إذا حدث هذا، الرجاء اعادة فلاش الروم كامل بدلاً.</string>
-  <string name="md5_verification_failed">قيم MD5 الرقمية غير متطابقة</string>
-  <string name="not_apk_action_install_update">تثبيت</string>
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">حذف الملف</string>
-  <string name="confirm_delete_updates_dialog_message">حذف ملف التحديث المحدد؟</string>
-  <string name="confirm_delete_updates_all_dialog_message">حذف كل ملفات التحديثات المنزلة؟</string>
-  <string name="delete_single_update_success_message">التحديث <xliff:g id="filename">%s</xliff:g> تم حذفه</string>
-  <string name="delete_updates_failure_message">حدث خطأ أثناء حذف ملف التحديث</string>
-  <string name="delete_updates_nofolder_message">لم يتم العثور على مجلد التحديث</string>
-  <string name="delete_updates_success_message">تم حذف كل التحديثات المنزلة</string>
-  <!-- Pref -->
-  <string name="pref_ota_check">تحديثات عن طريق الهواء OTA</string>
-  <string name="pref_ota_check_summary">الحصول على التحديثات التزايدية لحفظ وقت التحميل وعرض حجم البيانات</string>
-  <string name="pref_ota_check_request_summary">الحصول على التحديثات التزايدية لحفظ وقت التحميل وعرض حجم البيانات</string>
-  <string name="pref_verify_rom">تحديثات تم التحقق منها</string>
-  <string name="pref_verify_rom_summary">عرض التحديثات التي يتم التحقق منها بواسطة المستخدمين الآخرين فقط</string>
-  <string name="pref_verify_rom_request_summary">عرض التحديثات التي يتم التحقق منها بواسطة المستخدمين الآخرين فقط</string>
-  <!-- Apply install and update strings -->
-  <string name="apply_update_dialog_title">تطبيق التحديث</string>
-  <string name="apply_update_dialog_text">أنت على وشك الترقية إلى <xliff:g id="filename">%s</xliff:g>.\n\nإذا ضغطت على \"تحديث\"، سيتم إعادة تشغيل الجهاز في وضع الريكوفري لتثبيت التحديث.\n
+    <string name="donate_dialog_faq">Q&amp;A</string>
+    <string name="donate_dialog_via_paypal">تبرع باستخدام باي بال</string>
+    <string name="donate_dialog_via_alipay">تبرع باستخدام مشترايات علي</string>
+    <string name="donate_dialog_via_wechat">Wechat</string>
+    <string name="donate_dialog_via_restore">استعادة</string>
+    <string name="donate_money_toast_success">شكراً لتبرعك!</string>
+    <string name="donate_money_title">تبرع لمشروع موكي مفتوح المصدر</string>
+    <string name="donate_money_again">التبرع مره أخرى</string>
+    <string name="donate_money_restored_success">تمت الاستعادة بنجاح!</string>
+    <string name="donate_money_restored_failed">لم يتم العثور على سجل الجهاز.</string>
+    <string name="donate_money_restored_failed_solution">الحل</string>
+    <string name="donate_money_restored_timeout">فشل الاتصال، الرجاء المحاولة مجدداً</string>
+    <string name="donate_money_info">تبرعت بمجموع %1$d يوان صيني، اكثر من %2$s من المتبرعين عالمياَ!</string>
+    <string name="donate_money_info_with_rank">تبرعت بمجموع %1$d يوان صيني، اكثر من %2$s من المتبرعين عالمياَ، تحتل المرتبة %3$d!</string>
+    <string name="donate_money_info_null">لم تقم بالتبرع</string>
+    <string name="unlock_features_title">فتح كافة الميزات</string>
+    <string name="unlock_features_ota_title">تبرع%d CNYلفتح سرعة تنزيل كاملة.</string>
+    <string name="unlock_features_verify_rom_title">تبرع%d CNY للتحديثات التي تم التحقق منها وإزالة الإعلانات.</string>
+    <string name="unlock_features_all_title">تبرع%d CNY لفتح Ota، تحميل كامل السرعة والتحقق من التحديثات وإزالة الإعلانات.</string>
+    <string name="unlock_features_request_summary">(متوفر بعد التبرع%d CNY)</string>
+    <string name="unlock_features_pending_summary">(donated %1$d CNY, available for lifetime after donating %2$d CNY more)</string>
+    <!-- Update -->
+    <string name="unknown">غير معروف</string>
+    <string name="dialog_update">تحديث</string>
+    <string name="dialog_install">تثبيت</string>
+    <string name="dialog_ok">تم</string>
+    <string name="dialog_cancel">إلغاء</string>
+    <string name="dialog_close">إغلاق</string>
+    <string name="no_available_updates_intro">التحقق الأخير لم يجد أي تحديثات متوفرة. للبحث عن التحديثات الجديدة يدوياً، استخدم زر التحديث.</string>
+    <string name="no_available_ota_intro">التحقق الأخير لم تجد أية تحديثات متوفرة. للبحث عن تحديثات جديدة يدوياً، استخدم زر تحديث. إذا كنت تشغل إصدار خارج نطاق تاريخ التحديث المعتمد، يجب عليك إلغاء تحديد الخيار \"التحديثات التزايدية\".</string>
+    <string name="new_update_summary">جديد</string>
+    <string name="old_update_summary">قديم</string>
+    <string name="ota_diff_update_summary">يمكن أن توفر التحديثات الإضافية%s</string>
+    <string name="full_diff_update_summary">يحفظ %s عند مقارنتها بروم متكامل</string>
+    <string name="update_check_title">أوقات التحقق من التحديث</string>
+    <string name="check_manual">يدوي</string>
+    <string name="nightly_alert">لقد اخترت تضمين التحديثات الليلية في هذه القائمة. هذه التحديثات غير مدعومة وينبغي أن تستخدم بحذر.</string>
+    <string name="experimenter_alert">لقد اخترت تضمين التحديثات الاختبارية في هذه القائمة. هذه التحديثات غير مدعومة وهي للاختبر فقط، ينبغي أن تستخدم بحذر.</string>
+    <string name="unofficial_alert">لقد اخترت تضمين التحديثات الغير رسمية في هذه القائمة. ضع في اعتبارك أن هذه التحديثات مدعومة من قبل مسؤل صيانة هاتفك.</string>
+    <string name="all_alert">لقد اخترت تضمين كل التحديثات (النهائية والاختبارية). علماً أن التحديثات الليلية غير مدعومة وينبغي أن تستخدم بحذر.</string>
+    <string name="alert_title">تحذير</string>
+    <string name="update_type_title">نوع التحديث</string>
+    <!-- ChangeLog -->
+    <string name="no_changelog_alert">سجل التغييرات غير متوفر</string>
+    <string name="changelog_dialog_title">سجل التغييرات</string>
+    <string name="loading_changelog">تحميل...</string>
+    <string name="check_on_boot">في كل إعادة تشغيل</string>
+    <string name="check_twice_daily">مرتين يومياً</string>
+    <string name="check_daily">مرة يومياً</string>
+    <string name="check_twice_weekly">مرتين أسبوعياً</string>
+    <string name="check_weekly">مرة أسبوعياً</string>
+    <string name="check_bi_weekly">مرة كل أسبوعين</string>
+    <string name="check_monthly">مرة شهرياً</string>
+    <!-- checking -->
+    <string name="checking_for_updates">التحقق من وجود تحديثات</string>
+    <string name="no_updates_found">لا توجد تحديثات جديدة</string>
+    <string name="not_new_updates_found_ticker">تحديثات جيدة متوفرة</string>
+    <string name="not_new_updates_found_title">تحديثات جديدة</string>
+    <string name="update_check_failed">فشل التحقق من التحديثات. الرجاء التحقق من اتصال الإنترنت الخاص بك ثم حاول مرة أخرى لاحقاً.</string>
+    <string name="not_action_download">تنزيل</string>
+    <string name="data_connection_required">مطلوب اتصال بيانات.</string>
+    <!-- Downloads -->
+    <string name="confirm_download_cancelation_dialog_title">إلغاء التنزيل</string>
+    <string name="confirm_download_cancelation_dialog_message">إلغاء التنزيل الحالي؟</string>
+    <string name="download_remaining"><xliff:g id="duration" example="3 minutes"> %s </xliff:g> يسار</string>
+    <string name="download_running">جار المعالجة</string>
+    <string name="download_cancelled">تم إلغاء التنزيل</string>
+    <string name="download_already_running">بالفعل جار التنزيل</string>
+    <string name="download_limited_mode">يتم التنزيل بسرعة محدودة، يرجى التبرع للتمتع بأقصى سرعة.</string>
+    <string name="unable_to_download_file">غير قادر على تنزيل ملف التحديث</string>
+    <string name="not_download_success">تم تنزيل التحديث بنجاح</string>
+    <string name="not_download_failure">فشل تنزيل التحديث</string>
+    <string name="not_action_install_update">إعادة التشغيل والتثبيت</string>
+    <string name="not_download_install_notice">تم بنجاح تحميل التحديث <xliff:g id="filename">%s </xliff:g>. عند لمس \'إعادة التشغيل وتثبيت\'، سيعيد الجهاز نفسه لتثبيت في update.\n\nNote: تتطلب هذه الميزة ريكفري متوافقة أو سوف تحتاج التحديثات ان يتم تثبيتها يدوياً.</string>
+    <string name="not_download_install_ota_notice">تم بنجاح تحميل التحديث <xliff:g id="filename">%s </xliff:g>. عند لمس \'إعادة التشغيل وتثبيت\'، سيعيد الجهاز نفسه لتثبيت في update.\n\nNote: تتطلب هذه الميزة ريكفري متوافقة أو التحديثات سوف تحتاج إلى تثبيت manually.\n\nThis يتم تحديث تزايدي، ثم أية تغييرات يتم إجراؤها على نظام الملفات قد يتسبب الى فشل التحديث. إذا حدث هذا، الرجاء اعادة فلاش الروم كامل بدلاً.</string>
+    <string name="md5_verification_failed">قيم MD5 الرقمية غير متطابقة</string>
+    <string name="not_apk_action_install_update">تثبيت</string>
+    <!-- deleting -->
+    <string name="confirm_delete_dialog_title">حذف الملف</string>
+    <string name="confirm_delete_updates_dialog_message">حذف ملف التحديث المحدد؟</string>
+    <string name="confirm_delete_updates_all_dialog_message">حذف كل ملفات التحديثات المنزلة؟</string>
+    <string name="delete_single_update_success_message">التحديث <xliff:g id="filename">%s</xliff:g> تم حذفه</string>
+    <string name="delete_updates_failure_message">حدث خطأ أثناء حذف ملف التحديث</string>
+    <string name="delete_updates_nofolder_message">لم يتم العثور على مجلد التحديث</string>
+    <string name="delete_updates_success_message">تم حذف كل التحديثات المنزلة</string>
+    <!-- Pref -->
+    <string name="pref_ota_check">تحديثات عن طريق الهواء OTA</string>
+    <string name="pref_ota_check_summary">الحصول على التحديثات التزايدية لحفظ وقت التحميل وعرض حجم البيانات</string>
+    <string name="pref_ota_check_request_summary">الحصول على التحديثات التزايدية لحفظ وقت التحميل وعرض حجم البيانات</string>
+    <string name="pref_verify_rom">تحديثات تم التحقق منها</string>
+    <string name="pref_verify_rom_summary">عرض التحديثات التي يتم التحقق منها بواسطة المستخدمين الآخرين فقط</string>
+    <string name="pref_verify_rom_request_summary">عرض التحديثات التي يتم التحقق منها بواسطة المستخدمين الآخرين فقط</string>
+    <!-- Apply install and update strings -->
+    <string name="apply_update_dialog_title">تطبيق التحديث</string>
+    <string name="apply_update_dialog_text">أنت على وشك الترقية إلى <xliff:g id="filename">%s</xliff:g>.\n\nإذا ضغطت على \"تحديث\"، سيتم إعادة تشغيل الجهاز في وضع الريكوفري لتثبيت التحديث.\n
         \nملاحظة: هذه الميزة تتطلب ريكوفري متوافق، وإلا ستحتاج لتثبيت التحديثات يدوياً.</string>
-  <string name="apply_update_ota_dialog_text">أنت على وشك الترقية إلى <xliff:g id="filename">%s </xliff:g>. \n\nIf تضغط Update، الجهاز سيقوم بإعادة تشغيل نفسها في وضع الاسترداد تثبيت update.\n\nNote: تتطلب هذه الميزة ريكفري متوافقة أو التحديثات سوف تحتاج إلى تثبيت يدوي manually.\n\n ثم أية تغييرات يتم إجراؤها على نظام الملفات قد يتسبب فشل التحديث. إذا حدث هذا، الرجاء فلاش الروم كامل.</string>
-  <string name="apply_unable_to_reboot_toast">غير قادر على إعادة التسغيل إلى وضع الريكفري</string>
-  <!-- Experimenter mode -->
-  <string name="show_exp_on">لقد قمت بتفعيل الإعدادات الاختبارية!</string>
-  <string name="show_exp_already">لا داعي، لقد قمت بالفعل بتفعيل الإعدادات الاختبارية.</string>
-  <!-- Verify system compatible -->
-  <string name="verify_system_compatible_title">تحديث نظام موكي</string>
-  <string name="verify_system_compatible_message">التحقق من توافق النظام قبل patching</string>
-  <string name="verify_system_compatible_failed">فشل في التحقق من توافق النظام</string>
-  <string name="verify_system_compatible_patch">الملفات التالية أما تم تعديلها أو إزالتها، يرجى استعادتها والمحاولة مرة أخرى.</string>
-  <string name="verify_system_compatible_img">%1$sغير متوافقة، الرجاء الترقية إلى الإصدار %2$s</string>
-  <string name="verify_system_compatible_root_request">مطلوب أذونات الجذر بواسطة البرنامج المساعد للتحقق من التحديث. إذا اخترت تخطي، سيتم تأجيل هذه الخطوة وأداؤها في وضع الاسترداد.</string>
-  <string name="verify_system_compatible_root_skip">تخطي</string>
-  <!-- Common -->
-  <string name="activity_not_found">لم يتم تثبيت التطبيق.</string>
+    <string name="apply_update_ota_dialog_text">أنت على وشك الترقية إلى <xliff:g id="filename">%s </xliff:g>. \n\nIf تضغط Update، الجهاز سيقوم بإعادة تشغيل نفسها في وضع الاسترداد تثبيت update.\n\nNote: تتطلب هذه الميزة ريكفري متوافقة أو التحديثات سوف تحتاج إلى تثبيت يدوي manually.\n\n ثم أية تغييرات يتم إجراؤها على نظام الملفات قد يتسبب فشل التحديث. إذا حدث هذا، الرجاء فلاش الروم كامل.</string>
+    <string name="apply_unable_to_reboot_toast">غير قادر على إعادة التسغيل إلى وضع الريكفري</string>
+    <!-- Experimenter mode -->
+    <string name="show_exp_on">لقد قمت بتفعيل الإعدادات الاختبارية!</string>
+    <string name="show_exp_already">لا داعي، لقد قمت بالفعل بتفعيل الإعدادات الاختبارية.</string>
+    <!-- Verify system compatible -->
+    <string name="verify_system_compatible_title">تحديث نظام موكي</string>
+    <string name="verify_system_compatible_message">التحقق من توافق النظام قبل patching</string>
+    <string name="verify_system_compatible_failed">فشل في التحقق من توافق النظام</string>
+    <string name="verify_system_compatible_patch">الملفات التالية أما تم تعديلها أو إزالتها، يرجى استعادتها والمحاولة مرة أخرى.</string>
+    <string name="verify_system_compatible_img">%1$sغير متوافقة، الرجاء الترقية إلى الإصدار %2$s</string>
+    <string name="verify_system_compatible_root_request">مطلوب أذونات الجذر بواسطة البرنامج المساعد للتحقق من التحديث. إذا اخترت تخطي، سيتم تأجيل هذه الخطوة وأداؤها في وضع الاسترداد.</string>
+    <string name="verify_system_compatible_root_skip">تخطي</string>
+    <!-- Common -->
+    <string name="activity_not_found">لم يتم تثبيت التطبيق.</string>
 </resources>

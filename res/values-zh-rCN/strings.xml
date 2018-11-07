@@ -17,163 +17,163 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Fragment -->
-  <string name="mokee_center_title">魔趣中心</string>
-  <string name="mokee_support_title">支持中心</string>
-  <string name="mokee_updater_title">系统更新</string>
-  <!-- WebSite -->
-  <string name="mokee_website_title">项目首页</string>
-  <string name="mokee_website_summary">访问魔趣开源计划主页以获得最新资讯</string>
-  <string name="mokee_forum_title">魔趣论坛</string>
-  <string name="mokee_forum_summary">前往魔趣论坛寻求帮助或分享心得</string>
-  <string name="mokee_issues_title">问题反馈</string>
-  <string name="mokee_issues_summary">反馈报告手机使用问题以便我们改进系统</string>
-  <string name="mokee_changelog_title">更新日志</string>
-  <string name="mokee_changelog_summary">查看魔趣开源计划每天的功能改进清单</string>
-  <string name="mokee_github_title">开源代码</string>
-  <string name="mokee_github_summary">查看和下载魔趣源代码</string>
-  <string name="mokee_translate_title">翻译固件</string>
-  <string name="mokee_translate_summary">前往魔趣本地化管理系统进行语言翻译</string>
-  <string name="mokee_wiki_title">魔趣百科</string>
-  <string name="mokee_wiki_summary">魔趣开源计划的百科全书，由大家共同维护</string>
-  <string name="mokee_news_title">魔趣新闻</string>
-  <string name="mokee_news_summary">订阅有关魔趣的最新开发进展</string>
-  <!-- Base Info -->
-  <string name="mokee_version_info_title">版本信息</string>
-  <string name="mokee_version_title">魔趣版本</string>
-  <string name="mokee_unique_id_title">设备标识</string>
-  <string name="mokee_donate_info_title">捐赠信息</string>
-  <string name="mokee_last_check_title">最后检查</string>
-  <string name="mokee_last_check_never">从未</string>
-  <!-- Version -->
-  <string name="mokee_info_default">未知</string>
-  <string name="mokee_version_type_release">正式发布版</string>
-  <string name="mokee_version_type_history">历史存档版</string>
-  <string name="mokee_version_type_experimental">测试阶段版</string>
-  <string name="mokee_version_type_nightly">每夜编译版</string>
-  <string name="mokee_version_type_unofficial">非官方版本</string>
-  <string name="mokee_version_type_all">全部版本</string>
-  <!-- State -->
-  <string name="downloaded_update_summary">已下载</string>
-  <string name="installed_update_summary">已安装</string>
-  <string name="available_updates_title">可用更新</string>
-  <!-- Menu -->
-  <string name="menu_donate">捐赠</string>
-  <string name="menu_refresh">刷新</string>
-  <string name="menu_delete_all">删除下载</string>
-  <string name="menu_unlock_features">功能解锁</string>
-  <string name="menu_restore">恢复授权</string>
-  <!-- Donate -->
-  <string name="donate_dialog_title">捐赠我们</string>
-  <string name="donate_dialog_message">和 Cyanogen，MIUI 等已接受投资的商业化公司不同，魔趣作为非营利性的民间开源项目，需要通过接受捐赠或是显示界面广告等手段筹集经费，才能负担得起每个月的服务器租用及托管、网络带宽、接口授权等高昂支出。因此，您的支持至关重要！请为魔趣出些力，帮助我们做得更好！捐赠完成后，我们会为您激活捐赠用户独享的强大功能！同时，您的捐赠记录会永久保存在云端服务器上，当您清除数据或从其它ROM刷回魔趣时，捐赠记录将会自动恢复。</string>
-  <string name="donate_dialog_faq">疑问解答</string>
-  <string name="donate_dialog_via_paypal">贝宝</string>
-  <string name="donate_dialog_via_alipay">支付宝</string>
-  <string name="donate_dialog_via_wechat">微信</string>
-  <string name="donate_dialog_via_restore">恢复授权</string>
-  <string name="donate_money_toast_success">感谢您的捐赠，我们会做的更好！</string>
-  <string name="donate_money_title">捐赠魔趣开源项目</string>
-  <string name="donate_money_again">再捐一点</string>
-  <string name="donate_money_restored_success">授权文件恢复成功！</string>
-  <string name="donate_money_restored_failed">没有找到这台设备的捐赠记录。</string>
-  <string name="donate_money_restored_failed_solution">解决方案</string>
-  <string name="donate_money_restored_timeout">网络连接超时，请再试一次。</string>
-  <string name="donate_money_info">您捐赠了 %1$d 元，打败了全球 %2$s 的用户！</string>
-  <string name="donate_money_info_with_rank">您捐赠了 %1$d 元，打败了全球 %2$s 的用户，排名第 %3$d！</string>
-  <string name="donate_money_info_null">当前您还没有过光荣的捐赠行为。捐赠是国际通行的一种支持免费软件的方式，您可以花费千元购买厂商的手机和万年不更新的系统，何不向魔趣做一次小小的捐赠呢？您的举手之劳，就可以使我们变得更好，持续为您带来更好用的ROM。</string>
-  <string name="unlock_features_title">功能解锁</string>
-  <string name="unlock_features_ota_title">捐赠 %d 元，解锁增量更新和高速下载。</string>
-  <string name="unlock_features_verify_rom_title">捐赠 %d 元，解锁放心刷™并移除界面广告。</string>
-  <string name="unlock_features_all_title">捐赠 %d 元，解锁增量更新、高速下载、放心刷™并移除界面广告。</string>
-  <string name="unlock_features_request_summary">（累计捐赠 %d 元后永久可用）</string>
-  <string name="unlock_features_pending_summary">（已捐赠 %1$d 元，再捐赠 %2$d 元后永久可用）</string>
-  <!-- Update -->
-  <string name="unknown">未知</string>
-  <string name="dialog_update">更新</string>
-  <string name="dialog_install">安装</string>
-  <string name="dialog_ok">确定</string>
-  <string name="dialog_cancel">取消</string>
-  <string name="dialog_close">关闭</string>
-  <string name="no_available_updates_intro">最后一次检测并未找到可用的更新，请点击右上角的刷新按钮尝试手动检查更新。</string>
-  <string name="no_available_ota_intro">最后一次检测并未找到可用的更新，请点击右上角的刷新按钮尝试手动检查更新。如果您正在使用一个超出增量更新支持的早期版本，您需要取消“增量更新”的勾选。</string>
-  <string name="new_update_summary">比当前版本新</string>
-  <string name="old_update_summary">比当前版本旧</string>
-  <string name="ota_diff_update_summary">使用增量更新可为您节省 %s 流量</string>
-  <string name="full_diff_update_summary">与完整包相比可为您节省 %s 流量</string>
-  <string name="update_check_title">检查更新频率</string>
-  <string name="check_manual">手动</string>
-  <string name="nightly_alert">您选择了检查每夜版本更新，这是开发阶段的版本，包含当天开发的最新功能但可能存在BUG，请谨慎使用。</string>
-  <string name="experimenter_alert">您选择了检查测试版本更新，这是测试阶段的版本，包含一些实验性的功能但可能存在BUG，请谨慎使用。</string>
-  <string name="unofficial_alert">您选择了检查非官方版本更新，这是由您当前设备系统的维护者发布的版本，特此告知。</string>
-  <string name="all_alert">您选择了检查全部版本（正式版、每夜版）更新，该列表中的每夜版是一个开发阶段的版本，包含当天开发的最新功能但可能存在BUG，请谨慎使用。</string>
-  <string name="alert_title">警告</string>
-  <string name="update_type_title">更新类型</string>
-  <!-- ChangeLog -->
-  <string name="no_changelog_alert">无可用的更改记录</string>
-  <string name="changelog_dialog_title">更改记录</string>
-  <string name="loading_changelog">载入中\u2026</string>
-  <string name="check_on_boot">每次启动</string>
-  <string name="check_twice_daily">每天两次</string>
-  <string name="check_daily">每天一次</string>
-  <string name="check_twice_weekly">每周两次</string>
-  <string name="check_weekly">每周一次</string>
-  <string name="check_bi_weekly">两周一次</string>
-  <string name="check_monthly">每月一次</string>
-  <!-- checking -->
-  <string name="checking_for_updates">正在检查更新</string>
-  <string name="no_updates_found">没有找到新的更新</string>
-  <string name="not_new_updates_found_ticker">有可用的系统更新</string>
-  <string name="not_new_updates_found_title">新的系统更新</string>
-  <string name="update_check_failed">更新检查失败，请检查您的数据连接并重试。</string>
-  <string name="not_action_download">下载</string>
-  <string name="data_connection_required">需要一个有效的数据链接</string>
-  <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">取消下载</string>
-  <string name="confirm_download_cancelation_dialog_message">取消当前的下载？</string>
-  <string name="download_remaining">剩余时间：<xliff:g id="DURATION">%s</xliff:g></string>
-  <string name="download_running">正在下载</string>
-  <string name="download_cancelled">下载已取消</string>
-  <string name="download_already_running">已有一个正在运行的下载</string>
-  <string name="download_limited_mode">当前是限速下载模式，累计捐赠达到30元即可享受全速下载。</string>
-  <string name="unable_to_download_file">无法下载更新</string>
-  <string name="not_download_success">更新下载成功</string>
-  <string name="not_download_failure">下载更新失败</string>
-  <string name="not_action_install_update">重启并安装</string>
-  <string name="not_download_install_notice"><xliff:g id="filename">%s</xliff:g> 已成功下载。点击“重启并安装”后，设备将重新启动并安装更新。\n\n注意：自动安装过程需要一个兼容的恢复程序，不兼容的恢复程序可能导致更新失败。</string>
-  <string name="not_download_install_ota_notice"><xliff:g id="filename">%s</xliff:g> 已成功下载。点击“重启并安装”后，设备将重新启动并安装更新。\n\n注意：自动安装过程需要一个兼容的恢复程序，不兼容的恢复程序可能导致更新失败。\n\n本次为增量更新，任何人为或带有 Root 权限的程序对系统文件造成的修改可能导致更新失败，如果您遭遇此情形，请尝试下载完整包进行更新。</string>
-  <string name="md5_verification_failed">下载过程出现异常，请刷新并重新下载。</string>
-  <string name="not_apk_action_install_update">安装</string>
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">删除文件</string>
-  <string name="confirm_delete_updates_dialog_message">您确定要删除此更新文件？</string>
-  <string name="confirm_delete_updates_all_dialog_message">您确定要删除所有已下载的更新文件？</string>
-  <string name="delete_single_update_success_message">更新 <xliff:g id="filename">%s</xliff:g> 已被删除</string>
-  <string name="delete_updates_failure_message">删除更新文件时发生了错误</string>
-  <string name="delete_updates_nofolder_message">未找到更新文件所在的文件夹</string>
-  <string name="delete_updates_success_message">所有已下载的更新文件已被删除</string>
-  <!-- Pref -->
-  <string name="pref_ota_check">增量更新</string>
-  <string name="pref_ota_check_summary">为您节省时间和流量，随时随地轻松升级</string>
-  <string name="pref_ota_check_request_summary">想每天更新体验新功能，又觉得下载升级很麻烦？开启它，您只需下载10～20MB的补丁即可快速更新系统，无需下载400～700 MB的完整包。</string>
-  <string name="pref_verify_rom">放心刷™</string>
-  <string name="pref_verify_rom_summary">仅向您推荐经过多数用户测试稳定的版本</string>
-  <string name="pref_verify_rom_request_summary">作为我们的贵宾，系统仅向您推荐经过多数用户测试稳定的版本。您可以放心的升级，享受新的功能特性。</string>
-  <!-- Apply install and update strings -->
-  <string name="apply_update_dialog_title">应用更新</string>
-  <string name="apply_update_dialog_text">您将要更新到 <xliff:g id="filename">%s</xliff:g>。\n\n如果您点击“更新”，您的设备将会重启到恢复模式并安装更新。\n\n注意：此功能需要一个兼容的恢复程序。如果您没有的话，您可能需要手动安装更新。</string>
-  <string name="apply_update_ota_dialog_text">您将要更新到 <xliff:g id="filename">%s</xliff:g>。\n\n如果您点击“更新”，您的设备将会重启到恢复模式并安装更新。\n\n注意：此功能需要一个兼容的恢复程序。如果您没有的话，您可能需要手动安装更新。\n\n本次为增量更新，任何人为或带有 Root 权限的程序对系统文件造成的修改可能导致更新失败，如果您遭遇此情形，请尝试下载完整包进行更新。</string>
-  <string name="apply_unable_to_reboot_toast">无法重启到恢复模式</string>
-  <!-- Experimenter mode -->
-  <string name="show_exp_on">您现在处于测试者模式！</string>
-  <string name="show_exp_already">您已处于测试者模式，无需进行此操作。</string>
-  <!-- Verify system compatible -->
-  <string name="verify_system_compatible_title">魔趣更新验证</string>
-  <string name="verify_system_compatible_message">正在验证增量更新的兼容性</string>
-  <string name="verify_system_compatible_failed">兼容性验证失败</string>
-  <string name="verify_system_compatible_patch">下列文件不存在或已被篡改，请恢复原文件后再进行增量更新。</string>
-  <string name="verify_system_compatible_img">%1$s 版本不匹配，需要 %2$s ，请更新厂商底包。</string>
-  <string name="verify_system_compatible_root_request">更新验证组件需要获取 Root 权限以完成文件校验。如果您选择“跳过”，这一过程将在恢复模式下执行。</string>
-  <string name="verify_system_compatible_root_skip">跳过</string>
-  <!-- Common -->
-  <string name="activity_not_found">未安装该应用</string>
+    <!-- Fragment -->
+    <string name="mokee_center_title">魔趣中心</string>
+    <string name="mokee_support_title">支持中心</string>
+    <string name="mokee_updater_title">系统更新</string>
+    <!-- WebSite -->
+    <string name="mokee_website_title">项目首页</string>
+    <string name="mokee_website_summary">访问魔趣开源计划主页以获得最新资讯</string>
+    <string name="mokee_forum_title">魔趣论坛</string>
+    <string name="mokee_forum_summary">前往魔趣论坛寻求帮助或分享心得</string>
+    <string name="mokee_issues_title">问题反馈</string>
+    <string name="mokee_issues_summary">反馈报告手机使用问题以便我们改进系统</string>
+    <string name="mokee_changelog_title">更新日志</string>
+    <string name="mokee_changelog_summary">查看魔趣开源计划每天的功能改进清单</string>
+    <string name="mokee_github_title">开源代码</string>
+    <string name="mokee_github_summary">查看和下载魔趣源代码</string>
+    <string name="mokee_translate_title">翻译固件</string>
+    <string name="mokee_translate_summary">前往魔趣本地化管理系统进行语言翻译</string>
+    <string name="mokee_wiki_title">魔趣百科</string>
+    <string name="mokee_wiki_summary">魔趣开源计划的百科全书，由大家共同维护</string>
+    <string name="mokee_news_title">魔趣新闻</string>
+    <string name="mokee_news_summary">订阅有关魔趣的最新开发进展</string>
+    <!-- Base Info -->
+    <string name="mokee_version_info_title">版本信息</string>
+    <string name="mokee_version_title">魔趣版本</string>
+    <string name="mokee_unique_id_title">设备标识</string>
+    <string name="mokee_donate_info_title">捐赠信息</string>
+    <string name="mokee_last_check_title">最后检查</string>
+    <string name="mokee_last_check_never">从未</string>
+    <!-- Version -->
+    <string name="mokee_info_default">未知</string>
+    <string name="mokee_version_type_release">正式发布版</string>
+    <string name="mokee_version_type_history">历史存档版</string>
+    <string name="mokee_version_type_experimental">测试阶段版</string>
+    <string name="mokee_version_type_nightly">每夜编译版</string>
+    <string name="mokee_version_type_unofficial">非官方版本</string>
+    <string name="mokee_version_type_all">全部版本</string>
+    <!-- State -->
+    <string name="downloaded_update_summary">已下载</string>
+    <string name="installed_update_summary">已安装</string>
+    <string name="available_updates_title">可用更新</string>
+    <!-- Menu -->
+    <string name="menu_donate">捐赠</string>
+    <string name="menu_refresh">刷新</string>
+    <string name="menu_delete_all">删除下载</string>
+    <string name="menu_unlock_features">功能解锁</string>
+    <string name="menu_restore">恢复授权</string>
+    <!-- Donate -->
+    <string name="donate_dialog_title">捐赠我们</string>
+    <string name="donate_dialog_message">和 Cyanogen，MIUI 等已接受投资的商业化公司不同，魔趣作为非营利性的民间开源项目，需要通过接受捐赠或是显示界面广告等手段筹集经费，才能负担得起每个月的服务器租用及托管、网络带宽、接口授权等高昂支出。因此，您的支持至关重要！请为魔趣出些力，帮助我们做得更好！捐赠完成后，我们会为您激活捐赠用户独享的强大功能！同时，您的捐赠记录会永久保存在云端服务器上，当您清除数据或从其它ROM刷回魔趣时，捐赠记录将会自动恢复。</string>
+    <string name="donate_dialog_faq">疑问解答</string>
+    <string name="donate_dialog_via_paypal">贝宝</string>
+    <string name="donate_dialog_via_alipay">支付宝</string>
+    <string name="donate_dialog_via_wechat">微信</string>
+    <string name="donate_dialog_via_restore">恢复授权</string>
+    <string name="donate_money_toast_success">感谢您的捐赠，我们会做的更好！</string>
+    <string name="donate_money_title">捐赠魔趣开源项目</string>
+    <string name="donate_money_again">再捐一点</string>
+    <string name="donate_money_restored_success">授权文件恢复成功！</string>
+    <string name="donate_money_restored_failed">没有找到这台设备的捐赠记录。</string>
+    <string name="donate_money_restored_failed_solution">解决方案</string>
+    <string name="donate_money_restored_timeout">网络连接超时，请再试一次。</string>
+    <string name="donate_money_info">您捐赠了 %1$d 元，打败了全球 %2$s 的用户！</string>
+    <string name="donate_money_info_with_rank">您捐赠了 %1$d 元，打败了全球 %2$s 的用户，排名第 %3$d！</string>
+    <string name="donate_money_info_null">当前您还没有过光荣的捐赠行为。捐赠是国际通行的一种支持免费软件的方式，您可以花费千元购买厂商的手机和万年不更新的系统，何不向魔趣做一次小小的捐赠呢？您的举手之劳，就可以使我们变得更好，持续为您带来更好用的ROM。</string>
+    <string name="unlock_features_title">功能解锁</string>
+    <string name="unlock_features_ota_title">捐赠 %d 元，解锁增量更新和高速下载。</string>
+    <string name="unlock_features_verify_rom_title">捐赠 %d 元，解锁放心刷™并移除界面广告。</string>
+    <string name="unlock_features_all_title">捐赠 %d 元，解锁增量更新、高速下载、放心刷™并移除界面广告。</string>
+    <string name="unlock_features_request_summary">（累计捐赠 %d 元后永久可用）</string>
+    <string name="unlock_features_pending_summary">（已捐赠 %1$d 元，再捐赠 %2$d 元后永久可用）</string>
+    <!-- Update -->
+    <string name="unknown">未知</string>
+    <string name="dialog_update">更新</string>
+    <string name="dialog_install">安装</string>
+    <string name="dialog_ok">确定</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_close">关闭</string>
+    <string name="no_available_updates_intro">最后一次检测并未找到可用的更新，请点击右上角的刷新按钮尝试手动检查更新。</string>
+    <string name="no_available_ota_intro">最后一次检测并未找到可用的更新，请点击右上角的刷新按钮尝试手动检查更新。如果您正在使用一个超出增量更新支持的早期版本，您需要取消“增量更新”的勾选。</string>
+    <string name="new_update_summary">比当前版本新</string>
+    <string name="old_update_summary">比当前版本旧</string>
+    <string name="ota_diff_update_summary">使用增量更新可为您节省 %s 流量</string>
+    <string name="full_diff_update_summary">与完整包相比可为您节省 %s 流量</string>
+    <string name="update_check_title">检查更新频率</string>
+    <string name="check_manual">手动</string>
+    <string name="nightly_alert">您选择了检查每夜版本更新，这是开发阶段的版本，包含当天开发的最新功能但可能存在BUG，请谨慎使用。</string>
+    <string name="experimenter_alert">您选择了检查测试版本更新，这是测试阶段的版本，包含一些实验性的功能但可能存在BUG，请谨慎使用。</string>
+    <string name="unofficial_alert">您选择了检查非官方版本更新，这是由您当前设备系统的维护者发布的版本，特此告知。</string>
+    <string name="all_alert">您选择了检查全部版本（正式版、每夜版）更新，该列表中的每夜版是一个开发阶段的版本，包含当天开发的最新功能但可能存在BUG，请谨慎使用。</string>
+    <string name="alert_title">警告</string>
+    <string name="update_type_title">更新类型</string>
+    <!-- ChangeLog -->
+    <string name="no_changelog_alert">无可用的更改记录</string>
+    <string name="changelog_dialog_title">更改记录</string>
+    <string name="loading_changelog">载入中\u2026</string>
+    <string name="check_on_boot">每次启动</string>
+    <string name="check_twice_daily">每天两次</string>
+    <string name="check_daily">每天一次</string>
+    <string name="check_twice_weekly">每周两次</string>
+    <string name="check_weekly">每周一次</string>
+    <string name="check_bi_weekly">两周一次</string>
+    <string name="check_monthly">每月一次</string>
+    <!-- checking -->
+    <string name="checking_for_updates">正在检查更新</string>
+    <string name="no_updates_found">没有找到新的更新</string>
+    <string name="not_new_updates_found_ticker">有可用的系统更新</string>
+    <string name="not_new_updates_found_title">新的系统更新</string>
+    <string name="update_check_failed">更新检查失败，请检查您的数据连接并重试。</string>
+    <string name="not_action_download">下载</string>
+    <string name="data_connection_required">需要一个有效的数据链接</string>
+    <!-- Downloads -->
+    <string name="confirm_download_cancelation_dialog_title">取消下载</string>
+    <string name="confirm_download_cancelation_dialog_message">取消当前的下载？</string>
+    <string name="download_remaining">剩余时间：<xliff:g id="DURATION">%s</xliff:g></string>
+    <string name="download_running">正在下载</string>
+    <string name="download_cancelled">下载已取消</string>
+    <string name="download_already_running">已有一个正在运行的下载</string>
+    <string name="download_limited_mode">当前是限速下载模式，累计捐赠达到30元即可享受全速下载。</string>
+    <string name="unable_to_download_file">无法下载更新</string>
+    <string name="not_download_success">更新下载成功</string>
+    <string name="not_download_failure">下载更新失败</string>
+    <string name="not_action_install_update">重启并安装</string>
+    <string name="not_download_install_notice"><xliff:g id="filename">%s</xliff:g> 已成功下载。点击“重启并安装”后，设备将重新启动并安装更新。\n\n注意：自动安装过程需要一个兼容的恢复程序，不兼容的恢复程序可能导致更新失败。</string>
+    <string name="not_download_install_ota_notice"><xliff:g id="filename">%s</xliff:g> 已成功下载。点击“重启并安装”后，设备将重新启动并安装更新。\n\n注意：自动安装过程需要一个兼容的恢复程序，不兼容的恢复程序可能导致更新失败。\n\n本次为增量更新，任何人为或带有 Root 权限的程序对系统文件造成的修改可能导致更新失败，如果您遭遇此情形，请尝试下载完整包进行更新。</string>
+    <string name="md5_verification_failed">下载过程出现异常，请刷新并重新下载。</string>
+    <string name="not_apk_action_install_update">安装</string>
+    <!-- deleting -->
+    <string name="confirm_delete_dialog_title">删除文件</string>
+    <string name="confirm_delete_updates_dialog_message">您确定要删除此更新文件？</string>
+    <string name="confirm_delete_updates_all_dialog_message">您确定要删除所有已下载的更新文件？</string>
+    <string name="delete_single_update_success_message">更新 <xliff:g id="filename">%s</xliff:g> 已被删除</string>
+    <string name="delete_updates_failure_message">删除更新文件时发生了错误</string>
+    <string name="delete_updates_nofolder_message">未找到更新文件所在的文件夹</string>
+    <string name="delete_updates_success_message">所有已下载的更新文件已被删除</string>
+    <!-- Pref -->
+    <string name="pref_ota_check">增量更新</string>
+    <string name="pref_ota_check_summary">为您节省时间和流量，随时随地轻松升级</string>
+    <string name="pref_ota_check_request_summary">想每天更新体验新功能，又觉得下载升级很麻烦？开启它，您只需下载10～20MB的补丁即可快速更新系统，无需下载400～700 MB的完整包。</string>
+    <string name="pref_verify_rom">放心刷™</string>
+    <string name="pref_verify_rom_summary">仅向您推荐经过多数用户测试稳定的版本</string>
+    <string name="pref_verify_rom_request_summary">作为我们的贵宾，系统仅向您推荐经过多数用户测试稳定的版本。您可以放心的升级，享受新的功能特性。</string>
+    <!-- Apply install and update strings -->
+    <string name="apply_update_dialog_title">应用更新</string>
+    <string name="apply_update_dialog_text">您将要更新到 <xliff:g id="filename">%s</xliff:g>。\n\n如果您点击“更新”，您的设备将会重启到恢复模式并安装更新。\n\n注意：此功能需要一个兼容的恢复程序。如果您没有的话，您可能需要手动安装更新。</string>
+    <string name="apply_update_ota_dialog_text">您将要更新到 <xliff:g id="filename">%s</xliff:g>。\n\n如果您点击“更新”，您的设备将会重启到恢复模式并安装更新。\n\n注意：此功能需要一个兼容的恢复程序。如果您没有的话，您可能需要手动安装更新。\n\n本次为增量更新，任何人为或带有 Root 权限的程序对系统文件造成的修改可能导致更新失败，如果您遭遇此情形，请尝试下载完整包进行更新。</string>
+    <string name="apply_unable_to_reboot_toast">无法重启到恢复模式</string>
+    <!-- Experimenter mode -->
+    <string name="show_exp_on">您现在处于测试者模式！</string>
+    <string name="show_exp_already">您已处于测试者模式，无需进行此操作。</string>
+    <!-- Verify system compatible -->
+    <string name="verify_system_compatible_title">魔趣更新验证</string>
+    <string name="verify_system_compatible_message">正在验证增量更新的兼容性</string>
+    <string name="verify_system_compatible_failed">兼容性验证失败</string>
+    <string name="verify_system_compatible_patch">下列文件不存在或已被篡改，请恢复原文件后再进行增量更新。</string>
+    <string name="verify_system_compatible_img">%1$s 版本不匹配，需要 %2$s ，请更新厂商底包。</string>
+    <string name="verify_system_compatible_root_request">更新验证组件需要获取 Root 权限以完成文件校验。如果您选择“跳过”，这一过程将在恢复模式下执行。</string>
+    <string name="verify_system_compatible_root_skip">跳过</string>
+    <!-- Common -->
+    <string name="activity_not_found">未安装该应用</string>
 </resources>

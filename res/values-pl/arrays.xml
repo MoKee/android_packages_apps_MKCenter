@@ -17,22 +17,22 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="not_new_updates_found_body">
-    <item quantity="one"><xliff:g id="count">%d</xliff:g> aktualizacja dostępna do pobrania</item>
-    <item quantity="few"><xliff:g id="count">%d</xliff:g> aktualizacje dostępne do pobrania</item>
-    <item quantity="many"><xliff:g id="count">%d</xliff:g> aktualizacji dostępnych do pobrania</item>
-    <item quantity="other"><xliff:g id="count">%d</xliff:g> aktualizacje dostępne do pobrania</item>
-  </plurals>
-  <plurals name="not_additional_count">
-    <item quantity="one">+ <xliff:g id="count">%d</xliff:g> więcej</item>
-    <item quantity="few">+ <xliff:g id="count">%d</xliff:g> więcej</item>
-    <item quantity="many">+ <xliff:g id="count">%d</xliff:g> więcej</item>
-    <item quantity="other">+ <xliff:g id="count">%d</xliff:g> więcej</item>
-  </plurals>
-  <plurals name="show_exp_countdown">
-    <item quantity="one">Jesteś <xliff:g id="step_count">%1$d</xliff:g> krok od odblokowania opcji programistycznych.</item>
-    <item quantity="few">Jesteś <xliff:g id="step_count">%1$d</xliff:g> kroki od odblokowania opcji programistycznych.</item>
-    <item quantity="many">Jesteś <xliff:g id="step_count">%1$d</xliff:g> kroków od odblokowania opcji programistycznych.</item>
-    <item quantity="other">Jesteś <xliff:g id="step_count">%1$d</xliff:g> kroków od odblokowania opcji programistycznych.</item>
-  </plurals>
+    <plurals name="not_new_updates_found_body">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> aktualizacja dostępna do pobrania</item>
+        <item quantity="few"><xliff:g id="count">%d</xliff:g> aktualizacje dostępne do pobrania</item>
+        <item quantity="many"><xliff:g id="count">%d</xliff:g> aktualizacji dostępnych do pobrania</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> aktualizacje dostępne do pobrania</item>
+    </plurals>
+    <plurals name="not_additional_count">
+        <item quantity="one">+ <xliff:g id="count">%d</xliff:g> więcej</item>
+        <item quantity="few">+ <xliff:g id="count">%d</xliff:g> więcej</item>
+        <item quantity="many">+ <xliff:g id="count">%d</xliff:g> więcej</item>
+        <item quantity="other">+ <xliff:g id="count">%d</xliff:g> więcej</item>
+    </plurals>
+    <plurals name="show_exp_countdown">
+        <item quantity="one">Jesteś <xliff:g id="step_count">%1$d</xliff:g> krok od odblokowania opcji programistycznych.</item>
+        <item quantity="few">Jesteś <xliff:g id="step_count">%1$d</xliff:g> kroki od odblokowania opcji programistycznych.</item>
+        <item quantity="many">Jesteś <xliff:g id="step_count">%1$d</xliff:g> kroków od odblokowania opcji programistycznych.</item>
+        <item quantity="other">Jesteś <xliff:g id="step_count">%1$d</xliff:g> kroków od odblokowania opcji programistycznych.</item>
+    </plurals>
 </resources>

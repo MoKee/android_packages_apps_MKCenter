@@ -17,22 +17,22 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="not_new_updates_found_body">
-    <item quantity="one"><xliff:g id="count">%d</xliff:g> абнаўленне даступна для спампоўкі</item>
-    <item quantity="few"><xliff:g id="count">%d</xliff:g> абнаўлення даступны для спампоўкі</item>
-    <item quantity="many"><xliff:g id="count">%d</xliff:g> абнаўленняў даступных для спампоўкі</item>
-    <item quantity="other"><xliff:g id="count">%d</xliff:g> абнаўленняў даступных для спампоўкі</item>
-  </plurals>
-  <plurals name="not_additional_count">
-    <item quantity="one">+ яшчэ <xliff:g id="count">%d</xliff:g></item>
-    <item quantity="few">+ яшчэ <xliff:g id="count">%d</xliff:g></item>
-    <item quantity="many">+ яшчэ <xliff:g id="count">%d</xliff:g></item>
-    <item quantity="other">+ яшчэ <xliff:g id="count">%d</xliff:g></item>
-  </plurals>
-  <plurals name="show_exp_countdown">
-    <item quantity="one">Зараз вы ў <xliff:g id="step_count">%1$d</xliff:g> кроку ад уключэння эксперыментальных налад.</item>
-    <item quantity="few">Зараз вы ў <xliff:g id="step_count">%1$d</xliff:g> кроках ад уключэння эксперыментальных налад.</item>
-    <item quantity="many">Зараз вы ў <xliff:g id="step_count">%1$d</xliff:g> кроках ад уключэння эксперыментальных налад.</item>
-    <item quantity="other">Зараз вы ў <xliff:g id="step_count">%1$d</xliff:g> кроках ад уключэння эксперыментальных налад.</item>
-  </plurals>
+    <plurals name="not_new_updates_found_body">
+        <item quantity="one"><xliff:g id="count">%d</xliff:g> абнаўленне даступна для спампоўкі</item>
+        <item quantity="few"><xliff:g id="count">%d</xliff:g> абнаўлення даступны для спампоўкі</item>
+        <item quantity="many"><xliff:g id="count">%d</xliff:g> абнаўленняў даступных для спампоўкі</item>
+        <item quantity="other"><xliff:g id="count">%d</xliff:g> абнаўленняў даступных для спампоўкі</item>
+    </plurals>
+    <plurals name="not_additional_count">
+        <item quantity="one">+ яшчэ <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="few">+ яшчэ <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="many">+ яшчэ <xliff:g id="count">%d</xliff:g></item>
+        <item quantity="other">+ яшчэ <xliff:g id="count">%d</xliff:g></item>
+    </plurals>
+    <plurals name="show_exp_countdown">
+        <item quantity="one">Зараз вы ў <xliff:g id="step_count">%1$d</xliff:g> кроку ад уключэння эксперыментальных налад.</item>
+        <item quantity="few">Зараз вы ў <xliff:g id="step_count">%1$d</xliff:g> кроках ад уключэння эксперыментальных налад.</item>
+        <item quantity="many">Зараз вы ў <xliff:g id="step_count">%1$d</xliff:g> кроках ад уключэння эксперыментальных налад.</item>
+        <item quantity="other">Зараз вы ў <xliff:g id="step_count">%1$d</xliff:g> кроках ад уключэння эксперыментальных налад.</item>
+    </plurals>
 </resources>

@@ -17,163 +17,163 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Fragment -->
-  <string name="mokee_center_title">Mokee centrum</string>
-  <string name="mokee_support_title">Podpora</string>
-  <string name="mokee_updater_title">Aktualizácie</string>
-  <!-- WebSite -->
-  <string name="mokee_website_title">MoKee webová stránka</string>
-  <string name="mokee_website_summary">Navštívte oficiálne stránky</string>
-  <string name="mokee_forum_title">MoKee Fórum</string>
-  <string name="mokee_forum_summary">Navštívte MoKee fórum</string>
-  <string name="mokee_issues_title">Sledovanie chýb v MoKee</string>
-  <string name="mokee_issues_summary">Navštívte sledovanie chýb v MoKee</string>
-  <string name="mokee_changelog_title">Zoznam zmien v MoKee</string>
-  <string name="mokee_changelog_summary">Zobraziť denné zmeny</string>
-  <string name="mokee_github_title">MoKee Github</string>
-  <string name="mokee_github_summary">Navštívte MoKee Github</string>
-  <string name="mokee_translate_title">Preložiť MoKee</string>
-  <string name="mokee_translate_summary">Pomôžte preložiť Mokee</string>
-  <string name="mokee_wiki_title">MoKee Wiki</string>
-  <string name="mokee_wiki_summary">Zobraziť MoKee Wiki</string>
-  <string name="mokee_news_title">Správy z MoKee</string>
-  <string name="mokee_news_summary">Dostávať vývojárske správy z MoKee</string>
-  <!-- Base Info -->
-  <string name="mokee_version_info_title">Informácie o verzii</string>
-  <string name="mokee_version_title">MoKee verzia</string>
-  <string name="mokee_unique_id_title">Unikátne ID</string>
-  <string name="mokee_donate_info_title">Info o darovaní</string>
-  <string name="mokee_last_check_title">Posledná kontrola</string>
-  <string name="mokee_last_check_never">Nikdy</string>
-  <!-- Version -->
-  <string name="mokee_info_default">Neznáme</string>
-  <string name="mokee_version_type_release">Vydanie</string>
-  <string name="mokee_version_type_history">História</string>
-  <string name="mokee_version_type_experimental">Experimentálna</string>
-  <string name="mokee_version_type_nightly">Nočná</string>
-  <string name="mokee_version_type_unofficial">Neoficiálna</string>
-  <string name="mokee_version_type_all">Všetky</string>
-  <!-- State -->
-  <string name="downloaded_update_summary">Stiahnuté</string>
-  <string name="installed_update_summary">Nainštalované</string>
-  <string name="available_updates_title">Dostupné aktualizácie</string>
-  <!-- Menu -->
-  <string name="menu_donate">Podporte nás</string>
-  <string name="menu_refresh">Obnoviť</string>
-  <string name="menu_delete_all">Odstrániť prevzaté súbory</string>
-  <string name="menu_unlock_features">Odomknúť funkcie</string>
-  <string name="menu_restore">Obnoviť licenciu</string>
-  <!-- Donate -->
-  <string name="donate_dialog_title">Podporte nás</string>
-  <string name="donate_dialog_message">Na rozdiel od projektov ako CyanogenMod alebo MIUI, MoKee Open Source je čisto neziskový projekt, ktorý vznikol zo záľuby a z vášne. Aby sme mohli projekt aj naďalej udržiavať, musíme vkladať do projektu zvyčajne vlastné finančné zdroje alebo spoliehať na Vaše príspevky a výnosy z reklamy. Vaše príspevky pomôžu zredukovať naše finančné zaťaženie a udržať budúci rozvoj! Táto možnosť Vám umožňuje odstrániť reklamy z MoKee centra, ale ak preferujete nižšie splátky, zvoľte možnosť \"Podporte nás\" (reklamy budú odstránené až splátky dosiahnú špecifickú sumu). Potom, ako nás podporíte, zazálohujte si prosím súbor mokee. license (v koreni zložky sdcard), ktorý je platný len pre súčasné zariadenie.</string>
-  <string name="donate_dialog_faq">Q&amp;A</string>
-  <string name="donate_dialog_via_paypal">Paypal</string>
-  <string name="donate_dialog_via_alipay">AliPay</string>
-  <string name="donate_dialog_via_wechat">WeChat</string>
-  <string name="donate_dialog_via_restore">Obnoviť</string>
-  <string name="donate_money_toast_success">Ďakujeme za Váš príspevok!</string>
-  <string name="donate_money_title">Podporte MoKee OpenSource</string>
-  <string name="donate_money_again">Prispejte znovu</string>
-  <string name="donate_money_restored_success">Úspešne obnovené!</string>
-  <string name="donate_money_restored_failed">Nebol nájdený žiadny záznam o zariadení.</string>
-  <string name="donate_money_restored_failed_solution">Riešenie</string>
-  <string name="donate_money_restored_timeout">Časový limit pripojenia vypršal, zkúste to prosím znovu</string>
-  <string name="donate_money_info">Celkom darované %1$d CNY, viac než %2$s darcov!</string>
-  <string name="donate_money_info_with_rank">Darovali ste  celkom CNY %1$d, viac než %2$s darcov celkom, hodnotenie No.%3$d!</string>
-  <string name="donate_money_info_null">Nedarovali ste</string>
-  <string name="unlock_features_title">Odomknúť funkcie</string>
-  <string name="unlock_features_ota_title">Prispieť %d CNY pre odomknutie OTA a plnej rýchlosti sťahovania.</string>
-  <string name="unlock_features_verify_rom_title">Prispieť %d CNY pre odomknutie OTA, plnej rýchlosti sťahovania, overených aktualizácií a odstránenie reklám.</string>
-  <string name="unlock_features_all_title">Prispieť %d CNY pre odomknutie OTA, plnej rýchlosti sťahovania, overených aktualizácií a odstránenie reklám.</string>
-  <string name="unlock_features_request_summary">(k dispozícii po darovaní %d CNY)</string>
-  <string name="unlock_features_pending_summary">(darované %1$d CNY, k dispozícii doživotne po darovaní o %2$d CNY viac)</string>
-  <!-- Update -->
-  <string name="unknown">Neznáme</string>
-  <string name="dialog_update">Aktualizovať</string>
-  <string name="dialog_install">Nainštalovať</string>
-  <string name="dialog_ok">OK</string>
-  <string name="dialog_cancel">Zrušiť</string>
-  <string name="dialog_close">Zavrieť</string>
-  <string name="no_available_updates_intro">Poslednou kontrolou sa nenašli žiadne dostupné aktualizácie. Použite tlačidlo Obnoviť na ručnú kontrolu nových aktualizácií.</string>
-  <string name="no_available_ota_intro">Poslednou kontrolou sa nenašli žiadne dostupné aktualizácie. Použite tlačidlo Obnoviť na ručnú kontrolu nových aktualizácií. Ak máte nainštalovanú verziu, ktorá nie je naďalej podporovaná inkrementálnymi aktualizáciami, odznačte možnosť \"Inkrementálne aktualizácie\".</string>
-  <string name="new_update_summary">Nová</string>
-  <string name="old_update_summary">Stará</string>
-  <string name="ota_diff_update_summary">Prírastkové aktualizácie môžu ušetriť %s</string>
-  <string name="full_diff_update_summary">Ušetrí %s v porovnaní s plnou ROM</string>
-  <string name="update_check_title">Frekvencia kontrôl aktualizácií</string>
-  <string name="check_manual">Ručne</string>
-  <string name="nightly_alert">Zvolili ste si nočné aktualizácie. Tieto aktualizácie nepodliehajú podpore a mali by sa inštalovať s rozvahou.</string>
-  <string name="experimenter_alert">Zvolili ste si experimentálne aktualizácie. Tieto aktualizácie nepodliehajú podpore, sú určené pre testovanie a mali by sa inštalovať s rozvahou.</string>
-  <string name="unofficial_alert">Zvolili ste si neoficiálne aktualizácie. Berte prosím na vedomie, že tieto aktualizácie sú podporované výhradne správcom Vášho zariadenia.</string>
-  <string name="all_alert">Zvolili ste si zobraziť všetky aktualizácie (vydanie, nočná, atď). Berte prosím na vedomie, že nočné aktualizácie nepodliehajú podpore a mali by sa inštalovať s rozvahou.</string>
-  <string name="alert_title">Upozornenie</string>
-  <string name="update_type_title">Typ aktualizácie</string>
-  <!-- ChangeLog -->
-  <string name="no_changelog_alert">Zoznam zmien nie je k dispozícii</string>
-  <string name="changelog_dialog_title">Zoznam zmien</string>
-  <string name="loading_changelog">Načítavam\u2026</string>
-  <string name="check_on_boot">Pri každom reštarte</string>
-  <string name="check_twice_daily">Dvakrát denne</string>
-  <string name="check_daily">Raz denne</string>
-  <string name="check_twice_weekly">Dvakrát týždenne</string>
-  <string name="check_weekly">Raz do týždňa</string>
-  <string name="check_bi_weekly">Raz za štrnásť dní</string>
-  <string name="check_monthly">Raz za mesiac</string>
-  <!-- checking -->
-  <string name="checking_for_updates">Kontrola aktualizácií</string>
-  <string name="no_updates_found">Nenašli sa žiadne nové aktualizácie</string>
-  <string name="not_new_updates_found_ticker">Sú dostupné nové aktualizácie</string>
-  <string name="not_new_updates_found_title">Nové aktualizácie</string>
-  <string name="update_check_failed">Kontrola aktualizácií zlyhala. Skontrolujte prosím svoje internetové pripojenie a skúste to znova neskôr.</string>
-  <string name="not_action_download">Stiahnuť</string>
-  <string name="data_connection_required">Vyžaduje sa dátové pripojenie.</string>
-  <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">Zrušiť sťahovanie</string>
-  <string name="confirm_download_cancelation_dialog_message">Zrušiť prebiehajúce sťahovanie?</string>
-  <string name="download_remaining">Zostáva <xliff:g id="duration" example="3 minutes">%s</xliff:g></string>
-  <string name="download_running">Prebieha sťahovanie</string>
-  <string name="download_cancelled">Sťahovanie zrušené</string>
-  <string name="download_already_running">Sťahovanie je už spustené</string>
-  <string name="download_limited_mode">Sťahovanie obmedzenou rýchlosťou, prosím prispejte pre povolenie plnej rýchlosti sťahovania.</string>
-  <string name="unable_to_download_file">Nemožno prevziať súbor aktualizácie</string>
-  <string name="not_download_success">Aktualizácia bola úspešne prevzatá</string>
-  <string name="not_download_failure">Aktualizácia nebola úspešne prevzatá</string>
-  <string name="not_action_install_update">Reštartovať a inštalovať</string>
-  <string name="not_download_install_notice">Aktualizácia <xliff:g id="filename">%s</xliff:g> bola úspešne prevzatá. Kliknutím na \'Reštartovať a inštalovať\' sa zariadenie reštartuje aby nainštalovalo aktualizácie.\n\nPoznámka: K tomu je potrebná kompatibilná Recovery, inak je potreba aktualizovať manuálne.</string>
-  <string name="not_download_install_ota_notice">Aktualizácia <xliff:g id="filename">%s</xliff:g> bola úspešne prevzatá. Kliknutím na \'Reštartovať a inštalovať\' sa zariadenie reštartuje aby nainštalovalo aktualizácie.\n\nPoznámka: K tomu je potrebná kompatibilná Recovery, inak je potreba aktualizovať manuálne.\n\nToto je inkrementálna aktualizácia, preto akékoľvek zmeny systémových súborov môžu spôsobiť neúspešnú aktualizáciu. Ak sa tak stane, použite k inštalácii plnú verziu ROM.</string>
-  <string name="md5_verification_failed">Kontrolný medzisúčet MD5 nesúhlasí</string>
-  <string name="not_apk_action_install_update">Nainštalovať</string>
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Odstrániť súbor</string>
-  <string name="confirm_delete_updates_dialog_message">Odstrániť označený aktualizačný súbor?</string>
-  <string name="confirm_delete_updates_all_dialog_message">Odstrániť všetky aktualizačné súbory?</string>
-  <string name="delete_single_update_success_message">Aktualizácia <xliff:g id="filename">%s</xliff:g> bola odstránená</string>
-  <string name="delete_updates_failure_message">Vyskytla sa chyba pri mazaní súboru aktualizácie</string>
-  <string name="delete_updates_nofolder_message">Priečinok s aktualizáciou sa nenašiel</string>
-  <string name="delete_updates_success_message">Všetky prevzaté aktualizácie boli odstránené</string>
-  <!-- Pref -->
-  <string name="pref_ota_check">Inkrementálne aktualizácie</string>
-  <string name="pref_ota_check_summary">Získajte inkrementálne aktualizácie aby ste obmedzili čas sťahovania a prenesené dáta</string>
-  <string name="pref_ota_check_request_summary">Získajte inkrementálne aktualizácie aby ste obmedzili čas sťahovania a prenesené dáta</string>
-  <string name="pref_verify_rom">Overené aktualizácie</string>
-  <string name="pref_verify_rom_summary">Zobraziť len aktualizácie, ktoré sú overené inými užívateľmi</string>
-  <string name="pref_verify_rom_request_summary">Zobraziť len aktualizácie, ktoré sú overené inými užívateľmi</string>
-  <!-- Apply install and update strings -->
-  <string name="apply_update_dialog_title">Aplikovať aktualizáciu</string>
-  <string name="apply_update_dialog_text">Chystáte sa inovovať na verziu <xliff:g id="filename">%s</xliff:g>.\n\nAk stlačíte tlačidlo Aktualizovať, zariadenie sa samé reštartuje do režimu Recovery kvôli inštalácii aktualizácie.\n\nPoznámka: Táto funkcia vyžaduje kompatibilné Recovery, inak budú musieť byť aktualizácie inštalované ručne.</string>
-  <string name="apply_update_ota_dialog_text">Chystáte sa inovovať na verziu <xliff:g id="filename">%s</xliff:g>.\n\nAk stlačíte tlačidlo Aktualizovať, zariadenie sa samé reštartuje do režimu Recovery kvôli inštalácii aktualizácie.\n\nPoznámka: Táto funkcia vyžaduje kompatibilné Recovery, inak budú musieť byť aktualizácie inštalované ručne.\n\nToto je inkrementálna aktualizácia, preto akékoľvek zmeny systémových súborov môžu spôsobiť neúspešnú aktualizáciu. Ak sa tak stane, použite k inštalácii plnú verziu ROM.</string>
-  <string name="apply_unable_to_reboot_toast">Nie je možný reštart do režimu recovery</string>
-  <!-- Experimenter mode -->
-  <string name="show_exp_on">Povolili ste nastavenia pre vývojárov!</string>
-  <string name="show_exp_already">Nie je potreba, už ste povolili nastavenia pre vývojárov.</string>
-  <!-- Verify system compatible -->
-  <string name="verify_system_compatible_title">Aktualizácia systému MoKee</string>
-  <string name="verify_system_compatible_message">Overenie kompatibility systému pred opravou\u2026</string>
-  <string name="verify_system_compatible_failed">Overenie kompatibility systému zlyhalo</string>
-  <string name="verify_system_compatible_patch">Nasledujúce súbory boli buď upravené alebo odstránené, obnovte ich a skúste to znovu.</string>
-  <string name="verify_system_compatible_img">Nekompatibilné s %1$s, inovujte na verziu %2$s</string>
-  <string name="verify_system_compatible_root_request">Update Verification Plugin vyžaduje oprávnenia root pre overenie kompatibility s aktualizáciou. Ak sa to rozhodnete preskočiť, bude tento krok odložený a vykonaný v režime recovery.</string>
-  <string name="verify_system_compatible_root_skip">Preskočiť</string>
-  <!-- Common -->
-  <string name="activity_not_found">Aplikácia nie je nainštalovaná.</string>
+    <!-- Fragment -->
+    <string name="mokee_center_title">Mokee centrum</string>
+    <string name="mokee_support_title">Podpora</string>
+    <string name="mokee_updater_title">Aktualizácie</string>
+    <!-- WebSite -->
+    <string name="mokee_website_title">MoKee webová stránka</string>
+    <string name="mokee_website_summary">Navštívte oficiálne stránky</string>
+    <string name="mokee_forum_title">MoKee Fórum</string>
+    <string name="mokee_forum_summary">Navštívte MoKee fórum</string>
+    <string name="mokee_issues_title">Sledovanie chýb v MoKee</string>
+    <string name="mokee_issues_summary">Navštívte sledovanie chýb v MoKee</string>
+    <string name="mokee_changelog_title">Zoznam zmien v MoKee</string>
+    <string name="mokee_changelog_summary">Zobraziť denné zmeny</string>
+    <string name="mokee_github_title">MoKee Github</string>
+    <string name="mokee_github_summary">Navštívte MoKee Github</string>
+    <string name="mokee_translate_title">Preložiť MoKee</string>
+    <string name="mokee_translate_summary">Pomôžte preložiť Mokee</string>
+    <string name="mokee_wiki_title">MoKee Wiki</string>
+    <string name="mokee_wiki_summary">Zobraziť MoKee Wiki</string>
+    <string name="mokee_news_title">Správy z MoKee</string>
+    <string name="mokee_news_summary">Dostávať vývojárske správy z MoKee</string>
+    <!-- Base Info -->
+    <string name="mokee_version_info_title">Informácie o verzii</string>
+    <string name="mokee_version_title">MoKee verzia</string>
+    <string name="mokee_unique_id_title">Unikátne ID</string>
+    <string name="mokee_donate_info_title">Info o darovaní</string>
+    <string name="mokee_last_check_title">Posledná kontrola</string>
+    <string name="mokee_last_check_never">Nikdy</string>
+    <!-- Version -->
+    <string name="mokee_info_default">Neznáme</string>
+    <string name="mokee_version_type_release">Vydanie</string>
+    <string name="mokee_version_type_history">História</string>
+    <string name="mokee_version_type_experimental">Experimentálna</string>
+    <string name="mokee_version_type_nightly">Nočná</string>
+    <string name="mokee_version_type_unofficial">Neoficiálna</string>
+    <string name="mokee_version_type_all">Všetky</string>
+    <!-- State -->
+    <string name="downloaded_update_summary">Stiahnuté</string>
+    <string name="installed_update_summary">Nainštalované</string>
+    <string name="available_updates_title">Dostupné aktualizácie</string>
+    <!-- Menu -->
+    <string name="menu_donate">Podporte nás</string>
+    <string name="menu_refresh">Obnoviť</string>
+    <string name="menu_delete_all">Odstrániť prevzaté súbory</string>
+    <string name="menu_unlock_features">Odomknúť funkcie</string>
+    <string name="menu_restore">Obnoviť licenciu</string>
+    <!-- Donate -->
+    <string name="donate_dialog_title">Podporte nás</string>
+    <string name="donate_dialog_message">Na rozdiel od projektov ako CyanogenMod alebo MIUI, MoKee Open Source je čisto neziskový projekt, ktorý vznikol zo záľuby a z vášne. Aby sme mohli projekt aj naďalej udržiavať, musíme vkladať do projektu zvyčajne vlastné finančné zdroje alebo spoliehať na Vaše príspevky a výnosy z reklamy. Vaše príspevky pomôžu zredukovať naše finančné zaťaženie a udržať budúci rozvoj! Táto možnosť Vám umožňuje odstrániť reklamy z MoKee centra, ale ak preferujete nižšie splátky, zvoľte možnosť \"Podporte nás\" (reklamy budú odstránené až splátky dosiahnú špecifickú sumu). Potom, ako nás podporíte, zazálohujte si prosím súbor mokee. license (v koreni zložky sdcard), ktorý je platný len pre súčasné zariadenie.</string>
+    <string name="donate_dialog_faq">Q&amp;A</string>
+    <string name="donate_dialog_via_paypal">Paypal</string>
+    <string name="donate_dialog_via_alipay">AliPay</string>
+    <string name="donate_dialog_via_wechat">WeChat</string>
+    <string name="donate_dialog_via_restore">Obnoviť</string>
+    <string name="donate_money_toast_success">Ďakujeme za Váš príspevok!</string>
+    <string name="donate_money_title">Podporte MoKee OpenSource</string>
+    <string name="donate_money_again">Prispejte znovu</string>
+    <string name="donate_money_restored_success">Úspešne obnovené!</string>
+    <string name="donate_money_restored_failed">Nebol nájdený žiadny záznam o zariadení.</string>
+    <string name="donate_money_restored_failed_solution">Riešenie</string>
+    <string name="donate_money_restored_timeout">Časový limit pripojenia vypršal, zkúste to prosím znovu</string>
+    <string name="donate_money_info">Celkom darované %1$d CNY, viac než %2$s darcov!</string>
+    <string name="donate_money_info_with_rank">Darovali ste  celkom CNY %1$d, viac než %2$s darcov celkom, hodnotenie No.%3$d!</string>
+    <string name="donate_money_info_null">Nedarovali ste</string>
+    <string name="unlock_features_title">Odomknúť funkcie</string>
+    <string name="unlock_features_ota_title">Prispieť %d CNY pre odomknutie OTA a plnej rýchlosti sťahovania.</string>
+    <string name="unlock_features_verify_rom_title">Prispieť %d CNY pre odomknutie OTA, plnej rýchlosti sťahovania, overených aktualizácií a odstránenie reklám.</string>
+    <string name="unlock_features_all_title">Prispieť %d CNY pre odomknutie OTA, plnej rýchlosti sťahovania, overených aktualizácií a odstránenie reklám.</string>
+    <string name="unlock_features_request_summary">(k dispozícii po darovaní %d CNY)</string>
+    <string name="unlock_features_pending_summary">(darované %1$d CNY, k dispozícii doživotne po darovaní o %2$d CNY viac)</string>
+    <!-- Update -->
+    <string name="unknown">Neznáme</string>
+    <string name="dialog_update">Aktualizovať</string>
+    <string name="dialog_install">Nainštalovať</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Zrušiť</string>
+    <string name="dialog_close">Zavrieť</string>
+    <string name="no_available_updates_intro">Poslednou kontrolou sa nenašli žiadne dostupné aktualizácie. Použite tlačidlo Obnoviť na ručnú kontrolu nových aktualizácií.</string>
+    <string name="no_available_ota_intro">Poslednou kontrolou sa nenašli žiadne dostupné aktualizácie. Použite tlačidlo Obnoviť na ručnú kontrolu nových aktualizácií. Ak máte nainštalovanú verziu, ktorá nie je naďalej podporovaná inkrementálnymi aktualizáciami, odznačte možnosť \"Inkrementálne aktualizácie\".</string>
+    <string name="new_update_summary">Nová</string>
+    <string name="old_update_summary">Stará</string>
+    <string name="ota_diff_update_summary">Prírastkové aktualizácie môžu ušetriť %s</string>
+    <string name="full_diff_update_summary">Ušetrí %s v porovnaní s plnou ROM</string>
+    <string name="update_check_title">Frekvencia kontrôl aktualizácií</string>
+    <string name="check_manual">Ručne</string>
+    <string name="nightly_alert">Zvolili ste si nočné aktualizácie. Tieto aktualizácie nepodliehajú podpore a mali by sa inštalovať s rozvahou.</string>
+    <string name="experimenter_alert">Zvolili ste si experimentálne aktualizácie. Tieto aktualizácie nepodliehajú podpore, sú určené pre testovanie a mali by sa inštalovať s rozvahou.</string>
+    <string name="unofficial_alert">Zvolili ste si neoficiálne aktualizácie. Berte prosím na vedomie, že tieto aktualizácie sú podporované výhradne správcom Vášho zariadenia.</string>
+    <string name="all_alert">Zvolili ste si zobraziť všetky aktualizácie (vydanie, nočná, atď). Berte prosím na vedomie, že nočné aktualizácie nepodliehajú podpore a mali by sa inštalovať s rozvahou.</string>
+    <string name="alert_title">Upozornenie</string>
+    <string name="update_type_title">Typ aktualizácie</string>
+    <!-- ChangeLog -->
+    <string name="no_changelog_alert">Zoznam zmien nie je k dispozícii</string>
+    <string name="changelog_dialog_title">Zoznam zmien</string>
+    <string name="loading_changelog">Načítavam\u2026</string>
+    <string name="check_on_boot">Pri každom reštarte</string>
+    <string name="check_twice_daily">Dvakrát denne</string>
+    <string name="check_daily">Raz denne</string>
+    <string name="check_twice_weekly">Dvakrát týždenne</string>
+    <string name="check_weekly">Raz do týždňa</string>
+    <string name="check_bi_weekly">Raz za štrnásť dní</string>
+    <string name="check_monthly">Raz za mesiac</string>
+    <!-- checking -->
+    <string name="checking_for_updates">Kontrola aktualizácií</string>
+    <string name="no_updates_found">Nenašli sa žiadne nové aktualizácie</string>
+    <string name="not_new_updates_found_ticker">Sú dostupné nové aktualizácie</string>
+    <string name="not_new_updates_found_title">Nové aktualizácie</string>
+    <string name="update_check_failed">Kontrola aktualizácií zlyhala. Skontrolujte prosím svoje internetové pripojenie a skúste to znova neskôr.</string>
+    <string name="not_action_download">Stiahnuť</string>
+    <string name="data_connection_required">Vyžaduje sa dátové pripojenie.</string>
+    <!-- Downloads -->
+    <string name="confirm_download_cancelation_dialog_title">Zrušiť sťahovanie</string>
+    <string name="confirm_download_cancelation_dialog_message">Zrušiť prebiehajúce sťahovanie?</string>
+    <string name="download_remaining">Zostáva <xliff:g id="duration" example="3 minutes">%s</xliff:g></string>
+    <string name="download_running">Prebieha sťahovanie</string>
+    <string name="download_cancelled">Sťahovanie zrušené</string>
+    <string name="download_already_running">Sťahovanie je už spustené</string>
+    <string name="download_limited_mode">Sťahovanie obmedzenou rýchlosťou, prosím prispejte pre povolenie plnej rýchlosti sťahovania.</string>
+    <string name="unable_to_download_file">Nemožno prevziať súbor aktualizácie</string>
+    <string name="not_download_success">Aktualizácia bola úspešne prevzatá</string>
+    <string name="not_download_failure">Aktualizácia nebola úspešne prevzatá</string>
+    <string name="not_action_install_update">Reštartovať a inštalovať</string>
+    <string name="not_download_install_notice">Aktualizácia <xliff:g id="filename">%s</xliff:g> bola úspešne prevzatá. Kliknutím na \'Reštartovať a inštalovať\' sa zariadenie reštartuje aby nainštalovalo aktualizácie.\n\nPoznámka: K tomu je potrebná kompatibilná Recovery, inak je potreba aktualizovať manuálne.</string>
+    <string name="not_download_install_ota_notice">Aktualizácia <xliff:g id="filename">%s</xliff:g> bola úspešne prevzatá. Kliknutím na \'Reštartovať a inštalovať\' sa zariadenie reštartuje aby nainštalovalo aktualizácie.\n\nPoznámka: K tomu je potrebná kompatibilná Recovery, inak je potreba aktualizovať manuálne.\n\nToto je inkrementálna aktualizácia, preto akékoľvek zmeny systémových súborov môžu spôsobiť neúspešnú aktualizáciu. Ak sa tak stane, použite k inštalácii plnú verziu ROM.</string>
+    <string name="md5_verification_failed">Kontrolný medzisúčet MD5 nesúhlasí</string>
+    <string name="not_apk_action_install_update">Nainštalovať</string>
+    <!-- deleting -->
+    <string name="confirm_delete_dialog_title">Odstrániť súbor</string>
+    <string name="confirm_delete_updates_dialog_message">Odstrániť označený aktualizačný súbor?</string>
+    <string name="confirm_delete_updates_all_dialog_message">Odstrániť všetky aktualizačné súbory?</string>
+    <string name="delete_single_update_success_message">Aktualizácia <xliff:g id="filename">%s</xliff:g> bola odstránená</string>
+    <string name="delete_updates_failure_message">Vyskytla sa chyba pri mazaní súboru aktualizácie</string>
+    <string name="delete_updates_nofolder_message">Priečinok s aktualizáciou sa nenašiel</string>
+    <string name="delete_updates_success_message">Všetky prevzaté aktualizácie boli odstránené</string>
+    <!-- Pref -->
+    <string name="pref_ota_check">Inkrementálne aktualizácie</string>
+    <string name="pref_ota_check_summary">Získajte inkrementálne aktualizácie aby ste obmedzili čas sťahovania a prenesené dáta</string>
+    <string name="pref_ota_check_request_summary">Získajte inkrementálne aktualizácie aby ste obmedzili čas sťahovania a prenesené dáta</string>
+    <string name="pref_verify_rom">Overené aktualizácie</string>
+    <string name="pref_verify_rom_summary">Zobraziť len aktualizácie, ktoré sú overené inými užívateľmi</string>
+    <string name="pref_verify_rom_request_summary">Zobraziť len aktualizácie, ktoré sú overené inými užívateľmi</string>
+    <!-- Apply install and update strings -->
+    <string name="apply_update_dialog_title">Aplikovať aktualizáciu</string>
+    <string name="apply_update_dialog_text">Chystáte sa inovovať na verziu <xliff:g id="filename">%s</xliff:g>.\n\nAk stlačíte tlačidlo Aktualizovať, zariadenie sa samé reštartuje do režimu Recovery kvôli inštalácii aktualizácie.\n\nPoznámka: Táto funkcia vyžaduje kompatibilné Recovery, inak budú musieť byť aktualizácie inštalované ručne.</string>
+    <string name="apply_update_ota_dialog_text">Chystáte sa inovovať na verziu <xliff:g id="filename">%s</xliff:g>.\n\nAk stlačíte tlačidlo Aktualizovať, zariadenie sa samé reštartuje do režimu Recovery kvôli inštalácii aktualizácie.\n\nPoznámka: Táto funkcia vyžaduje kompatibilné Recovery, inak budú musieť byť aktualizácie inštalované ručne.\n\nToto je inkrementálna aktualizácia, preto akékoľvek zmeny systémových súborov môžu spôsobiť neúspešnú aktualizáciu. Ak sa tak stane, použite k inštalácii plnú verziu ROM.</string>
+    <string name="apply_unable_to_reboot_toast">Nie je možný reštart do režimu recovery</string>
+    <!-- Experimenter mode -->
+    <string name="show_exp_on">Povolili ste nastavenia pre vývojárov!</string>
+    <string name="show_exp_already">Nie je potreba, už ste povolili nastavenia pre vývojárov.</string>
+    <!-- Verify system compatible -->
+    <string name="verify_system_compatible_title">Aktualizácia systému MoKee</string>
+    <string name="verify_system_compatible_message">Overenie kompatibility systému pred opravou\u2026</string>
+    <string name="verify_system_compatible_failed">Overenie kompatibility systému zlyhalo</string>
+    <string name="verify_system_compatible_patch">Nasledujúce súbory boli buď upravené alebo odstránené, obnovte ich a skúste to znovu.</string>
+    <string name="verify_system_compatible_img">Nekompatibilné s %1$s, inovujte na verziu %2$s</string>
+    <string name="verify_system_compatible_root_request">Update Verification Plugin vyžaduje oprávnenia root pre overenie kompatibility s aktualizáciou. Ak sa to rozhodnete preskočiť, bude tento krok odložený a vykonaný v režime recovery.</string>
+    <string name="verify_system_compatible_root_skip">Preskočiť</string>
+    <!-- Common -->
+    <string name="activity_not_found">Aplikácia nie je nainštalovaná.</string>
 </resources>

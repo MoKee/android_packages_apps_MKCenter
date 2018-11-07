@@ -17,139 +17,139 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Fragment -->
-  <string name="mokee_center_title">MoKee Centre</string>
-  <string name="mokee_support_title">Support</string>
-  <string name="mokee_updater_title">Updater</string>
-  <!-- WebSite -->
-  <string name="mokee_website_title">MoKee Website</string>
-  <string name="mokee_website_summary">Visit the official website</string>
-  <string name="mokee_forum_title">MoKee Forum</string>
-  <string name="mokee_forum_summary">Visit the MoKee Forum</string>
-  <string name="mokee_issues_title">MoKee Bug Tracker</string>
-  <string name="mokee_issues_summary">Visit the bug tracker</string>
-  <string name="mokee_changelog_title">Changelog</string>
-  <string name="mokee_changelog_summary">View daily changelog</string>
-  <string name="mokee_github_title">Mokee Source Code</string>
-  <string name="mokee_github_summary">Visit the MoKee Github</string>
-  <string name="mokee_translate_title">MoKee Translate</string>
-  <string name="mokee_translate_summary">Help translating MoKee</string>
-  <string name="mokee_wiki_title">Wiki</string>
-  <string name="mokee_wiki_summary">View the MoKee Wiki</string>
-  <string name="mokee_news_title">MoKee News</string>
-  <string name="mokee_news_summary">Receive development news from MoKee</string>
-  <!-- Base Info -->
-  <string name="mokee_version_info_title">Version Info</string>
-  <string name="mokee_version_title">MoKee Version</string>
-  <string name="mokee_unique_id_title">Unique ID</string>
-  <string name="mokee_donate_info_title">Donate Info</string>
-  <string name="mokee_last_check_title">Last Check</string>
-  <string name="mokee_last_check_never">Never</string>
-  <!-- Version -->
-  <string name="mokee_info_default">Unknown</string>
-  <string name="mokee_version_type_release">Release</string>
-  <string name="mokee_version_type_history">History</string>
-  <string name="mokee_version_type_experimental">Experimental</string>
-  <string name="mokee_version_type_nightly">Nightly</string>
-  <string name="mokee_version_type_unofficial">Unofficial</string>
-  <string name="mokee_version_type_all">All</string>
-  <!-- State -->
-  <string name="downloaded_update_summary">Downloaded ROM</string>
-  <string name="installed_update_summary">Installed</string>
-  <string name="available_updates_title">Available updates</string>
-  <!-- Menu -->
-  <string name="menu_donate">Donate</string>
-  <string name="menu_refresh">Refresh</string>
-  <string name="menu_delete_all">Delete downloaded ROMs</string>
-  <!-- Donate -->
-  <string name="donate_dialog_title">Donate to us</string>
-  <string name="donate_dialog_message">Unlike companies like Cyanogen or MIUI, MoKee OpenSource is a purely non-profit project born of hobby and passion. In order to maintain this project, we have to fork out our own money most of the time or rely on donations and advertisements. Your donations can help reduce our financial load and sustain future development! This option allows you to remove the ads in MoKee Center, or use the \"Donate\" option instead if you prefer installments (ads will be removed once the total has reached the specified value). Please backup the mokee.license file (in the root directory of sdcard, only valid for current device) once you have donated.</string>
-  <string name="donate_dialog_via_paypal">PayPal</string>
-  <string name="donate_dialog_via_alipay">AliPay</string>
-  <string name="donate_dialog_via_restore">Restore</string>
-  <string name="donate_money_toast_success">Thanks !</string>
-  <string name="donate_money_again">Donate again</string>
-  <string name="donate_money_restored_success">Restored successfully!</string>
-  <string name="donate_money_restored_failed">No device record found.</string>
-  <string name="donate_money_restored_timeout">Connection timed out, please try again</string>
-  <string name="donate_money_info">You donated a total of CNY %1$d, more than %2$s of donors globally!</string>
-  <string name="donate_money_info_with_rank">You donated a total of CNY %1$d, more than %2$s of donors globally, rank No.%3$d!</string>
-  <string name="donate_money_info_null">You haven\'t donated</string>
-  <!-- Update -->
-  <string name="unknown">Unknown</string>
-  <string name="dialog_update">Update</string>
-  <string name="dialog_install">Install</string>
-  <string name="dialog_ok">OK</string>
-  <string name="dialog_cancel">Cancel</string>
-  <string name="dialog_close">Close</string>
-  <string name="no_available_updates_intro">The last check did not find any available updates. To manually check for new updates, use the Refresh button.</string>
-  <string name="no_available_ota_intro">The last check did not find any available updates. To manually check for new updates, use the Refresh button. If you are running a version which is out of the supported incremental update date range, you should deselect the \"Incremental updates\" option.</string>
-  <string name="new_update_summary">New</string>
-  <string name="old_update_summary">Old</string>
-  <string name="update_check_title">Check update frequency</string>
-  <string name="check_manual">Manual</string>
-  <string name="nightly_alert">You have selected to include nightly updates in this list. These are unsupported and should be used with caution.</string>
-  <string name="experimenter_alert">You have selected to include experimental updates in this list. These are unsupported and meant for testing only, it should be used with caution.</string>
-  <string name="unofficial_alert">You have selected to include unofficial updates in this list. Keep in mind that these are supported by your device maintainer.</string>
-  <string name="all_alert">You have selected to include all updates(release, experimental) in this list. Take note that nightly updates are unsupported and should be used with caution.</string>
-  <string name="alert_title">Caution</string>
-  <string name="update_type_title">Update type</string>
-  <!-- ChangeLog -->
-  <string name="no_changelog_alert">No changelog available</string>
-  <string name="changelog_dialog_title">Changelog</string>
-  <string name="loading_changelog">Loading\u2026</string>
-  <string name="check_on_boot">On each reboot</string>
-  <string name="check_twice_daily">Twice every day</string>
-  <string name="check_daily">Once every day</string>
-  <string name="check_twice_weekly">Twice every week</string>
-  <string name="check_weekly">Once every week</string>
-  <string name="check_bi_weekly">Once every fortnight</string>
-  <string name="check_monthly">Once every month</string>
-  <!-- checking -->
-  <string name="checking_for_updates">Checking for updates</string>
-  <string name="no_updates_found">No new updates found</string>
-  <string name="not_new_updates_found_ticker">New updates are available</string>
-  <string name="not_new_updates_found_title">New updates</string>
-  <string name="update_check_failed">The update check failed. Please check your internet connection and try again later.</string>
-  <string name="not_action_download">Download</string>
-  <string name="data_connection_required">A data connection is required.</string>
-  <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">Cancel download</string>
-  <string name="confirm_download_cancelation_dialog_message">Cancel the current download?</string>
-  <string name="download_remaining"><xliff:g id="duration" example="3 minutes">%s</xliff:g> left</string>
-  <string name="download_running">In progress</string>
-  <string name="download_cancelled">Download cancelled</string>
-  <string name="download_already_running">A download is already running</string>
-  <string name="unable_to_download_file">Unable to download the update file</string>
-  <string name="not_download_success">Update downloaded successfully</string>
-  <string name="not_download_failure">Update download was unsuccessful</string>
-  <string name="not_action_install_update">Reboot and install</string>
-  <string name="not_download_install_notice">The update <xliff:g id="filename">%s</xliff:g> was successfully downloaded. When touching \'Reboot and install\', the device will restart itself to install the update.\n\nNote: This feature requires a compatible Recovery or updates will need to be installed manually.</string>
-  <string name="not_download_install_ota_notice">The update <xliff:g id="filename">%s</xliff:g> was successfully downloaded. When touching \'Reboot and install\', the device will restart itself to install the update.\n\nNote: This feature requires a compatible Recovery or updates will need to be installed manually.\n\nThis is an incremental update, therefore any changes made to system files might cause the update to fail. If this happens, please flash a full ROM instead.</string>
-  <string name="md5_verification_failed">MD5 checksum mismatch</string>
-  <string name="not_apk_action_install_update">Install</string>
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Delete file</string>
-  <string name="confirm_delete_updates_dialog_message">Delete the selected update file?</string>
-  <string name="confirm_delete_updates_all_dialog_message">Delete all downloaded update files?</string>
-  <string name="delete_single_update_success_message">Update <xliff:g id="filename">%s</xliff:g> was deleted</string>
-  <string name="delete_updates_failure_message">There was an error deleting the update file</string>
-  <string name="delete_updates_nofolder_message">Update folder not found</string>
-  <string name="delete_updates_success_message">All downloaded updates was deleted</string>
-  <!-- Pref -->
-  <string name="pref_ota_check">Incremental updates</string>
-  <string name="pref_ota_check_summary">Get incremental updates to save download time and bandwidth</string>
-  <string name="pref_ota_check_request_summary">Get incremental updates to save download time and bandwidth</string>
-  <!-- Apply install and update strings -->
-  <string name="apply_update_dialog_title">Apply update</string>
-  <string name="apply_update_dialog_text">You are about to upgrade to <xliff:g id="filename">%s</xliff:g>. \n\nIf you press Update, the device will restart itself in recovery mode to install the update. \n \nNote: This feature requires a compatible Recovery or updates will need to be installed manually.</string>
-  <string name="apply_update_ota_dialog_text">You are about to upgrade to <xliff:g id="filename">%s</xliff:g>.\n\nIf you press Update, the device will restart itself in recovery mode to install the update.\n\nNote: This feature requires a compatible Recovery or updates will need to be installed manually.\n\nThis is an incremental update, therefore any changes made to system files might cause the update to fail. If this happens, please flash a full ROM instead.</string>
-  <string name="apply_unable_to_reboot_toast">Sorry,sir.unable to reboot into recovery</string>
-  <!-- Experimenter mode -->
-  <string name="show_exp_on">You have enabled experimental settings!</string>
-  <string name="show_exp_already">No need, you have already enabled experimental settings.</string>
-  <!-- Verify system compatible -->
-  <string name="verify_system_compatible_title">MoKee system update</string>
-  <string name="verify_system_compatible_root_skip">Skip</string>
-  <!-- Common -->
+    <!-- Fragment -->
+    <string name="mokee_center_title">MoKee Centre</string>
+    <string name="mokee_support_title">Support</string>
+    <string name="mokee_updater_title">Updater</string>
+    <!-- WebSite -->
+    <string name="mokee_website_title">MoKee Website</string>
+    <string name="mokee_website_summary">Visit the official website</string>
+    <string name="mokee_forum_title">MoKee Forum</string>
+    <string name="mokee_forum_summary">Visit the MoKee Forum</string>
+    <string name="mokee_issues_title">MoKee Bug Tracker</string>
+    <string name="mokee_issues_summary">Visit the bug tracker</string>
+    <string name="mokee_changelog_title">Changelog</string>
+    <string name="mokee_changelog_summary">View daily changelog</string>
+    <string name="mokee_github_title">Mokee Source Code</string>
+    <string name="mokee_github_summary">Visit the MoKee Github</string>
+    <string name="mokee_translate_title">MoKee Translate</string>
+    <string name="mokee_translate_summary">Help translating MoKee</string>
+    <string name="mokee_wiki_title">Wiki</string>
+    <string name="mokee_wiki_summary">View the MoKee Wiki</string>
+    <string name="mokee_news_title">MoKee News</string>
+    <string name="mokee_news_summary">Receive development news from MoKee</string>
+    <!-- Base Info -->
+    <string name="mokee_version_info_title">Version Info</string>
+    <string name="mokee_version_title">MoKee Version</string>
+    <string name="mokee_unique_id_title">Unique ID</string>
+    <string name="mokee_donate_info_title">Donate Info</string>
+    <string name="mokee_last_check_title">Last Check</string>
+    <string name="mokee_last_check_never">Never</string>
+    <!-- Version -->
+    <string name="mokee_info_default">Unknown</string>
+    <string name="mokee_version_type_release">Release</string>
+    <string name="mokee_version_type_history">History</string>
+    <string name="mokee_version_type_experimental">Experimental</string>
+    <string name="mokee_version_type_nightly">Nightly</string>
+    <string name="mokee_version_type_unofficial">Unofficial</string>
+    <string name="mokee_version_type_all">All</string>
+    <!-- State -->
+    <string name="downloaded_update_summary">Downloaded ROM</string>
+    <string name="installed_update_summary">Installed</string>
+    <string name="available_updates_title">Available updates</string>
+    <!-- Menu -->
+    <string name="menu_donate">Donate</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="menu_delete_all">Delete downloaded ROMs</string>
+    <!-- Donate -->
+    <string name="donate_dialog_title">Donate to us</string>
+    <string name="donate_dialog_message">Unlike companies like Cyanogen or MIUI, MoKee OpenSource is a purely non-profit project born of hobby and passion. In order to maintain this project, we have to fork out our own money most of the time or rely on donations and advertisements. Your donations can help reduce our financial load and sustain future development! This option allows you to remove the ads in MoKee Center, or use the \"Donate\" option instead if you prefer installments (ads will be removed once the total has reached the specified value). Please backup the mokee.license file (in the root directory of sdcard, only valid for current device) once you have donated.</string>
+    <string name="donate_dialog_via_paypal">PayPal</string>
+    <string name="donate_dialog_via_alipay">AliPay</string>
+    <string name="donate_dialog_via_restore">Restore</string>
+    <string name="donate_money_toast_success">Thanks !</string>
+    <string name="donate_money_again">Donate again</string>
+    <string name="donate_money_restored_success">Restored successfully!</string>
+    <string name="donate_money_restored_failed">No device record found.</string>
+    <string name="donate_money_restored_timeout">Connection timed out, please try again</string>
+    <string name="donate_money_info">You donated a total of CNY %1$d, more than %2$s of donors globally!</string>
+    <string name="donate_money_info_with_rank">You donated a total of CNY %1$d, more than %2$s of donors globally, rank No.%3$d!</string>
+    <string name="donate_money_info_null">You haven\'t donated</string>
+    <!-- Update -->
+    <string name="unknown">Unknown</string>
+    <string name="dialog_update">Update</string>
+    <string name="dialog_install">Install</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_close">Close</string>
+    <string name="no_available_updates_intro">The last check did not find any available updates. To manually check for new updates, use the Refresh button.</string>
+    <string name="no_available_ota_intro">The last check did not find any available updates. To manually check for new updates, use the Refresh button. If you are running a version which is out of the supported incremental update date range, you should deselect the \"Incremental updates\" option.</string>
+    <string name="new_update_summary">New</string>
+    <string name="old_update_summary">Old</string>
+    <string name="update_check_title">Check update frequency</string>
+    <string name="check_manual">Manual</string>
+    <string name="nightly_alert">You have selected to include nightly updates in this list. These are unsupported and should be used with caution.</string>
+    <string name="experimenter_alert">You have selected to include experimental updates in this list. These are unsupported and meant for testing only, it should be used with caution.</string>
+    <string name="unofficial_alert">You have selected to include unofficial updates in this list. Keep in mind that these are supported by your device maintainer.</string>
+    <string name="all_alert">You have selected to include all updates(release, experimental) in this list. Take note that nightly updates are unsupported and should be used with caution.</string>
+    <string name="alert_title">Caution</string>
+    <string name="update_type_title">Update type</string>
+    <!-- ChangeLog -->
+    <string name="no_changelog_alert">No changelog available</string>
+    <string name="changelog_dialog_title">Changelog</string>
+    <string name="loading_changelog">Loading\u2026</string>
+    <string name="check_on_boot">On each reboot</string>
+    <string name="check_twice_daily">Twice every day</string>
+    <string name="check_daily">Once every day</string>
+    <string name="check_twice_weekly">Twice every week</string>
+    <string name="check_weekly">Once every week</string>
+    <string name="check_bi_weekly">Once every fortnight</string>
+    <string name="check_monthly">Once every month</string>
+    <!-- checking -->
+    <string name="checking_for_updates">Checking for updates</string>
+    <string name="no_updates_found">No new updates found</string>
+    <string name="not_new_updates_found_ticker">New updates are available</string>
+    <string name="not_new_updates_found_title">New updates</string>
+    <string name="update_check_failed">The update check failed. Please check your internet connection and try again later.</string>
+    <string name="not_action_download">Download</string>
+    <string name="data_connection_required">A data connection is required.</string>
+    <!-- Downloads -->
+    <string name="confirm_download_cancelation_dialog_title">Cancel download</string>
+    <string name="confirm_download_cancelation_dialog_message">Cancel the current download?</string>
+    <string name="download_remaining"><xliff:g id="duration" example="3 minutes">%s</xliff:g> left</string>
+    <string name="download_running">In progress</string>
+    <string name="download_cancelled">Download cancelled</string>
+    <string name="download_already_running">A download is already running</string>
+    <string name="unable_to_download_file">Unable to download the update file</string>
+    <string name="not_download_success">Update downloaded successfully</string>
+    <string name="not_download_failure">Update download was unsuccessful</string>
+    <string name="not_action_install_update">Reboot and install</string>
+    <string name="not_download_install_notice">The update <xliff:g id="filename">%s</xliff:g> was successfully downloaded. When touching \'Reboot and install\', the device will restart itself to install the update.\n\nNote: This feature requires a compatible Recovery or updates will need to be installed manually.</string>
+    <string name="not_download_install_ota_notice">The update <xliff:g id="filename">%s</xliff:g> was successfully downloaded. When touching \'Reboot and install\', the device will restart itself to install the update.\n\nNote: This feature requires a compatible Recovery or updates will need to be installed manually.\n\nThis is an incremental update, therefore any changes made to system files might cause the update to fail. If this happens, please flash a full ROM instead.</string>
+    <string name="md5_verification_failed">MD5 checksum mismatch</string>
+    <string name="not_apk_action_install_update">Install</string>
+    <!-- deleting -->
+    <string name="confirm_delete_dialog_title">Delete file</string>
+    <string name="confirm_delete_updates_dialog_message">Delete the selected update file?</string>
+    <string name="confirm_delete_updates_all_dialog_message">Delete all downloaded update files?</string>
+    <string name="delete_single_update_success_message">Update <xliff:g id="filename">%s</xliff:g> was deleted</string>
+    <string name="delete_updates_failure_message">There was an error deleting the update file</string>
+    <string name="delete_updates_nofolder_message">Update folder not found</string>
+    <string name="delete_updates_success_message">All downloaded updates was deleted</string>
+    <!-- Pref -->
+    <string name="pref_ota_check">Incremental updates</string>
+    <string name="pref_ota_check_summary">Get incremental updates to save download time and bandwidth</string>
+    <string name="pref_ota_check_request_summary">Get incremental updates to save download time and bandwidth</string>
+    <!-- Apply install and update strings -->
+    <string name="apply_update_dialog_title">Apply update</string>
+    <string name="apply_update_dialog_text">You are about to upgrade to <xliff:g id="filename">%s</xliff:g>. \n\nIf you press Update, the device will restart itself in recovery mode to install the update. \n \nNote: This feature requires a compatible Recovery or updates will need to be installed manually.</string>
+    <string name="apply_update_ota_dialog_text">You are about to upgrade to <xliff:g id="filename">%s</xliff:g>.\n\nIf you press Update, the device will restart itself in recovery mode to install the update.\n\nNote: This feature requires a compatible Recovery or updates will need to be installed manually.\n\nThis is an incremental update, therefore any changes made to system files might cause the update to fail. If this happens, please flash a full ROM instead.</string>
+    <string name="apply_unable_to_reboot_toast">Sorry,sir.unable to reboot into recovery</string>
+    <!-- Experimenter mode -->
+    <string name="show_exp_on">You have enabled experimental settings!</string>
+    <string name="show_exp_already">No need, you have already enabled experimental settings.</string>
+    <!-- Verify system compatible -->
+    <string name="verify_system_compatible_title">MoKee system update</string>
+    <string name="verify_system_compatible_root_skip">Skip</string>
+    <!-- Common -->
 </resources>

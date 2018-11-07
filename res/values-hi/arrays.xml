@@ -17,8 +17,8 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <plurals name="show_exp_countdown">
-    <item quantity="one">अब आप <xliff:g id="step_count">%1$d</xliff:g> प्रयोगात्मक सेटिंग्स को सक्षम करने से कदम दूर हैं</item>
-    <item quantity="other">अब आप <xliff:g id="step_count">%1$d</xliff:g> प्रयोगात्मक सेटिंग्स को सक्षम करने से कदम दूर हैं</item>
-  </plurals>
+    <plurals name="show_exp_countdown">
+        <item quantity="one">अब आप <xliff:g id="step_count">%1$d</xliff:g> प्रयोगात्मक सेटिंग्स को सक्षम करने से कदम दूर हैं</item>
+        <item quantity="other">अब आप <xliff:g id="step_count">%1$d</xliff:g> प्रयोगात्मक सेटिंग्स को सक्षम करने से कदम दूर हैं</item>
+    </plurals>
 </resources>

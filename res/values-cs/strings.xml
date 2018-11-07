@@ -17,163 +17,163 @@
      along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <!-- Fragment -->
-  <string name="mokee_center_title">MoKee centrum</string>
-  <string name="mokee_support_title">Podpora</string>
-  <string name="mokee_updater_title">Aktualizace</string>
-  <!-- WebSite -->
-  <string name="mokee_website_title">MoKee na webu</string>
-  <string name="mokee_website_summary">Navštivit oficiální webové stránky</string>
-  <string name="mokee_forum_title">MoKee Fórum</string>
-  <string name="mokee_forum_summary">Navštivit fórum MoKee</string>
-  <string name="mokee_issues_title">MoKee Bug Tracker</string>
-  <string name="mokee_issues_summary">Navštivtit bug tracker</string>
-  <string name="mokee_changelog_title">MoKee Changelog</string>
-  <string name="mokee_changelog_summary">Zobrazit denní změny</string>
-  <string name="mokee_github_title">MoKee Github</string>
-  <string name="mokee_github_summary">Navštívit MoKee Github</string>
-  <string name="mokee_translate_title">MoKee překlad</string>
-  <string name="mokee_translate_summary">Pomozte přeložit MoKee</string>
-  <string name="mokee_wiki_title">MoKee Wiki</string>
-  <string name="mokee_wiki_summary">Zobrazit MoKee Wiki</string>
-  <string name="mokee_news_title">MoKee Novinky</string>
-  <string name="mokee_news_summary">Přijímat vývojářské novinky od MoKee</string>
-  <!-- Base Info -->
-  <string name="mokee_version_info_title">Informace o verzi</string>
-  <string name="mokee_version_title">Verze MoKee</string>
-  <string name="mokee_unique_id_title">Jedinečné ID</string>
-  <string name="mokee_donate_info_title">Info darování</string>
-  <string name="mokee_last_check_title">Poslední kontrola</string>
-  <string name="mokee_last_check_never">Nikdy</string>
-  <!-- Version -->
-  <string name="mokee_info_default">Neznámá</string>
-  <string name="mokee_version_type_release">Vydání</string>
-  <string name="mokee_version_type_history">History</string>
-  <string name="mokee_version_type_experimental">Experimentální</string>
-  <string name="mokee_version_type_nightly">Nightly</string>
-  <string name="mokee_version_type_unofficial">Neoficiální</string>
-  <string name="mokee_version_type_all">Vše</string>
-  <!-- State -->
-  <string name="downloaded_update_summary"> Staženo</string>
-  <string name="installed_update_summary">Nainstalované</string>
-  <string name="available_updates_title">Dostupné aktualizace</string>
-  <!-- Menu -->
-  <string name="menu_donate">Přispět</string>
-  <string name="menu_refresh">Obnovit</string>
-  <string name="menu_delete_all">Odstranit stažené</string>
-  <string name="menu_unlock_features">Odemknout funkce</string>
-  <string name="menu_restore">Obnovit licenci</string>
-  <!-- Donate -->
-  <string name="donate_dialog_title">Přispějte nám</string>
-  <string name="donate_dialog_message">Na rozdíl od společností, jako jsou Cygn nebo MIUI, MoKee Open Source je ryze neziskový projekt vzniklý z koníčku a vášně. Pro vývoj jsme nuceni pokrýt náklady z vlastních peněz a času nebo se spolehnout na dary a reklamy. Vaše dary mohou pomoci snížit naše finanční zatížení a zajistit udržení budoucího vývoje! Tato možnost Vám umožňuje odstranit reklamy v MoKee centru nebo můžete použít možnost \"Darovat\" pokud radši dáváte přednost splátkám (reklamy budou odstraněny, jakmile celkový součet splátek dosáhne zadané hodnoty). Vytvořte si prosím záložní kopii souboru mokee. license (v kořenovém adresáři sdcard, platné pouze pro toto zařízení), pokud jste již darovali.</string>
-  <string name="donate_dialog_faq">Q&amp;A</string>
-  <string name="donate_dialog_via_paypal">PayPal</string>
-  <string name="donate_dialog_via_alipay">AliPay</string>
-  <string name="donate_dialog_via_wechat">WeChat</string>
-  <string name="donate_dialog_via_restore">Obnovení</string>
-  <string name="donate_money_toast_success">Děkujeme vám za váš příspěvek!</string>
-  <string name="donate_money_title">Přispět na MoKee OpenSource</string>
-  <string name="donate_money_again">Darovat znovu</string>
-  <string name="donate_money_restored_success">Úspěšně obnoveno!</string>
-  <string name="donate_money_restored_failed">Žádný záznam zařízení nenalezen.</string>
-  <string name="donate_money_restored_failed_solution">Řešení</string>
-  <string name="donate_money_restored_timeout">Připojení vypršelo, zkuste to prosím znovu</string>
-  <string name="donate_money_info">Celkem darováno %1$d CNY, více než %2$s dárců!</string>
-  <string name="donate_money_info_with_rank">Daroval celkem CNY %1$d, více než %2$s dárců celkem, hodnost No.%3$d!</string>
-  <string name="donate_money_info_null">Nebylo darováno</string>
-  <string name="unlock_features_title">Odemknout funkce</string>
-  <string name="unlock_features_ota_title">Přispět %d CNY pro odemknutí OTA a plné rychlosti stahování.</string>
-  <string name="unlock_features_verify_rom_title">Přispět %d CNY pro ověřené aktualizace a odstranění reklam.</string>
-  <string name="unlock_features_all_title">Přispět %d CNY pro odemknutí OTA, plné rychlosti stahování, ověřených aktualizací a odstranění reklam.</string>
-  <string name="unlock_features_request_summary">(k dispozici po darování %d CNY)</string>
-  <string name="unlock_features_pending_summary">(darováno %1$d CNY, doživotně k dispozici po darování o %2$d CNY více)</string>
-  <!-- Update -->
-  <string name="unknown">Neznámá</string>
-  <string name="dialog_update">Aktualizovat</string>
-  <string name="dialog_install">Instalovat</string>
-  <string name="dialog_ok">OK</string>
-  <string name="dialog_cancel">Zrušit</string>
-  <string name="dialog_close">Zavřít</string>
-  <string name="no_available_updates_intro">Při poslední kontrole nebyly zjištěny žádné dostupné aktualizace. Chcete-li ručně zkontrolovat nové aktualizace, použijte tlačítko Aktualizovat.</string>
-  <string name="no_available_ota_intro">Při poslední kontrole nebyla nalezena žádná nová aktualizace. K manuálnímu ověření nových aktualizací stiskněte tlačítko Aktualizovat. Pokud používáte verzi, která je mimo podporu OTA (příliš stará verze), odškrtněte možnost \"OTA aktualizace\".</string>
-  <string name="new_update_summary">Nové</string>
-  <string name="old_update_summary">Staré</string>
-  <string name="ota_diff_update_summary">Přírůstkové aktualizace mohou ušetřit %s</string>
-  <string name="full_diff_update_summary">Ušetří %s v porovnání s plnou ROM</string>
-  <string name="update_check_title">Četnost kontroly aktualizací</string>
-  <string name="check_manual">Ručně</string>
-  <string name="nightly_alert">Zvolili jste možnost zahrnout do seznamu i nightly aktualizace. Tyto verze nejsou podporovány a měly by být používány s opatrností.</string>
-  <string name="experimenter_alert">Zvolili jste možnost zahrnout do seznamu i experimentální aktualizace. Ty jsou určeny pouze k testování a měly by být používány s opatrností.</string>
-  <string name="unofficial_alert">Vybrali jste zařazení neoficiálních aktualizací do seznamu. Berte na vědomí, že jsou podporovány výhradně jejich vývojářem.</string>
-  <string name="all_alert">Vybrali jste všechny aktualizace (release, nightly) do seznamu. Berte na vědomí, že nightly aktualizace nemají podporu a měly by být používány s opatrností.</string>
-  <string name="alert_title">Varování</string>
-  <string name="update_type_title">Typ aktualizace</string>
-  <!-- ChangeLog -->
-  <string name="no_changelog_alert">Changelog není k dispozici</string>
-  <string name="changelog_dialog_title">Changelog</string>
-  <string name="loading_changelog">Nahrávám\u2026</string>
-  <string name="check_on_boot">Po každém restartu</string>
-  <string name="check_twice_daily">Dvakrát denně</string>
-  <string name="check_daily">Jednou za den</string>
-  <string name="check_twice_weekly">Dvakrát týdně</string>
-  <string name="check_weekly">Jednou týdně</string>
-  <string name="check_bi_weekly">Jednou za dva týdny</string>
-  <string name="check_monthly">Jednou měsíčně</string>
-  <!-- checking -->
-  <string name="checking_for_updates">Kontrola aktualizací</string>
-  <string name="no_updates_found">Nové aktualizace nenalezeny</string>
-  <string name="not_new_updates_found_ticker">Jsou dostupné nové aktualizace</string>
-  <string name="not_new_updates_found_title">Nové aktualizace</string>
-  <string name="update_check_failed">Kontrola aktualizací selhala. Zkontrolujte připojení k internetu a zkuste to znovu.</string>
-  <string name="not_action_download">Ke stažení</string>
-  <string name="data_connection_required">Je vyžadováno připojení k internetu.</string>
-  <!-- Downloads -->
-  <string name="confirm_download_cancelation_dialog_title">Zrušit stahování</string>
-  <string name="confirm_download_cancelation_dialog_message">Zrušit aktuální stahování?</string>
-  <string name="download_remaining"><xliff:g id="duration" example="3 minutes">%s</xliff:g> zbývá</string>
-  <string name="download_running">Probíhá</string>
-  <string name="download_cancelled">Stahování zrušeno</string>
-  <string name="download_already_running">Stahování již běží</string>
-  <string name="download_limited_mode">Stahování omezenou rychlostí, prosím přispějte pro povolení plné rychlosti stahování.</string>
-  <string name="unable_to_download_file">Nelze stáhnout soubor aktualizace</string>
-  <string name="not_download_success">Aktualizace byla úspěšně stažena</string>
-  <string name="not_download_failure">Stažení aktualizace bylo neúspěšné</string>
-  <string name="not_action_install_update">Restartovat a nainstalovat</string>
-  <string name="not_download_install_notice">Aktualizace <xliff:g id="filename">%s </xliff:g> byla úspěšně stažena. Stisknutím \"Restartovat a instalovat\", se zařízení restartuje a nainstaluje aktualizace.\n\nPoznámka: Tato funkce vyžaduje kompatibilní recovery, nebo aktualizace bude nutné nainstalovat ručně.</string>
-  <string name="not_download_install_ota_notice">Aktualizace <xliff:g id="filename">%s </xliff:g> byla úspěšně stažena. Stisknutím \"Restartovat a instalovat\", se zařízení restartuje a nainstaluje aktualizace.\n\nPoznámka: Tato funkce vyžaduje kompatibilní recovery, nebo aktualizace bude nutné nainstalovat ručně.\n\nToto je OTA aktualizace, tudíž změny zásahy do sytému mohou způsobit selhání aktualizace. Pokud k tomu dojde, nainstalujte plnou aktualizaci.</string>
-  <string name="md5_verification_failed">MD5 součet nesouhlasí</string>
-  <string name="not_apk_action_install_update">Nainstalovat</string>
-  <!-- deleting -->
-  <string name="confirm_delete_dialog_title">Smazat soubor</string>
-  <string name="confirm_delete_updates_dialog_message">Smazat vybraný soubor aktualizace?</string>
-  <string name="confirm_delete_updates_all_dialog_message">Smazat všechny stažené soubory aktualizací?</string>
-  <string name="delete_single_update_success_message">Aktualizace <xliff:g id="filename">%s</xliff:g> smazána</string>
-  <string name="delete_updates_failure_message">Během mazání souboru aktualizace došlo k chybě</string>
-  <string name="delete_updates_nofolder_message">Složka aktualizace nenalezena</string>
-  <string name="delete_updates_success_message">Všechny stažené aktualizace odstraněny</string>
-  <!-- Pref -->
-  <string name="pref_ota_check">OTA aktualizace</string>
-  <string name="pref_ota_check_summary">Stahovat OTA aktualizace, aby jste ušetřili data a čas</string>
-  <string name="pref_ota_check_request_summary">Získejte přírůstkové aktualizace abyste omezili čas stahování a přenesená data</string>
-  <string name="pref_verify_rom">Ověřené aktualizace</string>
-  <string name="pref_verify_rom_summary">Zobrazit jen aktualizace ověřené jinými uživateli</string>
-  <string name="pref_verify_rom_request_summary">Zobrazit jen aktualizace ověřené jinými uživateli</string>
-  <!-- Apply install and update strings -->
-  <string name="apply_update_dialog_title">Nainstalovat aktualizaci</string>
-  <string name="apply_update_dialog_text">Chystáte se aktualizovat na <xliff:g id="filename">%s</xliff:g>.\n\nPokud stisknete Aktualizovat, telefon se restartuje do režimu recovery, kde bude pokračovat v instalaci aktualizace.\n\nPoznámka: tato funkce vyžaduje nainstalované kompatibilní recovery nebo je nutné instalaci provést ručně.</string>
-  <string name="apply_update_ota_dialog_text">Chystáte se upgradovat na <xliff:g id="filename">%s</xliff:g>\n\nPokud stisknete Aktualizovat, zařízení se restartuje do recovery a nainstaluje se aktualizace\n\nPoznámka: Tato funkce vyžaduje kompatibilní recovery, nebo aktualizace bude nutné nainstalovat ručně.\n\nToto je OTA aktualizace, tudíž změny zásahy do sytému mohou způsobit selhání aktualizace. Pokud k tomu dojde, nainstalujte plnou aktualizaci.</string>
-  <string name="apply_unable_to_reboot_toast">Nelze restartovat do režimu recovery</string>
-  <!-- Experimenter mode -->
-  <string name="show_exp_on">Povolili jste experimentální nastavení!</string>
-  <string name="show_exp_already">Není třeba, experimentální nastavení je již povoleno.</string>
-  <!-- Verify system compatible -->
-  <string name="verify_system_compatible_title">Aktualizace systému MoKee</string>
-  <string name="verify_system_compatible_message">Ověření kompatibility systému před opravou\u2026</string>
-  <string name="verify_system_compatible_failed">Ověření kompatibility systému se nezdařilo</string>
-  <string name="verify_system_compatible_patch">Následující soubory byly buď upraveny nebo odstraněny, obnovte je a zkuste to znovu.</string>
-  <string name="verify_system_compatible_img">Nekompatibilní s %1$s, upgradujte na verzi %2$s</string>
-  <string name="verify_system_compatible_root_request">Update Verification Plugin vyžaduje povolení oprávnění root pro ověření kompatibility s aktualizací. Pokud se rozhodnete přeskočit, bude tento krok zpožděn a proveden v režimu obnovení.</string>
-  <string name="verify_system_compatible_root_skip">Přeskočit</string>
-  <!-- Common -->
-  <string name="activity_not_found">Aplikace není nainstalována.</string>
+    <!-- Fragment -->
+    <string name="mokee_center_title">MoKee centrum</string>
+    <string name="mokee_support_title">Podpora</string>
+    <string name="mokee_updater_title">Aktualizace</string>
+    <!-- WebSite -->
+    <string name="mokee_website_title">MoKee na webu</string>
+    <string name="mokee_website_summary">Navštivit oficiální webové stránky</string>
+    <string name="mokee_forum_title">MoKee Fórum</string>
+    <string name="mokee_forum_summary">Navštivit fórum MoKee</string>
+    <string name="mokee_issues_title">MoKee Bug Tracker</string>
+    <string name="mokee_issues_summary">Navštivtit bug tracker</string>
+    <string name="mokee_changelog_title">MoKee Changelog</string>
+    <string name="mokee_changelog_summary">Zobrazit denní změny</string>
+    <string name="mokee_github_title">MoKee Github</string>
+    <string name="mokee_github_summary">Navštívit MoKee Github</string>
+    <string name="mokee_translate_title">MoKee překlad</string>
+    <string name="mokee_translate_summary">Pomozte přeložit MoKee</string>
+    <string name="mokee_wiki_title">MoKee Wiki</string>
+    <string name="mokee_wiki_summary">Zobrazit MoKee Wiki</string>
+    <string name="mokee_news_title">MoKee Novinky</string>
+    <string name="mokee_news_summary">Přijímat vývojářské novinky od MoKee</string>
+    <!-- Base Info -->
+    <string name="mokee_version_info_title">Informace o verzi</string>
+    <string name="mokee_version_title">Verze MoKee</string>
+    <string name="mokee_unique_id_title">Jedinečné ID</string>
+    <string name="mokee_donate_info_title">Info darování</string>
+    <string name="mokee_last_check_title">Poslední kontrola</string>
+    <string name="mokee_last_check_never">Nikdy</string>
+    <!-- Version -->
+    <string name="mokee_info_default">Neznámá</string>
+    <string name="mokee_version_type_release">Vydání</string>
+    <string name="mokee_version_type_history">History</string>
+    <string name="mokee_version_type_experimental">Experimentální</string>
+    <string name="mokee_version_type_nightly">Nightly</string>
+    <string name="mokee_version_type_unofficial">Neoficiální</string>
+    <string name="mokee_version_type_all">Vše</string>
+    <!-- State -->
+    <string name="downloaded_update_summary"> Staženo</string>
+    <string name="installed_update_summary">Nainstalované</string>
+    <string name="available_updates_title">Dostupné aktualizace</string>
+    <!-- Menu -->
+    <string name="menu_donate">Přispět</string>
+    <string name="menu_refresh">Obnovit</string>
+    <string name="menu_delete_all">Odstranit stažené</string>
+    <string name="menu_unlock_features">Odemknout funkce</string>
+    <string name="menu_restore">Obnovit licenci</string>
+    <!-- Donate -->
+    <string name="donate_dialog_title">Přispějte nám</string>
+    <string name="donate_dialog_message">Na rozdíl od společností, jako jsou Cygn nebo MIUI, MoKee Open Source je ryze neziskový projekt vzniklý z koníčku a vášně. Pro vývoj jsme nuceni pokrýt náklady z vlastních peněz a času nebo se spolehnout na dary a reklamy. Vaše dary mohou pomoci snížit naše finanční zatížení a zajistit udržení budoucího vývoje! Tato možnost Vám umožňuje odstranit reklamy v MoKee centru nebo můžete použít možnost \"Darovat\" pokud radši dáváte přednost splátkám (reklamy budou odstraněny, jakmile celkový součet splátek dosáhne zadané hodnoty). Vytvořte si prosím záložní kopii souboru mokee. license (v kořenovém adresáři sdcard, platné pouze pro toto zařízení), pokud jste již darovali.</string>
+    <string name="donate_dialog_faq">Q&amp;A</string>
+    <string name="donate_dialog_via_paypal">PayPal</string>
+    <string name="donate_dialog_via_alipay">AliPay</string>
+    <string name="donate_dialog_via_wechat">WeChat</string>
+    <string name="donate_dialog_via_restore">Obnovení</string>
+    <string name="donate_money_toast_success">Děkujeme vám za váš příspěvek!</string>
+    <string name="donate_money_title">Přispět na MoKee OpenSource</string>
+    <string name="donate_money_again">Darovat znovu</string>
+    <string name="donate_money_restored_success">Úspěšně obnoveno!</string>
+    <string name="donate_money_restored_failed">Žádný záznam zařízení nenalezen.</string>
+    <string name="donate_money_restored_failed_solution">Řešení</string>
+    <string name="donate_money_restored_timeout">Připojení vypršelo, zkuste to prosím znovu</string>
+    <string name="donate_money_info">Celkem darováno %1$d CNY, více než %2$s dárců!</string>
+    <string name="donate_money_info_with_rank">Daroval celkem CNY %1$d, více než %2$s dárců celkem, hodnost No.%3$d!</string>
+    <string name="donate_money_info_null">Nebylo darováno</string>
+    <string name="unlock_features_title">Odemknout funkce</string>
+    <string name="unlock_features_ota_title">Přispět %d CNY pro odemknutí OTA a plné rychlosti stahování.</string>
+    <string name="unlock_features_verify_rom_title">Přispět %d CNY pro ověřené aktualizace a odstranění reklam.</string>
+    <string name="unlock_features_all_title">Přispět %d CNY pro odemknutí OTA, plné rychlosti stahování, ověřených aktualizací a odstranění reklam.</string>
+    <string name="unlock_features_request_summary">(k dispozici po darování %d CNY)</string>
+    <string name="unlock_features_pending_summary">(darováno %1$d CNY, doživotně k dispozici po darování o %2$d CNY více)</string>
+    <!-- Update -->
+    <string name="unknown">Neznámá</string>
+    <string name="dialog_update">Aktualizovat</string>
+    <string name="dialog_install">Instalovat</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Zrušit</string>
+    <string name="dialog_close">Zavřít</string>
+    <string name="no_available_updates_intro">Při poslední kontrole nebyly zjištěny žádné dostupné aktualizace. Chcete-li ručně zkontrolovat nové aktualizace, použijte tlačítko Aktualizovat.</string>
+    <string name="no_available_ota_intro">Při poslední kontrole nebyla nalezena žádná nová aktualizace. K manuálnímu ověření nových aktualizací stiskněte tlačítko Aktualizovat. Pokud používáte verzi, která je mimo podporu OTA (příliš stará verze), odškrtněte možnost \"OTA aktualizace\".</string>
+    <string name="new_update_summary">Nové</string>
+    <string name="old_update_summary">Staré</string>
+    <string name="ota_diff_update_summary">Přírůstkové aktualizace mohou ušetřit %s</string>
+    <string name="full_diff_update_summary">Ušetří %s v porovnání s plnou ROM</string>
+    <string name="update_check_title">Četnost kontroly aktualizací</string>
+    <string name="check_manual">Ručně</string>
+    <string name="nightly_alert">Zvolili jste možnost zahrnout do seznamu i nightly aktualizace. Tyto verze nejsou podporovány a měly by být používány s opatrností.</string>
+    <string name="experimenter_alert">Zvolili jste možnost zahrnout do seznamu i experimentální aktualizace. Ty jsou určeny pouze k testování a měly by být používány s opatrností.</string>
+    <string name="unofficial_alert">Vybrali jste zařazení neoficiálních aktualizací do seznamu. Berte na vědomí, že jsou podporovány výhradně jejich vývojářem.</string>
+    <string name="all_alert">Vybrali jste všechny aktualizace (release, nightly) do seznamu. Berte na vědomí, že nightly aktualizace nemají podporu a měly by být používány s opatrností.</string>
+    <string name="alert_title">Varování</string>
+    <string name="update_type_title">Typ aktualizace</string>
+    <!-- ChangeLog -->
+    <string name="no_changelog_alert">Changelog není k dispozici</string>
+    <string name="changelog_dialog_title">Changelog</string>
+    <string name="loading_changelog">Nahrávám\u2026</string>
+    <string name="check_on_boot">Po každém restartu</string>
+    <string name="check_twice_daily">Dvakrát denně</string>
+    <string name="check_daily">Jednou za den</string>
+    <string name="check_twice_weekly">Dvakrát týdně</string>
+    <string name="check_weekly">Jednou týdně</string>
+    <string name="check_bi_weekly">Jednou za dva týdny</string>
+    <string name="check_monthly">Jednou měsíčně</string>
+    <!-- checking -->
+    <string name="checking_for_updates">Kontrola aktualizací</string>
+    <string name="no_updates_found">Nové aktualizace nenalezeny</string>
+    <string name="not_new_updates_found_ticker">Jsou dostupné nové aktualizace</string>
+    <string name="not_new_updates_found_title">Nové aktualizace</string>
+    <string name="update_check_failed">Kontrola aktualizací selhala. Zkontrolujte připojení k internetu a zkuste to znovu.</string>
+    <string name="not_action_download">Ke stažení</string>
+    <string name="data_connection_required">Je vyžadováno připojení k internetu.</string>
+    <!-- Downloads -->
+    <string name="confirm_download_cancelation_dialog_title">Zrušit stahování</string>
+    <string name="confirm_download_cancelation_dialog_message">Zrušit aktuální stahování?</string>
+    <string name="download_remaining"><xliff:g id="duration" example="3 minutes">%s</xliff:g> zbývá</string>
+    <string name="download_running">Probíhá</string>
+    <string name="download_cancelled">Stahování zrušeno</string>
+    <string name="download_already_running">Stahování již běží</string>
+    <string name="download_limited_mode">Stahování omezenou rychlostí, prosím přispějte pro povolení plné rychlosti stahování.</string>
+    <string name="unable_to_download_file">Nelze stáhnout soubor aktualizace</string>
+    <string name="not_download_success">Aktualizace byla úspěšně stažena</string>
+    <string name="not_download_failure">Stažení aktualizace bylo neúspěšné</string>
+    <string name="not_action_install_update">Restartovat a nainstalovat</string>
+    <string name="not_download_install_notice">Aktualizace <xliff:g id="filename">%s </xliff:g> byla úspěšně stažena. Stisknutím \"Restartovat a instalovat\", se zařízení restartuje a nainstaluje aktualizace.\n\nPoznámka: Tato funkce vyžaduje kompatibilní recovery, nebo aktualizace bude nutné nainstalovat ručně.</string>
+    <string name="not_download_install_ota_notice">Aktualizace <xliff:g id="filename">%s </xliff:g> byla úspěšně stažena. Stisknutím \"Restartovat a instalovat\", se zařízení restartuje a nainstaluje aktualizace.\n\nPoznámka: Tato funkce vyžaduje kompatibilní recovery, nebo aktualizace bude nutné nainstalovat ručně.\n\nToto je OTA aktualizace, tudíž změny zásahy do sytému mohou způsobit selhání aktualizace. Pokud k tomu dojde, nainstalujte plnou aktualizaci.</string>
+    <string name="md5_verification_failed">MD5 součet nesouhlasí</string>
+    <string name="not_apk_action_install_update">Nainstalovat</string>
+    <!-- deleting -->
+    <string name="confirm_delete_dialog_title">Smazat soubor</string>
+    <string name="confirm_delete_updates_dialog_message">Smazat vybraný soubor aktualizace?</string>
+    <string name="confirm_delete_updates_all_dialog_message">Smazat všechny stažené soubory aktualizací?</string>
+    <string name="delete_single_update_success_message">Aktualizace <xliff:g id="filename">%s</xliff:g> smazána</string>
+    <string name="delete_updates_failure_message">Během mazání souboru aktualizace došlo k chybě</string>
+    <string name="delete_updates_nofolder_message">Složka aktualizace nenalezena</string>
+    <string name="delete_updates_success_message">Všechny stažené aktualizace odstraněny</string>
+    <!-- Pref -->
+    <string name="pref_ota_check">OTA aktualizace</string>
+    <string name="pref_ota_check_summary">Stahovat OTA aktualizace, aby jste ušetřili data a čas</string>
+    <string name="pref_ota_check_request_summary">Získejte přírůstkové aktualizace abyste omezili čas stahování a přenesená data</string>
+    <string name="pref_verify_rom">Ověřené aktualizace</string>
+    <string name="pref_verify_rom_summary">Zobrazit jen aktualizace ověřené jinými uživateli</string>
+    <string name="pref_verify_rom_request_summary">Zobrazit jen aktualizace ověřené jinými uživateli</string>
+    <!-- Apply install and update strings -->
+    <string name="apply_update_dialog_title">Nainstalovat aktualizaci</string>
+    <string name="apply_update_dialog_text">Chystáte se aktualizovat na <xliff:g id="filename">%s</xliff:g>.\n\nPokud stisknete Aktualizovat, telefon se restartuje do režimu recovery, kde bude pokračovat v instalaci aktualizace.\n\nPoznámka: tato funkce vyžaduje nainstalované kompatibilní recovery nebo je nutné instalaci provést ručně.</string>
+    <string name="apply_update_ota_dialog_text">Chystáte se upgradovat na <xliff:g id="filename">%s</xliff:g>\n\nPokud stisknete Aktualizovat, zařízení se restartuje do recovery a nainstaluje se aktualizace\n\nPoznámka: Tato funkce vyžaduje kompatibilní recovery, nebo aktualizace bude nutné nainstalovat ručně.\n\nToto je OTA aktualizace, tudíž změny zásahy do sytému mohou způsobit selhání aktualizace. Pokud k tomu dojde, nainstalujte plnou aktualizaci.</string>
+    <string name="apply_unable_to_reboot_toast">Nelze restartovat do režimu recovery</string>
+    <!-- Experimenter mode -->
+    <string name="show_exp_on">Povolili jste experimentální nastavení!</string>
+    <string name="show_exp_already">Není třeba, experimentální nastavení je již povoleno.</string>
+    <!-- Verify system compatible -->
+    <string name="verify_system_compatible_title">Aktualizace systému MoKee</string>
+    <string name="verify_system_compatible_message">Ověření kompatibility systému před opravou\u2026</string>
+    <string name="verify_system_compatible_failed">Ověření kompatibility systému se nezdařilo</string>
+    <string name="verify_system_compatible_patch">Následující soubory byly buď upraveny nebo odstraněny, obnovte je a zkuste to znovu.</string>
+    <string name="verify_system_compatible_img">Nekompatibilní s %1$s, upgradujte na verzi %2$s</string>
+    <string name="verify_system_compatible_root_request">Update Verification Plugin vyžaduje povolení oprávnění root pro ověření kompatibility s aktualizací. Pokud se rozhodnete přeskočit, bude tento krok zpožděn a proveden v režimu obnovení.</string>
+    <string name="verify_system_compatible_root_skip">Přeskočit</string>
+    <!-- Common -->
+    <string name="activity_not_found">Aplikace není nainstalována.</string>
 </resources>
