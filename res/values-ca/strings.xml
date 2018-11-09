@@ -27,12 +27,12 @@
     <string name="mokee_forum_title">Fòrum Mokee</string>
     <string name="mokee_forum_summary">Visita el Fòrum Mokee</string>
     <string name="mokee_issues_title">Enviament de Bugs a Mokee</string>
-    <string name="mokee_issues_summary">Visita re-portaments de bugs</string>
+    <string name="mokee_issues_summary">Visita re-portaments de bugs </string>
     <string name="mokee_changelog_title">Canvis (Changelog) de Mokee</string>
     <string name="mokee_github_title">MoKee Github</string>
     <string name="mokee_github_summary">Visita la MoKee Github</string>
     <string name="mokee_translate_title">Traduir MoKee</string>
-    <string name="mokee_translate_summary">Visita la MoKee traducció</string>
+    <string name="mokee_translate_summary">Visita la MoKee traducció </string>
     <string name="mokee_wiki_title">MoKee Wiki</string>
     <string name="mokee_wiki_summary">Mostra la MoKee Wiki</string>
     <string name="mokee_news_title">Notícies de Mokee</string>
@@ -78,7 +78,7 @@
 Si executa una versió que no suporta l\'actualització incremental,
 desactivi aquesta opció.</string>
     <string name="new_update_summary">Nova</string>
-    <string name="old_update_summary">Antic</string>
+    <string name="old_update_summary">Antic </string>
     <string name="update_check_title">Freqüència d\'Actualització</string>
     <string name="check_manual">Manual</string>
     <string name="nightly_alert">Has seleccionat incloure les actualitzacions nigthy en aquesta llista. Aquestes no tenen suport i han de ser utilitzades amb precaució.</string>
