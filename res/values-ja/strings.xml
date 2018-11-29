@@ -84,7 +84,7 @@
     <string name="unlock_features_title">機能のロック解除</string>
     <string name="unlock_features_ota_title">%d CNYを寄付してOTAをロック解除しフルスピードでダウンロードします</string>
     <string name="unlock_features_verify_rom_title">ロックを解除するための%d CNY、フルスピードでのダウンロード、更新の確認、広告の削除を寄付して下さい。</string>
-    <string name="unlock_features_all_title">OTAのロック解除、フルスピードでのダウンロード、更新の確認、広告の削除には %d CNYを寄付してください。</string>
+    <string name="unlock_features_all_title">OTAのロック解除、フルスピードでのダウンロード、更新の確認、広告の削除には %d CNYを寄付してください。 </string>
     <string name="unlock_features_request_summary">（%d CNYの寄付後に有効です）</string>
     <string name="unlock_features_pending_summary">（今まで %1$d CNYの寄付をし、あと %2$d CNYの寄付で永久に有効です。）</string>
     <!-- Update -->
